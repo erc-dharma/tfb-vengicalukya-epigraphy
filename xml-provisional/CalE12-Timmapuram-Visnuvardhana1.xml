@@ -2,77 +2,82 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader xml:lang="eng">
-		<fileDesc>
-			<titleStmt>
-				<title>Timmapuram plates of Viṣṇuvardhana I</title>
-				<respStmt>
-					<resp>initial etext</resp>
-					<persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-				</respStmt>
-				<respStmt>
-					<resp>Encoding</resp>
-					<persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-				</respStmt>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName ref="part:daba">
-						<forename>Dániel</forename>
-						<surname>Balogh</surname>
-					</persName>
-				</respStmt><!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. --><!--This is also the first of my files where I use ° and - in apparatus entries as per the revised EG - the earlier files will need to be corrected in that respect. -->
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA <note>This project has received funding from the European Research
-						Council (ERC) under the European Union's Horizon 2020 research and
-						innovation programme (grant agreement no 809994).</note>
-				</authority>
-				<pubPlace>Berlin</pubPlace>
-				<idno type="filename">CalE12-Timmapuram-Visnuvardhana1</idno>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/">
-						<p>This work is licensed under the Creative Commons Attribution 4.0 Unported
-							Licence. To view a copy of the licence, visit
-							https://creativecommons.org/licenses/by/4.0/ or send a letter to
-							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
-							California, 94041, USA.</p>
-						<p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
-					</licence>
-				</availability>
-				<date from="2019" to="2025">2019-2025</date>
-			</publicationStmt>
-			<sourceDesc><!-- only the handDesc can be filled in at this stage -->
-				<msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/><!-- don't modify this -->
-					</msIdentifier>
-					<msContents><!-- describe the intellectual content of an inscription -->
-						<summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p>
-<!--Halantas.  -->
-							  <!--Original punctuation. Hooked dash in incipit, see commentary. L11: apparently a triple plain vertical after māhārājaḥ; perhaps a single vertical after viṣaye (but see apparatus). -->
-								
-								<!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-							<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Timmapuram plates of Viṣṇuvardhana I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+        <!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. -->
+        <!--This is also the first of my files where I use ° and - in apparatus entries as per the revised EG - the earlier files will need to be corrected in that respect. -->
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research Council
+            (ERC) under the European Union's Horizon 2020 research and innovation programme (grant
+            agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE12-Timmapuram-Visnuvardhana1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported Licence. To
+              view a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send
+              a letter to Creative Commons, 444 Castro Street, Suite 900, Mountain View, California,
+              94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc>
+        <!-- only the handDesc can be filled in at this stage -->
+        <msDesc>
+          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/>
+            <!-- don't modify this -->
+          </msIdentifier>
+          <msContents>
+            <!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary>
+            <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas.  -->
+                <!--Original punctuation. Hooked dash in incipit, see commentary. L11: apparently a triple plain vertical after māhārājaḥ; perhaps a single vertical after viṣaye (but see apparatus). -->
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
 						<summary><p><p/></summary>
 						<handNote xml:id="Pallava00001_hand1"></handNote>
 						<handNote xml:id="Pallava00001_hand2"></handNote>
 					 -->
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:daba" when="2020-03-27" status="draft">Initial encoding of the file</change>
-			<!-- Add a <change> entry for each significant change to the file. -->
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-03-27" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
       <body>
 
 
@@ -83,7 +88,9 @@
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb n="1r"/>
-<ab rend="tall"><pb n="1v"/><lb n="0"/>svasti<g type="symbol" subtype="dashHook"/></ab><p><lb 
+<ab rend="tall"><pb 
+n="1v"/><lb 
+n="0"/>svasti<g type="symbol" subtype="dashHook"/></ab><p><lb 
 n="1"/>śrīmat-piṣṭapura<surplus><add place="above">T</add></surplus>-vāsakā<add place="above">T</add> sva-bhuja-vijita-danu-tanaya-m<choice><sic>ā</sic><corr>a</corr></choice>hā-senena m<choice><sic>ā</sic><corr>a</corr></choice>hā<lb 
 n="2" break="no"/>senenābhivarddhitānān tribhuvana-mātr̥bhi<subst><del rend="corrected">r abhira</del><add place="overstrike">r mmātr̥bhi</add></subst>r abhirakṣitānāṁ mānavya-sa<unclear>g</unclear>o<lb 
 n="3" break="no"/>trāṇāṁ <unclear>hā</unclear><space type="binding-hole"/>riti-putrāṇāṁ ca<supplied reason="omitted">lu</supplied>kyānāṁ anvayam unnamayitum asakr̥d anubh<choice><sic><unclear>u</unclear></sic><corr>ū</corr></choice><lb 
@@ -135,8 +142,7 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
         <note>The character <foreign>ni</foreign> was probably struck over something else, possibly <foreign>ma</foreign> or <foreign>vā</foreign>.</note>
       </app>
       <app loc="9">
-        <lem>v<unclear>i</unclear><lb 
-n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">kra</add></subst>ma<supplied reason="omitted">ḥ</supplied></lem>
+        <lem>v<unclear>i</unclear><lb n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">kra</add></subst>ma<supplied reason="omitted">ḥ</supplied></lem>
         <note>As Hultzsch notes, the composer's intent may have been <foreign>trivikramaḥ</foreign>. This proposed emendation is not connected to the premodern correction present here.</note>
       </app>
       <app loc="11">
@@ -144,8 +150,7 @@ n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">
         <note>If this is a punctuation mark, as read by Hultzsch, then it must have been inserted subsequently into the space between <foreign>ye</foreign> and the following character.</note>
       </app>
       <app loc="11">
-        <lem>ca<lb 
-n="12" break="no"/><unclear>tvā</unclear>ri</lem>
+        <lem>ca<lb n="12" break="no"/><unclear>tvā</unclear>ri</lem>
         <note>I wonder if Hultzsch intended to show <foreign>tvā</foreign> as supplied, rather than as unclear. I see no trace of this character and doubt that it could have fit in the space between the edge of the plate and the extant <foreign>ri</foreign>.</note>
       </app>
       <app loc="12">

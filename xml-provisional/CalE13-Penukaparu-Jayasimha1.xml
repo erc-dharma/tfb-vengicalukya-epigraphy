@@ -2,79 +2,79 @@
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
-	<teiHeader xml:lang="eng">
-		<fileDesc>
-			<titleStmt>
-			  <title>Peṇukapaṟu grant of Jayasiṁha I</title>
-				<respStmt>
-					<resp>initial etext</resp>
-					<persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-				</respStmt>
-				<respStmt>
-					<resp>Encoding</resp>
-					<persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-				</respStmt>
-				<respStmt>
-					<resp>intellectual authorship of edition</resp>
-					<persName ref="part:daba">
-						<forename>Dániel</forename>
-						<surname>Balogh</surname>
-					</persName>
-				</respStmt><!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. --><!--This is also the first of my files where I use ° and - in apparatus entries as per the revised EG - the earlier files will need to be corrected in that respect. -->
-			</titleStmt>
-			<publicationStmt>
-				<authority>DHARMA <note>This project has received funding from the European Research
-						Council (ERC) under the European Union's Horizon 2020 research and
-						innovation programme (grant agreement no 809994).</note>
-				</authority>
-				<pubPlace>Berlin</pubPlace>
-				<idno type="filename">CalE13-Penukaparu-Jayasimha1</idno>
-				<availability>
-					<licence target="https://creativecommons.org/licenses/by/4.0/">
-						<p>This work is licensed under the Creative Commons Attribution 4.0 Unported
-							Licence. To view a copy of the licence, visit
-							https://creativecommons.org/licenses/by/4.0/ or send a letter to
-							Creative Commons, 444 Castro Street, Suite 900, Mountain View,
-							California, 94041, USA.</p>
-						<p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
-					</licence>
-				</availability>
-				<date from="2019" to="2025">2019-2025</date>
-			</publicationStmt>
-			<sourceDesc><!-- only the handDesc can be filled in at this stage -->
-				<msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-					<msIdentifier>
-						<repository>DHARMAbase</repository>
-						<idno/><!-- don't modify this -->
-					</msIdentifier>
-					<msContents><!-- describe the intellectual content of an inscription -->
-						<summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-					</msContents>
-					<physDesc>
-						<handDesc>
-							<p>
-							  <!--Halantas. L1 purāT almost full-size ta, probably not curly, no headmark. L4 mahīkṣitāM unclear in scan. L27 vaseT: like ta without a curl, no headmark, and a pretty long stem. -->
-<!--Original punctuation.  -->
-								
-								<!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-							<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
-						</handDesc>
-					</physDesc>
-				</msDesc>
-			</sourceDesc>
-		</fileDesc>
-		<revisionDesc>
-			<change who="part:daba" when="2020-03-31" status="draft">Initial encoding of the file</change>
-			<!-- Add a <change> entry for each significant change to the file. -->
-		</revisionDesc>
-	</teiHeader>
-	<text xml:space="preserve">
-      <body>
-
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Peṇukapaṟu grant of Jayasiṁha I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE13-Penukaparu-Jayasimha1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. L1 purāT almost full-size ta, probably not curly, no headmark. L4 mahīkṣitāM unclear in scan. L27 vaseT: like ta without a curl, no headmark, and a pretty long stem. -->
+                <!--Original punctuation.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-03-31" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
 
 
 <div type="edition" xml:lang="san-Latn">
@@ -127,7 +127,7 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
 <lg n="3" met="anuṣṭubh">
 <l n="a">mantr<unclear>i</unclear>-purohita<supplied reason="omitted">s ta</supplied><unclear cert="low">sya</unclear></l>
 <l n="b"><lb n="28"/>yathendrasya <add place="below">br̥</add>haspatiḥ</l>
-<l n="c"><choice><sic>A</sic><corr>Ā</corr></choice>jñaptis siyaśarmm<unclear>a</unclear>sya</l>
+<l n="c"><choice><sic>A</sic><corr>Ā</corr></choice>jñaptis siyaśarmmāsya</l>
 <l n="d">vājapeyejya-ya<choice><unclear>bh</unclear><unclear>s</unclear></choice>uciḥ</l>
 </lg>
 <p><pb n="3v"/><lb n="29"/>kada<unclear cert="low">ḥ</unclear> <seg type="component" subtype="body"><gap reason="illegible" quantity="1" unit="component"/></seg>ū<unclear>ṭa</unclear>katanaḥ damuna dalita noga
@@ -189,18 +189,13 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
         <note>The <foreign>t</foreign> could indeed be <foreign>tā</foreign>, but several instances above where the headline was similarly elongated on the right were read as <foreign>ta</foreign> by Fleet where ta was expected. I restore tentatively, but I think my restoration fits the context and corrects the metre.Given the bad quality of my scan and Fleet's own uncertainty about the last character, it is also possible that <foreign>sta</foreign> is engraved here and <foreign>sya</foreign> needs to be restored. Finally, there seems to be a spot, possibly a <foreign>kākapada</foreign>, to the right of <foreign>ta</foreign>, so perhaps the missing character was in fact added by the engraver somewhere.</note>
       </app>
       <app loc="28">
-        <lem>siyaśarmm<unclear>a</unclear>sya</lem>
-        <rdg source="bib:Fleet1884_01">siyaśarmmāsya</rdg>
-        <note>I prefer to construe this as a non-standard genitive.</note>
-      </app>
-      <app loc="28">
         <lem>°ejya-</lem>
         <rdg source="bib:Fleet1884_01">°ejy<choice><unclear>a</unclear><unclear>o</unclear></choice>-</rdg>
         <note>In the scan, I see no indication of <foreign>o</foreign>, and since I expect the text to be in <foreign>anuṣṭubh</foreign>, I think the alternative reading given by Fleet may be ruled out.</note>
       </app>
       <app loc="28">
         <lem source="bib:Fleet1884_01">-ya<choice><unclear>bh</unclear><unclear>s</unclear></choice>uciḥ</lem>
-        <note>I adopt Fleet's reading because I cannot improve on it from my poor scan. I see no trace of the final <foreign>visarga</foreign>. My intuition says we should read or emend to <foreign>yājinaḥ</foreign> here. These characters are spaced more widely than the rest of the line. What Fleet reads as <foreign>bhu/su</foreign> may in fact be <foreign>naḥ</foreign> corrected into <foreign>bhu</foreign>, either by the engraver or by someone who touched up the rubbing. But the space between this character and the preceding <foreign>ya</foreign> is slightly too narrow to have accommodated a hypothetical <foreign>ji</foreign> of which no trace survives.</note>
+        <note>I adopt Fleet's reading because I cannot improve on it from my poor scan. I see no trace of the final <foreign>visarga</foreign>. I wonder if it is possible to read (or emend to) <foreign>°ejyayā śuciḥ</foreign> here. These characters are spaced more widely than the rest of the line.</note>
       </app>
       <app loc="29">
         <lem>kada<unclear cert="low">ḥ</unclear></lem>
@@ -238,10 +233,10 @@ The grandson of the majestic Kīrtivarman, whose fame has crossed the four ocean
 —commands everyone as follows.
 </p>
 <p n="16-24">Let it be known to you that in the eighteenth year of <supplied reason="subaudible">our</supplied> victorious reign, on the occasion of the equinox we have given as a donation <supplied reason="explanation"><foreign>pratigraha</foreign></supplied> the village named Peṇukapaṟu on the eastern side of Marddavalli in the district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> of Gudrahāra, converted to a rent-free holding <supplied reason="explanation"><foreign>agrahāra</foreign></supplied> by a remission of all taxes, to Guptaśarman, a devout performer of the six duties <supplied reason="explanation">of a Brahmin</supplied> who has <supplied reason="subaudible">mastered</supplied> the eighty doctrines <supplied reason="explanation"><foreign>tarka</foreign></supplied>,
-—grandson of Śivaśarman, a resident of Pogulūra who belongs to the <foreign>gotra</foreign> of Bharadvāja, follows the teaching <supplied reason="explanation"><foreign>sūtra</foreign></supplied> of Bharadvāja and has studied the two Vedas; son of Devaśarman, who has partaken of a thousand <supplied reason="explanation" cert="low">cows as a ritual fee</supplied><note>According to Sircar <bibl><ptr target="bib:Sircar1966_01"/><citedRange unit="entry">gṛhītasāhasra</citedRange></bibl>, the word <foreign>gṛhītasāhasra</foreign> probably means ‘one from whom one thousand coins have been realised,’ but it is not clear why he proposes this interpretation. The editor inscription he refers to for attestation (<bibl><ptr target="bib:Gai1959_02"/><citedRange>293</citedRange></bibl>) believes it may mean a person learned in the <title>Sāmaveda</title>, which is said to have a thousand branches. Since mastery of the Vedas is mentioned separately here, I believe a different interpretation is due.</note> and mastered the two Vedas. Let no-one pose an obstacle <supplied reason="subaudible">to his enjoyment of his rights</supplied> over it. So too did the reverend Vyāsa, the redactor <supplied reason="explanation"><foreign>vyāsa</foreign></supplied> of the Vedas speak:</p>
-<p rend="stanza" n="1">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved <supplied reason="explanation">former grants</supplied>. Whosoever at any time owns the land, the fruit/reward <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
+—grandson of Śivaśarman, a resident of Pogulūra who belongs to the <foreign>gotra</foreign> of Bharadvāja, follows the teaching <supplied reason="explanation"><foreign>sūtra</foreign></supplied> of Bharadvāja and has studied the two Vedas; son of Devaśarman, who has partaken of a thousand <supplied reason="explanation" cert="low">cows as a ritual fee</supplied><note>According to Sircar <bibl><ptr target="bib:Sircar1966_01"/><citedRange unit="entry">gṛhītasāhasra</citedRange></bibl>, the word <foreign>gṛhītasāhasra</foreign> probably means ‘one from whom one thousand coins have been realised,’ but it is not clear why he proposes this interpretation. The editor inscription he refers to for attestation (<bibl><ptr target="bib:Gai1959_02"/><citedRange>293</citedRange></bibl>) believes it may mean a person learned in the <title>Sāmaveda</title>, which is said to have a thousand branches. Since mastery of the Vedas is mentioned separately here, I believe a different interpretation is due. However, compare <foreign>trisahasra-pāragābhyāM</foreign> in the <ref target="CalE14-Gudivada1-Jayasimha1.xml">Ādivāsa grant</ref>, <foreign>trisahasra-vidyālaṅkr̥ta-mukhāravindābhyāṁ</foreign> in <ref target="CalE15-Kudivada-Jayasimha1.xml">Kuḍivāḍa grant 1</ref>.</note> and mastered the two Vedas. Let no-one pose an obstacle <supplied reason="subaudible">to his enjoyment of his rights</supplied> over it. So too did the reverend Vyāsa, the redactor <supplied reason="explanation"><foreign>vyāsa</foreign></supplied> of the Vedas speak:</p>
+<p rend="stanza" n="1">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit/reward <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
 <p rend="stanza" n="2">A donor of land rejoices in heaven for sixty millennia, <supplied reason="subaudible">while</supplied> a seizer <supplied reason="explanation">of granted land</supplied> and a condoner <supplied reason="explanation">of such seizure</supplied> shall reside in hell for just as many.</p>
-<p rend="stanza" n="3">This is the decree of Siyaśarman, the performer of the Vājapeya sacrifice, who is minister and house priest <supplied reason="explanation"><foreign>purohita</foreign></supplied> to that <supplied reason="explanation">king</supplied> as Bṛhaspati is to Indra.<note>This stanza is tentatively translated on the basis of the restoration and interpretation I suggest in the apparatus. I do not venture to translate the final line of prose.</note></p>
+<p rend="stanza" n="3">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of this <supplied reason="explanation">grant</supplied> is Siyaśarman, <seg cert="low">purified by</seg> the Vājapeya sacrifice, who is minister and house priest <supplied reason="explanation"><foreign>purohita</foreign></supplied> to that <supplied reason="explanation">king</supplied> as Bṛhaspati is to Indra.<note>This stanza is tentatively translated on the basis of the restoration and interpretation I suggest in the apparatus. I do not venture to translate the final line of prose.</note></p>
 </div>
 </div>
 
@@ -276,7 +271,7 @@ Celui qui la prend ou le permet demeure en enfer aussi longtemps.
       	
 <div type="bibliography">
    <p>
-<!--Edited from the original plates in bib:Fleet1884_01, with estampages of the paltes and drawing(?) of the seal. -->
+<!--Edited from the original plates in bib:Fleet1884_01, with estampages of the plates and drawing(?) of the seal. -->
    </p>
     <listBibl type="primary">
 		<bibl/><!-- one <bibl/> per item of primary bibliography -->
