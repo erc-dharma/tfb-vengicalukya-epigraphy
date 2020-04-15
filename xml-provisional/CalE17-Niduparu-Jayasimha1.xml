@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Niḍupaṟu Grant of Jayasiṁha I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE17-Niduparu-Jayasimha1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT. -->
+                <!--Original punctuation. -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-04-15" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-sarvvasid<unclear>dh</unclear>i</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+n="1v"/><lb 
+n="1"/>svasti śrīmad-asanapura-vāsakāT svāmi-mahāsena-pādānudhyātānāṁ hārītī-putrāṇā<unclear>ṁ</unclear> mānavya<lb 
+n="2" break="no"/>-sagot<unclear>r</unclear>āṇāṁ mātr̥-gaṇa-paripālitānāṁ Aśvamedha-yājināṁ calukyānāṁ vi<unclear>ś</unclear>uddha-vaṁ<unclear>ś</unclear>oda<lb 
+n="3" break="no"/>ya-giri-@@@śikharodita-kṣitipaty-ahimadīdhiteḥ sakala-jagad-ā[r*]tti-hara-karmaṇa[ḥ] śrī-kīrtivarmaṇaḥ priya-naptā śaśalāñchanasyeva sakala-jagan-ma[n]o-nayanānandana-karasya sva-rūpa-lāvaṇyāvajita-makaradhvajasya749 makaradhvajāpara-nāmnaḥ śrīmad-aida[ṁ*]yugīna-viṣṇoḥ viṣṇuvardhana-mahārājasya priyatanayaḥ
+Face IIa.
+pravardhamānodaya-pratāpopanata-samasta-sāmanta-makuṭa-taṭa-ghaṭita-maṇi-mayūkha-mañjarī-puṁja-piṁjarita-caraṇāravinda-yugalo750 nija-guṇadīdhiti-kalāpena751 kaliyuga-dhvāntaṁ nirākariṣṇur752 ākhaṇḍala ivākhaṇḍita-pauruṣaḥ753 parama-brahmaṇyo mātāpitr̥pādānudhyātaḥ754 śrī- jayasiṁhavallabhamahārājo755 gaṇḍeṟuvāṭyā[ṁ] vyāghra-nadyāś cottarato756 vanneṟu-nadyāś ca tīre gaṇḍeṟu-rājadhānyāḥ pūrva-dig-vibhāge gavyūti757-dvaye niḍubaṟu-nāma-grāmam adhivāsataḥ kuṭuṁbinaḥ758 samavetān ājñāpayati[+||]
+viditam astu vo yathāsanapura-sthāna-nivāsino ghaṭikā-sāmānyasya
+
+Face IIb.
+sa-[pa]da-kramānukramādhīta-veda-dvayasya sa-kalpopaniṣat-purāṇetihāsāneka-dharmaśāstra-vido759 maṇḍaśarmanaḥ pautrāya sva-pitur adhika-guṇa-saṁpad-gaṇopārjita760-nirmala-yaśo-viśeṣeṇātmano [+’]nvayam alam alaṁkariṣṇor761 agniṣṭoma-yājinaḥ śivarudraśarmana[ḥ] putrāya dvi-v[e]dādhyāyine yajñāgamopaniṣan-mantrārtthehāsa762-purāṇa-dharmaśāstra-vimalīkr̥ta-vinīta763-mataye hārīta-sagotrāya taittirīya-sabrahmacāriṇe764 kāṭiśarmaṇe kārtika-paurṇamāsyāṁ mātā-pitor ātmanaś ca yaśaḥ-puṇyābhivr̥dhaye765 saṁpratto766 [+’]yam niḍupaṟu-nāma-grāmaḥ[+|]
+
+Face IIIa.
+nāsya bādhā karaṇīyā[+||]
+ājñaptir atrārrya-manobhirāmaḥ
+śrī-vīryavān [sarva-ja]nāśrayo [+’]yam 767[+|]
+bhūpendra-nīti-pravibhāga-dakṣo
+[ve]dāṅga-vit sarva-kalāntarajñaḥ768[+||] (1)
+atra vyāsa-gītāḥ[+||]
+[sva]-[dattaṁ pa*]ra-dattaṁ vā yatnād rākṣa yudhiṣṭhira[+|]
+[mahīṁ mahī][ma*]tāṁ śreṣṭha dānāc ch[r*]eyo [+’]nu[p]āla[nam][+||] (2)
+[bahu*]bhir vvasudhā [da]ttā bahubhiś cānu[pāli]tā[+|]
+yasya yasya yadā769 bhūmi[s*] [ta*]sya [tasya*] tadā phalam[+||] (3)
+ṣaṣṭi[m*] varṣa-sahasrāṇi svarge770 modati bhūmi-daḥ[+|]
+ākṣepta<!--CHECK--> cānu[ma][ntā ca*] tānye[va] narake vaset[+||] (4)
+</p>
+<pb n="3v"/>
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="1">
+        <lem>svasti <gap reason="ellipsis"/> hārītī-</lem>
+        <note>None of the <foreign>i/ī mātrā</foreign>s in the first line are discernible in the scanned estampage, and there is very little distance to the upper edge of the plate. Since the edges are slightly raised into rims, it is possible that these vowel marks are in fact restored by Hultzsch but were never engraved, possibly excepting that in <foreign>svāmi</foreign>, where the arms of <foreign>m</foreign> may have been closed into a compressed circle.</note>
+      </app>
+      
+      
+      
+      
+    </listApp>
+  </div>
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <p n="1-12"></p>
+  </div>
+</div>
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <p n="@@@">Prospérité ! De la résidence de l’illustre Asanapura, le grand roi illustre Jayasiṁha Vallabha,
+cher petit-fils de l’illustre Kīrtivarman, qui détruisit la souffrance dans tout l’univers, soleil des rois, levé au-dessus du sommet de la montagne de l’Orient771 qu’est la lignée pure des Calukya, méditant aux pieds du seigneur Mahāsena, fils de Hārītī, de la même lignée que les descendants de Manu, protégés par la troupe des Mères, eux qui pratiquaient le sacrifice de l’aśvamedha,
+cher fils du grand roi Viṣṇuvardhana, illustre Viṣṇu vivant dans ce yuga772, tel le porteur du signe du lièvre773, doué de lumière, qui réjouissait les esprits et les yeux de tout l’univers, lui qui vainquit par la beauté de son corps Makaradhvaja, (et qui était) aussi nommé Makaradhvaja,
+Face IIa.
+lui dont les deux pieds de lotus sont rougis par les fleurs que sont les rayons des pierres précieuses serties sur l’orbe des diadèmes de tous les feudataires, inclinés devant sa prospérité et sa majesté grandissantes, lui qui dissout l’obscurité du Kaliyuga avec le faisceau de rayons lumineux que sont ses propres vertus, tel Ākhaṇḍala774, mettant en pièce les hommes (ennemis), très pieux, méditant aux pieds de sa mère et de son père, ordonne aux chefs de familles, rassemblés, résidant dans le village nommé Niḍubaṟu, dans (la circonscription) de Gaṇḍeṟuvāṭyām, au nord de la rivière Vyāghra et sur la rive de la rivière Vanneṟu, à deux gavyūti à l’est de la résidence royale de Gaṇḍeṟu :
+Face IIb.
+qu’il soit connu de vous que (nous) donnons au petit-fils de Maṇḍaśarman, habitant le camp d’Asanapura, disciple des Ghaṭikā775, qui a étudié deux Veda avec leurs pada, krama et anukrama776, qui connaissait de nombreux Dharmaśāstra, avec les Kalpa, Upaniṣad, Purāṇa et Itihāsa, au fils de Śivarudraśarman, grand ornement de sa lignée par son exceptionnelle gloire immaculée procurée par la foule des vertus et richesses de son père, qui pratiquait le sacrifice de l’agniṣṭoma777, à Kāṭiśarman, qui étudie deux Veda, dont la pensée purifiée est versée dans les sacrifices, les Āgama, Upaniṣad, le sens des Mantra, les Itihāsa, Purāṇa et Dharmaśāstra, du même gotra que les descendants de Hārītā, appartenant à l’école de Taittirīya, ce village de Niḍupaṟu, en vue de l’accroissement de nos mérites et gloire ainsi que ceux de notre mère et de notre père.
+Face IIIa.
+Aucune charge ne doit lui être imposée.
+L’exécuteur noble et charmant,
+est l’illustre Vīryavān que voici, refuge de tous les êtres778,
+expert dans les subdivisions des sciences politiques royales,
+qui connaît le Vedāṅga, qui a appris tous les arts. (1)
+Voici les vers de Vyāsa :
+qu’elle soit donnée par lui ou par un autre, ô Yudhiṣṭhira, protège avec force la terre ;
+ô meilleur des possesseurs de la terre, la protection de la terre est plus méritoire que le don. (2)
+Beaucoup ont donné une terre, beaucoup l’on protégée,
+celui qui possède la terre en possède le fruit. (3)
+Le donateur d’une terre se réjouit soixante mille ans dans le ciel,
+celui qui la prend ou qui le permet demeure aussi longtemps en enfer. (4)
+</p>
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+  <!-- Each plate is engraved with 6 lines, of which the third and fourth begin with an indent, skipping the space around the binding hole. -->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!--Edited from estampages in bib:Hultzsch1925-1926_03, with estampages of the plates and photograph of the seal. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
