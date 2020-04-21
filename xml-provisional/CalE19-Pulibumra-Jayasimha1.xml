@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Pulībūmra Grant of Jayasiṁha I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE19-Pulibumra-Jayasimha1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. T: simplified, without headmark, long stem. E.g. l1, skandhāvārāT. M: just a simple curve, like a lowercase c or e slanted to the left, e.g. l2 putrāṇāM. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-04-21" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<p><pb 
+n="1v"/><fw n="1v" place="left"><num value="1">1</num></fw><lb 
+n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="omitted">|</supplied> mātr̥-gaṇa-parirakṣitānāṁ mānavya-sagotrāṇ<unclear>ā</unclear>ṁ <lb 
+n="2"/>hāritī-putrāṇāM Aśvamedha-yājināṁ calukyānāṁ kula-jala-nidhi<lb 
+n="3" break="no"/>-samu<space type="binding-hole"/>tpa<choice><sic>t</sic><corr>n</corr></choice>na-rāja-ratnasya sakala-bhuvana<surplus>ṁ</surplus>-maṇḍala-maṇḍita-kīrtt<choice><sic>i</sic><corr>e</corr></choice>ḥ śrī<lb 
+n="4" break="no"/>-kīrtti<space type="binding-hole"/>varmmaṇaḥ pautraḥ Aneka-samara-saṁghaṭṭa-vijayinaḥ pa<unclear>ra</unclear>-nara<lb 
+n="5" break="no"/>pati-makuṭa-maṇi-mayūkhāvadāta-caraṇa-yugalasya śrī-viṣṇuvarddhana<lb 
+n="6" break="no"/>-mahārājasya priya-tanayaḥ pravarddhamāna-pratāpopanata-samasta<pb 
+n="2r" break="no"/><lb 
+n="7" break="no"/>-sāmanta-maṇḍalaḥ @@@sva-bahu-bala-parākramopārjjita-sa[kala]yaśo-vibhāsita-digantaraḥ sva-śakti-traya-tri-śūla-vibhinna-para-[na]rapati-sakala-bala-cetanaḥ br̥haspatir iva naya-jño manur iva vinaya-jñaḥ yudhiṣṭhira iva dharmma-parāyaṇaḥ arjunavad-apara-nara-patibhir anabhilaṁghita-pauruṣaḥ794 aneka-śāstrārtha-tatva-jñaḥ parama-brahmaṇyo mātāpitr̥pādānudhyātaḥ śrī-pr̥thivī795-jayasiṁhava<pb n="2v" break="no"/><fw n="2v" place="left"><num value="2"><unclear>2</unclear></num></fw><lb n="13"/>llabha-mahārājaḥ
+
+Face IIb.
+guddavādi-viṣaye viṣaya-maha * * * kāgpuruṣāś ca imam artham ājñāpayati (asti)[+|]
+viditam astu vo [+’]yam asmābhiḥ guddavādi-viṣaye pulībūṁran-nāma-grāmaḥ veda-vedāṁga-vido dāmaśarmmaṇaḥ pautrāya sva-pitur adhika-guṇa-gaṇādhivāsasya śivaśarmmaṇaḥ putrāya taittirika-sva-brahma-cāriṇe veda-dvayālaṁkr̥ta-śarīrāya796 gotama-sagotrāya sva-karmm[ānuṣṭā]na-pa[rā]ya
+
+Face IIIa.
+pūrvvāgrahārika-rudraśarmmaṇo asanapura-sthāna-vāstavyāya797 śrī-sarvvasiddha-datyā sarvva-kara-parihāreṇāgrahārīkr̥tya samprattaḥ798[+|]  tathā bhavadbhir anyaiś799 ca dharmmādhigata-buddhibhiḥ paripālanīyaḥ[+|]
+na kaiścid bādhā karaṇīyā[+|]
+ājñaptir atra hastikośaḥ800 vīrakośa[ḥ*][+|]
+[vyā]sa-gītāḥ[+|]
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam iti[+||] (1)
+saṁ * * *801
+
+</p>
+<pb n="3v"/><!--CHECK-->
+
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+    <listApp>
+      <app loc="5">
+        <lem>calukyānām</lem>
+        <rdg source="bib:Rangacharya1927-1928_02">cālukyānām</rdg>
+        <note>The ARIE report also explicitly notes that the spelling of the dynasty's name is Cālukya, but no indication whatsoever of an <foreign>ā</foreign> is visible in the scan, which is otherwise clear here.</note>
+      </app>
+      
+      
+      
+    </listApp>
+  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+<p n="1-10">
+</p>
+  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1-10">
+</p>
+  
+</div>
+
+
+
+
+<div type="commentary">
+  <!-- Page 1 is clearly paginated on the verso, with the number 1 in the upper part of the left margin, and with lines 2 and 3 on that page indented to leave some clear space around the number. There may be a numeral 2 in a similar position on the verso of page 2, but the text lines do not make way for this one, and it is a simpler glyph consisting of two straight lines, whereas the 1 is a strongly curved line. I assume it is also pagination (Rangacharya p254: <q>The plates are numbered, though the figure on the first plate alone is clear.</q>), but it may have been added after inscribing the text. I see no page number on the recto of page 3 (unless three dots in a rough triangle, in the left margin between the third and fourth line on that page qualify as one), and there is no facsimile of the verso. -->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!--Edited from estampages in bib:Rangacharya1927-1928_03, with estampages of the plates and an abstract (not a full translation) of the contents. The seal is lost, though the ring is extant. The plates were noticed in <bibl><ptr target="bib:ARIE1914"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">5</citedRange></bibl> with a summary  in <bibl><ptr target="bib:ARIE1914"/><citedRange unit="page">85</citedRange></bibl>. CHECK this reference when ARIE items have been finalised in Zotero. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
