@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Pulobūmra Grant of Jayasiṁha I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE19-Pulobumra-Jayasimha1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. T: simplified, without headmark, long stem. E.g. l1, skandhāvārāT. M: just a simple curve, like a lowercase c or e slanted to the left, e.g. l2 putrāṇāM. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-04-21" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<p><pb 
+n="1v"/><fw n="1v" place="left"><num value="1">1</num></fw><lb 
+n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="omitted">|</supplied> mātr̥-gaṇa-parirakṣitānāṁ mānavya-sagotrāṇ<unclear>ā</unclear>ṁ <lb 
+n="2"/>hāritī-putrāṇāM Aśvamedha-yājināṁ calukyānāṁ kula-jala-nidhi<lb 
+n="3" break="no"/>-samu<space type="binding-hole"/>tpa<choice><sic>t</sic><corr>n</corr></choice>na-rāja-ratnasya sakala-bhuvana<surplus>ṁ</surplus>-maṇḍala-maṇḍita-kīrtt<choice><sic>i</sic><corr>e</corr></choice>ḥ śrī<lb 
+n="4" break="no"/>-kīrtti<space type="binding-hole"/>varmmaṇaḥ pautraḥ Aneka-samara-saṁghaṭṭa-vijayinaḥ pa<unclear>ra</unclear>-nara<lb 
+n="5" break="no"/>pati-makuṭa-maṇi-mayūkhāvadāta-caraṇa-yugalasya śrī-viṣṇuvarddhana<lb 
+n="6" break="no"/>-mahārājasya priya-tanayaḥ pravarddhamāna-pratāpopanata-samasta<pb 
+n="2r" break="no"/><lb 
+n="7" break="no"/>-sāmanta-maṇḍalaḥ sva-bāhu-bala-parākkramopārjjita-sa<unclear>kala</unclear>yaśo<lb 
+n="8" break="no"/>-vibhāsita-digantaraḥ sva-śakti-traya-triśūlāvabhinna-para-<foreign>na</foreign>rapati<lb 
+n="9" break="no"/>-saka<space type="binding-hole"/>la-bala-cetanaḥ br̥haspatir iva naya-jño manur iva vinaya<lb 
+n="10" break="no"/>-jñaḥ <space type="binding-hole"/> yudhiṣṭhira Iva dharmma-parāyaṇaḥ Arjunavad-apara-nara<lb 
+n="11" break="no"/>patibhir anabhilaṁghita-pauruṣyaḥ Aneka-śāstrārttha-tatva-jñaḥ para<lb 
+n="12" break="no"/>ma-brahmaṇyo mātā-pitr̥-pādānudhyātaḥ śrī-<orig>prithivī</orig>-jayasiṅha-va<pb 
+n="2v" break="no"/><fw n="2v" place="left"><num value="2"><unclear>2</unclear></num></fw><lb 
+n="13"/>llabha-mahārājaḥ guddavādi-viṣay<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst> viṣaya-mahat<unclear>t</unclear>a<unclear>rān a</unclear><supplied reason="lost">dh</supplied><unclear>i</unclear>kāra-pu<lb 
+n="14" break="no"/>ruṣāṁś ca Imam arttham ājñāpayaty <surplus>asti</surplus></p>
+<p>viditam astu vo <supplied reason="subaudible">’</supplied>yam asmābhiḥ <lb 
+n="15"/>gudda<space type="binding-hole"/>vādi-viṣaye pulobūṁran nāma-grāmaḥ veda-vedāṁga<lb 
+n="16" break="no"/>-vido <space type="binding-hole"/>dāmaśarmmaṇaḥ pautrāya sva-pitur adhika-guṇa-gaṇādhi<lb 
+n="17" break="no"/>vāsasya śivaśarmmaṇaḥ putrāya taittirika-sabrahmacāriṇe veda<lb 
+n="18" break="no"/>-dvayālaṁkr̥ta-śar<choice><sic>i</sic><corr>ī</corr></choice>rāya gotama-sagotrāya sva-karmmān<unclear>uṣṭh</unclear>āna<pb 
+n="3r" break="no"/><lb 
+n="19" break="no"/>-parāya pūrvvāgrahārika-rudraśarmmaṇo Asanapura-sthāna-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <lb 
+n="20"/>śrī-sarvvasiddhi-da<orig>t</orig>yā sarvva-kara-parihāreṇāgrahārīkr̥tya samprattaḥ</p>
+<p><lb 
+n="21"/>tathā <space type="binding-hole"/> bhavadbhir a<choice><sic>ṇ</sic><corr>n</corr></choice>yaiś ca dharmmādhi<choice><sic>ś</sic><corr>g</corr></choice>ata-buddhibhiḥ paripālanīyaḥ<supplied reason="omitted">|</supplied> <lb 
+n="22"/>na kai<space type="binding-hole"/>ścid bādhā karaṇīyā<supplied reason="omitted">|</supplied> Ājñaptir atra hastikoś<choice><unclear>a</unclear><unclear>o</unclear></choice> vīrakoś<choice><unclear>a</unclear><unclear>o</unclear></choice> yo<lb 
+n="23"/>sa-gītāḥ</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">bahubhir vvasudhā dattā</l>
+<l n="b">bahubhiś cānupālitā</l>
+<l n="c">yasya yasya <lb n="24"/>yadā bhūmis</l>
+<l n="d">tasya tasya tadā phalam</l>
+</lg>
+<p>iti saṁ @@@* * *801
+
+</p>
+<pb n="3v"/><!--CHECK-->
+
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+    <listApp>
+      <app loc="8">
+        <lem>-vibhāsita-</lem>
+        <note>There is quite a lot of damage around these characters, though the characters themselves are all clear. There is also a rather wide space between <foreign>bhā</foreign> and <foreign>si</foreign>, filled with damage. Possibly something else was engraved here, then struck out and overwritten.</note>
+      </app>
+      <app loc="11">
+        <lem>-tatva-jñaḥ</lem>
+        <note>Rangacharya notes that the <foreign>visarga</foreign> is cut twice. There is also quite extensive damage behind these otherwise clear characters; possibly, a previous reading (also ending in a <foreign>visarga</foreign>) was struck out and the current one engraved over it.</note>
+      </app>
+      <app loc="13">
+        <lem>-viṣay<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst></lem>
+        <rdg source="bib:Rangacharya1927-1928_03">-viṣay<choice><sic>i</sic><corr>e</corr></choice></rdg>
+        <note>According to Rangacharya's editor, what Rangacharya saw as an <foreign>i</foreign> is only a crack in the plate, and the <foreign>e</foreign> is clearly present as the expected vowel marker. While the latter is correct, the crack seems to be there in addition to a fully formed <foreign>i mātrā</foreign>, so I assume the engraving was corrected.</note>
+      </app>
+      <app loc="14">
+        <lem>-mahat<unclear>t</unclear>a<unclear>rān a</unclear><supplied reason="lost">dh</supplied><unclear>i</unclear>kāra-</lem>
+        <rdg source="bib:Rangacharya1927-1928_03">-maha <gap reason="illegible" quantity="3" unit="character"/> kāra-</rdg>
+        <note>The improved reading is by Rangacharya's editor; I mark up unclear and supplied as visible in the scanned estampage.</note>
+      </app>
+      <app loc="15">
+        <lem>pulobūṁran</lem>
+        <rdg source="bib:Rangacharya1927-1928_03">pulībūṁran</rdg>
+        <note>I am hesitant to alter a reading that has made its way into the name of this grant, yet I am quite certain that Rangacharya's reading is incorrect, and the character we have here is a cursive <foreign>lo</foreign>. In glyphs for <foreign>lī</foreign> that I could find, if the vowel mark is a spiral open on the top, then the tail is on the left side. Compare the identical-looking <foreign>lo</foreign> in lokāśrayā°, line 18 of the <ref target="CalE18-Peddavegi-Jayasimha1.xml">Peddavegi plates</ref>, and the different (though unclear) <foreign>lī</foreign> in <foreign>vimalīkr̥ta</foreign>, line 17 of the <ref target="CalE17-Niduparu-Jayasimha1.xml">Niḍupaṟu Grant</ref>. Rangacharya also gives the plausible-looking reconstruction <foreign>pulibūru</foreign>, which would indicate that <foreign>pulībūṁra</foreign> is to be preferred; however, his tentative identification with modern Polamūru does not rule out <foreign>pulobūṁra</foreign>.</note>
+      </app>
+      <app loc="19">
+        <lem>parāya</lem>
+        <note>As Rangacharya notes, there is a dot before the first character, at the position of a headmark.</note>
+      </app>
+      <app loc="22">
+        <lem>hastikoś<choice><unclear>a</unclear><unclear>o</unclear></choice> vīrakoś<choice><unclear>a</unclear><unclear>o</unclear></choice> yo<lb/>sa-gītāḥ</lem>
+        <rdg source="bib:Rangacharya1927-1928_03">hastikoś<choice><sic>a</sic><corr>o</corr></choice> vīrakośa <unclear>vyā</unclear><lb/>sa-gītāḥ</rdg>
+        <note>According to Rangacharya, the letter <foreign>vyā</foreign> <q>is indistinct, the lower part alone being clear. It is further beneath the punctuation mark and not separate.</q> I see no punctuation mark, nor does Rangacharya print one in his edition. There is also no subscript <foreign>y</foreign>, only a clear <foreign>yo</foreign>. Further, both instances of <foreign>ś</foreign> have conspicuous horns, which do not occur in any <foreign>śa</foreign> in these plates, all of which have plain, rounded tops. These may be <foreign>o mātrā</foreign>s shortened to conserve space (being different from the <foreign>śo</foreign> of <foreign>yaśo</foreign> in l7), or they may be ornamentation. Given the obscurity of these names/terms, I have no way of interpreting the text. Rangacharya may be correct in assuming that <foreign>yo</foreign> was intended for <foreign>vyā</foreign>; alternatively, <foreign>vyā</foreign> may have been omitted, to be supplied in line 23. @@@continue ALSO CONSIDER PULE AS IN ARIE</note>
+      </app>
+      
+      
+      
+    </listApp>
+  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+<p n="1-10">
+</p>
+  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1-10">
+</p>
+  
+</div>
+
+
+
+
+<div type="commentary">
+  <!-- Page 1 is clearly paginated on the verso, with the number 1 in the upper part of the left margin, and with lines 2 and 3 on that page indented to leave some clear space around the number. There may be a numeral 2 in a similar position on the verso of page 2, but the text lines do not make way for this one, and it is a simpler glyph consisting of two straight lines, whereas the 1 is a strongly curved line. I assume it is also pagination (Rangacharya p254: <q>The plates are numbered, though the figure on the first plate alone is clear.</q>), but it may have been added after inscribing the text. I see no page number on the recto of page 3 (unless three dots in a rough triangle, in the left margin between the third and fourth line on that page qualify as one), and there is no facsimile of the verso. -->
+<!--@@@add ed note on kośas.-->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!--Edited from estampages in bib:Rangacharya1927-1928_03, with estampages of the plates and translation. The seal is lost, though the ring is extant. The plates were noticed in <bibl><ptr target="bib:ARIE1914"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">5</citedRange></bibl> with a summary  in <bibl><ptr target="bib:ARIE1914"/><citedRange unit="page">85</citedRange></bibl>. CHECK this reference when ARIE items have been finalised in Zotero. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
