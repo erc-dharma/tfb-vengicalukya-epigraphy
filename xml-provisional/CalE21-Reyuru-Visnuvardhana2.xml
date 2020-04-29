@@ -54,9 +54,9 @@
           <physDesc>
             <handDesc>
               <p>
-                <!--Halantas. M: a small and raised J shape with the bottom closed into a loop (or not); almost as small as an anusvāra and at the same position, but with a tail rising on the right. E.g. L2 abhivarddhitānāM, l4 sthitīnāM, l12 sarvveṣāM. -->
-                <!--Original punctuation. The opening symbol is a dextrorse spiral of about 1 full turn, with a tail at the bottom right. L17 onward, in the list, a plain double vertical is used with some consistency, but often omitted, and sometimes replaced by a single plain vertical, e.g. l22, muyyarddhaṁśaḥ|. -->
-                <!--Other palaeographic observations. Fleet (p. 186): "The anusvāra is written usually above the line, but is sometimes irregularly palced; and in a few cases it is written on the bottom line,—e.g., in Ciṁthūrboyasya, l. 24; Aṁjaśarmmaṇa, ll. 28 and 29-30, Veṁniśarmaṇa, l. 34, and Maṁdabogasya, l. 59." In l2 rddhi, the repha is fully inside vowel mark, probably because stū above would have interfered with a regular execution. -->
+                <!--Halantas. M: a small and raised J shape with the bottom closed into a loop (or not); almost as small as an anusvāra and at the same position, but with a tail rising on the right. E.g. L2 abhivarddhitānāM, l4 sthitīnāM, l12 sarvveṣāM. N: reduced with long stem (like a lambda). E.g. l32, peNbidiboyasya -->
+                <!--Original punctuation. The opening symbol is a dextrorse spiral of about 1 full turn, with a tail at the bottom right. L17 onward, in the list, a plain double vertical is used with some consistency, but often omitted, and sometimes replaced by a single plain vertical, e.g. l22, muyyarddhaṁśaḥ|; l33, Ekkaṁśaḥ| and regularly 5r (but then the double bar dominates again). A triple vertical bar is used at the end of the second (last) stanza, before the colophon. -->
+                <!--Other palaeographic observations. Fleet (p. 186): "The anusvāra is written usually above the line, but is sometimes irregularly palced; and in a few cases it is written on the bottom line,—e.g., in Ciṁthūrboyasya, l. 24; Aṁjaśarmmaṇa, ll. 28 and 29-30, Veṁṇiśarmaṇa, l. 34, and Maṁduboyasya, l. 59." In l2 rddhi, the repha is fully inside vowel mark, probably because stū above would have interfered with a regular execution. -->
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -111,8 +111,8 @@ n="14" break="no"/>trāya nāgaśarmmaṇa<add place="inline">ḥ</add> pautrāy
 <choice><sic>b</sic><corr>bh</corr></choice>āradvā<supplied reason="omitted">ja</supplied>-go<lb 
 n="15" break="no"/>trāya <space type="binding-hole"/> nāgaśarmmaṇa<supplied reason="omitted">ḥ</supplied> pautrāya śaṁkaraśarmmaṇa<add place="inline">ḥ</add> putrāya maṇḍaśarmmaṇe <lb 
 n="16"/>daś<unclear>āṁśaḥ</unclear><supplied reason="omitted">|</supplied> <space type="binding-hole"/> puna<supplied reason="omitted">r</supplied> bhāradvāja-gotrāya nāgaśarmmaṇaḥ putrāya kumāraśarmmaṇe <lb 
-n="17"/>Aṣṭāṁśaḥ|| <orig>kauṇḍilya</orig>-gotrāya śa<supplied reason="omitted">ṁ</supplied>karaśarmmaṇe <choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice>|| <orig>kauṇḍilya</orig>-gotrāya kumā<lb 
-n="18" break="no"/>raśarm<unclear>m</unclear>aṇe <choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied> <orig>tasyānuja</orig> Agniśarm<unclear>m</unclear>aṇe <choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice>|| Ālaboyasya <orig>kauṇḍilya</orig><pb 
+n="17"/>Aṣṭāṁśaḥ|| kauṇḍilya-gotrāya śa<supplied reason="omitted">ṁ</supplied>karaśarmmaṇe <choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice>|| kauṇḍilya-gotrāya kumā<lb 
+n="18" break="no"/>raśarm<unclear>m</unclear>aṇe <choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied> <orig>tasyānuja</orig> Agniśarm<unclear>m</unclear>aṇe <choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice>|| Ālaboyasya kauṇḍilya<pb 
 
 n="3r" break="no"/><lb 
 n="19" break="no"/>-gotrasya kattiśarmmaṇa putra kandaśarmmaṇa putra kappaśarmmaṇa catāri Aṁśaḥ<supplied reason="omitted">|</supplied> puna <lb 
@@ -120,90 +120,81 @@ n="20"/>kappaśarmmaṇa Eka Aṁśaḥ<supplied reason="omitted">|</supplied> p
 n="21"/>Aṁśaḥ <space type="binding-hole"/> puna kandaśarmmaṇa Arddhāṁśaḥ|| koyilaboyasya bhāradvāja-gotra bā<lb 
 n="22" break="no"/>diśa<space type="binding-hole"/>rmmaṇa muyyarddhaṁśaḥ| Utpitoṟuboyasya kāṇva-gotra pālaśarmma<lb 
 n="23" break="no"/>ṇa E<space type="binding-hole"/>kāṁśaḥ|| kavilaboyasya gautama-gotra kuṇḍiśarmmaṇa ekkaṁśaḥ|| Ala<lb 
-n="24" break="no"/>puṁnaboyasya kāśy<choice><sic>ā</sic><corr>a</corr></choice>pa-gotrāya842 <choice><unclear>b</unclear><unclear>p</unclear></choice>ādiśarmmaṇa Ekaṁśaḥ|| ciṁthūrboyasya <pb 
+n="24" break="no"/>puṁnaboyasya kāśy<orig>ā</orig>pa-gotra <choice><unclear>b</unclear><unclear>p</unclear></choice>ādiśarmmaṇa Ekaṁśaḥ|| ciṁthūrboyasya <pb 
 
 n="3v"/><lb 
-n="25"/>@@@bhāradvāja-gotrāya844 sarvvaśarmmaṇe845 ek(k)aṁśaḥ846<supplied reason="omitted">|</supplied>
-mudubaṁboyasya kauṇḍilya-gotrāya847 sarvvaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya848 jeṭṭiśarmmaṇe849 ek(k)āṁśaḥ850<supplied reason="omitted">|</supplied>
-puna kuṇḍiśarmmaṇe851 ek(k)āṁśaḥ852<supplied reason="omitted">|</supplied>
-puna śaṁkaraśarmmaṇe853 ek(k)āṁśaḥ854<supplied reason="omitted">|</supplied>
-puna sarvvaśarmmaṇe855 ek(k)āṁśaḥ856<supplied reason="omitted">|</supplied>
-puna ḻuddaśarmmaṇe857 ek(k)āṁśaḥ858<supplied reason="omitted">|</supplied>
-kattiśarmmaṇa<supplied reason="omitted">ḥ</supplied> putra[sya*] aṁjaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya859 kattiśarmmaṇe860 ek(k)āṁśaḥ861<supplied reason="omitted">|</supplied>
-puna sarvvaśarmmaṇe862 tiṇṇi aṁśaḥ<supplied reason="omitted">|</supplied>
-devaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya863 samudraśarmmaṇe864 ek(k)āṁśaḥ865<supplied reason="omitted">|</supplied>
-puna jeṭṭiśarmmaṇe866 ek(k)āṁśaḥ867<supplied reason="omitted">|</supplied>
-anantaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya868 aṁjaśarmmaṇe869 ek(k)āṁśaḥ870<supplied reason="omitted">|</supplied>
-pālaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya871 revaśarmmaṇe872 tiṁni aṁśaḥ<supplied reason="omitted">|</supplied>
+n="25"/>bhāradvāja-gotra sarvvaśarmmaṇa Ekkaṁśaḥ|| mudubaṁboyasya kauṇḍilya-gotra <unclear>sarv</unclear>v<unclear>aśa</unclear><lb 
+n="26" break="no"/>rmmaṇa putra jeṭṭiśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna kuṇḍiśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna śaṁkaraśarmmaṇa Ekk<unclear>a</unclear><supplied reason="lost">ṁ</supplied><lb 
+n="27" break="no"/>śaḥ<supplied reason="omitted">|</supplied> pu<space type="binding-hole"/>na sarvvaśarmmaṇa ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna ḻuddaśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> kattiśarmmaṇa putra <lb 
+n="28"/>Aṁja<space type="binding-hole"/>śarmmaṇa putra kattiśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna sarvvaśarmmaṇa tiṇṇi aṁśaḥ<supplied reason="omitted">|</supplied> deva<lb n
+="29" break="no"/>śarmmaṇa putra samudraśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna jeṭṭiśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> Anantaśarmmaṇa putra A<lb 
+n="30" break="no"/>ṁjaśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> pālaśarmmaṇa putra revaśarmmaṇa ti<unclear>ṁṇ</unclear>i aṁśaḥ<supplied reason="omitted">|</supplied> puḻolūrboyasya <pb 
 
-Face IVa.
-puḻolūrboyasya putrāya873 vasuśarmmaṇe874 ekāṁśaḥ875<supplied reason="omitted">|</supplied>
-benbidiboyasya putrāya876 āruvaśarmmaṇe877 ek(k)āṁśaḥ878<supplied reason="omitted">|</supplied>
-puna vedaśarmmaṇe879 ek(k)āṁśaḥ880<supplied reason="omitted">|</supplied>
-penbidiboyasya kauṇḍilya-gotrāya881 jakkiśarmmaṇe882 ek(k)āṁśaḥ883<supplied reason="omitted">|</supplied>
-keśavaboyasya vebaśarmmaṇe884 ek(k)āṁśaḥ885<supplied reason="omitted">|</supplied>
-bhāradvāja-gotrāya886 agniśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrasya887 vināyaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya sarvvaśarmmaṇe @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
-kauṇḍilya-gotrāya889 veṁṇiśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrasya890 nandiśarmmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya891 vāsudevaśarmmaṇe @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
-kauṇḍilya-gotrāya893 vināyaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrasya894 nandiśarmmmaṇa<supplied reason="omitted">ḥ</supplied> [putrāya*] nāgaśarmmaṇe @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
-paummuddiboyasya kauṇḍilya-gotrāya 896 devaśarmmaṇe897 @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
-puna bādiśarmmaṇe899 ek(k)āṁśaḥ 900//
+n="4r"/><lb 
+n="31"/>putra vasuśarmmaṇa E<choice><sic>k</sic><corr>kk</corr></choice>aṁśaḥ<supplied reason="omitted">|</supplied> benbidiboyasya putra Āruvaśarmmaṇa Ekkaṁśaḥ878<supplied reason="omitted">|</supplied> puna veda<lb 
+n="32" break="no"/>śarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> pe<orig>N</orig>bidiboyasya kauṇḍilya-gotra jakkiśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> keśavaboyasya ve<lb 
+n="33" break="no"/>baśarmmaṇa Ekkaṁśaḥ| bhāradvāja-gotra Agniśarmmaṇa putra vināyaśarmmaṇa putra sarvvaśarmma<lb 
+n="34" break="no"/>ṇa dvayaṁ<space type="binding-hole"/>śaḥ|| kauṇḍilya-gotra veṁṇiśarmmaṇa putra nandiśarmmmaṇa putra vāsudevaśarmmaṇa <lb 
+n="35"/>dvayaṁśaḥ|| kauṇḍilya-gotra vināyaśarmmaṇa putra nandiśarmmmaṇa <supplied reason="omitted">putra</supplied> nāgaśarmmaṇa dvayaṁśaḥ<supplied reason="omitted">| </supplied><lb 
+n="36"/>paummuddiboyasya kauṇḍilya-gotra devaśarmmaṇa dvayaṁśaḥ<supplied reason="omitted">|</supplied> puna bādiśarmmaṇa Ekkaṁśaḥ|| <pb 
 
-Face IVb.
-dūdiboyasya kauṇḍilya-gotrāya901 gabotaśarmmaṇe902 ekāṁśaḥ 903//
-toṇḍadūrboyasya kauśika-gotrāya904 revaśarmmaṇe905 ekāṁśaḥ 906//
-ceyūrboyasya kauṇḍilya-gotrāya907 revaśarmmaṇe908 muyyarddhāṁśaḥ909<supplied reason="omitted">|</supplied>
-miṟiboyasya kāśyapa910-gotrāya911 anantaśarmmaṇe912 @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
-mudugonthaboyasya bhāradvāja-gotrāya914 duggaśarmmaṇe915 ekāṁśa 916<supplied reason="omitted">|</supplied>
-canthrūrboyasya kāśyapa917-gotrāya918 pālaśarmmaṇe919 catur920 aṁśaḥ<supplied reason="omitted">|</supplied>
-māraṭaboyasya kauṇḍilya-gotrāya921 veṇṇiśarmmaṇe922 ekāṁśaḥ 923<supplied reason="omitted">|</supplied>
-muddamūrboyasya kāśyapa924-gotrāya925 revaśarmmaṇe926 ekāṁśaḥ927<supplied reason="omitted">|</supplied>
-puna revaśarmmaṇe928 ekāṁśaḥ 929<supplied reason="omitted">|</supplied>
+n="4v"/><lb 
+n="37"/>dūdiboyasya kauṇḍilya-gotra gabotaśarmmaṇa Ek<supplied reason="omitted">k</supplied>aṁśaḥ| toṇḍadūrboyasya kauśika-gotra re<lb 
+n="38" break="no"/>vaśarmmaṇa Ek<supplied reason="omitted">k</supplied>aṁśaḥ 906|| ceyūrboyasya kauṇḍilya-gotra revaśarmmaṇa muyyarddhaṁśaḥ|| miṟibo<lb 
+n="39" break="no"/>yasya <space type="binding-hole"/> kāśy<orig>ā</orig>pa-gotra Anantaśarmmaṇa dvayaṁśaḥ|| mudugonthaboyasya bhāradvā<lb 
+n="40" break="no"/>ja-gotra <space type="binding-hole"/> duggaśarmmaṇa Ekkaṁśa<space type="binding-hole"/><supplied reason="omitted">|</supplied> canthrūrboyasya kāśy<orig>ā</orig>pa-gotra pālaśarmmaṇa catā<lb 
+n="41" break="no"/>ri Aṁśaḥ|| māraṭaboyasya k<choice><sic>o</sic><corr>au</corr></choice>ṇḍilya-gotra veṇṇiśarmmaṇa Ekkaṁśaḥ|| muddamūrboyasya <lb 
+n="42"/>kāśy<orig>ā</orig>pa-gotra revaśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna revaśarmmaṇa Ekkaṁśaḥ|| beppiboyasya kāśy<orig>ā</orig><pb 
 
-Face Va.
-boppiboyasya kāśyapa930- gotrāya931 kumāraśarmmaṇe932 ekāṁśaḥ 933<supplied reason="omitted">|</supplied>
-ponnaḷūrboyasya kāśyapa934- gotrāya935 sarvvaśarmmaṇe936 @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
-vegiṁboyasya kāśyapa938- gotrāya939 kuṇḍiśarmmaṇe940 ekāṁśaḥ 941<supplied reason="omitted">|</supplied>
-kutmurboyasya bhāradvāja- gotrāya942 ḻuddaśarmmaṇe943 ekāṁśaḥ 944<supplied reason="omitted">|</supplied>
-kondāḻiboyasya kāśyapa945- gotrāya946 kuṇḍiśarmmaṇe947 ekāṁśaḥ 948<supplied reason="omitted">|</supplied>
-muttinthiboyasya kauṇḍilya- gotrāya949 veṇṇiśarmmaṇe950 ekāṁśaḥ 951<supplied reason="omitted">|</supplied>
-alabuṁnaboyasya kauṇḍilya- gotrāya952 bhaṭṭiśarmmaṇe953 arddhāṁśaḥ 954<supplied reason="omitted">|</supplied>
-keśavaboyasya bhāradvāja- gotrāya955 vināyaśarmmaṇe956 ekāṁśaḥ 957<supplied reason="omitted">|</supplied>
-puna vināyaśarmmaṇe958 ekāṁśaḥ 959<supplied reason="omitted">|</supplied>
-rā[ṁ*]pu(ṁ)rboyasya kauṇḍilya- gotrāya960 jeṭṭiśarmmaṇe961 ekāṁśaḥ 962<supplied reason="omitted">|</supplied>
+n="5r" break="no"/><lb 
+n="43" break="no"/>pa-gotra kumāraśarmmaṇa Ekkaṁśaḥ| ponnaḷūrboyasya kāśy<orig>ā</orig>pa- gotra sarvvaśarmmaṇa dvayaṁśaḥ| <lb 
+n="44"/>vegiṁboyasya kāśy<orig>ā</orig>pa-gotra kuṇḍiśarmmaṇa Ekkaṁśaḥ| ku<choice><unclear>n</unclear><unclear>t</unclear></choice>murboyasya bhāra<unclear>d</unclear>vāja-gotra <lb 
+n="45"/>ḻuddaśa<space type="binding-hole"/>rmmaṇa Ekkaṁśaḥ| kondāḻiboyasya kāśy<orig>ā</orig>pa- gotra kuṇḍiśarmmaṇa Ekkaṁśaḥ<unclear>|</unclear> mu<lb 
+n="46" break="no"/>ttinthi<space type="binding-hole"/>boyasya kauṇḍilya-gotra veṇṇiśarmmaṇa Ekkaṁśaḥ| Alabuṁnaboyasya k<choice><sic>o</sic><corr>au</corr></choice><lb 
+n="47" break="no"/>ṇḍilya-gotra bhaṭṭiśarmmaṇa Arddhaṁśaḥ| keśavaboyasya bhāradvāja-gotra vināyaśarmmaṇa <lb 
+n="48"/>Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna vināyaśarmmaṇa Ekkaṁśaḥ|
+rā<orig>puṁrbo</orig>yasya kauṇḍilyagotra jeṭṭiśarmmaṇa Ek<supplied reason="omitted">k</supplied>aṁśaḥ<supplied reason="omitted">|</supplied> <pb 
 
-Face Vb.
-pulkonthaboyasya kāśyapa963- gotrāya964revaśarmmaṇe965 ekāṁśaḥ 966<supplied reason="omitted">|</supplied>
-pandiriboya[sya*] bhāradvāja- gotrāya967 pavvaśarmmaṇe968 ekāṁśaḥ969<supplied reason="omitted">|</supplied>
-keśavaboyasya vināyaśarmmaṇe970 ekāṁśaḥ 971<supplied reason="omitted">|</supplied>
-puna vināyaśarmmaṇe972 ekāṁśaḥ 973<supplied reason="omitted">|</supplied>
-māraṭaboyasya kauṇḍilya- gotrāya974 cāmuṇḍiśarmmaṇe975 ekāṁśaḥ 976<supplied reason="omitted">|</supplied>
-puna śiv(v)aśarmmaṇe977 ekāṁśaḥ 978<supplied reason="omitted">|</supplied>
-rekādiboyasya kāśyapa979- gotrāya980doṇaśarmmaṇe981 ekāṁśaḥ 982<supplied reason="omitted">|</supplied>
-puna rekādiboyasya revaśarmmaṇe983 ekāṁśaḥ 984<supplied reason="omitted">|</supplied>
-munikolboyasya bhāradvāja- gotrāya985 kandaśarmmaṇe986 ekāṁśaḥ 987<supplied reason="omitted">|</supplied>
-cebuṁdothiboyasya kāśyapa988- gotrāya989 vīraśarmmaṇe990 ekāṁśaḥ991<supplied reason="omitted">|</supplied>
+n="5v"/><lb 
+n="49"/>pulkonthaboyasya kāśy<orig>ā</orig>pa-gotra revaśarmmaṇa Ekkaṁśaḥ| pandiriboya<supplied reason="omitted">sya</supplied> bhāradvāja-gotra <unclear>p</unclear>avva<unclear>ś</unclear>armmaṇa E<lb 
+n="50" break="no"/>kkaṁśaḥ| keśavaboyasya vināyaśarmmaṇa Ekkaṁśaḥ| puna vināyaśarmmaṇa Ekkaṁśaḥ| māra<unclear>j</unclear>aboyasya <lb 
+n="51"/>kauṇḍi<space type="binding-hole"/>lya-gotra cāmuṇḍiśarmmaṇa Ekkaṁśaḥ<supplied reason="omitted">|</supplied> puna śi<orig>vv</orig>aśarmmaṇa Ek<supplied reason="omitted">k</supplied>aṁśaḥ| <lb 
+n="52"/>rekā<space type="binding-hole"/>diboyasya kāśy<orig>ā</orig>pa-gotra doṇaśarmmaṇa Ek<unclear>k</unclear>aṁśa<unclear>ḥ||</unclear> puna <lb 
+n="53"/>rekādiboyasya revaśarmmaṇa Ekkaṁśaḥ|| munikolboyasya <unclear>bh</unclear>āradvāja-<lb 
+n="54" break="no"/>gotra kandaśarmmaṇa Ekkaṁśaḥ|| cebuṁdothiboyasya kāśy<orig>ā</orig>pa-go<pb 
 
-Face VIa.
-eddoṇḍiboyasya kāśyapa992- gotrāya993nāgaśarmmaṇe994 ekāṁśaḥ 995<supplied reason="omitted">|</supplied>
-ḻuttaḷūrboyasya kāśyapa996- gotrāya997nāgaśarmmaṇe998 ekāṁśaḥ 999<supplied reason="omitted">|</supplied>
-ciccakudiboyasya kāśyapa1000- gotrāya1001 nandiśarmmaṇe1002 ekāṁśaḥ 1003<supplied reason="omitted">|</supplied>
-samatiboyasya veṇṇiśarmmaṇe1004 ekāṁśaḥ 1005<supplied reason="omitted">|</supplied>
-maṁduboyasya bhāradvājagotrāya1006 kattaśarmmaṇe1007 @<choice><orig>dvayaṁśaḥ</orig><reg>dvy-aṁśaḥ</reg></choice><supplied reason="omitted">|</supplied>
+n="6r" break="no"/><lb 
+n="55" break="no"/>tra vīraśarmmaṇa Ekkaṁśaḥ|| Eddoṇḍiboyasya kāśy<orig>ā</orig>pa-gotra nāga<lb 
+n="56" break="no"/>śarmmaṇa Ekkaṁśaḥ|| ḻuttaḷūrboyasya kāśy<orig>ā</orig>pa-gotra nāga<lb 
+n="57" break="no"/>śa<space type="binding-hole"/>rmmaṇa Ekkaṁśaḥ|| ciccakudiboyasya kāśy<orig>ā</orig>pa<lb 
+n="58" break="no"/>-gotra nandiśarmmaṇa Ekkaṁśaḥ|| samatiboyasya veṇṇiśarmma<lb 
+n="59" break="no"/>ṇa Ekkaṁśaḥ|| maṁduboyasya bhāradvāja-gotra kattiśarmmaṇa dvaya<unclear>ṁ</unclear>śaḥ<unclear>|</unclear> <pb 
 
-Face VIb.
-balavijayārogyanimittam @āsmabhiḥ saṁprāpta<supplied reason="omitted">ḥ</supplied><supplied reason="omitted">|</supplied>
-gamyā rājavallabhā<supplied reason="omitted">ḥ</supplied>1009 sarvvaparihārai<supplied reason="omitted">ḥ</supplied> pariharantu parihārayantu<supplied reason="omitted">|</supplied>
-api ca teśāṁ1010 ślokāḥ<supplied reason="omitted">|</supplied>
-bhūmidānāt paran dānam na bhūtan na bhaviṣyati[+|]
-tasyaiva haraṇāt pāpan na bhūtan na bhaviṣyati[+||](1)
+n="6v"/><lb 
+n="60"/>bala-vijayārogya-nimittam asmābhiḥ samprāpta<supplied reason="omitted">ḥ</supplied><supplied reason="omitted">|</supplied> gamyā rājava<lb 
+n="61" break="no"/>lla<space type="binding-hole"/>bh<choice><sic>a</sic><corr>ā</corr></choice>ḥ sarvvaparihārai<supplied reason="omitted">ḥ</supplied> pariharantu parihārayantu<supplied reason="omitted">|</supplied> <lb 
+n="62"/>Api <space type="binding-hole"/> ca <orig>teśāḥ</orig> ślokāḥ</p>
 
-Face VIIa.
-bahubhir vvasudhā dattā bahubiś cānupālitā[+|]
-yasya yasya yadā bhūmi<supplied reason="omitted">ḥ</supplied> tasya tasya tadā1011 phalam[+||] (2)
-varddhamānarājya-dvit[ī]ya1012-saṁvatsare caitra-māse śuklapakṣe daśyamyāṁ maghā **1013 nakṣatre budha-vāreṣu svamukhājñāptā[d*] dīrgocāyi** 1014 veḷayilkanmaṟakuṇḍi eṟasya putra[sya*] vināyakasya likhitam śāsanam idam
- 
-</p>
-<!--final pb-->
+<lg n="1" met="anuṣṭubh">
+<l n="a">bhūmidānāt paran dānaM</l>
+<l n="b">na bhūtan na <lb n="63"/>bhaviṣyati</l>
+<l n="c">tasyaiva haraṇāt pāpan</l>
+<l n="d">na bhūtan na bhaviṣyati||</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a"><pb 
+
+n="7r"/><lb n="64"/>bahubhir vvasudhā dattā</l>
+<l n="b">bahubiś cānupālitā</l>
+<l n="c">yasya yasya <lb n="65"/>yadā bhūmi<supplied reason="omitted">ḥ</supplied></l>
+<l n="d">tasya tasya ta<choice><sic>th</sic><corr>d</corr></choice>ā phalaM|||</l>
+</lg>
+
+<p>varddhamāna-rājya-<orig>dva</orig><lb 
+n="66"/><orig>ya</orig><space type="binding-hole"/>-saṁvatsare caitra-māse śuklapakṣe daśamyāṁ maghā<lb 
+n="67"/>-nakṣatre budha-<orig>vāreṣu</orig> <orig>svamukhājñāpta</orig> dīrghocā<unclear>y</unclear>i<gap reason="lost" quantity="2" unit="character" precision="low"/><lb 
+n="68"/>veḷayilkanmaṟakuṇḍi Eṟasya putra vināyakasya likhitaM śāsanam idaM||</p>
+<pb n="7v"/>
 </div>
 </div>
       	
@@ -233,8 +224,83 @@ varddhamānarājya-dvit[ī]ya1012-saṁvatsare caitra-māse śuklapakṣe daśya
         <rdg source="bib:Fleet1878_02">Ala<lb/>buṁna-</rdg>
       </app>
       <app loc="24">
-        <lem source="bib:AuthorYear_01">ciṁthūrboyasya</lem>
-        <note>I accept Fleet's reading, but have some doubts about reading a dot placed at the baseline between the first and the second character as an <foreign>anusvāra</foreign>, and wonder if perhaps <foreign>viṣṇuboyasya</foreign> had been intended and misinterpreted by the engraver.</note>
+        <lem source="bib:Fleet1878_02">ciṁthūrboyasya</lem>
+        <note>I accept Fleet's reading, but find it very strange that the <foreign>anusvāra</foreign> is a dot placed at the baseline between the first and the second character. Could <foreign>viṣṇuboyasya</foreign> have been intended and misinterpreted by the engraver? Probably not. Also compare <foreign>canthrūrboyasya</foreign> in line 40, possibly the same name.</note>
+      </app>
+      <app loc="28">
+        <lem>Aṁja<space type="binding-hole"/>śarmmaṇa</lem>
+        <note>Here too the <foreign>anusvāra</foreign> is a dot placed at the baseline between the first and the second character. Could <foreign>Ajaśarmmaṇa</foreign> have been intended?</note>
+      </app>
+      <app loc="29">
+        <lem>A<lb/>ṁjaśarmmaṇa</lem>
+        <note>Here too the <foreign>anusvāra</foreign> is a dot placed at the baseline before the second character, at the beginning of the new line. Could <foreign>Ajaśarmmaṇa</foreign> have been intended?</note>
+      </app>
+      <app loc="30">
+        <lem>ti<unclear>ṁṇ</unclear>i</lem>
+        <note>Here too the <foreign>anusvāra</foreign> is a dot placed at the baseline before the second character. In this case, head room is crowded with the descender of <foreign>rmma</foreign> above and the two <foreign>i mātrā</foreign>s, which may be the reason why the <foreign>anusvāra</foreign> is lowered.</note>
+      </app>
+      <app loc="32">
+        <lem>pe<orig>N</orig>bidiboyasya</lem>
+        <note>Note the use of a <foreign>halanta N</foreign> here, as opposed to what must be the same name, <foreign>benbidiboyasya</foreign> in the previous line, composed as a ligature. The first four lines on this plate are closely spaced, and this composition was probably used to avoid having to use a character with both an overhead vowel marker and a descender.</note>
+      </app>
+      <app loc="32">
+        <lem>kauṇḍilya-</lem>
+        <note>Instead of the usual form of <foreign>au</foreign>, <foreign>kau</foreign> is composed with the regular two strokes for <foreign>o</foreign>, plus a third stroke on the lower left side of the consonant.</note>
+      </app>
+      <app loc="34">
+        <lem>veṁṇiśarmmaṇa</lem>
+        <note>Here too the <foreign>anusvāra</foreign> is a dot placed at the baseline before the second character. Could <foreign>veṇiśarmmaṇa</foreign> have been intended? Or did the descender of <foreign>A</foreign> above cause the shifting?</note>
+      </app>
+      <app loc="36">
+        <lem>paummuddiboyasya</lem>
+        <note>The right-hand stroke of the vowel marker in <foreign>pau</foreign> is clear but very narrow and shallow. It may have been added subsequently to correct a previous <foreign>pe</foreign> into <foreign>pau</foreign>.</note>
+      </app>
+      <app loc="42">
+        <lem>beppiboyasya</lem>
+        <rdg source="bib:Fleet1878_02">boppiboyasya</rdg>
+      </app>
+      <app loc="44">
+        <lem>ku<choice><unclear>n</unclear><unclear>t</unclear></choice>murboyasya</lem>
+        <rdg source="bib:Fleet1878_02">kutmurboyasya</rdg>
+      </app>
+      <app loc="48">
+        <lem>rāpuṁrboyasya</lem>
+        <note>Fleet corrects to <foreign>rāṁpurboyasya</foreign>. Nothing interferes with the space above <foreign>rā</foreign>, so if that was the intended spelling, then the shift of the <foreign>anusvāra</foreign> is probably a scribal mistake. I believe it is also possible that the <foreign>r</foreign> of <foreign>rbo</foreign> was engraved erroneously.</note>
+      </app>
+      <app loc="51">
+        <lem>māra<unclear>j</unclear>aboyasya</lem>
+        <rdg source="bib:Fleet1878_02">māraṭaboyasya</rdg>
+      </app>
+      <app loc="54">
+        <lem>Ekkaṁśaḥ</lem>
+        <note>Here, the <foreign>anusvāra</foreign> is between <foreign>ka</foreign> and <foreign>śa</foreign>, but slightly below the headline, not at the baseline. At this horizontal position, it could not have been placed higher due to the descender of <foreign>rmma</foreign> above, but there is nothing above <foreign>kka</foreign> that would have prevented the engraver from putting it there. Still, I do not think this is the same phenomenon as the possible <foreign>anusvāra</foreign>s at baseline level.</note>
+      </app>
+      <app loc="59">
+        <lem>maṁduboyasya</lem>
+        <note>Here too the <foreign>anusvāra</foreign> is a dot placed at the baseline before the second character. The descender of <foreign>rmma</foreign> above would have prevented an <foreign>anusvāra</foreign> right on top of <foreign>ma</foreign>, but one could easily have been added only slightly to the right.</note>
+      </app>
+      <app loc="62">
+        <lem><orig>teśāḥ</orig></lem>
+        <note>Fleet emends to <foreign>teśāṁ</foreign>, but that does not seem too meaningful in the context. I believe rather that <foreign>ete</foreign> was intended, and this is not a scribal mistake but a solecism of the composer.</note>
+      </app>
+      <app loc="65">
+        <lem><orig>dva</orig><lb/><orig>ya</orig></lem>
+        <rdg source="bib:Fleet1878_02">dv<choice><sic>a</sic><corr>i</corr></choice><supplied reason="lost">tī</supplied><lb/>ya</rdg>
+        <note>The damage at the end of this line is not so extensive as to obliterate a hypothetical <foreign>tī</foreign> without trace. I am therefore quite certain that only <foreign>dvaya</foreign> was ever inscribed, intended to mean the same as <foreign>dvitīya</foreign>.</note>
+      </app>
+      <app loc="66">
+        <lem>maghā</lem>
+        <rdg source="bib:Fleet1878_02">maghā<gap reason="lost" quantity="2" unit="character" precision="low"/></rdg>
+        <note>Fleet notes that another <foreign>nakṣatra</foreign> may have been recorded here.It seems most likely to me that no characters were lost here. The right-hand margin is quite wide for the first and last line, where there is no damage whatsoever, and there should be at least some trace of any lost text here. See also the previous note to the end of line 65.</note>
+      </app>
+      <app loc="67">
+        <lem><orig>svamukhājñāpta</orig></lem>
+        <rdg source="bib:Fleet1878_02"><orig>svamukhājñ<choice><sic>ā</sic><corr>a</corr></choice>pt<choice><sic>a</sic><corr>ād</corr></choice></orig></rdg>
+        <note>Fleet construes this as part of the sentence with <foreign>likhitam</foreign>. I believe it is more likely to be a separate sentence, and the intended meaning is <foreign>svamukhājñāptiḥ</foreign>.</note>
+      </app>
+      <app loc="67">
+        <lem>dīrghocā<unclear>y</unclear>i<gap reason="lost" quantity="2" unit="character" precision="low"/></lem>
+        <note>According to Fleet, two or three characters are lost at the end. Given the vestiges and the size of the margin in other lines (see the notes to the ends of the previous two lines), I am quite certain that at most two characters are illegible. Vestiges after <foreign>yi</foreign> resemble <foreign>na</foreign> followed by <foreign>sa</foreign> or <foreign>ṇa</foreign>, but these seem to be too close together. One lost character is in my opinion more likely than two. Could the intent have been <foreign>vr̥ddhāpacāyinaḥ/vr̥ddhopacāyinaḥ</foreign>? Compare the spelling <foreign>puṇyābhivirdhaye</foreign> in line 18 of the <ref target="CalE17-Niduparu-Jayasimha1.xml">Niḍupaṟu grant</ref>. The character <foreign>rgho</foreign> could perpahs be read instead as <foreign>ghau</foreign>, since the strokes for <foreign>o</foreign> are not on top of the probable <foreign>repha</foreign>, but all three strokes start from the head of the consonant. Nonetheless, Fleet is probably right in reading <foreign>rgho</foreign>; the unusual execution was probably driven by interference from the descender of <foreign>myā</foreign> above.</note>
       </app>
       
       
@@ -272,7 +338,7 @@ varddhamānarājya-dvit[ī]ya1012-saṁvatsare caitra-māse śuklapakṣe daśya
 
 
 <div type="commentary">
-   <!-- The opening symbol is slightly above the level of line 1 and outside the margin (in fact mostly on the raised rim), so I encode it as a separate line. -->
+   <!-- The opening symbol is slightly above the level of line 1 and outside the margin (in fact mostly on the raised rim), so I encode it as a separate line. The first five plates have six lines on each inscribed face; the last two have 4 to 5. The first four lines on 4 recto are very closely spaced, giving rise to some unusually composed characters (see apparatus). There is also plenty of surface roughness on this page (whereas all others are mostly pristine), and some marks that may be traces of erased characters. It seems possible that this plate was first engraved with four rather uneven lines, taking up approximately the page area now covered by five lines, and that subsequently, these four lines were struck out and the five extant lines were engraved over them, finally adding the sixth line. -->
 <!--Can the instances of kauṇḍilya in this text be scribal errors for śāṇḍilya? kau looks a bit like śā and the engraver could have mistaken a pre-written text that way. The instance in l17 actually seems to contain the strokes for ś except for the loop on the left leg, which has migrated to the right leg to pretend to be the loop of k. -->
 </div>
 
