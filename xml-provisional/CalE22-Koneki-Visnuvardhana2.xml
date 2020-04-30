@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Koṇeki Grant of Viṣṇuvardhana II</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE22-Koneki-Visnuvardhana2</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-04-30" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-viṣamasiddh<unclear>i</unclear></ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>śrīr vijayatām[+|]
+mahārā[ja][sya*] [āyu]r ārogyam aiśvaryyañ cābhivarddhaṁ[tām][+|]
+iṣṭa-saṁpad astūttarottarā[ḥ*] kri[yās] sampadya[ntāṁ][+|]
+śrīmad-asanapurādhiṣṭhāna1019-vāsī1020 śrīmad-bhagavat-svāmi-mahāsena1021-pādānudhātānā[ṁ] tribhuvana-mātr̥bhir1022 abhiraksitānāṁ mānavya1023-sa(na)gotrāṇāṁ hārītī-putrāṇāṁ kauśi[kī]1024-vara-prasāda-labdha-rājyānāṁ1025 catur-udadhi-paryyan(a)1026ta(ḥ)-prathita-yaśasāṁ1027 aśvamedha1028-yājināṁ1029 caḷukyānām anvayam unnamayituṁ1030 saṅkrandana1031-bhūta-raṇarāgasya
+
+Face IIa.
+praṇaptuḥ1032 asahya-vikramasya vipula-kīrtte[ḥ*] kīrttiva[r*]mmaṇa[ḥ*] prapautra[ḥ*] śakti-traya-vaśikr̥ta1033-sakala-mahī-maṇḍalasya satyāśraya1034-pr̥thivī1035-vallabhamahārājādhirāja-parameśvara-bhaṭṭārakasya priyānujasya svāsidhārā-namita-samasta-sāmanta-maṇḍalasya [stha]la-jalādhi-durgga-viṣameṣv api la[bdha]-vijayasya1036 prathita-jana-prastuta-kāmadheno[ḥ*] lokātiśayita-vikramatāya naraloka-vikra[masya vi]ṣṇuvarddhana-ma[hārājasya] priyatanayasyāneka-samara-saṁghaṭṭa-labdha-vijaya-śīlatā-prasūta-yaśaḥ-prasūtāmoda-ga[ndhā]dhivāsita-sakala-dig-maṇḍalasya
+
+Face IIb.
+nānā-śāstrābhyāsopabr̥ṁhita-niśita-vimala-buddheḥ tyāg-audārrya-gāṁbhīrrya-dhairyya-kānti-prajñādi-guṇa-gaṇāla[ṁ*]kr̥tasya trailokya1037-vikramo[d*]dyotita1038-sakala-lokāśraya-bhuja-yugaḷa-bala-namitāśeṣa-ripu-nr̥pativara-makuṭa-taṭa-ghaṭitāneka-maṇi-kiraṇa-rāga-rañjita-caraṇāravinda-yugaḷasya vīra1039-dhvajopātta-śakrā[r*]ddhi-visparddhita-vibh[ū]ter anekāhita-nara-vara-śiraḥ-karoṭikā-vitā[na]-vikhyāta-yaśaso
+
+Face IIIa.
+deva-dvija-guru-yaty-atithi1040-śiṣṭeṣṭānujīvi1041-saṁbandhibhir anavarata-prakāmopabhoga-bhujyamāna-vividha-puṇya-phala-saṁpūrṇṇāmr̥ta1042-dhenoḥ śrī-jayasiṁghavallabhamahārājasya priyānujasya tyāgadhenoḥ1043 śakti-traya-saṁpannāneka1044-vidyā-viśāradasya1045 ripu-maṇḍaleṣv api vigraha-siddheḥ1046 siṁha-vikrama-nayopetatvād1047 rāja-lokāśraya-śrīmad-indravarma-mahārajasya putra[ḥ*]
+
+Face IIIb.
+nānā-śāstrābhāsopā[ttā*]neka1048-vidyā-viśāradaḥ viṣṇuvarddhana-mahārājaḥ1049 paḷḷi-rāṣṭre koṇe[ki]-nāma-grāma[ṁ*] saṁpradāya1050 grāmeyakān rājapuruṣa-taḷavara-daṇḍa-nāyaka-rāṣṭrika-dhūta-bhaṭa-naṭa-ceṭaka-paricāraka-niyuktādhyakṣa-praśāstr̥-samāhartr̥-(nā)nāyakāṁś cājñapayati1051[+|]
+śrotriyasya sakala-dig-anta-prathita-yaśaso yajana-yājanādhyayanādhyāpana-dāna-pratigraha1052-niyama-niratasya sarvvāgama-viśeṣa-pratipādanatvād
+
+Face IVa.
+adyakāla-vararucir iti vikhyātasya mahāsenaśarmma[ṇaḥ] putrāya viduśa[r*]mmaṇe1053 brāhmaṇa-sūtra-mantra-tantropaniṣa[t*]-prabhr̥ty-aneka1054-vidyā-viduṣe parāśara-gotrāya1055 sarvva-sat[*]tvānukaṁpita-maitrī1056-ci(r)ttāya taittirīyaka1057-cara[ṇā]ya āpastamba-sūtrāya kandeṟuboya-brāhmaṇāya1058 ātukuru-vāstavyāya1059 māgha-māse soma(g)grahaṇa-kā[le] asmad-āyur-bala-vijaya-bhogaiśvaryyāvr̥ddhaye1060 sampradatta devabhoga-hala-varjja[+|]
+
+Face IVb.
+mamānvayajā ye kecid anāgate kāle bhūmipā[lā][ḥ*] sarvve grāma-sa[ṁ*]rakṣaṇaṁ kurvvantu grāma-saṁbhavādhikr̥tā[ḥ*] sarvve ayyaṇ-anvayajā dhanañjaya-prabhr̥tayas tat-puruṣāś1061 ca[+|]
+etasya grāmasya1062 śottara-śate[ṣv1063 aṁ]śeṣu viṣṇuśarmmaṇe viṁṣati[ḥ*] aṁśakāḥ1064[+|]
+tasya sūnave1065 m[ā]diśarmmaṇe viṁśati[ḥ*][+|]
+mahāsenaśarmmaṇe viṁśati[ḥ*][+|]
+tasya ca priy[ā]nujāya1066 dāmaśarmaṇe viṁśati[ḥ*][+|]
+
+Face Va.
+mudokuraboyāya1067 gaṇaiśarmmaṇe1068 ṣaṭ[+|]
+[ā]tukuruboyāya1069 viṣṇuśarmmaṇe pañca[+|]
+koṇḍasāmiboyāya1070 pañca[+|]
+pāṭiboyāyaika1071[+|]
+kumunūruboyāya1072 mādiśarmmaṇe1073 catvāraḥ1074 * * * i1075-boyāya1076 dvau1077[+|]
+naḍukuṟiboyāya1078 sarvvaśarmmaṇe dvau[+|]
+veḷu[caḷiboya]-pe[ṭṭa]śarmmaṇe1079 dvau[+|]
+re * * * boyāya1080 dvau[+|]
+kanpaṟboyāya1081 maṇḍaśarmma[ṇe] dvau[+|]
+revaśarmma[ṇe] dvau[+|]
+irukuṭūru(r)boyāya1082 dvau[+|]
+yo [+’]smac1083-chāsanaṁ atikramya[ti*]1084 sa pāpaḥ1085 śārīraṁ daṇḍam arhati[+||]
+
+Face Vb.
+bhūmidānā[t paran dā] [na*]n na bhūtan na bhaviṣyati[+|]
+[tasyāpa]-haraṇāt pāpan na bhūtan na bhaviṣyati[+||] (1)
+sva-dattāṁ para-dattāṁ vā yo hareta1086 vasundharām1087[+|]
+[gavāṁ śata-saha][srāṇāṁ ha*][ntu][ḥ*] pibati kilbiṣam1088[+||](2)
+ba[hu]bhi[r*] vasudhā dattā bahubhiś cānupāli[tā][+|]
+[ya]sya yasya ya[dā bhū]mi[s*] tasya tasya tathā phalam1089[+||](3)
+śrī-jayasiṁgha(ha)-vallabhamahārājasya pravarddhamāna-vija[ya*]-rājya-sa[ṁ*]va[t*]sare triṁśatitama-varṣe1090 āśvayuje māse śuklapakṣe da[śa]mī-divase śravaṇa-candravāre gaṁgavijaya-varddhaki-likhitam idaṁ śāsa[nam]1091[+|] svasti[+|]
+
+
+</p>
+<pb n="7v"/><!--@@@LAST PAGE NUMBER-->
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="6">
+        <lem>-pu<unclear reason="eccentric_ductus">ñja</unclear></lem>
+        <note>While <foreign>puñja</foreign> must have been intended, the engraved character is conspicuously not <foreign>ñja</foreign> (compare l7, <foreign>mañjarita</foreign>) and looks rather like <foreign>ṇḍa</foreign> (compare l15, <foreign>maṇḍa</foreign> and especially l12, <foreign>pasiṇḍi</foreign>).</note>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-12"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-12"></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+   <!--  -->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Edited (from the original?) in bib:Narasimhaswami1955-1956_01, with translation, estampages of the plates and a (poorly printed) photograph of the seal. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:Gaur1975_01"/><citedRange>4-5</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
