@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Nutulapaṟu Grant of Maṅgi Yuvarāja</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE23-Nutulaparu-Mangi</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas.  -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-05-29" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-vijayasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>
+Face Ib.
+svasti śrīmatāṁ sakala-jagad-abhiṣṭūyamāna-mānavya1106-sagotrāṇ[ā*]ṁ hāriti-putrāṇāṁ kauśikī1107-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan1108-nārāyaṇaprasāda-samāsāditavarāha-lañchanānāṁ aśvamedhāvabhr̥tha-snāna-pavitrī1109-kr̥ta-vapuṣāṁ caḷukyānāṁ kula-jaladhi-samuditendor nnaya-vinaya-vikramopārjita-cāru-bhūri-kīrtteḥ śrī-jayasiṁghavallabhamahārāja-priyānujasyendra-samāna-vikramasya śrīn[dra]1110-bhaṭṭārakasya sūnor1111 aneka-samara-saṁghaṭṭopalabdha-
+
+Face IIa.
+yuddha-vijaya-yaśaḥ-prasūtyāmoda-gandhādhivāsita-sakala-dig-maṇḍalasya nānā-śāstrābhyāsopabr̥ṁhita1112-vimala-viśāla-buddhe[ḥ*] tyāg-audāryya-dhairyya-kā[n*]tyādi-guṇālaṁkr̥tasya(ḥ) śrī-viṣṇuvarddhana-mahārājasya(ḥ) priyatanayaḥ samatiśayita1113-pitr̥1114-guṇa-śakti-sampanna ānvīkṣikyādi1115-vidyā-praśneṣu1116 vijaya-siddhi[ḥ*] sv[ā*]si-dhāraṇānamita-ripu-nr̥pati-makuṭa-taṭa-ghaṭitāneka-maṇi-kiraṇa-rāga-raṁjita1117-caraṇayugaḷaḥ parama-brahmaṇyo mātā-pitr̥1118-pādānudhyātaḥ śrī-sarvvalokāśraya-mahārājaḥ kraṁja-v[ā*]stavy[ā*]ya kāśyapa1119-gotr[ā*]ya
+
+Face IIb.
+āpastaṁba-sūtrāya1120 taittirīya1121-sabrahma-cāriṇ[e*]1122 kuliśarmmaṇa[ḥ*] pautrāya doṇaśarmmaṇa(ṇa)ḥ putrāya kuṇḍi-doṇaśarmmaṇe karmarāṣṭre nutulapaṟu-nāma-grāme dakśiṇa1123-diśāy[āṁ*] padanta-kṣetra[ṁ*] dattam1124 revadistane br[ā*]hmaṇa-kṣetra[m*][+|]
+dakṣiṇata[ḥ*] taṭ[ā*]kaṁ
+[paścimataḥ*] peṇukapaṟabuṁ-br[ā*]hmaṇa-kṣetra[m*][+|]
+uttarata[ḥ*] nidubaṁ-ṟupanta[+|]
+pūrvvata[ḥ*]1125 doṇavādipanta-br[ā*]hmaṇa-kṣetra[m*][+|]
+dakṣiṇata[ḥ*] etakaṇḍa-nāmā-brāhmāṇa1126- kṣetra[m*][+|]
+paścimata[ḥ*] veḷeṟukaṇḍi-nāma-br[ā*]hmaṇa-kṣetra[m*][+|]
+uttarata[ḥ*] etakaṇḍa-nāmā-brāhmaṇa-kṣetra[m*][+|]
+pūrvvata[ḥ*]1127 śrama-taṭāka-br[ā*]hmaṇa-kṣetra[m*][+|]
+pascimata[ḥ*] br[ā*]hmaṇa-kṣetra[m*] [+|]
+
+Face IIIa.
+uttarata[ḥ*] veḷuka-taṭāka-br[ā*]hmaṇa-kṣetra[m*][+|]
+pūrvvata[ḥ*]1128 koṟinipa ?1129 [brāhma]ṇa-kṣetra[m*] [+|]
+dakṣiṇata[ḥ*] ca tac-catur-avadhiḥ1130 dv[ā*]-daśa-kaṇḍika-kodra[va*] ?1131 [kse]tra[m*] uttarāyaṇa-nimitte udaka-pūrvaṁ1132 sa(ṁ)rva-kara-parihārena1133 datta[m*][+||]
+[pravarddhamāna-vija]ya-rājya-saṁvatsare viṁśe1134[+||]
+atra vy[ā*]sa-gītā[ḥ*] ślokāḥ1135[+||]
+bah[ubhir vvasudhā dattā] bahubhiś cānupālitā[+|]
+yasya yasya yad[ā*] bhūmi[ḥ*] tasya [tasya tadā phalam][+||](1)
+sva-dattāṁ para-dattāṁ v[ā*] yo hareta1136 vasundharām[+|]
+ṣaṣṭi1137-va[rṣa-sahasrāni] viṣṭhāyāṁ jāyate kr̥miḥ[+||](2)
+ājñāpti[ḥ*] nissaramiji 1138[+||]
+
+</p>
+<!--CHECK final verso-->
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="X">
+        <lem></lem>
+        <rdg source="bib:Fleet1894-1895_02"></rdg>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-2">
+</p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-2">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+   <!--  -->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Edited from the original in bib:Fleet1894-1895_02, with a summary of the contents. There seems to be no published estampage, but CHECK a printed copy of IA20. The present edition thus follows Fleet. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:Gaur1975_01"/><citedRange>4-5</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
