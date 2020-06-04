@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title></title>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+          <persName ref="part:csde">
+              <forename>Csaba</forename>
+              <surname>Dezső</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">TEMP-SamFogg-Mangi</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-06-04" status="draft">Commenced draft</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-vijayasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svast<unclear>i śrīmatāṃ</unclear> sakala-<unclear>ja</unclear>gad-abhiṣṭūyamā<unclear>na</unclear>-mā<unclear>na</unclear><supplied reason="lost">v</supplied>y<supplied reason="lost">a-sagotrāṇāṃ hāritī</supplied><lb 
+n="2" break="no"/>pu<unclear>trā</unclear>ṇāṃ kauś<orig>i</orig>ki-vara-prasāda-labdha-rājyānāṃ mātṛ-ga<unclear>ṇa-paripāli</unclear><supplied reason="lost">tānāṃ </supplied><lb 
+n="3"/>bhaga<space type="binding-hole"/>van-nārāyaṇa-pras<choice><sic>a</sic><corr>ā</corr></choice>da-s<choice><sic>ā</sic><corr>a</corr></choice>mās<choice><sic>a</sic><corr>ā</corr></choice>dita-varāhalāñchan<choice><sic>a</sic><corr>ā</corr></choice><unclear>n</unclear>ā<supplied reason="lost">m aśvame</supplied><lb 
+n="4" break="no"/>dhā<space type="binding-hole"/>vabhṛtha-snān<choice><sic>ā</sic><corr>a</corr></choice>-pavitrīkṛta-vapuṣāṃ caḷukyānāṃ <unclear>ku</unclear>la-<supplied reason="lost">jaladhi-sa</supplied><lb 
+n="5" break="no"/><unclear>m</unclear>uditendo<unclear>r</unclear> @@@ nnayavinayavikramopārjitacarāca…
+6. …va[lla]bhamahārājapriya(ā)nujasyendrasamā…
+
+1. ndrabhaṭṭ[āraka]sya smaraṇakaya(?) …
+2. ndrama.dagandhādhivāsitasakaladigmaṇḍalasya nānāśāstrābhya(ā)sopa.r
+3. … vimalaviśālabuddhe[s] tyāgobāryya(audāryya?)dhairyyakā(?)diguṇāla[ṃ]
+4. [k]ṛ[ta]sya{ḥ} śrīviṣṇuvarddhanamahārājasya priyatanayaḥ samati…
+5. pitrā guṇaśaktisampannaḥ ānvīkṣikyādividya(ā)prayogeṣu vijayasiddhi[r a]
+6. sidhāraṇanamitaripunṛpatimakuṭataṭaghaṭitānekamaṇikiraṇarāgara[ṃjita?]…
+
+Somdev
+
+A:
+1:svasti śrīmatāṃ sakalajagadabhipūjayamā[na]māna[vyasagotrāṇāṃ hārīti-]\\
+2:putrāṇāṃ kauśikivaraprasādalabdharājyāṇāṃ mātṛgaṇaparipāli[tānāṃ] \\
+3:bhagavannārāyaṇaprasādas{ā}māsditavarāharalañchanā+++śva\\
+4:medhāvabhṛtasnānapavitrīkṛtavapuṣāṃ cālukyānā[ṃ] kula[m alaṃkariṣṇoḥ]\\
+5: mudite *n nayavinayavikramopajāta[…]\\
+6:+yavaprabhamahārājā priya[nu]jasyendrasamā[…]\\
+
+B
+1: [dre]++++sya ssaraṇekasa…\\
+2: +ya++gandhādhivāsitasa[ka]ladi[ś*ṇ]ūlasya nānā śāstrāny as[ope*ra]\\
+3: hi[ta]vimalaviśālabuddhe tyāgo [dh]āryya[śau]ryyak[ā]ntyādiguṇālaṃ\\
+4: kṛtasyaḥ śrīViṣṇuvarddhanamahārājasya priyatanayaḥ samati[krāṃ]ta\\
+5: pi[tṝ]guṇaśaktisampannaḥ ānvīkṣikyādividy[ā]prayogeṣu vijayasiddhi[r a]\\
+6: sidhāraṇanamitaripunṛpatimakuṭata[ṭayaṭimaṇaka]maṇikiraṇa[…]\\
+
+</p>
+<pb n="3v"/>
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem><space type="binding-hole"/>van-</lem>
+        <note>In the photo, the ring completely obscures the text before the hole. It seems quite certain that there is at least one character here, but <foreign>bha</foreign> may instead be lost to damage at the end of line 2.</note>
+      </app>
+      <app loc="4">
+        <lem>°dhā<space type="binding-hole"/>vabhṛtha-</lem>
+        <note>Again, text to the left of the hole is not visible. Possibly, <foreign>me</foreign> may be here instead of being lost at the end of line 3.</note>
+      </app>
+      <app loc="5">
+        <lem>°<unclear>m</unclear>uditendo<unclear>r</unclear></lem>
+        <note>This segment of text is very hard to read because of glare in the closeup photo of the page. One photo of two facing pages shows it without glare, but in quite poor resolution. The body of <foreign>mu</foreign> is indiscernible here but may be clear in the original plate. The remaining characters can be confidently identified in this latter photo, except for <foreign>r</foreign> (attached to the following <foreign>nna</foreign>), which may have been omitted in the original.</note>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17">
+</p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+   <!--  -->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- No previous edition. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
