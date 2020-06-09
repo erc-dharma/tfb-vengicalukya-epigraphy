@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Peṇukapaṟu Grant of Jayasiṁha II</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE23-Penukaparu-Jayasimha2</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. M occurs in lines 19, 21, 23, 28 and 30. The one in 19 looks like ma, slightly simplified and only slightly reduced in size; the others are much smaller and more simplified, and raised. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations.  -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-06-09" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-sarvvasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="omitted">|</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ <lb 
+n="2"/>sapta-<unclear reason="eccentric_ductus">lo</unclear>ka-māt<unclear reason="eccentric_ductus">r</unclear>̥bhiḥ paripālitānāṁ svāmi-mahāsena-pāda-bhaktānāṁ bhagavan-nārā<lb 
+n="3" break="no"/>yaṇa-prasāda-samāsādita-vara-varāha-lāṁchanekṣaṇa-kṣaṇa-vaśikr̥t<choice><sic>a</sic><corr>ā</corr></choice>śeṣa-śa<lb 
+n="4" break="no"/>tru-ma<space type="binding-hole"/>ṇḍalānām<surplus>m</surplus> aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāṁ <orig>caḷikyānāṁ</orig> kula<lb 
+n="5" break="no"/>m a<space type="binding-hole"/>laṁkariṣṇoḥ śrī-viṣṇuvarddhana-m<choice><sic>ā</sic><corr>a</corr></choice>hārājasya pautraḥ śrī-sarvvalokāśra<lb 
+n="6" break="no"/>ya-mahārājasya putraḥ svāsi-dhārā-namita-rājanya-makuṭa-taṭā-ghaṭ<surplus>ṭ</surplus><unclear>i</unclear>ta<lb 
+n="7" break="no"/>-maṇi-mayū<choice><sic>k</sic><corr>kh</corr></choice>a-puñja-<supplied reason="omitted">mañja</supplied>rī-rañjita-caraṇayuga<unclear>ḷaḥ</unclear> pratāpavān prasanna-viniveśita-śakti-tra<unclear>yaḥ</unclear> <lb 
+n="8"/>parama-b<unclear>r</unclear>ah<unclear>m</unclear>aṇ<unclear>y</unclear>o mātā-pitr̥-pādānudhyātaḥ sakala-lokāśraya-śrī-ja<unclear>ya</unclear><pb 
+  
+n="2r" break="no"/><lb 
+n="9" break="no"/>siṁgha-vallabha-mahārājaḥ sarvv<choice><sic>a</sic><corr>ā</corr></choice>n ittham ājñāpayati</p>
+<p>viditam astu vo <supplied reason="subaudible">’</supplied>smābhiḥ vaṁgipaṟu-v<choice><sic>a</sic><corr>ā</corr></choice>stavy<unclear>ā</unclear>ya <lb 
+n="10"/>kauṇḍinya-gotrāya taittirīyāyāpastaṁba-sūtrāya guṁjadevaśarmmaṇa<supplied reason="omitted">ḥ</supplied> pautrāya sarvva<lb 
+n="11" break="no"/>-kratu-yājino devaśarmmaṇaḥ putrāya catur-vveda-pāragāya sarvva-śāstra-viśāradāya <lb 
+n="12"/>śrī-Eṟa<space type="binding-hole"/>droṇaśarmmaṇe</p>
+<ab>karmma-rāṣṭra-viṣaya-nivāsi-ku<add place="below" rend="mark">ṭu</add>ṁbina<add place="inline">ḥ</add> bhavad-viṣaye sarvvān i<lb 
+n="13" break="no"/>ttha<space type="binding-hole"/>m ājñāpayati</ab>
+<p>jyaiṣṭhyāṁ paurṇṇamāsyāṁ saṁkrānti-kāle bhūmidāna-nimitte <lb 
+n="14"/>gobbaḍi-vijñāpanāt karmma-rāṣṭre peṇukapaṟu-nāma grāme tasya grā<lb 
+n="15" break="no"/>masyottara-pūrvvasyān diśi kṣetran datta</p>
+<p>asya kṣetrasya pūrvvato <supplied reason="subaudible">’</supplied>vadhiḥ niḍugaṭṭa-taṭā<lb 
+n="16" break="no"/>ka<orig>ḥ</orig><supplied reason="omitted">|</supplied> 
+dakṣiṇato <supplied reason="subaudible">’</supplied>vadhiḥ pūsa-boḷa-kṣetrāntaḥ<supplied reason="omitted">|</supplied>
+pa<del>ści</del>ścimato <supplied reason="subaudible">’</supplied>vadhiḥ dego <gap reason="illegible" quantity="6" unit="character" precision="low"/><lb 
+n="17"/><unclear>na</unclear>kupovu panthāḥ<supplied reason="omitted">|</supplied>
+Uttarato <supplied reason="subaudible">’</supplied>vadhiḥ maṣakhāvadhiḥ<supplied reason="omitted">|</supplied></p>
+<p>t<unclear>oṁ</unclear>dha-kṣetraṁ grā<unclear>ma</unclear>sy<unclear>o</unclear><supplied reason="lost" cert="low">tta</supplied><unclear cert="low">ra</unclear><unclear>ta</unclear>s ta<pb 
+  
+n="2v" break="no"/><lb 
+n="18" break="no"/>ṭākaḥ tasyottarāparasyān diśi<supplied reason="omitted">|</supplied> tasya pūrvvato <supplied reason="subaudible">’</supplied>vadhiḥ kūpaḥ<supplied reason="omitted">|</supplied>
+dakṣiṇato <supplied reason="subaudible">’</supplied>vadhiḥ <unclear>taṭāka</unclear>ḥ<supplied reason="omitted">|</supplied>
+paścimata <lb 
+n="19"/>Uttarataś ca j<unclear cert="low">e</unclear>ḍḍa-boḷa-kṣetrānto <supplied reason="subaudible">’</supplied>vadhiḥ<supplied reason="omitted">|</supplied>
+Asya kṣetrasya kūpa-dvayaM<supplied reason="omitted">|</supplied>
+taṭāka E<lb 
+n="20" break="no"/>kaḥ<supplied reason="omitted">|</supplied> kūpaḥ<supplied reason="omitted"></supplied> tāla-taṭākasya pūrvvataḥ</p>
+<p>dakṣiṇārddhe vrīhi-kṣetraṁ catuṣṭaya parimā<lb 
+n="21" break="no"/>ṇaṁ prā<space type="binding-hole"/>g-apavarggaṁ ca</p>
+<p>grāmasyottara-pūrvva-deśe girāv a<supplied reason="omitted">va</supplied>kāśaM</p>
+<p>Eta<orig><add place="above">ś</add></orig> catur-avadhi<lb 
+n="22" break="no"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<orig><unclear>ā</unclear></orig>n dharmma-yaśobhivr̥ddhaye sarvva-kara-parihāropetam u<del rend="mark">ka</del>daka-pū<lb 
+n="23" break="no"/>rvvakaṁ brahmadeyī-kr̥tya prādāM<supplied reason="omitted">|</supplied>
+Asya sarvva-kara-parihāropetasya kṣetrasya yo <lb 
+n="24"/>bādhāṁ karoti sa<surplus>ḥ</surplus> <orig>vāraṇāśyāṁ</orig> sahasra-brahma-haty<orig>a</orig>-pātaka-saṁyukto bhavati<supplied reason="omitted">|</supplied><lb 
+n="25"/>yo <supplied reason="subaudible">’</supplied>smac-chāsanam atikr<choice><sic>a</sic><corr>ā</corr></choice>met sa pāpaḥ śār<choice><sic>i</sic><corr>ī</corr></choice>ran daṇḍam arhati so <supplied reason="subaudible">’</supplied>pi paṁca-mahā<pb 
+
+n="3r" break="no"/><lb 
+n="26" break="no"/>-pātaka-saṁyukto bhavati<supplied reason="omitted">|</supplied> bhavanti cātra ślokāḥ</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">bhūm<unclear>i</unclear>-dānāt pa<unclear>ran dānan</unclear></l>
+<l n="b"><unclear>na bhūtan na</unclear> bha<lb n="27" break="no"/>viṣyati</l>
+<l n="c">tasyaiva haraṇāt pāpan1152</l>
+<l n="d">na bhūtan na bhaviṣyati<space/></l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">sva-dattām para-dattāṁ vā</l>
+<l n="b"><lb n="28"/>yo <del>re</del>hareta vasundharāM</l>
+<l n="c">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
+<l n="d">viṣṭhāyāṁ jāyate k<choice><orig>ri</orig><reg>r̥</reg></choice>miḥ</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><lb n="29"/>bahu<space type="binding-hole"/>bhir vvasudhā dattā</l>
+<l n="b">bahubhiś cānupālitā</l>
+<l n="c">yasya yasya yadā <lb n="30"/>bhūmis</l>
+<l n="d">tasya tasya tadā phalaM</l>
+</lg>
+<p>ājñaptir nniravadya-sakala-lokāśraya-śrī-pr̥thiv<choice><orig>i</orig><reg>ī</reg></choice>-gāmuṇḍī</p>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><lb n="31"/>vindhyāṭav<choice><sic>i</sic><corr>ī</corr></choice>ṣv atoyāsu</l>
+<l n="b">śuṣka-koṭara-vāsina<supplied reason="omitted">ḥ</supplied></l>
+<l n="c">kr̥ṣṇāhayo hi jāyante</l>
+<l n="d"><unclear>brahmadeyāpa</unclear>hārakā<unclear>ḥ</unclear></l>
+</lg>
+<pb n="3v"/>
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="1">
+        <lem>hārīti-</lem>
+        <note>I adopt Hultzsch's reading but note that this looks more like <foreign>hāritī</foreign> in my scan. The difference between <foreign>i</foreign> and <foreign>ī</foreign> is minor and the vowels are not very clear, being right on the edge of the plate.</note>
+      </app>
+      <app loc="2">
+        <lem>-puñja-<supplied reason="omitted">mañja</supplied>rī-</lem>
+        <note>Probably an eyeskip omission, but this phrase normally involves <foreign>mañjarī-puñja</foreign>.</note>
+      </app>
+      <app loc="11">
+        <lem>-ku<add place="below" rend="mark">ṭu</add>ṁbina<add place="inline">ḥ</add></lem>
+        <rdg source="bib:Hultzsch1925-1926_04">-ku<add place="below" rend="mark">ṭu</add>ṁbinaṁ</rdg>
+        <note>The addition <foreign>ṭu</foreign> was engraved immediately below <foreign>ku</foreign>, and probably before engraving the next line. A small cross to the right of the headmark of <foreign>ku</foreign> indicates the correction. Where Hultzsch sees an <foreign>anusvāra</foreign>, I see a <foreign>visarga</foreign>. Its dots are above and below the limb of the following <foreign>bha</foreign>, so even if it is an <foreign>anusvāra</foreign>, it was in all probability added subsequently.</note>
+      </app>
+      <app loc="16">
+        <lem>pa<del>ści</del>ścimato</lem>
+        <note>According to Hultzsch, the first <foreign>ści</foreign> seems to have been struck out. No indication of this is visible in the estampage. This character is slightly smaller than, and less clearly formed, than the next one, but I cannot tell for certain why it was re-engraved. It may, perhaps, have started as <foreign>ci</foreign>, which the engraver tried to correct into <foreign>ści</foreign>, then decided to re-engrave.</note>
+      </app>
+      <app loc="17">
+        <lem><unclear>o</unclear><supplied reason="lost" cert="low">tta</supplied><unclear cert="low">ra</unclear><unclear>ta</unclear>s</lem>
+        <rdg source="bib:Hultzsch1925-1926_04"><unclear>o</unclear> <gap reason="illegible" quantity="2" unit="character"/> <unclear>ta</unclear>s</rdg>
+        <note>Hultzsch indicates the lacuna with two dots. Since he uses six dots for the lacuna at the end of the previous line, he clearly means two lost characters, with which I concur. The span of the lacuna is actually more like three character widths, but there must have been characters hanging down into this line from the one above. I think vestiges or <foreign>ra</foreign> are visible immediately before the damaged but recognisable <foreign>ta</foreign>, and thus restore as shown.</note>
+      </app>
+      <app loc="19">
+        <lem>E<lb/>kaḥ<supplied reason="omitted">|</supplied> <gap reason="ellipsis"/> pūrvvataḥ</lem>
+        <note>Hultzsch parses this passage differently, supplying punctuation after <foreign>taṭāka ekaḥ kūpaḥ</foreign> and reading <foreign>tāla-taṭakasya pūrvvataḥ</foreign> as part of the following sentence.</note>
+      </app>
+      <app loc="21">
+        <lem>girāv a<supplied reason="omitted">va</supplied>kāśaM</lem>
+        <note>In a note, but not in the text of the edition, Hultzsch tentatively suggests the emendation <foreign>giry-avakāśaM</foreign>.</note>
+      </app>
+      <app loc="21">
+        <lem>Eta<orig><add place="above">ś</add></orig> catur-avadhi<lb 
+n="22"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<orig><unclear>ā</unclear></orig>n</lem>
+        <rdg>Eta<choice><sic>ś</sic><corr>c</corr></choice>-catur-avadhi<lb/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<choice><sic>ā</sic><corr><corr>a</corr></corr></choice>n</rdg>
+        <note>An initially engraved <foreign>ca</foreign> was corrected to <foreign>śca</foreign> by engraving <foreign>ś</foreign> on top, which Hultzsch does not mention. His interpretation and emendation are plausible, but I believe the intent of the composer or the corrector may rather have been <foreign>etāṁś catur-avadhi-paryyantān kṣetrān</foreign>, even though <foreign>kṣetra</foreign> is expected to be neuter.</note>
+      </app>
+      <app loc="22">
+        <lem>u<del rend="mark">ka</del>daka-</lem>
+        <note>The first <note>ka</note> is cancelled by a short horizontal stroke above it.</note>
+      </app>
+      <app loc="26">
+        <lem>pa<unclear>ran dānan</unclear><unclear>na bhūtan na</unclear> bha<lb/>viṣyati</lem>
+        <note>Hultzsch prints all of this clear except for <foreign>ū</foreign>. The scanned rubbing is none too clear, but there is something strange going on here with character sizes and spacing: the preceding <foreign>nā</foreign> and <foreign>tpa</foreign> are very large and quite ornate, but the following characters are crowded together. <foreign>bhū</foreign> also seems to be quite large, but all other characters of this segment occupy very little space. The last three characters in the line are not discernible at all in the scan, and apparently occupy about as much space as the earlier <foreign>tpa</foreign> alone. It seems quite likely that a correction of an eyeskip omission was involved here, but I cannot ascertain any details.</note>
+      </app>
+      <app loc="28">
+        <lem><del>re</del>hareta</lem>
+        <note>Hultzsch emends, but does not note the presence of original correction. I assume the extra <foreign>re</foreign> was deleted, but cannot be certain.</note>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+   <!-- I adopt the reading of the seal as shown by Hultzsch, without indication of unclarity, in the introduction to his edition. In the scan of the photo in EI18, I can only make out vestiges of vva..ddh. -->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Reported in bib:ARIE1923-1924 Appendix A (1924-25) No. 4, description on p. 93. Edited from estampages in bib:Hultzsch1925-1926_04, with a summary of contents, with estampages of the plates and photograph of the seal. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
