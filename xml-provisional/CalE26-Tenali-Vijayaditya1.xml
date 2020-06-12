@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Tenali plates of Vijayāditya I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE26-Tenali-Vijayaditya1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas.  -->
+                <!--Original punctuation. The opening symbol, transliterated by Gai as "siddham", looks rather like a circle in the scanned estampage, but is probably a a sinistrorse spiral with a tail on the left. The double dots used copiously for punctuation resemble visargas, but in my perception they are more widely spaced (the lower one is below the baseline). They were read as visargas by Hultzsch where they occur at a point where a visarga would be expected. But since they also occur at many points where an anusvāra would be expected, and never in conjunction with an actually written anusvāra, I think it is more likely that when the same glyph occurs at a point where a visarga is expected, it is likewise still a punctuation mark, and the visarga is omitted. Since many of these glyphs occur at points where neither an anusvāra nor a visarga is expected, we can be certain that they can function as punctuation marks, and it is most parsimonious to assume that all their instances are such. -->
+                <!--Other palaeographic observations. Anusvāra is frequently moved to the right, so it is on top of the consonant before which it is to be understood. This is not indicated in the edition. Examples: l5 alaṁkariṣṇo -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-06-12" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śr<orig>i</orig>-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/><g type="spiralIndistinct"/>svasti<supplied reason="omitted">|</supplied> śrīmatā<unclear>ṁ</unclear> sakala-bhuvana-sa<supplied reason="omitted">ṁ</supplied>stūyamāna-mānavya-sa<lb 
+n="2" break="no"/>gotrāṇā<supplied reason="omitted">ṁ</supplied><g type="dotDouble">.</g> <orig>hāriti</orig>-putrāṇā<supplied reason="omitted">ṁ</supplied><g type="dotDouble">.</g> kauśik<orig>i</orig>-vara-prasāda-labdha-rājyā<choice><sic>ṇ</sic><corr>n</corr></choice>ā<supplied reason="omitted">ṁ</supplied> <lb 
+n="3"/>mātr̥-gaṇa-paripālitānā<supplied reason="omitted">ṁ</supplied><g type="dotDouble">.</g>
+bhagavan-nārāyaṇa-pras<choice><sic>a</sic><corr>ā</corr></choice>da-sāmāsādita<lb 
+n="4" break="no"/>-va<space type="binding-hole"/>ra-var<choice><sic>a</sic><corr>ā</corr></choice>ha-lāñcha<choice><sic>ṇ</sic><corr>n</corr></choice>ekṣa<supplied reason="omitted">ṇa</supplied>-kṣaṇa-vaśīkr̥tārāti-maṇḍal<choice><sic>a</sic><corr>ā</corr></choice>nā<supplied reason="omitted">ṁ</supplied><g type="dotDouble">.</g> <lb 
+n="5"/>Aśvam<choice><sic>a</sic><corr>e</corr></choice>dh<choice><sic>ā</sic><corr>a</corr></choice>-yājinā<supplied reason="omitted">ṁ</supplied><g type="dotDouble">.</g> calukyānā<supplied reason="omitted">ṁ</supplied><g type="dotDouble">.</g> kulam alaṁkariṣṇo<supplied reason="omitted">ḥ@</supplied><g type="dotDouble">.</g> catur-udadhi<lb 
+n="6" break="no"/>-jala-vilaṁghit<choice><sic>ā</sic><corr>a</corr></choice>-yaśaso vijayasiddhi-śrī-maṁgi-yuvarāja<supplied reason="omitted">sya</supplied> pautra<supplied reason="omitted">ḥ</supplied><g type="dotDouble">.</g> ni<lb 
+n="7" break="no"/>ja-bhuja-niś<choice><sic>ī</sic><corr>i</corr></choice>t<choice><sic>a</sic><corr>ā</corr></choice>si-dhār<choice><sic>a</sic><corr>ā</corr></choice>-praśamita-para-cakra-vikramasya<g type="dotDouble">.</g> sarvvaḷo<pb 
+
+n="2r" break="no"/><lb 
+n="8"/>kāśrayasya jiṣṇo<supplied reason="omitted">ḥ</supplied><g type="dotDouble">.</g> śrī-viṣṇuvarddhana-mahārājasya priya1232-tanaya<supplied reason="omitted">ḥ</supplied><g type="dotDouble">.</g> sva-prabhāvopalabdha1233-prājya-rājya<supplied reason="omitted">ḥ</supplied><g type="dotDouble">.</g> kaunteya iva du[ḥ]śāsana1234-kṣaya-karaḥ kārttikeya ivāpratihata1235-svāmi-śabdaḥ1236 śakti-tra[yā*]laṁkr̥taḥ parama-brahmaṇya[ḥ*] parama-māheśvaro1237 matā-pitr̥1238-pādānudhyātaḥ1239 samasta-bhuvanāśrayaḥ1240 śrī-vijayādityo1241 mahārājadhirājaḥ1242 prameśvaraḥ 1243viditam astu vo yathāsmābhiḥ1244 kārāñceḍu-vāstavyāya1245 āpastambha-sūtrāya veda-vedāṁgetihāsa-purāṇopaniṣad-artha1246-tattva1247-jñāya
+
+Face IIb.
+hārita1248-gotrāya devaśarmmaṇaḥ pautrāya pitus samāna-guṇasya śrī-kumāraśarmmaṇaḥ putrāya sadānuṣṭhīyamāna1249-pañca1250-mahāyajña-kriyāya sadātithy-ārādhana1251-[ta*]t-parāya bhaṭṭārakāya1252 devaśarmmaṇe viḷānāṇḍu-viṣaye savitur1253 udagayane candra-grahaṇa-nimitte asmad-āyur1254-ārogyābhivr̥ddhaye1255 sarvva-bādhā1256-parihāreṇa śañcaraṁbuṁ-nāma-grāmo dattaḥ 1257/
+tasya pūrvvataḥ kāvurī-sīmāva(d)dhiḥ dakṣiṇataḥ goṭṭimuka-sīmāva(d)dhiḥ paścimataḥ sannavṟoli-sīmāva(d)dhiḥ1258
+
+Face IIIa.
+uttarataḥ i[ṁ]ṭuri-sīmāva(d)dhiḥ1259<supplied reason="omitted">|</supplied>
+asyopari na kaiścid bādhā1260 kara[ṇī]yā[yaḥ ka*]roti sa pañcabhir mmahāpātajais saṁyukto1261 bhavati<supplied reason="omitted">|</supplied>
+atra vyāsa-gītau ślokau1262<supplied reason="omitted">|</supplied>
+bahubhir vvasudhā dattā bahubhiś cānupā[li*]tā[+|]
+yasya yasya yadā bhūmi(ḥ)s tasya tasya tadā phalam[+||] (1)
+sva-dattām para-dattāṁ va1263 yo hareta vasundharām1264[+|]
+gavāṁ śata1265-sahasraya hantu[ḥ*]1266 pibati kilbiṣam1267[+||] (2)
+ājñapti[r*] asya dharmmasya nirmmalo dharmma-saṁgraha[ḥ*][+|]
+eṟayavarmmā iti vikhy[ā]taḥ unnata-citto vicakṣaṇaḥ[+||] (3)1268
+likhitam1269 arjunasya putreṇa1270 iśānavarmmaṇā[+||]
+
+</p>
+<pb n="3v"/>
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem>mātr̥-</lem>
+        <note>The vowel marker for <foreign>r̥</foreign> is below <foreign>mā</foreign>, because the space below <foreign>t</foreign> is occupied by the hole.</note>
+      </app>
+      <app loc="7">
+        <lem>-dhār<choice><sic>a</sic><corr>ā</corr></choice>-</lem>
+        <note>The charater <foreign>ra</foreign> may be a subsequent insertion, as it is spaced very closely and it touches the subscript <foreign>r</foreign> of the following character.</note>
+      </app>
+      <app loc="7">
+        <lem>cakra-vikramasya</lem>
+        <note>Both the subscript <foreign>r</foreign>-s start to the right of the descender of their <foreign>k</foreign>, so that the curve of the subscript <foreign>r</foreign> resembles a bowl below the main character. This must be because the line is close to the bottom edge of the plate.</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-12">
+</p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-12">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary"><!-- There being no image of the seal, its text is shown as cited by Gai in his discussion.
+--></div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Reported in ARIE 1916-17, Appendix A (1916-17) No. 22 and p. 114. Not yet in Zotero. Edited from estampages in bib:Gai1965-1966_01, without translation, with estampages of the plates, no image of the seal. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
