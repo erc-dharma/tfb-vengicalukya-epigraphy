@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Zulakallu plates of Vijayāditya I</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE27-Zulakallu-Vijayaditya1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. T in l16 sākṣāT: simplified, slightly reduced, without headmark. M: a very small J shape raised to head height, examples in l21 uktaM; l23 phalaM; l25, pavitrikaM. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations. The anusvāra in paripālitānā<unclear>ṁ</unclear> is, according to Gai, a little to the left of nā. It is not visible in the scan. In the kr̥, the vowel marker is attached on the left of the k's loop, forming a bowl below the descender, and ending on the right at head level. The character looks exactly identical to kra, e.g. in vikramopārjita (l6). Since Gai reads it as kr̥ without any objection and similar forms of kr̥ are found in Indoskript, I accept this form as legitimate. Examples: l4 vaśīkr̥tā°; l4 pavitrīkr̥ta; l17 -kr̥tyā°; l19 kr̥tva; l24 kr̥miḥ -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-06-15" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="omitted">|</supplied> śrīmatā<supplied reason="omitted">ṁ</supplied> sakala-bhuvana-sa<unclear>ṁ</unclear>stūyamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> hāritī-putrāṇām <lb 
+n="2"/><unclear>ka</unclear>uśik<orig>i</orig>-vara-prasāda-labdha-rājy<choice><sic>a</sic><corr>ā</corr></choice>nāṁ mātr̥-gaṇa-paripālitānā<unclear>ṁ</unclear> sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mahāsena-pādā<lb 
+n="3" break="no"/>nudhyātānāṁ bhagavan-nārāyaṇa-prasāda-sāmāsādita-vara-varāha-lā<supplied reason="omitted">ṁ</supplied>chanekṣaṇa-kṣaṇa<lb 
+n="4" break="no"/>-vaśīkr̥<space type="binding-hole"/>tārāti-maṇḍalānāṁ Aśvamedhāvabhr̥tha-snāna-pavit<choice><sic>r̥</sic><corr>rī</corr></choice>kr̥ta-vapuṣā<surplus>ṁ</surplus><lb 
+n="5" break="no"/><unclear>ñ ca</unclear>lukyānāṁ kulam alaṁkariṣṇoḥ vividha-yuddha-labdha-vijaya-siddher bhuvana-mano<lb 
+n="6" break="no"/>-rāma-ma<unclear>ṁ</unclear>gi-yuvarājasya pautraḥ
+naya-vinaya-vikramopārjita-cāru-bhūri-kīrtte<supplied reason="omitted">ḥ</supplied> sarvva-<lb 
+n="7" break="no"/>lokāśr<choice><sic>ā</sic><corr>a</corr></choice>ya-śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rājasya priya-t<choice><sic>ā</sic><corr>a</corr></choice>nayaḥ svāsidhārā-prabhāvo<choice><sic>v</sic><corr>p</corr></choice>ā<pb 
+
+n="2r" break="no"/><lb 
+n="8" break="no"/>rjitāśeṣa-bhūpāla-makuṭa-koṭi-māṇik<choice><orig
+>k</orig><reg>y</reg></choice>a-śāṇa-kaṣaṇa-masr̥ṇa-nakha-maṇi-kiraṇa<lb 
+n="9" break="no"/>-kesarodbhāsita-pāda-padma-yugaḷa<unclear>ḥ</unclear> prabhu-mantrotsāha-śakti-sampa<surplus>r</surplus>nna<unclear>ḥ</unclear> parama<lb 
+n="10" break="no"/>-<choice><sic>p</sic><corr>b</corr></choice>rahmaṇya<supplied reason="omitted">ḥ</supplied> parama-māheśvaro mātā-pitr̥-pādānudhyāta<unclear>ḥ</unclear> samasta-bhuvanāśraya<supplied reason="omitted">ḥ</supplied> <lb 
+n="11"/>śrī-vija<space type="binding-hole"/>yāditya-mahārājādhirāja-parameśvara-bhaṭṭāraka<unclear>ḥ</unclear> pallināṇḍu-vi<lb 
+n="12" break="no"/>ṣaya-nivāsino rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pramukhān kuṭu<supplied reason="omitted">ṁ</supplied>bina<supplied reason="omitted">ḥ</supplied> sarvvān ittham ājñāpayati</p>
+
+<p>vidita<lb 
+n="13" break="no"/>m astu vo <supplied reason="subaudible">’</supplied>smābhiḥ paṟandhūru-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya bhāradvāja-sagotrāya <choice><unclear>Ā</unclear><unclear>A</unclear></choice>pastam<choice><sic>bh</sic><corr>b</corr></choice>a-sū<lb 
+n="14" break="no"/>tr<unclear>ā</unclear>ya t<surplus>r</surplus>ait<supplied reason="omitted">t</supplied>irīya-sabrahmacāriṇe veda-vedāṁga-vide rudraśarmaṇaḥ pautrāya sva-karmā<pb 
+
+n="2v" break="no"/><lb 
+n="15" break="no"/>nuṣṭhāna-nipu<choice><sic>n</sic><corr>ṇ</corr></choice>āya yajñaśarmmaṇa<supplied reason="omitted">ḥ</supplied> putrāya veda-vedā<supplied reason="omitted">ṁ</supplied>getihāsa-purāṇa<lb 
+n="16" break="no"/>-pāragāya catu<supplied reason="omitted">ḥ</supplied>-ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>i-kalābhijñāya sākṣāT brahma Iva golaśarmmaṇe sarvva-kara<lb 
+n="17" break="no"/>-parihār<choice><sic>i</sic><corr>ī</corr></choice>-kr̥tyāyur-ārogyaiśvaryy<choice><sic>a</sic><corr>ā</corr></choice>bhiv<choice><orig>ri</orig><reg>r̥</reg></choice>ddhaye Alluvālu-nāma-grāmo dattaḥ</p>
+
+<p><lb 
+n="18"/>Asy<choice><sic>a</sic><corr>ā</corr></choice><space type="binding-hole"/>vadhi<supplied reason="omitted">ḥ</supplied> pūrvvata<unclear>ḥ</unclear> cuvikaṇṭhipokarusu-sīm<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">|</supplied> dakṣi<choice><sic>n</sic><corr>ṇ</corr></choice>ataḥ juvikaluṁ<supplied reason="omitted">|</supplied> paści<lb 
+n="19" break="no"/>mataḥ cintapali<supplied reason="omitted">|</supplied> Ut<supplied reason="omitted">t</supplied>arata<unclear>ḥ</unclear> mupaṟu</p>
+
+<p>sūryya-gra<add place="overstrike">ha<choice><sic>n</sic><corr>ṇ</corr></choice>a-nimit<supplied reason="omitted">t</supplied>e Udaka-pūrv<unclear>v</unclear>aṁ kr̥tv<choice><sic>a</sic><corr>ā</corr></choice> sar<unclear>vv</unclear>a-ka</add><lb 
+n="20" break="no"/><add place="overstrike">ra-parih<choice><sic>a</sic><corr>ā</corr></choice>re<choice><sic>n</sic><corr>ṇ</corr></choice>a</add> datt<orig>am</orig><supplied reason="omitted">|</supplied> asyopari na kenaci<orig>t b</orig>ādhā k<choice><sic>ā</sic><corr>a</corr></choice>raṇ<choice><sic>a</sic><corr>ī</corr></choice>yā<supplied reason="omitted">|</supplied> karoti ya<unclear>ḥ</unclear> sa pa<lb 
+n="21" break="no"/><unclear>ñca-ma</unclear>hāpātaka-sa<unclear>ṁ</unclear>yukto bhavati<supplied reason="omitted">|</supplied> vyāsenāpy ukt<orig>aM</orig> ślok<orig>a</orig></p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">bahubhi<pb n="3r" break="no"/><lb n="22" break="no"/>r vasudhā dattā</l>
+<l n="b">bahubhiś cānupālitā</l>
+<l n="c">yasya yasya yadā bhūmis</l>
+<l n="d">tasya t<choice><sic>ā</sic><corr>a</corr></choice>sya t<choice><sic>ā</sic><corr>a</corr></choice><lb n="23" break="no"/>dā phalaM</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">sva-d<choice><sic>ā</sic><corr>a</corr></choice>ttām para-dattāṁ <add place="below">vā</add></l>
+<l n="b">yo hare<add place="inline">ta</add> vasundharā<unclear>ṁ</unclear></l>
+<l n="c">ṣaṣṭir vvarṣa-s<surplus>r</surplus>ahasr<choice><sic>a</sic><corr>ā</corr></choice>ṇi</l>
+<l n="d">vi<unclear>ṣ</unclear><choice><sic><unclear cert="low">r</unclear></sic><corr>ṭh</corr></choice>ā<lb n="24" break="no"/>yāṁ j<unclear>ā</unclear><space type="binding-hole"/>yate kr̥miḥ<space/></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">brahmasvan tu viṣa<supplied reason="omitted">ṁ</supplied> ghora<supplied reason="omitted">ṁ</supplied></l>
+<l n="b">na viṣa<unclear>ṁ</unclear> viṣaṁ ucayate</l>
+<l n="c">viṣa<lb n="25" break="no"/>m ekākin<choice><sic>ā</sic><corr>a</corr></choice>ṁ hanti</l>
+<l n="d">brahmasvam putra-p<choice><orig>avi</orig><reg>au</reg></choice>trikaM</l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><choice><sic>ya</sic><corr>Ā</corr></choice>jñaptir asya dharmasya</l>
+<l n="b">nirmalo dharma-saṁgra<lb 
+n="26" break="no"/>ha<supplied reason="omitted">ḥ</supplied></l>
+<l n="c">boḻama nāma loke <supplied reason="subaudible">’</supplied>smi<unclear>ṁ</unclear></l>
+<l n="d">puṇya-cit<supplied reason="omitted">t</supplied>o naro<choice><sic>k</sic><corr>t</corr></choice>tamaḥ</l>
+</lg>
+<p>m<unclear>ā</unclear>ramācāryyeṇa likhi<unclear>taM</unclear>
+</p>
+<pb n="3v"/>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+    <listApp>
+      <app loc="11">
+        <lem>-mahārājādhirāja-</lem>
+        <note>There are several additional strokes within the field occupied by <foreign>jā</foreign>. There may be a deleted character here, but I cannot identify it; it does not seem to be <foreign>dha</foreign>.</note>
+      </app>
+      <app loc="18">
+        <lem>cuvikaṇṭhipokarusu-</lem>
+        <note>The reading is quite clear, but <foreign>ka</foreign> has several extra strokes and is probably a correction engraved over something else.</note>
+      </app>
+      <app loc="18">
+        <lem>juvikaluṁ</lem>
+        <rdg source="bib:Gai1965-1966_01">juvikaluṁ</rdg>
+      </app>
+      <app loc="19">
+        <lem>°<add place="overstrike">ha<choice><sic>n</sic><corr>ṇ</corr></choice>a-nimit<supplied reason="omitted">t</supplied>e Udaka-pūrv<unclear>v</unclear>aṁ kr̥tv<choice><sic>a</sic><corr>ā</corr></choice> sar<unclear>vv</unclear>a-ka</add>°</lem>
+        <note>According to Gai, the characters <foreign>pūrvaṁ</foreign> and the <foreign>rva</foreign> of <foreign>sarva</foreign> (for both of which he reads a single <foreign>v</foreign>) are engraved over an erasure. I think the entirety of this stretch is engraved over previously engraved text, which must have been quite a bit shorter given how compressed it is. (These 15 characters occupy as much space as 10 characters in the previous line and fewer than 8 in the following one.)</note>
+      </app>
+      <app loc="20">
+        <lem>°<add place="overstrike">ra-parih<choice><sic>a</sic><corr>ā</corr></choice>re<choice><sic>n</sic><corr>ṇ</corr></choice>a</add></lem>
+        <note>According to Gai, <foreign>re</foreign> is engraved over an erasure. I think the scope of correction is larger, probably encompassing the whole of the stretch indicated here, and possibly also including the following <foreign>dattam</foreign>. Unlike the previous line, there are no conspicuous vestiges behind the characters in this one, but the characters are quite compressed in this stretch.</note>
+      </app>
+      <app loc="23">
+        <lem>vi<unclear>ṣ</unclear><choice><sic><unclear cert="low">r</unclear></sic><corr>ṭh</corr></choice>ā<lb n="24" break="no"/>yāṁ</lem>
+        <rdg source="bib:Gai1965-1966_01">viṣṭhā<lb/>yāṁ</rdg>
+        <note>The last character in this line is indistinct in the scanned rubbing, but its subscript component definitely does not look like <foreign>ṭh</foreign>.</note>
+      </app>
+      <app loc="25">
+        <lem>-p<choice><orig>avi</orig><reg>au</reg></choice>trikaM</lem>
+        <rdg source="bib:Gai1965-1966_01">-p<choice><orig>avi</orig><reg>au</reg></choice>tr<choice><orig>i</orig><reg>a</reg></choice>kaM</rdg>
+        <note>I prefer the normalisation <foreign>pautrikam</foreign>; compare <bibl><ptr target="bib:Sircar1965_01"></ptr><citedRange unit="page">190</citedRange><citedRange unit="item">98</citedRange></bibl>. I moreover wonder if the intent was not <foreign>paitr̥kam</foreign>; compare <foreign><choice><orig>pavu</orig><reg>pau</reg></choice>trāya</foreign> in line 13 of the <ref target="CalE25-Jalayuru-Visnuvardhana3.xml">Jaḷayūru grant of Viṣṇuvardhana III</ref></note>
+      </app>
+      
+      
+      
+      
+    </listApp>
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+<p n="1-13"></p>
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1-13">
+</p>
+  
+</div>
+
+
+
+
+<div type="commentary"><!-- The plates are complete with ring and seal, but the emblem of the seal was destroyed by the local goldsmith near the findspot. The seal now "looks like an empty bowl" - does this mean that the emblem was a separate component that could be popped out of the seal?  
+--></div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Reported in ARIE 1954-55, Appendix A (1954-55) No. 1; apparently not described outside the appendix. Not yet in Zotero. Edited from estampages and photographs in bib:Gai1965-1966_01, without translation, with estampages of the plates. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
