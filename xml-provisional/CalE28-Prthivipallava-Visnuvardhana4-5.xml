@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Pr̥thivipallavapaṭṭana grant of Viṣṇuvardhana IV or V</title>
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE28-Prthivipallava-Visnuvardhana4-5</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. In the Telugu section, there seems to be a final form of Ḷ, something I have never seen before. @@@CHECK this with Jens or someone. Instances are found from line 23 onward. It looks like a full-sized ḷa without a headmark, though it can be simplified to a wavy vertical line with a loop at the bottom, as in l28, -konthukaḶ. -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations. As Fleet obseres, in l10 °opajāyamāno°, jā is formed very strangely, with a downward-bending vowel marker attached to the top prong of j. In l15 -jvālā, the vowel is also attached to the upper prong, but it bends upward. The weird khā in line 16, which Fleet calls "very anomalous", looks essentially like a pa, with the right limb bending outward. It has some resemblance to a khā that, according to Indoskript, occurs in the Vijayawada plates of Cālukya-Bhīma I. -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-06-16" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="omitted">|</supplied> śrīmatāṁ sakala-bhuvana-sa<unclear>ṁ</unclear><supplied reason="omitted">s</supplied>tūyamāna-<supplied reason="omitted">māna</supplied>vya-sagotrāṇ<choice><sic>a</sic><corr>ā</corr></choice>ṁ hāri<lb 
+n="2" break="no"/>ti-putrāṇāṁ k<choice><sic>o</sic><corr>au</corr></choice>ś<choice><sic>ī</sic><corr>i</corr></choice>kī-vara-prasāda-labdha-rājyānā<supplied reason="omitted">ṁ</supplied> mātr̥-gaṇa-parip<choice><sic>a</sic><corr>ā</corr></choice>li<lb 
+n="3" break="no"/>tānāṁ <unclear>svā</unclear><space type="binding-hole"/>mi-mahās<choice><sic>ā</sic><corr>e</corr></choice>na-<choice><sic>pādānā<seg type="aksara">duā</seg>n<unclear reason="eccentric_ductus">th</unclear>anā</sic><corr>pādānudhyātānāṁ</corr></choice> bhagavan-nārāyaṇa-pra<lb 
+n="4" break="no"/>sāda-sa<surplus>dasa</surplus>māsādita-var<choice><sic>ā</sic><corr>a</corr></choice>-varāha-lāñchan<choice><sic>ā</sic><corr>e</corr></choice>kṣaṇa-kṣaṇa-vaśīkr̥<lb 
+n="5" break="no"/>t<choice><sic>a</sic><corr>ā</corr></choice>rāti-m<choice><sic>ā</sic><corr>a</corr></choice>ṇḍalānāṁ Aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣ<choice><sic>a</sic><corr>ā</corr></choice>ṁ cā<pb 
+  
+n="2r" break="no"/><lb 
+n="6" break="no"/>ḷukyānā<supplied reason="omitted">ṁ</supplied> k<choice><sic>a</sic><corr>u</corr></choice>lam alaṁkariṣṇo<unclear>ḥ</unclear> sv<choice><sic>a</sic><corr>ā</corr></choice>si-dhārā-prabhāvāvarjjitāś<surplus>r</surplus>eṣa-mahī-maṇḍala<lb 
+n="7" break="no"/>sya śrī-viṣṇuvarddhana-mahārājasya <supplied reason="omitted">pautraḥ</supplied> bhr<choice><sic>u</sic><corr>ū</corr></choice>-bh<choice><sic>ā</sic><corr>a</corr></choice>ṁga-mātra-vidhūta-sam<choice><sic>ā</sic><corr>a</corr></choice>stārāti-maṇḍalasya <lb 
+n="8"/>kāriṇa A<space type="binding-hole"/>neka-tulā-dhr̥ta-śātakumbha-viśrāṇan<choice><sic>a</sic><corr>ā</corr></choice>vadāta-śar<choice><sic>i</sic><corr>ī</corr></choice>rasya śrī-vija<lb 
+n="9" break="no"/>yāditya-mahārājasya priya-tanayaḥ cakrava<supplied reason="omitted">r</supplied>t<choice><sic>th</sic><corr>t</corr></choice>i-lakṣaṇopetaḥ cakra<lb 
+n="10" break="no"/>dhara Iva lakṣm<choice><orig>i</orig><reg>ī</reg></choice>-vallabhaḥ bhāsvān I<choice><sic>ty</sic><corr>v</corr></choice>opajāyamānodayaḥ candra Iva ja<pb 
+
+n="2v" break="no"/><lb 
+n="11" break="no"/>gad-āhlādana-karaḥ sura-gaja Iva dāna-va<supplied reason="omitted">r</supplied>ṣī jalanidhir iva gambh<choice><sic>i</sic><corr>ī</corr></choice>ra-satvaḥ yudhiṣṭhira Iva <lb 
+n="12"/>bh<choice><sic>i</sic><corr>ī</corr></choice>masenānvitaḥ kā<supplied reason="omitted">r</supplied>t<choice><sic>th</sic><corr>t</corr></choice>ikeya Ivāpratihata-śaktiḥ śakti-trayopetaḥ catasr̥ṣu nr̥<lb 
+n="13" break="no"/>pa-vidyāsu <space type="binding-hole"/> vicakṣaṇaḥ yuddheṣu viṣama-siddhiḥ A<supplied reason="omitted">r</supplied>tthi-jane kāmadhenuḥ str<choice><sic>i</sic><corr>ī</corr></choice>ṣu ma<lb 
+n="14" break="no"/>karadhvajaḥ ripu-timira-vidhvaṁsane pralayādityaḥ jvalat-pratāpānala-jvālāval<choice><sic>i</sic><corr>ī</corr></choice><lb 
+n="15" break="no"/>ḍha-ripu-nr̥p<choice><sic>ā</sic><corr>a</corr></choice>ḥ <supplied reason="omitted">śī</supplied>ghra-pavanaḥ vijig<choice><sic>i</sic><corr>ī</corr></choice><choice><sic>p</sic><corr>ṣ</corr></choice>ur ddharmma-vijay<choice><sic>i</sic><corr>ī</corr></choice> parama-brahmaṇyaḥ para<supplied reason="omitted">ma</supplied>-māhe<pb 
+
+n="3r" break="no"/><lb 
+n="16" break="no"/>śvaraḥ sarvvalokāśraya-śrī-viṣṇuvarddhana-mahārājaḥ rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pramu<unclear reason="eccentric_ductus">khā</unclear>n kuṭ<choice><sic>i</sic><corr>u</corr></choice>mbinaḥ sa<lb 
+n="17" break="no"/>rvvān ittham ājñ<orig>a</orig>payati<supplied reason="omitted">|</supplied> viditam astu vo <supplied reason="subaudible">’</supplied>smābhiḥ</p>
+
+<p xml:lang="tel">svast<choice><sic>a</sic><corr>i</corr></choice> p<choice><sic>ri</sic><corr>r̥</corr></choice>th<choice><sic>ī</sic><corr>i</corr></choice>v<orig>i</orig>-pal<supplied reason="omitted">l</supplied>ava-paṭṭana<supplied reason="omitted">ṁ</supplied>buna Ūr<choice><sic>ī</sic><corr>i</corr></choice><lb 
+n="18" break="no"/>-vāru karigaḷḷavaḍav<choice><orig>a</orig><reg>ā</reg></choice>riki<unclear cert="low">ṁ</unclear> Ūri-svāmuḷ iccina s<choice><sic>t</sic><corr>th</corr></choice>iti reṇ<choice><unclear>ḍ</unclear><unclear>ṭ</unclear></choice>uvāḍala-paṭṭanāvuraku <lb 
+n="19"/>Ariyu<space type="binding-hole"/>ḍagu teṟeyu siddhāyabu<unclear cert="low">ṁ</unclear> daṇ<choice><unclear>ḍ</unclear><unclear>ṭ</unclear></choice>u da<choice><sic>s</sic><corr>ś</corr></choice><choice><sic>a</sic><corr>ā</corr></choice>parādhabunu sarvva-bā<choice><sic>d</sic><corr>dh</corr></choice>a-pa<lb 
+n="20" break="no"/>riyāruvu Ūru dāya-sesi Icci dinikivakrabuṁ ḷedu vaccina-vāru gaḷareni Ūri-s<choice><sic>t</sic><corr>th</corr></choice>iti <lb 
+n="21"/>dappinavāru dinikivakrabuṁ vaccina-gaccuru reṇ<choice><unclear>ḍ</unclear><unclear>ṭ</unclear></choice>uv<choice><orig>a</orig><reg>ā</reg></choice>ḍala Elemuvarulemulave<lb 
+n="22" break="no"/>si-nadiyu ca<unclear cert="low">nnu</unclear>viripayi-nā<choice><sic>d</sic><corr>ḍ</corr></choice>u-varugaḷgina Eḷemuḷacesina seyuḍusanu <pb 
+
+n="3v"/><lb 
+n="23"/>mahanabiyuḶ narāḷoka-mahasatthavuḶ virāpava-mahanabiyu<unclear cert="low">Ḷ</unclear> gajñabu<unclear cert="low">ṁ</unclear> se<lb 
+n="24" break="no"/><choice><unclear cert="low">ḻḻa</unclear><unclear cert="low">thu</unclear></choice>-nadupuḶ <choice><sic>ś</sic><corr>s</corr></choice>amasta-bhuvana-śrīya-kanadiraju-badrapereya Ūri paninavrasivara <lb 
+n="25"/>vayyeti-māhanabhiḶ vayyeti-mahabhiḶ panikoḷucenerakapañcinavras<choice><unclear cert="low">i</unclear><unclear cert="low">e</unclear></choice> <lb 
+n="26"/>vayyeti<space type="binding-hole"/>-mahanabhiyuḶ <unclear cert="low" reason="eccentric_ductus">sa</unclear>kala-konthukaḶ sa<supplied reason="omitted">r</supplied>vvalok<choice><sic>a</sic><corr>ā</corr></choice>śraya-mahāsatthavaḶ <lb 
+n="27"/>pe<choice><unclear>ṭṭā</unclear><unclear>rdda</unclear></choice>Ḷ <choice><orig>ne</orig><reg>ni</reg></choice>ravadya-mahāsartthavaḶ pasiṇ<choice><unclear>ḍ</unclear><unclear>ṭ</unclear></choice>imudhluveṭandalacaruvayya viṣṇuvarddhana-ma<lb 
+n="28"/>hasatthavaḶ pasukṣevula-konthukaḶ Accakuṟṟavaniyu-konthukaḶ ga<unclear cert="low">jabu</unclear>ṁse<unclear cert="low">dhra</unclear>la<lb 
+n="29" break="no"/>nadupuḶ prithi<unclear reason="eccentric_ductus">v</unclear>i-mahasartthavaḶ veṭandaḶ p<choice><unclear>o</unclear><unclear>au</unclear></choice>nikanthiṟamukoḷa-nadupu viṣṇuvarddhana<pb 
+
+n="4r" break="no"/><lb 
+n="30" break="no"/>-mahasatthavala-konthukalu niravadya-prithivi-kanadirajuḶ gunavana-mahanabhiyuḶ <lb 
+n="31"/>mu<choice><unclear>dd</unclear><unclear>ṭṭ</unclear></choice>akañcikoḶ ramisvarā-prithivi-mahasartthavaḷa Apayajanuva-kāla-koṇ<choice><unclear>ḍ</unclear><unclear>ṭ</unclear></choice>ukaḶ korindhikoḶ <lb 
+n="32"/>karigala-prithivi-mahasatthavala-konthukaḶ nandi-maha-navila-nadupu śrī-maha<lb 
+n="33" break="no"/>satthavaḷa <space type="binding-hole"/> saka<supplied reason="omitted">la</supplied>lok<choice><sic>a</sic><corr>ā</corr></choice>śray<surplus>y</surplus>a-prithivi-mahasartthavala-div<choice><sic>a</sic><corr>ā</corr></choice>karayya-pa<unclear cert="low" reason="eccentric_ductus">ñca</unclear>koḶ śrī-jaṣṭipendaṭṭaṟṟagandhānthu</p>
+<pb n="4v"/>
+<pb n="5r"/>
+<pb n="5v"/>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+    <listApp>
+      <app loc="1">
+        <lem>sa<unclear>ṁ</unclear><supplied reason="omitted">s</supplied>tūyamāna-</lem>
+        <note>An initially engraved <foreign>tū</foreign> may have been corrected partially to <foreign>stū</foreign>.</note>
+      </app>
+      <app loc="2">
+        <lem>parip<choice><sic>a</sic><corr>ā</corr></choice>li<lb/>tānāṁ</lem>
+        <note>The last two characters in line 2 are indiscernible in the scanned estampage. Fleet prints them as clear, but if correct, then these characters occupy a very narrow space and one or both may have been inserted subsequently.</note>
+      </app>
+      <app loc="3">
+        <lem>-<choice><sic>pādānā<seg type="aksara">duā</seg>n<unclear reason="eccentric_ductus">th</unclear>anā</sic><corr>pādānudhyātānāṁ</corr></choice></lem>
+        <note>The character "<foreign>duā</foreign>," with two vowel markers, may be a scribal mistake for a pre-written <foreign>ddhā</foreign>, itself a mistake for <foreign>dhyā</foreign>. The subscript component which Fleet reads as <foreign>th</foreign> (in which I follow suit) is a rough circle divided into four quarters by a cross. It is conspicuously different from the standalone <foreign>th</foreign> in the Sanskrit section (line 5, <foreign>°āvabhr̥tha</foreign>) as well as from subscript <foreign>th</foreign>-s (line 9, <foreign>cakravatthi</foreign>; l13, <foreign>atthi</foreign>). It is, however, also clearly not an <foreign>ṟ</foreign>, and looks identical to several characters that Fleet reads as <foreign>th</foreign> in the Telugu section.</note>
+      </app>
+      <app loc="5">
+        <lem>cā<pb/><lb/>ḷukyānā<supplied reason="omitted">ṁ</supplied></lem>
+        <note>I accept Fleet's reading, but in the scan, <foreign>ḷu</foreign> looks like <foreign>ḍu</foreign> or <foreign>du</foreign>.</note>
+      </app>
+      <app loc="15">
+        <lem>-nr̥p<choice><sic>ā</sic><corr>a</corr></choice>ḥ <supplied reason="omitted">śī</supplied>ghra-pavanaḥ</lem>
+        <note>I adopt Fleet's emendations, but <foreign>śīghra-pavanaḥ</foreign> strikes me as very odd. I see no straightforward way to join these words to the preceding compound, but perhaps a longer burst of eulogy was omitted here. Compare <foreign>para-gaja-ghana-paṭala-pavanaḥ</foreign> in line 9 of the <ref n="tfb-badamicalukya-epigraphy" target="CalE07-Lohaner-Pulakesin2.xml">Lohaner plates of Pulakeśin II</ref>.</note>
+      </app>
+      <app loc="17">
+        <lem>svast<choice><sic>a</sic><corr>i</corr></choice></lem>
+        <rdg source="bib:Fleet1884_02">svasti</rdg>
+      </app>
+      <app loc="26">
+        <lem><unclear cert="low" reason="eccentric_ductus">sa</unclear>kala-</lem>
+        <note>The problematic character definitely looks like <foreign>ma</foreign>. I believe Fleet reads <foreign>sa</foreign> on the assumption that this is a Sanskrit word; but if so, then it should probably still be read as <foreign>ma</foreign>, and emended.</note>
+      </app>
+      <app loc="28">
+        <lem>°se<unclear cert="low">dhra</unclear>°</lem>
+        <note>The character Fleet reads as <foreign>dhra</foreign> here looks much like the one he reads as <foreign>ḻḻa/thu</foreign> in line 24, except that this one does not seem to have a line through the middle.</note>
+      </app>
+      <app loc="29">
+        <lem>prithi<unclear reason="eccentric_ductus">v</unclear>i-</lem>
+        <rdg source="bib:Fleet1884_02">prithi<sic>m</sic><corr>v</corr>i-</rdg>
+        <note>The problematic character is distinctly different from the following <foreign>ma</foreign>, so I prefer to assume it is a correct <foreign>va</foreign> with an accidental extra stroke.</note>
+      </app>
+      <app loc="33">
+        <lem>saka<supplied reason="omitted">la</supplied>°</lem>
+        <rdg source="bib:AuthorYear_01">sakā<supplied reason="omitted">la</supplied>°</rdg>
+        <note>Since Fleet does not emend, his <foreign>ā</foreign> is probably a typo.</note>
+      </app>
+      
+      
+      
+      
+      
+    </listApp>
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+<p n="1-12">
+</p>
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1-12"></p>
+  
+</div>
+
+
+
+
+<div type="commentary"><!-- The plates had a ring, which was cut by the time Fleet saw it. The seal was also lost by that time. Or perhaps a seal was never attached, as the authenticity of the plates is questionable. The Telugu section may be in a different hand (compare especially the shape of ta in the two sections: in the Sanskrit it is the form found in earlier Cālukya plates, while in the Telugu it looks almost like the modern Telugu glyph). But I think it is more likely that it is the same hand, and probably a late one, who attempted to imitate an earlier style throughout the document, and to a greater extent in the Sanskrit section. In the Telugu section of the grant, I follow Fleet's readings and adopt his emendations unless otherwise indicated in the apparatus. Thus, in that section all editorial intervention encoded as a correction (including addition and suppression) follows Fleet's emendations, and all intervention encoded as a normalisation follows Fleet's tentative suggestions. In various spots, my scans of the plates are unclear, particularly on page 3r. It seems that in Fleet's notation, (?abc) means that "abc" may be the correct reading instead of that indicated before the parentheses, while (abc?) means a tentative emendation. I encode the former as unclear with @cert="low" or as a choice of two unclear items, as applicable.
+--></div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Edited from the original in bib:Fleet1884_02, without translation, with estampages of the plates. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
