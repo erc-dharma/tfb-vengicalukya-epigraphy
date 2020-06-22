@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Koṟṟapaṟṟu grant of Vijayāditya II</title><!--ALT TITLE: -->
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE30-Korraparru-Vijayaditya2</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas.  -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations. -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-06-22" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śri-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="omitted">|</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hāritī-putrāṇāṁ <lb 
+n="2"/>kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pā<lb 
+n="3" break="no"/>dānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñchanekṣaṇa<lb 
+n="4" break="no"/>-kṣaṇa-vaśīkr̥tārāti-maṇḍalānā<supplied reason="omitted">ṁ</supplied> Aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapu<lb 
+n="5" break="no"/>ṣāṁ caḷukyānāṁ kulam alamkariṣṇo<surplus>ḥ</surplus>r aneka-samara-saṁghaṭṭa-labdha-nija-bhuja-vija<lb 
+n="6" break="no"/>ya-śr<choice><sic>ī</sic><corr>i</corr></choice>yaḥ niravadyodāra-guṇa-gaṇālaṁkr̥tasya srī-vijayāditya-mahārājasya <lb 
+n="7"/>pautraḥ sphurita-karavā<orig>ḷ</orig>a-dhārā-vaśīkr̥tārāti-bhū-maṇḍalasya sva-carita-nyak<supplied reason="omitted">k</supplied>r̥ta-<pb 
+
+n="2r" break="no"/><lb 
+n="8" break="no"/>nr̥ga-na<orig>ḷ</orig>a-nahuṣāṁbarīṣa-yayāte<supplied reason="omitted">ḥ</supplied> viṣṇor iva sva-cakra-nandakasya viṣṇuvarddhana-mahā<lb 
+n="9" break="no"/>rājasya priya-tanayaḥ pratā<supplied reason="omitted">pā</supplied>nurāgāvanata-samasta-sāmanta-maulī-lā<orig>ḷ</orig>ita-śāsanaḥ <lb 
+n="10"/>kṣatrocita-śakti-traya-pātrībhūtaḥ Aneka-saṁgrāma-vijayāsādita-vikrama-dhava<orig><unclear>ḷ</unclear></orig>aḥ ya<lb 
+n="11"/>ma-daṇḍa-caṇḍa-dor-ddaṇḍa-maṇḍalāgra-nakha-khaṇḍita-ripu-kari-gaṇḍastha<orig>ḷ</orig><choice><sic>e</sic><corr>o</corr></choice> narendramr̥ga<lb 
+n="12" break="no"/>rāj<choice><orig>ā</orig><reg>aḥ</reg></choice> arāti-ṣaḍvargga-nigraha-karaḥ samadhigata-rāj<choice><sic>ā</sic><corr>a</corr></choice>-vidyā-catuṣṭayaḥ catur-upāya-pra<lb 
+n="13" break="no"/>yoga-caturaḥ duṣṭ<choice><sic>ā</sic><corr>a</corr></choice>-nigraha-śiṣṭānugraha-karaḥ madhumathana Iva sva-vikramākrānta-bhū-cak<supplied reason="omitted">r</supplied>aḥ <lb 
+n="14"/>yudhiṣṭhira Iva bhīmā<unclear>rju</unclear>na-parākrama-sahāya<supplied reason="omitted">ḥ</supplied> daśaratha-suta Iva sītā-nandana-karaḥ manur i<pb 
+
+n="2v" break="no"/><lb 
+n="15" break="no"/>va san-mārgga-dārśśī padmāk<choice><sic>ā</sic><corr>a</corr></choice>ra Iva Ar<choice><sic>ī</sic><corr>i</corr></choice>-timira-nikara-vidhvaṁsanāditya<supplied reason="omitted">ḥ</supplied> parama-brahmaṇya<supplied reason="omitted">ḥ</supplied> <unclear>para</unclear>ma-m<unclear>āhe</unclear><lb 
+n="16" break="no"/>śvaraḥ samasta-bh<choice><sic>ū</sic><corr>u</corr></choice>vanāśraya-śrī-vijayāditya-mahārājādhirāja-parameśvara-bhaṭṭārakaḥ <supplied reason="lost">kaṇḍeṟu</supplied><lb 
+n="17" break="no"/>vāḍi-viṣaya-nivāsino rāṣṭrakūṭ<surplus>ṭ</surplus>a-pramukha-k<choice><sic>ū</sic><corr>u</corr></choice>ṭuṁbinaḥ sarvvān ittham ājñāpayati</p>
+
+<p>viditam astu <lb 
+n="18"/>vo <supplied reason="subaudible">’</supplied>smābhiḥ penpaṇḍuru-vāstavyāya kauśika-gotrāya hiraṇy<choice><orig>ā</orig><reg>a</reg></choice>keśi-sūtrāya veda<lb 
+n="19" break="no"/>-vedāṁga-p<choice><sic>a</sic><corr>ā</corr></choice>ragāya veṇamaśarmmaṇe valūceri-vāstavyāya kauśika-<unclear>gotrāya</unclear> hi<lb 
+n="20" break="no"/>raṇyakeś<choice><sic>ī</sic><corr>i</corr></choice>-sūtrāya caṭiśarmmaṇe
+poḍeṁgu-vāstavyāya gautama-<unclear>gotrāya hiraṇya</unclear><lb 
+n="21" break="no"/>keśi-sūtrāya vidaśarmmaṇe poḍ<choice><sic>a</sic><corr>e</corr></choice>ṁgu-vāstavyāya saṁk<choice><sic>rī</sic><corr>r̥</corr></choice>ti-gotrāya hiraṇy<choice><orig>ā</orig><reg>a</reg></choice>keśi-sū<pb 
+
+n="3r" break="no"/><lb 
+n="22" break="no"/>trāya maviṇḍiśarmmaṇe
+poḍeṁgu-vāstavy<choice><sic>a</sic><corr>ā</corr></choice>ya <choice><orig>A</orig><reg>ha</reg></choice>rita-gotrāya hiraṇy<choice><orig>ā</orig><reg>a</reg></choice>keśi-sūtrāya ya<lb 
+n="23" break="no"/>jñaśarmmaṇe poḍeṁgu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya saṁk<choice><orig>ri</orig><reg>r̥</reg></choice>ti-gotrāya hiraṇy<choice><orig>ā</orig><reg>a</reg></choice>keśi-sūtrā<unclear>ya</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear>śa</unclear><lb 
+n="24" break="no"/>rmmaṇe krovāśiri-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya <choice><orig>A</orig><reg>ha</reg></choice>rita-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya <choice><unclear>kanda</unclear><unclear>kuṇḍa</unclear></choice>śarmma<lb 
+n="25" break="no"/>ṇe Urpuṭūru-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvāja-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya <lb 
+n="26"/>viṣṇuśarmmaṇe vaṁgipaṟṟu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya kauṇḍinya-gotrā<unclear>ya</unclear> <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrā<lb 
+n="27" break="no"/>ya guñjadevaśarmmaṇe vaṁgipaṟṟu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya śāṇḍily<choice><sic>ā</sic><corr>a</corr></choice>-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pa<lb 
+n="28" break="no"/>stamba-sūtrā<supplied reason="omitted">ya</supplied> bhadraśarmmaṇe vaṁgipaṟṟu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya kauṇḍinya-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pa<pb 
+
+n="3v" break="no"/><lb 
+n="29" break="no"/>stamba-sūtrāya viṣṇuśarmmaṇe
+vaṁgipaṟṟu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya kauṇḍiny<choice><sic>ā</sic><corr>a</corr></choice>-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice><lb 
+n="30" break="no"/>pastamba-sūtrāya nārāyaṇaśarmmaṇe cānturu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvāja-gotrā<lb 
+n="31" break="no"/>ya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya dronaśarmmaṇe cānturu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvā<lb 
+n="32" break="no"/>ja-gotrāya Āpastamba-sūtrāya nārāyaṇaśarmmaṇe krovaśiri-v<choice><orig>a</orig><reg>ā</reg></choice>stavyā<lb 
+n="33" break="no"/>ya harita-gotrāya Āpastamba-sūtrāya mādhavaśarmmaṇe
+krovaśiri-v<choice><orig>a</orig><reg>ā</reg></choice>sta<pb 
+
+n="4r" break="no"/><lb 
+n="34" break="no"/>vyāya par<choice><orig>as</orig><reg>āś</reg></choice>ara-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya vennamaśarmmaṇe
+krovaśiri-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya vatsa-go<lb 
+n="35" break="no"/>trāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya Arudiśarmmaṇe
+Urpuṭūru- v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvāja-gotrāya <lb 
+n="36"/><choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya nandiśarmmaṇe kārañcedu-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvāja-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pa<lb 
+n="37" break="no"/>stamba-sūtrāya viṣṇuśarmmaṇe kārañcedu- v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvāja-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrā<lb 
+n="38" break="no"/>ya bhāramāśarmmaṇe kārañcedu- v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya bhāradvāja-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya ya<choice><sic>ñj</sic><corr>jñ</corr></choice>aśa<pb 
+
+n="4v" break="no"/><lb 
+n="39" break="no"/>rmmaṇe <unclear>cāntu</unclear><supplied reason="omitted">ru</supplied>-v<choice><orig>a</orig><reg>ā</reg></choice>stavy<unclear>ā</unclear>ya bhāradvāja-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya bādadiśarmmaṇe krājaṁ<lb 
+n="40" break="no"/>-v<choice><orig>a</orig><reg>ā</reg></choice>stavyāya kauṇḍinya-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya veṇṇaśarmmaṇe
+rāyūru-v<choice><orig>a</orig><reg>ā</reg></choice>stavy<unclear>ā</unclear><lb 
+n="41" break="no"/>ya <orig><unclear>A</unclear></orig><unclear>gniv</unclear><orig><unclear>ai</unclear></orig>śya-gotrāya <choice><orig>A</orig><reg>Ā</reg></choice>pastamba-sūtrāya ṟompayaśarmmaṇe
+veda-vedāṁga-ratebhyaḥ <lb 
+n="42"/>ṣaṭ-karmma-niratebhya<supplied reason="omitted">ḥ</supplied> cat<choice><orig>ru</orig><reg>ur</reg></choice>-viṁś<choice><sic>ā</sic><corr>a</corr></choice>ti-brāhmaṇebhy<choice><orig>ā</orig><reg>aḥ</reg></choice> candr<choice><sic>u</sic><corr>a</corr></choice>-grahaṇa-nimitte Udaka-pū<lb 
+n="43" break="no"/>rvva<supplied reason="omitted">ṁ</supplied> koṟṟapaṟṟu-nāma-grāmas sarvv<choice><sic>ā</sic><corr>a</corr></choice>-kara-parih<unclear>ā</unclear>raṁ <unclear>kr̥tvā</unclear> dattaḥ</p>
+
+<p>Asyāvadhi-vi<unclear>bhedaḥ</unclear><supplied reason="omitted">|</supplied>
+<unclear>pū</unclear>rvva<unclear>ta</unclear><supplied reason="omitted">ḥ</supplied> A<lb 
+n="44" break="no"/>tū<unclear>gupaṟṟu</unclear><supplied reason="omitted">|</supplied> da<unclear>kṣiṇataḥ vā</unclear><choice><unclear>na</unclear><unclear>ma</unclear></choice>paṟṟu<supplied reason="omitted">|</supplied> paścimataḥ vāṇḍṟūpedayū<supplied reason="omitted">|</supplied> Uttarataḥ gan<choice><unclear>i</unclear><unclear>a</unclear></choice>yyāra<unclear cert="low">ṁ</unclear><lb 
+n="45" break="no"/>bu<supplied reason="omitted">|</supplied>
+Eteṣām apy a<unclear cert="low">va</unclear>tta<supplied reason="omitted">|</supplied>
+Asyopari na <unclear>kena</unclear>cid bādhā karaṇīyā<supplied reason="omitted">|</supplied> karoti yas sa pa<pb 
+
+n="5r" break="no"/><lb 
+n="46" break="no"/>ñca-mahāpātaka-<unclear>saṁ</unclear>yukto bhavati<supplied reason="omitted">|</supplied> vyāsenāpy uktam</p>
+<p>@@@
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||] (1)
+sva-dattāṁ1416 para-dattāṁ vā [yo] hareta vasuṅdharām[+|]
+ṣaṣṭi-varṣa1417-sahasrāṇi viṣṭhāyāṁ jāyate kr̥miḥ[+||] (2)
+kalpa[ko]ṭ[i]-sahasrāṇi svargge [tiṣṭha]ti bhūmi-da[ḥ*][+|]
+ākṣeptā1418 cānumantā ca tany eva narake vaset[+||] (3)
+rāmeṇāpy uktam[+|]
+sarvvān evaṁ bhāvinaḥ pārtthivendrān bhūyo-bhūyo yācate rāmabhadraḥ[+|]
+sāmānyo [+’]yam dharmma-setur nr̥pāṇāṁ kāle-kāle pālanīyo bhavadbhiḥ[+||] (4)
+narendra-mr̥ga-rājasya bhrāt<choice><sic>ā</sic><corr>a</corr></choice> haihaya-vaṁśa-jaḥ[+|]
+ājñaptir asya dharmmasya nr̥pa1419-rudr[o*] nr̥pottamaḥ[+||] (5)
+vijayavāḍa-vāstavyena1420 akṣara-lalitācārryeṇa likhitam[+||]
+
+</p>
+<pb n="5v"/>
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="13">
+        <lem source="bib:Fleet1891_04">-bhū-cak<supplied reason="omitted">r</supplied>aḥ</lem>
+        <rdg source="bib:Hultzsch1890_01">-bhu<unclear>vana</unclear>ḥ</rdg>
+      </app>
+      <app loc="14">
+        <lem>bhīmā<unclear>rju</unclear>na-</lem>
+        <rdg source="bib:Hultzsch1890_01">bhīmārjuna-</rdg>
+        <rdg source="bib:Fleet1891_04">bhīmā<choice><sic>jān</sic><corr>rjju</corr></choice>na-</rdg>
+        <note>Having no facsimile at the moment, I cannot check this reading. I suspect a typo in Fleet's edition, because I believe he would make his corrections on the <foreign>akṣara</foreign> level (i.e. not correct <foreign>jān</foreign> to <foreign>rjju</foreign>), and because Hultzsch would not have missed an original <foreign>nna</foreign> in this word even if the character he reads as <foreign>rju</foreign> is unclear. This locus requires CHECKing.</note>
+      </app>
+      <app loc="16">
+        <lem><supplied reason="lost">kaṇḍeṟu</supplied><lb/>vāḍi-</lem>
+        <rdg source="bib:Hultzsch1890_01"><gap reason="illegible" quantity="4" unit="character"/><lb/>vādi-</rdg>
+        <rdg source="bib:Fleet1891_04"><gap reason="illegible" quantity="3" unit="character" precision="low"/><lb/>vāḍi-</rdg>
+        <note>Hultzsch prints four asterisks for the gap, while Fleet notes that it is three or four characters in extent. Given that the village <foreign>vāṇḍṟūpedayū</foreign> (line 44) must, as pointed out by Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">120</citedRange><citedRange unit="note">10</citedRange></bibl>), be identical to <foreign>va<unclear cert="low">ṇḍṟ</unclear><unclear>upi</unclear><unclear cert="low">ṭeyu</unclear></foreign> in line 15 of the <ref target="CalE29-Ederu-Vijayaditya1.xml">Eḍeru plates</ref>, the name of the <foreign>viṣaya</foreign> may be confidently restored to that named in that earlier grant.</note>
+      </app>
+      <app loc="18">
+        <lem source="bib:Fleet1891_04">vo <supplied reason="subaudible">’</supplied>smābhiḥ penpaṇḍuru-</lem>
+        <rdg source="bib:Hultzsch1890_01">vaḥ <unclear>A</unclear>bhipendaṇḍuru-</rdg>
+        <note>Fleet notes that he is certain of reading <foreign>ndu</foreign> where Hultzsch read <foreign>nda</foreign>, since the end stroke of the subscript consonant is clearly continued upward.</note>
+      </app>
+      <app loc="19">
+        <lem source="bib:Fleet1891_04">valūceri-</lem>
+        <rdg source="bib:Hultzsch1890_01">nalūceri-</rdg>
+        <note>Fleet notes that he is certain of reading <foreign>ndu</foreign> where Hultzsch read <foreign>nda</foreign>, since the end stroke of the subscript consonant is clearly continued upward.</note>
+      </app>
+      <app loc="20">
+        <lem source="bib:Fleet1891_04">poḍeṁgu-</lem>
+        <rdg source="bib:Hultzsch1890_01">podeṁgu-</rdg>
+        <note>Fleet observes that other iterations of this name clearly have <foreign>ḍ</foreign> as distinct from <foreign>d</foreign>, though that is not the case here.</note>
+      </app>
+      <app loc="21">
+        <lem source="bib:Fleet1891_04">poḍ<choice><sic>a</sic><corr>e</corr></choice>ṁgu-</lem>
+        <rdg source="bib:Hultzsch1890_01">podaṁgu-</rdg>
+      </app>
+      <app loc="22">
+        <lem source="bib:Fleet1891_04">poḍeṁgu-</lem>
+        <rdg source="bib:Hultzsch1890_01">podeṁgu-</rdg>
+      </app>
+      <app loc="23">
+        <lem source="bib:Fleet1891_04">poḍeṁgu-</lem>
+        <rdg source="bib:Hultzsch1890_01">podeṁgu-</rdg>
+      </app>
+      <app loc="24">
+        <lem source="bib:Fleet1891_04"><choice><unclear>kanda</unclear><unclear>kuṇḍa</unclear></choice>śarmma<lb/>ṇe</lem>
+        <rdg source="bib:Hultzsch1890_01"><unclear>kāma</unclear>śarmma<lb/>ṇe</rdg>
+      </app>
+      <app loc="36">
+        <lem source="bib:Fleet1891_04">kārañcedu-</lem>
+        <rdg source="bib:Hultzsch1890_01">kārahaidu-</rdg>
+      </app>
+      <app loc="37">
+        <lem source="bib:Fleet1891_04">kārañcedu-</lem>
+        <rdg source="bib:Hultzsch1890_01">kārahaidu-</rdg>
+      </app>
+      <app loc="38">
+        <lem source="bib:Fleet1891_04">kārañcedu-</lem>
+        <rdg source="bib:Hultzsch1890_01">kārahaidu-</rdg>
+      </app>
+      <app loc="39">
+        <lem source="bib:Fleet1891_04">krājaṁ-</lem>
+        <rdg source="bib:Hultzsch1890_01">krāja-</rdg>
+        <note>I wonder if the reading is in fact <foreign>krāṁja</foreign>, with the <foreign>anusvāra</foreign> shifted to the right.</note>
+      </app>
+      <app loc="43">
+        <lem source="bib:Fleet1891_04">-vi<unclear>bhedaḥ</unclear></lem>
+        <rdg source="bib:Hultzsch1890_01">-vic<unclear>āraḥ</unclear></rdg>
+        <note>Fleet prints the whole word as clear.</note>
+      </app>
+      <app loc="44">
+        <lem source="bib:Fleet1891_04">vāṇḍṟūpedayū</lem>
+        <rdg source="bib:Hultzsch1890_01">vā<unclear>ṇḍhṟū</unclear>pe<unclear>dayū</unclear></rdg>
+      </app>
+      <app loc="44">
+        <lem source="bib:Fleet1891_04">gan<choice><unclear>i</unclear><unclear>a</unclear></choice>yyāra<unclear cert="low">ṁ</unclear><lb/>bu</lem>
+        <rdg source="bib:Hultzsch1890_01">gana<unclear>yyā</unclear>ra<lb/>bu</rdg>
+      </app>
+      <app loc="45">
+        <lem source="bib:Fleet1891_04">Eteṣām apy a<unclear cert="low">va</unclear>tta</lem>
+        <rdg source="bib:Hultzsch1890_01">ca<unclear>turviṁśatyai</unclear> datta<supplied reason="omitted">ḥ</supplied></rdg>
+        <note>Lacking a facsimile, I adopt Fleet's reading, most of which he prints as clear, though he does not venture to interpret it. Given Hultzsch's very different reading, I am certain that the text is far from clear. My hunch is that it involves some variation on <foreign>etac-catur-avadhi</foreign> (this phrase is repeated at this point in line 17 of the <ref target="CalE25-Jalayuru-Visnuvardhana3.xml">Jaḷayūru grant of Viṣṇuvardhana III</ref>, where it is part of a complete sentence; and line 23 of the <ref target="CalE29-Ederu-Vijayaditya1.xml">Eḍeru plates of Vijayāditya I</ref>, where it is not); or possibly something like <foreign>eteṣām ity āghāṭāḥ</foreign>.</note>
+      </app>
+      
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-16">
+</p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <note type="credit" resp="part:daba">Estienne-Monod translates Naṭeśa Śāstrī's text.</note>
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-16"></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary"><!-- There is no facsimile in any of my scans of SII1 or IA20, though PEM's metadata say a facsimile is present in both editions. The XML edition provisionally follows those of Hultzsch and Fleet, but has not been checked against a facsimile. In marking up unclear segments, I predominantly follow Hultzsch, as Fleet prints almost everything as clear.
+--></div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- These plates were apparently not reported in ARIE. First edited in bib:Hultzsch1890_01 pp 31-36, from the original plates, with a translation skipping some details and an estampag eCHECK? Also edited in bib:Fleet1891_04, from the original plates, with an abstract of the contents and an estampage CHECK? -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
