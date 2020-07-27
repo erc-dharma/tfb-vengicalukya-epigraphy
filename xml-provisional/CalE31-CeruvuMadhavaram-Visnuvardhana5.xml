@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Ceruvu Mādhavaram plates of Kali Viṣṇuvardhana V</title><!--ALT TITLE: -->
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE31-CeruvuMadhavaram-Visnuvardhana5</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas.  -->
+                <!--Original punctuation.  -->
+                <!--Other palaeographic observations. Anusvāra is sometimes inline (at head height), e.g. l2, saṁstūyamāna. -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-07-27" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<pb n="1r"/>
+<lg n="1" met="anuṣṭubh">
+<l n="a"><pb 
+
+n="1v"/><lb 
+n="1"/>sarvvākāram aśeṣ<choice><sic>ā</sic><corr>a</corr></choice>sya</l>
+<l n="b">jagatas sarvvadā śivaṁ</l>
+<l n="c">go-brāhmaṇ<choice><sic>ā</sic><corr>a</corr></choice>-nr̥pā<choice><sic>n</sic><corr>ṇ</corr></choice>āñ ca</l>
+<l n="d"><lb n="2"/>śivaṁ bh<subst><del><!--The ā seems to have been hammered out; it is distinct, but faint in the facsimile. CHECK return to this after EGD decision and perhaps use @rend.-->ā</del><add place="overstrike">a</add></subst>vatu sa<supplied reason="omitted">r</supplied>vvataḥ</l>
+</lg>
+<p>
+svast<choice><sic>a</sic><corr>i</corr></choice><supplied reason="omitted">|</supplied> 
+śrīmatāṁ sakala-bhuvana-saṁst<choice><sic>u</sic><corr>ū</corr></choice>yamāna-mā<lb 
+n="3" break="no"/>navya-sagotrānāṁ hārīti-putrāṇāṁ kauś<choice><sic>ī</sic><corr>i</corr></choice>kī-vara-prasāda-labdha-rājyānāṁ m<surplus>m</surplus>ā<lb 
+n="4" break="no"/>tr̥<space type="binding-hole"/>-gaṇa-paripāl<choice><sic>ī</sic><corr>i</corr></choice>tānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagava<lb 
+n="5" break="no"/>n-nārāyaṇa-prasāda-sam<choice><sic>a</sic><corr>ā</corr></choice>s<choice><sic>a</sic><corr>ā</corr></choice>dita-vara-varāha-lāñchanekṣaṇa-kṣaṇa-vaśīkr̥<lb 
+n="6" break="no"/>tā<surplus>ṁ</surplus>rāti-maṇḍalānām aśvamedhā<add place="above"><unclear>va</unclear></add>bhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-vapuṣāṁ1434
+samadhi<lb 
+n="7" break="no"/>gatāśeṣ<choice><sic>o</sic><corr>a</corr></choice>-mahā-śabd<unclear>ān</unclear>ām pa<unclear>ṭ</unclear>a<supplied reason="omitted">ha</supplied>-ḍhakkā-pā<choice><sic>h</sic><corr>ḷ</corr></choice>i-ketana-śvetātapatra-<choice><sic>mi</sic><corr>vī</corr></choice>jyamāna<pb 
+
+n="2r" break="no"/><lb 
+n="8" break="no"/>-
+
+
+
+<unclear>cāma</unclear>ra-kalāpa<supplied reason="omitted">ḥ</supplied> gopura-dv<unclear>ā</unclear>robhaya-pārśva-pratiṣṭhāpita-gaṁgā-yamuna<supplied reason="omitted">ḥ</supplied> pr̥thivī-vallabha-mahārājādhirāja-parameśvara-parama-brahmaṇya-parama-[mā*]heśva[raḥ*] mātā1439-pitr̥-pādānu[dh]yātas sarvva-lokāśraya1440-śrī-viṣṇuvarddhana-mahārājasya1441
+tasya suta[sya*] vijayāditya-mahārājasya putra-kali-viṭṭara- nāmnā1442 śrī-mahārājñā1443 nagara-sahitena liṅga-pra[ti*]ṣṭhā[ṁ] kr̥tvā vijayavāṭa-pure tasmai1444 nagareśvara-bhaṭṭārakāya1445 aṣṭottara-śata-khaṇḍikā-[ko*]drāvāpa-kṣetraṁ kāśyapa-gotra-droṇakuṟṟabhaṭṭa-haste suvarṇṇa[ṁ*]1446
+Face IIb.
+dattvā1447 gr̥hītvā datta[m*] ujjayinyā[*ṁ]1448 gaṁgaṟa-guhā1449-vāsino balasoma-bhagavataḥ1450 śiṣa[sya*] amr̥tasomācāryasya1451 śiṣyā[ya*]1452 paśupati-bha[ga]vat-pādāya1453[+||]
+kaṇḍeṟuvāḍi-viṣaya-vāsinaḥ rāṣṭrakūṭa-pramukhān kuṭuṁbinas sarvvān1454 ittha[m ā]jñāpayati[+|] viditam astu vo [+’]smābhi[ḥ*] uttarāyaṇa-nimitte sodaka-pūrvva[ṁ*] sarvvaparihāra[ḥ kr̥taḥ*][+||]
+tasyā[va]dhaya[ḥ*][+|]
+pūrvvataḥ mahā-pathaḥ[+|]
+dakṣinataḥ mahā1455-pathaḥ[+|]
+paścimataḥ mahā-pathaḥ[+|]
+uttarataḥ1456 cintaguṇṭi[punta]-nāma-grāmaḥ[+|]
+asyopari na kenacit bhādhā kāraṇ[ī]yā[+|]yaḥ karoti sa paṁca-mahāpātaka- sa[ṁ]yukto bhavati[+|]
+Face IIIa.
+vyāsenāpi uktam[+|]
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā [pha]lam[+||] (2)
+sva-dattā[ṁ] para-dattāṁ va yo hareta vasu(ṁ)ndharām1457[+|]
+ṣaṣṭiṁ vvarṣa-sahasrāṇi1458 viṣṭhāyāṁ jāyate kr̥miḥ[+||] (3)
+na viṣaṁ viṣam ity āhuḥ de[va*]-svam ucyate[+|]
+viṣaṁ ekākina[ṁ*] hanti deva-svaṁ putra-pautrakam1459[+||] (4)
+ājñaptir asya1460 dharmmasya viṣṇuvarddhana-mātulaḥ1461[+|]
+vikrama-krānta1462-bhū-cakro1463 vikramāditya-bhūpatiḥ[+||] (5)
+nagareśvara-bhaṭṭasya1464 tām[r]a-śāsana-śāsanam1465[+|]
+rāmācāryyeṇa1466 likhi[taṁ*] nagareśvara1467-bhaṭṭārakāya1468[+||] (6)1469
+
+</p>
+<pb n="3v"/>
+
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+    <listApp>
+      <app loc="1">
+        <lem>aśeṣ<choice><sic>ā</sic><corr>a</corr></choice>sya</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">aśeṣasya</rdg>
+      </app>
+      <app loc="1">
+        <lem>-nr̥pā<choice><sic>n</sic><corr>ṇ</corr></choice>āñ</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">-nr̥pā<choice><sic>na</sic><corr>ṇā</corr></choice>ñ</rdg>
+      </app>
+      <app loc="2">
+        <lem>bh<subst><del><!--The ā seems to have been hammered out; it is distinct, but faint in the facsimile. CHECK return to this after EGD decision and perhaps use @rend.-->ā</del><add place="overstrike">a</add></subst>vatu</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">bh<choice><sic>ā</sic><corr>a</corr></choice>vatu</rdg>
+      </app>
+      <app loc="3">
+        <lem>hārīti-</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">hāritī-</rdg>
+      </app>
+      <app loc="3">
+        <lem>kauś<choice><sic>ī</sic><corr>i</corr></choice>kī-</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">kauśikī-</rdg>
+      </app>
+      <app loc="4">
+        <lem>-paripāl<choice><sic>ī</sic><corr>i</corr></choice>tānāṁ</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">-paripālitānāṁ</rdg>
+      </app>
+      <app loc="5">
+        <lem>-sam<choice><sic>a</sic><corr>ā</corr></choice>s<choice><sic>a</sic><corr>ā</corr></choice>dita-</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">-samāsādita-</rdg>
+      </app>
+      <app loc="6">
+        <lem>°ā<surplus>ṁ</surplus>rāti-</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">°<choice><sic>a</sic><corr>ā</corr></choice><surplus>ṁ</surplus>rāti-</rdg>
+        <note>Possibly corrected from an erroneous <foreign>nāṁ</foreign> to <foreign>tāṁ</foreign>.</note>
+      </app>
+      <app loc="6">
+        <lem>°ā<add place="above"><unclear>va</unclear></add>bhr̥<choice><sic>t</sic><corr>th</corr></choice>a-</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">°ā<supplied reason="omitted">va</supplied>bhr̥<choice><sic>t</sic><corr>th</corr></choice>a-</rdg>
+        <note>A small and not very distinct <foreign>va</foreign> seems to have been written above the spaca between <foreign>dhā</foreign> and <foreign>bhr̥</foreign>. A <foreign>kākapada</foreign> may also be present.</note>
+      </app>
+      <app loc="7">
+        <lem>@@@</lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">-śabda-<unclear>jhaṁ</unclear>pada-ḍhakkā-pā<choice><sic>h</sic><corr>l</corr></choice>i-<unclear>ke</unclear>tana-</rdg>
+        <note>The inscribed <foreign>h</foreign> is in all probability a scribal error for the similar-looking <foreign>ḷ</foreign>, which could in turn be regularised to <foreign>l</foreign>.@@@continue working this out, add ref to commentary and expand it; also check out IA 7 p111 and 213 (or 215?) for Fleet's notes on mahazabda. </note>
+      </app>
+      <app loc="8">
+        <lem>-yamuna<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Narasimhaswami1967-1968_01">yamunā</rdg>
+      </app>
+      
+      
+      
+    </listApp>
+    
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+<p n="1-17"></p>
+    
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+<p n="1-17"></p>
+  
+  
+</div>
+
+
+
+
+<div type="commentary"><!-- For the strange and possibly corrupt bit in lines 7-8, compare grants of the Western Cālukya Vijayāditya, which include some variations of the phrase gaṁgā-yamunā-pāḷi-dhvaja-paḍa-ḍhakkā-mahāśabda-cihnaka-māṇikya-mataṁgajādīn [as things that Vijayāditya conferred on (or acquired for the sake of?) his father], e.g. bib:Fleet1880_01, lines 23-24 and bib:Sankalia1921-1922_01 lines 24-25. 
+--></div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Reported in ARIE1953-1954, Appendix A (1953-54), No. 1, with discussion on p. 2. Discussed before edition by N. Lakshminarayan Rao in Journal of Oriental Research (Madras), vol. 23, p89ff. [Not traced; the year is probably 1953; article title and page range not known.] Edited (with estampages, no translation) in bib:Narasimhaswami1967-1968_01. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
