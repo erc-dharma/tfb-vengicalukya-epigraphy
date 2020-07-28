@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
@@ -169,7 +169,7 @@ n="23"/>pūrvvataḥ koṟṟapaṟu-sīm<choice><sic>aḥ</sic><corr>ā</corr><
         <lem>kaṇḍe<unclear>ḥ</unclear>ṟuv<unclear>ā</unclear><pb/><lb/>ḍi-</lem>
         <rdg source="bib:Kielhorn1898-1899_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ḍi-</rdg>
         <rdg source="bib:AuthorYear_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ṭi-</rdg>
-        <note>Kielhorn does not read this superfluous <note>visarga</note>, but does mention it in a note. Naṭeśa Śāstrī ignores it. It may have been deleted in some way, but it seems quite clear and it also seems to occupy horizontal space.</note>
+        <note>Kielhorn does not read this superfluous <foreign>visarga</foreign>, but does mention it in a note. Naṭeśa Śāstrī ignores it. It may have been deleted in some way, but it seems quite clear and it also seems to occupy horizontal space.</note>
       </app>
       <app loc="15">
         <lem>va<unclear cert="low">ṇḍṟ</unclear><unclear>upi</unclear><unclear cert="low">ṭeyu</unclear></lem>
@@ -244,7 +244,7 @@ n="23"/>pūrvvataḥ koṟṟapaṟu-sīm<choice><sic>aḥ</sic><corr>ā</corr><
         <lem>boḻama nāma lo<lb/>ke <supplied reason="subaudible">’</supplied>smi<choice><sic>t</sic><corr>n</corr></choice></lem>
         <rdg source="bib:NatesaSastri1884_01">bādhamāna-male <lb/><choice><sic>kasvat</sic><corr>kaścit</corr></choice></rdg>
         <rdg source="bib:Kielhorn1898-1899_01">boḻama-nām<choice><sic>a</sic><corr>ā</corr></choice> lo<lb/>ke smi<choice><sic>t</sic><corr>n</corr></choice></rdg>
-        <note>I prefer to see <note>nāma</note> as a neuter accusative, next to the name that is understood to be in the nominative, not in compound.</note>
+        <note>I prefer to see <foreign>nāma</foreign> as a neuter accusative, next to the name that is understood to be in the nominative, not in compound.</note>
       </app>
       <app loc="26">
         <lem>-citt<unclear>o</unclear></lem>
