@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader xml:lang="eng">
     <fileDesc>
@@ -315,7 +315,7 @@ celui qui possède la terre en possède le fruit.</p>
 
 <div type="bibliography">
   <p>
-    <!-- A rudimentary translation was published in Madras Government Order No. 367 of 7 April 1873, not in Zotero; is this an ARIE? First edited, perhaps from the original plates, in bib:NatesaSastri1884_01 pp 55-57, with a translation, without facsimile [though PEM's metadata say a facsimile is present - CHECK a printed IA13 volume]. Some readings revised in bib:Fleet1891_03 p 101. Re-edited from estampages in bib:Kielhorn1898-1899_01 pp 118-122, with an abstract of the contents and with inked rubbings produced by Hultzsch. No image of the seal is available, so the seal legend is reproduced here as reported by Kielhorn. -->
+    <!-- A rudimentary translation was published in Madras Government Order No. 367 of 7 April 1873, not in Zotero; is this an ARIE? First edited, perhaps from the original plates, in bib:NatesaSastri1884_01 pp 55-57, with a translation, without facsimile [though PEM's metadata say a facsimile is present - CHECK a printed IA13 volume]. Some readings revised in bib:Fleet1891_03 p 101. Re-edited from estampages in bib:Kielhorn1898-1899_01 pp 118-122 (item A), with an abstract of the contents and with inked rubbings produced by Hultzsch. No image of the seal is available, so the seal legend is reproduced here as reported by Kielhorn. -->
   </p>
   <listBibl type="primary">
     <bibl/><!-- one <bibl/> per item of primary bibliography -->
