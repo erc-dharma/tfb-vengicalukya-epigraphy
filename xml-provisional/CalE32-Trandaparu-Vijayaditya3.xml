@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Traṇḍapaṟu grant of Vijayāditya III</title><!--ALT TITLE: PEM, "Masulipatam, Vijayāditya III"; Kielhorn: "Masulipatam(?) plates of Vijayāditya III"-->
+        <respStmt>
+          <resp>initial etext</resp>
+          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE32-Trandaparu-Vijayaditya3</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>
+                <!--Halantas. T in l29 kenaciT. N in l18 pramukhāN; l33 pārtthivendrāN; l35 pratāpavāN; l38 śrīmāN. -->
+                <!--Original punctuation. The basic punctuation sign is a perfectly straight, simple vertical, as high as a character body, e.g. l8 nāmadheyasya| or slightly shorter (not reaching the baseline), e.g. l10 yasya|. In the doubled version (e.g. l11, rājaḥ||) the second stroke is shorter than the first. -->
+                <!--Other palaeographic observations. Inline anusvāra, a circle at head height, e.g. l1 śrīmatāṁ, saṁstūyamānam, gotrānāṁ, etc. La is what Kielhorn calls a later, cursive form, where the body is reduced to nothing, and the tail curls all the way to the right and up (so essentially a sinistrorse spiral). Kielhorn also points out the later, cursive kha (a good example is l12, khaḍge), and the ba and ja open on the left. -->
+                
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-07-29" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="omitted">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrānāṁ hāritī-pu<lb 
+n="2" break="no"/>tr<unclear>āṇāṁ</unclear> kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi<lb 
+n="3" break="no"/>-ma<space type="binding-hole"/>hāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādi<lb 
+n="4" break="no"/>ta<space type="binding-hole"/>-vara-varāha-lāñcha<unclear>nekṣa</unclear>ṇa-kṣaṇa-<unclear>vaśī</unclear>kr̥tārāti-maṇḍalānām aśvamedhāvabhr̥<lb 
+n="5" break="no"/><unclear>tha-snāna</unclear>-pavitrīkr̥ta-vapuṣāṁ cālukyānāṁ kulam alaṁkariṣṇoḥ sa<unclear>ma</unclear>sta-bhuva<pb 
+
+n="2r" break="no"/><lb 
+n="6" break="no"/>nāśraya-śrī-vijayāditya-mahā<unclear>rā</unclear>jasya sakala-dig-aṁ<unclear>ga</unclear>nā-lalāṭikāyamāna<lb 
+n="7" break="no"/>-yaśo-maṇḍalasya gaṁga-kula-kālā<unclear>nalasya</unclear> kali-kāla-mada-bhañjanasya cālukyā<lb 
+n="8" break="no"/>rjju<space type="binding-hole"/>na-nāmadheyasya|</p>
+<lg n="1" met="vasantatilakā">
+<l n="a" enjamb="yes">Utkhā<unclear>ta</unclear>-śāta-taravāri-<unclear>v</unclear>i<unclear>dā</unclear>ritāri</l>
+<l n="b">-nāgādhipasya ha<lb n="9" break="no"/>riṇādhipa-vikramasya</l>
+<l n="c">śokākulāri-vanitā-nayanāṁbu-sekaiḥ</l>
+<l n="d">kopānalaḥ praśamam e<lb n="10" break="no"/>ti vinā na yasya|</l>
+</lg>
+<p>tasya pri<unclear>ya</unclear>-tanayaḥ sarvva-lokāśraya-śrī-viṣṇuvarddhana-mahā<pb 
+
+n="2v" break="no"/><lb 
+n="11" break="no"/>rājaḥ||</p>
+<lg n="2" met="sragdharā">
+<l n="a">yasminn ārūḍha-<unclear>danti</unclear>ny ari-ku<unclear>la</unclear>m adhisaṁrohati <unclear>kṣmā</unclear>bhr̥d-agraṁ</l>
+<l n="b">yad-bāhāv ātta<lb n="12" break="no"/>-khaḍge ripu-yuvati-karā gr̥hṇate cāmarāṇi</l>
+<l n="c">Ābaddhāyāṁ bhrukuṭyāṁ madhu ripu<lb n="13" break="no"/>-bha<space type="binding-hole"/>vane yasya badhnanti bhr̥ṁgā</l>
+<l n="d">yad-dhāmany āji-<unclear>bher</unclear>ī-dhva<unclear>nana</unclear>m anu śivāś śatru<lb n="14" break="no"/>-dhāmni dhvananti||</l>
+</lg>
+<p>@@@tasya priya-tanayaḥ</p>
+<lg n="3" met="sragdharā">
+<l n="a" enjamb="yes">kanter induḥ kṣamāyāḥ kṣitir amara-tarus tyāga-śakteḥ pratāpa</l>
+<l n="b">syārkkaś śaurryasya siṁho jaladhir api mahā-sa[t*]tvatāyā yathāyam</l>
+<l n="c">Face IIIa.
+sthānaṁ syād evam anyan na hi bhavati mametīva bhītan nitā[nta]ṁ</l>
+<l n="d">nityaṁ sarvvātmanā yaṁ prabhajati vimukhe yatra nānya-pratiṣṭham</l>
+</lg>
+<p>sa samasta-bhuvanāśraya-śrī-vijayāditya-mahārājaḥ gudravāra-viṣaye sarvvān eva rāṣṭrakūṭa-pramukhān kuṭuṁbina ittham ājñāpayati[+||]
+viditam astu vo [+’]smābhiḥ urppuṭūru-vāstavyasya kauśika-gotrasya āpastaṁba-sūtrasya veṇṇi[ya]ma * sya1473 tūrkkaśarmmaṇaḥ pautrāya ṣaṭ-karmma-niratāya
+
+Face IIIb.
+taittiriya-gr̥hasthāya1474 veda-vedāṁga-vidaḥ dāmodaraśarmmaṇaḥ putrāya[+||]
+</p>
+<lg n="4" met="sragdharā">
+<l n="a">yaṣ ṣaṇṇān dehabhājā[m avaj]i[ta]-jagatā[m abh]yajaiṣīd arīṇāṁ</l>
+<l n="b">varggaṁ yaṁ prāpya paṁke-ruha-bhuvam api ca vyasmara[d brahma]-lakṣmīḥ</l>
+<l n="c">goṣṭhī-joṣaṁ guṇānāṁ abhajata nikaro yatra ca kvāpy alabdhaṁ</l>
+<l n="d">na[r]mmālāpe [+’]pi vāṇī na bhavati vitathā satya-sandhasya yasya</l>
+</lg>
+<lg n="5" met="mandākrāntā">
+<l n="a">hatvā maṁgiṁ vijita-sakalārāti-bhūpāla-varggaṁ</l>
+<l n="b">rāgodrekād dhasita-nr̥pati-tyā[ga]-ś[au]rrya-pratāpam</l>
+<l n="c">Face IVa.
+nānā-hety-āhata-haya-bhaṭonmatta-hasti-prakīrṇṇe1475</l>
+<l n="d">yuddhe yasya dvi[ja]-gaṇa-varasyādbhutādeśa-tuṣṭaḥ</l>
+</lg>
+<p>tasmai vinayaḍiśarmmaṇe candra-grahaṇa-nimitte sarvva-kara-parihārīkr̥tya ṭraṇḍa[pa]ṟu-nāma-grā[mo da]ttaḥ[+||] tasyāvadhayaḥ pūrvvato dakṣiṇataś ca aṁgalūru paścimataḥ vel]pūru uttarataḥ cavi[ṭa]paṟu[+||]
+asyopari kenacit bādhā na karttavyā yaḥ karoti sa pañcabhiḥ mahāpātakair yyukto bhavati[+||]
+vyāsenāpy uktam
+
+Face IVb.
+sva-dattāṁ para-dattāṁ vā yo hareta vasundharām[+|]
+ṣaṣṭi-varṣa-sahasrāṇi viṣṭhāyāṁ1476 jāyate krimiḥ[+||] (6)
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā [bhū]mis tasya tasya tadā phalam[+||] (7)
+sarvvān etān bhāvinaḥ pārtthivendrān bhūyo bhūyo yācate rāmabhadraḥ[+|]
+sāmānyo [+’]yan dharmma-setur nnr̥pāṇāṁ kāle kāle pālanīyo bhavadbhiḥ[+||] (8)
+ājñaptir asya dharmmasya vikramākrānta-śātravaḥ[+|]
+dvitīya iva bībhatsuḥ pāṇḍarāṁgaḥ pratāpavān[+||] (9)
+
+Face Va.
+śivam astu sarvva-jaggatāṁ parahata-niratā bhavantu bhūta-gaṇā[ḥ*][+|]
+[d]oṣāḥ prayāntu nāśaṁ tiṣṭhatu suciraṁ jagati dharmmaḥ[+||] (10)
+putraḥ śrī-mādha[va*]sya sphuṭam1477 idam alikhac chāsanaṁ kaṭṭa[y]ākhaḥ
+śrīmān sachīla-yukto nr̥pāvara-vijayāditya-rājājñay[ā tu[+|]
+prāptaḥ pāra]ṁ ka[lā]nāṁ kr̥tiṣu ca kuśalo [+’]tyantam īśāna-pautro
+nānā-śāstrārttha-[śā]lī parahita-nirato hema-kārāgra-gaṇyam[+||] (11)
+
+</p>
+<pb n="5v"/>
+</div>
+</div>
+      	
+      	
+      	
+      	
+      	
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="X">
+        <lem></lem>
+        <rdg source="bib:AuthorYear_01"></rdg>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-16">
+</p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <note type="credit" resp="part:daba">Estienne-Monod translates Naṭeśa Śāstrī's text.</note>
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-16">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary"><!-- The plates were no longer available when Kielhorn edited them from Sir Walter Elliot's estampages and brief notes, provided to him by Fleet. No image of the seal is available; the seal legend is reported by Kielhorn from Elliot's notes as "Tribhuvanāṁkuśa", and I assume that śrī was present before the name as usual. Kielhorn is, moreover, expressly unsure whether the notes really belong to this set of impressions. According to these notes, the plates were received from Mr. Porter, Collector of Masulipatam, hence Kielhorn calls them "Masulipatam (?) Plates", but given the lack of accurate provenance and the uncertainty even of the available information, I prefer to name them after an internal locality.
+-->
+</div>
+
+
+
+<div type="bibliography">
+  <p>
+    <!-- Edited from estampages in bib:Kielhorn1898-1899_01 pp 122-126 (item B), with an abstract of the contents and with inked rubbings produced by Sir Walter Elliot. -->
+  </p>
+  <listBibl type="primary">
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
