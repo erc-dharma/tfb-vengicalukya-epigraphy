@@ -116,7 +116,7 @@ n="11" break="no"/>rājaḥ||</ab>
 <l n="a" enjamb="yes">kānter indu<add place="inline">ḥ</add> <unclear>kṣa</unclear>mā<unclear>yā</unclear>ḥ <unclear>kṣ</unclear>itir amara-tarus <unclear>t</unclear>yāga-śakteḥ <lb n="15"/>pratāpa</l>
 <l n="b">syārkkaś śaurryasya siṁho jaladhir api mahā-satvatāyā yathāyaṁ</l>
 <l n="c">sthānaṁ <pb n="3r"/><lb n="16"/>syād evam anyan na hi bhavati mametīva bhītan nitā<unclear>nta</unclear>ṁ</l>
-<l n="d">nityaṁ sarvvātmanā yaṁ prabhajati vimukhe yatra nānya-pratiṣṭham|</l>
+<l n="d">nityaṁ sarvvātmanāyaṁ prabhajati vimukhe yatra nānya-pratiṣṭham|</l>
 </lg>
 <p>sa samasta-bhuvanāśraya-śrī-vijayāditya-mahārājaḥ gudravāra<lb 
 n="18" break="no"/>-viṣaye sarvvān eva rāṣṭrakūṭa-pramukhāN kuṭuṁbina Ittham ājñāpayati</p>
@@ -170,10 +170,10 @@ n="30"/>na karttavyā<supplied reason="omitted">.</supplied> yaḥ karoti sa pa�
 <l n="d">pāṇḍarāṁgaḥ pratāpavāN|</l>
 </lg>
 <lg n="10" met="āryā">
-<l n="ab">śivam a<pb n="5r" break="no"/><lb n="36" break="no"/>stu sarvva-jaggatāṁ parahita-niratā bhavantu bhūta-gaṇā</l>
+<l n="ab">śivam a<pb n="5r" break="no"/><lb n="36" break="no"/>stu sarvva-jagatāṁ parahita-niratā bhavantu bhūta-gaṇā</l>
 <l n="cd"><unclear>d</unclear>oṣāḥ prayāntu nāśaṁ tiṣṭhatu suciraṁ jagati dharmmaḥ||</l>
 </lg>
-<lg n="10" met="sragdharā">
+<lg n="11" met="sragdharā">
 <l n="a">putraḥ śrī-mādha<supplied reason="omitted">va</supplied>sya s<choice><sic>p</sic><corr>ph</corr></choice>uṭam i<lb n="38"/>da<space type="binding-hole"/>m alikhac chāsanaṁ kaṭṭa<choice><unclear>y</unclear><unclear>m</unclear></choice>ākhyaḥ</l>
 <l n="b">śrīmān sac-chīla-yukto <lb n="39"/>nr̥pa-vara-vijayāditya-rājājñay<unclear>ā tu|</unclear></l>
 <l n="c"><unclear>prāptaḥ pāra</unclear>ṁ ka<unclear>lā</unclear>nāṁ kr̥tiṣu ca kuśalo <supplied reason="subaudible">’</supplied>tya<lb n="40" break="no"/>ntam īśāna-pautro</l>
@@ -197,6 +197,11 @@ n="30"/>na karttavyā<supplied reason="omitted">.</supplied> yaḥ karoti sa pa�
         <lem>svasti</lem>
         <note>Kielhorn observes that this word may have been preceded by "an ornamental design." If so, it is wholly indistinct in the scanned facsimile, and it must have been outside the margin, occupying a very narrow space to the edge of the plate.</note>
       </app>
+      <app loc="16">
+        <lem>sarvvātmanāyaṁ</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">sarvvātmanā yaṁ</rdg>
+        <note>Kielhorn segments the words differently but does not attempt to construe a coherent sentence. See the note to the translation.</note>
+      </app>
       <app loc="23">
         <lem source="bib:Kielhorn1898-1899_01">vyasmara<supplied reason="lost">d brahma</supplied>-lakṣmīḥ</lem>
         <note>Kielhorn notes that two characters are illegible here, and he supplies them conjecturally, citing for a parallel the compound <foreign>brahma-śrī</foreign> from an epigraphic text published in <title>South Indian Inscriptions</title> volume 1, p. 45, l. 96 (not traced). The restoration is very plausible, but I cannot check a facsimile to see if any vestiges corroborate it.</note>
@@ -219,20 +224,74 @@ n="30"/>na karttavyā<supplied reason="omitted">.</supplied> yaḥ karoti sa pa�
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-16">
-</p>
+<p n="1-8">Greetings. His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Vijayāditya <supplied reason="explanation">II</supplied>, shelter of the complete universe <supplied reason="explanation"><foreign>samasta-bhuvanāśraya</foreign></supplied>, called the Cālukyan Arjuna, was fit to adorn the lineage of the majestic Caḷukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hāritī, who attained kingship by the grace of Kauśikī’s boon,<note>Or, alternatively, by the grace of Kauśikī’s bridegroom, i.e. Śiva. In spite of its slight awkwardness, I prefer the former interpretation because the Bādāmi Cālukyas refer to themselves as nourished (<foreign>saṁvardhita</foreign>) by Kauśikī.</note> who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom the realms of adversaries instantaneously submit at the <supplied reason="explanation">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice. The nimbus of his reputation was a forehead ornament for all the ladies who are the quarters of the compass; he was the fire of destruction for the Gaṅga house, and he shattered the obstinacy of the Kali age.</p>
+<p rend="stanza" n="1">His prowess was that of a lion as he slashed the elephant lords, his enemies, with his sharp sword unsheathed. The fire of his rage would never be quenched but when sprinkled with the tears of the grieving women of his enemies.</p>
+<p n="10-11">The dear son of that <supplied reason="explanation">Vijayāditya II</supplied> was King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">V</supplied>, the shelter of the entire world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>.</p>
+<p rend="stanza" n="2">When he mounts his elephant, the families of his enemies take to the mountaintops. When his arm brandishes the sword, the hands of his foes’ young women grasp chowries.<note>I am not sure about this vignette, and Kielhorn offers no explanation. It may mean that the wives, daughters or serving maids of his enemies pick up chowries to propitiate Viṣṇuvardhana and avert his assault, or that they are to become serving maids in Viṣṇuvardhana’s court.</note> When he knits his brows, bees set up their honeycomb in the palace of his foe. As soon as the war drum sounds in his home, jackals howl in the home of his adversaries. <note>An invasion of bees <supplied reason="explanation"><foreign>bhr̥ṅga</foreign></supplied> and the howling of jackals are both ill omens, as pointed out by Kielhorn who cites the <title>Harṣacarita</title> for both.</note></p>
+<p n="14">His dear son</p>
+<p rend="stanza" n="3">eternally and completely partakes of <supplied reason="explanation">qualities</supplied>, which would have nowhere to go should he turn his back on them, as if <supplied reason="explanation">each</supplied> were completely horrified by the thought, “the other one is not as suitable a vessel for me as this man”—<supplied reason="explanation">namely</supplied> the moon for charm, the earth for forbearance, the <supplied reason="explanation">wish-fulfilling</supplied> tree of the gods for selflessness, the sun for ferocity, the lion for courage, and the ocean for magnanimity.<note>This stanza is rather awkward and quite convoluted, but I do not fully agree with Kielhorn who asserts that it “does not admit of a proper construction.” By analysing into <foreign>sarvvātmanā + ayaṁ</foreign> in the fourth quarter <supplied reason="explanation">instead of Kielhorn’s <foreign>sarvvātmanā + yaṁ</foreign></supplied> we obtain the primary sentence, which claims that Vijayāditya <supplied reason="explanation"><foreign>ayam</foreign></supplied> partakes of <supplied reason="explanation"><foreign>prabhajati</foreign></supplied> something. The object is not explicitly stated, but implied by adjectives in the masculine singular accusative <supplied reason="explanation"><foreign>bhītam</foreign> and <foreign>nānya-pratiṣṭham</foreign></supplied> and must thus be supplied as “each quality <supplied reason="explanation">singly</supplied>” or “the totality of qualities.” It is also possible that <foreign>nitāntam</foreign>, which seems quite redundant as an adverb to <foreign>bhītam</foreign>, was conceived as a noun <supplied reason="explanation">“the totality”</supplied> by the composer, or even that Kielhorn’s reading of this word <supplied reason="explanation">which I cannot check, lacking a facsimile of this page</supplied> is incorrect and the correct reading here is a noun with the expected sense <supplied reason="explanation">though I cannot think of such a noun</supplied>. With this slight hitch, we have a framework in which the stanza can indeed be interpreted as Kielhorn understood, namely that each of the virtues listed considers Vijayāditya a better receptacle than its conventional vessel. As further pointed out by Kielhorn, <foreign>mahā-sattvatā</foreign> as pertaining to the king means magnanimity, but for the ocean it means that it houses large creatures.</note></p>
+<p n="17-18">That <supplied reason="subaudible">son,</supplied> His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Vijayāditya <supplied reason="explanation">III</supplied>, the shelter of the complete universe <supplied reason="explanation">samasta-bhuvanāśraya</supplied>, commands all householders <supplied reason="explanation">kuṭumbin</supplied>—including foremost the territorial overseers <supplied reason="explanation">rāṣṭrakūṭa</supplied>—who reside in Gudravāra district <supplied reason="explanation">viṣaya</supplied> as follows:</p>
+<p n="18-22">Let it be known to you that we <supplied reason="subaudible">have given</supplied> to the grandson of Tūrkaśarman <seg cert="low">Veṇṇiyāma<gap reason="lost"/></seg> of the Kauśika <foreign>gotra</foreign> and the Āpastamba <foreign>sūtra</foreign>, a resident of Urpuṭūru; the son of Dāmodaraśarman who was familiar with the Vedas and Vedāṅgas; <supplied reason="subaudible">to this son who is</supplied> a householder <supplied reason="explanation"><foreign>gr̥hastha</foreign></supplied> of the Taittirīya school devoted to the six duties <supplied reason="explanation">of a Brahmin</supplied>,</p>
+<p rend="stanza" n="4">who has vanquished the cabal of the six enemies of embodied beings that have overpowered the world; finding whom, Brahmanic Majesty forgot even the lotus-born <supplied reason="explanation">Brahmā</supplied>; concerning whom a host of virtues reached a satisfied consensus such as they never found before; who is so truthful that his speech, even when uttered in jest, never turns out false;</p>
+<p rend="stanza" n="5">that foremost of the Brahmin class whose marvellous advice pleased <supplied reason="subaudible">Vijayāditya</supplied> when in a battle teeming with horses and soldiers struck down by various weapons and with enraged elephants he <supplied reason="subaudible">Vijayāditya</supplied> slew Maṅgi, who had defeated the entire host of enemy rulers and in an exuberance of passion mocked the munificence, courage and prowess of the king—</p>
+<p n="27-28">to that Vinayaḍiśarman, on the occasion of an eclipse of the moon, we have given the village named <seg cert="low">Ṭraṇḍapaṟu</seg>, converted into <supplied reason="subaudible">a holding</supplied> exempt from all taxes.</p>
+<p n="28-30">Its boundaries <supplied reason="subaudible">are as follows</supplied>. To the east and to the south, Aṁgalūru. To the west, Velpūru. To the north, Caviṭapaṟu. Let no-one pose an obstacle <supplied reason="subaudible">to his enjoyment of his rights</supplied> over it. He who does so shall be conjoined with the five great sins. Vyāsa too has said:</p>
+<p rend="stanza" n="6">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
+<p rend="stanza" n="7">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
+<p rend="stanza" n="8">Over and over again, Rāmabhadra begs all these future kings: “Each in your own time, you shall respect this framework of legality that is universally applicable to kings!”</p>
+<p rend="stanza" n="9">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of this ruling <supplied reason="explanation"><foreign>dharma</foreign></supplied> is the valiant Pāṇḍarāṁga who, like a second Bībhatsu <supplied reason="explanation">Arjuna</supplied>, defeats his enemies by his courage.</p>
+<p rend="stanza" n="10">Let it be well for all animate beings; let the hosts of creatures be devoted to the good of others; let vices be annihilated; long let righteousness <supplied reason="explanation"><foreign>dharma</foreign></supplied> prevail in the world.</p>
+<p rend="stanza" n="11">The grandson of Īśāna and the son of the revered Mādhava called Kaṭṭa<seg cert="low">y</seg>a wrote <supplied reason="explanation"><foreign>likh-</foreign></supplied> this decree clearly at the order of the excellent king Vijayāditya. He, the foremost of goldsmiths, is possessed of majesty, endowed with true moral, entirely learned in the arts and skilled in his works, proficient in the meaning of various treatises <supplied reason="explanation"><foreign>śāstra</foreign></supplied>, devoted to the good of others.</p>
   </div>  
 </div>
 
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-  <note type="credit" resp="part:daba">Estienne-Monod translates Naṭeśa Śāstrī's text.</note>
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-16">
-</p>
+<p n="1-8">Prospérité ! <supplied reason="subaudible"> Le fils</supplied> de l’illustre grand roi Vijayāditya, refuge de l’univers entier, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés dans l’univers entier, fils de Hāritī, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśikī, protégés par la troupes des Mères, méditant aux pieds du seigneur Mahāsena, dont le cercle des ennemis fut soumis en un instant à la vue du signe illustre de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps furent purifiés par le bain purificatoire de l’<foreign>aśvamedha</foreign>, <supplied reason="subaudible"> Vijayāditya</supplied>, dont l’auréole de gloire est inscrite au santal sur le front des femmes de tous les horizons, feu destructeur de la lignée des Gaṅga, qui brisa l’orgueil de l’âge Kali, qui portait le nom de Cālukyārjuna,<note>Première occurrence dans notre corpus de ce <foreign>biruda</foreign>.</note></p>
+<p rend="stanza" n="1">qui brisa les rois des éléphants, ses ennemis, en tirant son sabre aiguisé, qui possédait le courage du roi des animaux,
+dont le feu de la colère ne s’éteignait que s’il était arrosé par les larmes des femmes des ennemis, ébranlées par leur chagrin,</p>
+<p n="10-11">son cher fils <supplied reason="subaudible">fut</supplied> l’illustre grand roi, refuge de tous les hommes, Viṣṇuvarddhana.</p>
+<p rend="stanza" n="2">Lorsque celui-ci monte sur son éléphant, ses ennemis montent au sommet d’une montagne ;
+lorsque son bras prend son épée, les jeunes épouses des ennemis empoignent des chasse-mouches,
+lorsqu’il fronce les sourcils, les abeilles font du miel dans le palais ennemi,
+lorsque le tambour de la guerre résonne dans son palais, <supplied reason="subaudible">les hurlements</supplied> des chacals résonne dans le palais ennemi,</p>
+<p n="14">Son cher fils,</p>
+<p rend="stanza" n="3">« La lune est la demeure de la beauté, la terre celle de la patience, l’arbre à vœux celle de la puissance de la générosité, le soleil
+celle de la majestueuse ardeur, le lion celle du courage et l’océan celle de la vertu<note>Le terme <foreign>sattva</foreign> désigne à la fois le courage, la qualité des <foreign>kṣatriya</foreign> et le <foreign>guṇa</foreign> brahmanique. Le roi condense les vertus des <foreign>kṣatriya</foreign> et des brahmanes.</note> de la grandeur,
+ainsi n’y a-t-il plus de demeure pour moi ! » comme effrayé par cette idée,
+on rend éternellement hommage de tout son cœur à <supplied reason="subaudible">cet être</supplied> exceptionnel ; si le visage <supplied reason="subaudible">de celui-ci</supplied> se détourne, il n’y a pas d’autre refuge possible.<note>La construction est sans doute fautive : le sujet du verbe <foreign>prabhajati</foreign> est absent. De plus l’adjectif  <foreign>bhītan</foreign>, masculin singulier, ne peut qualifier, grammaticalement, que yam, soit le roi. Mais le sens n’est pas satisfaisant, on attendrait plutôt <foreign>bhīto</foreign>.</note></p>
+<p n="17-18">L’illustre grand roi, refuge de tous les hommes, Vijayāditya, ordonne ceci à tous les habitants, <foreign>rāṣṭrakūṭa</foreign> en tête, dans le <foreign>viṣaya</foreign> de Gudravāra :</p>
+<p n="18-22">qu’il soit connu de vous qu’au petit-fils de Tūrkaśarman, habitant à Urpuṭūru, du <foreign>gotra</foreign> de Kauśika, qui suivait le <foreign>sūtra</foreign> Āpastaṁba, <gap reason="ellipsis"/> , au fils de Dāmodaraśarman, qui se consacre à ses six devoirs, maître de l’école des Taittiriya, connaissseur des Veda et Vedāṁga,</p>
+<p rend="stanza" n="4"><supplied reason="subaudible">à ce fils</supplied> qui vainquit l’ensemble des six ennemis des hommes qui habitent leur corps,
+auprès de qui la splendeur de Brahmā, né dans un lotus, se réfugia cependant,
+en qui la multitude des vertus trouvèrent le bonheur d’être réunies, bonheur inaccessible en quelque lieu que ce soit,
+les paroles de <supplied reason="subaudible">cet homme</supplied>, fidèle à ses engagements, même dans les plaisanteries, ne sont pas menteuses.</p>
+<p rend="stanza" n="5"><supplied reason="subaudible">Vijayāditya</supplied> ayant tué, par un surcroît de passion, Maṁgi,<note>Il est aussi question de ce personnage dans les insc. nos 35, str.2 ; 37, str. 10, 41.</note> - qui avait vaincu la foule de tous les rois ennemis,
+qui s’était moqué de la générosité, du courage et de la majesté du roi,-
+sur <supplied reason="subaudible">le terrain</supplied> de la bataille jonché de chevaux, de soldats et d’éléphants furieux abattus par des armes diverses,
+satisfait des merveilleux conseils de ce meilleur des deux-fois-nés,</p>
+<p n="27-28"><supplied reason="subaudible">celui-ci</supplied> donne à Vinayaḍiśarman, à l’occasion de l’éclipse de lune, le village de Ṭraṇḍa<seg cert="low">pa</seg>ṟu, exempté de toute taxe.</p>
+<p n="28-30">Les limites <supplied reason="subaudible">sont</supplied> à l’est et au sud Aṁgalūru, à l’ouest Velpūru, au nord Caviṭapaṟu.
+Aucune charge ne doit lui être imposée, celui qui en impose est lié aux cinq grands crimes.
+Vyāsa a dit :</p>
+<p rend="stanza" n="6">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre,
+renaît ver de terre dans les excréments pendant soixante mille ans.</p>
+<p rend="stanza" n="7">Beaucoup ont donné une terre, beaucoup l’ont protégée,
+celui qui possède la terre en possède le fruit.</p>
+<p rend="stanza" n="8">Rāmabhadra demande ceci à tous les princes des rois à venir, encore et encore :
+ce pont du dharma, commun aux rois, doit toujours être protégé par vous.</p>
+<p rend="stanza" n="9">L’exécuteur de ce don, qui terrassa ses ennemis par sa vaillance,
+pareil à un deuxième Bībhatsu, <supplied reason="subaudible">est</supplied> Pāṇḍarāṁga, doué de splendeur.</p>
+<p rend="stanza" n="10">Que tout l’univers prospère, que les multitudes d’êtres se consacrent au bien d’autrui,
+que les vices disparaissent, que le <foreign>dharma</foreign> demeure longtemps dans l’univers !</p>
+<p rend="stanza" n="11">Le fils de l’illustre Mādhava a gravé distinctement cet édit, l’illustre nommé Kaṭṭaya,
+doué d’une droite conduite, sur l’ordre de l’excellent roi Vijayāditya,
+ayant atteint la maîtrise ultime des beaux-arts et infiniment expert en orfèvrerie, petit-fils d’Īśāna,
+qui connaît le sens des divers traités, qui se consacre au bien d’autrui, digne d’être considéré comme le maître des orfèvres.</p>
   
   </div>
 </div>
