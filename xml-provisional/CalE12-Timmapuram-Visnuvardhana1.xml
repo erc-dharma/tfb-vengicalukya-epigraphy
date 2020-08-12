@@ -21,7 +21,12 @@
             <surname>Balogh</surname>
           </persName>
         </respStmt>
-        <!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. -->
+<!--CHECK@@@ MANUAL REVISION DETAILS: 
+bibliography
+apparatus lemma truncation
+progress: finished 02
+ -->
+<!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. -->
         <!--This is also the first of my files where I use ° and - in apparatus entries as per the revised EG - the earlier files will need to be corrected in that respect. -->
       </titleStmt>
       <publicationStmt>
@@ -60,13 +65,13 @@
             <handDesc>
               <p>
                 <!--Halantas.  -->
-                <!--Original punctuation. Hooked dash in incipit, see commentary. L11: apparently a triple plain vertical after māhārājaḥ; perhaps a single vertical after viṣaye (but see apparatus). -->
+                <!--Original punctuation. Hooked dash in incipit, see the commentary. L11: apparently a triple plain vertical after māhārājaḥ; perhaps a single vertical after viṣaye (but see apparatus). -->
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
-						<summary><p><p/></summary>
-						<handNote xml:id="Pallava00001_hand1"></handNote>
-						<handNote xml:id="Pallava00001_hand2"></handNote>
-					 -->
+            <summary><p><p/></summary>
+            <handNote xml:id="Pallava00001_hand1"></handNote>
+            <handNote xml:id="Pallava00001_hand2"></handNote>
+           -->
             </handDesc>
           </physDesc>
         </msDesc>
@@ -84,7 +89,7 @@
 
 <div type="edition" xml:lang="san-Latn">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-	<ab><lb n="1"/><unclear>śrī-viṣa</unclear>masiddhiḥ</ab>
+  <ab><lb n="1"/><unclear>śrī-viṣa</unclear>masiddhiḥ</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb n="1r"/>
@@ -111,11 +116,11 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
 <pb n="3v"/>
 </div>
 </div>
-      	
-      	
-      	
-      	
-      	
+        
+        
+        
+        
+        
 <div type="apparatus">
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
   </div>
@@ -167,10 +172,10 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
   </div>
 
 </div>
-      	
-      	
-      	
-      	
+        
+        
+        
+        
 <div type="translation" xml:lang="eng" source="bib:Hultzsch1907-1908_01">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
 </div>
@@ -192,30 +197,30 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
 </div>
 </div>
 
-      	
-      	
-      	
+        
+        
+        
 <div type="commentary">
 <!--The invocation svasti (line 0) is in the left margin, level with the hole. It seems to have been engraved before the text, since characters at the beginning of line 3 give way to its i, and the first character of line 4 gives way to punctuation mark after it. Hultzsch says this resembles the symbol called in Tamil piḷḷaiyār-śuḻi. It is a slightly sinuous dash with a downward hook on its left-hand end. -->
 <!--Of the three plates, the third is blank on both sides. The text ends with the second line on 2v, apparently unfinished. -->
 </div>
-      	
-      	
-      	
+        
+        
+        
 <div type="bibliography">
    <p>
-<!--Edited with estampage in bib:Hultzsch1907-1908_01. The estampage shows only 1v and 2r; there seems to be no facsimile of 2v, nor of the seal. CHECK a printed copy of EI 9. -->
+<!--Edited with estampage in (<bibl rend="omitname"><ptr target="bib:Hultzsch1907-1908_01."/></bibl>) The estampage shows only 1v and 2r; there seems to be no facsimile of 2v, nor of the seal. CHECK a printed copy of EI 9. -->
    </p>
     <listBibl type="primary">
-		<bibl/><!-- one <bibl/> per item of primary bibliography -->
-	</listBibl>
+    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
    <listBibl type="secondary">
       <bibl/><!-- one <bibl/> per item of secondary bibliography -->
    </listBibl>
 </div>
-      	
-      	
-      	
+        
+        
+        
       </body>
   </text>
 </TEI>

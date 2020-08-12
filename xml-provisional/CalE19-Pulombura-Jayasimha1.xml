@@ -5,7 +5,7 @@
   <teiHeader xml:lang="eng">
     <fileDesc>
       <titleStmt>
-        <title>Puloṁbūra grant of Jayasiṁha I</title><!--Alt title "Pulībūmra, Jayasiṁha I" in PEM's corpus. "Pulibumra Plates of Jayasiṁha I" in bib:Rangacharya1927-1928_03. "Pulimburu Plates of Jayasiṁha I" in bib:SubbaRao1929_01. "Polamuru Grant of Jayasiṁha I" in bib:Sircar1939_01. "Polamuru Plates (set II)" in bib:Sankaranarayanan1977_01. -->
+        <title>Puloṁbūra grant of Jayasiṁha I</title><!--Alt title "Pulībūmra, Jayasiṁha I" in PEM's corpus. "Pulibumra Plates of Jayasiṁha I" in (<bibl rend="omitname"><ptr target="bib:Rangacharya1927-1928_03."/></bibl>) "Pulimburu Plates of Jayasiṁha I" in (<bibl rend="omitname"><ptr target="bib:SubbaRao1929_01."/></bibl>) "Polamuru Grant of Jayasiṁha I" in (<bibl rend="omitname"><ptr target="bib:Sircar1939_01."/></bibl>) "Polamuru Plates (set II)" in (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1977_01."/></bibl>) -->
         <respStmt>
           <resp>initial etext</resp>
           <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
@@ -120,11 +120,11 @@ n="23" break="no"/>sa-gītāḥ</p>
 <pb n="3v"/>
 
 </div>
-      	
-      	
-      	
-      	
-      	
+        
+        
+        
+        
+        
 <div type="apparatus">
     <listApp>
       <app loc="8">
@@ -222,13 +222,13 @@ celui qui possède la terre en possède le fruit .</p>
 
 <div type="bibliography">
   <p>
-    <!--The plates were noticed in <bibl><ptr target="bib:ARIE1914"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">5</citedRange></bibl> with a summary  in <bibl><ptr target="bib:ARIE1914"/><citedRange unit="page">85</citedRange></bibl>. CHECK this reference when ARIE items have been finalised in Zotero. Edited from estampages in bib:Rangacharya1927-1928_03, with estampages of the plates and translation. Also edited (at an inferior standard) in bib:SubbaRao1929_01, with estampages and a summary, from two sets of estampages, probably independently of Rangacharya. Re-edited from the previously published estampages in <bibl><ptr target="bib:Sircar1939_01"/><citedRange>340-342</citedRange></bibl>, and again in <bibl><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>198-199</citedRange></bibl>. -->
+    <!--The plates were noticed in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:ARIE1914"/><citedRange"/></bibl>) unit="page">10</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">5</citedRange></bibl> with a summary  in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:ARIE1914"/><citedRange"/></bibl>) unit="page">85</citedRange></bibl>. CHECK this reference when ARIE items have been finalised in Zotero. Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Rangacharya1927-1928_03,"/></bibl>) with estampages of the plates and translation. Also edited (at an inferior standard) in (<bibl rend="omitname"><ptr target="bib:SubbaRao1929_01,"/></bibl>) with estampages and a summary, from two sets of estampages, probably independently of Rangacharya. Re-edited from the previously published estampages in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sircar1939_01"/><citedRange>340-342</citedRange></bibl>),"/></bibl> and again in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>198-199</citedRange></bibl>)."/></bibl> -->
   </p>
   <listBibl type="primary">
     <bibl/><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/><!-- one <bibl/> per item of secondary bibliography --><!--Discussed in <bibl><ptr target="bib:Sircar1939_01"/><citedRange>107-110</citedRange></bibl>; <bibl><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>8-9, 112</citedRange></bibl>-->
+    <bibl/><!-- one <bibl/> per item of secondary bibliography --><!--Discussed in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sircar1939_01"/><citedRange>107-110</citedRange></bibl>);"/></bibl> <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>8-9,"/></bibl>) 112</citedRange></bibl>-->
   </listBibl>
 </div>
 
