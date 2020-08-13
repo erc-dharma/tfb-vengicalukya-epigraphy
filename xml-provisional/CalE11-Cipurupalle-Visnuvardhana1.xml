@@ -249,10 +249,10 @@ Né dans l’illustre famille des Matsya, celui dont les ennemis se sont inclin�
            <!--First brought to notice by Master in 1867, who sent the plates to the Madras Government. Described and translated (but not edited) in (<bibl rend="omitname"><ptr target="bib:Foulkes1870_01."/></bibl>) First edited in (<bibl rend="omitname"><ptr target="bib:Burnell1878_01"/></bibl>) pp 137-138, with a lithograph (of an inked estampage?), Plate 27. Re-edited in (<bibl rend="omitname"><ptr target="bib:Fleet1891_01,"/></bibl>) by which time the plates had been lost, so Fleet worked from Burnell's lithograph. PEM's record says Fleet's edition includes a facsimile, but this does not seem to be the case; CHECK a printed copy of IA20. This edition is based on the estampages published by Burnell. -->
            </p>
            <listBibl type="primary">
-             <bibl n="siglum"/><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+             <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
            </listBibl>
            <listBibl type="secondary">
-             <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+             <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
            </listBibl>
         </div>
       </body>

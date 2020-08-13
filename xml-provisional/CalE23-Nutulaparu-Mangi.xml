@@ -303,7 +303,7 @@ L’exécuteur est Nissaramiji.
     <!-- First noticed by Sewell in List of Antiquities, Madras, vol. 2 p. 24 No. 176, 1884. Not traced, there seems to be no online e-copy. CHECK: maybe it has a facsimile? Edited from the original in (<bibl rend="omitname"><ptr target="bib:Fleet1891_02,"/></bibl>) with a summary of the contents. There seems to be no published estampage, but CHECK a printed copy of IA20. The present edition thus follows Fleet and does not show the location of binding holes with respect to the text. -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

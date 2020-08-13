@@ -225,10 +225,10 @@ celui qui possède la terre en possède le fruit .</p>
     <!--The plates were noticed in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:ARIE1914"/><citedRange"/></bibl>) unit="page">10</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">5</citedRange></bibl> with a summary  in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:ARIE1914"/><citedRange"/></bibl>) unit="page">85</citedRange></bibl>. CHECK this reference when ARIE items have been finalised in Zotero. Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Rangacharya1927-1928_03,"/></bibl>) with estampages of the plates and translation. Also edited (at an inferior standard) in (<bibl rend="omitname"><ptr target="bib:SubbaRao1929_01,"/></bibl>) with estampages and a summary, from two sets of estampages, probably independently of Rangacharya. Re-edited from the previously published estampages in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sircar1939_01"/><citedRange>340-342</citedRange></bibl>),"/></bibl> and again in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>198-199</citedRange></bibl>)."/></bibl> -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/><!-- one <bibl/> per item of secondary bibliography --><!--Discussed in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sircar1939_01"/><citedRange>107-110</citedRange></bibl>);"/></bibl> <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>8-9,"/></bibl>) 112</citedRange></bibl>-->
+    <bibl></bibl><!-- one <bibl/> per item of secondary bibliography --><!--Discussed in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sircar1939_01"/><citedRange>107-110</citedRange></bibl>);"/></bibl> <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1977_01"/><citedRange>8-9,"/></bibl>) 112</citedRange></bibl>-->
   </listBibl>
 </div>
 

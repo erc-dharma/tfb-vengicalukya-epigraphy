@@ -186,10 +186,10 @@ To wit, in this village, in the fifth year of my victory <supplied reason="expla
     <!--Edited from the original in (<bibl rend="omitname"><ptr target="bib:Fleet1878_01,"/></bibl>) with estampages of the plates and translation. The date is revised in (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/></bibl>) pp 8-9. -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+    <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
   </listBibl>
 </div>
 

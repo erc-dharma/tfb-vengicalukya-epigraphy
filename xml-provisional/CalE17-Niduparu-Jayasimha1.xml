@@ -258,10 +258,10 @@ celui qui la prend ou qui le permet demeure aussi longtemps en enfer.
     <!--Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_03,"/></bibl>) with estampages of the plates and photograph of the seal, with an abstract (not a full translation) of the contents. -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+    <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
   </listBibl>
 </div>
 

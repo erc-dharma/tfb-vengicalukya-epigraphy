@@ -427,7 +427,7 @@ l’excellent roi Nr̥pa Rudra est l’exécuteur de ce don.</p>
     <!-- These plates were apparently not reported in ARIE. First edited in (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/></bibl>) No. 35. pp 31-36, from the original plates, with a translation skipping some details and an estampageCHECK? Also edited in (<bibl rend="omitname"><ptr target="bib:Fleet1891_04,"/></bibl>) from the original plates, with an abstract of the contents and an estampage CHECK? -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

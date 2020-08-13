@@ -24,7 +24,7 @@
 <!--CHECK@@@ MANUAL REVISION DETAILS: 
 bibliography
 apparatus lemma truncation
-progress: finished 02
+progress: finished 08 but that one needs translations
  -->
 <!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. -->
         <!--This is also the first of my files where I use ° and - in apparatus entries as per the revised EG - the earlier files will need to be corrected in that respect. -->
@@ -212,10 +212,10 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
 <!--Edited with estampage in (<bibl rend="omitname"><ptr target="bib:Hultzsch1907-1908_01."/></bibl>) The estampage shows only 1v and 2r; there seems to be no facsimile of 2v, nor of the seal. CHECK a printed copy of EI 9. -->
    </p>
     <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
    <listBibl type="secondary">
-      <bibl/><!-- one <bibl/> per item of secondary bibliography -->
+      <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
    </listBibl>
 </div>
         

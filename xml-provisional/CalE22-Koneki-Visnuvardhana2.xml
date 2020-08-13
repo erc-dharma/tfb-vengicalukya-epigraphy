@@ -432,7 +432,7 @@ Prospérité !
     <!-- Edited from the original in (<bibl rend="omitname"><ptr target="bib:Narasimhaswami1955-1956_01,"/></bibl>) with a summary of the contents, estampages of the plates and a (poorly printed) photograph of the seal. The present edition is collated against a poor-quality scan of the plates in Epigraphia Indica. -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

@@ -510,7 +510,7 @@ celui qui possède la terre en possède le fruit.</p>
     <!--Edited from the original in (<bibl rend="omitname"><ptr target="bib:Fleet1878_02,"/></bibl>) with translation, without a facsimile. The estampage was published separately as (<bibl rend="omitname"><ptr target="bib:Fleet1879_03"/></bibl>) (where Fleet is not named as the author), which contains no discussion, only the facsimile and a few lines saying what it is. The present edition has been checked against photographs of the plates from the British Library, first (partially) by Arlo Griffiths and later (in full) by Dániel Balogh. No photo of the seal is included there, but a facsimile is given in (<bibl rend="omitname"><ptr target="bib:Fleet1879_03."/></bibl>) -->
   </p>
   <listBibl type="primary">
-    <bibl/><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:Gaur1975_01"/><citedRange>4-5</citedRange></bibl>
