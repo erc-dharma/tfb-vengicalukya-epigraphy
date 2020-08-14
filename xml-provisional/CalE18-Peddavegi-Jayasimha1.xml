@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Pedda-Vegi plates of Jayasiṁha I</title>
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -52,9 +49,8 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. M: l4 sthitīnāM unclear in scan; seems to be full-size, with a larger and rounder body than regular ma. But l23 phalaM: a very simple J shape N: l14 -janapadāN small, low, without headmark. T: l24 vaseT small, without headmark, elongated stem. -->
-                <!--Original punctuation. L1: a pair of verticals, headline to slightly above baseline. L10 api ca|| likewise. L12 °ātiśete|| shorter verticals, from below headline to around midline. -->
+              <p>Halantas. M: l4 sthitīnāM unclear in scan; seems to be full-size, with a larger and rounder body than regular ma. But l23 phalaM: a very simple J shape N: l14 -janapadāN small, low, without headmark. T: l24 vaseT small, without headmark, elongated stem.</p>
+<p>Original punctuation. L1: a pair of verticals, headline to slightly above baseline. L10 api ca|| likewise. L12 °ātiśete|| shorter verticals, from below headline to around midline. 
                 <!--Other palaeographic observations.  -->
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
@@ -70,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-20" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -143,7 +140,7 @@ n="22" break="no"/>hāpā<space type="binding-hole"/>takair yyukto bhavaty<suppl
         
         
 <div type="apparatus">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -219,7 +216,7 @@ n="22" break="no"/>hāpā<space type="binding-hole"/>takair yyukto bhavaty<suppl
 
 
 <div type="translation" xml:lang="eng" resp="part:daba">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-10">Homage to Savitṛ. Greetings. The son—the incarnate bliss as it were—of Viṣṇuvarman, who is like Viṣṇu the <supplied reason="explanation">original</supplied> Cause, who defeats the conglomeration of enemies by the strength of his arm, whose reputation becomes a beauty mark on the faces of all the ladies who are the directions, <supplied reason="subaudible">and who in turn is</supplied> the beloved younger son of that Kīrtivarman in whom the entirety of royal virtues reside together, whose fame is proclaimed by competent people, and who dignifies the dynasty of the majestic Calukyas—who are vessels of unique virtues, who surmount all kings by their boldness, who are of the Mānavya <foreign>gotra</foreign> and are sons of Hārīti, who bow down the kings of the entire earth by the grace of the spear-bearer <supplied reason="explanation">Mahāsena</supplied>, who are protected by the troop of Mothers, whose faults have been altogether destroyed by bathing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice, who manage the maintenance of social class and stations in life <supplied reason="explanation"><foreign>varṇāśrama</foreign></supplied>, and who are deliberately appointed <supplied reason="explanation">as heirs</supplied> by <supplied reason="subaudible">their</supplied> mothers and fathers—<supplied reason="subaudible">this son</supplied>, who surpasses his sires by the host of his virtues, who subdues the might of all enemies with the might of his power, whose conduct is that of a shelterer of all the world, is Sarvasiddhi <seg rend="pun">who succeeds in everything</seg>. Moreover:</p>
@@ -237,7 +234,7 @@ Many <supplied reason="explanation">kings</supplied> have granted land, and many
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-10">Hommage au soleil ! Prospérité ! Lui, qui est le cadet du fils aimé de Kīrtivarman, demeure de l’ensemble des vertus royales, dont la gloire est célébrée par les hommes de bien, qui élève la lignée des Calukya, illustres, dont les membres sont d’incomparables réceptacles de vertus, qui ont vaincu tous les rois par leur vaillance, du même <foreign>gotra</foreign> que les descendants de Manu, fils de Harīti, devant lesquels tous les royaumes de la terre sont inclinés grâce à la faveur de Śaktidhara,<note>Mahāsena.</note> protégés par la troupes des mères, qui ont détruit les péchés grâce aux bains purificatoires de l’<foreign>aśvamedha</foreign>, qui assurent le maintien des <foreign>varṇa</foreign> et <foreign>āśrama</foreign>, qui méditent aux pieds de leur mère et de leur père,
@@ -262,19 +259,18 @@ le noble et lettré Narasiṁhaśarma, mort au combat, fut l’exécuteur de cet
 
 
 <div type="commentary">
-  <!-- The seal inscription is reproduced here as cited in the text of (<bibl rend="omitname"><ptr target="bib:Rangacharya1927-1928_02,"/></bibl>) who publishes no image. His rendering may be normalised and/or restored. -->
-<!--For the district kantheṟuvāṭi compare gaṇḍeṟuvāṭyāṁ in the <ref n="tfa-pallava-epigraphy" target="CalE17-Niduparu-Jayasimha1.xml">Niduparu Grant</ref>, line 9.-->
-<!--The last line, engraved on the verso of the last plate, begins slightly to the right of the margin defined by the hole. -->
+<p>The seal inscription is reproduced here as cited in the text of <bibl><ptr target="bib:Rangacharya1927-1928_02"/></bibl>, who publishes no image. His rendering may be normalised and/or restored.</p>
+<p>For the district kantheṟuvāṭi compare gaṇḍeṟuvāṭyāṁ in the <ref n="tfa-pallava-epigraphy" target="CalE17-Niduparu-Jayasimha1.xml">Niduparu Grant</ref>, line 9.</p>
+<p>The last line, engraved on the verso of the last plate, begins slightly to the right of the margin defined by the hole.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!--Edited (from the original?) in (<bibl rend="omitname"><ptr target="bib:Rangacharya1927-1928_02,"/></bibl>) with estampages of the plates but no image of the seal, with an abstract (not a full translation) of the contents. The plates were noticed in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:ARIE1918-1921"/><citedRange"/></bibl>) unit="page">11</citedRange><citedRange unit="appendix">A/1917-1918</citedRange><citedRange unit="item">11</citedRange></bibl> with a discussion (including the identification of place names) in <bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:ARIE1918-1921"/><citedRange"/></bibl>) unit="page">130</citedRange></bibl>. CHECK this reference when ARIE items have been finalised in Zotero. -->
+  <p>The plates were noticed in <bibl><ptr target="bib:ARIE1918-1921"/><citedRange unit="page">11</citedRange><citedRange unit="appendix">A/1917-1918</citedRange><citedRange unit="item">11</citedRange></bibl> with a discussion (including the identification of place names) in <bibl><ptr target="bib:ARIE1918-1921"/><citedRange unit="page">130</citedRange></bibl>.<!--CHECK this reference when ARIE items have been finalised in Zotero.--> Edited (from the original?) by V. Rangacharya (<bibl rend="omitname"><ptr target="bib:Rangacharya1927-1928_02"/></bibl>) with estampages of the plates but no image of the seal, with an abstract (not a full translation) of the contents. The present edition by Dániel Balogh is based on a collation of Rangacharya's text with his facsimiles.
   </p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="VR"><ptr target="bib:Rangacharya1927-1928_02"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->

@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Guḍivāḍa plates (set 1) of Jayasiṁha I</title><!--Alt title "Ādivāsa, Jayasiṁha I" in PEM's corpus.-->
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -52,11 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. T: l1 śrīmaT, smallish ta shape with long stem and no headmark; note use of T in what is normally viewed as a compound. l1 vāsakāT, same. M: all instances are unclear in the scan. Perhaps a small ma shape with the right-hand arm elongated, but perhaps simplified into a single stroke like a check mark or a Latin capital J. -->
-                <!--Original punctuation. The opening symbol seems to be a fairly small dextrorse spiral, transcribed by Somasekhara Sarma (SS) as oṁ. -->
-                <!--Other palaeographic observations. Subscript m is usually cursively simplified into a loop lying on its side. -->
-                
+              <p>Halantas. T: l1 śrīmaT, smallish ta shape with long stem and no headmark; note use of T in what is normally viewed as a compound. l1 vāsakāT, same. M: all instances are unclear in the scan. Perhaps a small ma shape with the right-hand arm elongated, but perhaps simplified into a single stroke like a check mark or a Latin capital J.</p>
+<p>Original punctuation. The opening symbol seems to be a fairly small dextrorse spiral, transcribed by Somasekhara Sarma as oṁ.</p>
+<p>Other palaeographic observations. Subscript m is usually cursively simplified into a loop lying on its side. 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -70,6 +65,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-02" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -132,7 +128,7 @@ n="20" break="no"/>vyā<supplied reason="omitted">|</supplied> vyāsa-gītāḥ<
         
         
 <div type="apparatus">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -158,7 +154,7 @@ n="20" break="no"/>vyā<supplied reason="omitted">|</supplied> vyāsa-gītāḥ<
 
 
 <div type="translation" xml:lang="eng" resp="part:daba">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-12">Greetings from the residence at majestic Kallūra.
@@ -179,7 +175,7 @@ The executor <supplied reason="explanation"><foreign>ājñapti</foreign></suppli
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-12">Om ! Prospérité ! De la résidence de l’illustre Kallūra,
@@ -196,44 +192,43 @@ le cher fils du grand roi Viṣṇuvardhana, grand Viṣṇu du <foreign>yuga</f
 
 
 <div type="commentary">
-  <!-- Some notes on the relationship of the three grants edited in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01,"/></bibl>) based on his summary on p136 (here: SS) and filled out with place names. SS's editor finds his argument unconvincing; he notes that both the village and the donee names are different in the first two grants, and the third grant seems to be a later modified copy of the second.
-    
-    Grant 1 = CalE14, called Ādivāsa by PEM
-    SS:the second grant, creating a new agrahāra from land cut off on the one side from (the western portion of) Ādivāsa and on the other side from Guḍivāḍa
-    Text: he grants some land, possibly cut off from (the western part of?) Punnagapadra and including Kulivataka-ksetra. The donees are Vinayasarman and Visnusarman, sons of Vasusarman, grandsons of Kumarasarman of the Maudgalya gotra.
-    In the actual text: Ādivāse punnāgapadra vastādiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaṁ paścima-khaṇḍaḥ ... saṁprattaM
-    As emended by S.Sarma: Ādivāse punnāgopavana-gr̥ha-sthānaṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaṁ paścima-khaṇḍaṁ ... saṁprattam (in this, the punnāgopavana thing is offered tentatively)
-    As emended by S. Sarma's editor: Ādivāse punnāgapadraḥ vasatiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaḥ paścima-khaṇḍaḥ ... saṁprattaḥ
-    I now think that the intended meaning is something like: Ādivāse(/aṁ) punnāgapadre(/aṁ) vasatiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaḥ paścima-khaṇḍaḥ ... saṁprattaḥ (or -sahitaṁ paścima-khaṇḍaṁ ... saṁprattaM; khaṇḍa can be both m and n). 
-    
-    
-    Grant 2 = CalE15, called Kuḍivāḍa 1 by PEM
-    SS: the first grant, creating the village of Kuḍivāḍa/Guḍivāḍa or creating an agrahāra from that village
-    Text: he settles them in Kudivada village, cutting off land from Kundura village. The donees are Svamiyasas and Visnuyasas, sons of Visnuyasas, grandsons of Mitrayasas. The donees further give one ninth of their land to their sister's son (bhāgineya) Visnusarman, who is of the Gavismi gotra and thus probably different from the Visnusarman in Grant 1.
-    Actual text: kuḍivāḍa-nāma grāmaḥ vasati kr̥tvā kundūra-grāma-simno dvātrāṅśa-nivarttanaṁ chitvā … sambrattaṁ
-    
-    
-    Grant 3 = CalE16, called Kuḍivāḍa 2 by PEM
-    SS: the third grant, compensating the donees (which ones?) by cutting off land again from the village of Kundūru.
-    Text: same donation and donees as in Grant 2, but without the brother-in-law. (So why don't we assume this is the earlier version, and Grant 2 is a later re-issue of this one?)
-    Actual text: kuḍivāḍa-nāma grāmaḥ vasatiṁ kr̥tvā kundūra-grāma-sīmno pr̥thak-kr̥tya … dattaḥ
-    If we assume this to be ungarbled, then it is clear that the village itself was given _and_ made their residence. But since this text does not say _what_ was separated off from Kundura, it may be garbled. However, the boundaries are set out, while they are not in Grant 2.
-    
-
-    My conclusion as of 1 April 2020: I'll keep the nomenclature introduced by PEM. I cannot form an opinion whether S. Sarma is right to equate Kudivada to Kulivataka. Changed 2 April: but since the plates all come from a village now called Guḍivāḍa, it makes very good sense to assume that they are the same. I also have strong doubts that Ādivāsa is a place name, and even if I renamed this first set to Punnāgapadra, the other two sets would have to use the same internal place name. I find it better to name all three after the findspot.
-    
-  -->
-<!--S.Sarma is right to point out that dating by season (l24) is very unusual at this late time. Another important observation of his is that since an eclipse of the moon must have taken place on a full-moon day, and the date is the 15th day of the last (8th) fortnight of winter, the months must have been reckoned as pūrṇimānta (unless the season change happened in the middle of a month, something I am not sure can be excluded). -->
-</div>
+<p> Some notes on the relationship of the three grants edited in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>, hereafter: SS) based on his summary on p136 and filled out with place names. SS's editor finds his argument unconvincing; he notes that both the village and the donee names are different in the first two grants, and the third grant seems to be a later modified copy of the second.</p>
+<p>Grant 1 = CalE14, called Ādivāsa by PEM
+<list>
+<item>SS:the second grant, creating a new agrahāra from land cut off on the one side from (the western portion of) Ādivāsa and on the other side from Guḍivāḍa</item>
+<item>Text: he grants some land, possibly cut off from (the western part of?) Punnagapadra and including Kulivataka-ksetra. The donees are Vinayasarman and Visnusarman, sons of Vasusarman, grandsons of Kumarasarman of the Maudgalya gotra.</item>
+<item>In the actual text: Ādivāse punnāgapadra vastādiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaṁ paścima-khaṇḍaḥ ... saṁprattaM</item>
+<item>As emended by S.Sarma: Ādivāse punnāgopavana-gr̥ha-sthānaṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaṁ paścima-khaṇḍaṁ ... saṁprattam (in this, the punnāgopavana thing is offered tentatively)</item>
+<item>As emended by S. Sarma's editor: Ādivāse punnāgapadraḥ vasatiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaḥ paścima-khaṇḍaḥ ... saṁprattaḥ</item>
+<item>I now think that the intended meaning is something like: Ādivāse(/aṁ) punnāgapadre(/aṁ) vasatiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaḥ paścima-khaṇḍaḥ ... saṁprattaḥ (or -sahitaṁ paścima-khaṇḍaṁ ... saṁprattaM; khaṇḍa can be both m and n). </item>
+</list>
+</p>
+<p>Grant 2 = CalE15, called Kuḍivāḍa 1 by PEM
+<list>
+<item>SS: the first grant, creating the village of Kuḍivāḍa/Guḍivāḍa or creating an agrahāra from that village</item>
+<item>Text: he settles them in Kudivada village, cutting off land from Kundura village. The donees are Svamiyasas and Visnuyasas, sons of Visnuyasas, grandsons of Mitrayasas. The donees further give one ninth of their land to their sister's son (bhāgineya) Visnusarman, who is of the Gavismi gotra and thus probably different from the Visnusarman in Grant 1.</item>
+<item>Actual text: kuḍivāḍa-nāma grāmaḥ vasati kr̥tvā kundūra-grāma-simno dvātrāṅśa-nivarttanaṁ chitvā … sambrattaṁ</item>
+</list>
+</p>
+<p>Grant 3 = CalE16, called Kuḍivāḍa 2 by PEM
+<list>
+<item>SS: the third grant, compensating the donees (which ones?) by cutting off land again from the village of Kundūru.</item>
+<item>Text: same donation and donees as in Grant 2, but without the brother-in-law. (So why don't we assume this is the earlier version, and Grant 2 is a later re-issue of this one?)</item>
+<item>Actual text: kuḍivāḍa-nāma grāmaḥ vasatiṁ kr̥tvā kundūra-grāma-sīmno pr̥thak-kr̥tya … dattaḥ</item>
+<item>If we assume this to be ungarbled, then it is clear that the village itself was given _and_ made their residence. But since this text does not say _what_ was separated off from Kundura, it may be garbled. However, the boundaries are set out, while they are not in Grant 2.</item>
+</list>
+</p>
+<p>My conclusion as of 1 April 2020: I'll keep the nomenclature introduced by PEM. I cannot form an opinion whether S. Sarma is right to equate Kudivada to Kulivataka. Changed 2 April: but since the plates all come from a village now called Guḍivāḍa, it makes very good sense to assume that they are the same. I also have strong doubts that Ādivāsa is a place name, and even if I renamed this first set to Punnāgapadra, the other two sets would have to use the same internal place name. I find it better to name all three after the findspot.</p>
+<p>S.Sarma is right to point out that dating by season (l24) is very unusual at this late time. Another important observation of his is that since an eclipse of the moon must have taken place on a full-moon day, and the date is the 15th day of the last (8th) fortnight of winter, the months must have been reckoned as pūrṇimānta (unless the season change happened in the middle of a month, something I am not sure can be excluded). 
+</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!--Edited from the original plates in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>) pp 129-133, with estampages of the plates and photograph of the seal. -->
-  </p>
+  <p>Edited from the original plates by M. Somasekhara Sarma(<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>129-133</citedRange></bibl>), with estampages of the plates and photograph of the seal. The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>129-133</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->

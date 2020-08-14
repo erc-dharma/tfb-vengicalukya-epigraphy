@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Timmapuram plates of Viṣṇuvardhana I</title>
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -21,13 +18,6 @@
             <surname>Balogh</surname>
           </persName>
         </respStmt>
-<!--CHECK@@@ MANUAL REVISION DETAILS: 
-bibliography
-apparatus lemma truncation
-progress: finished 08 but that one needs translations
- -->
-<!--DB Note: this is my first file based on the template v2 as of 2020-03-27. The headers of my previous files, CalE01 to CalE11, will need to be updated. All those show the original editor under intellectual authorship - this must be considered. -->
-        <!--This is also the first of my files where I use ° and - in apparatus entries as per the revised EG - the earlier files will need to be corrected in that respect. -->
       </titleStmt>
       <publicationStmt>
         <authority>DHARMA <note>This project has received funding from the European Research Council
@@ -65,7 +55,7 @@ progress: finished 08 but that one needs translations
             <handDesc>
               <p>
                 <!--Halantas.  -->
-                <!--Original punctuation. Hooked dash in incipit, see the commentary. L11: apparently a triple plain vertical after māhārājaḥ; perhaps a single vertical after viṣaye (but see apparatus). -->
+                Original punctuation. For the hooked dash in the incipit, Hultzsch says this resembles the symbol called in Tamil piḷḷaiyār-śuḻi. It is a slightly sinuous dash with a downward hook on its left-hand end. L11: apparently a triple plain vertical after māhārājaḥ; perhaps a single vertical after viṣaye (but see apparatus). 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
@@ -79,6 +69,7 @@ progress: finished 08 but that one needs translations
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-03-27" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -122,7 +113,7 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
         
         
 <div type="apparatus">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -160,7 +151,7 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
       </app>
       <app loc="12">
         <lem>sahasra-nivarttanāni</lem>
-        <note>Hultzsch emends pedantically to nivarttana-sahasrāṇi</note>
+        <note>Hultzsch emends pedantically to <foreign>nivarttana-sahasrāṇi</foreign></note>
       </app>
       
       
@@ -177,7 +168,7 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
         
         
 <div type="translation" xml:lang="eng" source="bib:Hultzsch1907-1908_01">
-<div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="1-4">Hail! From <supplied reason="subaudible">his</supplied> residence in the prosperous <placeName>Piṣṭapura</placeName>,—the great-grandson<note resp="part:daba">Hultzsch indicates that <foreign>naptr̥</foreign> can have this meaning and points to parallels.</note> of <persName>Raṇarāga</persName>, who repeatedly indulged in the passion of fighting in order to elevate the family of the <persName>Ca<supplied reason="lost">lu</supplied>kyas</persName>, who were Hāritiputras, who belonged to the <foreign>gotra</foreign> of the Mānavyas, who were protected by the Mātr̥s, the mothers of the three worlds, <supplied reason="subaudible">and</supplied> who were rendered prosperous by Mahāsena, who by his own arm had defeated the great army of the sons of Danu;</p>
@@ -190,7 +181,7 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-<div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p>Depuis la résidence de l’illustre Piṣṭapura, l’arrière petit-fils de Raṇarāga, qui éprouva plus d’une fois le goût du combat pour éléver la lignée des Calukya, du même <foreign>gotra</foreign> que les descendants de Manu, eux à qui Mahāsena accorda la prospérité, qui par leur propre bras ont vaincu la grande armée des fils de Danu, protégés par les mères, mères des trois mondes, le petit-fils de Raṇavikrama à la vaillance insoutenable, le fils aimé de Kīrtivarman à la gloire immense, le frère cadet aimé du grand roi Satyāśraya Vallabha possesseur du cercle entier de la terre soumis par ses trois pouvoirs, lui devant la lame de l’épée duquel s’incline le cercle de tous les feudataires, lui qui par sa beauté, ses vertus, sa jeunesse et sa splendeur surpasse de loin le porteur de la bannière à <foreign>makara</foreign>, lui, (nommé) Viṣamasiddhi car il obtint la réussite dans l’adversité sur terre,<note>Même glose du biruda que dans les insc. nos 11 et 13</note> sur mer, etc., vache des désirs dont le lait nourrit éternellement la foule des mendiants, Trivikrama du monde humain grâce à sa vaillance qui surpasse le monde (des hommes), excellent dévôt de Bhagavat, très pieux, méditant aux pieds de sa mère et de son père, l’illustre grand roi Viṣṇuvardhana, sur le terrain à l’est, dans village nommé Kumūlūra, dans le <foreign>viṣaya</foreign> de Paḻaki, a donné,<note>La construction syntaxique est incorrecte : le donateur <foreign>śrī-viṣṇuvarddhana-mahārājaḥ</foreign>, qui devrait être l’agent, et le prédicat, dattaḥ sont au nominatif masculin singulier, de plus le prédicat n’est pas accordé à son sujet, qui est au neutre pluriel, <foreign>nivarttana-sahasrāni</foreign>.</note> après les avoir morcellés, quatre mille <foreign>nivartana</foreign> pour quarante brahmanes de divers <foreign>gotra</foreign>, résidant à Potuṇūṅka, appartenant à l’école de Chandoga, maîtrisant parfaitement les observances essentielles et secondaires, voué aux six devoirs, maîtrisant parfaitement les Veda.</p>
@@ -201,18 +192,18 @@ n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-p�
         
         
 <div type="commentary">
-<!--The invocation svasti (line 0) is in the left margin, level with the hole. It seems to have been engraved before the text, since characters at the beginning of line 3 give way to its i, and the first character of line 4 gives way to punctuation mark after it. Hultzsch says this resembles the symbol called in Tamil piḷḷaiyār-śuḻi. It is a slightly sinuous dash with a downward hook on its left-hand end. -->
-<!--Of the three plates, the third is blank on both sides. The text ends with the second line on 2v, apparently unfinished. -->
+<p>Of the three plates, the third is blank on both sides. The text ends with the second line on 2v, apparently unfinished.</p>
+<p>This edition has not been collated for 2v and the seal.</p>
+<p n="0">The invocation svasti is in the left margin, level with the hole. It seems to have been engraved before the text, since characters at the beginning of line 3 give way to its i, and the first character of line 4 gives way to punctuation mark after it.</p>
 </div>
         
         
         
 <div type="bibliography">
-   <p>
-<!--Edited with estampage in (<bibl rend="omitname"><ptr target="bib:Hultzsch1907-1908_01."/></bibl>) The estampage shows only 1v and 2r; there seems to be no facsimile of 2v, nor of the seal. CHECK a printed copy of EI 9. -->
+   <p>Edited by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1907-1908_01"/></bibl>) with (partial?<note>The estampage shows only 1v and 2r; there seems to be no facsimile of 2v, nor of the seal. CHECK a printed copy of EI 9.</note>) estampages and translation. The present edition by Dániel Balogh is based on a collation of Hultzsch's edition with the published estampages. 
    </p>
     <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="EH"><ptr target="bib:Hultzsch1907-1908_01"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
    <listBibl type="secondary">
       <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->

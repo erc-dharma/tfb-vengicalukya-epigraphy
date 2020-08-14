@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Guḍivāḍa plates (set 2) of Jayasiṁha I</title><!--Alt title "Kuḍivāḍa 1, Jayasiṁha I" in PEM's corpus.-->
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -52,14 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. 
-T: ta shape with elongated stem and no headmark. E.g. l1 vāsakāT.
-M: seems to be a reduced, squarish and open-mouthed (northern?) ma-shape, with the right arm elongated. E.g. l14 pautrābhyāM. Also, simply a rounded J shape, e.g. l15 parābhyāM (where the M is raised, and the lower part of the line is occupied by the hole); probably l17 mukhāravindābhyāM. Also a third form, a classical/southern ma simplified into a loop, e.g. l16 paṅkābhyāM, yājibhyāM; l17 sabrahmacāribhyāM; probably l18 viṣṇuyaśobhyāM; probably l24 phalaM; possibly l25 ānantyaM; l25 pālanaM.
-N: slightly reduced na shape with fairly long stem, no headmark. l24 vaN (for vaḥ). -->                
-<!--Original punctuation. The opening symbol is a dextrorse spiral, transcribed by Somasekhara Sarma (SS) as oṁ. It is about the size of a character body and continues for about 360°, ending at 3 o'clock. In l3 "ratnasya," I see a dot around median height; see apparatus.  -->
-                <!--Other palaeographic observations. Note the occurrence of very rare initial ai in l5 Aidaṁyugīna and l10 Airāvata. Initial E also occurs in l20 Etābhyam. Also note the scribe's strong preference to split lines at the ends of words (including words in compound): the number of line breaks within (indivisible) words was far higher in other E Cālukya plates I've worked on so far. -->
-                
+              <p>Halantas. T: ta shape with elongated stem and no headmark. E.g. l1 vāsakāT. M: seems to be a reduced, squarish and open-mouthed (northern?) ma-shape, with the right arm elongated. E.g. l14 pautrābhyāM. Also, simply a rounded J shape, e.g. l15 parābhyāM (where the M is raised, and the lower part of the line is occupied by the hole); probably l17 mukhāravindābhyāM. Also a third form, a classical/southern ma simplified into a loop, e.g. l16 paṅkābhyāM, yājibhyāM; l17 sabrahmacāribhyāM; probably l18 viṣṇuyaśobhyāM; probably l24 phalaM; possibly l25 ānantyaM; l25 pālanaM. N: slightly reduced na shape with fairly long stem, no headmark. l24 vaN (for vaḥ).</p>
+<p>Original punctuation. The opening symbol is a dextrorse spiral, transcribed by Somasekhara Sarma as oṁ. It is about the size of a character body and continues for about 360°, ending at 3 o'clock. In l3 "ratnasya," I see a dot around median height; see apparatus.</p>
+<p>Other palaeographic observations. Note the occurrence of very rare initial Ai in l5 Aidaṁyugīna and l10 Airāvata. Initial E also occurs in l20 Etābhyam. Also note the scribe's strong preference to split lines at the ends of words (including words in compound): the number of line breaks within (indivisible) words was far higher in other E Cālukya plates I've worked on so far.                
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -73,6 +65,7 @@ N: slightly reduced na shape with fairly long stem, no headmark. l24 vaN (for va
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-03" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -137,7 +130,7 @@ n="22"/>Ane<space type="binding-hole"/>ka-dharmm<unclear>ā</unclear>nuṣṭhā
         
         
 <div type="apparatus">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -205,7 +198,7 @@ n="22"/>Ane<space type="binding-hole"/>ka-dharmm<unclear>ā</unclear>nuṣṭhā
 
 
 <div type="translation" xml:lang="eng" resp="part:daba">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-13">Greetings from the residence at majestic Asanapura. The dear grandson of His Majesty Kīrtivarman, whose actions dispel the suffering of all the world, a jewel of a king arisen from the ocean that is the family of the Calukyas—who are empowered by Mahāsena who with the tip of his spear shatters the great army <supplied reason="explanation"><foreign>mahā-sena</foreign></supplied> of the lords of Danu’s spawn, who are protected by the band of Mothers, who are the darling sons of Hāriti, who are of the Mānavya <foreign>gotra</foreign> and who have performed the Aśvamedha sacrifice—; the dear son of King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana, a veritable Supreme Viṣṇu of this epoch who, even in the midst of the Kali age, has descended into a human incarnation to protect his subjects as though it were the Kr̥ta age; His Majesty the supremely pious King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Pr̥thivījayasiṁhavallabha, who was deliberately appointed <supplied reason="subaudible">as heir</supplied> by his mother and father, whose ever-increasing valour forces the entire circle of subordinate rulers <supplied reason="subaudible"><foreign>sāmanta</foreign></supplied> to bow, who breaks the entire army and <supplied reason="subaudible">even</supplied> the mind of enemy kings with the trident comprised of his own three powers <supplied reason="explanation"><foreign>śakti-traya</foreign></supplied>, whose special ornament is the fame acquired by victories in the clash of many a battle, whose footrest is tinted day after day by sprays of luminance from jewels in the diadems of numerous vassals <supplied reason="explanation"><foreign>sāmanta</foreign></supplied>, who is as thoroughly devoted to righteousness <supplied reason="explanation"><foreign>dharma</foreign></supplied> as Yudhiṣṭhira, as versed in polity <supplied reason="explanation"><foreign>naya</foreign></supplied> as Br̥haspati and as versed in discipline <supplied reason="explanation"><foreign>vinaya</foreign></supplied> as Manu, whose {hand is ceaselessly raised for giving} as Airāvata’s {trunk is raised and his rut fluid is ceaseless}, and who cherishes his kin and household staff, commands the district elders <supplied reason="explanation"><foreign>viṣaya-vṛddha</foreign></supplied> and officials of Pḻakki district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> and the householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied> of Kundūra village:</p>
@@ -223,7 +216,7 @@ Have no fear, o kings, that <supplied reason="subaudible">land</supplied> may no
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-13">Om ! Prospérité ! De la résidence de l’illustre Asanapura, le cher petit-fils de l’illustre Kīrtivarman, destructeur de la souffrance de tout l’univers, joyau des rois nés dans l’océan qu’est la lignée des Calukya,<note>Pour ces composés cf. notre note in insc. n° 14. Même occurrence in insc. nos 16, 17, 19.</note> rendus prospères par Mahāsena dont le pouvoir a mis en pièce les armées des rois descendants de Danu,<note>Le même composé apparaît dans l’insc. n°16 avec le même jeu sur le terme <foreign>mahāsena</foreign> qui désigne la première fois l’armée des Cālukya et la seconde fois le dieu. Un composé très approchant se trouve dans l’insc. n° 12 avec le même jeu sur <foreign>mahāsena</foreign> : <foreign>sva-bhuja-vijita-danu-tanaya-mahāsenena mahāsenābhivarddhitānān</foreign>.</note> protégés par la troupe des mères, du même gotra que les descendants de Manu, fils de Hāriti, qui accomplirent l’<foreign>aśvamedha</foreign>, le cher fils du grand roi Viṣṇuvardhana, grand Viṣṇu vivant dans ce <foreign>yuga</foreign>,<note>Pour le commentaire de ce composé voir l’insc. n° 14 du même roi, on le rencontre aussi dans les insc. nos 16 et 17.</note> comme si c’était le Kr̥tayuga, alors qu’on était dans le Kaliyuga, incarné en homme pour protéger l’humanité, l’illustre grand roi Pr̥thivī Jayasiṁgha Vallabha, devant l’auguste majesté duquel se courbent les cercles de tous les feudataires, toutes les forces et les cœurs des rois ennemis ayant été brisés par le trident que sont ses trois pouvoirs, orné d’une extraordinaire gloire, acquise dans les victoires des heurts des nombreux combats, dont les pieds du trône sont rougis par la splendeur des rayons lumineux émis par les pierres des diadèmes des nombreux feudataires, - tel Yudhiṣṭhira, il connaît parfaitement le <foreign>dharma</foreign>, tel Br̥haspati, il connaît la science politique, tel Manu, il connaît la juste conduite, tel Airāvata qui étend sa trompe chargée de mada, il étend la main pour distribuer sans cesse des dons, - dévoué à son peuple et aux autres peuples, très pieux, méditant aux pieds de sa mère et de son père, aux anciens officiers de ce <foreign>viṣaya</foreign>, et aux chefs de famille du village de Kundūra, dans le <foreign>viṣaya</foreign> de Pḻakki, ordonne :</p>
@@ -238,19 +231,15 @@ Have no fear, o kings, that <supplied reason="subaudible">land</supplied> may no
 
 
 
-<div type="commentary">
-  <!-- My notes on the relationship of the three grants edited in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>) are in CalE14-Gudivada1-Jayasimha1  -->
-<!-- -->
-</div>
+<div type="commentary"><p>My notes on the relationship of the three grants edited in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl> are in my commentary on the <ref target="CalE14-Gudivada1-Jayasimha1">Guḍivāḍa plates (set 1)</ref>.</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!--Edited from the original plates in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>) pp 133-136, with estampages of the plates and photograph of the seal. -->
-  </p>
+  <p>Edited from the original plates by M. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>133-136</citedRange></bibl>), with estampages of the plates and photograph of the seal.  The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>133-136</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->

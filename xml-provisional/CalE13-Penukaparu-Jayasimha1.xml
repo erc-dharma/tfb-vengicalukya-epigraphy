@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Peṇukapaṟu grant of Jayasiṁha I</title>
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -52,8 +49,7 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. L1 purāT almost full-size ta, probably not curly, no headmark. L4 mahīkṣitāM unclear in scan. L27 vaseT: like ta without a curl, no headmark, and a pretty long stem. -->
+              <p>Halantas. L1 purāT almost full-size ta, probably not curly, no headmark. L4 mahīkṣitāM unclear in scan. L27 vaseT: like ta without a curl, no headmark, and a pretty long stem. 
                 <!--Original punctuation.  -->
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
@@ -69,6 +65,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-03-31" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -140,7 +137,7 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
         
         
 <div type="apparatus">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -161,7 +158,7 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
         <note>Though read as clear by Fleet, <foreign>rā</foreign> actually looks like <foreign>vā</foreign>, descending hardly lower than the preceding <foreign>vā</foreign> and closed into a rounded loop.</note>
       </app>
       <app loc="7">
-        <lem>-vi<pb n="2r" break="no"/><!--Remove pb from the lemma?--><lb n="8" break="no"/>ṣama-siddheḥ</lem>
+        <lem>-vi<pb n="2r" break="no"/><lb n="8" break="no"/>ṣama-siddheḥ</lem>
         <note>Before <foreign>ṣa</foreign>, at the top left of the page, there is a circle at headline height. Fleet does not comment on it. It may be the vowel marker of an aborted repetition of <foreign>vi</foreign>, but no trace of a body is discernible in the scan. I would expect to read <foreign>āvāpta-siddher viṣamasiddheḥ</foreign> or some other phrase that includes Viṣamasiddhi as a name, and a derivation of the name. The circle could also be an editorial mark indicating that eyeskip needs to be corrected here.</note>
       </app>
       <app loc="14">
@@ -186,7 +183,7 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
       <app loc="27">
         <lem>-purohita<supplied reason="omitted">s ta</supplied><unclear cert="low">sya</unclear></lem>
         <rdg source="bib:Fleet1884_01">purohit<choice><unclear>a</unclear><unclear>ā</unclear></choice><unclear cert="low">sya</unclear></rdg>
-        <note>The <foreign>t</foreign> could indeed be <foreign>tā</foreign>, but several instances above where the headline was similarly elongated on the right were read as <foreign>ta</foreign> by Fleet where ta was expected. I restore tentatively, but I think my restoration fits the context and corrects the metre.Given the bad quality of my scan and Fleet's own uncertainty about the last character, it is also possible that <foreign>sta</foreign> is engraved here and <foreign>sya</foreign> needs to be restored. Finally, there seems to be a spot, possibly a <foreign>kākapada</foreign>, to the right of <foreign>ta</foreign>, so perhaps the missing character was in fact added by the engraver somewhere.</note>
+        <note>The first character with <foreign>t</foreign> could indeed be <foreign>tā</foreign>, but several instances above where the headline was similarly elongated on the right were read as <foreign>ta</foreign> by Fleet where <foreign>ta</foreign> was expected. I restore tentatively, but I think my restoration fits the context and corrects the metre. Given the bad quality of my scan and Fleet's own uncertainty about the last character, it is also possible that <foreign>sta</foreign> is engraved here and <foreign>sya</foreign> needs to be supplied. Finally, there seems to be a spot, possibly a <foreign>kākapada</foreign>, to the right of <foreign>ta</foreign>, so perhaps the missing character was in fact added by the engraver somewhere.</note>
       </app>
       <app loc="28">
         <lem>°ejya-</lem>
@@ -195,7 +192,7 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
       </app>
       <app loc="28">
         <lem source="bib:Fleet1884_01">-ya<choice><unclear>bh</unclear><unclear>s</unclear></choice>uciḥ</lem>
-        <note>I adopt Fleet's reading because I cannot improve on it from my poor scan. I see no trace of the final <foreign>visarga</foreign>. I wonder if it is possible to read (or emend to) <foreign>°ejyayā śuciḥ</foreign> here. These characters are spaced more widely than the rest of the line.</note>
+        <note>I adopt Fleet's reading because I cannot improve on it from my poor scan. I see no trace of the final <foreign>visarga</foreign>. I wonder if it is possible to read (or emend to) <foreign>°ejyayā śuciḥ</foreign> here; intuitively, <foreign>yājinaḥ</foreign> seems most likely. These characters are spaced more widely than the rest of the line.</note>
       </app>
       <app loc="29">
         <lem>kada<unclear cert="low">ḥ</unclear></lem>
@@ -222,7 +219,7 @@ n="24" break="no"/>dhā kara<choice><sic>n</sic><corr>ṇ</corr></choice>īyā<s
         
         
 <div type="translation" xml:lang="eng" resp="part:daba">
-<div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="1-16">Greetings from the majestic Udayapura of victory.
@@ -242,7 +239,7 @@ The grandson of the majestic Kīrtivarman, whose fame has crossed the four ocean
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-<div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="1-16">Prospérité ! De l’illustre camp victorieux d’Udaya, le petit-fils de l’illustre Kīrtivarman, dont la gloire est allée au-delà des eaux des quatre océans, ornement de la lignée des Calukya, méditant aux pieds du bhienheureux seigneur Mahāsena, rendus prospères par les mères des sept mondes, auxquels tous les rois ont été soumis en instant à la vue du signe du sanglier, faveur octroyée par le bienheureux Nārāyaṇa, du même <foreign>gotra</foreign> que les descendants de Manu, fils de Hāriti, dont les corps ont été purifiés par le bain purificatoire de l’aśvamedha, le fils de celui qui se comportait comme la vache des désirs envers ceux qui lui demandaient protection, <supplied reason="explanation">fils</supplied> de celui qui remporta le succès contre l’adversité<note>Le composé <foreign>viṣamasiddhi</foreign> désigne, dans les insc. nos 10 à 12, Viṣṇuvardhana I, il est sans doute ici question de ce roi, père de Jayasiṁha I.</note> en détruisant les places inaccessibles des nombreux ennemis, et qui possèdait une arme pour protéger les affligés, qui guerroyait pour briser en éclats l’orgueil des ennemis, qui était instruit pour avoir une bonne conduite, qui acquerait des richesse pour <supplied reason="subaudible">les</supplied> donner, qui donnait pour assurer le règne du <foreign>dharma</foreign>, qui pratiquait le <foreign>dharma</foreign> pour conquérir la gloire,<note>L’auteur de la <foreign>praśasti</foreign> s’inspire d’une figure de style, l’<foreign>ekāvalī</foreign> ( M.C. Porcher, 1978 p. 274), notamment présente dans le Raghuvaṁśa, I, 5-9, où l’on trouve le même usage du datif de but.</note> <supplied reason="explanation">ce fils</supplied> comme Śaśadhara<note>La lune.</note> dont les rayons réjouisssent le cœur de tout l’univers,<note><foreign>śabdaśleṣa</foreign> reposant sur le mot <foreign>kara</foreign> qui désigne un agent et un rayon de lumière.</note> apporte le bonheur dans le cœur de tous les hommes, comme Suragaja dont le corps est inondé d’un flot continu de <foreign>madha</foreign>,<note><foreign>śabdaśleṣa</foreign> reposant sur le mot <foreign>dāna</foreign> qui désigne le don et la sérosité, <foreign>madha</foreign>, qui s’écoule des tempes des éléphants. Nous entendons ici le terme niketa, demeure, siège, dans le sens de « corps » du roi.</note> son corps est inondé par le flot continu des dons, comme Cakradhara<note>Viṣṇu.</note> dont le disque n’a pas d’adversaire,<note><foreign>śabdaśleṣa</foreign> reposant sur le mot <foreign>cakra</foreign> qui désigne le royaume du souverain et le disque de Viṣṇu.</note> son royaume n’est point attaqué, comme Droṇa suivi par Kr̥pā,<note><foreign>śabdaśleṣa</foreign> reposant sur le mot <foreign>kr̥pā</foreign> qui désigne la compassion du roi et l’épouse de Droṇa.</note> il éprouve de la compassion, pourvu de tous les succès obtenus par la force de son propre bras, bannière de victoire et d’héroïsme dressée dans les heurts de centaines de combats, le grand roi illustre Jayasiṁha Vallabha, très pieux, méditant aux pieds de sa mère et de son père, ordonne précisément à tous : </p>
@@ -264,17 +261,15 @@ Celui qui la prend ou le permet demeure en enfer aussi longtemps.
         
         
 <div type="commentary">
-<!--It would be good to CHECK a printed IA13 for the plates, and even the original if it can be located. The final stanza (which Fleet probably did not see as a stanza and did not bother with trying to interpret) seems interesting, and perhaps sense can be made of the last line too. The findspot is probably Pedamaddali at 16°20'47.0"N 80°57'03.5"E, presently Andhra Pradesh, Krishna district, Pamarru subdistrict. -->
+<p>It would be good to CHECK a printed IA13 for the plates, and even the original if it can be located. The final stanza (which Fleet probably did not see as a stanza and did not bother with trying to interpret) seems interesting, and perhaps sense can be made of the last line too. The findspot is probably Pedamaddali at 16°20'47.0"N 80°57'03.5"E, presently Andhra Pradesh, Krishna district, Pamarru subdistrict. </p>
 </div>
         
         
         
 <div type="bibliography">
-   <p>
-<!--Edited from the original plates in (<bibl rend="omitname"><ptr target="bib:Fleet1884_01,"/></bibl>) with estampages of the plates and drawing(?) of the seal. -->
-   </p>
+   <p>Edited from the original plates by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1884_01"/></bibl>) with estampages of the plates and drawing(?) of the seal. The present edition by Dániel Balogh is based on a collation of Fleet's edition with the published estampages.</p>
     <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="JFF"><ptr target="bib:Fleet1884_01"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
    <listBibl type="secondary">
       <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->

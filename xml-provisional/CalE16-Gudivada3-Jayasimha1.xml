@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Guḍivāḍa plates (set 3) of Jayasiṁha I</title><!--Alt title "Kuḍivāḍa 2, Jayasiṁha I" in PEM's corpus.-->
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -52,11 +49,8 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. T: ta shape with elongated stem and no headmark. E.g. l1 vāsakāT. M: like a J with a curly end, quite small. E.g. l20 samudra<orig>M</orig>; even simpler and less curly, like a plain J: l20 taṭākaM. -->                
-<!--Original punctuation.   -->
-                <!--Other palaeographic observations. The hand is conspicuously different from that of <ref n="tfa-pallava-epigraphy" target="CalE15-Gudivada2-Jayasimha1.xml">Guḍivāḍa 2</ref>, not only in ductus but in the shaping of some glyphs as well, e.g. kha in l1 of both charters. Note the occurrence of very rare initial ai in l5 Aidaṁyugīna. There is also initial e in l19. -->
-                
+              <p>Halantas. T: ta shape with elongated stem and no headmark. E.g. l1 vāsakāT. M: like a J with a curly end, quite small. E.g. l20 samudra<orig>M</orig>; even simpler and less curly, like a plain J: l20 taṭākaM.</p>
+<p><!--Original punctuation.   -->Other palaeographic observations. The hand is conspicuously different from that of <ref n="tfa-pallava-epigraphy" target="CalE15-Gudivada2-Jayasimha1.xml">Guḍivāḍa 2</ref>, not only in ductus but in the shaping of some glyphs as well, e.g. kha in l1 of both charters. Note the occurrence of very rare initial Ai in l5 Aidaṁyugīna. There is also initial E in l19.                
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -70,6 +64,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-14" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -216,18 +211,16 @@ renaît ver de terre dans les exécréments pour soixante mille ans.
 
 
 <div type="commentary">
-  <!-- My notes on the relationship of the three grants edited in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>) are in CalE14-Gudivada1-Jayasimha1. This set of plates also includes a seal, but it is without text, showing only a spiral line (photo in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01)."/></bibl>) -->
-<!-- -->
+<p>My notes on the relationship of the three grants edited in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl> are in my commentary on the <ref target="CalE14-Gudivada1-Jayasimha1">Guḍivāḍa plates (set 1)</ref>. This set of plates also includes a seal, but it is without text, showing only a spiral line (photo in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01)"/></bibl>).</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!--Edited from the original plates in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>) pp 136-138, with estampages of the plates and photograph of the seal. -->
-  </p>
+  <p>Edited from the original plates by M. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>136-138</citedRange></bibl>), with estampages of the plates and photograph of the seal.  The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>136-138</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->

@@ -6,10 +6,7 @@
     <fileDesc>
       <titleStmt>
         <title>Niḍupaṟu grant of Jayasiṁha I</title>
-        <respStmt>
-          <resp>initial etext</resp>
-          <persName><forename>Perrine</forename><surname>Estienne-Monod</surname></persName>
-        </respStmt>
+        
         <respStmt>
           <resp>Encoding</resp>
           <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
@@ -52,8 +49,7 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT, l24 vaseT. The inscription also seems to contain an explicit vowel killer, see apparatus note to line 6, viṣ·ṇuvardhana-. -->
+              <p>Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT, l24 vaseT. The inscription also seems to contain an explicit vowel killer, see apparatus note to line 6, viṣ·ṇuvardhana-. 
                 <!--Original punctuation. -->
                 <!--Other palaeographic observations.  -->
                 
@@ -70,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-15" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -143,7 +140,7 @@ n="19" break="no"/>ṟu-nāma-grāmaḥ<supplied reason="omitted">|</supplied> n
         
         
 <div type="apparatus">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -201,7 +198,7 @@ n="19" break="no"/>ṟu-nāma-grāmaḥ<supplied reason="omitted">|</supplied> n
 
 
 <div type="translation" xml:lang="eng" resp="part:daba">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-12">Greetings from the residence at majestic Asanapura. The dear grandson of His Majesty Kīrtivarman, whose actions dispel the suffering of all the world, who is a fiery-rayed sun among kings, arisen at the top of the Sunrise Mountain <supplied reason="explanation"><foreign>udaya-giri</foreign></supplied> that is the pure family of the Calukyas—who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by the Divine Lord Mahāsena, who are the sons of Hārītī, who are of the Mānavya <foreign>gotra</foreign>, who are protected by the troop of Mothers and who have performed the Aśvamedha sacrifice;—the dear son of King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana, who like the hare-marked moon gladdens the hearts and eyes of the entire world, who is a majestic Viṣṇu of this epoch, also named Makaradhvaja because he surpassed the crocodile-bannered <supplied reason="subaudible">Kāma</supplied> by the loveliness of his figure;—His Majesty the supremely pious Jayasiṁhavallabha, who was deliberately appointed <supplied reason="explanation">as heir</supplied> by his mother and father, whose pair of lotus feet are engilded by a mass of beams sprayed from gems fitted to the surfaces of the crowns of all the subordinate rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> forced to bow by his progressively increasing valour, who is fit to dispel the darkness of the Kali age with the cluster of light-rays that are his own virtues, and whose prowess is inviolate <supplied reason="explanation"><foreign>akhaṇḍita</foreign></supplied> as that of Indra <supplied reason="explanation"><foreign>ākhaṇḍala</foreign></supplied>—commands the assembled householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied> residing in the village named Niḍubaṟu <supplied reason="explanation">which lies</supplied> in <supplied reason="explanation" cert="low">the district</supplied> Gaṇḍeṟuvāṭī, to the north of the river Vyāghra and on the bank of the river Vanneṟu, two <foreign>gavyūti</foreign>s from the capital city <supplied reason="explanation"><foreign>rājadhānī</foreign></supplied> Gaṇḍeṟu in the eastern direction:</p>
@@ -219,7 +216,7 @@ The executor <supplied reason="explanation"><foreign>ājñapti</foreign></suppli
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-  <div type="textpart" n="A"><head xml:lang="eng">Seal</head><!--Delete this empty textpart?-->
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <p n="1-12">Prospérité ! De la résidence de l’illustre Asanapura, le grand roi illustre Jayasiṁha Vallabha,
@@ -247,18 +244,16 @@ celui qui la prend ou qui le permet demeure aussi longtemps en enfer.
 
 
 <div type="commentary">
-  <!-- Each plate is engraved with 6 lines, of which the third and fourth begin with an indent, skipping the space around the binding hole. -->
-<!--For the district(?) Gaṇḍeṟuvāṭī compare kantheṟuvāṭi-viṣaye in the <ref n="tfa-pallava-epigraphy" target="CalE18-Peddavegi-Jayasimha1.xml">Pedda-Vegi plates</ref>, line 13.-->
+<p>Each plate is engraved with 6 lines, of which the third and fourth begin with an indent, skipping the space around the binding hole.</p>
+<p>For the district(?) Gaṇḍeṟuvāṭī compare kantheṟuvāṭi-viṣaye in the <ref n="tfa-pallava-epigraphy" target="CalE18-Peddavegi-Jayasimha1.xml">Pedda-Vegi plates</ref>, line 13.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!--Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_03,"/></bibl>) with estampages of the plates and photograph of the seal, with an abstract (not a full translation) of the contents. -->
-  </p>
+<p>Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_03"/></bibl>) with estampages of the plates and photograph of the seal, with an abstract (not a full translation) of the contents. The present edition by Dániel Balogh is based on a collation of Hultzsch's text with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_03"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
