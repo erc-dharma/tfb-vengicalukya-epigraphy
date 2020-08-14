@@ -13,10 +13,14 @@
          </respStmt>
          <respStmt>
                <resp>intellectual authorship of edition</resp>
-           <persName ref="part:daba">
-             <forename>Dániel</forename>
-             <surname>Balogh</surname>
+           <persName>
+             <forename>John Faithfull</forename>
+             <surname>Fleet</surname>
            </persName>
+           <!--DB 20200316. CHECK This is a preliminary encoding based only on PEM's etext. I do not at the moment have access to the published edition. In addition to checking readings, the following need attention:
+            lb elements 
+            there is probably a seal attached to this one, so textparts will need to be created
+            -->
          </respStmt>
          </titleStmt>         
          <publicationStmt>
@@ -72,10 +76,6 @@
   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
-            <!--DB 20200316. CHECK This is a preliminary encoding based only on PEM's etext. I do not at the moment have access to the published edition. In addition to checking readings, the following need attention:
-            lb elements 
-            there is probably a seal attached to this one, so textparts will need to be created
-            -->
 <pb n="1r"/>
 <p><pb n="1v"/><!--CHECK I assume the first page is 1v.-->
 om<!--CHECK probably a glyph instead--> svasti<supplied reason="subaudible">.</supplied> svāmi-mahāsena-pādānuddhyātānāṁ mānavya-sagotrāṇāṁ h<unclear>ā</unclear>rītī-putrāṇāṁ māt<orig>ri</orig>-gaṇa-prasāda-parirakṣita-bhujārggalānāṁ kṣīrodadhi-śayana-suptotthita-prasāda-parilabdha-varāha-lāñcchanānāṁ <orig>calikyānāṁ</orig> vaṁśe saṁbhūtaḥ śakti-traya-saṁpannaḥ</p>

@@ -49,10 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. T in l29 kenaciT: looks like a regular ta, only slightly reduced in size, complete with headmark. A large, sinuous, vertical stroke above it is probably damage, not part of the character. N in l18 pramukhāN; l33 pārtthivendrāN; l35 pratāpavāN; l38 śrīmāN; I have no facsimile for any of these pages. -->
-                <!--Original punctuation. The basic punctuation sign is a perfectly straight, simple vertical, as high as a character body, e.g. l8 nāmadheyasya| or slightly shorter (not reaching the baseline), e.g. l10 yasya|. In the doubled version (e.g. l11, rājaḥ||) the second stroke is shorter than the first. The punctuation marks at the end of v1 and v2 are single short verticals at mid-height. The maṅgala symbol in L1, transcribed by Khare as oṁ, is a short dextrorse spiral resembling a G or a figure 6. -->
-                <!--Other palaeographic observations. Inline anusvāra, a circle at head height, e.g. l1 śrīmatāṁ, saṁstūyamānam, gotrānāṁ, etc. La is what Kielhorn calls a later, cursive form, where the body is reduced to nothing, and the tail curls all the way to the right and up (so essentially a sinistrorse spiral). Kielhorn also points out the later, cursive kha (a good example is l12, khaḍge), and the ba and ja open on the left. The conjunct ṇṇ seems to be written cursively, so that the subscript part is merely a loop, identical in appearance to subscript n (as e.g. in l14, badhnanti and l15, dhāmni). Kielhorn thus reads ṇn and emends to ṇṇ in l20 veṇṇiyāma and l26 prakīrṇṇe, but I prefer to see these glyphs as a legitimate form of ṇṇ. Kielhorn does read ṇṇ in l22 ṣaṇṇān, but I have no facsimile of this page, so I cannot check whether a fully fledged subscript ṇ is used here. -->
+              <p>Halantas. T in l29 kenaciT: looks like a regular ta, only slightly reduced in size, complete with headmark. A large, sinuous, vertical stroke above it is probably damage, not part of the character. N in l18 pramukhāN; l33 pārtthivendrāN; l35 pratāpavāN; l38 śrīmāN; I have no facsimile for any of these pages.</p>
+<p>Original punctuation. The basic punctuation sign is a perfectly straight, simple vertical, as high as a character body, e.g. l8 nāmadheyasya| or slightly shorter (not reaching the baseline), e.g. l10 yasya|. In the doubled version (e.g. l11, rājaḥ||) the second stroke is shorter than the first. The punctuation marks at the end of v1 and v2 are single short verticals at mid-height. The maṅgala symbol in L1, transcribed by Khare as oṁ, is a short dextrorse spiral resembling a G or a figure 6.</p>
+<p>Other palaeographic observations. Inline anusvāra, a circle at head height, e.g. l1 śrīmatāṁ, saṁstūyamānam, gotrānāṁ, etc. La is what Kielhorn calls a later, cursive form, where the body is reduced to nothing, and the tail curls all the way to the right and up (so essentially a sinistrorse spiral). Kielhorn also points out the later, cursive kha (a good example is l12, khaḍge), and the ba and ja open on the left. The conjunct ṇṇ seems to be written cursively, so that the subscript part is merely a loop, identical in appearance to subscript n (as e.g. in l14, badhnanti and l15, dhāmni). Kielhorn thus reads ṇn and emends to ṇṇ in l20 veṇṇiyāma and l26 prakīrṇṇe, but I prefer to see these glyphs as a legitimate form of ṇṇ. Kielhorn does read ṇṇ in l22 ṣaṇṇān, but I have no facsimile of this page, so I cannot check whether a fully fledged subscript ṇ is used here. 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-07-29" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -296,19 +296,19 @@ qui connaît le sens des divers traités, qui se consacre au bien d’autrui, di
 
 
 
-<div type="commentary"><!-- The plates were no longer available when Kielhorn edited them from Sir Walter Elliot's estampages and brief notes, provided to him by Fleet. No image of the seal is available; the seal legend is reported by Kielhorn from Elliot's notes as "Tribhuvanāṁkuśa", and I assume that śrī was present before the name as usual. Kielhorn is, moreover, expressly unsure whether the notes really belong to this set of impressions. According to these notes, the plates were received from Mr. Porter, Collector of Masulipatam, hence Kielhorn calls them "Masulipatam (?) Plates", but given the lack of accurate provenance and the uncertainty even of the available information, I prefer to name them after an internal locality.
--->
-<!--In stanza 3 (sragdharā), we have a glide sandhi fusion between lines a and b, the first time I've ever seen this happen. Stanza 5 (mandākrāntā) has a more regular fused caesura in line c. Stanza 10 (sragdharā) also has a fused caesura at the second point in line b. -->
+<div type="commentary">
+<p> The plates were no longer available when Kielhorn edited them from Sir Walter Elliot's estampages and brief notes, provided to him by Fleet. No image of the seal is available; the seal legend is reported by Kielhorn from Elliot's notes as "Tribhuvanāṁkuśa", and I assume that śrī was present before the name as usual. Kielhorn is, moreover, expressly unsure whether the notes really belong to this set of impressions. According to these notes, the plates were received from Mr. Porter, Collector of Masulipatam, hence Kielhorn calls them "Masulipatam (?) Plates", but given the lack of accurate provenance and the uncertainty even of the available information, I prefer to name them after an internal locality.</p>
+<p>In stanza 3 (sragdharā), we have a glide sandhi fusion between lines a and b, the first time I've ever seen this happen. Stanza 5 (mandākrāntā) has a more regular fused caesura in line c. Stanza 10 (sragdharā) also has a fused caesura at the second point in line b. 
+</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/></bibl>) pp 122-126 (item B), with an abstract of the contents and with inked rubbings produced by Sir Walter Elliot. It seems the estampages are incomplete, lacking pages 3r, 3v, 4v and 5r. CHECK this in a printed EI volume to make sure it is not a folded inset. The present edition has thus not been collated with an estampage for these pages and follows Kielhorn absolutely; the location of the binding hole on these pages is estimated on the basis of the consistent pattern of the other pages. -->
+  <p>Edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">122-126</citedRange><citedRange unit="item">B</citedRange></bibl>), with an abstract of the contents and with inked rubbings produced by Sir Walter Elliot. It seems the estampages are incomplete, lacking pages 3r, 3v, 4v and 5r.<note>CHECK this in a printed EI volume to make sure it is not a folded inset.</note> The present edition by Dániel Balogh is based on a collation of Kielhorn's text with his facsimiles where avilable; elsewhere, it follows Kielhorn absolutely. The location of the binding hole on the pages without a facsimile is estimated on the basis of the consistent pattern of the other pages. 
   </p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

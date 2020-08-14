@@ -49,10 +49,8 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. In the Telugu section, there occurs a final form of Ḷ. Instances are found from line 23 onward. It looks like a full-sized ḷa without a headmark, though it can be simplified to a wavy vertical line with a loop at the bottom, as in l28, -konthukaḶ. -->
-                <!--Original punctuation.  -->
-                <!--Other palaeographic observations. As Fleet obseres, in l10 °opajāyamāno°, jā is formed very strangely, with a downward-bending vowel marker attached to the top prong of j. In l15 -jvālā, the vowel is also attached to the upper prong, but it bends upward. The weird khā in line 16, which Fleet calls "very anomalous", looks essentially like a pa, with the right limb bending outward. It has some resemblance to a khā that, according to Indoskript, occurs in the Vijayawada plates of Cālukya-Bhīma I. -->
+              <p>Halantas. In the Telugu section, there occurs a final form of Ḷ. Instances are found from line 23 onward. It looks like a full-sized ḷa without a headmark, though it can be simplified to a wavy vertical line with a loop at the bottom, as in l28, -konthukaḶ.</p>
+<p><!--Original punctuation.  -->Other palaeographic observations. As Fleet obseres, in l10 °opajāyamāno°, jā is formed very strangely, with a downward-bending vowel marker attached to the top prong of j. In l15 -jvālā, the vowel is also attached to the upper prong, but it bends upward. The weird khā in line 16, which Fleet calls "very anomalous", looks essentially like a pa, with the right limb bending outward. It has some resemblance to a khā that, according to Indoskript, occurs in the Vijayawada plates of Cālukya-Bhīma I. 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -67,6 +65,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-06-16" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -203,15 +202,15 @@ who made the complete circle of the earth bow down by the power of the blade of 
 
 
 
-<div type="commentary"><!-- The plates had a ring, which was cut by the time Fleet saw it. The seal was also lost by that time. Or perhaps a seal was never attached, as the authenticity of the plates is questionable. The Telugu section may be in a different hand (compare especially the shape of ta in the two sections: in the Sanskrit it is the form found in earlier Cālukya plates, while in the Telugu it looks almost like the modern Telugu glyph). But I think it is more likely that it is the same hand, and probably a late one, who attempted to imitate an earlier style throughout the document, and to a greater extent in the Sanskrit section. In the Telugu section of the grant, I follow Fleet's readings and adopt his emendations unless otherwise indicated in the apparatus. Thus, in that section all editorial intervention encoded as a correction (including addition and suppression) follows Fleet's emendations, and all intervention encoded as a normalisation follows Fleet's tentative suggestions. In various spots, my scans of the plates are unclear, particularly on page 3r. It seems that in Fleet's notation, (?abc) means that "abc" may be the correct reading instead of that indicated before the parentheses, while (abc?) means a tentative emendation. I encode the former as unclear with @cert="low" or as a choice of two unclear items, as applicable.
---></div>
+<div type="commentary">
+<p> The plates had a ring, which was cut by the time Fleet saw it. The seal was also lost by that time. Or perhaps a seal was never attached, as the authenticity of the plates is questionable. The Telugu section may be in a different hand (compare especially the shape of ta in the two sections: in the Sanskrit it is the form found in earlier Cālukya plates, while in the Telugu it looks almost like the modern Telugu glyph). But I think it is more likely that it is the same hand, and probably a late one, who attempted to imitate an earlier style throughout the document, and to a greater extent in the Sanskrit section. In the Telugu section of the grant, I follow Fleet's readings and adopt his emendations unless otherwise indicated in the apparatus. Thus, in that section all editorial intervention encoded as a correction (including addition and suppression) follows Fleet's emendations, and all intervention encoded as a normalisation follows Fleet's tentative suggestions. In various spots, my scans of the plates are unclear, particularly on page 3r. It seems that in Fleet's notation, (?abc) means that "abc" may be the correct reading instead of that indicated before the parentheses, while (abc?) means a tentative emendation. I encode the former as unclear with @cert="low" or as a choice of two unclear items, as applicable.
+</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- Edited from the original in (<bibl rend="omitname"><ptr target="bib:Fleet1884_02,"/></bibl>) without translation, with estampages of the plates. 
-Additional bibliographic info from Jens, @to process at a later time:
+  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1884_02"/></bibl>) without translation, with estampages of the plates. The present edition by Dániel Balogh is based on a collation of Fleet's text with his facsimiles, but several re-editions and discussions have yet to be listed here and consulted. 
+<!--Additional bibliographic info from Jens, @to process at a later time:
 K. M. Sastri translated the text (but I see some problems there): Sastri, Historical Grammar of Telugu, 1969, p. 299-301.
 
 There are several re-editions/discussion:
@@ -225,11 +224,12 @@ Discussion by M. Somasekhara Sarma: Bh 2.286-301, 661-65.
 Discussion by V. Prabhakara Sastry: Bh 5.520-529. 
 Text & notes by C. Narayana Rao: HTL 1.1310-1316. 
 Discussion (?) K. Suryanarayana: Bh 14.825-847
+--> 
  
- -->
   </p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="JFF"><ptr target="bib:Fleet1884_02"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

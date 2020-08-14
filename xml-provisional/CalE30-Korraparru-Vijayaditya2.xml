@@ -49,8 +49,7 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. T in l49 vaseT; possibly M in l52 likhitaM (following Fleet; Hultzsch reads ṁ there). CHECK a facsimile for both when available. -->
+              <p>Halantas. T in l49 vaseT; possibly M in l52 likhitaM (following Fleet; Hultzsch reads ṁ there). CHECK a facsimile for both when available. 
                 <!--Original punctuation.  -->
                 <!--Other palaeographic observations. -->
                 
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-06-22" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -414,17 +414,19 @@ l’excellent roi Nr̥pa Rudra est l’exécuteur de ce don.</p>
 
 
 
-<div type="commentary"><!-- There is no facsimile in any of my scans of SII1 or IA20, though PEM's metadata say a facsimile is present in both editions. The XML edition provisionally follows those of Hultzsch and Fleet, but has not been checked against a facsimile. In marking up unclear segments, I predominantly follow Hultzsch, as Fleet prints almost everything as clear.
---></div>
+<div type="commentary">
+<!--<p>
+</p>--></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- These plates were apparently not reported in ARIE. First edited in (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/></bibl>) No. 35. pp 31-36, from the original plates, with a translation skipping some details and an estampageCHECK? Also edited in (<bibl rend="omitname"><ptr target="bib:Fleet1891_04,"/></bibl>) from the original plates, with an abstract of the contents and an estampage CHECK? -->
+  <p>These plates were apparently not reported in ARIE. First edited from the original plates by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">31-36</citedRange><citedRange unit="item">35</citedRange></bibl>), with a translation skipping some details and an estampage.<!--CHECK?--> Also edited from the original plates by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_04"/></bibl>), with an abstract of the contents and an estampage<!--CHECK?-->. The present edition by Dániel Balogh is based on a collation of the above editions.<note>There is no facsimile in any of my scans of SII1 or IA20, though PEM's metadata say a facsimile is present in both editions. The XML edition provisionally follows those of Hultzsch and Fleet, but has not been checked against a facsimile. In marking up unclear segments, I predominantly follow Hultzsch, as Fleet prints almost everything as clear.</note>
   </p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="EH"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">31-36</citedRange><citedRange unit="item">35</citedRange></bibl>
+    <bibl n="JFF"><ptr target="bib:Fleet1891_04"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

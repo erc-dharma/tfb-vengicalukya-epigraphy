@@ -49,10 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. T in l16 sākṣāT: simplified, slightly reduced, without headmark. M: a very small J shape raised to head height, examples in l21 uktaM; l23 phalaM; l25, pavitrikaM. -->
-                <!--Original punctuation.  -->
-                <!--Other palaeographic observations. The anusvāra in paripālitānā<unclear>ṁ</unclear> is, according to Gai, a little to the left of nā. It is not visible in the scan. In the kr̥, the vowel marker is attached on the left of the k's loop, forming a bowl below the descender, and ending on the right at head level. The character looks exactly identical to kra, e.g. in vikramopārjita (l6). Since Gai reads it as kr̥ without any objection and similar forms of kr̥ are found in Indoskript, I accept this form as legitimate. Examples: l4 vaśīkr̥tā°; l4 pavitrīkr̥ta; l17 -kr̥tyā°; l19 kr̥tva; l24 kr̥miḥ -->
+              <p>Halantas. T in l16 sākṣāT: simplified, slightly reduced, without headmark. M: a very small J shape raised to head height, examples in l21 uktaM; l23 phalaM; l25, pavitrikaM.</p>
+<p><!--Original punctuation.  -->
+                Other palaeographic observations. The anusvāra in paripālitānā<unclear>ṁ</unclear> is, according to Gai, a little to the left of nā. It is not visible in the scan. In the kr̥, the vowel marker is attached on the left of the k's loop, forming a bowl below the descender, and ending on the right at head level. The character looks exactly identical to kra, e.g. in vikramopārjita (l6). Since Gai reads it as kr̥ without any objection and similar forms of kr̥ are found in Indoskript, I accept this form as legitimate. Examples: l4 vaśīkr̥tā°; l4 pavitrīkr̥ta; l17 -kr̥tyā°; l19 kr̥tva; l24 kr̥miḥ. 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-06-15" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -235,17 +235,17 @@ est le nommé Boḻama, au cœur pur, le meilleur des hommes dans ce monde.</p>
 
 
 
-<div type="commentary"><!-- The plates are complete with ring and seal, but the emblem of the seal was destroyed by the local goldsmith near the findspot. The seal now "looks like an empty bowl" - does this mean that the emblem was a separate component that could be popped out of the seal?  
---></div>
+<div type="commentary">
+<p>The plates are complete with ring and seal, but the emblem of the seal was destroyed by the local goldsmith near the findspot. The seal now "looks like an empty bowl" - does this mean that the emblem was a separate component that could be popped out of the seal?  
+</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- Reported in ARIE 1954-55, Appendix A (1954-55) No. 1; apparently not described outside the appendix. Not yet in Zotero. Edited from estampages and photographs in (<bibl rend="omitname"><ptr target="bib:Gai1965-1966_01"/></bibl>) pp 300-302, without translation, with estampages of the plates. -->
-  </p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1954-1955"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1954-1955</citedRange><citedRange unit="item">1</citedRange></bibl>. Edited from estampages and photographs by G. S. Gai(<bibl rend="omitname"><ptr target="bib:Gai1965-1966_01"/><citedRange>300-302</citedRange></bibl>), without translation, with estampages of the plates. The present edition by Dániel Balogh is based on a collation of Gai's text with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="GSG"><ptr target="bib:Gai1965-1966_01"/><citedRange>300-302</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

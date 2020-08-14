@@ -49,8 +49,7 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. M occurs in lines 19, 21, 23, 28 and 30. The one in 19 looks like ma, slightly simplified and only slightly reduced in size; the others are much smaller and more simplified, and raised. -->
+              <p>Halantas. M occurs in lines 19, 21, 23, 28 and 30. The one in 19 looks like ma, slightly simplified and only slightly reduced in size; the others are much smaller and more simplified, and raised. 
                 <!--Original punctuation.  -->
                 <!--Other palaeographic observations.  -->
                 
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-06-09" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -300,20 +300,20 @@ ceux qui prennent un brahmadeya renaissent serpents noirs !<foreign>Il est rare 
 
 
 <div type="commentary">
-   <!-- I adopt the reading of the seal as shown by Hultzsch, without indication of unclarity, in the introduction to his edition. In the scan of the photo in EI18, I can only make out vestiges of vva..ddh. The executive part of the charter, lines 8 to 21, is chaotic. The segmentation given in my edition and translation seems the best to me, since it comes close to coherence. Nonetheless, the king addresses his audience twice (line 9 and line 13); the word <foreign>bhavad-viṣaye</foreign> is out of sequence (but is probably meant to be where my translation has “in your district”), and the portion about water sources, the paddy field and a gap in the hill (lines 19 to 21) is unclear. I feel quite certain that the donation consists of two separate fields, each listed with four boundaries. The paddy field was probably donated to the same recipient at an earlier time, though Hultzsch understands <foreign>prāg-apavarga</foreign> to mean “ending in the east.” The phrase “to the east of the Tāla pond” may describe the paddy field rather than the well. I believe the gap in the hill was explicitly stated to be part of the donated property, perhaps on account of its importance for logistics; but it is also possible that it is the location of the paddy field. -->
-</div>
+<p> I adopt the reading of the seal as shown by Hultzsch, without indication of unclarity, in the introduction to his edition. In the scan of the photo in EI18, I can only make out vestiges of vva..ddh.</p>
+<p>The executive part of the charter, lines 8 to 21, is chaotic. The segmentation given in my edition and translation seems the best to me, since it comes close to coherence. Nonetheless, the king addresses his audience twice (line 9 and line 13); the word <foreign>bhavad-viṣaye</foreign> is out of sequence (but is probably meant to be where my translation has “in your district”), and the portion about water sources, the paddy field and a gap in the hill (lines 19 to 21) is unclear. I feel quite certain that the donation consists of two separate fields, each listed with four boundaries. The paddy field was probably donated to the same recipient at an earlier time, though Hultzsch understands <foreign>prāg-apavarga</foreign> to mean “ending in the east.” The phrase “to the east of the Tāla pond” may describe the paddy field rather than the well. I believe the gap in the hill was explicitly stated to be part of the donated property, perhaps on account of its importance for logistics; but it is also possible that it is the location of the paddy field. 
+</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- Reported in (<bibl rend="omitname"><ptr target="bib:ARIE1923-1924"/></bibl>) Appendix A (1924-25) No. 4, description on p. 93. Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_04,"/></bibl>) with a summary of contents, with estampages of the plates and photograph of the seal. -->
-  </p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1923-1924"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1923-1924</citedRange><citedRange unit="item">4</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1923-1924"/><citedRange>93</citedRange></bibl>. Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_04"/></bibl>) with a summary of contents, with estampages of the plates and photograph of the seal. The present edition by Dániel Balogh is based on a collation of Hultzsch's text with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_04"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl>
+    <bibl><ptr target="bib:ARIE1923-1924"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1923-1924</citedRange><citedRange unit="item">4</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1923-1924"/><citedRange>93</citedRange></bibl>
   </listBibl>
 </div>
 

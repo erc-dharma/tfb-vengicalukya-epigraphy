@@ -49,10 +49,8 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. N: full-size without headmark, l15 pramukhāN. M: if correctly read in l27 phalaM, then a small J shape with barely a bit of a hook, almost just a short vertical stroke. Read by Kielhorn as a punctuation mark. Indistinct at the end of line 27 (read as an unclear M by Kielhorn). The M is quite clear in l28 vasundharāM, definitely a simple J shape -->
-                <!--Original punctuation.  -->
-                <!--Other palaeographic observations. Anusvāra is usually at headline height after the character to which it pertains, but it is on top of the next character in the seal legend (which Kielhorn transliterates as tribhuvanakuṁśa), and in l16 kuṭuṁbinas (where Kielhorn transliterates as expected, and only mentions the position of the anusvāra in a note), l17 Āpastaṁbha (Kielhorn: bhaṁ, no emendation), l21 °ālaṁkatāya (Kielhorn does not read it); l25 saṁgraha (Kielhorn: sagraṁha). -->
+              <p>Halantas. N: full-size without headmark, l15 pramukhāN. M: if correctly read in l27 phalaM, then a small J shape with barely a bit of a hook, almost just a short vertical stroke. Read by Kielhorn as a punctuation mark. Indistinct at the end of line 27 (read as an unclear M by Kielhorn). The M is quite clear in l28 vasundharāM, definitely a simple J shape.</p>
+<p><!--Original punctuation.  -->Other palaeographic observations. Anusvāra is usually at headline height after the character to which it pertains, but it is on top of the next character in the seal legend (which Kielhorn transliterates as tribhuvanakuṁśa), and in l16 kuṭuṁbinas (where Kielhorn transliterates as expected, and only mentions the position of the anusvāra in a note), l17 Āpastaṁbha (Kielhorn: bhaṁ, no emendation), l21 °ālaṁkatāya (Kielhorn does not read it); l25 saṁgraha (Kielhorn: sagraṁha). 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -67,6 +65,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-06-18" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -305,20 +304,21 @@ celui qui possède la terre en possède le fruit.</p>
 
 
 
-<div type="commentary"><!-- According to Natesa Sastri, the name of the findspot is transliterated Īḍeru. Kielhorn uses Ēḍēru. Natesa Sastri does not discuss the issuer. Kielhorn says he was Vijayāditya II, without any discussion or reasoning. Estienne-Monod cautiously assigns the plates to Vijayāditya I or II, though she seems to prefer Vijayāditya I because of the epithet bhaṭṭāraka, which is strongly associated with that ruler (Estienne-Monod2008_01: 435 n. 1369). Since the name (and the complete signature stanza) of the executor is the same as that in the <ref target="CalE27-Zulakallu-Vijayaditya1.xml">Zulakallu plates of Vijayāditya I</ref>, I think we can now be sure that the issuer is indeed Vijayāditya I. The ruler's grandfather is here called Vikramarāma, which must thus have been Maṅgi Yuvarāja's epithet. The description of Maṅgi Yuvarāja as vividha-yuddha-labdha-vijaya-siddhi and bhuvana-mano-rāma in the Zulakallu plates (lines 5-6) is also practically identical to the description of Vikramarāma here, confirming this supposition. 
---></div>
+<div type="commentary">
+<p>According to Naṭeśa Śāstrī, the name of the findspot is transliterated Īḍeru. Kielhorn uses Ēḍēru. Naṭeśa Śāstrī does not discuss the issuer. Kielhorn says he was Vijayāditya II, without any discussion or reasoning. Estienne-Monod cautiously assigns the plates to Vijayāditya I or II, though she seems to prefer Vijayāditya I because of the epithet bhaṭṭāraka, which is strongly associated with that ruler <bibl><ptr target="bib:Estienne-Monod2008_01"></ptr><citedRange unit="page">435</citedRange><citedRange unit="note">1369</citedRange></bibl>. Since the name (and the complete signature stanza) of the executor is the same as that in the <ref target="CalE27-Zulakallu-Vijayaditya1.xml">Zulakallu plates of Vijayāditya I</ref>, I think we can now be sure that the issuer is indeed Vijayāditya I. The ruler's grandfather is here called Vikramarāma, which must thus have been Maṅgi Yuvarāja's epithet. The description of Maṅgi Yuvarāja as vividha-yuddha-labdha-vijaya-siddhi and bhuvana-mano-rāma in the Zulakallu plates (lines 5-6) is also practically identical to the description of Vikramarāma here, confirming this supposition. 
+</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- A rudimentary translation was published in Madras Government Order No. 367 of 7 April 1873, not in Zotero; is this an ARIE? First edited, perhaps from the original plates, in (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"/></bibl>) pp 55-57, with a translation, without facsimile [though PEM's metadata say a facsimile is present - CHECK a printed IA13 volume]. Some readings revised in (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/></bibl>) p 101. Re-edited from estampages in (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/></bibl>) pp 118-122 (item A), with an abstract of the contents and with inked rubbings produced by Hultzsch. No image of the seal is available, so the seal legend is reproduced here as reported by Kielhorn. -->
-  </p>
+  <p>A rudimentary translation was published in Madras Government Order No. 367 of 7 April 1873.<note>CHECK: Not traced, not in Zotero; is this an ARIE?</note> First edited, possibly from the original plates, by S. M. Naṭeśa Śāstrī (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange>55-57</citedRange></bibl>), with a translation, without facsimile.<note>Though PEM's metadata say a facsimile is present - CHECK a printed IA13 volume</note> Some readings revised in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>101</citedRange></bibl>. Re-edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">118-122</citedRange><citedRange unit="item">A</citedRange></bibl>), with an abstract of the contents and with inked rubbings produced by Hultzsch. The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's facsimiles. No image of the seal is available, so the seal legend is reproduced here as reported by Kielhorn.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="NS"><ptr target="bib:NatesaSastri1884_01"/><citedRange>55-57</citedRange></bibl>
+    <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">118-122</citedRange><citedRange unit="item">A</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl>
+    <bibl n="JFF"><ptr target="bib:Fleet1891_03"/><citedRange>101</citedRange></bibl>
   </listBibl>
 </div>
 

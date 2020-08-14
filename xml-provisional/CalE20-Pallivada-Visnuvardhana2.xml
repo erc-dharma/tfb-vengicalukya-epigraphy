@@ -49,10 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. M: l2. abhivarddhitānā<unclear>M</unclear>, nothing visible in scan. Fleet: Here and in amāvāsyāyām l20, the mark on the upper line is probably, not the Anusvāra, but the final form of m. l20 AmāvāsyāyāM: looks like a largish circle at headline height. -->
-                <!--Original punctuation. The opening symbol is a dextrorse spiral of about 1.5 full turns, with a tail at the top left.  -->
-                <!--Other palaeographic observations. In the correction in line 10, the omitted character is added right above the spot where it must go, and a kākapada in the shape of a + sign is inserted right below that spot. In l20, sū looks like sya with a short loop: instead of adding a stroke to the well-shaped u marker, the entire bottom of the well is bent to the left. -->
+              <p>Halantas. M: l2. abhivarddhitānā<unclear>M</unclear>, nothing visible in scan. Fleet: Here and in amāvāsyāyām l20, the mark on the upper line is probably, not the Anusvāra, but the final form of m. l20 AmāvāsyāyāM: looks like a largish circle at headline height.</p>
+<p>Original punctuation. The opening symbol is a dextrorse spiral of about 1.5 full turns, with a tail at the top left.</p>
+<p>Other palaeographic observations. In the correction in line 10, the omitted character is added right above the spot where it must go, and a kākapada in the shape of a + sign is inserted right below that spot. In l20, sū looks like sya with a short loop: instead of adding a stroke to the well-shaped u marker, the entire bottom of the well is bent to the left. 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-23" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -172,21 +172,22 @@ To wit, in this village, in the fifth year of my victory <supplied reason="expla
 
 
 <div type="commentary">
-   <!-- There is no image of the seal, and its text is reproduced here as reported by Fleet, without indication of any unclarity or loss. The first two plates of the grant are extant, the rest are lost. The writing starts on the recto of the first plate. Foliation numbers are in the left margin, roughly at the level of the binding hole, below the level of line 3 on plate 1, and at the baseline of line 3 on plate 2. The plate begins with two short marginal lines distinct from the body text. Fleet does not read the mangala symbol (in the top left corner, aligned with l1) and prints svasti (aligned with l2) at the beginning of l1. I believe śrī belongs with the mangala symbol in the marginal field. The third text line begins directly below svasti; the first two lines are indented to make space for the opener; the second line's indent is larger, because śrī encroaches on the space where this line could have been started. -->
-<!-- Each extant plate has five lines. -->
+<p>There is no image of the seal, and its text is reproduced here as reported by Fleet, without indication of any unclarity or loss. The first two plates of the grant are extant, the rest are lost. The writing starts on the recto of the first plate. Foliation numbers are in the left margin, roughly at the level of the binding hole, below the level of line 3 on plate 1, and at the baseline of line 3 on plate 2. The plate begins with two short marginal lines distinct from the body text. Fleet does not read the mangala symbol (in the top left corner, aligned with l1) and prints svasti (aligned with l2) at the beginning of l1. I believe śrī belongs with the mangala symbol in the marginal field. The third text line begins directly below svasti; the first two lines are indented to make space for the opener; the second line's indent is larger, because śrī encroaches on the space where this line could have been started.</p>
+<p> Each extant plate has five lines.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!--Edited from the original in (<bibl rend="omitname"><ptr target="bib:Fleet1878_01,"/></bibl>) with estampages of the plates and translation. The date is revised in (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/></bibl>) pp 8-9. -->
+  <p>Edited from the original by J. F. FLeet (<bibl rend="omitname"><ptr target="bib:Fleet1878_01"/></bibl>), with estampages of the plates and translation. The date is revised in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>8-9</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his facsimiles. 
   </p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="JFF"><ptr target="bib:Fleet1878_01"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+    <bibl><ptr target="bib:Fleet1891_03"/><citedRange>8-9</citedRange></bibl>
+<!-- one <bibl/> per item of secondary bibliography -->
   </listBibl>
 </div>
 

@@ -49,10 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas. M: the first few are indistinct. l4 rājyānāM seems to be a J shape closed into a loop, but l5 yājināM also has an arm on the right, so it is a diminutive ma shape with the left arm elongated into a vertical. T, only in l20 opetatvāT, unclear and possibly incorrectly read; see apparatus. N: reduced na shape with long steam and no headmark, l22 grāmeyakāN. Ṭ(!) apparently a subsequent addition so not necessarily the regular form, l36 ṣaṬ, possibly a regular ṭa shape reduced in size, but looks more like a latin L, i.e. the horizontal part at the top is not discernible in the scan. -->
-                <!--Original punctuation.  -->
-                <!--Other palaeographic observations. Anusvāra is placed after the consonant, at headline height (wherever it is clear in my scans, e.g. l12 br̥ṁhita, l12 gāṁbhīryya, l17 saṁbandhibhir, l17 saṁpū, l18 jayasiṁgha and so on).  -->
+              <p>Halantas. M: the first few are indistinct. l4 rājyānāM seems to be a J shape closed into a loop, but l5 yājināM also has an arm on the right, so it is a diminutive ma shape with the left arm elongated into a vertical. T, only in l20 opetatvāT, unclear and possibly incorrectly read; see apparatus. N: reduced na shape with long steam and no headmark, l22 grāmeyakāN. Ṭ(!) apparently a subsequent addition so not necessarily the regular form, l36 ṣaṬ, possibly a regular ṭa shape reduced in size, but looks more like a latin L, i.e. the horizontal part at the top is not discernible in the scan.</p>
+<p><!--Original punctuation.  -->
+Other palaeographic observations. Anusvāra is placed after the consonant, at headline height (wherever it is clear in my scans, e.g. l12 br̥ṁhita, l12 gāṁbhīryya, l17 saṁbandhibhir, l17 saṁpū, l18 jayasiṁgha and so on).  
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-04-30" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -419,17 +419,18 @@ Prospérité !
 
 
 <div type="commentary">
-   <!-- A note on the phrase kauśikī-vara, frequent in grants from this time onward. Most editions that I have encoded so far do not include a translation of the laudatory phrases. NatesaSastri1884_0188, p56 interprets it as I do in his translation of CalE29-Ederu-Vijayaditya1. Hultzsch1890_01, p35, interprets it the other way in his translation of CalE30-Korraparru-Vijayaditya2. I'm quite sure at least one edition mentioned Kauśikī in the introductory discussion, but I could not find which one when I realised this was a potential issue. -->
+<p> A note on the phrase kauśikī-vara, frequent in grants from this time onward. Most editions that I have encoded so far do not include a translation of the laudatory phrases. Naṭeśa Śāstrī (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"></ptr><citedRange>56</citedRange></bibl>) interprets it as I do (boon) in his translation of the <ref target="CalE29-Ederu-Vijayaditya1">Eḍeru plates</ref>. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"></ptr><citedRange>35</citedRange></bibl>) interprets it the other way (bridegroom) in his translation of the <ref target="CalE30-Korraparru-Vijayaditya2">Koṟṟapaṟṟu grant</ref>. I'm quite sure at least one edition mentioned Kauśikī in the introductory discussion, but I could not find which one when I realised this was a potential issue. 
+</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- Edited from the original in (<bibl rend="omitname"><ptr target="bib:Narasimhaswami1955-1956_01,"/></bibl>) with a summary of the contents, estampages of the plates and a (poorly printed) photograph of the seal. The present edition is collated against a poor-quality scan of the plates in Epigraphia Indica. -->
+  <p> Edited from the original by H. K. Narasimhaswami (<bibl rend="omitname"><ptr target="bib:Narasimhaswami1955-1956_01"/></bibl>) with a summary of the contents, estampages of the plates and a (poorly printed) photograph of the seal. The present edition by Dániel Balogh is based on a collation of Narasimhaswami's text with a poor-quality scan of the plates in Epigraphia Indica.
   </p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="HKN"><ptr target="bib:Narasimhaswami1955-1956_01"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>

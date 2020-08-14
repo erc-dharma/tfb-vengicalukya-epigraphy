@@ -49,9 +49,8 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>
-                <!--Halantas.  -->
-                <!--Original punctuation. There seems to be a punctuation mark resembling a visarga/colon in line 12, though Hultzsch only prints supplied punctuation here. The clear punctuation mark in line 22 (also printed by Hultzsch as supplied) is a short vertical bar, floating at about middle height. -->
+              <p><!--Halantas.  -->
+Original punctuation. There seems to be a punctuation mark resembling a visarga/colon in line 12, though Hultzsch only prints supplied punctuation here. The clear punctuation mark in line 22 (also printed by Hultzsch as supplied) is a short vertical bar, floating at about middle height. 
                 <!--Other palaeographic observations.  -->
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
@@ -67,6 +66,7 @@
     </fileDesc>
     <revisionDesc>
       <change who="part:daba" when="2020-06-11" status="draft">Initial encoding of the file</change>
+      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
       <!-- Add a <change> entry for each significant change to the file. -->
     </revisionDesc>
   </teiHeader>
@@ -220,18 +220,18 @@ renaît ver de terre dans les excréments pendant soixante mille ans.</p>
 
 
 
-<div type="commentary"><!--
-    The publication of these plates includes no image of the seal, so I reproduce its text as reported by Hultzsch in the text of his article, without indication of any unclarity. Hultzsch identifies Maghiṁduvarāja (line 20) as the Pallava king Mahendravarman III and assumes that his daughter was a queen of Viṣṇuvardhana III. It seems to me far more likely that Maghiṁduvarāja is Maṅgi Yuvarāja, and thus his daughter is a sister of Viṣṇuvardhana III. This is also the emendation made in Estienne-Monod's etext, although her thesis (bib: Estienne-Monod2008_01, p. 27) does not mention this, only repeats Hultzsch's identification of this person. Why Hultzsch does not advocate this view, or even mention it as a possibility, is a mistery, especially in view of the fact that it is he who, in the same volume of Epigraphia Indica (<bibl><ptr target="(<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_02"></ptr><citedRange>258</citedRange></bibl>)),"/></bibl> asserts that <fo>duvarāja</fo> is a Dravidian tadbhava form of <ab>yuvarāja</ab>, and that the Pr̥thividuvarāja mentioned in the <ref n="tfa-badamicalukya-epigraphy" target="CalE04-Kopparam-Pulakesin.xml">Kopparam plates of Pulakeśin II</ref> must be Pr̥thivīyuvarāja, i.e. Viṣṇuvardhana I.
---></div>
+<div type="commentary">
+<p>The publication of these plates includes no image of the seal, so I reproduce its text as reported by Hultzsch in the text of his article, without indication of any unclarity.</p>
+<p>Hultzsch identifies Maghiṁduvarāja (line 20) as the Pallava king Mahendravarman III and assumes that his daughter was a queen of Viṣṇuvardhana III. It seems to me far more likely that Maghiṁduvarāja (probably with the <foreign>anusvāra</foreign> to be read with <foreign>ma</foreign>) is Maṅgi Yuvarāja, and thus his daughter is a sister of Viṣṇuvardhana III. This is also the emendation made in Estienne-Monod's etext, although her thesis (<bibl><ptr target="bib:Estienne-Monod2008_01"/><citedRange>27</citedRange></bibl>) does not mention this, only repeats Hultzsch's identification of this person. Why Hultzsch does not advocate this view, or even mention it as a possibility, is a mistery, especially in view of the fact that it is he who, in the same volume of Epigraphia Indica (<bibl><ptr target="bib:Hultzsch1925-1926_02"/><citedRange>258</citedRange></bibl>) asserts that <foreign>duvarāja</foreign> is a Dravidian <foreign>tadbhava</foreign> form of <foreign>yuvarāja</foreign>, and that the Pr̥thividuvarāja mentioned in the <ref n="tfa-badamicalukya-epigraphy" target="CalE04-Kopparam-Pulakesin.xml">Kopparam plates of Pulakeśin II</ref> must be Pr̥thivīyuvarāja, i.e. Viṣṇuvardhana I.
+</p></div>
 
 
 
 <div type="bibliography">
-  <p>
-    <!-- Reported in ARIE 1920 (the year ending 31 August 1920), Appendix A (1919-20) No. 10 and p. 99-100. Not yet in Zotero. Edited from estampages in (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_05,"/></bibl>) with a summary of contents, with estampages of the plates, no image of the seal. -->
-  </p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1919-1920"/><citedRange unit="page">12</citedRange><citedRange unit="appendix">A/1919-1920</citedRange><citedRange unit="item">10</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1919-1920"/><citedRange>99-100</citedRange></bibl>. Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_05"/></bibl>) with a summary of contents, with estampages of the plates, no image of the seal. The present edition by Dániel Balogh is based on a collation of Hultzsch's text with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="siglum"></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_05"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl></bibl>
