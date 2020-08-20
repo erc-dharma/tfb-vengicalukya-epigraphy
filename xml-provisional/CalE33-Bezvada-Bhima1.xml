@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Bezvāḍa plates of Bhīma I</title><!--ALT TITLE: "-->
+        
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE33-Bezvada-Bhima1xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas. M: if I am correct in reading l20 śāśvataM (see apparatus), then this is probably shaped like a tick mark. N: l21 dattavāN has a reduced body with an elongated stem and no headmark; l46 pratāpavāN seems to have either a headmark or a horizontal line attached to the stem, which may continue in a long straight vertical (a virāma sign?) upward.</p>
+              <p>Original punctuation marks are regular, plain vertical bars approximately from footline to headline, e.g. l25 ājñāpayati|. If Kielhorn is correct in reading a punctuation mark in line 21 (see apparatus), then that is of the same shape.
+              </p>
+              <p>Other palaeographic observations. Oṁ in line 1 is written with a regular alphabetic character. The character ra is now teardrop-shaped, and those in l4, vara-varāha have dots in their centres. Kielhorn does not remark on this, but these characters differ from tha only in being slightly narrower. Rare initial Ai (if that is what it is; see apparatus) occurs in line 32, as well as the relatively rare initial Ī.
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. -->
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </p>
+           </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-08-19" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvan<choice><sic>a</sic><corr>ā</corr></choice>ṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>oṁ namo <choice><sic>nna</sic><corr>nā</corr></choice>rāyaṇāya<supplied reason="subaudible">.</supplied> svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna<lb 
+n="2" break="no"/>-mānavya-sagotrānāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mā<lb 
+n="3" break="no"/>tr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nā<lb 
+n="4" break="no"/>rāyaṇa-pra<space type="binding-hole"/>sāda-samāsādita-vara-varāha-lā<surplus>ṁ</surplus>ñchanekṣaṇa<lb 
+n="5" break="no"/>-kṣaṇa-vaś<unclear>ī</unclear>kr̥tārāti-maṇḍalānāṁ Aśvamedhāvabhr̥tha-snāna-pavitrīkr̥<lb 
+n="6" break="no"/>ta-vapuṣāṁ cālukyānāṁ kulam alaṁkariṣṇoḥ sattyāśraya-valla<lb 
+n="7" break="no"/>bhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣāṇi<supplied reason="subaudible">.</supplied> tat-putro ja<pb 
+
+n="2r" break="no"/><lb 
+n="8" break="no"/>yasiṁgha-vallabhas trayas<orig>triṁśa<surplus>r</surplus>d</orig> varṣāṇi<supplied reason="subaudible">.</supplied> tad-anuj<orig>a-I</orig>ndra-bhaṭṭārakasya <lb 
+n="9"/>priya-tanayo viṣṇuvarddhan<orig>a</orig> nava saṁvatsarāṇi<supplied reason="subaudible">.</supplied> tat-putro maṁgi-yu<lb 
+n="10" break="no"/>varāj<orig>a</orig> paṁ<space type="binding-hole"/>ca-viṁśa<orig>t</orig> saṁvatsarāṇi<supplied reason="subaudible">.</supplied> tat-putro jayasiṁgh<orig>a</orig> tra<lb 
+n="11" break="no"/>yodaśa <space type="binding-hole"/> saṁvatsar<orig>aḥ</orig><supplied reason="subaudible">.</supplied> tad-<supplied reason="omitted">d</supplied>vaimāturān<choice><sic>ū</sic><corr>u</corr></choice>jaḥ kokkil<orig>ī</orig> ṣa<choice><sic>n</sic><corr>ṇ</corr></choice> mā<lb 
+n="12" break="no"/>s<orig>aḥ</orig><supplied reason="subaudible">.</supplied> tasya j<supplied reason="omitted">y</supplied>eṣṭho bhrātā viṣṇuva<supplied reason="omitted">r</supplied>ddhan<orig>a</orig> svānuja<surplus>mada</surplus>m uccāṭya sapta<lb 
+n="13" break="no"/>triṁśa<orig>t</orig> sam<orig>a</orig>ḥ<supplied reason="subaudible">.</supplied> tat-tanujo vijayādittya-bhaṭṭārakaḥ Aṣṭādaśa sam<orig>a</orig>ḥ<supplied reason="subaudible">.</supplied><lb 
+n="14"/>tad-auraso viṣṇurājaḥ ṣaṭtriṁśa<orig>d</orig> abdāni<supplied reason="subaudible">.</supplied> tat-<unclear>suto</unclear> vijayādityaḥ catvāriṁśa<pb 
+
+n="2v" break="no"/><lb 
+n="15" break="no"/><orig>t</orig> sam<orig>a</orig>ḥ Aṣṭottaraśata-śrīm<choice><sic>ā</sic><corr>a</corr></choice>n-narendreśvara-kārakaḥ<supplied reason="subaudible">.</supplied> tad-ātmajaḥ ka<lb 
+n="16" break="no"/>li-viṣṇuvarddhanas sārddha-sam<orig>a</orig>ḥ<supplied reason="subaudible">.</supplied> tan-nandano vijayāditya catu<lb 
+n="17" break="no"/>ścatvāriṁśa<space type="binding-hole"/><orig>d</orig> varṣāṇi<supplied reason="subaudible">.</supplied> tad-bhrātur yyuvarājasya vikramādi<lb 
+n="18" break="no"/>tya-bhūpa<space type="binding-hole"/>teḥ putro bhīmaḥ</p>
+<lg n="1" met="śārdūlavikrīḍita">
+<l n="a" enjamb="yes">śrīmān kīrtti-śaśāṁka-raśmi-viśa<lb n="19" break="no"/>dībhūtākhilāśāvani</l>
+<l n="b">-vyomā śrī-kusumāyudhena guṇinā vidvaj-ja<lb n="20" break="no"/>nānandanaḥ</l>
+<l n="c">vīro <supplied reason="subaudible">’</supplied>sau nija-paṭṭa-bandha-samaye santuṣṭavāñ śāśvata<unclear cert="low">M</unclear></l>
+<l n="d">grā<lb n="21" break="no"/>maṁ śrī-jayadhāma-bhīma-nr̥patis sa<supplied reason="omitted">ṁ</supplied>prārt<choice><sic>t</sic><corr>th</corr></choice>ito dattavāN</l>
+</lg>
+<p>sa sarvva-lo<pb 
+
+n="3r" break="no"/><lb 
+n="22" break="no"/>kāśraya-śrī-viṣṇuvarddhana-mahārājādhirāja-parameśvara-parama<lb 
+n="23" break="no"/>-bhaṭṭārakaḥ parama-brahmaṇya Uttara-kaṇḍerṟvāḍi-viṣaya-nivāsino <lb 
+n="24"/>rāṣṭrakū<space type="binding-hole"/>ṭa-pramukhān kuṭuṁbinas sarvvān samāhūye<lb 
+n="25" break="no"/>ttham ājñāpayati|</p>
+<p>viditam astu vaḥ k<unclear>au</unclear>ṇḍinya-gotraḥ Umma<lb 
+n="26" break="no"/>rakaṇṭhibol veda-vedāṁga-pāragaḥ revamayy<orig>a</orig><supplied reason="subaudible">.</supplied> tat-putro <pb 
+
+n="3v"/><lb 
+n="27"/>droṇabhaṭṭaḥ<supplied reason="subaudible">.</supplied> tat-putr<orig>aḥ</orig> potamayya-kramayita-nāmne k<unclear reason="eccentric_ductus" cert="low">ḻa</unclear>kipa<lb 
+n="28"/>ṟṟu-nāma-grām<orig>a</orig> sarvva-kara-parihāram udaka-pūrvvaṁ kr̥tvāsmābhi<supplied reason="omitted">r</supplied> datta<lb 
+n="29" break="no"/><orig>m</orig> iti<supplied reason="subaudible">.</supplied> A<space type="binding-hole"/>syāvadhayaḥ pūrvvataḥ potaṟeṁgari-ceṟuvu<supplied reason="subaudible">.</supplied> Āgn<unclear>e</unclear><lb 
+n="30" break="no"/>yataḥ paru<space type="binding-hole"/>vula-guṇṭha<supplied reason="subaudible">.</supplied> dakṣ<choice><sic>a</sic><corr>i</corr></choice>ṇataḥ cāki-ceṟuvu<supplied reason="subaudible">.</supplied> nai<choice><orig>ri</orig><reg>rr̥</reg></choice>tyataḥ sī<lb 
+n="31" break="no"/>maiva sīm<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> paśc<choice><sic>a</sic><corr>i</corr></choice>mataḥ cintaṟeni-ceṟuvu<supplied reason="subaudible">.</supplied> vāyavyataḥ juvvi-guṇṭha<supplied reason="subaudible">.</supplied> <pb 
+
+n="4r"/><lb 
+n="32"/>Uttarataḥ <choice><orig>Ī</orig><reg>Ai</reg></choice>śānataḥ Airiviya-guṇṭha<supplied reason="subaudible">.</supplied> Asyopari ke<lb 
+n="33" break="no"/>nacid bādhāṁ karoti yaḥ sa paṁcabhir mmahāpātakair ll<choice><sic>ī</sic><corr>i</corr></choice>pyate<supplied reason="subaudible">.</supplied> vyāsa<lb 
+n="34" break="no"/>-gītāś ślo<space type="binding-hole"/>k<choice><sic>a</sic><corr>ā</corr></choice>ḥ</p>
+<lg n="2" met="anuṣṭubh">
+<l n="a">bahubhir vvasudhā datt<choice><sic>aḥ</sic><corr>ā</corr></choice></l>
+<l n="b">bahubhiś cānupāli<lb n="35"/>tā</l>
+<l n="c">yasya yasya yadā bhūmiḥ</l>
+<l n="d">tasya tasya tadā phalaṁ||</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>i<unclear>ṁ</unclear> <lb n="36"/>varṣa-saha<choice><sic>ś</sic><corr>s</corr></choice>rāṇi|</l>
+<l n="b">svargge mo<unclear>da</unclear>ti bhūmidaḥ|</l>
+<l n="c">Ākṣeptā cā<pb n="4v" break="no"/><lb n="37" break="no"/>vamantā ca</l>
+<l n="d">tānny eva narake vase<supplied reason="omitted">T</supplied>|||</l>
+</lg>
+<lg n="4" met="vasantatilakā">
+<l n="a">ma<subst><del rend="corrected">p</del><add place="overstrike">d</add></subst>-vaṁśajā para-mahīpati<lb n="38" break="no"/>-vaṁśajā vā||</l>
+<l n="b">pāpād apeta-manaso bhuvi bhāvi-bhūpā<supplied reason="omitted">ḥ</supplied>|</l>
+<l n="c">ye <lb n="39"/>pālayanti mama dharmmam im<choice><sic>ā</sic><corr>a</corr></choice>ṁ sa<surplus>ṁ</surplus>mastaṁ|</l>
+<l n="d"><lb n="40"/>teṣāṁ m<surplus>m</surplus>ayā viracito <supplied reason="subaudible">’</supplied>ṁjalir eṣa mūrdhni||</l>
+</lg>
+<lg n="5" met="śālinī">
+<l n="a">sāmā<lb n="41" break="no"/>nyo <supplied reason="subaudible">’</supplied>yan dharmma-setur nr̥pāṇāṁ</l>
+<l n="b">kāle kāle pālanī<pb n="5r"/><lb n="42" break="no"/>yo bhavadbhiḥ</l>
+<l n="c">sarvvān etān bhāvinaḥ pārt<choice><sic>t</sic><corr>th</corr></choice>ivendrān</l>
+<l n="d">bhūyo bhūyo <lb n="43"/>yācate rāmabhadraḥ</l>
+</lg>
+<lg n="6" met="indravajrā">
+<l n="a">yānīha dattāni purā narendr<choice><sic>e</sic><corr>ai</corr></choice>ḥ</l>
+<l n="b">dānāni dha<lb n="44" break="no"/>rmmārt<choice><sic>t</sic><corr>th</corr></choice>a-ya<space type="binding-hole"/>śas<surplus>s</surplus>-karāṇi</l>
+<l n="c">nirmmāl<surplus>l</surplus>ya-<choice><sic>vargga</sic><corr>vānta</corr></choice>-praṭimāni tāni</l>
+<l n="d">ko <lb n="45"/>nāma sā<choice><sic>d</sic><corr>dh</corr></choice>uḥ <unclear>punar ādad</unclear>īt<choice><sic>āḥ</sic><corr>a</corr></choice></l>
+</lg>
+<lg n="7" met="anuṣṭubh">
+<l n="a">Ājñ<choice><sic>ā</sic><corr>a</corr></choice>ptir asya dharmmasya|</l>
+<l n="b" met="---++-+-+">kaḍeya<lb n="46"/>rājaḥ pratāpavāN|</l>
+<l n="c">pitāmaho bhavān<surplus>n</surplus> yasya pāṇḍar<choice><orig>a</orig><reg>ā</reg></choice>ṁgaḥ parantapaḥ</l>
+</lg>
+<p><pb 
+n="5v"/><lb n="47"/>koṇḍ<choice><orig>a</orig><reg>ā</reg></choice>cāryya-likhitam
+</p>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+   <listApp>
+      <app loc="4">
+        <lem>-lā<surplus>ṁ</surplus>ñchanekṣaṇa-</lem>
+        <note>According to Kielhorn's note, the superfluous <foreign>anusvāra</foreign> may have been struck out in the original.</note>
+      </app>
+      <app loc="5">
+        <lem>-maṇḍalānāṁ</lem>
+        <note>Kielhorn notes that originally <foreign>-maṁṇḍalānāṁ</foreign> may have been inscribed.</note>
+      </app>
+      <app loc="11">
+       <lem source="bib:Kielhorn1898-1899_01">tad-<supplied reason="omitted">d</supplied>vaimāturā°</lem>
+       <note>Although <foreign>vaimātura</foreign> is not attested in modern dictionaries, it may be a legitimate formation equivalent to the attested <foreign>vaimātra</foreign> and thus require no emendation.</note>
+      </app>
+      <app loc="12">
+        <lem source="bib:Kielhorn1898-1899_01">svānuja<surplus>mada</surplus>m</lem>
+        <note>Again, I accept Kielhorn's judgement but wonder: the extra <foreign>mada</foreign> seems to be a very unusual scribal mistake. Could <foreign>svānujam adam</foreign> be a solecism for <foreign>svānujam amum</foreign>, or a scribal mistake for <foreign>svānujam aḷam</foreign> (i.e. <foreign>svānujam alam</foreign>)?</note>
+      </app>
+      <app loc="15">
+        <lem source="bib:Kielhorn1898-1899_01">-śrīm<choice><sic>ā</sic><corr>a</corr></choice>n-</lem>
+        <note>I follow Kielhorn in emending here, though I interpret the compound differently (see note to translation). The emendation is not strictly necessary, as the text would also be intelligible with <foreign>-śrīmān</foreign> in apposition to <foreign>vijayādityaḥ</foreign>, but I believe it was more likely intended to qualify the temple. See also the commentary on the possibility that this is part of a stanza.</note>
+      </app>
+      <app loc="20">
+        <lem>śāśvata<unclear cert="low">M</unclear></lem>
+        <rdg source="bib:Kielhorn1898-1899_01">śāśvata<supplied reason="omitted">ṁ</supplied><del>|</del></rdg>
+        <note>According to Kielhorn, a superfluous punctuation mark was struck out here. As far as I can see in the estampage, a slightly damaged final <foreign>M</foreign> is likewise possible and is slightly more likely in the context, though both an omitted <foreign>anusvāra</foreign> and a punctuation mark after the third <foreign>pāda</foreign> are entirely plausible.</note>
+      </app>
+     <app loc="23">
+       <lem>-kaṇḍerṟuvāḍi-</lem>
+       <note>Kielhorn suggests emending to <foreign>kaṇḍeṟuvāḍi</foreign>. While this is clearly the same name, I prefer not to alter the spelling used here.</note>
+     </app>
+     <app loc="26">
+       <lem>revamayy<orig>a</orig></lem>
+       <note>Kielhorn notes that what looks like an <foreign>ā mātrā</foreign> attached to <foreign>ma</foreign> is in fact the vestige of an earlier character <foreign>ki</foreign>, hammered out. In the published estampage, the visible remnant is clearly a headmark and not a vowel marker, but nothing else is visible.</note>
+     </app>
+     <app loc="27">
+       <lem>-kramayita-</lem>
+       <note>Kielhorn suggests that this word is a mistake for <foreign>kramayuta</foreign>, a word used to describe a Brahmin as conversant with <foreign>kramapāṭha</foreign> recitation (see Sircar IEG s.v.). It is very plausible to assume that this was the intended meaning, but I prefer not to make the emendation in the text itself.</note>
+     </app>
+     <app loc="27">
+       <lem>k<unclear reason="eccentric_ductus" cert="low">ḻa</unclear>kipaṟṟu-</lem>
+       <rdg source="bib:Kielhorn1898-1899_01">kūkipaṟṟu-</rdg>
+       <note>The character which Kielhorn confidently reads as <foreign>kū</foreign> is conspicuously different from that in <foreign>rāṣṭrakūṭa</foreign> (l. 24) and does not resemble any specimen of <foreign>kū</foreign> in Indoskript from a comparable region of space and time. It is most probably <foreign>kḻa</foreign>, though with some stretch it could perhaps be <foreign>kva</foreign> or another combination. I feel certain that <foreign>kū</foreign> can be ruled out.</note>
+     </app>
+     <app loc="29">
+       <lem>potaṟeṁgari-</lem>
+       <rdg source="bib:Kielhorn1898-1899_01">potaṟyaṁgari-</rdg>
+       <note>I feel confident that the stroke attached to <foreign>ṟ</foreign>, starting at the left-hand side of the body, curling underneath, then bending up to slightly above headline height on the right is not a subscript <foreign>y</foreign> (which in my judgement would bulge slightly to the left and pass at a greater depth below the primary consonant) but an ornamentally extended <foreign>e</foreign> marker. What seems to be an extension of the tail of this stroke to the right and down is quite certainly a headmark left over from the deleted earlier inscription on the plate.</note>
+     </app>
+     <app loc="30">
+       <lem>-guṇṭha</lem>
+       <note>Kielhorn emends to <foreign>-guṇṭa</foreign>.</note>
+     </app>
+     <app loc="30">
+       <lem>sī<lb n="31" break="no"/>maiva</lem>
+       <note>As Kielhorn observes, a toponym is missing before this word. There is a conspicuous dot between the top of <foreign>s</foreign> and the upper dot of the preceding <foreign>visarga</foreign>, which may be a remnant of the previous inscription on the plate (but which does not look like a headmark), or may be an editorial mark indicating that something needs to be inserted here.</note>
+     </app>
+     <app loc="31">
+       <lem>-guṇṭha</lem>
+       <note>Kielhorn emends to <foreign>-guṇṭa</foreign>.</note>
+     </app>
+     <app loc="32">
+       <lem>Airiviya-</lem>
+       <note>Kielhorn prints this reading without doubt, and it is definitely plausible. However, I have doubts about the presence of <foreign>ai</foreign> in what must be a toponym in a local language. What looks like <foreign>Ai</foreign> could well be <foreign>ba</foreign>, and the small stroke inside the hook at the top may be a remnant from the previous inscription.</note>
+     </app>
+     <app loc="32">
+       <lem>-guṇṭha</lem>
+       <note>Kielhorn emends to <foreign>-guṇṭa</foreign>.</note>
+     </app>
+     <app loc="32">
+       <lem>ke<lb n="33" break="no"/>nacid bādhāṁ karoti yaḥ sa</lem>
+       <note>Kielhorn suggests emending to <foreign>yaḥ kaścid bādhāṁ karoti sa</foreign>, which essentially takes over the composer's job. I believe a scribal mistake is more likely, and the composer's intent had been <foreign>kenacid bādhā na karttavyā bādhāṁ karoti yaḥ sa</foreign>, from which the received text was produced by eyeskip omission.</note>
+     </app>
+     <app loc="36">
+       <lem>cā<pb n="4v" break="no"/><lb n="37" break="no"/>vamantā</lem>
+       <note>Kielhorn emends to <foreign>cānumantā</foreign>. While that is certainly the standard text of this stanza, the received reading is meaningful and unlikely to have been produced from the expected text by scribal error, so I assume it to have been intended so by the composer.</note>
+     </app>
+     <app loc="37">
+       <lem>tānny</lem>
+       <note>CHECK when a facsimile is available: is this the actual spelling or is this a typo in Kielhorn?</note>
+     </app>
+     <app loc="43">
+       <lem>narendr<choice><sic>e</sic><corr>ai</corr></choice>ḥ</lem>
+       <note>Not noted by Kielhorn, <foreign>re</foreign> seems to have been corrected from <foreign>ri</foreign> or <foreign>rī</foreign>.</note>
+     </app>
+     <app loc="43">
+       <lem>-<choice><sic>vargga</sic><corr>vānta</corr></choice>-</lem>
+       <note>I emend here, as Kielhorn does, to the expected text of this stanza (cf. <foreign>cāvamantā</foreign> in line 36 above), since the received reading is plausibly obtained from the expected one by scribal error.</note>
+     </app>
+     <app loc="45">
+       <lem>kaḍeya<lb n="46"/>rājaḥ</lem>
+       <note>I assume that the name, which makes the line hypermetrical, was pronounced with a short <foreign>e</foreign>, and thus the poet seems to have availed of licence permitting the use of three short syllables where two syllables are expected.</note>
+     </app>
+     <app loc="46">
+       <lem>bhavān<surplus>n</surplus> yasya</lem>
+       <note>Kielhorn emends to <foreign>’bhavad yasya</foreign>, which I find overly invasive.</note>
+     </app>
+     
+     
+     
+     
+   </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-8"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-8"></p>
+  <!--Keep in mind different translation from Kielhorn of l15 śrīman; also l19 kusumāyudhena, which I understand as agent of prārtthito.-->
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>The recto of the first plate contains, from the (viewer's) left to right, depictions of a conch shell, the sun and a club. The plates are palimpsests (Kielhorn: "quasi-palimpsests"), with the possible exception of the first plate. The earlier writing is well beaten out on plates 2 to 4, but quite clear on both sides of plate 5. The script of the earlier writing is close to that of the principal text, and the earlier text contains (on 5 verso) the words sa sarvva-lokāśraya-śrī-viṣṇuvarddhana-ma<unclear>hārā</unclear>, so the earlier text was probably another grant of Bhīma I, unfinished or revoked for some reason. Kielhorn points out that this is the earliest record known (to his date) which gives a full Eastern Cālukya genealogy with lengths of reigns.</p>
+<p>As Kielhorn points out, the text <foreign>Aṣṭottaraśata-śrīmān-narendreśvara-kārakaḥ</foreign> in line 15 qualifies as half of an <foreign>anuṣṭubh</foreign> stanza. Given that all the rest of the genealogy in prose, this is probably coincidence, and thus the text is encoded as prose. It is, however, quite possible that the phrase as a whole was (even unwittingly) lifted out of a well-known metrical composition in praise of Narendramr̥garāja. Another interesting detail is that the length of this king's reign varies in records (see <bibl><ptr target="bib:Fleet1891_03"/><citedRange>11, 100</citedRange></bibl>). If Sircar (in <bibl><ptr target="bib:Majumdar1955_01"/><citedRange>133</citedRange></bibl>) is correct in asserting that the reign in fact lasted 48 years, then the preceding phrase can also be restored to <foreign>anuṣṭubh</foreign> metre by emending to <foreign>tat-suto vijayādityo 'ṣṭacatvāriṁśataṁ samāḥ</foreign>. Could there have been an official Purāṇa-style metrical version of the entire genealogy, of which this (and the parallels in other plates) are edited and slightly garbled versions? Many other parts of the genealogy can be easily manicured into verse, and the text <foreign>tad-bhrātur yyuvarājasya vikramāditya-bhūpateḥ</foreign> in lines 17-18 is again a perfect hemistich (and the following words, <foreign>putro bhīmaḥ</foreign>, may be perceived as the beginning of another hemistich). Kielhorn notes this too, and points to a parallel with a full <foreign>anuṣṭubh</foreign> stanza: <foreign>tad-bhrātur yyuvarājasya vikramāditya-bhūbhujaḥ nandanaś śauca-kandarppa triṁśad varṣāṇi bhīma-rāṭ</foreign> (ll 13-14 of CalE45<!--CHECK add ref when encoded-->). Another thing: can the variety of synonyms (for "year" and "son") used in the genealogy be a remnant of a verse chronicle where the synonyms had been chosen on metrical grounds?</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">127-131</citedRange><citedRange unit="item">C</citedRange></bibl>), with an abstract of the contents and with inked rubbings supplied by Hultzsch. The present edition by Dániel Balogh is based on a collation of Kielhorn's text with his facsimiles.<note>The estampages do not include page 4 verso<!--CHECK a printed EI5 - could it have been an inset?-->, so this edition follows Kielhorn literally for that page.</note></p>
+  <listBibl type="primary">
+    <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">127-131</citedRange><citedRange unit="item">C</citedRange></bibl><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
