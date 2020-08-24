@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Cevuru plates of Amma I</title><!--ALT TITLE: "-->
+        
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE36-Cevuru-Amma1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas. M seems to be a special form, with a reduced body resembling ma but definitely different from the standard ma in this script, and an extension attached to its top right, which first bends at a soft right angle to the right, then a hard right angle upward, ending in a repha-like curve up and to the right. E.g. l3 pādānudhyātānāM; l22 CHECK DESCRIBE. N in l22 CHECK DESCRIBE.</p>
+              <p>Original punctuation marks.</p>
+              <p>Other palaeographic observations. Chhabra CHECK, DESCRIBE: unusual medial e, ai and o in l20 s sāhasena, l22 saṁpṛtair and l1 sagotrāṇāṁ. Special subscript l in ll6,16,29. @DABA: subscript l in l6 vallabhendrasya is a simplified spiral continuing to the right in a notched horizontal line, then attached upward to the body of the main consonant. It sort of reminds me of the way halanta consonants are formed in this script, with what could be a halanta l turned 90 degrees to the right. That in l16 guṇakkenallā° is the same. Anusvāra is at headline height to the right of the akṣara to which it belongs, e.g. l1 śrīmatāṁ. It is separated from its akṣara by a line break in l16-17 kuṭu/ṁbinas; Chhabra refers to E Cālukya parallels in IA7 p187 (ll29-30) with remarks on p186; and EI 24 p278 n3.</p>
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. -->
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+
+           </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-08-24" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakalab-huvana-saṁstūyamāna-mānavya-sagotrānāṁ <lb 
+n="2"/>hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥gaṇa-pari<lb 
+n="3" break="no"/>pālitānāṁ svāmi-mahāsena-pādānudhyātānāM bhagavan-nārāyaṇa<lb 
+n="4" break="no"/>-prasāda-sa<space type="binding-hole"/>māsādita-vara-varāha-lāñchanekṣaṇa-kṣaṇa-vaśīkr̥tā<lb 
+n="5" break="no"/>rāti-ma<space type="binding-hole"/>ṇḍalānām aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapu<lb 
+n="6" break="no"/>ṣāṁ cālukyā<space type="binding-hole"/>nāṁ kulam alaṁkariṣṇoḥ satyāśraya-vallabhendrasya
+kula-tila<lb 
+n="7" break="no"/>kāyamāna-svāsi-dhārā-namita-ripu-nr̥pati-makuṭa-taṭa-ghaṭita-maṇi-mayū<lb 
+n="8" break="no"/>kha-puṁja-piṁjarita-pāda-padma-yugalasya cālukya-bhīma-bhūpālasya pautraḥ
+<lb 
+n="9"/>sāsi-sannahana-sva-tanu-tulā-tulita-bhūri-bhāra-bhāsura-hema-rā<choice><orig>s</orig><reg>ś</reg></choice>i-mahā<pb 
+
+n="2r" break="no"/><lb 
+n="10" break="no"/>dāna-viśeṣā<choice><sic>ḍ</sic><corr>ḍh</corr></choice>yīkr̥ta-vipra-kula-kalpavr̥kṣasya samasta-bhuvanāśra<lb 
+n="11" break="no"/>ya-vijayādityasya putraḥ Amma-mahīpatir ggaṇḍaragaṇḍo rājamahe<lb 
+n="12" break="no"/>ndra Iti vikhyātaḥ dāyāda-timirodyad-dinakara-kiraṇāyamāna-bhāsurā<lb 
+n="13" break="no"/>si-sanāthī<space type="binding-hole"/>kr̥ta<surplus>ta</surplus>-dakṣiṇa-<choice><sic>bh</sic><corr>b</corr></choice>āhus sa<surplus>sa</surplus>rvva-lokāśraya-śrī-viṣṇuva<lb 
+n="14" break="no"/>rddhana-mahā<space type="binding-hole"/>rājādhirāja-parameśvara-paramabhaṭṭārakaḥ parama-mā<lb 
+n="15" break="no"/>heśvaraḥ gu<space type="binding-hole"/>dravāra-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān kuṭu<lb 
+n="16" break="no"/>ṁbinas samāhūyettham ājñāpayati<supplied reason="subaudible">.</supplied>
+viditam astu vaḥ guṇakkenallā<lb 
+n="17" break="no"/>para-nāmadheya-vijayāditya-mahārāja-prasādīkr̥ta-hasty-āroha<lb 
+n="18" break="no"/>ṇāvāpta-gudravāra-viṣaya-śrīmad-umikili-nāma-grāma-rāṣṭrakūṭa<pb 
+
+n="2v" break="no"/><lb 
+n="19" break="no"/>@@@-māhātmyasya1630
+
+Face IIb.
+konakula-candeyarājasya pautraḥ rājādityānuja-manohitāryyasya putraḥ vemarājo nāma subhaṭaḥ sāhasena kaliyuga-śūdrako1631 mat-pitaraṁ vijayāditya[ṁ*] baddha-karppaṭakaḥ svāmi-bhaktir ārādhitavān<supplied reason="subaudible">.</supplied>
+tad-ārādhana-svāmi-bhakti-saṁprītair1632 asmābhiḥ kumāra-vijayādityānnaprāśana1633-nimitte kramāgata-siddhāyāṣṭa-gadyāṇakaṁ parityajya parihāram umikilī-grāma-grāmaṇīs sa vemarāja[ḥ*] kr̥taḥ<supplied reason="subaudible">.</supplied>
+grāma-dakṣiṇataḥ ervvoka-cenu<supplied reason="subaudible">.</supplied> asyāvadhayaḥ<supplied reason="subaudible">.</supplied>
+pūrvvataḥ vranta<supplied reason="subaudible">.</supplied>
+dakṣiṇataḥ dūdrupāka-sīmaiva<supplied reason="subaudible">.</supplied>
+paścimataḥ rāca-cenu cāṇḍāla1634-kṣetraṁ ca<supplied reason="subaudible">.</supplied>
+uttarataḥ koḍu<supplied reason="subaudible">.</supplied>
+grāmottara-diśi ay[ya*]pa ervvoka-cenu<supplied reason="subaudible">.</supplied> asyāvadhayaḥ<supplied reason="subaudible">.</supplied>
+pūrvvataḥ koḍu<supplied reason="subaudible">.</supplied>
+
+Face IIIa.
+dakṣiṇataḥ vanneṟu<supplied reason="subaudible">.</supplied>
+paścimataḥ koḍu<supplied reason="subaudible">.</supplied>
+uttarataḥ kolani mulugu<supplied reason="subaudible">.</supplied>
+puṭṭi-nirugu saveraṁ iruvadinālgu vuṭla-niṇḍṟāyam padu-gaṇḍu padeḻ dumu<supplied reason="subaudible">.</supplied>
+tamulaṁmula-tūmeṇḍu<supplied reason="subaudible">.</supplied>
+asyopari na kenacid bādhā karttavyā yaḥ karoti sa paṁca-mahā-pātaka-saṁyukto bhavati<supplied reason="subaudible">.</supplied>
+tatha ca vyāsenāpy uktam[+||]
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||](1)
+sva-dattāṁ para-dattāṁ vā yo hareta vasuṁdharām1635[+|]
+ṣaṣṭiṁ varṣa-sahasrāṇi viṣṭhāyāṁ jāyate kr̥miḥ[+||] (2)
+veṁgī-maṇḍala-rakṣaṇa1636-bhuja-bala-kaṭakeśvaras samājñāptiḥ[+|]
+bhaṭṭa-niravadya-santati-bhaṭṭa-mahākāla-viracitam1637[+||] (3)
+
+</p>
+<pb n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+   <listApp>
+      <app loc="3">
+        <lem>-mahāsena-</lem>
+        <note>As Chhabra duly notes, there is a superfluous dot high above <foreign>se</foreign>.</note>
+      </app>
+      <app loc="4">
+        <lem>-varāha-</lem>
+        <note>As Chhabra duly notes, there is a superfluous dot at mid-height between <foreign>va</foreign> and <foreign>rā</foreign>.</note>
+      </app>
+      <app loc="13">
+        <lem>-sanāthī°</lem>
+        <note>According to Chhabra, there is a superfluous dot above <foreign>sa</foreign>. This is not visible in the scanned rubbing.</note>
+      </app>
+      <app loc="13">
+        <lem>sa<surplus>sa</surplus>rvva-</lem>
+        <note>As Chabra notes, emendation is not strictly necessary, as the first <foreign>sa</foreign> may be interpreted as a pronoun. I believe a scribal error is more likely.</note>
+      </app>
+     
+     
+     
+     
+   </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-18">
+</p>
+<p n="47"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-18">
+</p>
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>Discovered in Cēvūru village in Kaikalūr tāluk of Kistna District in the Madras Presidency, about 1928, by the villager Polavarapu Ankayya, son of Venkata Reddi, who was digging the debris of a collapsed mud house. Seen there by Chhabra in November 1938 and borrowed for study.
+</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Edited from the original by B. Ch. Chhabra (<bibl rend="omitname"><ptr target="Chhabra1947-1948_02"/></bibl>), with translation and inked rubbings supplied by Hultzsch. Chhabra collaborated with N. Laksminarayan Rao for the Telugu part of the inscription. The present edition by Dániel Balogh is based on a collation of Chhabra's text with his facsimiles.</p>
+  <listBibl type="primary">
+    <bibl n="BCC"><ptr target="Chhabra1947-1948_02"/></bibl><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
