@@ -51,7 +51,7 @@
             <handDesc>
               <p>Halantas need checking against facsimile.</p>
 <p>Original punctuation marks transliterated by the editors as | and || are adopted here; all punctuation marks need to be verified against a facsimile. </p>
-              <p>Other palaeographic observations. Anusvāra is moved to the next line in l 25-26 aṁkitākhila.
+              <p>Other palaeographic observations. Anusvāra is moved to the next line in l 25 aṁkitākhila, l 27 catuścatvāriṁśad, l39 bhaṁga, l58 polakuṁgoṇḍa, l60 cāmiṟeniguṁṭṭa. Visarga is moved to the next line in l55 paścimataḥ. Consonants are doubled not only after r, but often also before y and after an anusvāra. 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -84,7 +84,7 @@
 n="1v"/><lb 
 n="1"/>sarvvākāram aśeṣasya</l>
 <l n="b">jagataḥ sarvadā śivaṁ</l>
-<l n="c">go-brāhmaṇa-nr̥pāṇāṁ <surplus>c</surplus>ca</l>
+<l n="c">go-brāhmaṇa-nr̥pāṇāṁ cca</l>
 <l n="d"> śivaṁ bhavatu sarvadā||</l>
 </lg>
 <p><lb 
@@ -104,7 +104,7 @@ n="12" break="no"/>d-abdān| tat-putraḥ</p>
 <lg n="2" met="anuṣṭubh">
 <l n="a">gaṁgga-raṭṭa-balais sārddhaM</l>
 <l n="b">dvādaśābdān ah<choice><sic>ā</sic><corr>a</corr></choice>r-nniśam</l>
-<l n="c" enjamb="yes">bhujārjjita-balaṁ <lb n="13"/>khadga</l>
+<l n="c" enjamb="yes">bhujārjjita-balaṁ <lb n="13"/>khaḍga</l>
 <l n="d">-sahāyo naya-vikramaiḥ</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
@@ -154,60 +154,83 @@ n="12" break="no"/>d-abdān| tat-putraḥ</p>
 <l n="b">jitvā maṁgi-śiro <supplied reason="subaudible">’</supplied>hara<orig>T</orig> yudhi mahā-bāhvāpta-vīryyāryyamā|</l>
 <l n="c">kr̥ṣṇaṁ saṁkilam a<pb n="3r" break="no"/><lb n="26" break="no"/>ṁkitākhila-bala-prāptoru-sad-vikramo|</l>
 <l n="d"><choice><sic>bhītārttau</sic><corr>bhītyārtaṁ</corr></choice> ca vidhāya tat-puram araṁ yo <lb n="27"/>nirddadāha prabhuḥ</l></lg>
-<p>@@@
-samasta-bhuvanāśraya-śrī-vijayādityaś catuścatvāriṁśad-varṣāṇi[+|]
-tad anu savitaryy astaṁgate timira-paṭaleneva raṭṭa-dāyāda-balenābhivyāptam veṁgī-maṇḍalam tad-anuja-vikramāditya-sūnuś calukya-bhīmādhipo drohārjunāpara-nāmā sva-vikramaika-sahāya-taravāri-prabhayāvabhāsyādhipatir abhūt kiṁ ca[+||]
-dīnānātha-nagna-naṭa-gāyaka-dharmma-dhvaja-vr̥ttīnām pitarāv iva sakheva gurur ivābhilaṣitaṁ vistīrrya kalpa-taru-pratimaś cetāṁsi dānena saṁtarpya triṁśād-varṣāṇi pālayitvātma-guṇaiḥ purandaram ānandayann iva tat-sakhyam agamat[+||]
+<p>sa samasta-bhuvanāśraya-śrī-vijayādityaś catuścatvāri<lb 
+n="28" break="no"/>ṁśad-varṣāṇi| tad-anu savitaryy astaṁgate timira-paṭaleneva raṭṭa-dāyāda-bale<lb 
+n="29" break="no"/>nābhivyāptaM veṁgī-maṇḍalaM tad-anuja-vikramāditya-sūnuś calukya-bhīmā<lb 
+n="30" break="no"/>dhipo drohārjunāpara-nāmā sva-vikramaika-sahāya-taravāri-prabhayāvabhā<lb 
+n="31" break="no"/>syādhipatir abhūt kiṁ ca|| dīnānātha-nagna-naṭa-gāyaka-dharmma-dhvaja-vr̥ttīnāM pitarāv i<lb 
+n="32" break="no"/>va sakheva gurur ivābhilaṣitaṁ vistīrrya kalpa-taru-pratimaś cetāṁsi dānena saṁta<lb 
+n="33" break="no"/>rpya triṁśad-varṣāṇi<surplus>|</surplus> pālayitvātma-guṇaiḥ purandaram ānandayann iva tat-sakhyam agamaT|</p>
+<lg n="11" met="anuṣṭubh">
+<l n="a"><pb n="3v"/><lb n="34"/>tat-putro vijayādityaḥ</l>
+<l n="b">śaiśavā<supplied reason="omitted">l</supplied> labdha-saṁpadā</l>
+<l n="c" enjamb="yes">sarvva-bhogādhirājyāṁga</l>
+<l n="d">-bala-ratnai<lb n="35" break="no"/>r aviśrutaḥ|</l>
+</lg>
+<lg n="12" met="sragdharā">
+<l n="a">jīvaty eva pratāpā<choice><sic>p t</sic><corr>t p</corr></choice>itari bhuja-bala-dhvasta-tad-vairi-varggaḥ</l>
+<l n="b">paścāj jitvāri-vargga<lb n="36" break="no"/>n nijam ajita-mahā-śakti-saṁpanna-mantra<supplied reason="omitted">ḥ</supplied></l>
+<l n="c">prajñā-cakreṇa bāhyāṁ ripu-samitim api svārttha<lb n="37" break="no"/>-bhogaiḥ kr̥ttārttho</l>
+<l n="d">rājyāśīr-llabdha-tejaḥ-sama-dalam adhipo jetum indraṁ prayā<lb n="38" break="no"/>taḥ|
+</l></lg>
+<p>tat-sūnur udayāditya ivāmm<orig>a</orig> rāja-mahendrāpara-nāmā ripu-timi<lb 
+n="39" break="no"/>ram ārān nihatya prakr̥ti-sapatna-pakṣa-nikṣipta-sāmanta-kulya-kuṭila-mano-bha<lb 
+n="40" break="no"/>ṁga-karaṁ karavālam utkr̥<choice><sic>t</sic><corr>ṣ</corr></choice>ya śakti-traya-saṁpanna-pratāpāvarjita-pitr̥-pitāmaha<lb 
+n="41" break="no"/>-prakr̥ti-balaḥ prajñayā sura-guruṁ tejasā bhānumantaṁ kṣamayā kṣamām ama<pb 
 
-Face IIIb.
-tat-putro vijayādityaḥ śaiśavāl[l*]abdha-saṁpadā[+|]
-sarvva-bhogādhirājyāṁga-bala-ratnair1661 viśrutaḥ[+||] (11)
-jīvaty eva pratāpāt pitari1662 bhuja-bala-dhvasta-tad-vairi-varggo
-paścāj jitvāri-varggan nijam ajita-mahā-śakti-saṁpanna-mantra[ḥ*][+|]
-prajñā-cakreṇa bāhyāṁ ripu-samitim api svārthyabhogaiḥ kr̥ttārttho
-rājyāśīr llabdha-tejāḥ samadalam adhipo jetum indraṁ prayātaḥ[+||] (12)
-tat-sūnur udayāditya ivāmmo1663 rāja-mahendrāpara-nāmā ripu-timiram ārān nihatya prakr̥ti-sapatna-pakṣa-nikṣipta-samānta-kulya-kuṭila-mano-bhaṁga-karaṁ karavālam utkr̥ṣya1664 śakti-traya-saṁpanna-pratāpāvarjita-pitr̥-pitāmaha-prakr̥ti-balaḥ prajñayā sura-guruṁ tejasā bhānumantaṁ kṣmayā kṣmām amara-giriṁ
+n="4r" break="no"/><lb 
+n="42" break="no"/>ra-giriṁ vividha-budha-samāśrayatayānukurvvaN sarvva-lokāśraya-viṣṇuvarddhana-ma<lb 
+n="43" break="no"/>hārājaḥ sva-rājyābhiṣeka-kr̥ta-kalyāṇaḥ siṁhāsanārūḍhaḥ kaṇḍeṟuvāḍṭi-viṣaya<lb 
+n="44" break="no"/>-nivāsinaḥ sarvvān kuṭuṁbinas samāhūyettham ājñāpayati sma|</p>
+<p>Asmat-kula-kallyāṇa-pa<lb 
+n="45" break="no"/>raṁp<choice><sic>ā</sic><corr>a</corr></choice>rā-niyogādhikr̥ta-paṭṭavarddhinī-vaṁśāgraṇyā| kāḻakaṁpa Iti viśrute<lb 
+n="46" break="no"/>na| kubja-viṣṇuvarddhanānucareṇa saṁgrāme tad-anujñayā dur-ddharṣa-balaṁ daddara-nā<lb 
+n="47" break="no"/>mānaṁ vinihatya tac-cihnāni<surplus>|</surplus> yena jagr̥hire| tat-kula-prasūta-somādityasya sūnur a<lb 
+n="48" break="no"/>neka-yuddha-labdha-pratāpaḥ pritiviyarājaḥ|</p>
+<lg n="13" met="anuṣṭubh">
+<l n="a" enjamb="yes">tat-sūnus sakalārāti</l>
+<l n="b">-mada-ccheda-karā<lb n="49" break="no"/>yudhaḥ</l>
+<l n="c" enjamb="yes">sevako vijayāditya</l>
+<l n="d">-kaliyarttyaṁka-bhūbhujaḥ</l>
+</lg>
+<lg n="14" met="anuṣṭubh">
+<l n="a">Abhaiṣur bhaṇḍanādityaṁ</l>
+<l n="b">dr̥ṣtvā <pb n="4v"/><lb n="50"/>pratimukhā<choice><sic>ṁrjj</sic><corr>ñj</corr></choice>anam</l>
+<l n="c">prāptam ujj<supplied reason="omitted">v</supplied>ala-gaṇḍā<supplied reason="omitted">ṅ</supplied>kaṁ</l>
+<l n="d">yaṁ pare yama-sannibhaM|</l>
+</lg>
+<ab>yo hi|</ab>
+<lg n="15" met="śārdūlavikrīḍita">
+<l n="a">śātrūṇāṁ <lb n="51"/>tumuleṣu vīra-paṭahaṁ saṁśrāvya jitvā balaṁ</l>
+<l n="b">kuṁtāditya Iti<surplus>|</surplus> śrutāṁkita-mahā<lb n="52" break="no"/>-kīrtti-pratāpālayaḥ</l>
+<l n="c">mac-cittaṁ paritoṣya bhr̥tya-padavīṁ labdhvā prasāda<supplied reason="omitted">ṁ</supplied> ga<surplus>ṁ</surplus>taḥ</l>
+<l n="d">sphītā<lb n="53" break="no"/>neka-balāri-bhūpa-vijay<choice><sic>i</sic><corr>a</corr></choice>-śrī-janma-bāh<choice><sic>u</sic><corr>ū</corr></choice>nnatiḥ|</l>
+</lg>
+<p>tasmai| sa-dvādaśa-grām<unclear cert="low">ādhiko</unclear> <lb 
+n="54"/>goṁṭūru nāma grāmaḥ sarvva-kara-parihārīkr̥tyāsmābhir ddatta Iti| viditam a<lb 
+n="55" break="no"/>stu vo <supplied reason="subaudible">’</supplied>smābhiḥ||</p>
+<p>Asyāvadhayaḥ| pūrvvataḥ goṁguva| dakṣiṇataḥ goṇayūru| paścimata<lb 
+n="56" break="no"/>ḥ| kaluceṟuvulu| Uttarataḥ maḍapalli| eteṣām madhya-varttinaḥ kṣetra-sīmānaḥ| pūrvvataḥ| <lb 
+n="57"/>pātuṟāyu| Āgneyataḥ| peddakoyilamu| dakṣiṇataḥ kuṟuvapoṭi| <choice><orig>nairititaḥ</orig><reg>nairr̥tataḥ</reg></choice> pe<pb 
 
-Face IVa.
-vividha-budha-samāśrayatayānukurvvan sarvva-lokāśraya-viṣṇuvarddhana-mahārājaḥ sva-rājyābhiṣeka-kr̥ta-kalyāṇaḥ siṁhāsanārūḍhaḥ kaṇḍeṟuvāṭi-viṣaya-nivāsinaḥ sarvvān kuṭuṁbinas samāhūyettham ājñāpayati sma[+|]
-asmat-kula-kallyāṇa-paraṁpārā-niyogādhikr̥ta-paṭṭavarddhinī-vaṁśāgraṇyā[+|] kāḻakaṁpa iti viśrutena kubja-viṣṇuvarddhanānucareṇa saṁgrāme tad-anujñayā dur-ddharṣa-balaṁ daddara-nāmānaṁ vinihatya tac-cihnāni yena jagr̥hire[+|]
-tat-kula-prasūta-somādityasya sūnur aneka-yuddha-labdha-pratāpaḥ pritivya-rājaḥ[+||]
-tat-sūnus sakalārāti-mada-cheda-karāyudhaḥ[+|]
-sevako vijayāditya-kaliyarttyaṁka-bhū-bhujaḥ[+||] (13)
-abhaiṣur bhaṇḍanādityaṁ dr̥ṣtvā pratimukhāñjanam1665[+|]
-
-Face IVb.
-prāptam ujj[v*]ala-gaṇḍāṅkaṁ yaṁ pare yama-sannibham[+||] (14)
-yo hi[+|]
-śātrūṇāṁ tumuleṣu vīra-paṭahaṁ saṁśrāvya jitvā balaṁ
-kuṁtāditya iti śrutāṁkita-mahā-kīrtti-pratāpālayaḥ[+|]
-mac-cittaṁ paritoṣya bhr̥tya-padavīṁ labdhvā prasāda[ṁ*] ga(ṁ)taḥ
-sphītāneka-balāri-bhūpa-vijaya1666-śrī-janma-bāhūnnatiḥ1667[+||] (15)
-tasmai sa-dvādaśa-grāmaṭiko goṁṭūru-nāma-grāmaḥ sarvva-kara-parihārī-kr̥tyāsmābhir ddatta iti viditam astu vo <supplied reason="subaudible">’</supplied>smābhiḥ[+||]
-asyāvadhayaḥ[+|]
-pūrvvataḥ goṁguva[+|]
-dakṣiṇataḥ goṇayūru[+|]
-paścimataḥ kaluceṟuvulu[+|]
-uttarataḥ maḍapalli[+|]
-eteṣām madhya-varttinaḥ kṣetra-sīmānāḥ[+|]
-pūrvvataḥ potuṟayu[+|]
-agneyataḥ peddakoyilamu[+|]
-dakṣiṇataḥ kuṟuvapoṭi[+|]
-nairttr̥tataḥ1668 peruvātikuṟuva[+|]
-
-Face Va.
-paścimataḥ pālaguṁṭṭa-paḍumaṭikaṭṭa[+|]
-vāyavyataḥ polakuṁgoṇḍa-monadurgga-bhadhavati1669[+|]
-uttarataḥ maḍapallipaṟṟu[+|]
-ī(r)śānataḥ cāmiṟeniguṁṭṭa[+||]
-asyopari na kenacid bādhā karttavyā yaḥ karoti sa paṁca-mahā-pātako bhavati
-tathā ca vyāsenoktam[+||]
-bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
-yasya yasya yadā bhūmis tasya tasya tadā phalam[+||](16)
-sva-dattāṁ para-dattāṁ vā yo haret tu vasuṁdharām1670[+|]
-ṣaṣṭiṁ varṣa-sahasrāṇi viṣṭhāyāṁ jāyate kr̥miḥ[+||] (17)
-
-</p>
+n="5r" break="no"/><lb 
+n="58" break="no"/>ruvāti kuṟuva| paścimataḥ| pālaguṁṭṭa paḍumaṭikaṭṭa| vāyavyataḥ| polaku<lb 
+n="59" break="no"/>ṁgoṇḍa monadurgga bha<orig>dha</orig>vati| Uttarataḥ maḍapallipaṟṟu| <choice><orig>Īśānataḥ</orig><reg>Aiśānataḥ</reg></choice> cāmiṟenigu<lb 
+n="60" break="no"/>ṁṭṭa||</p>
+<p>Asyopari na kenacid bādhā karttavyā<supplied reason="subaudible">.</supplied> yaḥ karoti sa paṁca-mahā-pātako bhava<lb 
+n="61" break="no"/>ti<supplied reason="subaudible">.</supplied> tathā ca vyāsenoktaṁ</p>
+<lg n="16" met="anuṣṭubh">
+<l n="a">bahubhir vvasudhā dattā</l>
+<l n="b">bahubhiś cānupālitā</l>
+<l n="c">yasya <lb n="62"/>yasya yadā bhūmis</l>
+<l n="d">tasya tasya tadā phalaM||</l>
+</lg>
+<lg n="17" met="anuṣṭubh">
+<l n="a">sva-dattāṁ para-dattāṁ vā</l>
+<l n="b">yo ha<lb n="63" break="no"/>re<orig>t tu</orig> vasundharā<orig>N</orig></l>
+<l n="c">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
+<l n="d">viṣṭhāyāṁ jāyate kr̥miḥ||</l>
+</lg>
 <pb n="5v"/>
 </div>
 </div>
@@ -253,6 +276,7 @@ sva-dattāṁ para-dattāṁ vā yo haret tu vasuṁdharām1670[+|]
       <app loc="12">
         <lem source="bib:Hultzsch1890_01">-balaṁ</lem>
         <rdg source="bib:NatesaSastri1884_01">-bala-</rdg>
+        <note>Naṭeśa Śāstrī's unmetrical reading may be excluded, but Hultzsch's reading is also very awkward, though it may be interpreted as a neuter accusative used adverbially. I am tempted to read (or emend to) <foreign>-balaḥ</foreign>, and perhaps also emend the preceding <foreign>°ārjjita</foreign> to <foreign>°orjjita</foreign>.</note>
       </app>
       <app loc="13">
         <lem source="bib:Hultzsch1890_01">khaḍga</lem>
@@ -276,7 +300,7 @@ sva-dattāṁ para-dattāṁ vā yo haret tu vasuṁdharām1670[+|]
       </app>
       <app loc="19">
         <lem source="bib:Hultzsch1890_01"><unclear>na</unclear>ya-vi<lb n="20" break="no"/>d</lem>
-        <rdg source="bib:NatesaSastri1884_01">jya-vi<lb n="20" break="no"/>d</rdg>
+        <rdg source="bib:NatesaSastri1884_01">jaya-vi<lb n="20" break="no"/>d</rdg>
       </app>
       <app loc="22">
         <lem>tejas-tati-</lem>
@@ -296,6 +320,169 @@ sva-dattāṁ para-dattāṁ vā yo haret tu vasuṁdharām1670[+|]
         <lem source="bib:Hultzsch1890_01"><choice><sic>bhītārttau</sic><corr>bhītyārtaṁ</corr></choice> ca vidhāya</lem>
         <rdg source="bib:NatesaSastri1884_01">bhītārttān atha vihāya</rdg>
         <note>@@@Return to this when translating.</note>
+      </app>
+      <app loc="28">
+        <lem source="bib:Hultzsch1890_01">-paṭaleneva</lem>
+        <rdg source="bib:NatesaSastri1884_01">-paṭale nava-</rdg>
+      </app>
+      <app loc="31">
+        <lem source="bib:Hultzsch1890_01">kiṁ ca</lem>
+        <rdg source="bib:NatesaSastri1884_01">kila</rdg>
+        <note>Naṭeśa Śāstrī's reading seems to be better; this needs checking against a facsimile. If Hultzsch is correct, add editorial punctuation before kiṁ ca, so that it is an introduction of the next sentence.</note>
+      </app>
+      <app loc="34">
+        <lem source="bib:Hultzsch1890_01">-saṁpadā</lem>
+        <rdg source="bib:NatesaSastri1884_01">-saṁpado</rdg>
+      </app>
+      <app loc="34">
+        <lem source="bib:Hultzsch1890_01">-bhogādhirājyāṁga</lem>
+        <rdg source="bib:NatesaSastri1884_01">-bhogādi-rājyāṁga</rdg>
+        <note>This needs checking against a facsimile.</note>
+      </app>
+      <app loc="34">
+        <lem source="bib:Hultzsch1890_01">-ratnai<lb n="35" break="no"/>r aviśrutaḥ</lem>
+        <rdg source="bib:NatesaSastri1884_01">-ratno<lb n="35" break="no"/>gha-viśrutaḥ</rdg>
+        <note>This needs checking against a facsimile. Hultzsch tentatively suggests emending to <foreign>-ratnena</foreign>. I believe the most likely reading (or, if this is impossible to read, the best emendation) would be <foreign>ratnaiś ca</foreign>.</note>
+      </app>
+      <app loc="35">
+        <lem source="bib:Hultzsch1890_01">pratāpā<choice><sic>p t</sic><corr>t p</corr></choice>itari</lem>
+        <rdg source="bib:NatesaSastri1884_01">pratāpat-pitari</rdg>
+      </app>
+      <app loc="35">
+        <lem source="bib:Hultzsch1890_01">vargga<lb n="36"/>n</lem>
+        <rdg source="bib:NatesaSastri1884_01">varggā<lb n="36"/>n</rdg>
+      </app>
+      <app loc="36">
+        <lem source="bib:Hultzsch1890_01">-saṁpanna-mantra<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:NatesaSastri1884_01">-saṁpan-narendra-</rdg>
+      </app>
+      <app loc="36">
+        <lem source="bib:Hultzsch1890_01">-samitim</lem>
+        <rdg source="bib:NatesaSastri1884_01">-samitam</rdg>
+      </app>
+      <app loc="36">
+        <lem source="bib:Hultzsch1890_01">svārttha-</lem>
+        <rdg source="bib:NatesaSastri1884_01">svārtta-</rdg>
+      </app>
+      <app loc="37">
+        <lem>rājyāśīr-llabdha-tejaḥ-sama-dalam</lem>
+        <rdg source="bib:Hultzsch1890_01">āśīr-llabdha-tejāḥ sama-dalam adhipo</rdg>
+        <rdg source="bib:NatesaSastri1884_01">āśīl-labdha-tejaḥ-samadalam-</rdg>
+        <note>Hultzsch's Devanagari edition uses no hyphenation, and the analysis shown here is mine, based on Hultzsch's translation. Naṭeśa Śāstrī's reading is cited as hyphenated in his edition; from his translation it seems that he may have read or understood <foreign>sama-talam</foreign>. My choice of reading and analysis is based on the two editions and my conjecture; here too, checking the facsimile is essential. See also the note to the translation.</note>
+      </app>
+      <app loc="38">
+        <lem source="bib:Hultzsch1890_01">ivāmm<choice><sic>a</sic><corr>o</corr></choice></lem>
+        <rdg source="bib:NatesaSastri1884_01">iva Amma</rdg>
+      </app>
+      <app loc="39">
+        <lem source="bib:Hultzsch1890_01">-kulya-</lem>
+        <rdg source="bib:NatesaSastri1884_01">-kubja-</rdg>
+      </app>
+      <app loc="40">
+        <lem source="bib:Hultzsch1890_01">utkr̥<choice><sic>t</sic><corr>ṣ</corr></choice>ya</lem>
+        <rdg source="bib:NatesaSastri1884_01">utkr̥tya</rdg>
+        <note>I adopt Hultzsch's emendation with some hesitation. It certainly improves the sense of the text greatly, but the supposed mistake is not a typical one. The composer may have intended <foreign>utkr̥tya</foreign> in the sense of "raising," or the correct reading/emendation may be <foreign>uddhr̥tya</foreign>.</note>
+      </app>
+      <app loc="41">
+        <lem source="bib:Hultzsch1890_01">kṣamayā kṣamām</lem>
+        <rdg source="bib:NatesaSastri1884_01">kṣmayā kṣmām</rdg>
+        <note>Pending collation with a facsimile, I adopt Hultzsch's reading. Naṭeśa Śāstrī's edition certainly has at least one typo, but perhaps there is one in Hultzsch's text as well; <foreign>kṣamā</foreign> is not a typical word for "earth" and I would rather expect <foreign>kṣmām</foreign> here.</note>
+      </app>
+      <app loc="43">
+        <lem source="bib:Hultzsch1890_01">kaṇḍeṟuvāḍi-</lem>
+        <rdg source="bib:NatesaSastri1884_01">kaṇḍeṟuvāṭi-</rdg>
+      </app>
+      <app loc="45">
+        <lem source="bib:Hultzsch1890_01">kāḻakaṁpa Iti</lem>
+        <rdg source="bib:NatesaSastri1884_01">ko<unclear cert="low">ṭa</unclear>kaṁpaiti</rdg>
+      </app>
+      <app loc="46">
+        <lem source="bib:Hultzsch1890_01">daddara-</lem>
+        <rdg source="bib:NatesaSastri1884_01">daṭṭara-</rdg>
+      </app>
+      <app loc="48">
+        <lem source="bib:Hultzsch1890_01">pritiviyarājaḥ</lem>
+        <rdg source="bib:NatesaSastri1884_01">pr̥tivīya rājaḥ</rdg>
+      </app>
+      <app loc="48">
+        <lem source="bib:Hultzsch1890_01">-karā<lb n="49" break="no"/>yudhaḥ</lem>
+        <rdg source="bib:NatesaSastri1884_01">-karā|<lb n="49" break="no"/>yudhaḥ</rdg>
+        <note>Do we have a space filler here that Hultzsch ignored?</note>
+      </app>
+      <app loc="49">
+        <lem source="bib:Hultzsch1890_01">-kaliyarttyaṁka-</lem>
+        <rdg source="bib:NatesaSastri1884_01">-kalīyatyāṁka-</rdg>
+      </app>
+      <app loc="50">
+        <lem source="bib:Hultzsch1890_01">pratimukhā<choice><sic>ṁrjj</sic><corr>ñj</corr></choice>anam</lem>
+        <rdg source="bib:NatesaSastri1884_01">prītim upārjanam</rdg>
+        <note>Here too, verification against a facsimile may help, but Hultzsch's reading, interpretation and emendation seem to be the best that can be made of the text. See also the note to the translation.</note>
+      </app>
+      <app loc="50">
+        <lem source="bib:Hultzsch1890_01">ujj<supplied reason="omitted">v</supplied>ala-gaṇḍā<supplied reason="omitted">ṅ</supplied>kaṁ</lem>
+        <rdg source="bib:NatesaSastri1884_01">ujvala-gaṇṭākaṁ</rdg>
+        <note>As in the previous entry, verification against a facsimile may help, but Hultzsch's reading, interpretation and emendation seem to be the best that can be made of the text. See also the note to the translation.</note>
+      </app>
+      <app loc="52">
+        <lem>prasāda<supplied reason="omitted">ṁ</supplied> ga<surplus>ṁ</surplus>taḥ</lem>
+        <note>Both editors agree on reading the <foreign>anusvāra</foreign> with <foreign>ga</foreign>, but a facsimile should be checked to see if it is shifted to the right for some reason.</note>
+      </app>
+      <app loc="53">
+        <lem source="bib:NatesaSastri1884_01">-vijayī</lem>
+        <rdg source="bib:Hultzsch1890_01">-vijay<choice><sic>i</sic><corr>a</corr></choice>-</rdg>
+        <note>I provisionally adopt Naṭeśa Śāstrī's reading. If Hultzsch is correct in reading <foreign>i</foreign>, then I still prefer emending to <foreign>ī</foreign>, although Hultzsch's emendation is also plausible.</note>
+      </app>
+      <app loc="53">
+        <lem>-grām<unclear cert="low">ādhiko</unclear></lem>
+        <rdg source="bib:NatesaSastri1884_01">-grāmādhike|</rdg>
+        <rdg source="bib:Hultzsch1890_01">-grāmaṭiko</rdg>
+        <note>The reading adopted for my edition is conjectural and needs verification. See also the commentary.</note>
+      </app>
+      <app loc="54">
+        <lem source="bib:Hultzsch1890_01">sarvva-kara-</lem>
+        <rdg source="bib:NatesaSastri1884_01">sarvākāra-</rdg>
+      </app>
+      <app loc="54">
+        <lem source="bib:Hultzsch1890_01">ddatta Iti</lem>
+        <rdg source="bib:NatesaSastri1884_01">dattam iti</rdg>
+      </app>
+      <app loc="55">
+        <lem source="bib:Hultzsch1890_01">goṇayūru</lem>
+        <rdg source="bib:NatesaSastri1884_01">gaiṇayūru</rdg>
+      </app>
+      <app loc="57">
+        <lem source="bib:Hultzsch1890_01">pātuṟāyu</lem>
+        <rdg source="bib:NatesaSastri1884_01">potuṟāyu</rdg>
+        <note>Hultzsch's translation, however, has Potuṟāyu, so there may be a typo in his edition.</note>
+      </app>
+      <app loc="57">
+        <lem source="bib:Hultzsch1890_01">peddakoyilamu</lem>
+        <rdg source="bib:NatesaSastri1884_01">peṭṭakoyilamu</rdg>
+      </app>
+      <app loc="57">
+        <lem source="bib:Hultzsch1890_01">kuṟuvapoṭi</lem>
+        <rdg source="bib:NatesaSastri1884_01">kuṟuvacoṭi</rdg>
+      </app>
+      <app loc="58">
+        <lem source="bib:Hultzsch1890_01">polaku<lb n="59" break="no"/>ṁgoṇḍa-</lem>
+        <rdg source="bib:NatesaSastri1884_01">pailaku<lb n="59" break="no"/>ṁgoṇṭa-</rdg>
+      </app>
+      <app loc="59">
+        <lem source="bib:Hultzsch1890_01">monadurgga</lem>
+        <rdg source="bib:NatesaSastri1884_01">mainadurgga</rdg>
+      </app>
+      <app loc="59">
+        <lem source="bib:Hultzsch1890_01">bha<orig>dha</orig>vati</lem>
+        <rdg source="bib:NatesaSastri1884_01">bhagavatī</rdg>
+        <note>Hultzsch only tentatively proposes emending to <foreign>bhagavatī</foreign>.</note>
+      </app>
+      <app loc="59">
+        <lem source="bib:Hultzsch1890_01">maḍapallipaṟṟu</lem>
+        <rdg source="bib:NatesaSastri1884_01">madapallupaṟṟu</rdg>
+      </app>
+      <app loc="62">
+        <lem source="bib:Hultzsch1890_01">ha<lb n="63" break="no"/>re<orig>t tu</orig> vasundharā<orig>N</orig></lem>
+        <rdg source="bib:NatesaSastri1884_01">ha<lb n="63" break="no"/>reta vasuṁdharāM</rdg>
       </app>
       
       
@@ -341,7 +528,10 @@ By tentatively emending babhūva rājye to sa babhūva rājya-, we obtain an ide
 --+-+---*
 *-++-+-*
 A badly composed anuṣṭubh is still most likely, but given that it would have been easy to avoid the hypermetry in the first line (e.g. gajebha-yuddha-kuśalas would be a na-vipulā), I believe it is not the only possibility.</p>
-<p>The first line of stanza 10 has a punctuation mark after the caesura.</p>
+<p>The first line of stanza 10 (śārdūlavikrīḍita) has a punctuation mark after the caesura. There is also a punctuation mark in 15b (also śārdūlavikrīḍita), but this is not at the caesura.</p>
+<p>The sentence <foreign>viditam astu vo ’smābhiḥ</foreign> (ll 54-55) implies that the composer of this grant understood <foreign>asmābhiḥ</foreign> in this formula to be the agent of informing, rather than the agent of the donation expressed in the main sentence. If this (mis)conception was widespread, that might explain why in many cases the main sentence includes <foreign>mayā</foreign> or another agent, or has a verb in the active, even when <foreign>asmābhiḥ</foreign> is present in this formula.</p>
+<p>I do not understand Hultzsch's reading <foreign>grāmaṭiko</foreign> in line 53 and prefer the conjectural reading <foreign>grāmādhiko</foreign>, pending verification against a facsimile. His translation is <q>together with twelve hamlets,</q> and the only elaboration he gives is in a note to his translation of line 56, stating that <q><foreign>Kṣetrasīman</foreign> seems to have the same meaning as <foreign>grāmaṭikā</foreign> in line 53</q>. I do, however, think that his equation of the names in the second list of boundaries to the twelve hamlets mentioned in the donation has much merit. Therefore, in the section on boundaries I follow Hultzsch's segmentation of the text with spaces. Nonetheless, it is by no means certain that we have exactly twelve names in the second list of boundaries. 
+</p>
 </div>
 
 
