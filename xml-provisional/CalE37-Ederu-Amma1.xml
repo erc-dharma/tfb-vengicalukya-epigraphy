@@ -145,7 +145,7 @@ n="12" break="no"/>d-abdān| tat-putraḥ</p>
 </lg>
 <lg n="9" met="hariṇī">
 <l n="a">samara-ni<lb n="22" break="no"/>ratārāti-vrātān aneka-dhareśvarāN|</l>
-<l n="b">prakr̥ti-bala-saṁpannaḥ tejas-tati-krama<lb n="23"/>ṇonnatiḥ|</l>
+<l n="b">prakr̥ti-bala-saṁpannaḥ tejas-tati-krama<lb n="23" break="no"/>ṇonnatiḥ|</l>
 <l n="c">vilasad-asinā jitvā sūrryaṁ pratāpa-yaśomayair</l>
 <l n="d">jjagati vijayādi<lb n="24" break="no"/>tyo nityaṁ guṇaiś ca jigāya saḥ|</l>
 </lg>
@@ -155,7 +155,7 @@ n="12" break="no"/>d-abdān| tat-putraḥ</p>
 <l n="c">kr̥ṣṇaṁ saṁkilam a<pb n="3r" break="no"/><lb n="26" break="no"/>ṁkitākhila-bala-prāptoru-sad-vikramo|</l>
 <l n="d"><choice><sic>bhītārttau</sic><corr>bhītyārtaṁ</corr></choice> ca vidhāya tat-puram araṁ yo <lb n="27"/>nirddadāha prabhuḥ</l></lg>
 <p>sa samasta-bhuvanāśraya-śrī-vijayādityaś catuścatvāri<lb 
-n="28" break="no"/>ṁśad-varṣāṇi| tad-anu savitaryy astaṁgate timira-paṭaleneva raṭṭa-dāyāda-bale<lb 
+n="28" break="no"/>ṁśad-varṣāṇi| tad-anu savitaryy astaṁ-gate timira-paṭaleneva raṭṭa-dāyāda-bale<lb 
 n="29" break="no"/>nābhivyāptaM veṁgī-maṇḍalaM tad-anuja-vikramāditya-sūnuś calukya-bhīmā<lb 
 n="30" break="no"/>dhipo drohārjunāpara-nāmā sva-vikramaika-sahāya-taravāri-prabhayāvabhā<lb 
 n="31" break="no"/>syādhipatir abhūt kiṁ ca|| dīnānātha-nagna-naṭa-gāyaka-dharmma-dhvaja-vr̥ttīnāM pitarāv i<lb 
@@ -180,7 +180,7 @@ n="41" break="no"/>-prakr̥ti-balaḥ prajñayā sura-guruṁ tejasā bhānumant
 
 n="4r" break="no"/><lb 
 n="42" break="no"/>ra-giriṁ vividha-budha-samāśrayatayānukurvvaN sarvva-lokāśraya-viṣṇuvarddhana-ma<lb 
-n="43" break="no"/>hārājaḥ sva-rājyābhiṣeka-kr̥ta-kalyāṇaḥ siṁhāsanārūḍhaḥ kaṇḍeṟuvāḍṭi-viṣaya<lb 
+n="43" break="no"/>hārājaḥ sva-rājyābhiṣeka-kr̥ta-kalyāṇaḥ siṁhāsanārūḍhaḥ kaṇḍeṟuvāḍi-viṣaya<lb 
 n="44" break="no"/>-nivāsinaḥ sarvvān kuṭuṁbinas samāhūyettham ājñāpayati sma|</p>
 <p>Asmat-kula-kallyāṇa-pa<lb 
 n="45" break="no"/>raṁp<choice><sic>ā</sic><corr>a</corr></choice>rā-niyogādhikr̥ta-paṭṭavarddhinī-vaṁśāgraṇyā| kāḻakaṁpa Iti viśrute<lb 
@@ -270,16 +270,16 @@ n="61" break="no"/>ti<supplied reason="subaudible">.</supplied> tathā ca vyāse
         <rdg source="bib:NatesaSastri1884_01">udvāpya</rdg>
       </app>
       <app loc="12">
-        <lem source="bib:Hultzsch1890_01">sārddhaM</lem>
+        <lem source="bib:Hultzsch1890_01 bib:Fleet1883_07">sārddhaM</lem>
         <rdg source="bib:NatesaSastri1884_01">sārddhān</rdg>
       </app>
       <app loc="12">
         <lem source="bib:Hultzsch1890_01">-balaṁ</lem>
-        <rdg source="bib:NatesaSastri1884_01">-bala-</rdg>
-        <note>Naṭeśa Śāstrī's unmetrical reading may be excluded, but Hultzsch's reading is also very awkward, though it may be interpreted as a neuter accusative used adverbially. I am tempted to read (or emend to) <foreign>-balaḥ</foreign>, and perhaps also emend the preceding <foreign>°ārjjita</foreign> to <foreign>°orjjita</foreign>.</note>
+        <rdg source="bib:NatesaSastri1884_01 bib:Fleet1883_07">-bala-</rdg>
+        <note>The unmetrical reading <foreign>-bala-</foreign> may be excluded (or emended, if it is confirmed to be factual), but Hultzsch's reading is also very awkward, though it may be interpreted as a neuter accusative used adverbially. I am tempted to read (or emend to) <foreign>-balaḥ</foreign>, and perhaps also emend the preceding <foreign>°ārjjita</foreign> to <foreign>°orjjita</foreign>.</note>
       </app>
       <app loc="13">
-        <lem source="bib:Hultzsch1890_01">khaḍga</lem>
+        <lem source="bib:Hultzsch1890_01 -bala-">khaḍga</lem>
         <rdg source="bib:NatesaSastri1884_01">padga</rdg>
       </app>
       <app loc="14">
@@ -303,26 +303,31 @@ n="61" break="no"/>ti<supplied reason="subaudible">.</supplied> tathā ca vyāse
         <rdg source="bib:NatesaSastri1884_01">jaya-vi<lb n="20" break="no"/>d</rdg>
       </app>
       <app loc="22">
-        <lem>tejas-tati-</lem>
-        <note>Hultzsch suggests that this may be emended to <foreign>tejonnatiḥ</foreign>. @@@Return to this.</note>
+        <lem>-krama<lb n="23" break="no"/>ṇonnatiḥ</lem>
+        <note>Hultzsch suggests that this may be emended to <foreign>-kramajonnatiḥ</foreign>. The emendation is plausible, but I feel it is not really necessary. Instead, <foreign>kramaṇa</foreign> may be understood as equivalent to <foreign>krama</foreign>, "gradual progression." See my translation.</note>
       </app>
       <app loc="24">
-        <lem source="bib:Hultzsch1890_01">gaṁgān aṁgaja-</lem>
+        <lem source="bib:Hultzsch1890_01 bib:Fleet1883_02">gaṁgān aṁgaja-</lem>
         <rdg source="bib:NatesaSastri1884_01">gaṁgānāṁ gaja-</rdg>
-        <note>Hultzsch may have segmented the words differently; see the note to the translation of stanza 10.</note>
       </app>
       <app loc="25">
-        <lem source="bib:Hultzsch1890_01">a<pb n="3r" break="no"/><lb n="26" break="no"/>ṁkitākhila-</lem>
+        <lem source="bib:Hultzsch1890_01 bib:Fleet1883_02">a<pb n="3r" break="no"/><lb n="26" break="no"/>ṁkitākhila-</lem>
         <rdg source="bib:NatesaSastri1884_01">aṁ<pb n="3r" break="no"/><lb n="26" break="no"/>kito-khila-</rdg>
-        <note>Hultzsch may have segmented the words differently; see the note to the translation of stanza 10.</note>
+        <note>Naṭeśa Śāstrī's intent was probably <foreign>aṁkito 'khila-</foreign>.</note>
       </app>
       <app loc="26">
-        <lem source="bib:Hultzsch1890_01"><choice><sic>bhītārttau</sic><corr>bhītyārtaṁ</corr></choice> ca vidhāya</lem>
+        <lem>bhītārttau ca vidhāya</lem>
+        <rdg source="bib:Fleet1883_02">bhītārtt<choice><sic>ā</sic><corr>a</corr></choice><supplied reason="omitted">ṁ</supplied> ca vidhāya</rdg>
         <rdg source="bib:NatesaSastri1884_01">bhītārttān atha vihāya</rdg>
-        <note>@@@Return to this when translating.</note>
+        <rdg source="bib:Hultzsch1890_01"><choice><sic>bhītārttau</sic><corr>bhītyārtaṁ</corr></choice> ca vidhāya</rdg>
+        <note>Although Hultzsch alone reads <foreign>bhītārttau</foreign>, the fact that he feels the need to emend this reading indicates that it must be quite clear in the original (pending the examination of a facsimile). We now know that Saṁkila is the name of a person (see the translation of this stanza and the notes there), so a dual ending is in fact appropriate. I also see no need to emend <foreign>bhīta</foreign> to <foreign>bhīti</foreign> (or <foreign>bhītyā</foreign>) as Hultzsch does: he rendered them "fearful and afflicted" (rather than "afflicted with fear").</note>
+      </app>
+      <app loc="26">
+        <lem source="bib:Hultzsch1890_01 bib:NatesaSastri1884_01">-puram araṁ</lem>
+        <rdg source="bib:Fleet1883_02">-pura-<choice><sic>m</sic><corr>v</corr></choice>araṁ</rdg>
       </app>
       <app loc="28">
-        <lem source="bib:Hultzsch1890_01">-paṭaleneva</lem>
+        <lem source="bib:Hultzsch1890_01 bib:Fleet1883_02">-paṭaleneva</lem>
         <rdg source="bib:NatesaSastri1884_01">-paṭale nava-</rdg>
       </app>
       <app loc="31">
@@ -498,7 +503,7 @@ n="61" break="no"/>ti<supplied reason="subaudible">.</supplied> tathā ca vyāse
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-16">Hultzsch seems to take aṁgaja in v10 as kāma (or he sees anaṅga somewhere?). I think it is Karṇa (though not strictly born in Aṅga), whose enemy is Arjuna.
+<p n="1-16">
 </p>
   </div>  
 </div>
@@ -537,14 +542,15 @@ A badly composed anuṣṭubh is still most likely, but given that it would have
 
 
 <div type="bibliography">
-  <p>Apparently described in Sewell's <title>List of Antiquities</title>, vol. II, p. 25.<note>Not traced; I only have volume I</note> First edited, possibly from the original plates, by S. M. Naṭeśa Śāstrī (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange unit="page">50-55</citedRange><citedRange unit="item">1</citedRange></bibl>), with a translation, without facsimile. Re-edited from the original plates by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">36-43</citedRange><citedRange unit="item">36</citedRange></bibl>), with a translation and possibly with estampages.<note>PEM lists this edition as containing a facsimile, but my scan of SII 1 has no plates at all.<!--CHECK this in a printed copy.--></note> The present edition by Dániel Balogh is based on a collation of the above editions, but without reference to any facsimiles. In minor differences not deemed to merit an apparatus entry, Hultzsch's readings have been given preference.</p>
+  <p>Apparently described in Sewell's <title>List of Antiquities</title>, vol. II, p. 25.<note>Not traced; I only have volume I</note> Parts cited and translated before publication by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1883_07"/><citedRange>218</citedRange></bibl> and <bibl rend="omitname"><ptr target="bib:Fleet1883_02"/><citedRange>221</citedRange></bibl>) First edited, possibly from the original plates, by S. M. Naṭeśa Śāstrī (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange unit="page">50-55</citedRange><citedRange unit="item">1</citedRange></bibl>), with a translation, without facsimile. Re-edited from the original plates by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">36-43</citedRange><citedRange unit="item">36</citedRange></bibl>), with a translation and possibly with estampages.<note>PEM lists this edition as containing a facsimile, but my scan of SII 1 has no plates at all.<!--CHECK this in a printed copy.--></note> The present edition by Dániel Balogh is based on a collation of the above editions, but without reference to any facsimiles. In minor differences not deemed to merit an apparatus entry, Hultzsch's readings have been given preference.</p>
   <listBibl type="primary">
     <bibl n="NS" rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange unit="page">55-57</citedRange><citedRange unit="item">2</citedRange></bibl>
     <bibl n="EH"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">36-43</citedRange><citedRange unit="item">36</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl>
+    <bibl n="JFF1"><ptr target="bib:Fleet1883_07"/><citedRange>218</citedRange></bibl>
+    <bibl n="JFF2"><ptr target="bib:Fleet1883_02"/><citedRange>221</citedRange></bibl>
   </listBibl>
 </div>
 
