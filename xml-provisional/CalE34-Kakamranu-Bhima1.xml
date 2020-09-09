@@ -1,0 +1,332 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Kākamrāṇu grant of Bhīma I</title><!--ALT TITLE: "Vinnakoṭa 1"-->
+        
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE34-Kakamranu-Bhima1xml</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas.</p>
+              <p>Original punctuation.</p>
+              <p>Other palaeographic observations.
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. -->
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </p>
+           </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-09-09" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>on namo nārāyaṇāya[+|]
+jayatu nija-khaḍga-sādhita-nikhila-dharāmaṇḍalaika-patir anavadya[ḥ*][+|]
+cālukya1533-bhīma-nr̥patir bhaya-nata-ripu-nr̥pati-makuṭa-lālita-caraṇaḥ[+||](1)
+svasti[+|]
+śrīmatāṁ sakalabhuvanasaṁstūyamānamānavyasagotrānāṁ hāritīputrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyānāṁ bhagavan-nārāyaṇaprasāda-samāsāditavara-varāha-lāñchanekṣaṇakṣaṇavaśīkr̥tārāti-maṇḍalānām aśvamedhāvabhr̥tha-snāna-pavitrīkr̥tta-vapuṣāṁ[+|]
+cālukyānāṁ1534 abhūd vaṁśe vijayāditya-vallabhaḥ[+|]
+satyāśraya iti khyāta-nāmnāpi bhuvi viśrutaḥ[+||] (2)
+tasyānujaḥ prabhuḥ khyāto viṣṇuvarddhana-saṁjñitaḥ[+|]
+sa durjjayaṁ samuccāṭya veṅgī-maṇḍalam āptavan[+||] (3)
+aṣṭa(u)-daśa ca varṣāṇi kr̥tvā saurājyam uttamam[+|]
+yayau nāka-vadhū-bhogavāṁchayā marutāṁ padam[+||] (4)
+tat-putro jayasimhākhyo bhūri-siṁha-parākramaḥ[+|]
+trayas-triṁśat-samāḥ pr̥thvīṁ(m) (a)bhuṁkt[v]ā1535 catur-aṁbudhi[ṁ*][+||] (5)
+viṣṇurājas tad-anujasyendrarājasya nandanaḥ[+|]
+sa dhātrīn nava varṣāṇi pālayām asa [l*]ilayā[+||] (6) 1536
+
+Face IIa.
+tasyāpi tanayo maṁgi-yuvarājākhya-bhūpatiḥ[+|]
+nyāyenāpālayad dhātrī[ṁ vatsarā]n paṁcaviṁśatim1537[+||] (7)
+tasmāj jātaḥ sutaḥ śrīmān jayasiṁho mahīpatiḥ[+|]
+sa trayo-daśa varṣā[ṇi] rājyaṁ cakre nr̥pottamaḥ[+||] (8)
+dvaimāturas tad-anujaḥ kokkilir nnāma viśrutaḥ[+|]
+ṣaṇ-māsa-mātram e[vā]sau pālayitvāmucad dharām1538[+||] (9)
+tad-agrajas tu vikhyāto viṣṇuvarddhana-nāmavān[+|]
+saptatriṁśat-sa[māḥ] pr̥thivī[ṁ]1539 rarakṣa sakalām imām1540[+||] (10)
+sūnus tadīyo vijayāditya-nāmā mahīpatiḥ[+|]
+so [+’]pi pāli[ta]vān urvvīm aṣtau daśa ca vatsarān[+||] (11)
+viṣṇu-bhūpas tato jāto viṣṇuvad bali-marddanaḥ[+|]
+ṣaṭtriṁśad-vatsarān dhatrīm āpālya prayayau divam1541[+||] (12)
+tasya sūnur abhūd dhīman vijayāditya-saṁjñitaḥ[+|]
+aṣṭottara-śata-khyāta-yuddha-labdha-jayonnatiḥ[+||] (13)
+tāvaṁty eva punaḥ kr̥tvā śaṁbhor āyatanāny api[+|]
+catvāriṁat-samāḥ pr̥thvīṁ1542 pralīnārim apālayat[+||] (14)
+viṣṇuvarddhana-nāmābhūt tat-sūnur vvijitāhitaḥ[+|]
+so’(o)pi varṣaṁ sa-ṣaṇ-māsaṁ bubhuje dharaṇī-talam1543[+||] (15)
+jātas tasyāpi sūnur nnirupama-vijayāditya-nāma mahīśo
+prakhyātaś śaradendūj[j*]vala-dhavala-yaśo-vyāpta-dik-cakravālaḥ[+|]
+nānā-dvīpāntarābhyāgata-para-narapa-śrīmad-uttuṁga-mauli-
+-sthānūnāṁghri-dvayābjaḥ pr̥thu1544-guṇa-nilayas satya-ratnākarāṁkaḥ1545[+||] (16)
+
+Face IIb.
+sa catvāriṁśataṁ cābdān caturaś ca tataḥ param1546[+|]
+nyāyenāpālya dharaṇīṁ purandara-puraṁ gataḥ[+||] (17)
+tasyānujaḥ prabhuḥ khyāto vikramāditya-saṁjñitaḥ[+|]
+trāsa-namrāri-[bhū]pāla-mauli- mālārccita1547-kramaḥ[+||] (18)
+atha nissanna-bhūpālād gāmakāṁbābhavat sūtā[+|]
+lakṣmīr iva mahāṁbudheḥ1548 pārvvatīva himācalāt[+||] (19)
+tasyāṁ 1549 gāmakāṁbāyāṁ vikramāditya-bhūpateḥ[+|]
+pārvvatyām andhakārātes sūnur gguha ivābhavat[+||] (20)
+cālukya-bhīma-nāmāṁkaḥ cālukhya-kula-varddhanaḥ[+|]
+garbbhastha1550 eva bhūrājya1551-paṭṭabandhārcchito janaiḥ[+||] (21)
+yaj-janmamātreṇaivātra dharmmo niścalatāṁ gataḥ[+|]
+vedā gauravam atyaṁtaṁ loke satyaṁ pratiṣṭhitam[+||] (22)
+parjjanyaḥ kāmavarṣitvaṁ jagat sarvvaṁ nirītitām1552[+|]
+durjjanā vilayaṁ sarvve sasyaṁ cākr̥ṣṭa-pacyatām1553[+||](23)
+yasya pratāpa-santāpa-khidyamānās sadā dviṣaḥ[+|]
+pādacchāyān na muṁcanti dvīpāntara-samāgatāḥ[+||] (24)
+yat-prasāda-taror aindram apakva-phalavat padam1554[+|]
+yasya krodhānalasyāpi vahnir aurvvaḥ kaṇāyate[+||] (25)
+kāliṁgān kosalān1555 apy aṭavija-nr̥patīn oḍra-nāthan udīcyān[+|]
+prācyān lāṭān avantīn malayaja-sahitān koṁkaṇān cola-pāṇḍyā[n*][+|]
+(n)sarvvān1556 etān vijitya prakaṭita-mahimā cāru-kīrttiṁ digantām1557[+|]
+prāpayyāsthāpayad yo nirupama-caritaḥ śrī-jaya-staṁbham āṁtam[+||] (26)
+
+Face IIIa.
+tatra1558 cālukya-bhīma-nr̥patau rājyaṁ kurvvati sati[+||]
+āsīd divākaro nāma mahāsārtthākhya-vāṁśajaḥ[+|]
+oṟeyūr-ggrāma-vāstavyo dharmma-śīlo dayāparaḥ[+||] (27)
+tasmāt tū ka[di]yaśreṣṭhi-nāmā jātas sutottamaḥ[+|]
+ādyatvena maha[t*]tvena kuberañ cātyaśeta yaḥ[+||] (28)
+tasmād yaḥ ponnakāṁbāyāṁ jāto [vai]śyādhipas sutaḥ[+|]
+khyātaḥ poleyanākhyo1559 yaḥ satya-vāg anaghaḥ śuciḥ[+||] (29)
+yasya śrī-bhavanājira[ṁ] dvija-pada-prakṣālanāṁbu(ṁ)-sphutam1560
+nityaṁ karddamatāṇ nayaty atitarāṁ yenoddhr̥taṁ svaṁ kulam1561[+|]
+[kr̥]tvā ya[ś ca] śivālayaṁ surasarit-tīre prayāge [+’]dadāt
+taṁ dharmmaṁ vara-bhīma-bhūmipataye cālukya-bhīmeśvaram[+||] (30)
+tasmai vaiśyeśvarāya poleyanākhyāyaiva guṇa- viśiṣṭāya1562[+|] (31)1563
+sa rājā cālukya-bhīma-nr̥patiḥ kākamrānu-nāma-grāmaṁ brāhmaṇebhyo dātum agrahāram adāt[+|]
+da[t]tvā ca sa eva rājā rāṣṭrakūṭa-pramukhān kuṭuṁbina āhūyettham ājñāpayati[+|]
+viditam astu vo [+’]smā[bhir] omger-mmārgga-viṣaye kākamrāṇu-nāma-grāmaḥ sarvva-kara-parihāreṇa brāhmaṇebhyo dātuṁ poleyanaśreṣṭhine1564 datta iti[+|]
+sa ca poleyanaśreṣṭhī tadānīm eva brāhmaṇebhyas1565 taṁ grāmam adāt[+|]
+tatra samasta-grāmaṁ1566 sama-pravibhāgatvena [dvau] bhāgau kr̥tvā pūrvva-svāmibhyām ekam arddham anyān
+
+Face IIIb.
+guṇavad-brāhmaṇān ṣaṭkarmma-niratān śruti-śāstra-pāragān anviṣya tebhya[ḥ*] aparam arddham1567[+|]
+te ca brāhamaṇāḥ sva-nāma-gotrābhyāṁ labdhāṁśa-pramāṇena ca pr̥thak1568 pr̥thak1569 kathyante[+|]
+kauśika-gotrāya cāmyanabhaṭṭāya eṟvvākotsava-prathamahala-dhāvana-vināyakotsava-mūkapaṭalaka-śulka-sahitā1570 atra grāme daśa bhāgāḥ[+|]
+kauṇḍinya-gotra-bhāskarabhattāya dvau bhāgau[+|]
+kāśyapa-gotra-jannayabhaṭṭāya[+|]
+harita-gotra-viṭṭeyabhaṭṭāya[+|]
+bhāradvāja-vennamabhaṭṭāya1571[+|]
+etad-gotra-mereyabhaṭṭāya[+|]
+harita-gotra vennamabhaṭṭāya[+|]
+kauṇḍinya-gotra-govarddhanabhaṭṭāya[+|]
+bhāradvāja-kāmadeva-trivedi1572-bhaṭṭāya[+|]
+tad-gotra-vennamabhaṭṭāya[+|]
+ātreya-gotra-komareyabhaṭṭāya[+|]
+bhāradvāja-vennamabhaṭṭāya[+|]
+kata-gotra-nandamabhaṭṭāya[+|]
+kapi-gotra-vīṟamabhaṭṭāya[+|]
+etebhyaḥ praty ekam ekaiko bhāgaḥ[+|]
+gārgya-gotra-tūrkamabhaṭṭāya dvau bhāgau[+|]
+bhāradvāja-revama-nāma-dvivedāya[+|]
+etad-gotra-divākara-dvivedāya[+|]
+etad-gotra-ṟuddapa-dvivedāya[+|]
+bhāradvāja-sarvvaya-dvivedāya[+|]
+etad-gotra-mādhava-dvivedāya[+|]
+[doṇapoḍi]1573-caturvvedāya[+|]
+cikita-gotra-revama-dvivedāya[+|]
+
+Face IVa.
+[bhā]radvāja- ṟuddapa-dvivedāya[+|]
+kauṇḍinya-poteya-dvivedāya[+|]
+harita-cāmikuṟṟa-dvivedāya[+|]
+ebhyo dvivedebhyaḥ praty-ekam ekaiko bhāgaḥ[+|]
+bhāradvāja-gotra-kannama-kramavide eko bhāgaḥ[+|]
+kāśyapa-gotra-vennamaśarmmaṇe dvau bhāgau[+|]
+tad-anuja-kuṇḍiśarmmaṇe eko bhāgaḥ[+|]
+kāśyapa-vāmanāya trayo bhāgā[ḥ*][+|]
+tad-gotra-viddamaśarmmaṇe catvaro bhāgāḥ[+|]
+harita-gotra-kandeya-kramavide arddha-bhāgaḥ1574[+|]
+kāśyapa-gotra-bhīmaśarmmaṇe dvau bhāgau[+|]
+vatsa-gotra-potamaśarmmaṇe dvau bhāgau[+|]
+kāśyapa-siddhamaśarmmaṇe catu[r*]-bhāgāḥ1575[+|]
+vatsa-gotra-vikramaśarmmaṇe dvau bhāgau[+|]
+kauśika-gotra-nāgadevāya dvau bhāgau[+|]
+bhāradvāja-gotrāya dāmaśarmmaṇe dvau bhāgau[+|]
+meṇḍeya-dvivedi[ne*]1576 tri-khaṇḍikā[ḥ*][+|]
+mereyaśarmmaṇe dvau bhāgau[+|]
+mūlaghatika-śubhākaraśarmmaṇe[+|]
+kauṇḍinya-mayindamaśarmmaṇe[+|]
+tad-gotra-koṇḍamaśarmmaṇe[+|]
+kauśika-gotra-divākaraśarmmaṇe[+|]
+tad-gotra-mādhavaśarmmaṇe[+|]
+tad-gotra-divākara-peddeyaśarmmaṇe[+|]
+vennamaśarmmaṇe[+|]
+harita-meṟeyaśarmmaṇe[+|]
+harita-nārāyaṇaśarmmaṇe[+|]
+kauṇḍinya-vimalasamudrāya[+|]
+harita-droṇaśarmmaṇe[+|]
+nārayaṇaśarmmaṇe[+|]
+vatsa-gotra-sarvvadevaśarmmaṇe[+|]
+etebhyaḥ1577 praty ekam ekaiko bhāgaḥ[+|]
+
+Face IVb.
+kāśyapa-gotrāya bhavasvāmibhaṭṭāya dvau bhāgau[+|]
+tad-gotrāya mahākālabhaṭṭāya eko bhāgaḥ[+|]1578
+vājasaneyi-kāśyapa-gotrāya vikramayyaśarmmaṇe dvādaśa bhāgāḥ[+|]
+bhāradvāja-gotra-koṇḍya[ma]-ṣaḍ-aṅga-vedavide eko bhāgaḥ[+|]
+vājasaneyi-kauśika-gotra-beṇayaḍiśarmmaṇe trayo bhāgāḥ[+|]
+tad-gotra-bejayitaśarmmaṇe trayo bhāgāḥ[+|]
+tad-gotra-bikyaṇaśarmmaṇe trayo bhāgāḥ[+|]
+vatsāra-gotrāya nāgāṁba-putrāya kanīyase kuṇḍiśarmmaṇe dvau bhāgau[+|]
+parāśara-gotrāya paṇḍaraṅgaśarmmaṇe eko bhāgaḥ[+|]
+kauśika-gotrāya cāmyaṇabhaṭṭāya pañca bhāgāḥ[+|]
+vājasaneyi-kāśyapa-gotrāya cāmyanaśarmmaṇe trayo bhāgāḥ[+|]
+vājasaneyi-kāśyapa-gotrāya potamayyaśarmmaṇe dvau bhāgau[+|]
+bhāradvāja-gotrāya ailamaśarmmaṇe eko bhāgaḥ[+|]
+kauśika-gotrāya bhīmaśarmmaṇe paṁca bhāgāḥ[+|]
+
+Face Va.
+kāśyapa-gotrāya dāmaśarmmaṇe dvau bhāgau[+|]
+gautama-gotrāya doṇeya-kramavide eko bhāgaḥ[+|]
+tad-gotrāya cāmyana-kramavide sārddha-bhāgaḥ[+|]
+kauṇḍinya-goleya-kramavide eko bhāgaḥ[+|]
+harita-vennama-kramavide eko bhāgaḥ[+|]
+bhāradvāja-sarvvadeva-kramavide kāśyapa-keśava-dvivedāya kauṇḍinya-keśava-kramavide lohita-śrīdhara-kramavide praty ekam arddha-bhāgaḥ[+|]
+kauśika-śrīdhara-kramavide khaṇḍikā-trayam1579[+|]
+bhāradvāja-nandiśarmmaṇe eko bhāgaḥ[+|]
+śrīvatsa-gotrāya bavvaṇaśarmmaṇe eko bhāgaḥ[+|]
+tad-gotra-mācyaṇabhaṭṭāya dvau bhāgau[+|]
+bhāradvāja-gotrāya tāḻamaśarmmaṇe eko bhāgaḥ[+|]
+kauśika-gotra-kautamabhaṭṭāya dvau bhāgau[+|]
+harita-gotra-vennama-kramavide eko bhāgaḥ[+|]
+suvarṇṇakāra-bhīmanāya akkasāla-sahitaṁ tri-khaṇḍika-kodrava-bīja-pramāṇa-kṣetraṁ dattam[+||]
+
+</p><pb 
+n="5v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+   <listApp>
+      <app loc="X">
+        <lem></lem>
+        <rdg source="bib:AuthorYear_01"></rdg>
+      </app>
+     
+     
+     
+     
+   </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-18"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-18">
+</p>
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">1</citedRange></bibl> with discussion at <bibl rend="ibid"><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange>></bibl>. Edited (from the original?) by S. Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">81-95</citedRange><citedRange unit="item">1</citedRange></bibl>), with a translation and photographs of the plates and seal. The present edition by Dániel Balogh is based on a collation of Sankaranarayanan's text with his photos.<note>The photos, as printed, are not very clear and scanning has not improved them. Many details should ideally be checked against a better facsimile.</note></p>
+  <listBibl type="primary">
+    <bibl n="SS"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">81-95</citedRange><citedRange unit="item">1</citedRange></bibl><!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">1</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange>></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
