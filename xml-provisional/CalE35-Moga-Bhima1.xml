@@ -51,7 +51,7 @@
             <handDesc>
               <p>Halantas. Final M is derived from the shape of a classical ma with an upward extension that bends right and then up again, but is now stylised into a circle with a tail on top that bends right and then up. The circle part is much like an anusvāra. E.g. l3 °litānāM. Final N is likewise based on na, but has only a horseshoe shape at the bottom, with the upward tail bending right, up, then right again. E.g. l10 māsāN. Final T is formed in the same way. A clear example is l17 avarddhayaT; cchinaT in l15 is unclear at the top and may be cchinata, just like harata for haraT earlier in the same line.</p>
               <p>Original punctuation marks are long, straight and plain verticals. This sign is doubled after l27 ca. The one after l14-15 āharata is unclear and may in fact consist of three short verticals.</p>
-              <p>Other palaeographic observations. Anusvāra is a fairly large circle well above the headline, atop or to the right of the consonant to which it belongs, occasionally atop the next character, probably only when displaced by a descender, e.g. the first anusvāra of l10 saptatriṁśataṁ is above śa, because stra in the previous line prevents it from being closer to tri. Occasionally it is also lowered to or below headline height, e.g. l1 Ekānnaviṁśatin, where jo and vi in the previous line (themselves pushed downward by descenders further above) prevent its regular placement. Rare jha occurs (as a subscript consonant) in l26 jhaṭiti.
+              <p>Other palaeographic observations. Anusvāra is a fairly large circle well above the headline, atop or to the right of the consonant to which it belongs, occasionally atop the next character, probably only when displaced by a descender, e.g. the first anusvāra of l10 saptatriṁśataṁ is above śa, because stra in the previous line prevents it from being closer to tri. Occasionally it is also lowered to or below headline height, e.g. l1 Ekānnaviṁśatin, where jo and vi in the previous line (themselves pushed downward by descenders further above) prevent its regular placement. Rare jha occurs (as a subscript consonant) in l26 jhaṭiti. Upadhmānīya occurs before l45 parantapaḥ. Initial Ī occurs in line 52, but in the scanned photo it cannot be made out at all.
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. -->
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -182,36 +182,50 @@ n="4r" break="no"/><lb
 n="36" break="no"/>ma-prabhāṁ śubhāṁ</l>
 </lg>
 <lg n="10" met="āryāgīti">
-<l n="ab">@@@niravadhya-dhavala-putro naptā śrī-pāṇḍarāṁga-sāmanta-pateḥ[+|]
-nuta-kaṭakarājavaṁśa-kramāgatānindya-paṭṭa-baddha-lalāṭaḥ[+||] (10)1609
-yaś ca[+|]
-manur iva sa-vicāra-girā harir iva lakṣmyā kr̥tānta iva śaurryeṇa[+|]
-smara iva rūpeṇa dhiyā gurur iva dānena kalpatarur iva bhā[ti*][+||] (11)
-api ca[+|]
-śaurryaṁ duryyamam dyuti-vapuś cittaṁ svabhāvottamaṁ
-satyan nityam anatyayaṁ jaya-paṭaṁ kāśa-prakāśaṁ yaśaḥ[+|]
+<l n="ab">niravadya-dhavala-putro naptā śrī-pāṇḍar<unclear>āṁga</unclear><lb 
+n="37" break="no"/>-sāmanta-pateḥ|</l>
+<l n="cd">nuta-kaṭakarāja-vaṁśa-kramāgatānindya-paṭṭa-ba<lb 
+n="38" break="no"/>ddha-lalāṭaḥ</l>
+</lg>
+<ab>yaś ca|</ab>
+<lg n="11" met="āryāgīti">
+<l n="ab">manur iva sa-vicāra-girā harir iva lakṣmyā <lb 
+n="39"/>kr̥tānta <space type="binding-hole"/> <unclear reason="eccentric_ductus">I</unclear>va śaurryeṇa</l>
+<l n="cd">smara Iva rūpeṇa dhi<lb 
+n="40" break="no"/>yā guru<space type="binding-hole"/>r iva dānena kalpatarur iva <unclear reason="eccentric_ductus">bh</unclear>āti|</l>
+</lg>
+<p>Api ca</p>
+<lg n="12" met="śārdūlavikrīḍita">
+<l n="a"><lb n="41"/>śaurryaṁ duryyamam aryyama-dyuti vapuś cittaṁ svabhāvottamaṁ</l>
+<l n="b"><lb n="42"/><unclear>sa</unclear>t<unclear>y</unclear>an nityam anatyayaṁ jaya-paṭaṁ kāśa-prakāśaṁ yaśaḥ</l>
+<l n="c">sāram <pb 
 
-Face IVb.
-sāram [bhū*]ri vicāra-cāru-caritaṁ dānaṁ ca1610 dīna-stutaṁ[+|]
-jñānaṁ1611 jñāna1612 -vatāṁ [ma]tan tu vijayādityasya yasya kṣitau[+||] (12)
-so [+’]yaṁ śrī-vijayāditya[ḥ] [sa*]tya-vādyaḥ parantapaḥ[+|]1613
-ya[ḥ*] prāpya dharmma-kāmārtthān kri *****kr̥tim1614[+||] (13)
-</l></lg>
+n="4v"/><lb 
+n="43"/><supplied reason="lost">bhū</supplied>ri vicāra-cāru caritaṁ dānaṁ c<choice><sic>ā</sic><corr>a</corr></choice> d<unclear>ī</unclear>na-<unclear>stutaṁ</unclear></l>
+<l n="d">jñānaṁ jñānavatāṁ <supplied reason="lost">ma</supplied><lb 
+n="44" break="no"/><unclear>tan tu</unclear> vijayādityasya yasya kṣitau</l>
+</lg>
+<lg n="13" met="anuṣṭubh">
+<l n="a"><unclear>so</unclear> <supplied reason="subaudible">’</supplied>yaṁ śrī-vijayāditya<lb n="45" break="no"/><unclear cert="low">s</unclear></l>
+<l n="b"><unclear cert="low">sa</unclear>tya-v<choice><orig>ā</orig><reg>a</reg></choice>dya<space type="binding-hole"/>ḫ parantapaḥ</l>
+<l n="c">ya<supplied reason="omitted">ḥ</supplied> prāpya dharmma-kāmārt<unclear>th</unclear>ā<unclear>n</unclear></l>
+<l n="d"><unclear cert="low">p</unclear>r<unclear>a</unclear><unclear cert="low">jñā @@@</unclear> <lb n="46"/><unclear cert="low">sa</unclear>tkr̥tiṁ</l>
+</lg>
 
-<p>tasyai mahādevyai tat-pati-kr̥ta-pūrvvopa[kāra]smaraṇa-santuṣṭaḥ1615 kr̥ta-jñāta1616-prakhyāpana-nimittaṁ sarvva-kara-parihāreṇa mogābhidhāno grāmo dattaḥ[+|]
-asyāvadhayaḥ[+|]
-pūrvvataḥ puliyeṟu-ṇāma taṭī[+|]
-āgneyataḥ muṇṭha-rāvula guṇṭha[+|]
+<p>ta<space type="binding-hole"/><unclear>s</unclear>yai <supplied reason="lost" cert="low">śrī</supplied>-mahādevyai tat-pati-<unclear>k</unclear>r̥ta-<unclear>p</unclear>ū<unclear>rvvopakāra-sma</unclear><lb 
+n="47" break="no"/>raṇa-santuṣṭaḥ kr̥tajñatā-prakhyāpana-nimittaṁ sarvva-kara-pa<unclear>r</unclear>ihā<unclear>re</unclear><lb 
+n="48" break="no"/><unclear>ṇa</unclear> mogābhidhāno grāmo dattaḥ</p>
+<p>Asyāvadhayaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ <lb 
+n="49"/><unclear>pu</unclear>liyeṟu-ṇāma taṭī| Āgneyataḥ mūṇṭha-rāvula guṇṭha<supplied reason="subaudible">.</supplied><pb 
 
-Face Va.
-dakṣiṇataḥ ceṁbaṟu-narendreśvara-kṣetram[+|]
-nairr̥tyāṁ1617 taila-[śa]rvva-kṣetram[+|]
-paścima devulaceṟuva[+|]
-vāyavyataḥ carmmaṇḍi paścima taṭākam[+|]
-uttarataḥ peddapūṇḍi-cariya[+|]
-īśānataḥ1618 ṟeṇṭhamrākulu[+|]
-na kenacid asyopari bādhā karaṇīyā[+|]
-tathā ca [uktaṁ vyāsena*][+||]
+n="5r"/><lb 
+n="50"/><unclear>dakṣi</unclear>ṇataḥ ceṁbaṟu-narendreśvara-kṣetraM| nair<choice><orig>i</orig><reg>r̥</reg></choice>tyāṁ tai<unclear>la-śa</unclear><lb 
+n="51" break="no"/><unclear>rvva</unclear>-kṣetram| paścimataḥ devulaceṟuvu|
+vāyavyataḥ ca<unclear>rmma</unclear><lb 
+n="52" break="no"/>ṇḍ<unclear>i</unclear>-paścima<space type="binding-hole"/>-taṭākaM<unclear>|</unclear> Uttarataḥ peddapūṇḍi-cariya<unclear>|</unclear> Ī<lb 
+n="53" break="no"/><unclear>ś</unclear><choice><sic><unclear>a</unclear></sic><corr>ā</corr></choice><unclear>nataḥ re</unclear><space type="binding-hole"/>ṇṭha<unclear>mrā</unclear>kul<unclear>u|</unclear> na kenacid asyopari bādh<unclear>ā</unclear> karaṇīyā<unclear>|</unclear> <lb 
+n="54"/><unclear>ta</unclear>thā ca</p>
+<p>@@@
 ṣaṣṭiṁ varṣa-sahasrāṇi svargge modati bhūmida[+|]
 akṣepta cānumantā ca tany eva narake vaset[+||] (14)
 asyājñapti[ḥ*] kaḍeyarāja eva[+|]
@@ -266,6 +280,36 @@ n="5v"/>
        <rdg source="bib:Sankaranarayanan1973_01">-talāṁgu<sic>lliṁ</sic><corr>lim</corr></rdg>
        <note>The double l is probably a typo in Sankaranarayanan's edition, and the reason he emends is only the <foreign>anusvāra</foreign>.</note>
      </app>
+     <app loc="39">
+       <lem><unclear reason="eccentric_ductus">I</unclear>va</lem>
+       <note>The scribe has omitted the two circles that form the lower part of <foreign>I</foreign>.</note>
+     </app>
+     <app loc="44">
+       <lem>-vijayāditya<lb n="45" break="no"/><unclear cert="low">s</unclear> <unclear cert="low">sa</unclear>tya-</lem>
+       <rdg source="bib:Sankaranarayanan1973_01">-vijayāditya<unclear>ḥ</unclear><lb n="45"/><supplied reason="lost">sa</supplied>tya-</rdg>
+     </app>
+     <app loc="45">
+       <lem>@@@</lem>
+       <rdg source="bib:Sankaranarayanan1973_01">k<choice><sic>ri</sic><corr>r̥</corr></choice><supplied reason="lost" cert="low">tavān loke</supplied> <lb n="46"/><supplied reason="lost" cert="low">sa</supplied>t-kr̥tiṁ</rdg>
+     </app>
+     <app loc="46">
+       <lem>ta<space type="binding-hole"/><unclear>s</unclear>yai <supplied reason="lost" cert="low">śrī</supplied>-</lem>
+       <rdg source="bib:Sankaranarayanan1973_01">tasyai<supplied reason="lost">va ca</supplied></rdg>
+       <note>Although Sankaranarayanan prints a single dot for this lacuna, in a footnote he proposes to restore two characters into it, which definitely cannot fit here. I believe I can make out vestiges of a subscript <foreign>r</foreign> and perhaps an <foreign>ī</foreign> squeezed in below <foreign>nta</foreign> in the previous line, and assume that the lady's name was <foreign>śrī-mahādevī</foreign> rather than plain <foreign>mahādevī</foreign>. Nonetheless, restoring <foreign>tasyai ca</foreign> (which may have been Sankaranarayanan's intent) is likewise possible, as is <foreign>tasyaiva</foreign> (for <foreign>tasyā eva</foreign>).</note>
+     </app>
+     <app loc="49">
+       <lem>mūṇṭha-</lem>
+       <rdg source="bib:Sankaranarayanan1973_01">muṇṭha-</rdg>
+     </app>
+     <app loc="50">
+       <lem>tai<unclear>la-śa</unclear><lb n="51" break="no"/><unclear>rvva</unclear>-</lem>
+       <note>Sankaranarayanan prints only <foreign>śa</foreign> as unclear, but only <foreign>tai</foreign> is discernible in the scanned photo. He assumes that this is the name of a Śiva temple connected to Tailāmbā. I accept the reading on his authority, but unless vestiges of <foreign>śa</foreign> can indeed be made out in the original, I believe that <foreign>taila-pūrvva-kṣetram</foreign> is a more likely restoration, meaning a field that was already in the possession of the family of Tailāmbā.</note>
+     </app>
+     <app loc="51">
+       <lem>devulaceṟuvu</lem>
+       <rdg source="bib:Sankaranarayanan1973_01">devulaceṟuva</rdg>
+       <note>The final <foreign>a</foreign> is probably a typo in Sankaranarayanan's edition, since in his discussion he mentions the Devula Ceṟuvvu (sic) tank. Sankaranarayanan further notes that this term is engraved over an erasure. This is not obvious in the scanned photo, but the characters <foreign>vulaceṟu</foreign> are surrounded by plenty of noise, including a quite definite stroke between <foreign>ce</foreign> and <foreign>ṟu</foreign>.</note>
+     </app>
      
      
       
@@ -300,6 +344,7 @@ n="5v"/>
 
 <div type="commentary">
 <p>Sankaranarayanan gives the metre of stanza 4 as <foreign>indravaṁśā</foreign>, in which case the first quarter should begin with a short syllable.</p>
+<p>For verse 10, Sankaranarayanan cites the parallel <foreign>niravadya-dhavalaḥ kaṭakarāja-paṭṭa-śobhita-talaṭaḥ</foreign> (sic, probably <foreign>lalāṭaḥ</foreign>) from CalE47<!--CHECK add ref when encoded-->, line 45.</p>
 </div>
 
 
