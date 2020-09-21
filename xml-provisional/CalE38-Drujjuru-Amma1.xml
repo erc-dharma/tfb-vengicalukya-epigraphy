@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Drujjūru grant of Amma I</title><!--ALT TITLE: Masulipatam plates of Amma I.-->
+        
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE38-Drujjuru-Amma1</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas. Final M is a circle with a tail on top that starts vertically, turns to the right at a right angle, and then turns upward again at a right angle. Final N is a simplified and reduced na-shape (resembling an Omega) with a long and straight vertical tail, e.g. l13 māsāN.</p>
+<p>Original punctuation marks are full-height plain verticals. </p>
+              <p>Other palaeographic observations. Anusvāra is normally above the character to which it belongs. It is pushed to the right if the character in question has the vocalisation i. Many consonants are doubled after anusvāra, e.g. l8, maṁggi, l8, paṁcca- and even l16 vatsarāṇāṁ nnija; but this is not universal.                 
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-09-21" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvan<supplied reason="lost">ā</supplied>ṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>śivam astu sarvva-ja<supplied reason="omitted">ga</supplied>taḥ<supplied reason="subaudible">.</supplied> svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-sa<unclear>ṁ</unclear>stūyamāna-mā<lb 
+n="2" break="no"/>navya-sagotrānāṁ hārīt<unclear>i-putrāṇāṁ kau</unclear>śi<choice><sic>kh</sic><corr>k</corr></choice>ī-vara-prasāda-labdha-rājyā<choice><sic>ṇ</sic><corr>n</corr></choice>āṁ mā<lb 
+n="3" break="no"/>tr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārā<lb 
+n="4" break="no"/>yaṇa-prasāda-samāsādita-vara-varāha-lāñchanekṣa<unclear>ṇa</unclear>-kṣaṇa-vaśīkr̥<lb 
+n="5" break="no"/>tārāti-maṇḍalānām aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāṁ <lb 
+n="6"/>calukyānāṁ kulam alaṁkariṣṇoḥ satyāśraya-vallabhasya bhrātā kubja-viṣṇuvarddhano <lb 
+n="7"/><supplied reason="subaudible">’</supplied>ṣṭādaśa varṣāṇi| tat-putro jayasiṁhavallabh<choice><sic>o</sic><corr>s</corr></choice>s trayastriṁśad varṣāṇi| tat-bhrātu<lb 
+n="8" break="no"/>r indra-rājasya sut<orig>aḥ</orig> viṣṇurājo nava| tat-putro maṁ<orig>gg</orig>i-yuvarājaḥ paṁ<orig>cc</orig>aviṁśatiṁ<supplied reason="subaudible">.</supplied> <lb 
+n="9" break="no"/>tat-putro jayasiṁhaḥ trayodaśa| tad-<supplied reason="omitted">d</supplied>vaimāturānujaḥ kokkiliḥ ṣaṇ māsān<supplied reason="subaudible">.</supplied> <pb 
+
+n="2r"/><lb 
+n="10"/>tasya jyeṣṭho bhrātā tam uccāṭya viṣṇuvarddhanas saptatriṁśataM| tat-putro vijay<unclear>ā</unclear><lb 
+n="11" break="no"/>ditya-bhaṭṭārakaḥ Aṣṭādaśa| tat-suto viṣṇuvarddhanaḥ ṣaṭtriṁśataM| tat-sūnur aṣṭotta<lb 
+n="12" break="no"/>ra-<supplied reason="omitted">śata-</supplied>narendreśvarāyatanānāṁ karttā<surplus>|</surplus> vijayādityaś catvāriṁśataM| tad-ātmajaḥ kali<lb 
+n="13" break="no"/>-viṣṇuvarddhano <space type="binding-hole"/><supplied reason="subaudible">’</supplied>ṣṭādaśa māsāN| tat-putro vijayāditya-mahārājaś ca<lb 
+n="14" break="no"/>tuścatvā<space type="binding-hole"/>riṁśataM|</p>
+<lg n="1" met="mālinī">
+<l n="a">tad-anuja-yuvarājād vikramāditya-nāmnaḥ</l>
+<l n="b"><lb n="15"/>prabhur abha<space type="binding-hole"/>vad arāti-vrāta-tūlān<subst><del>i</del><add place="inline">a</add></subst>laughaḥ</l>
+<l n="c">nirupama-nr̥pa-bhī<lb n="16" break="no"/>mas tr<unclear>iṁ</unclear>śataṁ vatsarāṇāṁ</l>
+<l n="d"><orig>nn</orig>ija-guṇa-gaṇa-kīrtti-vyāpta-dik-cakra<unclear>v</unclear>ālaḥ</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">tat-sūnu<lb 
+n="17" break="no"/><unclear>r</unclear> vvijayādityaḥ</l>
+<l n="b">ṣa<choice><sic>n</sic><corr>ṇ</corr></choice> māsān veṁ<orig>gg</orig>i-maṇḍalaṁ</l>
+<l n="c">tri-kaliṁ<orig>gg</orig>āṭav<choice><sic>i</sic><corr>ī</corr></choice>-yuktaṁ</l>
+<l n="d">paripālya <supplied reason="omitted">di</supplied><lb 
+n="18" break="no"/>vaṁ yay<choice><sic>o</sic><corr>au</corr></choice></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">Ajāyata sutas tasya</l>
+<l n="b">bhū-bh<unclear>ā</unclear>rodvahana-kṣama<supplied reason="omitted">ḥ</supplied></l>
+<l n="c">Ammarā<pb 
+
+n="2r" break="no"/><lb 
+n="19" break="no"/>ja-mahīpālaḥ</l>
+<l n="d">pālitāśeṣa-bhūtalaḥ</l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a">@@@yasya pādāṁbuja-chāyām1695 āśritaṁ rāja-maṇḍalam[+|]
+daṇḍitārāti-kodaṇḍaṁ maṇḍitaṁ maṇḍala-traye[+||] (3)
+kundendu-dhavalaṁ yasya yaśo raṁjita-bhūtalam[+|]
+gāyanti galitārāter vvidyādha[r]yyo [+’]pi vīṇayā[+||] (4)</l></lg>
+<p>
+sa sarvva-lokāśraya-śrī-viṣṇuvarddhana-mahārājaḥ pe[nn]āta-vāḍi-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān kuṭuṁbinas1696 sarvvān āh[ū]yettham ā[jñā]payati[+||]
+viditam astu vaḥ[+|]
+cālukya-bhīma-bhūpāla-dhāttrī dhātrīva1697 cāparā[+|]
+kṣamayā kṣatriya-prāyā nāgipoṭir iti śrutā[+||] (5)
+āsīt tasy[ā]s sutā gāmakāṁbā nāmāṁbikā-samā[+|]
+mātu[ḥ*] stanyaṁ samīkr̥tya bhīma-rājena yā papau[+||] (6)
+sājījanat kumāraṁ [ca*] śakti-yukta[ṁ] kumāravat[+|]
+
+Face IIIa.
+bhīma-rājasya sen[ā*]nyam mahākālam mahā-matim[+||] (7)
+yaś cānekaśaḥ[+|]
+anyo [+’]ny[ā*]stra-samāyoga-saṁjāt[ā*]gnau mahāhave[+|]
+svāmino [+’]grasaro dhīro ripu-sainyam anīnaśat1698[+||] (8)
+kiṁ (c)ca rūpeṇa manasijaḥ kopena yamaḥ śaurryeṇa dhanaṁjayaḥ sāhasai[ḥ*] śūdrakaḥ[+||]
+tasmai drujjūru-nāma-grāmo [+’]smābhis sarvva-kara-parihāreṇa mānyīkr̥tya dattaḥ[+|]
+asyāvadhayaḥ pūrvvataḥ tāḻugummi1699-sīmaiva sīmā[+|] dakṣiṇataḥ1700 goṭṭiprolu1701-sīmaiva sīmā[+|] paścimataḥ malkaporamu1702-sīmaiva1703 sīmā[+|] uttarataḥ adupu-sīmaiva sīmā[+||]
+asyopari bādh[ā] na karttavyā[+|]
+tathā ca vyāsenoktam[+||]
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||](9)
+sva-dattāṁ para-dattāṁ vā yo hareta1704 vasuṁdharām1705[+|]
+ṣaṣṭiṁ varṣa-sahasrāṇi1706 viṣṭhāyāṁ1707 jāyate kr̥miḥ[+||] (10)
+ājñati[ḥ*] kaṭakarājaḥ[+||]
+
+</p>
+<pb n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="10">
+        <lem>tam uccāṭya viṣṇuvarddhanas</lem>
+        <note>Previous editors do not remark on this, but the expected order of words would be <foreign>viṣṇuvarddhanas tam uccāṭya</foreign>. This may be a scribal error, or perhaps the adverb <foreign>uccāṭya</foreign> was perceived to be like an adjective qualifying Viṣṇuvardhana, cf. <foreign>aṣṭottara-narendreśvarāyatanānāṁ karttā vijayādityaś</foreign> in the next line.</note>
+      </app>
+      <app loc="15">
+        <lem>°ān<subst><del>i</del><add place="inline">a</add></subst>laughaḥ</lem>
+        <note>Kielhorn notes that the <foreign>i</foreign> has been struck out. This is not noticeable in the estampage, and I cannot tell whether it was deleted by cutting or hammering the copper around it, or by very small cross-hatches.</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1"></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>
+</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>First edited, probably from the original plates, by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">77-80</citedRange><citedRange unit="item">2</citedRange></bibl>), with a translation, without facsimile. Re-edited from rubbings prepared by Fleet by Franz Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">131-134</citedRange><citedRange unit="item">D</citedRange></bibl>), with a translation and with partial estampages.<note>All available scans of EI5 include estampages of pages 2r and 3v on a single page, but no image of 1v and 2v. <!--A printed EI5 needs to be CHECKed for this. Binding holes are not marked up in the pages for which I have no facsimile.--></note> The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's facsimiles where available.</p>
+  <listBibl type="primary">
+    <bibl n="RS"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">77-80</citedRange><citedRange unit="item">2</citedRange></bibl>
+    <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">131-134</citedRange><citedRange unit="item">D</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
