@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader xml:lang="eng">
+    <fileDesc>
+      <titleStmt>
+        <title>Ārumbāka grant of Bādapa</title><!--ALT TITLE: Masulipatam plates of Amma I.-->
+        
+        <respStmt>
+          <resp>Encoding</resp>
+          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+            <forename>Dániel</forename>
+            <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+        </authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE39-Arumbaka-Badapa</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+          </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas. Final T seems to be a slightly reduced ta without a tail, e.g. l5 apālayaT. Final N is a reduced and simplified na, with a straight vertical stem that extends only up to the headline, e.g. l7 māsāN.</p>
+              <p>Original punctuation marks. The opening symbol is wholly unclear in the scanned rubbing; Lakshmana Rao describes it as a floral device. Regular punctuation marks are plain vertical bars, the same height as or slightly shorter than a character body.</p>
+              <p>Other palaeographic observations. Lakshmana Rao (<bibl rend="omitname"><ptr target="bib:LakshmanaRao1927-1928_02"/><citedRange>138-139</citedRange></bibl>) gives a very detailed analysis of the palaeography of this grant and its companion CalE40 <!--CHECK ADD ref when encoded-->. Its main points are summarised here. The vowel marker of ā is sometimes an upward stroke, e.g. l1 mā and nā, l8 ṭṭā, l23 hā, l24 jñā, l39 jā. An alternative form of the marker for u is used in e.g. l1 pu; this is used in conjunction with m, p and y. The two forms appear close by in line 37, and a third form is found in l22 kalpataru; this is used with r and k. All three forms appear in line 38. Dependent e may be attached to the foot on the left, or on top of the character. Anusvāra is never used before dental and retroflex stops, where the homorganic nasal appears instead.
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-09-23" status="draft">Initial encoding of the file</change>
+      <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhu<unclear>vanāṁku</unclear><lb n="2" break="no"/><unclear>śa</unclear></ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/><g type="floretIndistinct"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ kauśikī<lb 
+n="2" break="no"/>-vara-prasāda-labdha-rājyā<choice><sic>ṇ</sic><corr>n</corr></choice>āṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānām bhagavan-nārā<lb 
+n="3" break="no"/>yaṇa-prasāda-samāsādita-vara-<unclear>va</unclear>rāha-lāñccha<choice><sic>ṇ</sic><corr>n</corr></choice>ekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānā<surplus>ṁ</surplus>m aśvamedhā<lb 
+n="4" break="no"/>vabhr̥tha-snāna-pavitrī-kr̥ta-vapuṣāṁ cālukyānāṁ <unclear>ku</unclear>lam al<choice><sic>ā</sic><corr>a</corr></choice>ṁkariṣṇoḥ satyāśraya-vallabhendrasya bhrātā ku<lb 
+n="5" break="no"/>bja-viṣṇuvarddhano <space type="binding-hole"/> <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣāṇi <unclear>veṁ</unclear>gī-<unclear>de</unclear>śam apālayaT| tad-ātmajo jayasiṁhas-trayastriṁ<lb 
+n="6" break="no"/>śata<unclear>ṁ</unclear>| tad-anuje<space type="binding-hole"/>ndrarāja-<unclear>nandano</unclear> viṣṇuvarddhano nava| tat-sūnur mmaṁgi-yuvarājaḥ paṁca-viṁśati<unclear>ṁ</unclear><supplied reason="subaudible">.</supplied><lb 
+n="7" break="no"/>tat-putro jayasiṁhas tra<unclear>yodaśa</unclear>| ta<unclear>d-ava</unclear>rajaḥ k<surplus>k</surplus>okkiliḥ ṣaṇ-māsāN<supplied reason="subaudible">.</supplied> tasya jyeṣṭho bhrātā viṣṇu<lb 
+n="8" break="no"/>varddhanas tam uccāṭya sapta-triṁśa<unclear>taṁ</unclear>| tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-s<choice><sic>a</sic><corr>u</corr></choice>to viṣṇuvarddha<lb n="9" break="no"/>naḥ ṣat-triṁśataṁ| tat-suto vijayāditya-narendra-mr̥garājaś cāṣṭacatvāriṁśatsaṁ| tat-sutaḥ kali-viṣṇuva<lb 
+n="10" break="no"/>rddhano <supplied reason="subaudible">’</supplied><unclear>ddhyardha-varṣaṁ|</unclear> tat-suto guṇagāṁka-vijayādityaś catuścatvāriṁśataṁ| tad-anuja-yuvarāja-vi<pb 
+
+n="2r" break="no"/><lb 
+n="11" break="no"/>@@@kramāditya-[tanayaś cālukya-bhīma*]-bhūpālas triṁśatam|
+tat-putro kollabigaṇḍa-vijayādityas ṣaṇ-māsān|
+tat-suto [+’]mma1716-rā[ja sapta*]|
+tat-sutaṁ vijayāditya-bālam uccāṭya tālapo māsam ekam|
+tam jitvā cālukya-bhīma-sūnur vikramāditya ekādaśa māsam|
+tatas tālapa-rājasya suto yuddhamallaḥ saptavarṣāṇi|
+taṁ jitvā kollabigaṇḍa-[vi]jayāditya-suto bhīma-rājo dvādaśa varṣāṇi|
+tasya maheśvara-[mū]rtteḥ bhīma-bhūpateḥ umā-samānākr̥teḥ lokamahādevyāḥ kumārābhaḥ khalu yas samabhavad ammarājākhyaḥ asau samyag dharmma-nyāyena veṁgī-deśaṁ tri-kaliṁga-sahitaṁ rakṣati sma[+||]
+āśritya ka[rṇa*]-rājākhya-vallabhaṁ bādapādhipaḥ|
+vini[r*]ggamayya1717 taṁ1718 de[śā]d amma-rājākhyam ūrjjitam1719[+||] (1)
+jitvā [dā]yān mr̥ditvā ripu-nikaram athābhyartthināṁ1720 vastu-rāśiṁ
+datvā [saṁpū]jya bandhūn sakala-guṇa-gaṇālaṁkr̥to(ṁ)ttuṁga1721-kīrtti[ḥ*][+|]
+mānī dhīraḥ pratāpo manu-mata-caritaḥ pālayan bhāti bhūmiṁ
+veṁgīśo yuddhamalla-kṣitipati-tanayo bādapākhyādhirājaḥ[+||] (2)
+yasmiñ śāsati nr̥patau paripakvānekasasya saṁpat-sahitaḥ[+|]
+
+Face IIb.
+bhavati1722dharmmānurakto nnirītir aparuṅ nirasta-coraḥ deśaḥ[+||] (3)
+manur iva sakala-janānāṁ jana[ka] ivāśeṣa-bhr̥tya-varggāṇāṁ[+|]
+kāma iva [kā]mīninām artthi-janānāṁ ca kalpataruḥ[+||] (4)
+sa1723 samasta-bhuvanāśraya-śrī-vijayāditya-mahārājādhirāja-parameśvaraḥ parama-bhaṭṭārakaḥ parama-māheśvaraḥ parama-brahmaṇyo mātāpitr̥pādānudhyāyī velanāṇḍu-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān sarvān kuṭuṁbinas samāhūyettham ājñāpayati[+||]
+viditam astu vaḥ[+||]
+śreṣṭho yaś ca dhanurddhara[ḥ*] [kali]yuge tat-kārtavīryāpahaḥ
+bhūyo jāta iti prakr̥ṣṭa1724-mahimo rāmārjjunābhyāṁ sa(m)maḥ[+|]
+[bā]ḷāditya-viśeṣa-nāma-vinuto dharmmaṁ ratas satyavāk
+trā[tā] - -[+|]uu-/u-u/uu-/ vi dviṣṭa-kālānalaḥ[+||] (5)
+tat-putro nr̥pakāma ity abhinutas satya-prati[jño dha]nur-
+-ddharmmaṁ cāpya u-/u-u/uu-/ vikhyāta-saurryākaraḥ[+|]
+yadd-rāṣṭre pathi gacchatāṁ ca pavano1725 nāsraṁsaya[ty a]ṁśukaṁ
+core -/uu-/u-u/uu tā yasya pratāpānalaiḥ[+||](6)
+sa kārmmuka-jitāritvāt kārmmukārjjuna-nāma-bhr̥t[+|]
+satyai[ka] x u-/u x [satyaballā]ta- saṁjñakaḥ1726[+||] (7)
+dhīmanto gurum agra-janma-nikarā vyā[saṁ]
+
+Face IIIa.
+sahāyaṁ nr̥pāḥ
+[prityā] -/uu-/u- sva-janakaṁ kalpadrumaṁ cā[r*]thinaḥ1727[+|]
+manyante [+’]pi sadaikam ūrjjitam anekaṁ pārttham uddhanvinaḥ
+citraṁ śrī-vara-kārmukārjjuna-nr̥paṁ kāmaṁ sakāmā1728 striyaḥ[+||] (8)
+yac-chauryyaṁ yudhi vaira-bhūpa-nivaha-vyāghāta-jātaṁ bhr̥śaṁ
+yad-dānaṁ dvija-saṁśritārtthi-jana-saṁtr̥pti1729-kriyā-pe[śa]lam[+|]
+yat-kīrttis sakalāñ ca candra-dhavalā śubhrī-karoti kṣi[tiṁ]
+so [+’]yaṁ bhāti sukārmmukārjjuna-saro-nāthorjjito vīryyavān[+||] (9)
+kanati san-nr̥pakāma-saraḥ-pati[ḥ*] śrita-janānana-padma-sunandanaḥ[+|]
+iha sadoditir aṁśu-nidhiḥ kṣitau1730 ripu-tamonudanena1731  samo [+’]naghaḥ[+||] (10)
+
+Face IIIb.
+dānodāra-dayā-bala-praka[ṭita-prā]vīṇya-śauca-kṣamā-
+-mānālaṁghya-śivārccanoru-guṇa-muktāhāra-saṁbhūṣitaḥ[+|]
+dīnānātha-naṭāndha-nagna-kavi-vāgmīndra-dvijānanda-kr̥d1732
+bhāti prastuta-kīrttimān raṇa-jayo śrī-satyaballāta-rāṭ[+||] (11)
+dha[vala]-guṇo dhavala-yaśo dhavalita-digmaṇḍalo [+’][va]damitārātiḥ[+|]
+bhava-bhakto bhava-karuṇodbhava-bhava-bhogānvito vibhāti sukīrttiḥ[+||] (12)
+arkka-pratāpo [+’]ri-riṅ agra-dhanvī śrī-hrī-kṣamājñā-karuṇāśrito [+’]bhīḥ[+|]
+enaḥ-kṣid asyāṁ bhuvi bhāti nityaṁ satyāśritas san-nr̥pakāma-śauri[ḥ*][+||] (13)
+yo [+’]vadhīt kṣurikeṇaikaḥ paṁca-vīrān balāt svayam[+|]
+pūr[ṇātta]1733-dhanuṣā śatrūn1734 sahasrān yudhi bhāti saḥ[+||] (14)
+brahmeśendra-hr̥ṣīkeśa-kumārāṇāṁ
+
+Face IVa.
+[ya]thābhavan vāg-vadhūmā-śacī-lakṣmī jaya-śrī subhagā[ḥ*] striyaḥ[+||] (15)
+tathā teṣāṁ samasyābhūn nr̥pakāma-saraḥpateḥ[+|]
+tāsā[ṁ*] samā priyā bhāryyā nāyamaṁbā iti [śrū]tā[+||] (16)
+sarvva-lakṣaṇa-saṁpannā sarvvābharaṇa-bhūṣitā[+|]
+sarvva-strī-dharmma-tat[t*]va-jñā śīla-[vr̥tta-va]tī satī[+||] (17)
+tasyāṁ pativratāyāṁ ca gaṇḍanārāyaṇāhvayam1735[+|]
+satyaballāta-nāṁāṁkaḥ pātraṁ putram ajījanat[+||] (18)
+umā-vr̥ṣāṁkayor yya[thā] guha[ś śa]cīndrayor1736 iva[+|]
+jayanta ity abhūt sutaḥ tayoś ca tat-samānayoḥ[+||] (19)
+[vyū]ḍhorasko vr̥ṣa-skandhaḥ1737 skanda-pratima-vikramaḥ[+|]
+mahotsāhī mahodyogī mahābāhur mmahā-balaḥ[+||] (20)
+
+Face IVb.
+nr̥pakāma-saronātha-putro jyeṣṭho [+’]tibuddhimān[+|]
+gaṇḍanārāyaṇa[ḥ*] śrīmān gajāśvārūḍha-kauśalaḥ[+||] (21)
+paṭus sūraś śucir ddakṣa-śīlaḥ [vr̥tta-gu]ṇānvitaḥ[+|]
+dhanuṣmat-puruṣa-śreṣṭha[ḥ*] śreṣṭhas sarvva-kalāsu ca[+||] (22)
+mātāpitr̥pādāṁbhoja-bhramaro bhāskharo nr̥[ṇām][+|]
+gaṇḍanārāyaṇāhvo yas sarvva-śastra-bhr̥tāṁ1738 varaḥ[+||] (23)
+tasmai bādapa-rājādhi[rā]jo rā[je]ndra-puṁgavaḥ[+|]
+prītaḥ prādān mahā-grāmam āruṁbāketi viśrutam1739[+||] (24)
+tasmai gaṇḍanārāyaṇāya velanāṇḍu-viṣaye āruṁbāka-nāma-grāmas1740 sarvva-kara-parihāraṁ [tāmra]-śāsanī-[kr̥tya ma]yā datta iti[+|][+|]
+bādapa-rājendreṇa datta-grāmaṁ svīkr̥tya1741
+
+Face Va.
+gaṇḍanārāyaṇa[ḥ*] svayaṁ svamātur nnāyamaṁbāyāḥ[+|] kanīyasī sahodarī sā[ma]kāṁbā[+|] ta[syā pu]traś candeṇākhyaḥ[+|] tasmai candeṇākhyāya svīkr̥tam āruṁbāka-nāma-[grā]ma(ṁ)m udaka-[pūrvaṁ] prādāt[+||]
+taṁ grāmaṁ svīkr̥tya1742 candeṇākhyaḥ kalāḥ1743 svīkr̥tya1744 pūrṇṇacandra iva bhrājati sma[+|]
+śūraḥ kumāras subha[ṭā]gra-gaṇyas saro narāṇāṁ sakalāgama-jñaḥ[+|]
+kāruṇyavān garvvita-śatru-hantā cā[rū]dayo bhāti sucandeṇāryyaḥ[+||] (25)
+tasya grāmasyāvadhayaḥ[+|]
+pūrvvataḥ ceṟukuṁ balli
+dakṣiṇataḥ śrīpūṇḍi
+paścimataḥ kāvūru
+uttarataḥ gomaḍuvu[+||]
+asya grāmasyopari na kenacid bādhā kārttavyā yaḥ karoti pañca-mahā-pātaka-saṁyukto bhavati[+|]
+sva-dattaṁ para-dattaṁ vā yo hareta vasundharām[+|]
+ṣaṣṭi-varṣa-sahasrāṇi viṣṭhāyāṁ1745 jāyate kr̥miḥ[+||] (26)
+vyāsenā[py u]ktam[+|]
+
+Face Vb.
+bahubhir vvasudhā dattā bahubhiś cānupālitā
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||] (27)
+ājñapti[ḥ*] kaṭakanr̥paḥ kavir ayyanabhaṭṭa-sarvva-śāstra-jñaḥ[+|]
+likhitaṁ bhaṭṭadevena śāsanam ācandra-tārārkam[+||] (28)
+
+</p>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="X">
+        <lem></lem>
+        <rdg source="bib:AuthorYear_01"></rdg>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" xml:lang="eng" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1">
+</p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>According to Lakshmana Rao, the last letter of the seal legend (śa) is below the rest, to the proper right of the boar emblem. The seal is rather weathered and the published photo is not too clear, so I can only guess where this may be.
+</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1920-1921"/><citedRange unit="page">17</citedRange><citedRange unit="appendix">A/1920-1921</citedRange><citedRange unit="item">16</citedRange></bibl> with discussion in <bibl><ptr target="bib:ARIE1953-1954"/><citedRange>90-91</citedRange></bibl>. Edited from inked impressions (made by G. Venkoba Rao) and from the original plates by K. V. Lakshmana Rao (<bibl rend="omitname"><ptr target="bib:LakshmanaRao1927-1928_02"/><citedRange unit="page">137-148</citedRange><citedRange unit="item">1</citedRange></bibl>), with translation and facsimile. The present edition by Dániel Balogh is based on a collation of Lakshmana Rao's edition with his facsimiles.<note>The facsimiles, as scanned, are illegible in many places. I rely primarily on Lakshmana Rao's readings, and generally mark up unclear only where he did so, assuming that the originals were much better legible. Consulting the printed facsimile may also help.</note></p>
+  <listBibl type="primary">
+    <bibl n="KVL"><ptr target="bib:LakshmanaRao1927-1928_02"/><citedRange unit="page">137-148</citedRange><citedRange unit="item">1</citedRange></bibl>
+    <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">131-134</citedRange><citedRange unit="item">D</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1920-1921"/><citedRange unit="page">17</citedRange><citedRange unit="appendix">A/1920-1921</citedRange><citedRange unit="item">16</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1953-1954"/><citedRange>90-91</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
