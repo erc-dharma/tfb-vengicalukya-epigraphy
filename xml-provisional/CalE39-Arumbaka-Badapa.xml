@@ -177,7 +177,7 @@ n="36" break="no"/>ryyavāN||</l>
 <l n="b">śrita-janānana-padma-sunandanaḥ|</l>
 <l n="c">Iha sado<lb 
 n="37" break="no"/>ditir aṁśu-nidhiḥ kṣit<choice><sic>o</sic><corr>au</corr></choice></l>
-<l n="d">ripu-tamo-nud anena  samo <supplied reason="subaudible">’</supplied>naghaḥ|</l>
+<l n="d">ripu-tamo-nud inena samo <supplied reason="subaudible">’</supplied>naghaḥ|</l>
 </lg>
 <lg n="11" met="śārdūlavikrīḍita">
 <l n="a" enjamb="yes">dānodāra-dayā-bala-pra<pb 
@@ -199,7 +199,7 @@ n="41" break="no"/>tiḥ|</l>
 n="42" break="no"/>po <supplied reason="subaudible">’</supplied>ri-riḍ agra-dhanvī</l>
 <l n="b">śrī-hrī-kṣamājñā-karuṇāśr<choice><sic>ī</sic><corr>i</corr></choice>to <supplied reason="subaudible">’</supplied>bhīḥ</l>
 <l n="c">Enaḥ-kṣid asyāṁ bhuvi bhāti nityaṁ|</l>
-<l n="d"><lb n="43"/>satyāśritas san nr̥pakāma-<unclear reason="eccentric_ductus">ś</unclear>auri<supplied reason="omitted">ḥ</supplied>|</l>
+<l n="d"><lb n="43"/>satyāśritas san-nr̥pakāma-<unclear reason="eccentric_ductus">ś</unclear>auri<supplied reason="omitted">ḥ</supplied>|</l>
 </lg>
 <lg n="14" met="anuṣṭubh">
 <l n="a">yo <supplied reason="subaudible">’</supplied>vadhīt kṣurikeṇaikaḥ</l>
@@ -213,7 +213,7 @@ n="42" break="no"/>po <supplied reason="subaudible">’</supplied>ri-riḍ agra-
 
 n="4r"/><lb n="45"/><unclear>ya</unclear>thābhavan</l>
 <l n="c" enjamb="yes">vāgvadhūmā-śacī-lakṣmī<orig>|</orig></l>
-<l n="d">-jaya-śrī subhagā<supplied reason="omitted">ḥ</supplied> striyaḥ||</l>
+<l n="d">-jaya-śrī-subhagā<supplied reason="omitted">ḥ</supplied> striyaḥ||</l>
 </lg>
 <lg n="16" met="anuṣṭubh">
 <l n="a">tathā teṣāṁ sama<lb 
@@ -266,7 +266,7 @@ n="54" break="no"/>ruṣa-śreṣṭha<supplied reason="omitted">ḥ</supplied><
 </lg>
 <lg n="23" met="anuṣṭubh">
 <l n="a" enjamb="yes">mātā-pitr̥-p<choice><sic>ā</sic><corr>a</corr></choice>dāṁbhoja</l>
-<l n="b">-bhramaro bhāskha<lb 
+<l n="b">-bhramaro bhāska<lb 
 n="55" break="no"/>ro nr̥<unclear>ṇāṁ</unclear></l>
 <l n="c">gaṇḍa<space type="binding-hole"/>nārāyaṇāhvo yas</l>
 <l n="d">sarvva-śastra-bh<choice><orig>ri</orig><reg>r̥</reg></choice>tāṁ varaḥ||</l>
@@ -387,9 +387,18 @@ n="68"/>ka<unclear>ṭa</unclear>kanr̥paḥ kavir ayyanabhaṭṭa-sarvva-śās
         <lem><unclear>prī</unclear>tyā <seg met="+--+-+"><gap reason="illegible" quantity="6" unit="character"/></seg></lem>
         <note>Again I provisionally accept Lakshmana Rao's reading, but believe that <foreign>bhr̥tyā</foreign> is more likely in the context; compare stanza 4. The size of the following lacuna does not appear to be more than four characters. Something may have been omitted by the scribe here, or there may be a correction in which six characters were inscribed over a smaller number of earlier ones. It should be possible to get at least a tentative reading from the original plates.</note>
       </app>
+      <app loc="37">
+        <lem>inena</lem>
+        <rdg source="bib:LakshmanaRao1927-1928_02"><choice><sic>i</sic><corr>a</corr></choice>nena</rdg>
+        <note>I find that Lakshmana Rao's emendation does not improve the text. A superfluous <foreign>i</foreign> would be an unusual sort of mistake, especially here where the last line on the plate is written more calligraphically than the rest (with extended descenders). See my note to the translation for the details of my interpretation.</note>
+      </app>
       <app loc="38">
         <lem source="bib:LakshmanaRao1927-1928_02">-<unclear>prā</unclear>vīṇya-</lem>
         <note>The reading is more than plausible in the context, yet (though there is some damage here), <foreign>prā</foreign> seems to be impossible. The character appears to be <foreign>pyā</foreign> or <foreign>ptyā</foreign> (where the primary consonant is also uncertain), and may require emendation to <foreign>prā</foreign>. Alternatively, Lakshmana Rao may be wrong in his reading of the preceding characters (which are illegible in my scan), and what we have here is <foreign>°ādhīṇya</foreign> (for <foreign>°ādhīnya</foreign>), preceded by a word ending in <foreign>-ti</foreign>.</note>
+      </app>
+      <app loc="43">
+        <lem>san-nr̥pakāma-</lem>
+        <note>This is my preferred parsing of this string, because the composer uses <foreign>su-</foreign> and <foreign>sat-</foreign> repeatedly to fill out the metre. The letters could also be analysed as <foreign>san nr̥pakāma-</foreign>.</note>
       </app>
       <app loc="43">
         <lem>svaya<unclear>M</unclear></lem>
@@ -422,7 +431,7 @@ n="68"/>ka<unclear>ṭa</unclear>kanr̥paḥ kavir ayyanabhaṭṭa-sarvva-śās
       <app loc="50">
         <lem>s<unclear reason="eccentric_ductus">ū</unclear>taḥ</lem>
         <rdg source="bib:LakshmanaRao1927-1928_02">sutaḥ</rdg>
-        <note>Lakshmana Rao's reading is unmetrical, though this does not necessarily mean it is incorrect (cf. the previous apparatus entry). The vowel mark on the conjunct <foreign>ts</foreign> has a definite bend to the right at the top, which may indicate that it was intended for <foreign>ū</foreign>, but it is not developed into a downward hook like that of the immediately preceding <foreign>bhū</foreign>, and <foreign>su</foreign> in line 45 also bends to the right, though less conspicuously. It is also possible that what seems like a second, smaller hook attached to the vowel marker at baseline height is intended to signify <foreign>ū</foreign>; the vowel marker of <foreign>vyū</foreign> in the next line (also unclear) may be of this shape. To read a prosodically correct line, I assume regardless of the form that <foreign>sūtaḥ</foreign> was intended, but this is lexically problematic, since this word is not used as a substantive meaning "son." In tandem with the previous stanza, where the problematic line has the exact same scansion as that here, it seems possible that Lakshmana Rao's reading is correct there, and that our composer considered this a valid <foreign>anuṣṭubh</foreign> variant (a <foreign>ja-vipulā</foreign>, so to speak), possibly with the constraint that the initial syllables of the quarter follow the pattern ⏑–⏑–.</note>
+        <note>Lakshmana Rao's reading is unmetrical, though this does not necessarily mean it is incorrect (cf. the previous apparatus entry). The vowel marker on the conjunct <foreign>ts</foreign> has a definite bend to the right at the top, which may indicate that it was intended for <foreign>ū</foreign>, but it is not developed into a downward hook like that of the immediately preceding <foreign>bhū</foreign>, and <foreign>su</foreign> in line 45 also bends to the right, though less conspicuously. It is also possible that what seems like a second, smaller hook attached to the vowel marker at baseline height is intended to signify <foreign>ū</foreign>; the vowel marker of <foreign>vyū</foreign> in the next line (also unclear) may be of this shape. To read a prosodically correct line, I assume regardless of the graphic form that <foreign>sūtaḥ</foreign> was intended, but this is lexically problematic, since this word is not used as a substantive meaning "son." In tandem with the previous stanza, where the problematic line has the exact same scansion as that here, it seems possible that Lakshmana Rao's reading is correct both there and here, and that our composer considered this a valid <foreign>anuṣṭubh</foreign> variant (a <foreign>ja-vipulā</foreign>, so to speak), possibly with the constraint that the initial syllables of the quarter follow the pattern ⏑–⏑–.</note>
       </app>
       <app loc="53">
         <lem>°ār<choice><sic>u</sic><corr>ū</corr></choice>ḍa-</lem>
@@ -480,8 +489,38 @@ n="68"/>ka<unclear>ṭa</unclear>kanr̥paḥ kavir ayyanabhaṭṭa-sarvva-śās
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1">
-</p>
+<p n="1-17">Greetings. Satyāśraya Vallabhendra <supplied reason="explanation">Pulakeśin II</supplied> was fit to adorn the lineage of the majestic Cālukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārītī, who attained kingship by grace of being favoured by Kauśikī, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom enemy territories instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the Boar emblem they have acquired by the grace of the divine Nārāyaṇa, abd whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice. His brother Kubja Viṣṇuvardhana protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the land of Veṅgī for eighteen years. His son Jayasiṁha <supplied reason="explanation">I</supplied> Vallabha, for thirty-three years. His brother Indrarāja’s <supplied reason="explanation">Indra Bhaṭṭāraka’s</supplied> son Viṣṇuvardhana <supplied reason="explanation">II</supplied>, for nine. His son Maṅgi Yuvarāja, for twenty-five. His son Jayasiṁha <supplied reason="explanation">II</supplied>, for thirteen. His younger brother, Kokkili, for six months. After dethroning him, his eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen. His son Viṣṇuvardhana <supplied reason="explanation">IV</supplied>, for thirty-six. His son, Vijayāditya <supplied reason="explanation">II</supplied> Narendramr̥garāja, for forty-eight. His son Kali-Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Vijayāditya <supplied reason="explanation">III</supplied> with the cognomen Guṇaga, for forty-four. The son of his younger brother, the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Prince <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> Vikramāditya, King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Cālukya-Bhīma, for thirty. His son Kollabigaṇḍa Vijayāditya <supplied reason="explanation">IV</supplied>, for six months. His son Ambarāja <supplied reason="explanation">Amma I</supplied>, for seven years. After dethroning his son the child Vijayāditya <supplied reason="explanation">V</supplied>, Tālapa, for one month. After defeating him, Cālukya-Bhīma’s son Vikramāditya <supplied reason="explanation">II</supplied>, for eleven months. Then, King <supplied reason="explanation"><foreign>rājan</foreign></supplied> Tālapa’s son Yuddhamalla, for seven years. After defeating him, Kollabigaṇḍa Vijayāditya’s son Bhīmarāja <supplied reason="explanation">II</supplied>, for twelve years. A <supplied reason="subaudible">son</supplied> who verily resembled Kumāra was born to that King <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> Bhīma, who was like Maheśvara, from <supplied reason="explanation">his queen</supplied> Lokamahādevī, who was like Umā in appearance. Named Ammarāja <supplied reason="explanation">II</supplied>, he protected <supplied reason="explanation"><foreign>rakṣ-</foreign></supplied> the land of Veṅgī together with the three Kaliṅgas with proper piety <supplied reason="explanation"><foreign>dharma</foreign></supplied> and justice <supplied reason="explanation"><foreign>nyāya</foreign></supplied>.</p>
+<p rend="stanza" n="1">Having sought the aid of the Vallabha <supplied reason="explanation">Rāṣṭrakūṭa</supplied> named Karṇarāja <supplied reason="explanation">Kṛṣṇa III</supplied>, King <supplied reason="explanation"><foreign>adhipa</foreign></supplied> expelled from the country that puissant one called Ammarāja.</p>
+<p rend="stanza" n="2">Having first defeated the invincible ones,<note>Or, “defeating those who needed to be defeated.” See the apparatus to line 18.</note> and crushed droves of enemies, then having donated heaps of largesse to supplicants and honoured his kinsmen, the king <supplied reason="explanation"><foreign>adhirāja</foreign></supplied> named Bādapa, son of King <supplied reason="explanation"><foreign>kṣitipati</foreign></supplied> Yuddhamalla, now shines while he protects <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth as Lord of Veṅgī, esteemed, steadfast, valiant, conducting himself according to the teaching of Manu, his lofty fame embellished by a host of all virtues.</p>
+<p rend="stanza" n="3">When this king rules, the land, devoted to righteousness <supplied reason="explanation"><foreign>dharma</foreign></supplied>, becomes replete with the bounty of many a ripe harvest, free from disasters <supplied reason="explanation"><foreign>īti</foreign></supplied>, devoid of pestilence and rid of bandits.</p>
+<p rend="stanza" n="4"><supplied reason="subaudible">He is</supplied> like Manu to all people, like a father to all classes of his dependants <supplied reason="explanation"><foreign>bhr̥tya</foreign></supplied>, like Kāma to amorous women and <supplied reason="subaudible">like</supplied> a wish-granting tree to supplicants.</p>
+<p n="22-24">That shelter of the complete universe <supplied reason="explanation"><foreign>samasta-bhuvanāśraya</foreign></supplied>, His Majesty Vijayāditya <supplied reason="explanation">Bādapa</supplied> the Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>mahārājādhirāja</foreign></supplied>, the Supreme Sovereign <supplied reason="explanation"><foreign>parama-bhaṭṭāraka</foreign></supplied>, supremely pious and supreme devotee of Maheśvara, humbly devoted to his mother and father,<note>While I consistently translate the phrase <foreign>(pāda+)anudhyāta</foreign>, occurring in almost all Cālukya plates, as “deliberately appointed by,” the construction here is with <foreign>°ānudhyāyin</foreign>. Thus, the composer of this text had in mind “meditation on the mother’s and father’s feet,” or at least a humble devotion to the persons of the mother and father. This in turn may mean that the standard phrase with <foreign>(pāda+)anudhyāta</foreign> was also understood to have this latter meaning by this time in the Cālukya chancery. Compare <bibl><ptr target="bib:Ferrier+Torzsok2008_01"/><citedRange>109</citedRange></bibl>.</note> convokes and commands the householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—who reside in Velanāṇḍu district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> as follows:</p>
+<p n="24-25">Let it be known to you <supplied reason="subaudible">that</supplied></p>
+<p rend="stanza" n="5"><supplied reason="subaudible">There is a man</supplied> renowned by the distinguishing name Bālāditya, who has the outstanding eminence of being the most excellent bowman of the Kali era, a reborn Bane of Kārtavīrya <supplied reason="explanation">Paraśurāma</supplied> of that <supplied reason="explanation">Kali era</supplied>, and being on par with Rāma and Arjuna. He is dedicated to righteousness <supplied reason="explanation"><foreign>dharma</foreign></supplied>, true to his word, a saviour <supplied reason="lost" cert="low">to supplicants</supplied> and a fire of death to his enemies.</p>
+<p rend="stanza" n="6">His son, renowned as Nr̥pakāma, is true to his promises and <seg cert="low">has studied</seg> both religious duty <supplied reason="explanation"><foreign>dharma</foreign></supplied> and the bow. <gap reason="lost" quantity="3" unit="character"/> He is a mine of famed heroism, in whose country wayfarers’ robes are not pulled off <supplied reason="subaudible">even</supplied> by the wind, <seg cert="low">much less by</seg> bandits<note>This element of my translation is based on a tentative conjectural restoration for which see the apparatus to line 29. It is also possible that the clause about travellers’ clothes and the wind is not connected to the mention of bandits.</note> <gap reason="lost" quantity="7" unit="character"/> by the fires of his valour.</p>
+<p rend="stanza" n="7">He bears the name Kārmukārjuna <supplied reason="explanation">Arjuna of the Bow</supplied> on account of having defeated his enemies with his bow. His designation is Satyaballāta because <gap reason="lost" quantity="5" unit="character"/> truth alone.</p>
+<p rend="stanza" n="8">How strange! <supplied reason="subaudible">Though</supplied> His Highness the excellent King <supplied reason="explanation"><foreign>nr̥pa</foreign></supplied> Kārmukārjuna <supplied reason="subaudible">is only</supplied> one puissant <supplied reason="subaudible">person</supplied>, others always think of him manifoldly: the wise as a preceptor, flocks of Brahmins as Vyāsa, rulers as their helper, <seg cert="low">dependants</seg> <note>See the apparatus to line 31 for the conjectural reading on which this translation is based.</note> <gap reason="illegible" quantity="6" unit="character"/> as their own father, supplicants as a wish-granting tree, bow-wielders as Pārtha <supplied reason="explanation">Arjuna</supplied>, and lustful women as Kāma.</p>
+<p rend="stanza" n="9">As one whose valour is strongly manifest in striking down hordes of enemy rulers in battle; as one whose generosity is fascinating because it pleases Brahmins, dependants and supplicants; as one whose moon-white reputation brightens the entire earth—so does this good Kārmukārjuna, valorous and puissant Lord of the Lake, shine.</p>
+<p rend="stanza" n="10">Gracious Nr̥pakāma, Lord of the Lake, shines immaculate like a trove of rays, the equal of the sun, eternally on the rise, greatly delighting the lotuses that are the faces of his subjects and dispelling the darkness that is his foes.<note>The string <foreign>riputamonudinena</foreign> in the text is problematic, see the apparatus to line 37. I feel certain that the solution is the rare word <foreign>ina</foreign> meaning “the sun,” found in several of the major Sanskrit lexicons (see PWG s.v.), though apparently not attested in other texts. The use of such a word sits well with the style of the composer, who attempts to make up with unusual vocabulary and grammar for what he lacks in poetic skill. I therefore parse this string as <foreign>ripu-tamo-nud inena</foreign>. It might, alternatively, be possible to segment it into <foreign>ripu-tamo ’nu dinena</foreign>, understanding <foreign>ripu-tamo ’nu</foreign> as “after a darkness consisting of foes” and <foreign>dina</foreign> as “the sun” – but this latter is not attested at all, so I reject it. Instead of either of these interpretations, Lakshmana Rao suggests emending the text to <foreign>ripu-tamo-nud anena</foreign>, but I see nothing corresponding to <foreign>anena samo</foreign> in his translation, so I am not certain what he had in mind. One could understand it to mean “equal to that one,” i.e. to the real Sun, but this is rather awkward, so I find the emendation unwarranted.</note></p>
+<p rend="stanza" n="11">His Majesty King <supplied reason="explanation"><foreign>rāj</foreign></supplied> Satyaballāta, victorious in battles, shines with an explicit reputation, adorned with a pearl necklace of excessive virtues <supplied reason="subaudible">such as</supplied> compassion lavish with munificence, an aptitude manifest through strength, <note>The text is problematic here, see the apparatus to line 38. The meaning of the original may be slightly different.</note> purity, tolerance, and an adoration of Śiva uninfringed by his self-esteem, delighting the needy, the helpless, actors, the blind, the naked, sages, great speakers and Brahmins.</p>
+<p rend="stanza" n="12">Bright in virtue, bright in fame, brightening the circle of directions, having subdued his enemies he, a devotee of Bhava <supplied reason="explanation">Śiva</supplied> endowed with creature comforts arising from the mercy of Bhava, shines with good reputation.</p>
+<p rend="stanza" n="13">Gracious Nr̥pakāma, the fearless devastator of enemies, foremost of bowmen, accomplished in majesty, modesty, tolerance, authority and compassion, blazing like the sun and ensconced in truthfulness, ever shines as a destroyer of sin like a veritable Śauri <supplied reason="explanation">Viṣṇu</supplied> on this earth.</p>
+<p rend="stanza" n="14">He shines, who alone and on his own overpowered and killed five bravos with just a knife, and then with his bow<note>There is again some uncertainty in the text at this point, see the apparatus to <foreign>punaḥ sa</foreign> in line 43. Whatever the correct reading is, the meaning is much the same as that translated here.</note> slew a thousand foes in battle.</p>
+<p rend="stanza" n="15-16">As the auspicious women Miss Speech <supplied reason="explanation">Sarasvatī</supplied>, Umā, Śacī, Lakṣmī and Lady Victory came to be the spouses of Brahmā, Īśa <supplied reason="explanation">Śiva</supplied>, Indra, Hr̥ṣīkeśa <supplied reason="explanation">Viṣṇu</supplied> and Kumāra, so one renowned as Nāyamāṁbā and equal to those <supplied reason="explanation">goddesses</supplied> became the beloved wife of Nr̥pakāma the Lord of the Lake, who is equal to those <supplied reason="explanation">gods</supplied>.</p>
+<p rend="stanza" n="17">Endowed with all <supplied reason="subaudible">good bodily</supplied> omens, embellished with all ornaments, familiar with all nuances of womanly duty <supplied reason="explanation"><foreign>strī-dharma</foreign></supplied>, she was a devoted wife virtuous in morals and conduct.</p>
+<p rend="stanza" n="18">The one bearing the epithet Satyaballāta begat a worthy son called Gaṇḍanārāyaṇa on that faithful lady.</p>
+<p rend="stanza" n="19">As Guha <supplied reason="explanation">Kārttikeya</supplied> was to Umā and the one with the bull mark <supplied reason="explanation">Śiva</supplied>, as Jayanta to Śacī and Indra, so was he born to these two, who are equal to those <supplied reason="explanation">gods and goddesses</supplied>.</p>
+<p rend="stanza" n="20-21">The majestic Gaṇḍanārāyaṇa, the greatly intelligent eldest son of Nr̥pakāma the Lord of the Lake, has a swelling chest, the shoulders of a bull and valour like that of Skanda. He is great in his undertakings, great in his efforts, great of arm and great in strength, and is a talented rider of horses and elephants.</p>
+<p rend="stanza" n="22">He is clever, valiant, pure and skillful, possessed of moral, good conduct and virtues, the most excellent of bow-wielders and also most excellent in all arts.</p>
+<p rend="stanza" n="23">This sun among men who is called Gaṇḍanārāyaṇa is the foremost of all weapon-wielders and is a bee <supplied reason="explanation">devoted attendant</supplied> to the lotuses that are the feet of his mother and father.</p>
+<p rend="stanza" n="24">To him Emperor <supplied reason="explanation"><foreign>rājādhirāja</foreign></supplied> Bādapa, that bull among the greatest kings, was pleased to grant a great village renowned as Āruṁbāka.</p>
+<p n="56-62">To that Gaṇḍanārāyaṇa I have granted the village named Āruṁbāka in Velanāṇḍu district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied>, formulating a remission of all taxes in a copper edict. Having received the village granted by King <supplied reason="explanation"><foreign>rājendra</foreign></supplied> Bādapa, that Gaṇḍanārāyaṇa himself in turn—his mother Nāyamāṁbā has a younger co-uterine sister Sāmakāṁbā, <supplied reason="subaudible">and</supplied> she has a son called Candeṇa<note>This genealogical information is enclosed, parenthetically as it were, in the sentence about passing on the grant.</note>—<supplied reason="subaudible">Gaṇḍanārāyaṇa</supplied> has given the received village named Āruṁbāka to that one called Candeṇa, <supplied reason="subaudible">the donation being</supplied> sanctified by <supplied reason="explanation">a libation of</supplied> water. Upon receiving that village, the one called Candena became resplendent like the full moon upon receiving its digits <supplied reason="subaudible">lost in its waning</supplied>.</p>
+<p rend="stanza" n="25">Beautiful in his rising, the good nobleman <supplied reason="explanation"><foreign>ārya</foreign></supplied> Candena shines, a valiant bachelor, ranking first among good soldiers, familiar with all traditions <supplied reason="explanation"><foreign>āgama</foreign></supplied> of the Men of the Lake, endowed with compassion, but a slayer of haughty enemies.</p>
+<p n="63-65">The boundaries of that village <supplied reason="subaudible">are as follows</supplied>. To the east, Ceṟakuṁballi. To the south, Śrīpūṇḍi. To the west, Kāvūru. To the north, Gomaḍuvu. Let no-one pose an obstacle <supplied reason="subaudible">to his enjoyment of his rights</supplied> over that village. He who does so, shall be conjoined with the five great sins.</p>
+<p rend="stanza" n="26">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
+<p n="66-67">Vyāsa too has said,</p>
+<p rend="stanza" n="27">Many <supplied reason="subaudible">kings</supplied> have granted land, and many have preserved it <supplied reason="subaudible">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="subaudible">accrued of granting it</supplied> belongs to him at that time.</p>
+<p rend="stanza" n="28">The executor  <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is the castellan <supplied reason="explanation"><foreign>kaṭaka-nr̥pa</foreign></supplied>. The poet is Ayyanabhaṭṭa, learned in all textbooks <supplied reason="explanation"><foreign>śāstra</foreign></supplied>. <supplied reason="subaudible">This</supplied> edict, <supplied reason="subaudible">which is to last</supplied> as long as the moon and the stars, was written <supplied reason="explanation"><foreign>likhita</foreign></supplied> by Bhaṭṭadeva.</p>
   </div>  
 </div>
 
@@ -491,8 +530,107 @@ n="68"/>ka<unclear>ṭa</unclear>kanr̥paḥ kavir ayyanabhaṭṭa-sarvva-śās
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1">
-</p>
+<p n="1-17">Prospérité ! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, qui orne la dynastie des Cālukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, loués dans l’univers entier, descendants de Hārīti, ayant reçu leur royaume par la faveur de l’excellente Kauśikī, protégés par les Mères réunies, méditant aux pieds du seigneur Mahāsena, eux dont les cercles ennemis ont été soumis en un instant à la vue du signe illustre du sanglier, faveur octroyée par le bienheureux Nārāyaṇa, eux dont les corps ont été purifiés grâce aux bains consécutifs à l’<foreign>aśvamedha</foreign>, a protégé la contrée de Veṅgī pendant dix huit années.
+Son fils Jayasiṁha pendant trente-trois <supplied reason="subaudible">ans</supplied> ;
+Le fils d’Indrarāja, frère cadet de ce dernier, Viṣṇuvardhana, pendant neuf <supplied reason="subaudible">ans</supplied> ;
+Le fils de celui-ci, Maṁgi, le prince héritier, pendant vingt-cinq <supplied reason="subaudible">ans</supplied> ;
+Son fils Jayasiṁha pendant treize <supplied reason="subaudible">ans</supplied> ;
+Le successeur de ce dernier, Kokkili, pendant six mois ;
+Son frère aîné, Viṣṇuvardhana, après l’avoir chassé, pendant trente-sept <supplied reason="subaudible">ans</supplied> ;
+Le fils de celui-ci, Vijayāditya, l’illustre seigneur, pendant dix-huit <supplied reason="subaudible">ans</supplied> ;
+Son fils Viṣṇuvardhana pendant trente-six <supplied reason="subaudible">ans</supplied> ;
+Le fils de ce dernier,Vijayāditya Narendra Mr̥garāja, pendant quarante <supplied reason="subaudible">ans</supplied><note>Les autres inscriptions attestent un règne de 44 années.</note> ;
+Son fils Kali Viṣṇuvardhana pendant un an et demi ;
+Son fils Vijayāditya<note>Ce roi porte le nom de Guṇagāṁka dans les autres inscriptions.</note> pendant quarante<note>Les autres inscriptions mentionnent un règne de quarante-quatre ans.</note> <supplied reason="subaudible">ans</supplied> ;
+Le fils du roi Vikramāditya, prince héritier et frère cadet de ce dernier, le roi Cālukya Bhīma pendant trente <supplied reason="subaudible">ans</supplied> ;
+Le fils de ce dernier, Kollabigaṇḍa Vijayāditya, pendant six mois ;
+Son fils, le roi Amma, pendant sept <supplied reason="subaudible">ans</supplied> ;
+Après avoir chassé le fils de celui-ci, Vijayāditya, alors qu’il était enfant, Tālapa <supplied reason="subaudible">régna</supplied> pendant un mois ;
+Après avoir vaincu ce dernier, le fils du roi Cālukya Bhīma, Vikramāditya <supplied reason="subaudible">régna</supplied> pendant onze mois ;
+Puis, fils du roi Tālapa, Yuddhamalla pendant sept <supplied reason="subaudible">ans</supplied> ;
+Ayant vaincu celui-ci, le fils de Kollabigaṇḍa Vijayāditya, le roi Bhīma, <supplied reason="subaudible">régna</supplied> pendant douze <supplied reason="subaudible">ans</supplied> ;
+Du roi Bhīma, manifestation de Maheśvara, et de Lokamahādevī, dont la beauté était telle que celle d’Umā, naquit celui qui était vraiment semblable à Kumāra, le roi nommé Amma, qui régna sur le royaume de Veṁgī et sur les trois Kaliṁga conformément en tout point au <foreign>dharma</foreign>.</p>
+<p rend="stanza" n="1">Le seigneur Bādapa, auquel Vallabha était soumis, roi surnommé Karṇa,
+chassa du pays le puissant roi nommé Amma.</p>
+<p rend="stanza" n="2">Ayant vaincu les Dāya, écrasé la multitude de ses ennemis, donné aux mendiants un amas de biens,
+honoré ses alliés, lui dont la haute gloire était ornée par la foule de toutes ses vertus,
+fier, intelligent, <supplied reason="subaudible">étant</supplied> toute splendeur, se conduisant selon les préceptes de Manu, il resplendit en protégeant la terre ,
+lui le seigneur de Veṁgī, fils du roi Yuddhamalla, le grand roi nommé Bādapa.</p>
+<p rend="stanza" n="3">Sous son règne, doté d’une abondance de terres cultivées de toutes sortes,
+le pays est voué au dharma, exempt de calamités, de maladie et de voleur.</p>
+<p rend="stanza" n="4">Tel Manu pour tous les êtres, tel un père pour les foules innombrables de serviteurs,
+tel Kāma pour les les femmes amoureuses, pour les suppliants tel l’arbre à vœux,</p>
+<p n="22-25">celui-ci, refuge de l’univers entier, illustre, Vijayāditya, souverain suprême des grands rois, excellent seigneur, excellent dévôt de Māheśvara, très pieux, qui médite aux pieds de sa mère et de son père, ordonne ceci à tous les chefs de famille rassemblés, habitant le <foreign>viṣaya</foreign> de Velanāṇḍu, <foreign>rāṣṭrakūṭa</foreign> en tête :
+qu’il soit connu de vous que :</p>
+<p rend="stanza" n="5">l’excellent archer, dont on loue la grandeur incomparable <supplied reason="subaudible">en se disant</supplied> :  « c’est le meutrier de Kārtavīrya rené dans le Kaliyuga »,
+<supplied reason="subaudible">lui qui est</supplied> semblable à Rāma et Arjuna <supplied reason="subaudible">est</supplied> connu sous le nom sans pareil de Bāḷaditya, voué au dharma, à la parole vraie,
+protecteur, feu destructeur pour ses ennemis.</p>
+<p rend="stanza" n="6">Son fils, loué sous le nom de Nr̥pakāma, connaisseur de vérité,
+et qui acquit la science de l’arc, dont l’abondante vaillance est célèbre,
+dans son rāṣṭra, sur les routes, le vent n’emporte pas les vêtements des voyageurs,
+les voleurs .... par les flammes de son tāpas.</p>
+<p rend="stanza" n="7">Du fait que ses ennemis soient vaincus par son arc, il porte le nom de Kārmukārjuna,<note>Allusion à l’arc invincible d’Arjuna.</note>
+et du fait de .... la vérité, il est connu sous le nom de Satyaballāta.</p>
+<p rend="stanza" n="8">Les nombreux brahmanes avisés le tiennent pour le maître Vyāsa,
+les rois pour leur allié,
+en raison de son affection ... pour leur père, les affligés pour l’arbre à vœux,
+et pourtant voilà qui est merveilleux : les archers, bien qu’il soit seul, le prennent pour un puissant Pārtha qui se démultiplierait,
+cet illustre et excellent roi Kārmukārjjuna, et les femmes habitées par Kāma pour Kāma.</p>
+<p rend="stanza" n="9">Lui, dont la vaillance est immense, qui se révèle un obstacle dans les combats contre les multitudes de rois ennemis,
+dont les dons charmants satisfont les brahmanes, ceux qui s’en remettent à lui et les affligés,
+dont la gloire, blanche comme la lune, illumine la terre entière,
+le valeureux, bon et puissant Kārmukārjuna Saronātha<note>Ce biruda celui des vers suivants semble faire allusion à l’évergétisme du roi qui finance des travaux d’irrigation. Ce composé n’apparaît pas dans les autres inscriptions du corpus.</note> resplendit.</p>
+<p rend="stanza" n="10">Le vertueux Nr̥pakāma Saraḥpati resplendit, source de joie pour ces lotus que sont les visages des hommes qui dépendent de lui,
+masse de rayons en perpétuelle ascension sur cette terre, irréprochable, pareil au soleil qui repousserait ces ténèbres que sont ses ennemis.</p>
+<p rend="stanza" n="11">Orné d’un collier de perles que sont ses vertus profondes : générosité, immense compassion, force, habileté manifeste, pureté, patience,
+fierté et dévotion à l’égard de Śiva insurpassable,
+source de joie pour les malheureux, les hommes sans protection, les danseurs, les aveugles, les êtres démunis, les poètes, les grands orateurs et les deux-fois nés,
+glorieux, dont on célèbre la gloire, victorieux dans les batailles, lui, le roi illustre Satyaballāta resplendit.</p>
+<p rend="stanza" n="12">Doué de vertus resplendissantes, d’une gloire resplendissante, maître du cercles des horizons qu’il fait resplendir, lui dont les ennemis sont domptés,
+lieu de naissance de la compassion suscitée par le cycle des existences et possédant les jouissances qu’apportent la prospérité,<note><foreign>Laṭānuprāsa</foreign> fondé sur le terme <foreign>bhava</foreign> qui est employé dans trois sens différents.</note> il rayonne, entouré de gloire.</p>
+<p rend="stanza" n="13">Doté de la splendeur du soleil, destructeur des ennemis, excellent archer, doué de prospérité, modestie, patience, autorité, compassion, exempt de crainte,
+destructeur des vices, il brille sans cesse sur cette terre, voué à la vérité, lui, le bon Nr̥pakāma, Śauri.</p>
+<p rend="stanza" n="14">Lui qui, seul, tua, avec son poignard, cinq héros, grâce à sa force,
+et, avec son arc bandé aussitôt que saisi, des milliers d’ennemis lors d’un combat, resplendit.</p>
+<p rend="stanza" n="15">De même que les épouses de Brahma, Īśa, Indra, Hr̥ṣīkeśa, Kumāra
+étaient respectivement la déesse de la Parole, Umā, Śacī, Lakṣmī, Jayaśrī,</p>
+<p rend="stanza" n="16">de même, l’aimable épouse de Nr̥pakāma Saraḥpati, pareil à ces <supplied reason="subaudible">dieux</supplied>,
+fut pareille à ces <supplied reason="subaudible">déesses</supplied>, connue sous le nom de Nāyamaṁbā,</p>
+<p rend="stanza" n="17">pourvue de toutes les marques auspicieuses, parée de tous les ornements,
+connaissant toute l’essence des devoirs des femmes, épouse à la conduite pure.</p>
+<p rend="stanza" n="18">De cette femme fidèlee, celui qui porte le nom de Satyaballāta
+donna naissance à un fils méritant nommé Gaṇḍanārāyaṇa.<note>L’ordre des <foreign>pāda</foreign> n’a pu être conservé.</note></p>
+<p rend="stanza" n="19">De même que Guha naquit d’Umā et Vr̥ṣāṁka, Jayanta de Śacī et d’Indra,
+le nommé Jayanta fut le fils de ces deux <supplied reason="subaudible">êtres</supplied> qui étaient pareils à ces <supplied reason="subaudible">divinités</supplied>.</p>
+<p rend="stanza" n="20">Il avait un large torse et des épaules de taureau, un courage pareil à celui de Skanda,
+il était très audacieux, très persévérant, et possédait des bras puissants et une grande force,</p>
+<p rend="stanza" n="21">fils aîné de Nr̥pakāma Saronātha, très intelligent,
+l’illustre Gaṇḍanārāyaṇa, expert dans la monte des éléphants et des chevaux,</p>
+<p rend="stanza" n="22">adroit, instruit, pur, habile par nature, doué d’une bonne conduite et de vertus,
+le meilleur des archers et le meilleur dans tous les arts,</p>
+<p rend="stanza" n="23">abeille sur les lotus que sont les pieds de sa mère et de son père, soleil pour les hommes,
+lui, nommé Gaṇḍanārāyaṇa, le meilleur de tous les hommes en armes.</p>
+<p rend="stanza" n="24">A celui-ci, Bādapa roi suprême des rois, rois des rois,
+satisfait, donna le grand village célèbre sous le nom d’Āruṁbāka.</p>
+<p n="56-62">J’ai donné à ce Gaṇḍanārāyaṇa, le village nommé Āruṁbāka, dans le viṣaya de Velanāṇḍu, exempté de toute taxe, <supplied reason="subaudible">moi</supplied> qui ai fait cet édit de cuivre.
+Ayant pris possession de ce village donné par le roi des rois Bādapa,
+Gaṇḍanārāyaṇa, l’a donné à sa mère Nāyamaṁbā. La jeune sœur de celle-ci est Sāmakāṁbā. Le fils de cette dernière est appelé Candeṇa. Après en avoir pris possession, elle a donné à <supplied reason="subaudible">son fils</supplied> appelé Candeṇa le village nommé Āruṁbāka, après avoir fait une libation d’eau.
+Ayant pris possession de ce village, le nommé Candeṇa resplendit comme la pleine lune quand elle s’est approprié ses <supplied reason="subaudible">seize</supplied> quartiers.</p>
+<p rend="stanza" n="25">Jeune héros, qu’il faut compter parmi les meilleurs guerriers, Saras pour les hommes, connaissant tous les Āgama,
+doué de compassion, destructueur des orgueilleux ennemis, lui dont l’ascension est charmante, resplendit, le bon et noble Candena.</p>
+<p n="63-65">
+Les limites de ce villages <supplied reason="subaudible">sont</supplied> :
+à l’est Ceṟukuṁ balli,
+au sud Śrīpūṇḍi,
+à l’ouest Kāvūru,
+au nord Gomaḍuvu.
+Aucune charge ne doit lui être imposée à ce village, celui qui en impose est lié aux cinq grands crimes.</p>
+<p rend="stanza" n="26">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre
+renaît ver de terre dans des excréments pendant soixante mille ans.</p>
+<p n="66-67">Vyāsa a dit :</p>
+<p rend="stanza" n="27">Beaucoup ont donné une terre, beaucoup l’ont protégée,
+celui qui possède cette terre en possède les bénéfices.</p>
+<p rend="stanza" n="28">L’exécuteur est le kaṭakanr̥pa, le poète est Ayyanabhaṭṭa, qui connaît tous les traités. L’édit a été gravé par Bhaṭṭadeva, <supplied reason="subaudible">il perdurera</supplied> aussi longtemps que la lune, le soleil et les étoiles.</p>
   
   </div>
 </div>
