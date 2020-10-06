@@ -51,7 +51,8 @@
             <handDesc>
               <p>Halantas. Final M is quite small and raised, consisting of a circle with a single sinuous tail on the top left (much like a lowercase delta, 𝛿). E.g. l9 trayastriṁśataM. Final T is a full-sized ta without headmark, with a short and sinuous vertical tail at the top right, much like a repha. E.g. l8 anvapalayaT.</p>
               <p>Original punctuation marks are pairs of straight verticals about the height of a character body, usually, but not always, with a small hook at the top, bending at a right angle to the left. Final N is also a full-size na without headmark, with a vertical tail curving to the right (not a sinuous one). E.g. l11 māsāN.<!--For the time being, I'm using / for the hooked ones and | for the plain ones.--></p>
-              <p>Other palaeographic observations. Dependent o is sometimes formed with the modern/cursive single stroke that starts at the top left of a consonant, turns up and right, has a notch in the middle, then bends down on the right and extends below the headline. Fleet reads sagautrānāṁ and emends to go in l1, but reads the same stroke as o in e.g. l11 kokkili and jyeṣṭho. I prefer instead to see all of these as o, and thus read kauśikī in l2 and emend. The marker used here does not, to my eye differ from that for o, in which too the right-hand hump is taller, and the tail is extended downward. Both forms are present in l26 °ādhipopo, where the first po has the cursive marker and the second has two separate strokes on the left and right. Sandhi of a final s with an initial ṣ is written as a double ṣ, clearly not a jihvāmūlīya. E.g. l11 kokkiliṣ ṣaṇ; l13 varddhanaṣ ṣaṭ.
+              <p>Other palaeographic observations. Dependent o is sometimes formed with the modern/cursive single stroke that starts at the top left of a consonant, turns up and right, has a notch in the middle, then bends down on the right and extends below the headline. Fleet reads some of these as au and emends (e.g. l1 sagautrānāṁ, l47 gautama-gautra), but reads others as the expected o (e.g. l11 kokkili, jyeṣṭho). I prefer, in most instances, to read the ambiguous grapheme as the expected vowel. On a few occasions, where o is expected yet the stroke is particularly asymmetrical (the right hump being much larger) and/or its tail extends particularly far down, I read au and normalise to o. (These include l11 kaukkili, where I think au was definitely intended by the scribe. Is this a Sanskrit derivation of the name from kokila?) Instances where I read the ambiguous stroke as o are marked in the XML with a comment.</p>
+<p>-->Sandhi of a final s with an initial ṣ is written as a double ṣ, clearly not a jihvāmūlīya. E.g. l11 kokkiliṣ ṣaṇ; l13 varddhanaṣ ṣaṭ. Upadhmānīya is used repeatedly and is in shape identical to ṟa, though slightly smaller. Its use is quite consistent; the only visarga before p is in line 61 where a sentence end is to be understood after asyāvadhayaḥ. On two other occasions, visarga/upadhmānīya is omitted before p (l10 yuvarāja paṁca; l39 hetu pradveṣi, falling on a pāda boundary).
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -80,8 +81,8 @@
 <p><pb 
 
 n="1v"/><lb 
-n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvanasaṁstūy<choice><sic>ā</sic><corr>a</corr></choice>māna-mānavya-sago<lb 
-n="2" break="no"/>trānāṁ hārīti-putrāṇāṁ k<choice><sic>o</sic><corr>au</corr></choice>śikī-vara-prasāda-labdha-rājyānāṁ mā<lb 
+n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvanasaṁstūy<choice><sic>ā</sic><corr>a</corr></choice>māna-mānavya-sago<!--cursive o--><lb 
+n="2" break="no"/>trānāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mā<lb 
 n="3" break="no"/>t<choice><orig>ru</orig><reg>r̥</reg></choice>-gaṇa-paripālitānāṁ svāmi-<supplied reason="omitted">ma</supplied>hāsena-pādānudhyātānāṁ bhagava<lb 
 n="4" break="no"/>n-nārāya<space type="binding-hole"/>ṇa-prasāda-samāsādita-vara-varāha-lāṁ<choice><sic>c</sic><corr>ch</corr></choice>a<lb 
 n="5" break="no"/>nekṣaṇa-kṣa<space type="binding-hole"/>ṇa-vaśīkr̥tārāti-maṇḍalānām aśvamedhāva<lb 
@@ -92,10 +93,10 @@ n="8"/>varṣ<choice><sic>a</sic><corr>ā</corr></choice>ṇi veṁgi-maṇḍal
 n="2r" break="no"/><lb 
 n="9" break="no"/>s trayastriṁśataM// tad-anujendra-rāja-nandano viṣṇuvarddhano <supplied reason="omitted">nava</supplied> varṣ<unclear>ā</unclear>ṇi<unclear>//</unclear> <lb 
 n="10"/>tad-anujo maṁ<orig>gg</orig>i-yuvarāja<supplied reason="omitted">ḥ</supplied> paṁca-viṁśatiM// tat-putro jayasi<lb 
-n="11" break="no"/>ṁhas trayodaśa<unclear>||</unclear> tasya dvaimāturaḥ kokkili<orig>ṣ</orig> ṣaṇ māsāN// tasya jye<lb 
-n="12" break="no"/>ṣṭho bhrātā vi<space type="binding-hole"/>ṣṇuva<supplied reason="omitted">r</supplied>ddhanas sapta<orig>tt</orig>riṁśataM// tat-suto vija<lb 
-n="13" break="no"/>yāditya-bha<space type="binding-hole"/>ṭṭ<unclear>ā</unclear>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa// tat-sūn<choice><sic>ū</sic><corr>u</corr></choice><choice><sic>m</sic><corr>rv</corr></choice>viṣṇuvarddhana<orig>ṣ</orig> ṣaṭ-tri<unclear>ṁ</unclear><lb 
-n="14" break="no"/>śataM// tat-sūnur aṣṭottara-śata-mita-narendreś<supplied reason="omitted">v</supplied>ara-karaṇāraṇa-gaṇāri<lb 
+n="11" break="no"/>ṁhas trayodaśa<unclear>||</unclear> tasya dvaimāturaḥ k<choice><orig>au</orig><reg>o</reg></choice>kkili<orig>ṣ</orig> ṣaṇ māsāN// tasya jye<lb 
+n="12" break="no"/>ṣṭho<!--cursive o--> bhrātā vi<space type="binding-hole"/>ṣṇuva<supplied reason="omitted">r</supplied>ddhanas sapta<orig>tt</orig>riṁśataM// tat-suto<!--cursive o--> vija<lb 
+n="13" break="no"/>yāditya-bha<space type="binding-hole"/>ṭṭ<unclear>ā</unclear>rako<!--cursive o--> <supplied reason="subaudible">’</supplied>ṣṭādaśa// tat-sūn<choice><sic>ū</sic><corr>u</corr></choice><choice><sic>m</sic><corr>rv</corr></choice>viṣṇuvarddhana<orig>ṣ</orig> ṣaṭ-tri<unclear>ṁ</unclear><lb 
+n="14" break="no"/>śataM// tat-sūnur aṣṭ<choice><orig>au</orig><reg>o</reg></choice>ttara-śata-mita-narendreś<supplied reason="omitted">v</supplied>ara-karaṇāraṇa-gaṇāri<lb 
 n="15" break="no"/>-vijiti-saṁprāpta-k<choice><sic>i</sic><corr>ī</corr></choice>rtti<supplied reason="omitted">r</supplied> mm<choice><sic>u</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>t<supplied reason="omitted">t</supplied>imān dharmma Iva narendra-mr̥<supplied reason="omitted">ga</supplied>-rāj<choice><sic>e</sic><corr>o</corr></choice> <supplied reason="subaudible">’</supplied>ṣṭacatvāri<lb 
 n="16" break="no"/>ṁśataM// tat-sūnuḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhya<supplied reason="omitted">r</supplied>ddha-varṣamM// tat-sūnu<supplied reason="omitted">r</supplied> mmaṁ<orig>gg</orig>i-ha<pb 
 
@@ -109,7 +110,7 @@ n="20" break="no"/>reṇa vija<space type="binding-hole"/>yādityo vij<choice><s
 <l n="b">sv<choice><sic>ai</sic><corr>e</corr></choice>naikena ga<lb 
 n="21" break="no"/>jena vāra<space type="binding-hole"/><choice><sic>n</sic><corr>ṇ</corr></choice>a-gh<choice><sic>ā</sic><corr>a</corr></choice>ṭ<choice><sic>a</sic><corr>ā</corr></choice>r<choice><sic>u</sic><corr>ū</corr></choice>ḍhān k<choice><sic>u</sic><corr>a</corr></choice>liṁgādhipā<supplied reason="omitted">N</supplied><unclear>|</unclear></l>
 <l n="c" enjamb="yes">Āru<lb 
-n="22" break="no"/>hyo<choice><orig>j</orig><reg>jj</reg></choice>vala-hema-kalpita-tulā-koṭiṁ vadānyo jaya</l>
+n="22" break="no"/>hyo<choice><orig>j</orig><reg>jj</reg></choice>vala-hema-kalpita-tulā-ko<!--cursive o-->ṭiṁ vadānyo jaya</l>
 <l n="d">-staṁbhaṁ <lb 
 n="23"/>k<choice><sic>i</sic><corr>ī</corr></choice>rttimayan nidhāya viraje ṣaṇ-māsam ās<choice><sic>i</sic><corr>ī</corr></choice>n nr̥paḥ/</l>
 </lg>
@@ -117,8 +118,8 @@ n="23"/>k<choice><sic>i</sic><corr>ī</corr></choice>rttimayan nidhāya viraje �
 
 n="3r" break="no"/><lb 
 n="25" break="no"/>dityaṁ kr̥ta-kaṇṭhikā-paṭṭa-bandhābh<choice><sic>ī</sic><corr>i</corr></choice>ṣekaM// bālam uccāṭya <lb 
-n="26"/>tāḷ<choice><sic>a</sic><corr>ā</corr></choice>dhipo<surplus>po</surplus> māsam ekaM// ta<supplied reason="omitted">ṁ</supplied> yudhi vinihatya punaś c<unclear>ā</unclear><lb 
-n="27" break="no"/>lukya-bhīma-bhūpātmajo vikramāditya-rājaḥ Ekādaśa mā<lb 
+n="26"/>tāḷ<choice><sic>a</sic><corr>ā</corr></choice>dhi<surplus>po<!--cursive o--></surplus>po māsam ekaM// ta<supplied reason="omitted">ṁ</supplied> yudhi vinihatya punaś c<unclear>ā</unclear><lb 
+n="27" break="no"/>lukya-bhīma-bhūpātmajo<!--cursive o--> vikramāditya-rājaḥ Ekādaśa mā<lb 
 n="28" break="no"/>sān bhuvam a<space type="binding-hole"/>nvapālayaT//</p>
 <lg n="2" met="śārdūlavikrīḍita">
 <l n="a">ta<choice><sic>b</sic><corr>m</corr></choice> bhi<choice><orig>t</orig><reg>tt</reg></choice>vā yudhi bhīma<lb 
@@ -126,7 +127,7 @@ n="29" break="no"/>-sannibha-ba<space type="binding-hole"/>lo bh<choice><sic>i</
 <l n="b">san māsā<lb 
 n="30" break="no"/>ṣṭakam āvad eva vasudhāṁ vyāpādya taṁ saṁyuge</l>
 <l n="c">tāḷa-jye<lb 
-n="31" break="no"/>ṣṭha-suto <supplied reason="subaudible">’</supplied>tha malla-nr̥patis saptānvapād vatsar<choice><sic>a</sic><corr>ā</corr></choice>n</l>
+n="31" break="no"/>ṣṭha-suto<!--cursive o--> <supplied reason="subaudible">’</supplied>tha malla-nr̥patis saptānvapād vatsar<choice><sic>a</sic><corr>ā</corr></choice>n</l>
 <l n="d">utsāryy<choice><sic>a</sic><corr>ā</corr></choice><lb 
 n="32" break="no"/>tha tam agrahīt kula-bhuvaṁ paṭṭena bhīmo nr̥paḥ/</l>
 </lg>
@@ -146,27 +147,40 @@ n="35" break="no"/>nasāt-kr̥taṁ sa-mānaM/</l>
 n="36" break="no"/>ti-kṣānt<choice><sic>a</sic><corr>i</corr></choice>m<choice><sic>ā</sic><corr>a</corr></choice><space type="binding-hole"/>tyām</l>
 <l n="b">atyādityo jagati vijayāditya <lb 
 n="37" break="no"/>Ājījana<space type="binding-hole"/>d yaM</l>
-<l n="c">dharmmendrāgni-trinayana-dhaneśoda<lb 
+<l n="c">dharmmendrāgni-trinayana-dhaneśo<!--cursive o-->da<lb 
 n="38" break="no"/>keśādi-dha<supplied reason="omitted">r</supplied>mma<supplied reason="omitted">ṁ</supplied></l>
 <l n="d">senā-nāthan tripura-mathanaḥ kanyakāyā<supplied reason="omitted">ṁ</supplied> ya<unclear>th</unclear>ā<unclear cert="low">huḥ</unclear></l>
 </lg>
 <lg n="5" met="indravajrā">
-<l n="a"><lb n="39"/>@@@mitrāravinda-pratibodha-hetu[ḥ*]
-pradveṣi-nīhāra-vighāta-hetuḥ[+|]
-yasyocchr̥taṁ1835 teja ihaijate kau
-tejasvinas teja ivātipūta[m*][+||] (3)
+<l n="a"><lb n="39"/>mitrāravinda-pratibodha-hetu<supplied reason="omitted">ḥ</supplied></l>
+<l n="b">pradveṣi-nīhāra-vighāta-<unclear>he</unclear>tu<unclear>ḥ</unclear></l>
+<l n="c"><lb 
+n="40"/>yasyoc<choice><sic>c</sic><corr>ch</corr></choice><choice><sic>r̥</sic><corr>ri</corr></choice>tan teja Ihaijate kau</l>
+<l n="d">tejasvinas teja ivātipūta<supplied reason="omitted">M</supplied></l>
+</lg>
+<lg n="6" met="gīti">
+<l n="ab"><pb 
 
-Face IVa.
-yasmin śāsati vasudhāṁ vasubhis sa[ṁ*]pūrṇṇa1836-sakala-janatā[ṁ] ca rājani dharmma-tanūje yathā manu-prokta-dharmma-saṁpanne[+||]</l></lg>
-<p>
-sa (s)sarvva-lokāśraya-śrī-viṣṇuvarddhana-mahārājādhirājaḫ1837 para[ma]-māheśvaraḫ parama-brahmaṇyo1838 mātāpitr̥pādānudhyātaś calukya-bhīma-gaṇḍa-mahendra[ḥ*] siṁhāsana1839-maṁḍapārūḍhaḫ1840 pāgunavara-viṣaya-nivāsino rāṣṭrakūṭa1841-pramukhān sarvvān samāhūye(r)ttham1842 ājñāpayati1843[+||]
-viditam astu vaḥ[+|]
-śrīmān gautama-gotra1844-jo dvija-varas sad-vartma-gaḫ
-puṇya-bhāg nādatte1845
+n="4r"/><lb 
+n="41"/>yasmin śāsati vasudhāṁ vasubhis sa<supplied reason="omitted">ṁ</supplied>pūr<choice><sic>nn</sic><corr>ṇṇ</corr></choice>a-sakala-janatā<unclear>ṁ ca//</unclear></l>
+<l n="cd"><lb 
+n="42"/>rājani dharmma-tanūje yathā-manu-pro<!--cursive o-->kta-dharmma-saṁpanne/</l>
+</lg>
+<p>sa<orig>s</orig> sa<lb 
+n="43"/>rvva-lokāśraya-śrī-viṣṇuvarddhana-mahārāj<choice><sic>a</sic><corr>ā</corr></choice>dhirājaḫ para<unclear>ma</unclear>-mā<lb 
+n="44" break="no"/>heśvaraḫ pa<space type="binding-hole"/>rama-brahm<choice><sic>ā</sic><corr>a</corr></choice>ṇyo mātā-pitr̥-pādānudhyāta<lb 
+n="45" break="no"/>ś c<orig>a</orig>lukya-bhī<space type="binding-hole"/>ma-gaṇḍa-mahendra<supplied reason="omitted">ḥ</supplied> siṁhās<del>th</del>an<choice><sic>ā</sic><corr>a</corr></choice>-maṁ<choice><sic>ṭ</sic><corr>ḍ</corr></choice>a<supplied reason="omitted">pā</supplied>rū<choice><sic>ḍ</sic><corr>ḍh</corr></choice>a<lb 
+n="46" break="no"/>ḫ pāgunavara-viṣaya-nivāsino rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pramukhān sarvvān samā<lb n="47" break="no"/>h<choice><sic><subst><del rend="corrected">ā</del><add place="overstrike">u</add></subst></sic><corr>ū</corr></choice>ye<surplus>r</surplus>ttham ājñ<orig>a</orig>payati</p>
+<p>viditam astu vaḥ</p>
+<lg n="7" met="śārdūlavikrīḍita">
+<l n="a">śrīmān gautama-go<!--cursive o-->tra<lb 
+n="48" break="no"/>-jo dvija-varas sad-vartma-gaḫ puṇya-bhāg</l>
+<l n="b">nād<choice><sic>ā</sic><corr>a</corr></choice>tte vasudhām api kṣiti<pb 
 
-Face IVb.
-vasudhāṁ api kṣiti-talādhīśais su-vaṁśodbhavaiḥ1846[+|]
-dattāṁ1847tūrkkama-bhūsuraḥ krama-yutaḥ khyātaḥ kṣitau sad-guṇai[ḥ*]
+n="4v" break="no"/><lb 
+n="49" break="no"/>-talādhīśais su-vaṁśo<!--cursive o-->d<choice><sic>dh</sic><corr>bh</corr></choice>avaiḥ</l>
+<l n="c">datt<choice><sic>a</sic><corr>ā</corr></choice>ṁ tūrkkama-bhūsuraḥ krama-yu<lb 
+n="50" break="no"/>@@@taḥ khyātaḥ kṣitau sad-guṇai[ḥ*]
 dīnānanda-vidhāyi-dāna-nirataḫ pūj[y*]as satāṁ sarvvadā(n)[+||] (4)
 tad-ātmajo dik-prathito guṇaughai[r*]
 dvijendra-vaṁśā[ṁ*]bara-pūrṇṇa-candraḥ[+|]
@@ -198,7 +212,7 @@ yasya yasya yadā1860 bhūmis tasya tasya ta[dā*] phalam[+||] (9)
 sva-dattāṁ para-dattāṁ vā yo hareta vasundharām[+|]
 ṣaṣṭi-varśa-sahasrāṇi viṣṭāyā[ṁ*]1861 j[āya*]te kr̥miḥ[+||] (10)
 
-</p>
+</l></lg>
 <pb n="5v"/>
 </div>
 </div>
@@ -283,6 +297,22 @@ sva-dattāṁ para-dattāṁ vā yo hareta vasundharām[+|]
         <lem source="bib:Fleet1884_03">ya<unclear>th</unclear>ā<unclear cert="low">huḥ</unclear></lem>
         <note>The last character is illegible in my facsimiles. I tentatively adopt Fleet's reading, which is itself tentative. Given that the word fits the syntax very badly and the character looks rather like it has a subscript <foreign>r</foreign>, the reading probably needs to be revised from a photo. If correct, the <foreign>visarga</foreign> should probably be marked as an omitted character, since there seems to be no room for it before the edge.</note>
       </app>
+      <app loc="43">
+        <lem>-mā<lb n="44" break="no"/>heśvaraḫ</lem>
+        <note>Here too, Fleet notes that the vowel of <foreign>mā</foreign> is not visible in the estampage, but present in the original.</note>
+      </app>
+      <app loc="45">
+        <lem>siṁhās<del>th</del>an<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
+        <note>The deleted <foreign>th</foreign>, which Fleet describes as partially erased, is very clear in Fleet's rubbing. There may also be a deleted <foreign>ā</foreign> attached to this character, which is only visible in Elliot's rubbing. There also seems to be plenty of noise around the preceding characters <foreign>hendra si</foreign>; photos of the original may tell whether something (perhaps <foreign>maheśvara</foreign>?) has been deleted here.</note>
+      </app>
+      <app loc="46">
+        <lem>samā<lb n="47" break="no"/>h<choice><sic><subst><del rend="corrected">ā</del><add place="overstrike">u</add></subst></sic><corr>ū</corr></choice>ye<surplus>r</surplus>ttham</lem>
+        <note>Fleet does not note a correction here, but merely reads <foreign>hu=ā</foreign> and emends to <foreign>hū</foreign>. The marker for <foreign>u</foreign> is attached to the baseline of <foreign>h</foreign> and cuts twice across the extended final hook of <foreign>h</foreign>, which is why I believe it was added subsequently, and probably only after the following line had been inscribed. The most likely assumption is thus that an initially inscribed <foreign>hā</foreign> was corrected to <foreign>hu</foreign> (intended for <foreign>hū</foreign>). A proper <foreign>ū</foreign>, rising to body height on the right of <foreign>h</foreign>, was impossible to add at this stage, because the next character on the right is too close. However, it is also possible that the <foreign>ā</foreign> marker has been deliberately employed as a length marker for the <foreign>u</foreign>. In this case too, I think correction must lie in the background, either from an initially inscribed <foreign>ha</foreign> (adding a combined <foreign>u</foreign> and <foreign>ā</foreign>, to represent <foreign>ū</foreign> in a way that fits in the available space), or an initially inscribed <foreign>hā</foreign> (adding <foreign>u</foreign> and deliberately not deleting <foreign>ā</foreign>, with the same intent).</note>
+      </app>
+      <app loc="49">
+        <lem>-vaṁśod<choice><sic>dh</sic><corr>bh</corr></choice>avaiḥ</lem>
+        <rdg source="bib:Fleet1884_03">-vaṁśod<choice><sic>v</sic><corr>bh</corr></choice>avaiḥ</rdg>
+      </app>
       
       
       
@@ -316,7 +346,7 @@ sva-dattāṁ para-dattāṁ vā yo hareta vasundharām[+|]
 
 
 <div type="commentary">
-<p>Late caesura in v1a (śārdūlavikrīḍita), vijayā/dityo. Also compound across odd pāda boundary in v1c-d. Early caesura in v4c (mandākrāntā), dhaneś/odakeśādi.</p>
+<p>Late caesura in v1a (śārdūlavikrīḍita), vijayā/dityo. Also compound across odd pāda boundary in v1c-d. Early caesura in v4c (mandākrāntā), dhaneś/odakeśādi. Regular fused (late) caesura in v7b (śārdūlavikrīḍita), kṣiti-talā/dhīśais.</p>
 <p>A <foreign>jaya-stambha</foreign> erected by Kollabigaṇḍa Vijayāditya's father Bhīma I is mentioned in line 35 of the <ref target="CalE34-Kakamranu-Bhima1.xml">Kākamrāṇu grant of Bhīma I</ref>. Closer to home, Kollabigaṇḍa Vijayāditya is said to have died in battle at Virajāpurī in a grant of Rājarāja II (<bibl><ptr target="bib:ARIE1917-1918"/><citedRange>116</citedRange></bibl>), and a son of Bhīma I is said to have erected a pillar of victory at Viraja in a grant of Śaktivarman (<bibl><ptr target="bib:ARIE1918-1919"/><citedRange>132</citedRange></bibl>). I have not traced whether these grants have been properly published.</p>
 </div>
 
