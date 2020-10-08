@@ -51,7 +51,7 @@
             <handDesc>
               <p>Halantas. Final M is quite small and raised, consisting of a circle with a single sinuous tail on the top left (much like a lowercase delta, 𝛿). E.g. l9 trayastriṁśataM. Final T is a full-sized ta without headmark, with a short and sinuous vertical tail at the top right, much like a repha. E.g. l8 anvapalayaT. Final N is a raised and reduced na with no headmark an elongated tail that bends slightly to the right.</p>
               <p>Original punctuation marks are pairs of straight verticals about the height of a character body, usually, but not always, with a small hook at the top, bending at a right angle to the left. Final N is also a full-size na without headmark, with a vertical tail curving to the right (not a sinuous one). E.g. l11 māsāN.</p>
-              <p>Other palaeographic observations. Dependent o is sometimes formed with the modern/cursive single stroke that starts at the top left of a consonant, turns up and right, has a notch in the middle, then bends down on the right and extends below the headline. Fleet reads some of these as au and emends (e.g. l1 sagautrānāṁ, l47 gautama-gautra), but reads others as the expected o (e.g. l11 kokkili, jyeṣṭho). I prefer, in most instances, to read the ambiguous grapheme as the expected vowel. On a few occasions, where o is expected yet the stroke is particularly asymmetrical (the right hump being much larger) and/or its tail extends particularly far down, I read au and normalise to o. (These include l11 kaukkili, where I think au was definitely intended by the scribe. Is this a Sanskrit derivation of the name from kokila?) Instances where I read the ambiguous stroke as o are marked in the XML with a comment.</p>
+              <p>Other palaeographic observations. Dependent o is sometimes formed with the modern/cursive single stroke that starts at the top left of a consonant, turns up and right, has a notch in the middle, then bends down on the right and extends below the headline. Fleet reads some of these as au and emends (e.g. l1 sagautrānāṁ, l47 gautama-gautra), but reads others as the expected o (e.g. l11 kokkili, jyeṣṭho). I prefer, in most instances, to read the ambiguous grapheme as the expected vowel. On a few occasions, where o is expected yet the stroke is particularly asymmetrical (the right hump being much larger) and/or its tail extends particularly far down, I read au and normalise to o. (These include l11 kaukkili, where I think au was definitely intended by the scribe. Is this a Sanskrit derivation of the name from kokila?) Instances where I read the ambiguous stroke as o are marked in the XML with a comment. See also the apparatus to tāḷadhipopo in line 26.</p>
 <p>-->Sandhi of a final s with an initial ṣ is written as a double ṣ, clearly not a jihvāmūlīya. E.g. l11 kokkiliṣ ṣaṇ; l13 varddhanaṣ ṣaṭ. Upadhmānīya is used repeatedly and is in shape identical to ṟa, though slightly smaller. Its use is quite consistent; the only visarga before p is in line 61 where a sentence end is to be understood after asyāvadhayaḥ. On two other occasions, visarga/upadhmānīya is omitted before p (l10 yuvarāja paṁca; l39 hetu pradveṣi, falling on a pāda boundary).
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -117,7 +117,7 @@ n="23"/>k<choice><sic>i</sic><corr>ī</corr></choice>rttimayan nidhāya viraje �
 <p>tasyā<lb n="24"/>gra<unclear>ḥ</unclear> sūnur amma-rājas sap<unclear>t</unclear>a varṣ<unclear>ā</unclear>ṇi<g type="ddandaCross">.</g> tat-suta<supplied reason="omitted">ṁ</supplied> vijayā<pb 
 
 n="3r" break="no"/><lb 
-n="25" break="no"/>dityaṁ kr̥ta-kaṇṭhikā-paṭṭa-bandhābh<choice><sic>ī</sic><corr>i</corr></choice>ṣekaM<g type="ddandaCross">.</g> bālam uccāṭya <lb 
+n="25" break="no"/>dityaṁ kr̥ta-kaṇṭhikā-paṭṭa-bandhābh<choice><sic>ī</sic><corr>i</corr></choice>ṣekaM<surplus><g type="ddandaCross">.</g></surplus> bālam uccāṭya <lb 
 n="26"/>tāḷ<choice><sic>a</sic><corr>ā</corr></choice>dhi<surplus>po<!--cursive o--></surplus>po māsam ekaM<g type="ddandaCross">.</g> ta<supplied reason="omitted">ṁ</supplied> yudhi vinihatya punaś c<unclear>ā</unclear><lb 
 n="27" break="no"/>lukya-bhīma-bhūpātmajo<!--cursive o--> vikramāditya-rājaḥ Ekādaśa mā<lb 
 n="28" break="no"/>sān bhuvam a<space type="binding-hole"/>nvapālayaT<g type="ddandaCross">.</g></p>
@@ -135,7 +135,7 @@ n="32" break="no"/>tha tam agrahīt kula-bhuvaṁ paṭṭena bhīmo nr̥paḥ<g
 <l n="a">tasyaiva vyasa<pb 
 
 n="3v" break="no"/><lb 
-n="33" break="no"/>nam iha trayaṁ j<choice><sic>a</sic><corr>ā</corr></choice>taṁ</l>
+n="33" break="no"/>nam iha trayaṁ <supplied reason="omitted">ca</supplied> j<choice><sic>a</sic><corr>ā</corr></choice>taṁ</l>
 <l n="b">śāstrāstr<choice><sic>a</sic><corr>ā</corr></choice>bhyasanam aninditaṁ ca bhū<lb 
 n="34" break="no"/>yaḥ</l>
 <l n="c">saṁrakṣā sakala-janasya śāstra-dr̥ṣṭyā</l>
@@ -164,7 +164,7 @@ n="40"/>yasyoc<choice><sic>c</sic><corr>ch</corr></choice><choice><sic>r̥</sic>
 n="4r"/><lb 
 n="41"/>yasmin śāsati vasudhāṁ vasubhis sa<supplied reason="omitted">ṁ</supplied>pūr<choice><sic>nn</sic><corr>ṇṇ</corr></choice>a-sakala-janatā<unclear>ṁ ca<g type="ddandaCross">.</g></unclear></l>
 <l n="cd"><lb 
-n="42"/>rājani dharmma-tanūje yathā-manu-pro<!--cursive o-->kta-dharmma-saṁpanne<g type="dandaCross">.</g></l>
+n="42"/>rājani dharmma-tanūje yathā manu-pro<!--cursive o-->kta-dharmma-saṁpanne<g type="dandaCross">.</g></l>
 </lg>
 <p>sa<orig>s</orig> sa<lb 
 n="43"/>rvva-lokāśraya-śrī-viṣṇuvarddhana-mahārāj<choice><sic>a</sic><corr>ā</corr></choice>dhirājaḫ para<unclear>ma</unclear>-mā<lb 
@@ -203,8 +203,8 @@ n="55" break="no"/>masta-vastu-</l>
 <lg n="10" met="upendravajrā">
 <l n="a">gr̥haṁ yadīyaṁ sva<lb 
 n="56" break="no"/>-gr̥haṁ satā<supplied reason="omitted">ṁ</supplied> yad</l>
-<l n="b" enjamb="yes">dhanāni yasyārttha-yutāni pātri-</l>
-<l n="c">samarppaṇāt sa<pb 
+<l n="b" enjamb="yes">dhanāni yasyārttha-yutāni <sic>pātri</sic></l>
+<l n="c">-samarppaṇāt sa<pb 
 
 n="5r" break="no"/><lb 
 n="57" break="no"/>rvva-dig-a<choice><sic>s</sic><corr>n</corr></choice>tarāṇi</l>
@@ -215,7 +215,7 @@ n="57" break="no"/>rvva-dig-a<choice><sic>s</sic><corr>n</corr></choice>tarāṇ
 n="58" break="no"/>ddhatara-pravr̥tti<supplied reason="omitted">r</supplied></l>
 <l n="b">nniyukta-karmmaṇy upadhā-viśuddhaḥ</l>
 <l n="c">satām matas sad-bahu<lb 
-n="59" break="no"/>-po<!--cursive o-->ṣya-v<choice><sic>ā</sic><corr>a</corr></choice>mārggas</l>
+n="59" break="no"/>-po<!--cursive o-->ṣya-v<choice><sic>ā</sic><corr>a</corr></choice>rggas</l>
 <l n="d">samasta-bhūta-priya-vāk-<supplied reason="omitted">k</supplied>riyaś ca<g type="dandaCross">.</g></l>
 </lg>
 <p>tasmai tat-k<supplied reason="omitted">l</supplied>eśātiśaya<lb 
@@ -265,7 +265,7 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
       </app>
       <app loc="21">
         <lem>k<choice><sic>u</sic><corr>a</corr></choice>liṁgā°</lem>
-        <note>I wonder if <foreign>kuliṁga</foreign> is a deliberate slur at the Kaliṅgas rather than an innocuous mistake.</note>
+        <note>The spelling <foreign>kuliṁga</foreign> may be a deliberate slur at the Kaliṅgas rather than an innocuous mistake. See also the note to the translation of this spot and the apparatus to <foreign>-sanduṣmer</foreign> in line 60.</note>
       </app>
       <app loc="23">
         <lem>°ā<lb n="24"/>gra<unclear>ḥ</unclear></lem>
@@ -274,12 +274,12 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
       </app>
       <app loc="24">
         <lem>tat-suta<supplied reason="omitted">ṁ</supplied> <gap reason="ellipsis"/> <pb n="3r" break="no"/><lb n="25" break="no"/> <gap reason="ellipsis"/> °ābh<choice><sic>ī</sic><corr>i</corr></choice>ṣekaM<g type="ddandaCross">.</g></lem>
-        <note>This sequence, ended by what Fleet described as a superfluous punctuation mark, is an almost correct <foreign>āryā</foreign> hemistich. If we reject Fleet's emendation of <foreign>sutaṁ</foreign> and read <foreign>suta-</foreign> and read <foreign>kaṇṭhika</foreign> instead of <foreign>kaṇṭhikā</foreign>, then the only remaining prosodic anomaly is syncopation from the fifth to the sixth foot, something that occurs in other <foreign>āryā</foreign>s in the Eastern Cālukya corpus. However, I see no straightforward way to fit either the preceding or the following sequence to another moraic hemistich. I believe the composer intended this sentence to be prose, but probably adopted the entire passage with some changes from a pre-existing version in moraic verse.</note>
+        <note>This sequence, ended by what Fleet describes as a superfluous punctuation mark, is an almost correct <foreign>āryā</foreign> hemistich. If we reject Fleet's emendation of <foreign>sutaṁ</foreign> and read <foreign>suta-</foreign> and read <foreign>kaṇṭhika</foreign> instead of <foreign>kaṇṭhikā</foreign>, then the only remaining prosodic anomaly is syncopation from the fifth to the sixth foot, something that occurs in other <foreign>āryā</foreign>s in the Eastern Cālukya corpus. However, I see no straightforward way to fit either the preceding or the following sequence to another moraic hemistich. I believe the composer intended this sentence to be prose, but probably adopted the entire passage with some changes from a pre-existing version in moraic verse.</note>
       </app>
       <app loc="26">
-        <lem>tāḷ<choice><sic>a</sic><corr>ā</corr></choice>°</lem>
-        <rdg source="bib:Fleet1884_03">tāh<choice><sic>a</sic><corr>ā</corr></choice>°</rdg>
-        <note>The character in question looks much like <foreign>ha</foreign>, but must nonetheless be <foreign>ḷa</foreign>. It is distinguished in this hand from <foreign>ha</foreign> by the fact that the final hook of the latter bends backward underneath the body, extending beyond the left edge of the body (see e.g. l2 <foreign>hārīti</foreign> and l3 <foreign>hāsena</foreign>), while <foreign>ḷa</foreign> has a smaller hook that does not bend below the body.</note>
+        <lem>tāḷ<choice><sic>a</sic><corr>ā</corr></choice>dhi<surplus>po</surplus>po</lem>
+        <rdg source="bib:Fleet1884_03">tāh<choice><sic>a</sic><corr>ā</corr></choice>dhi<surplus>po</surplus>po</rdg>
+        <note>The second character looks much like <foreign>ha</foreign>, but must nonetheless be <foreign>ḷa</foreign>. It is distinguished in this hand from <foreign>ha</foreign> by the fact that the final hook of the latter bends backward underneath the body, extending beyond the left edge of the body (see e.g. l2 <foreign>hārīti</foreign> and l3 <foreign>hāsena</foreign>), while <foreign>ḷa</foreign> has a smaller hook that does not bend below the body. In the dittography <foreign>popo</foreign>, the first instance is written with a cursive <foreign>o</foreign> (see also the palaeographic description), and the second with a traditional <foreign>o</foreign> of two strokes. The repetition of the syllable may be a correction of the former to the latter, or possibly a botched attempt at inscribing <foreign>tāḷapādhipo</foreign>.</note>
       </app>
       <app loc="26">
         <lem>c<unclear>ā</unclear><lb n="27" break="no"/>lukya-</lem>
@@ -309,9 +309,8 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
         <note>I see no indication of <foreign>ā</foreign> in either Fleet's estampage or Elliot's rubbing. Possibly a typo in Fleet's edition. His emendation is shown as part of the larger emendation of the unmetrical phrase, and may not have been intended as an emendation for this particular spot.</note>
       </app>
       <app loc="33">
-        <lem>@@@ca or something else to supply?</lem>
-        <rdg source="bib:Fleet1884_03"><supplied reason="omitted">ca</supplied></rdg>
-        <note>@@@</note>
+        <lem source="bib:Fleet1884_03"><supplied reason="omitted">ca</supplied></lem>
+        <note>I adopt the emendation suggested by Fleet. Alternatively, the hypometrical line could be corrected by supplying <foreign>na</foreign> instead of <foreign>ca</foreign>, resulting in a different tone for the stanza as a whole. Both result in a rather awkward sentence; see also the note to the translation.</note>
       </app>
       <app loc="37">
         <lem>Ājījana<space type="binding-hole"/>d</lem>
@@ -323,15 +322,20 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
       </app>
       <app loc="38">
         <lem source="bib:Fleet1884_03">ya<unclear>th</unclear>ā<unclear cert="low">huḥ</unclear></lem>
-        <note>The last character is illegible in my facsimiles. I tentatively adopt Fleet's reading, which is itself tentative. Given that the word fits the syntax very badly and the character looks rather like it has a subscript <foreign>r</foreign>, the reading probably needs to be revised from a photo. If correct, the <foreign>visarga</foreign> should probably be marked as an omitted character, since there seems to be no room for it before the edge.</note>
+        <note>The last character is illegible in my facsimiles. I tentatively adopt Fleet's reading, which is itself tentative. The word fits the syntax very badly (though it can fit the semantics) and may need to be revised from a photo. If correct, the <foreign>visarga</foreign> should probably be marked as an omitted character, since there seems to be no room for it before the edge. In Elliot's rubbing, the character looks rather like it has a subscript <foreign>r</foreign>, though <foreign>hu</foreign> is also possible assuming that the vertical line to the left of the body is damage. I wonder if the correct reading might be <foreign>yathā prāK</foreign>, though a final <foreign>K</foreign> seems as impossible to fit here as a <foreign>visarga</foreign>.</note>
+      </app>
+      <app loc="42">
+        <lem>yathā</lem>
+        <rdg source="bib:Fleet1884_03">yathā-</rdg>
+        <note>If the hyphen in Fleet's edition is not a typo, then he seems to have understood the composer to say the king was himself the son of Dharma. I prefer to construe a simile with <foreign>yathā</foreign>.</note>
       </app>
       <app loc="43">
         <lem>-mā<lb n="44" break="no"/>heśvaraḫ</lem>
         <note>Here too, Fleet notes that the vowel of <foreign>mā</foreign> is not visible in the estampage, but present in the original.</note>
       </app>
       <app loc="45">
-        <lem>siṁhās<del>th</del>an<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
-        <note>The deleted <foreign>th</foreign>, which Fleet describes as partially erased, is very clear in Fleet's rubbing. There may also be a deleted <foreign>ā</foreign> attached to this character, which is only visible in Elliot's rubbing. There also seems to be plenty of noise around the preceding characters <foreign>hendra si</foreign>; photos of the original may tell whether something (perhaps <foreign>maheśvara</foreign>?) has been deleted here.</note>
+        <lem>siṁhās<del>th</del>an<choice><sic>ā</sic><corr>a</corr></choice>-maṁ<choice><sic>ṭ</sic><corr>ḍ</corr></choice>a<supplied reason="omitted">pā</supplied>rū<choice><sic>ḍ</sic><corr>ḍh</corr></choice>a<lb n="46" break="no"/>ḫ</lem>
+        <note>The deleted <foreign>th</foreign>, which Fleet describes as partially erased, is very clear in Fleet's rubbing. There may also be a deleted <foreign>ā</foreign> attached to this character, which is only visible in Elliot's rubbing. There also seems to be plenty of noise around the preceding characters <foreign>hendra si</foreign>; photos of the original may tell whether something (perhaps <foreign>maheśvara</foreign>?) has been deleted here. For the second part of the compound, I endorse Fleet's emendation, as I am unable to come up with anything more likely. Fleet reads <foreign>ru</foreign> where I read <foreign>rū</foreign>, assuming that the bend toward the right at the end of the <foreign>u</foreign> marker was added to make it <foreign>ū</foreign>.</note>
       </app>
       <app loc="46">
         <lem>samā<lb n="47" break="no"/>h<choice><sic><subst><del rend="corrected">ā</del><add place="overstrike">u</add></subst></sic><corr>ū</corr></choice>ye<surplus>r</surplus>ttham</lem>
@@ -357,6 +361,14 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
       <app loc="53">
         <lem>-yāj<choice><sic>i</sic><corr>ī</corr></choice><choice><sic>N</sic><corr><g type="ddandaCross">.</g></corr></choice></lem>
         <note>As in line 51 above, Fleet is probably correct in assuming that a final N was mistakenly inscribed instead of a double punctuation mark. In this case, however, it also seems possible that the stem form <foreign>-yājin</foreign> was intended, without a punctuation mark.</note>
+      </app>
+      <app loc="56">
+        <lem>yad</lem>
+        <note>This word is superfluous. The composer may have intended it in compound with the following <foreign>dhanāni</foreign>, but that is associated with <foreign>yasya</foreign>. I therefore understand this <foreign>yad</foreign> as a weak and unnecessary connective particle.</note>
+      </app>
+      <app loc="56">
+        <lem><sic>pātri</sic></lem>
+        <note>I cannot interpret <foreign>pātri</foreign> or <foreign>pātrin</foreign> here and assume that either the composer used this word in the sense of <foreign>pātra</foreign>, or it is a scribal mistake for <foreign>pātra</foreign>.</note>
       </app>
       <app loc="59">
         <lem>-v<choice><sic>ā</sic><corr>a</corr></choice>rggas</lem>
@@ -407,7 +419,26 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-17"></p>
+<p n="1-19">Greetings. Satyāśraya Vallabhendra <supplied reason="explanation">Pulakeśin II</supplied> was fit to adorn the lineage of the majestic Calukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārītī, who attained kingship by grace of being favoured by Kauśikī, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom enemy territories instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the Boar emblem they have acquired by the grace of the divine Nārāyaṇa, abd whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice. His brother Kubja Viṣṇuvardhana protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the country of Veṅgī for eighteen years. His son Jayasiṁha <supplied reason="explanation">I</supplied>, for thirty-three. His brother Indrarāja’s <supplied reason="explanation">Indra Bhaṭṭāraka’s</supplied> son Viṣṇuvardhana <supplied reason="explanation">II</supplied>, for <supplied reason="omitted">nine</supplied> years. His son Maṅgi Yuvarāja, for twenty-five. His son Jayasiṁha <supplied reason="explanation">II</supplied>, for thirteen. His <supplied reason="subaudible">brother</supplied> by a different mother, Kokkili, for six months. His eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen. His son Viṣṇuvardhana <supplied reason="explanation">IV</supplied>, for thirty-six. His son <supplied reason="explanation">Vijayāditya II</supplied> Narendramr̥garāja, who attained fame by constructing Narendreśvara <supplied reason="explanation">temples</supplied> numbering a hundred and eight and defeating enemies <seg cert="low">in a series of <supplied reason="subaudible">the same number of</supplied> battles</seg>,<note>My translation is based on a tentative emendation; see the apparatus to line 14.</note> and who was like Dharma incarnate, for forty-eight. His son Kali-Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Guṇaga Vijayāditya <supplied reason="explanation">III</supplied>, whose reputation is famed for the slaying of Maṅgi and the burning of Kiraṇapura, for forty-four. The son of his younger brother the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Prince <supplied reason="explanation"><foreign>bhūbhr̥t</foreign></supplied> Vikramāditya, King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Cālukya-Bhīma, for thirty.</p>
+<p rend="stanza" n="1">After him his son Vijayāditya <supplied reason="explanation">IV</supplied> was king for six months, defeating in battle with <supplied reason="subaudible">just</supplied> one elephant of his own the overlords of Kaliṅga<note>The actual spelling in the inscription is <foreign>kuliṁga</foreign>, which may be simply a scribal error or a reflection of local pronunciation or a deliberate slur at the Cālukyas’ enemies. The word <foreign>ku-liṅga</foreign>—literally “having bad/strange marks”—may refer to a person of ill omen or, more vulgarly, to one whose virility is questionable; it is also used for a rodent and several birds and may thus imply that these rulers are unpleasant pests rather than worthy enemies.</note> mounted on hosts of elephants, generously ascending the beam of a balance scale furnished with bright gold,<note>That is, donating his own weight in gold.</note> and commissioning a victory pillar representing his reputation in Viraja.</p>
+<p n="23-28">His firstborn son Ammarāja <supplied reason="explanation">I</supplied>, for seven years. After dethroning his son the child Vijayāditya <supplied reason="explanation">V</supplied> who had been consecrated for kingship with the locket <supplied reason="explanation"><foreign>kaṇṭhikā</foreign></supplied> and turban <supplied reason="explanation"><foreign>paṭṭa-bandha</foreign></supplied>, Tāḷādhipa, for one month. Next, having slain him in battle, King <supplied reason="explanation"><foreign>bhūpa</foreign></supplied> Cālukya-Bhīma’s son King <supplied reason="explanation"><foreign>rājan</foreign></supplied> Vikramāditya <supplied reason="explanation">II</supplied> protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth for eleven months.</p>
+<p rend="stanza" n="2">Having crushed him in battle, Amma’s son Bhīma,<note>The present inscription is the only known record to date that mentions this Bhīma, whom Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/><citedRange>269</citedRange></bibl> calls Bhīma III although he reigned before the more prominent Bhīma II.</note> a warrior whose strength resembled that of Bhīma, protected <supplied reason="explanation"><foreign>av-</foreign></supplied> the earth justly for a mere eight months. Overthrowing him in conflict, Tāḷa’s eldest son King <supplied reason="explanation"><foreign>nr̥pati</foreign></supplied> Malla ruled <supplied reason="explanation"><foreign>pā-</foreign></supplied> <supplied reason="subaudible">the earth</supplied> next for seven years. Then, having ousted him, King <supplied reason="explanation"><foreign>nr̥pa</foreign></supplied> Bhīma <supplied reason="explanation">II</supplied> acquired the dynastic land <supplied reason="subaudible">along</supplied> with the <supplied reason="subaudible">royal</supplied> turban.<note>The sentence also permits the interpretation, perhaps deliberately intended by the composer, that Bhīma II grabbed the dynastic land—visualised as a goddess—by her robes.</note></p>
+<p rend="stanza" n="3">That same <supplied reason="explanation">Bhīma II</supplied> had a threefold vice <supplied reason="explanation"><foreign>vyasana</foreign></supplied> on earth: the impeccable practice of learning <supplied reason="explanation"><foreign>śāstra</foreign></supplied> and combat <supplied reason="explanation"><foreign>astra</foreign></supplied>; even more, the protection of the entire populace in accordance with the views of the treatises <supplied reason="explanation"><foreign>śāstra</foreign></supplied>; and generosity directed at the learned along with respect.<note>I translate the text as emended in the edition; see the apparatus to <foreign>ca</foreign> in line 33. Read this way, the king’s vice <supplied reason="explanation"><foreign>vyasana</foreign></supplied> in fact turns out to be virtue, but the composition of the stanza as a whole is very awkward. Alternatively, the hypermetrical first quarter could be completed with <foreign>na</foreign> to the effect that Bhīma did not have the triad of vices (viz., chasing women, indulgence in drinking and avid hunting), but he did immerse himself all the more in the impeccable activities listed in the next three quarters. The words <foreign>bhūyaḥ</foreign> and <foreign>aninditam</foreign> are more appropriate in this alternative, but the stanza as a whole is blander, lacking the first alternative’s figure of praising the king under the guise of censure. Parts of the composition remain awkward in this latter alternative too, especially the construction with <foreign>vyasanam … trayam</foreign>. The composer may have had either alternative in mind.</note></p>
+<p rend="stanza" n="4">Vijayāditya <supplied reason="explanation">IV</supplied>, who surpassed the sun on earth, begat him <supplied reason="explanation">Bhīma II</supplied> on Meḻāmbā, who possessed splendour, acclaim, intelligence, majesty, steadfastness and forbearance, to be a leader of armies, imbued with the essence of <supplied reason="subaudible">gods</supplied> such as Dharma, Indra, Agni, the Three-eyes <supplied reason="explanation">Śiva</supplied>, <supplied reason="explanation">Kubera</supplied> the Lord of Wealth and <supplied reason="explanation">Varuṇa</supplied> the Lord of Water—just as <supplied reason="explanation">Śiva</supplied> the tormentor of Tripura is said to have begotten <seg rend="pun"><supplied reason="explanation">Skanda</supplied> the Leader of Armies, imbued with the essence of these gods</seg> on the Maiden <supplied reason="explanation">Pārvatī</supplied>.</p>
+<p rend="stanza" n="5">The intense energy <supplied reason="explanation"><foreign>tejas</foreign></supplied> of this energetic man <supplied reason="explanation"><foreign>tejasvin</foreign></supplied> shines here on earth like an extremely bright effulgence <supplied reason="explanation"><foreign>tejas</foreign></supplied> that is the cause of blooming for the lotuses that are his friends and the cause of destruction for the darkness that is his enemies.<note>Given the solar imagery in this stanza, it may perhaps be a description of Bhīma II’s father Vijayāditya. But given its location in the narrative sequence, I prefer to assume it is about Bhīma, and the solar imagery is associated with his kingship without being an allusion to his name.</note></p>
+<p rend="stanza" n="6">While this king, who like <supplied reason="explanation">Yudhiṣṭhira</supplied> the Son of Dharma was endowed with the law <supplied reason="explanation"><foreign>dharma</foreign></supplied> taught by Manu, was ruling the earth and all its populace abounding in wealth—</p>
+<p n="42-47">that shelter of the entire world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>, His Majesty the supremely pious Emperor <supplied reason="explanation"><foreign>mahārājādhirāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">VII</supplied>, supreme devotee of Maheśvara, who was deliberately appointed <supplied reason="explanation">as heir</supplied> by his mother and father, <supplied reason="subaudible">namely</supplied> Calukya-Bhīma Gaṇḍa-mahendra, seated in his throne room, convokes and commands all who reside in Pāgunavara district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—as follows:</p>
+<p n="47">Let it be known to you <supplied reason="subaudible">that</supplied></p>
+<p rend="stanza" n="7"><supplied reason="subaudible">There was</supplied> a majestic and excellent twiceborn born in the Gautama <foreign>gotra</foreign>: the god-on-earth <supplied reason="explanation">Brahmin</supplied> Tūrkkama, learned in <foreign>krama</foreign> <supplied reason="subaudible">recitation</supplied>. Treading the path of the true and invested with virtue, he would not accept even <supplied reason="subaudible">if</supplied> the whole earth <supplied reason="subaudible">had been</supplied> offered to him by kings born of a noble lineage. He was famed on earth by his good qualities, intent on generosity causing joy to the afflicted, and ever worthy of true men’s praise.</p>
+<p rend="stanza" n="8">His son, renowned in all quarters by his hosts of good qualities, was the Soma sacrificer Mādhava of great virtue. A full moon in the sky that was that lineage of excellent Brahmins, he honoured his kin and friends with outstanding generosity.</p>
+<p rend="stanza" n="9">His son is Viddamayya here, worthy of laudation by the flocks of the virtuous and an accomplished master of a whole array of arts, whose wisdom has been polished by all the subject matters taught in the Vedas <supplied reason="explanation"><foreign>śruti</foreign></supplied> and scriptures <supplied reason="explanation"><foreign>smr̥ti</foreign></supplied>.</p>
+<p rend="stanza" n="10">The house of this man is home to <supplied reason="subaudible">all</supplied> virtuous men; his wealth attains purpose through being offered to worthy recipients; his reputation embellishes all regions of the horizon.</p>
+<p rend="stanza" n="11">Pure in descent and even purer in conduct, proven worthy of high office <supplied reason="explanation"><foreign>niyukta-karman</foreign></supplied> by trials <supplied reason="explanation">of honesty</supplied> <supplied reason="explanation"><foreign>upadhā</foreign></supplied>, he is esteemed by honest men, has a numerous flock of honest dependants <supplied reason="explanation"><foreign>poṣya</foreign></supplied>, and is kind in speech and action to all living beings.</p>
+<p n="59-60">Being pleased with his excessive troubles <supplied reason="explanation">undertaken on our behalf</supplied>, we have granted to him the village Diggubaṟṟu.</p>
+<p n="61-62">Its boundaries <supplied reason="subaudible">are as follows</supplied>. To the east, Krañca. To the south, Kranūru. To the west <supplied reason="subaudible">and</supplied><note>It is also possible that space was left blank for the name of the western boundary and was never filled; see the apparatus to line 61.</note> to the north, Palukaunu. Let no-one pose an obstacle <supplied reason="explanation">to his enjoyment of his rights</supplied> over it.</p>
+<p rend="stanza" n="12">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
+<p rend="stanza" n="13">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.
+</p>
   </div>  
 </div>
 
@@ -417,7 +448,79 @@ n="64" break="no"/>ttāṁ para-dattāṁ vā</l>
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-17"></p>
+<p n="1-19">Prospérité ! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés dans l’univers entier, fils de Hāriti, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśikī, protégés par la troupes des Mères, méditant aux pieds du seigneur Mahāsena, dont le cercle des ennemis fut soumis en un instant à la vue du signe illustre de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps furent purifiés par le bain purificatoire de l’<foreign>aśvamedha</foreign>, protègea le cercle de Veṁgī pendant dix-huit années ;
+son fils, Jayasiṁha, pendant trente-trois <supplied reason="subaudible">années</supplied> ;
+le fils d’Indrarāja, le frère cadet de ce dernier, Viṣṇuvardhana, pendant neuf années ;
+son frère cadet, Maṁgi Yuvarāja, vingt-cinq <supplied reason="subaudible">années</supplied> ;
+son fils, Jayasiṁha, pendant treize années ;
+son demi-frère, Kokkili, pendant six mois ;
+le frère aîné de ce dernier, Viṣṇuvardhana, pendant trente-sept <supplied reason="subaudible">années</supplied> ;
+son fils, Vijayāditya Bhaṭṭāraka, pendant dix-huit <supplied reason="subaudible">années</supplied> ;
+son fils, Viṣṇuvardhana, pendant trente-six <supplied reason="subaudible">années</supplied> ;
+le fils de ce dernier, qui acquit la gloire grâce aux cent huit Narendreśvara qu’il fit construire et aux cent huit victoires qu’il remporta sur les troupes ennemies, <supplied reason="subaudible">lui</supplied> pareil au dharma incarné, Narendra Mr̥garāja pendant quarante-huit années ;
+son fils, Kali Viṣṇuvardhana, pendant un an et demi ;
+le fils de celui-ci, dont la gloire se répandit, incendie <supplied reason="subaudible">détruisant</supplied> les forteresses,<note>Allusion implicite aux forteresses des Asura.</note> dont les rayons causèrent la perte de Maṁgi,<note>Il est aussi question de ce personnage dans les insc. nos 32, str.5 ; 35, str.2 ; 37, str. 10.</note> Guṇaga Vijayāditya, pendant quarante-quatre <supplied reason="subaudible">années</supplied> ;
+le fils du roi Vikramāditya, prince héritier et frère cadet de ce dernier, le roi Cālukya Bhīma, pendant trente <supplied reason="subaudible">années</supplied> ;</p>
+<p rend="stanza" n="1">immédiatement <supplied reason="subaudible">après lui</supplied>, son fils Vijayāditya, ayant vaincu au combat, avec son unique éléphant, les seigneurs du Kaliṁga, montés sur un grand nombre d’éléphants, après être monté à l’<supplied reason="subaudible">une des</supplied> extrêmités d’une balance qu’il équilibra avec de l’or rutilant, dans sa munificence, <supplied reason="subaudible">et</supplied> après avoir érigé un pilier de victoire fait de sa gloire, fut roi pendant six mois, dans la pureté.<note>Mention du sacrifice du <foreign>tulā-bhara</foreign>, l’un des <foreign>mahā-yajña</foreign>, lors duquel le roi donne son poids en or.<supplied reason="subaudible">Cf. P.V. Kane, 1974, VII, part. II, p. 869 et ss.</supplied></note></p>
+<p n="23-28">le fils aîné de ce dernier, Ammarāja, pendant sept années ;
+après avoir chassé le fils de celui-ci, Vijayāditya, alors qu’il était encore jeune et avait été sacré par le bandeau <supplied reason="subaudible">royal</supplied> ainsi que le collier, Tāhādhipa <supplied reason="subaudible">régna</supplied> pandant un mois ;
+mais après avoir terrassé à son tour celui-ci au combat, le fils du roi Cālukya Bhīma, le roi Vikramāditya, protègea la terre pendant onze mois ;</p>
+<p rend="stanza" n="2">
+ayant vaincu celui-ci au combat, Bhīma, fils d’Amma, dont la force était égale à celle de Bhīma, étant un guerrier, protègea la terre pendant huit mois ;
+puis, ayant tué celui-ci lors d’une bataille, le fils aîné de Tāha, le roi Malla, régna ensuite pendant sept années ;
+après avoir chassé ce dernier, le roi Bhīma, ayant ceint le bandeau <supplied reason="subaudible">royal</supplied>, s’empara ensuite du royaume de sa lignée ;
+</p>
+<p rend="stanza" n="3">et il avait une triple obsession dans ce monde :
+l’irréprochable étude des traités et des armes, plus encore la protection de tous les hommes,
+l’union avec la compréhension des traités,<note>L’auteur évoque ici la mise en application plus que la connaissance.</note>
+honorée pareillement par les sages ;</p>
+<p rend="stanza" n="4">Dans <supplied reason="subaudible">le sein de</supplied> Meḻāṁbā, douée de splendeur, d’éloges,<note>Compte tenu de la place de ce terme dans la phrase, il faut le comprendre dans un sens objectif et subjectif : elle reçoit des éloges et loue elle-même les dieux.</note> d’intelligence, de beauté, de fermeté, de patience,
+Vijayāditya, soleil suprême sur le monde, engendra
+un chef d’armée, qui possédait la nature de Dharma, Indra, Agni, Trinayana, Dhaneśa, Udakeśa,<note>Mélange intéressant des Lokapāla <supplied reason="subaudible"> Agni, Indra, Dhaneśa, Udakeśa, qui est peut-être Varuṇa</supplied>, de Śiva, au centre, et de Dharma.</note> etc.,
+de même que, dit-on, le Destructeur de Tripura, engendra dans <supplied reason="subaudible">le sein de</supplied> Kanyakā, le chef de l’armée.<note>Skanda. Le statut de chef d’armée renvoie à son archétype, Skanda , et laisse suggérer une comparaison entre le roi et Śiva, la reine et Umā, le prince et Skanda.</note></p>
+<p rend="stanza" n="5">Cause de l’éveil des lotus que sont ses alliés,
+cause de la ruine de ces ténèbres que sont ses ennemis,
+son immense majesté resplendit sur cette terre,
+pure comme l’éclat du soleil.<note>Le terme tejas désigne à la fois l’énergie propre au roi et l’éclat du soleil. Ce śleṣa glose le biruda Vijayāditya.</note></p>
+<p rend="stanza" n="6">
+Lorsque ce roi gouverne la terre et toute l’humanité, comblée de richesses,
+il est pareil au fils de Dharma, doué du <foreign>dharma</foreign> que Manu proclama.</p>
+<p n="42-47">
+Lui, refuge de tous les hommes, l’illustre Viṣṇuvardhana, roi suprême des grands rois, excellent dévôt de Maheśvara, très pieux, méditant aux pieds de sa mère et de son père, Calukya Bhīma Gaṇḍa Mahendra, installé dans le pavillon où <supplied reason="subaudible">se trouve</supplied> le trône, ordonne ceci à tous habitants du viṣaya de Pāgunavara rassemblés, <foreign>rāṣṭrakūṭa</foreign> en tête :</p>
+<p n="47">qu’il soit connu de vous que :</p>
+<p rend="stanza" n="7">l’illustre brahmane Tūrkama, né dans le gotra de Gautama, excellent deux-fois-né, foulant le chemin du bien, jouissant de mérites,
+n’a pourtant pas reçu une terre donnée par les maîtres de la surface de la terre, nés dans une excellente lignée,
+lui qui maîtrise la lecture progressive <supplied reason="subaudible">du Veda</supplied>, qui est renommé sur la terre pour ses nobles vertus,
+qui se consacre à des dons qui font la joie des affligés, <supplied reason="subaudible">et</supplied> qui mérite le respect éternel des hommes de bien.</p>
+<p rend="stanza" n="8">Son fils, loué sur l’étendue de la terre pour le flot de ses vertus,
+pleine lune dans le ciel d’une lignée d’excellents deux-fois nés,
+qui honore ses parents et ses amis avec des présents généreux,
+pourvu de grandes vertus, sacrificateur de Soma à Mādhava ;</p>
+<p rend="stanza" n="9">son fils, qui mérité l’éloge des hommes vertueux,
+qui connaît parfaitement les parties et le tout,
+qui posséde une claire connaissance de tous les sujets évoqués dans la Śruti et la Smr̥ti, intelligent,
+est ici <supplied reason="subaudible">nommé</supplied> Viddamayya ;</p>
+<p rend="stanza" n="10">La demeure de cet homme est la demeure des hommes de bien ;
+ses richesses sont pourvues d’un but grâce aux dons qu’il consentit aux gens vertueux ;
+tout l’espace compris entre les horizons
+est orné par sa gloire.</p>
+<p rend="stanza" n="11">Doué d’une lignée resplendissante, doué d’une conduite tout à fait irréprochable
+dans les tâches qui lui sont confiées, parfaitement purifié dans les épreuves des vertus,
+honoré par les gens de bien, dont le chemin doit être cultivé par les hommes de bien,
+dont les paroles et actes<note>C’est-à-dire : les hymnes et les oblations.</note> sont chers à tous les êtres.</p>
+<p n="59-60">
+Nous, très touchés par l’excès de souffrance qu’il a subi,<note>Il a sans doute subi une ordalie, <foreign>upadhā</foreign>, suite à quelques accusations dont il est sorti blanchi, <foreign>viśuddha</foreign>.</note> donnons à celui-ci le village de Diggubaṟṟu.</p>
+<p n="61-62">Les limites sont :
+à l’est Krañca,
+au sud Kranūru,
+à l’ouest et au nord Palukonu.
+Aucune charge ne doit lui être imposée.</p>
+<p rend="stanza" n="12">
+Beaucoup ont donné une terre, beaucoup l’ont protégée,
+celui qui possède la terre en possède le fruit.</p>
+<p rend="stanza" n="13">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre
+renaît ver de terre dans excréments pendant soixante mille ans.
+</p>
   
   </div>
 </div>
