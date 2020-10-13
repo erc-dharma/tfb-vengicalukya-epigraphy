@@ -1,76 +1,77 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title>Niḍupaṟu grant of Jayasiṁha I</title>
-        
-        <respStmt>
-          <resp>Encoding</resp>
-          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-        </respStmt>
-        <respStmt>
-          <resp>intellectual authorship of edition</resp>
-          <persName ref="part:daba">
-            <forename>Dániel</forename>
-            <surname>Balogh</surname>
-          </persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>DHARMA <note>This project has received funding from the European Research
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Niḍupaṟu grant of Jayasiṁha I</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA <note>This project has received funding from the European Research
           Council (ERC) under the European Union's Horizon 2020 research and
           innovation programme (grant agreement no 809994).</note>
-        </authority>
-        <pubPlace>Berlin</pubPlace>
-        <idno type="filename">CalE17-Niduparu-Jayasimha1</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">
-            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+            </authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">CalE17-Niduparu-Jayasimha1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
               Licence. To view a copy of the licence, visit
               https://creativecommons.org/licenses/by/4.0/ or send a letter to
               Creative Commons, 444 Castro Street, Suite 900, Mountain View,
               California, 94041, USA.</p>
-            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
-          </licence>
-        </availability>
-        <date from="2019" to="2025">2019-2025</date>
-      </publicationStmt>
-      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/><!-- don't modify this -->
-          </msIdentifier>
-          <msContents><!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT, l24 vaseT. The inscription also seems to contain an explicit vowel killer, see apparatus note to line 6, viṣ·ṇuvardhana-. 
-                <!--Original punctuation. -->
-                <!--Other palaeographic observations.  -->
-                
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT, l24 vaseT. The inscription also seems to contain an explicit vowel killer, see apparatus note to line 6, viṣ·ṇuvardhana-. 
+                <!--Original punctuation. --><!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
                 <handNote xml:id="Pallava00001_hand2"></handNote>
               -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-      <change who="part:daba" when="2020-04-15" status="draft">Initial encoding of the file</change>
-      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
-      <!-- Add a <change> entry for each significant change to the file. -->
-    </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2020-04-15" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
     <body>
       
       
@@ -81,31 +82,8 @@
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb n="1r"/>
-<p><pb 
-n="1v"/><lb 
-n="1"/>svasti śrīmad-asanapura-vāsakāT svāmi-mahāsena-pādānudhyātānāṁ hārītī-putrāṇā<unclear>ṁ</unclear> mānavya<lb 
-n="2" break="no"/>-sagot<unclear>r</unclear>āṇāṁ mātr̥-gaṇa-paripālitānāṁ Aśvamedha-yājināṁ calukyānāṁ vi<unclear>ś</unclear>uddha-vaṁ<unclear>ś</unclear>oda<lb 
-n="3" break="no"/>ya-giri-śikharodita-kṣitipaty-ahimadīdhiteḥ sakala-jagad-ā<supplied reason="omitted">r</supplied>tti-hara-karmaṇa<unclear>ḥ</unclear> <lb 
-n="4"/>śrī-kīrtivarmaṇaḥ priya-naptā śaśalāñchanasyeva sakala-jagan-ma<unclear>n</unclear>o-nayanāna<lb 
-n="5" break="no"/>ndana-karasya sva-rūpa-lāvaṇyāvajita-makara<choice><sic>th</sic><corr>dh</corr></choice>vajasya makaradhvajāpara-nāmnaḥ śrīmad-aida<supplied reason="omitted">ṁ</supplied>yugīna<lb 
-n="6" break="no"/>-viṣṇoḥ viṣ·ṇuvardhana-mahārājasya priyatanayaḥ pravarddhamānodaya-pratāpopanata-sama<pb 
-n="2r" break="no"/><lb 
-n="7" break="no"/>sta-sāmanta-makuṭa-taṭa-ghaṭita-maṇi-mayūkha-mañjarī-puṁja-piṁjarita-caraṇāravinda-yugalaḥ nija<lb 
-n="8" break="no"/>-guṇa-dīdhiti-kalāpa kaliyuga-dhvāntaṁ nirākariṣṇuḥ Ākhaṇḍala Ivākhaṇḍita-paur<choice><sic>a</sic><corr>u</corr></choice>ṣaḥ pa<lb 
-n="9" break="no"/>rama-brahmaṇyo mātā-pitr̥-pā<choice><sic>t</sic><corr>d</corr></choice>ānudhyātaḥ śrī-jayasiṁha-vallabhamahārājaḥ gaṇḍe<lb 
-n="10" break="no"/>ṟuvāṭyā<unclear>ṁ</unclear> vyāghra-nadyāś cottarataḥ vanneṟu-nadyāś ca tīre gaṇḍeṟu-rājadhānyāḥ <lb 
-n="11"/>pūrva-dig-vibhāge <choice><orig>gavyūta</orig><reg>gavyūti</reg></choice>-dvaye niḍubaṟu-nāma-grāmam adhivasataḥ ku<choice><sic>ḍ</sic><corr>ṭ</corr></choice>uṁbinaḥ samavetā<lb 
-n="12" break="no"/>n ājñāpayati</p>
-<p>viditam astu vo yathāsanapura-sthāna-nivāsino ghaṭikā-sāmānya<pb 
-n="2v" break="no"/><lb 
-n="13" break="no"/>sya sa-<unclear>pa</unclear>da-kramānukramādhīta-veda-dvayasya sa-kalpopaniṣat-purāṇetihāsāneka-dharmaśāstra<lb 
-n="14" break="no"/>-vidaḥ maṇ<unclear>ḍ</unclear>aśarmanaḥ pautrāya sva-pitur adhika-guṇa-saṁpad-gaṇ<choice><sic>ā</sic><corr>o</corr></choice>pārjita-nirmala-yaśo-vi<unclear>śe</unclear><lb 
-n="15" break="no"/>ṣe<unclear>ṇa</unclear> Ātmano <supplied reason="subaudible">’</supplied>nvayam alam alaṁkariṣṇoḥ Agniṣṭoma-yājinaḥ śivarudraśarmana<unclear>ḥ</unclear> <lb 
-n="16"/>putrāya dvi-v<unclear>e</unclear>dādhyāyine yajñāgamopaniṣan-mantrārtth<choice><sic>i</sic><corr>e</corr></choice>tihāsa-purāṇa-dharma<lb 
-n="17" break="no"/>śāstra-vimalī-kr̥ta-vin<choice><sic>a</sic><corr>ī</corr></choice>ta-mataye hārīta-sagotrāya taittirīya-sabrahmacār<choice><sic>a</sic><corr>i</corr></choice>ṇe kāṭiśarmaṇe <lb 
-n="18"/>kārtika-paurṇamāsyāṁ mātā-pitor ātmanaś ca yaśaḥ-puṇyābhi<choice><sic>virdha</sic><corr>vr̥ddha</corr></choice>ye saṁpratto <supplied reason="subaudible">’</supplied>yam niḍupa<pb 
-n="3r" break="no"/><lb 
-n="19" break="no"/>ṟu-nāma-grāmaḥ<supplied reason="subaudible">.</supplied> nāsya bādhā karaṇīyā</p>
+<p><pb n="1v"/><lb n="1"/>svasti śrīmad-asanapura-vāsakāT svāmi-mahāsena-pādānudhyātānāṁ hārītī-putrāṇā<unclear>ṁ</unclear> mānavya<lb n="2" break="no"/>-sagot<unclear>r</unclear>āṇāṁ mātr̥-gaṇa-paripālitānāṁ Aśvamedha-yājināṁ calukyānāṁ vi<unclear>ś</unclear>uddha-vaṁ<unclear>ś</unclear>oda<lb n="3" break="no"/>ya-giri-śikharodita-kṣitipaty-ahimadīdhiteḥ sakala-jagad-ā<supplied reason="omitted">r</supplied>tti-hara-karmaṇa<unclear>ḥ</unclear> <lb n="4"/>śrī-kīrtivarmaṇaḥ priya-naptā śaśalāñchanasyeva sakala-jagan-ma<unclear>n</unclear>o-nayanāna<lb n="5" break="no"/>ndana-karasya sva-rūpa-lāvaṇyāvajita-makara<choice><sic>th</sic><corr>dh</corr></choice>vajasya makaradhvajāpara-nāmnaḥ śrīmad-aida<supplied reason="omitted">ṁ</supplied>yugīna<lb n="6" break="no"/>-viṣṇoḥ viṣ·ṇuvardhana-mahārājasya priyatanayaḥ pravarddhamānodaya-pratāpopanata-sama<pb n="2r" break="no"/><lb n="7" break="no"/>sta-sāmanta-makuṭa-taṭa-ghaṭita-maṇi-mayūkha-mañjarī-puṁja-piṁjarita-caraṇāravinda-yugalaḥ nija<lb n="8" break="no"/>-guṇa-dīdhiti-kalāpa kaliyuga-dhvāntaṁ nirākariṣṇuḥ Ākhaṇḍala Ivākhaṇḍita-paur<choice><sic>a</sic><corr>u</corr></choice>ṣaḥ pa<lb n="9" break="no"/>rama-brahmaṇyo mātā-pitr̥-pā<choice><sic>t</sic><corr>d</corr></choice>ānudhyātaḥ śrī-jayasiṁha-vallabhamahārājaḥ gaṇḍe<lb n="10" break="no"/>ṟuvāṭyā<unclear>ṁ</unclear> vyāghra-nadyāś cottarataḥ vanneṟu-nadyāś ca tīre gaṇḍeṟu-rājadhānyāḥ <lb n="11"/>pūrva-dig-vibhāge <choice><orig>gavyūta</orig><reg>gavyūti</reg></choice>-dvaye niḍubaṟu-nāma-grāmam adhivasataḥ ku<choice><sic>ḍ</sic><corr>ṭ</corr></choice>uṁbinaḥ samavetā<lb n="12" break="no"/>n ājñāpayati</p>
+<p>viditam astu vo yathāsanapura-sthāna-nivāsino ghaṭikā-sāmānya<pb n="2v" break="no"/><lb n="13" break="no"/>sya sa-<unclear>pa</unclear>da-kramānukramādhīta-veda-dvayasya sa-kalpopaniṣat-purāṇetihāsāneka-dharmaśāstra<lb n="14" break="no"/>-vidaḥ maṇ<unclear>ḍ</unclear>aśarmanaḥ pautrāya sva-pitur adhika-guṇa-saṁpad-gaṇ<choice><sic>ā</sic><corr>o</corr></choice>pārjita-nirmala-yaśo-vi<unclear>śe</unclear><lb n="15" break="no"/>ṣe<unclear>ṇa</unclear> Ātmano <supplied reason="subaudible">’</supplied>nvayam alam alaṁkariṣṇoḥ Agniṣṭoma-yājinaḥ śivarudraśarmana<unclear>ḥ</unclear> <lb n="16"/>putrāya dvi-v<unclear>e</unclear>dādhyāyine yajñāgamopaniṣan-mantrārtth<choice><sic>i</sic><corr>e</corr></choice>tihāsa-purāṇa-dharma<lb n="17" break="no"/>śāstra-vimalī-kr̥ta-vin<choice><sic>a</sic><corr>ī</corr></choice>ta-mataye hārīta-sagotrāya taittirīya-sabrahmacār<choice><sic>a</sic><corr>i</corr></choice>ṇe kāṭiśarmaṇe <lb n="18"/>kārtika-paurṇamāsyāṁ mātā-pitor ātmanaś ca yaśaḥ-puṇyābhi<choice><sic>virdha</sic><corr>vr̥ddha</corr></choice>ye saṁpratto <supplied reason="subaudible">’</supplied>yam niḍupa<pb n="3r" break="no"/><lb n="19" break="no"/>ṟu-nāma-grāmaḥ<supplied reason="subaudible">.</supplied> nāsya bādhā karaṇīyā</p>
 <lg n="1" met="indravajrā">
 <l n="a">Ājñaptir atrāryya-manobhirāmaḥ</l>
 <l n="b">śrī-vīrya<unclear>m</unclear>ā<unclear cert="low">n sa</unclear><supplied reason="lost" cert="low">rva-ja</supplied><lb n="20" break="no"/>nāśrayo <supplied reason="subaudible">’</supplied>yaṁ</l>
@@ -197,7 +175,7 @@ n="19" break="no"/>ṟu-nāma-grāmaḥ<supplied reason="subaudible">.</supplied
 
 
 
-<div type="translation" xml:lang="eng" resp="part:daba">
+<div type="translation" resp="part:daba">
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
@@ -256,7 +234,7 @@ celui qui la prend ou qui le permet demeure aussi longtemps en enfer.
     <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_03"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl><!-- one <bibl/> per item of secondary bibliography -->
+    <bibl/><!-- one <bibl/> per item of secondary bibliography -->
   </listBibl>
 </div>
 

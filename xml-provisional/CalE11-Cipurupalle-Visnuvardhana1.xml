@@ -1,100 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
- <teiHeader xml:lang="eng">
-  <fileDesc>
-   <titleStmt>
-    <title>Cīpurupalle plates of Viṣṇuvardhana I</title>
-    
-    <respStmt>
-     <resp>EpiDoc encoding</resp>
-     <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-    </respStmt>
-    <respStmt>
-     <resp>intellectual authorship of edition</resp>
-      <persName ref="part:daba">
-        <forename>Dániel</forename>
-        <surname>Balogh</surname>
-      </persName>
-    </respStmt>
-   </titleStmt>
-   <publicationStmt>
-    <authority>DHARMA <note>This project has received funding from the European Research Council
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Cīpurupalle plates of Viṣṇuvardhana I</title>
+            <respStmt>
+               <resp>EpiDoc encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA <note>This project has received funding from the European Research Council
       (ERC) under the European Union's Horizon 2020 research and innovation programme (grant
       agreement no 809994).</note>
-    </authority>
-    <pubPlace>Berlin</pubPlace>
-    <idno type="filename">CalE11-Cipurupalle-Visnuvardhana1</idno>
-    <availability>
-     <licence target="https://creativecommons.org/licenses/by/4.0/">
-      <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view
+            </authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">CalE11-Cipurupalle-Visnuvardhana1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view
        a copy of the licence, visit https://creativecommons.org/licenses/by/4.0/ or send a letter to
        Creative Commons, 444 Castro Street, Suite 900, Mountain View, California, 94041, USA.</p>
-      <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
-     </licence>
-    </availability>
-    <date from="2019" to="2025">2019-2025</date>
-   </publicationStmt>
-   <sourceDesc>
-    <!-- only the handDesc can be filled in at this stage -->
-        <msDesc>
-          <!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/>
-            <!-- don't modify this -->
-          </msIdentifier>
-          <msContents>
-            <!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary>
-            <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>Halantas. l1, T: if correctly read, this is a very small character at baseline, without a line above. L8 matimāN: also very small at baseline, and seems to have a _vertical_ line above it. L12 gotrābhyāM: indistinct. L19 vaseT: small at baseline; may have a fairly long stem upward.</p>
-              <p>Original punctuation. l16, a short vertical floating at mid-height. L17 same. The closing symbol appears to be composed of three dots in a triangular arrangement. 
-                <!--Other palaeographic observations. -->
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. l1, T: if correctly read, this is a very small character at baseline, without a line above. L8 matimāN: also very small at baseline, and seems to have a _vertical_ line above it. L12 gotrābhyāM: indistinct. L19 vaseT: small at baseline; may have a fairly long stem upward.</p>
+                     <p>Original punctuation. l16, a short vertical floating at mid-height. L17 same. The closing symbol appears to be composed of three dots in a triangular arrangement. 
+                <!--Other palaeographic observations. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
             <summary><p><p/></summary>
             <handNote xml:id="Pallava00001_hand1"></handNote>
             <handNote xml:id="Pallava00001_hand2"></handNote>
            -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
-   </sourceDesc>
-  </fileDesc>
-  <revisionDesc>
-   <change who="part:daba" when="2020-03-16" status="draft">Initial encoding of the file</change>
-   <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
-  </revisionDesc>
- </teiHeader>
- <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2020-03-16" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
       <body>
          <div type="edition" xml:lang="san-Latn">
 <pb n="1r"/>
 <p>
 <pb n="1v"/>
-<lb n="1"/>svasti<surplus>ḥ</surplus> śrīma<orig><unclear>T</unclear></orig>-caluky<choice><sic>ā</sic><corr>a</corr></choice>-kula-jalanidhi-samudito nr̥pati-niśākaraḥ sva<lb
-n="2" break="no"/>-bhrūlatā-bhaṅga-namita-r<choice><sic>a</sic><corr>i</corr></choice>pu-nr̥pati-makuṭa-maṇi-prabhā-vicchurita-caraṇāravinda<lb 
-n="3" break="no"/>-dvayaḥ<space type="binding-hole"/> satyāśraya-śrī-vallabhamahārājaḥ<supplied reason="subaudible">.</supplied> tasya priyānujaḥ sthala-jala<lb 
-n="4" break="no"/>-vana-giri-viṣama-durggeṣu labdha-siddhitvād viṣamasiddhiḥ d<unclear>ī</unclear>nānātha-dvija-vasu-vr̥ṣṭi<lb 
-n="5" break="no"/>-pravarṣaṇatayā kāmadhenuḥ yuvatiṣu madanāyamāna-cāru-śarīratvān makara-dhvaja<supplied reason="omitted">ḥ</supplied>
-<pb n="2r"/><lb 
-n="6"/>sva-dānārṇṇav<choice><sic>au</sic><corr>e</corr></choice>ṣu parimagna-kali-prabhāvaḥ Aneka-samara-vijaya-samudi<unclear>ta</unclear><lb 
-n="7" break="no"/>-vimala-yaśo-viśeṣa-vibhūṣita-sakala-diṅ-maṇḍala<unclear>ḥ</unclear> manur iva vinaya-jñaḥ pr̥thu<lb 
-n="8" break="no"/>r iva pr̥thu<space type="binding-hole"/>-k<choice><sic>i</sic><corr>ī</corr></choice>rttiḥ gurur iva matimāN parama-bhramaṇyaḥ śrī-viṣṇuvarddhana-mahār<choice><sic>a</sic><corr>ā</corr></choice>jaḥ <lb 
-n="9"/>dimila-viṣaye kālvakoṇḍa-grāmādhivāsinaḥ kuṭuṁbinas samavetān imam arttham ā<lb 
-n="10" break="no"/>jñāpayati</p>
-<p>yathā Adh<choice><sic>i</sic><corr>ī</corr></choice>tāvagata-veda-vedāṅgasya brahmaśarmmaṇaḥ pautrābhyāṁ Adhi<pb n="2v" break="no"/><lb 
-n="11" break="no"/>gata-sva-śākhā-codita-sva-karmmānuṣṭhāna-tatparasya du<supplied reason="omitted">r</supplied>gaśarmmaṇaḥ putrābhyā<supplied reason="omitted">ṁ</supplied> veda-ve<lb 
-n="12" break="no"/>dāṁgetihāsa-purāṇa-dharmmaśāstrādy-anekāgama-<orig>tatva</orig>-vidbhyāṁ gautam<choice><sic>ā</sic><corr>a</corr></choice>-gotrābhyā<unclear>M</unclear> <lb 
-n="13"/><orig>taittirika</orig><space type="binding-hole"/>-caraṇābhyāṁ viṣṇuśa<supplied reason="omitted">r</supplied>mma-mādhavaśarmmabhyāṁ <unclear>pḻaki</unclear>-viṣaye ceṟupūra<lb 
-n="14" break="no"/>-grāmam a<space type="binding-hole"/>dhivasat<orig>aḥ</orig> śrāvaṇa-māse candra-grahaṇa-nimitte sarvva-kara-parihāre<lb 
-n="15" break="no"/>ṇ<choice><sic>a</sic><corr>ā</corr></choice>grahārī-kr̥tya sva-puṇyāyur-ārogya-yaśo-<supplied reason="subaudible">’</supplied>bhivr̥ddhaye grāmo <supplied reason="subaudible">’</supplied>yaṁ dattaḥ<supplied reason="subaudible">.</supplied> Asya <pb n="3r"/><lb 
-n="16"/>kaiścid api na bādhā karaṇīyā,</p>
+<lb n="1"/>svasti<surplus>ḥ</surplus> śrīma<orig><unclear>T</unclear></orig>-caluky<choice><sic>ā</sic><corr>a</corr></choice>-kula-jalanidhi-samudito nr̥pati-niśākaraḥ sva<lb n="2" break="no"/>-bhrūlatā-bhaṅga-namita-r<choice><sic>a</sic><corr>i</corr></choice>pu-nr̥pati-makuṭa-maṇi-prabhā-vicchurita-caraṇāravinda<lb n="3" break="no"/>-dvayaḥ<space type="binding-hole"/> satyāśraya-śrī-vallabhamahārājaḥ<supplied reason="subaudible">.</supplied> tasya priyānujaḥ sthala-jala<lb n="4" break="no"/>-vana-giri-viṣama-durggeṣu labdha-siddhitvād viṣamasiddhiḥ d<unclear>ī</unclear>nānātha-dvija-vasu-vr̥ṣṭi<lb n="5" break="no"/>-pravarṣaṇatayā kāmadhenuḥ yuvatiṣu madanāyamāna-cāru-śarīratvān makara-dhvaja<supplied reason="omitted">ḥ</supplied>
+<pb n="2r"/><lb n="6"/>sva-dānārṇṇav<choice><sic>au</sic><corr>e</corr></choice>ṣu parimagna-kali-prabhāvaḥ Aneka-samara-vijaya-samudi<unclear>ta</unclear><lb n="7" break="no"/>-vimala-yaśo-viśeṣa-vibhūṣita-sakala-diṅ-maṇḍala<unclear>ḥ</unclear> manur iva vinaya-jñaḥ pr̥thu<lb n="8" break="no"/>r iva pr̥thu<space type="binding-hole"/>-k<choice><sic>i</sic><corr>ī</corr></choice>rttiḥ gurur iva matimāN parama-bhramaṇyaḥ śrī-viṣṇuvarddhana-mahār<choice><sic>a</sic><corr>ā</corr></choice>jaḥ <lb n="9"/>dimila-viṣaye kālvakoṇḍa-grāmādhivāsinaḥ kuṭuṁbinas samavetān imam arttham ā<lb n="10" break="no"/>jñāpayati</p>
+<p>yathā Adh<choice><sic>i</sic><corr>ī</corr></choice>tāvagata-veda-vedāṅgasya brahmaśarmmaṇaḥ pautrābhyāṁ Adhi<pb n="2v" break="no"/><lb n="11" break="no"/>gata-sva-śākhā-codita-sva-karmmānuṣṭhāna-tatparasya du<supplied reason="omitted">r</supplied>gaśarmmaṇaḥ putrābhyā<supplied reason="omitted">ṁ</supplied> veda-ve<lb n="12" break="no"/>dāṁgetihāsa-purāṇa-dharmmaśāstrādy-anekāgama-<orig>tatva</orig>-vidbhyāṁ gautam<choice><sic>ā</sic><corr>a</corr></choice>-gotrābhyā<unclear>M</unclear> <lb n="13"/><orig>taittirika</orig><space type="binding-hole"/>-caraṇābhyāṁ viṣṇuśa<supplied reason="omitted">r</supplied>mma-mādhavaśarmmabhyāṁ <unclear>pḻaki</unclear>-viṣaye ceṟupūra<lb n="14" break="no"/>-grāmam a<space type="binding-hole"/>dhivasat<orig>aḥ</orig> śrāvaṇa-māse candra-grahaṇa-nimitte sarvva-kara-parihāre<lb n="15" break="no"/>ṇ<choice><sic>a</sic><corr>ā</corr></choice>grahārī-kr̥tya sva-puṇyāyur-ārogya-yaśo-<supplied reason="subaudible">’</supplied>bhivr̥ddhaye grāmo <supplied reason="subaudible">’</supplied>yaṁ dattaḥ<supplied reason="subaudible">.</supplied> Asya <pb n="3r"/><lb n="16"/>kaiścid api na bādhā karaṇīyā,</p>
 <p>Atra vyāsa-g<unclear>ī</unclear>tau<supplied reason="subaudible">.</supplied></p>
 <lg n="1" met="anuṣṭubh">
    <l n="a">bahubhir vvasudhā dattā</l>
@@ -108,8 +91,7 @@ n="16"/>kaiścid api na bādhā karaṇīyā,</p>
    <l n="c">Ākṣeptā cānumantā ca</l>
    <l n="d">tāny eva narake <lb n="19"/>vaseT</l>
 </lg>
-<p>śrīmati ma<unclear cert="low">tsya-ku</unclear>le prasūtaḥ sva-bhuja-bala-pratāpāvanata-ripu<lb 
-n="20"/>r ājñaptir aṭavidurjjayaḥ<supplied reason="subaudible">.</supplied> saṁ <num value="18"><g type="numeral">10</g> 8</num> mā <num value="4">4</num> di <num value="15">10 5</num><space/><g type="dotTriple"/>
+<p>śrīmati ma<unclear cert="low">tsya-ku</unclear>le prasūtaḥ sva-bhuja-bala-pratāpāvanata-ripu<lb n="20"/>r ājñaptir aṭavidurjjayaḥ<supplied reason="subaudible">.</supplied> saṁ <num value="18"><g type="numeral">10</g> 8</num> mā <num value="4">4</num> di <num value="15">10 5</num><space/><g type="dotTriple"/>
 </p>
 <pb n="3v"/>
          </div>
@@ -147,7 +129,7 @@ n="20"/>r ājñaptir aṭavidurjjayaḥ<supplied reason="subaudible">.</supplied
                      <app loc="13">
                         <lem><unclear>pḻaki</unclear>-</lem>
                         <rdg source="bib:Burnell1878_01 bib:Fleet1891_01"><unclear cert="low">pūki</unclear>-</rdg>
-                        <note>The improved reading was suggested in <bibl><ptr target="bib:Hultzsch1907-1908_01"/><citedRange>318</citedRange></bibl> on the basis of <foreign>paḻaki-viṣaye</foreign> in line 11 of <ref target="CalE12-Timmapuram-Visnuvardhana1.xml"></ref> and is perfectly plausible from the facsimile.</note>
+                        <note>The improved reading was suggested in <bibl><ptr target="bib:Hultzsch1907-1908_01"/><citedRange>318</citedRange></bibl> on the basis of <foreign>paḻaki-viṣaye</foreign> in line 11 of <ref target="CalE12-Timmapuram-Visnuvardhana1.xml"/> and is perfectly plausible from the facsimile.</note>
                      </app>
                   </listApp>
                   <app loc="14">
@@ -172,7 +154,7 @@ n="20"/>r ājñaptir aṭavidurjjayaḥ<supplied reason="subaudible">.</supplied
          
          
          
-<div type="translation" xml:lang="eng" source="bib:Foulkes1870_01">
+<div type="translation" source="bib:Foulkes1870_01">
 <p n="1-3">Prosperity. The royal moon risen above the ocean of the glorious Chalakya race, whose two lotus-like feet glitter with the radiance of the gems of the crown of rival kings bowing down before him like creeping plants, defeated by his frowns, is the illustrious Satyashraya Vallabha Majaraja.</p>
 <p n="3-10">His beloved younger brother, the surmounter of difficulties, who has succeeded in penetrating inaccessible fortresses situated in the midst of plains, lakes, forests and mountains; the cow of plenty, raining down showers of wealth upon distressed and poverty-stricken brahmans; the crocodile bannered one, <supplied reason="explanation">the Hindu Cupid,</supplied> who by his beautiful form inspires young maidens with love; the destroyer of the spirit of misery, <supplied reason="explanation">Kali</supplied> drowning it in the whirlpools of the ocean of his benefactions; adorned with unsullied and highly distinguished glory arising out of its many wars and conquests; reverenced throughout the world like Manu, full of renown like Prithu, and accounted wise as Vrihaspati; an orthodox worshipper of supreme Brahma, the illustrious Vishnu Vardhana Maharaja issues his commands in this present matter to the assembled heads of families inhabiting the village of Kalvakonda, in the district of Dimila, as follows:—</p>
 <p n="10-16">
@@ -194,7 +176,7 @@ Let no one molest them in the enjoyment of it; in accordance with the following 
 </div>
          
          
-<div type="translation" xml:lang="eng" source="bib:Fleet1891_01">
+<div type="translation" source="bib:Fleet1891_01">
 <p n="1-3">Hail! A very moon of a king, risen from the ocean which is the glorious <persName>Calukya</persName> family; having the two water-lilies, which are <supplied reason="subaudible">his</supplied> feet, inlaid with the lustre of the jewels in the diadems of hostile kings who are bowed down by the frowning of his creeper-like arched eyebrows;— <supplied reason="subaudible">such is</supplied> the Mahārāja <persName>Satyāśraya</persName>, the favourite of fortune.</p>
 <p n="3-8">— His dear younger brother,—<supplied reason="subaudible">who is called</supplied> <persName>Viṣamasiddhi</persName>, because he has achieved success against fortresses, difficult of access, on the plains, in the water, in the woods and on hills; who is a very cow of plenty, through raining down showers of treasures on the poor, the helpless and the twice-born; who is a very Makaradhvaja <supplied reason="explanation">Kāmadeva</supplied>, because his handsome form plays the part of Madana <supplied reason="explanation">Kāmadeva</supplied> among young women; who has drowned the power of <supplied reason="subaudible">the wickedness of</supplied> the Kali age in the oceans that are his charities; who has adorned all the regions with the characteristic of <supplied reason="subaudible">his</supplied> pure fame, that has arisen from victory in many battles; who, like Manu, is acquainted with courteous behaviour; who, like Pr̥thu, is of far-reaching fame; who, like Guru <supplied reason="explanation">the regent of the planet Jupiter; the preceptor of the gods</supplied>, is possessed of wisdom; <supplied reason="subaudible">and</supplied> who is extremely kind to Brāhmaṇs,—</p>
 <p n="8-10">— <supplied reason="subaudible">He</supplied>, the Mahārāja, the glorious <persName>Viṣṇuvardhana</persName> <supplied reason="explanation">I</supplied>, issues a command to this purport to the assembled cultivators who reside at the village of <placeName>Kālvakoṇḍa</placeName> in the <placeName>Dimila</placeName> <foreign>viṣaya</foreign>; viz.:—</p>

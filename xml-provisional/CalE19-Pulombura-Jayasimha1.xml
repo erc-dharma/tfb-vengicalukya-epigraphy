@@ -1,112 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<TEI xmlns="http://www.tei-c.org/ns/1.0">
-  <teiHeader xml:lang="eng">
-    <fileDesc>
-      <titleStmt>
-        <title>Puloṁbūra grant of Jayasiṁha I</title><!--Stopped revision 20200814--><!--Alt title "Pulībūmra, Jayasiṁha I" in PEM's corpus. "Pulibumra Plates of Jayasiṁha I" in <bibl><ptr target="bib:Rangacharya1927-1928_03"/></bibl>. "Pulimburu Plates of Jayasiṁha I" in <bibl><ptr target="bib:SubbaRao1929_01"/></bibl>. "Polamuru Grant of Jayasiṁha I" in <bibl><ptr target="bib:Sircar1939_01"/></bibl>. "Polamuru Plates (set II)" in <bibl"><ptr target="bib:Sankaranarayanan1977_01"/></bibl>. -->
-        
-        <respStmt>
-          <resp>Encoding</resp>
-          <persName ref="part:daba"><forename>Dániel</forename><surname>Balogh</surname></persName>
-        </respStmt>
-        <respStmt>
-          <resp>intellectual authorship of edition</resp>
-          <persName ref="part:daba">
-            <forename>Dániel</forename>
-            <surname>Balogh</surname>
-          </persName>
-        </respStmt>
-      </titleStmt>
-      <publicationStmt>
-        <authority>DHARMA <note>This project has received funding from the European Research
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Puloṁbūra grant of Jayasiṁha I</title>
+            <!--Stopped revision 20200814-->
+            <!--Alt title "Pulībūmra, Jayasiṁha I" in PEM's corpus. "Pulibumra Plates of Jayasiṁha I" in <bibl><ptr target="bib:Rangacharya1927-1928_03"/></bibl>. "Pulimburu Plates of Jayasiṁha I" in <bibl><ptr target="bib:SubbaRao1929_01"/></bibl>. "Polamuru Grant of Jayasiṁha I" in <bibl><ptr target="bib:Sircar1939_01"/></bibl>. "Polamuru Plates (set II)" in <bibl"><ptr target="bib:Sankaranarayanan1977_01"/></bibl>. -->
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA <note>This project has received funding from the European Research
           Council (ERC) under the European Union's Horizon 2020 research and
           innovation programme (grant agreement no 809994).</note>
-        </authority>
-        <pubPlace>Berlin</pubPlace>
-        <idno type="filename">CalE19-Pulombura-Jayasimha1</idno>
-        <availability>
-          <licence target="https://creativecommons.org/licenses/by/4.0/">
-            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+            </authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">CalE19-Pulombura-Jayasimha1</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
               Licence. To view a copy of the licence, visit
               https://creativecommons.org/licenses/by/4.0/ or send a letter to
               Creative Commons, 444 Castro Street, Suite 900, Mountain View,
               California, 94041, USA.</p>
-            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
-          </licence>
-        </availability>
-        <date from="2019" to="2025">2019-2025</date>
-      </publicationStmt>
-      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
-        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
-          <msIdentifier>
-            <repository>DHARMAbase</repository>
-            <idno/><!-- don't modify this -->
-          </msIdentifier>
-          <msContents><!-- describe the intellectual content of an inscription -->
-            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
-          </msContents>
-          <physDesc>
-            <handDesc>
-              <p>Halantas. T: simplified, without headmark, long stem. E.g. l1, skandhāvārāT. M: just a simple curve, like a lowercase c or e slanted to the left, e.g. l2 putrāṇāM. 
-                <!--Original punctuation.  -->
-                <!--Other palaeographic observations.  -->
-                
-                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. T: simplified, without headmark, long stem. E.g. l1, skandhāvārāT. M: just a simple curve, like a lowercase c or e slanted to the left, e.g. l2 putrāṇāM. 
+                <!--Original punctuation.  --><!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
                 <handNote xml:id="Pallava00001_hand2"></handNote>
               -->
-            </handDesc>
-          </physDesc>
-        </msDesc>
-      </sourceDesc>
-    </fileDesc>
-    <revisionDesc>
-      <change who="part:daba" when="2020-04-21" status="draft">Initial encoding of the file</change>
-      <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
-      <!-- Add a <change> entry for each significant change to the file. -->
-    </revisionDesc>
-  </teiHeader>
-  <text xml:space="preserve">
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2020-04-21" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
     <body>
       
       
       
 <div type="edition" xml:lang="san-Latn">
 <pb n="1r"/>
-<p><pb 
-n="1v"/><fw n="1v" place="left"><num value="1">1</num></fw><lb 
-n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="subaudible">.</supplied> mātr̥-gaṇa-parirakṣitānāṁ mānavya-sagotrāṇ<unclear>ā</unclear>ṁ <lb 
-n="2"/>hāritī-putrāṇāM Aśvamedha-yājināṁ calukyānāṁ kula-jalanidhi<lb 
-n="3" break="no"/>-samu<space type="binding-hole"/>tpa<choice><sic>t</sic><corr>n</corr></choice>na-rāja-ratnasya sakala-bhuvana<surplus>ṁ</surplus>-maṇḍala-maṇḍita-kīrtt<choice><sic>i</sic><corr>e</corr></choice>ḥ śrī<lb 
-n="4" break="no"/>-kīrtti<space type="binding-hole"/>varmmaṇaḥ pautraḥ Aneka-samara-saṁghaṭṭa-vijayinaḥ pa<unclear>ra</unclear>-nara<lb 
-n="5" break="no"/>pati-makuṭa-maṇi-mayūkhāvadāta-caraṇa-yugalasya śrī-viṣṇuvarddhana<lb 
-n="6" break="no"/>-mahārājasya priya-tanayaḥ pravarddhamāna-pratāpopanata-samasta<pb 
-n="2r" break="no"/><lb 
-n="7" break="no"/>-sāmanta-maṇḍalaḥ sva-bāhu-bala-parākkramopārjjita-sa<unclear>kala</unclear>-yaśo<lb 
-n="8" break="no"/>-vibhāsita-digantaraḥ sva-śakti-traya-triśūlāvabhinna-para-<unclear>na</unclear>rapati<lb 
-n="9" break="no"/>-saka<space type="binding-hole"/>la-bala-cetanaḥ br̥haspatir iva naya-jño manur iva vinaya<lb 
-n="10" break="no"/>-jñaḥ <space type="binding-hole"/> yudhiṣṭhira Iva dharmma-parāyaṇaḥ Arjunavad apara-nara<lb 
-n="11" break="no"/>patibhir anabhilaṁghita-pauruṣyaḥ Aneka-śāstrārttha-tatva-jñaḥ para<lb 
-n="12" break="no"/>ma-brahmaṇy<choice><sic>ā</sic><corr>o</corr></choice> mātā-pitr̥-pādānudhyātaḥ śrī-<orig>prithivī</orig>-jayasi<orig>ṅgha</orig>-va<pb 
-n="2v" break="no"/><fw n="2v" place="left"><num value="2"><unclear>2</unclear></num></fw><lb 
-n="13"/>llabha-mahārājaḥ guddavādi-viṣay<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst> viṣaya-mahat<unclear>t</unclear>a<unclear>rān a</unclear><supplied reason="lost">dh</supplied><unclear>i</unclear>kāra-pu<lb 
-n="14" break="no"/>ruṣāṁś ca Imam arttham ājñāpayaty <surplus>asti</surplus></p>
-<p>viditam astu vo ya<unclear>thās</unclear>mābhiḥ <lb 
-n="15"/>gudda<space type="binding-hole"/>vādi-viṣaye puloṁbūran nāma-grāmaḥ veda-vedāṁga<lb 
-n="16" break="no"/>-vido <space type="binding-hole"/>dāmaśarmmaṇaḥ pautrāya sva-pitur adhika-guṇa-gaṇādhi<lb 
-n="17" break="no"/>vāsasya śivaśarmmaṇaḥ putrāya taittirika-sabrahmacāriṇe veda<lb 
-n="18" break="no"/>-dvayālaṁkr̥ta-śar<choice><sic>i</sic><corr>ī</corr></choice>rāya gautama-sagotrāya sva-karmmān<unclear>uṣṭh</unclear>āna<pb 
-n="3r" break="no"/><lb 
-n="19" break="no"/>-parāya pūrvvāgrahārika-rudraśarmmaṇe Asanapura-sthāna-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <lb 
-n="20"/>śrī-sarvvasiddhi-da<orig>t</orig>yā sarvva-kara-parihāreṇāgrahārī-kr̥tya samprattaḥ</p>
-<p><lb 
-n="21"/>tathā <space type="binding-hole"/> bhavadbhir a<choice><sic>ṇ</sic><corr>n</corr></choice>yaiś ca dharmmādhi<choice><sic>ś</sic><corr>g</corr></choice>ata-buddhibhiḥ paripālanīyaḥ<supplied reason="subaudible">.</supplied> <lb 
-n="22"/>na kai<space type="binding-hole"/>ścid bādhā karaṇīyā<supplied reason="subaudible">.</supplied> Ājñaptir atra hastikośa-vīrakoś<choice><sic>a</sic><corr>au</corr></choice><subst><del rend="corrected"><unclear>yo</unclear></del><add place="overstrike"><unclear>vyā</unclear></add></subst><lb 
-n="23" break="no"/>sa-gītāḥ</p>
+<p><pb n="1v"/><fw n="1v" place="left"><num value="1">1</num></fw><lb n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="subaudible">.</supplied> mātr̥-gaṇa-parirakṣitānāṁ mānavya-sagotrāṇ<unclear>ā</unclear>ṁ <lb n="2"/>hāritī-putrāṇāM Aśvamedha-yājināṁ calukyānāṁ kula-jalanidhi<lb n="3" break="no"/>-samu<space type="binding-hole"/>tpa<choice><sic>t</sic><corr>n</corr></choice>na-rāja-ratnasya sakala-bhuvana<surplus>ṁ</surplus>-maṇḍala-maṇḍita-kīrtt<choice><sic>i</sic><corr>e</corr></choice>ḥ śrī<lb n="4" break="no"/>-kīrtti<space type="binding-hole"/>varmmaṇaḥ pautraḥ Aneka-samara-saṁghaṭṭa-vijayinaḥ pa<unclear>ra</unclear>-nara<lb n="5" break="no"/>pati-makuṭa-maṇi-mayūkhāvadāta-caraṇa-yugalasya śrī-viṣṇuvarddhana<lb n="6" break="no"/>-mahārājasya priya-tanayaḥ pravarddhamāna-pratāpopanata-samasta<pb n="2r" break="no"/><lb n="7" break="no"/>-sāmanta-maṇḍalaḥ sva-bāhu-bala-parākkramopārjjita-sa<unclear>kala</unclear>-yaśo<lb n="8" break="no"/>-vibhāsita-digantaraḥ sva-śakti-traya-triśūlāvabhinna-para-<unclear>na</unclear>rapati<lb n="9" break="no"/>-saka<space type="binding-hole"/>la-bala-cetanaḥ br̥haspatir iva naya-jño manur iva vinaya<lb n="10" break="no"/>-jñaḥ <space type="binding-hole"/> yudhiṣṭhira Iva dharmma-parāyaṇaḥ Arjunavad apara-nara<lb n="11" break="no"/>patibhir anabhilaṁghita-pauruṣyaḥ Aneka-śāstrārttha-tatva-jñaḥ para<lb n="12" break="no"/>ma-brahmaṇy<choice><sic>ā</sic><corr>o</corr></choice> mātā-pitr̥-pādānudhyātaḥ śrī-<orig>prithivī</orig>-jayasi<orig>ṅgha</orig>-va<pb n="2v" break="no"/><fw n="2v" place="left"><num value="2"><unclear>2</unclear></num></fw><lb n="13"/>llabha-mahārājaḥ guddavādi-viṣay<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst> viṣaya-mahat<unclear>t</unclear>a<unclear>rān a</unclear><supplied reason="lost">dh</supplied><unclear>i</unclear>kāra-pu<lb n="14" break="no"/>ruṣāṁś ca Imam arttham ājñāpayaty <surplus>asti</surplus></p>
+<p>viditam astu vo ya<unclear>thās</unclear>mābhiḥ <lb n="15"/>gudda<space type="binding-hole"/>vādi-viṣaye puloṁbūran nāma-grāmaḥ veda-vedāṁga<lb n="16" break="no"/>-vido <space type="binding-hole"/>dāmaśarmmaṇaḥ pautrāya sva-pitur adhika-guṇa-gaṇādhi<lb n="17" break="no"/>vāsasya śivaśarmmaṇaḥ putrāya taittirika-sabrahmacāriṇe veda<lb n="18" break="no"/>-dvayālaṁkr̥ta-śar<choice><sic>i</sic><corr>ī</corr></choice>rāya gautama-sagotrāya sva-karmmān<unclear>uṣṭh</unclear>āna<pb n="3r" break="no"/><lb n="19" break="no"/>-parāya pūrvvāgrahārika-rudraśarmmaṇe Asanapura-sthāna-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <lb n="20"/>śrī-sarvvasiddhi-da<orig>t</orig>yā sarvva-kara-parihāreṇāgrahārī-kr̥tya samprattaḥ</p>
+<p><lb n="21"/>tathā <space type="binding-hole"/> bhavadbhir a<choice><sic>ṇ</sic><corr>n</corr></choice>yaiś ca dharmmādhi<choice><sic>ś</sic><corr>g</corr></choice>ata-buddhibhiḥ paripālanīyaḥ<supplied reason="subaudible">.</supplied> <lb n="22"/>na kai<space type="binding-hole"/>ścid bādhā karaṇīyā<supplied reason="subaudible">.</supplied> Ājñaptir atra hastikośa-vīrakoś<choice><sic>a</sic><corr>au</corr></choice><subst><del rend="corrected"><unclear>yo</unclear></del><add place="overstrike"><unclear>vyā</unclear></add></subst><lb n="23" break="no"/>sa-gītāḥ</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā</l>
 <l n="b">bahubhiś cānupālitā</l>
@@ -157,8 +133,7 @@ n="23" break="no"/>sa-gītāḥ</p>
         <note>As Rangacharya notes, there is a dot before the first character, at the position of a headmark.</note>
       </app>
       <app loc="22">
-        <lem>hastikośa-vīrakoś<choice><sic>a</sic><corr>au</corr></choice><subst><del rend="corrected"><unclear>yo</unclear></del><add place="overstrike"><unclear>vyā</unclear></add></subst><lb 
-n="23" break="no"/>sa-gītāḥ</lem>
+        <lem>hastikośa-vīrakoś<choice><sic>a</sic><corr>au</corr></choice><subst><del rend="corrected"><unclear>yo</unclear></del><add place="overstrike"><unclear>vyā</unclear></add></subst><lb n="23" break="no"/>sa-gītāḥ</lem>
         <rdg source="bib:Rangacharya1927-1928_03">hastikoś<choice><sic>a</sic><corr>o</corr></choice> vīrakośa <unclear>vyā</unclear><lb/>sa-gītāḥ</rdg>
         <rdg source="bib:SubbaRao1929_01">hastikośa vīrakośā yo<lb/>sagītaḥ</rdg>
         <rdg source="bib:Sircar1939_01">hastikośa vīrakoś<choice><sic>a</sic><corr>au</corr></choice> byā<lb/>sa-gītaḥ</rdg>
@@ -182,7 +157,7 @@ n="23" break="no"/>sa-gītāḥ</lem>
 
 
 
-<div type="translation" xml:lang="eng" resp="part:daba">
+<div type="translation" resp="part:daba">
 <p n="1-14">Greetings from the victorious army camp.
 The grandson of His Majesty Kīrtivarman, a jewel of a king whose reputation decorates the entire circle of the world and who arose from the ocean that is the family of the Calukyas—who are protected by the band of Mothers, who are of the Mānavya <foreign>gotra</foreign>, who are the sons of Hāritī and who have performed the Aśvamedha sacrifice—;the dear son of King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana, who is victorious in the clash of many a battle and whose two feet are bright with the rays of gems in the crowns of enemy kings;
 His Majesty the supremely pious Pr̥thivījayasiṁha Vallabha, who was deliberately appointed <supplied reason="explanation">as heir</supplied> by his mother and father, whose ever-increasing valour forces all subordinate rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> to bow, whose reputation attained by the strength of his own arms illuminates all quarters of the sky,<note>I assume this is the intent of the composer, but the compound is rather awkward. Sankaranarayanan actually suggests emending to <foreign>°opārjjita-yaśo-vibhāsita-sakala-digantaraḥ</foreign>.</note> who breaks the entire army and <supplied reason="subaudible">even</supplied> the mind of enemy kings with the trident comprised of his own three powers <supplied reason="explanation"><foreign>śakti-traya</foreign></supplied>, who is as versed in polity <supplied reason="explanation"><foreign>naya</foreign></supplied> as Br̥haspati, as versed in discipline <supplied reason="explanation"><foreign>vinaya</foreign></supplied> as Manu, as thoroughly devoted to righteousness <supplied reason="explanation"><foreign>dharma</foreign></supplied> as Yudhiṣṭhira and as unsurpassed in prowess by other rulers as Arjuna, and who knows the essence of the meaning of many Śāstras, informs the district headmen <supplied reason="explanation"><foreign>viṣaya-mahattara</foreign></supplied> and officials in the Guddavādi district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> of the following matter.</p>
@@ -197,7 +172,7 @@ Many <supplied reason="explanation">kings</supplied> have granted land, and many
 
 
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-<p n="1-14">Prospérité ! De l’illustre quartier général victorieux, le petit-fils de l’illustre Kīrtivarman, dont la gloire ornait le cercle de tous les êtres, joyau des rois né dans l’océan qu’est la lignée des Calukya,<note>Pour ces composés cf. notre note in insc. n° 14. Même occurrence in insc. nos 14,15,16.</note> protégés par la troupe des Mères, du même <foreign>gotra</foreign> que les descendants de Manu, fils de Hāriti, qui accomplirent le sacrifice de l’<foreign>aśvamedha</foreign>, fils aimé du grand roi illustre Viṣṇuvardhana, vainqueur dans les heurts des nombreux combats, dont les deux pieds sont illuminés par les pierres précieuses des diadèmes des rois ennemis, l’illustre grand roi Pr̥thivī Jayasiṁha Vallabha, devant l’auguste majesté duquel le cercle des feudataires est incliné, possesseur des horizons, illuminés par toute la gloire que lui ont procurée les exploits <supplied reason="subaudible">remportés</supplied> par la force de ses bras, dont trident que sont ses trois pouvoirs brise les forces et le cœur des rois ennemis, - tel Br̥haspati, il connaît sagesse politique,<note>Br̥haspati est l’auteur mythique du Nītiśāstra, traité de politique.</note> tel Manu, il connaît la juste conduite,<note>Manu est l’auteur mythique du Dharmaśāstra.</note> tel Yudhiṣṭhira, il est entièrement dévoué au <foreign>dharma</foreign>, tel Arjuna, sa bravoure n’est pas dépassée par les rois ennemis, il connaît la vérité du sens des différents traités, extrêmement pieux, - méditant aux pieds de sa mère et de son père, donne aux hommes et <gap reason="ellipsis"></gap> dans le <foreign>viṣaya</foreign> de Guddavādi cet ordre :</p>
+<p n="1-14">Prospérité ! De l’illustre quartier général victorieux, le petit-fils de l’illustre Kīrtivarman, dont la gloire ornait le cercle de tous les êtres, joyau des rois né dans l’océan qu’est la lignée des Calukya,<note>Pour ces composés cf. notre note in insc. n° 14. Même occurrence in insc. nos 14,15,16.</note> protégés par la troupe des Mères, du même <foreign>gotra</foreign> que les descendants de Manu, fils de Hāriti, qui accomplirent le sacrifice de l’<foreign>aśvamedha</foreign>, fils aimé du grand roi illustre Viṣṇuvardhana, vainqueur dans les heurts des nombreux combats, dont les deux pieds sont illuminés par les pierres précieuses des diadèmes des rois ennemis, l’illustre grand roi Pr̥thivī Jayasiṁha Vallabha, devant l’auguste majesté duquel le cercle des feudataires est incliné, possesseur des horizons, illuminés par toute la gloire que lui ont procurée les exploits <supplied reason="subaudible">remportés</supplied> par la force de ses bras, dont trident que sont ses trois pouvoirs brise les forces et le cœur des rois ennemis, - tel Br̥haspati, il connaît sagesse politique,<note>Br̥haspati est l’auteur mythique du Nītiśāstra, traité de politique.</note> tel Manu, il connaît la juste conduite,<note>Manu est l’auteur mythique du Dharmaśāstra.</note> tel Yudhiṣṭhira, il est entièrement dévoué au <foreign>dharma</foreign>, tel Arjuna, sa bravoure n’est pas dépassée par les rois ennemis, il connaît la vérité du sens des différents traités, extrêmement pieux, - méditant aux pieds de sa mère et de son père, donne aux hommes et <gap reason="ellipsis"/> dans le <foreign>viṣaya</foreign> de Guddavādi cet ordre :</p>
 <p n="15-23">qu’il soit connu de vous que nous donnons ce village nommé Pulībūṁran, dans le <foreign>viṣaya</foreign> de Guddavādi, au moyen d’une donation <foreign>sarvvasiddhi</foreign>,<note>D.C. Sircar, 1966, p.85 : datti , « don ».</note> exempté de toute taxe, en qualité d’<foreign>agrahāra</foreign>, au petit-fils de Dāmaśarman, qui connaissait les Veda et <foreign>vedāṅga</foreign>, au fils de Śivaśarman, séjour d’une multitude de vertus surpassant celles de son père, à Rudraśarman, déjà en possession d’un <foreign>agrahāra</foreign>,<note>ibid., p. 11.</note> disciple de l’école des Taittirika, dont le corps est orné par les deux Veda, du <foreign>gotra</foreign> de Gotama, dévoué à la pratique de ses devoirs, habitant le camp d’Asanapura. Ainsi <supplied reason="subaudible">ce don</supplied> doit être protégé par vous et par les autres, personnes sages vouées au <foreign>dharma</foreign>. Aucune charge ne doit lui être imposée. L’ exécuteur est l’<foreign>hastikośa</foreign><note>ibid., p.127, officier d’un district en charge des éléphants.</note> et le <foreign>vīrakośa</foreign><note>ibid., p.375, officier d’un district en charge des soldats en place ou de l’infanterie.</note> que voici.<note>Ce passage est délicat, le terme ājñapti étant au singulier, nous pouvons nous demander si le même personnage a deux charges, ce qui est assez étonnant. On peut aussi penser que l’un des deux termes est le nom du personnage, l’autre sa fonction.</note> Les vers de Vyāsa <supplied reason="subaudible">disent</supplied> :</p>
 <p rend="stanza" n="1">
 beaucoup ont donné une terre, beaucoup l’on protégée,
