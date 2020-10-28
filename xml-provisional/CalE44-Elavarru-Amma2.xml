@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Elavaṟṟu grant of Amma II</title>
+           <!--ALT TITLE: Masulipatam plates of Bhīma II.-->
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA <note>This project has received funding from the European Research
+          Council (ERC) under the European Union's Horizon 2020 research and
+          innovation programme (grant agreement no 809994).</note>
+            </authority>
+            <pubPlace>Berlin</pubPlace>
+           <idno type="filename">CalE44-Elavarru-Amma2</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                    <p>Halantas. Final T is s full-sized stylised ta (a spiral without a headmark) plus a curling tail on top like an inverted cedilla, e.g. l7 apālayaT. Final N is a simplified but full-size character somewhat resembling na without a headmark, and the curled tail, e.g. l11 sāN.</p>
+                    <p>Original punctuation marks are straight verticals with a small hook or a wedge-like headmark at the top. @@@transliterated /, replace to <g type="dandaSerif">.</g> and <g type="ddandaSerif">.</g></p>
+                    <p>Other palaeographic observations. Anusvāra is normally written inline at headline height. It may be separated from the preceding consonant as in l16-17 tri/ṁśataṁ, but this is not visible in my scanned facsimile.
+Dependent o is normally written with two separate strokes. There may be a cursive o in l10 where Fleet reads kokkili, but I prefer to read this as kaukkili since the tail of the vowel marker is hooked.              
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2020-10-28" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/><g type="floretComplex"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-sa<supplied reason="omitted">ṁ</supplied>stūyamāna-mānavy<choice><sic>ā</sic><corr>a</corr></choice>-sagotrāṇāṁ hā<lb 
+n="2" break="no"/>rīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripāli<lb 
+n="3" break="no"/>tānāṁ svā<supplied reason="omitted">mi</supplied>-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-pras<choice><sic>a</sic><corr>ā</corr></choice>da<lb 
+n="4" break="no"/>-samāsā<space type="binding-hole"/>dita-vara-varāha-lā<supplied reason="omitted">ñcha</supplied>nekṣaṇa-kṣaṇa-vaśīkr̥tār<subst><del rend="corrected">i</del><add place="inline">ā</add></subst>ti-ma<lb 
+n="5" break="no"/>ṇḍalāṇā<surplus>ṁ</surplus><space type="binding-hole"/>m aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ cā<lb n="6" 
+break="no"/>lukyānāṁ kulam alaṁkariṣṇoḥ satyāśraya-vallabhendrasya bhrātā ku<lb 
+n="6" break="no"/>bja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa-varṣāṇi veṁgī-deśam apālayaT// tad-ātma<pb 
+
+n="2r" break="no"/><lb 
+n="8" break="no"/>jo jayasiṁhas trayastrimśataṁ/ tad-anujendrarāja-nandano viṣṇuva<lb 
+n="9" break="no"/>rddhano nava/ tat-sūnur mm<choice><sic>a</sic><corr>ā</corr></choice>ṁgi-yuvarājaḥ paṁca-viṁśatiṁ/ tat-putro <lb 
+n="10"/>jayasiṁ<space type="binding-hole"/>has trayodaśa/ tad-avarajaḥ k<choice><orig>au</orig><reg>o</reg></choice>kkiliḥ ṣaṇ mā<lb 
+n="11" break="no"/>sāN/ ta<space type="binding-hole"/>sya jyeṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya sapta<lb 
+n="12" break="no"/>triṁśataṁ/ <space type="binding-hole"/> tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa/ tat-su<lb 
+n="13" break="no"/>to viṣṇuvarddh<choice><sic>ā</sic><corr>a</corr></choice>naḥ ṣat-triṁśataṁ/ tat-suto vijayāditya-narendra-mr̥ga<lb 
+n="14" break="no"/>rājaś cāṣṭacatvāriṁśataṁ/ tat-sutaḥ kali-<supplied reason="omitted">viṣṇu</supplied>varddhano <supplied reason="subaudible">’</supplied><orig>ddh</orig>yarddha-varṣ<choice><sic>ā</sic><corr>a</corr></choice>ṁ/ <pb 
+
+n="2v"/><lb 
+n="15"/>tat-suto guṇagā<supplied reason="omitted">ṁ</supplied>ka-vijayādityaś catuścatvāriṁśataṁ/ tad-anu<lb 
+n="16" break="no"/>ja-vikramāditya-bhūp<choice><sic>ā</sic><corr>a</corr></choice>teḥ sūnuś cālukya-bhīma-bhūpālas tri<lb 
+n="17" break="no"/>ṁśataṁ/ <space type="binding-hole"/> tat-putraḥ kollabigaṇḍa-vijayādityaḥ ṣa<lb 
+n="18" break="no"/>ṇ māsāN<supplied reason="omitted">/</supplied> <space type="binding-hole"/> tat-sūnur ammarājaḥ sapta varṣ<choice><sic>a</sic><corr>ā</corr></choice>ni/ tat-sutaṁ <lb 
+n="19"/>vijayā<space type="binding-hole"/>dityaṁ b<choice><sic>a</sic><corr>ā</corr></choice>lam uccāṭya tālapo mās<choice><sic>ā</sic><corr>a</corr></choice>m ekaM<supplied reason="omitted">/</supplied> <lb 
+n="20"/>taṁ jitvā <surplus>ś</surplus>c<orig>a</orig>lukya-bh<choice><sic>i</sic><corr>ī</corr></choice>ma-tanayo vikramāditya Ekādaśa mā<lb 
+n="21" break="no"/>sāN/ tatas tālapa-rājasya suto yuddhamallaḥ sapta varṣ<choice><sic>a</sic><corr>ā</corr></choice><pb 
+
+n="3r" break="no"/><lb 
+n="22" break="no"/>ṇi/ tat-putraḥ kollabigaṇḍa-vijayāditya-suto bhīma-rā<lb 
+n="23" break="no"/>jo dvādaśa varṣāṇi//</p>
+<lg n="1" met="āryā">
+<l n="ab">tasya maheśvara-m<unclear>ū</unclear>rtter umā-samā<lb 
+n="24" break="no"/>nākr̥teḥ <space type="binding-hole"/> kumārābhaḥ</l>
+<l n="cd">lokamahādevyā<supplied reason="omitted">ḥ</supplied> khalu ya<lb 
+n="25" break="no"/>s samabha<space type="binding-hole"/>vad ammarājākhyaḥ//</l>
+</lg>
+<lg n="2" met="āryāgīti">
+<l n="ab">jalajātapatra-cā<lb 
+n="26" break="no"/>mara-ka<space type="binding-hole"/>laśāṁkuśa-lakṣaṇāṁka-kara-caraṇa-ta<lb 
+n="27" break="no"/>laḥ</l>
+<l n="cd">lasad-ājānv-avala<supplied reason="omitted">ṁ</supplied>bita-bhuja-yuga-parigho girī<lb 
+n="28" break="no"/>ndrasānūraskaḥ//</l>
+</lg>
+<lg n="2" met="āryāgīti">
+<l n="ab">yo rūpeṇa manojaṁ vibhavena ma<pb 
+
+n="3v" break="no"/><lb 
+n="29" break="no"/>hendram ahima-karam uru-mahasā</l>
+<l n="cd">haram ari-pura-dahanena nyakkurvvan bhā<lb 
+n="30" break="no"/>ti vidita-dig-avani-kī<supplied reason="omitted">r</supplied>ttiḥ//</l>
+</lg>
+<p>sa sakala-ripu-nr̥pati-makuṭa-taṭa-ghaṭita-maṇi<lb 
+n="31" break="no"/>-gaṇa-madhu<space type="binding-hole"/>kara-nikara-paricuṁbita-caraṇa-sarasi-ruha-yugalo <lb 
+n="32" break="no"/><supplied reason="subaudible">’</supplied>yuga-lo<space type="binding-hole"/>cana-pada-kamala-vilasad-dvire<choice><sic>p</sic><corr>ph</corr></choice>āyamāno mānonna<lb 
+n="33" break="no"/>t<choice><sic>o</sic><corr>ā</corr></choice>natoddha<space type="binding-hole"/>ta-samasta-lokaḥ samasta-bhuvanāśraya-śrī-vijayā<lb 
+n="34" break="no"/>ditya-mahār<choice><sic>a</sic><corr>ā</corr></choice>jādhir<choice><sic>a</sic><corr>ā</corr></choice>jaḥ parameśvaraḥ parama-bhaṭṭārakaḥ parama-brahmaṇyaḥ vela<lb 
+n="35" break="no"/>nāṇḍu-viṣaya-nivāsino rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pramukhān kuṭuṁbina<supplied reason="omitted">ḥ</supplied> samāhūyettham ājñāpaya<pb 
+
+n="4r" break="no"/><lb 
+n="36" break="no"/>@@@ti[+||]
+
+Face IVa.
+vidvat-kavīndra-prabhavaṁ prasiddhaṁ pūjyodayaṁ bhūri-guṇādhivāsaṁ dharmmiṣṭha-bhūmi[r*] nniyama-svadhāma-pātraṁ paraṁ kāśyapa-gotram āsīt[+||]
+tatra bhūsura-yathocita vidyā-karmma-ṣaṭka-vidhi-nirmmala-dehaḥ veda-vid-vidita-śāstra-samūho1930 viddamayya iti viśruta-kīrttiḥ1931[+||]
+bhūdeva-vamśā[ṁ*]budhi1932-śītaraśmi[r*] vvidvat-sarojākara1933-bhānu-bhānuḥ tat-sūnur aṁbhojabhavopamāno vidyāmayo viddamiya-prasiddhaḥ[+||]
+arundhatyā viśiṣṭasya vaśiṣṭhasyopamāmayāt pativratātmayā dharmma-patnyā yaś cānamavvayā[+||]
+
+Face IVb.
+kula-kramāyātam udāra-bhāvam ananya-dr̥ṣṭāśruta-pūrvva-rūpaṁ dadhad1934 dharādhāri dharopamānaḥ tāyos sutaḥ koramiyābhidhānaḥ[+||]
+śrī-lokamahādevyā samavarddhyata yo [+’]smad aṁbayā prītyā cāturrya-nāgarakayor āvāsa-sthānam iti manoharayoḥ[+||]
+apahasati vāgmitā1935 vāg vanitāṁ yatra sthitā mahā-cāture1936 asujana-dhārā1937 nāgaraka-jalajabhava-bahumukha-prīyāṁ satatam[+||]
+utpadyate prasaṁgāt sujanatayā cātma-sahajavā yasya[+|]
+vibhavaḥ patipraśaṁ[sya*]1938ś citram idaṁ sādhu-vāda iti[+||] (4)
+rasikānām atiraskaś cāturāṇām1939 adhikacātura1940 evāyaṁ Koramiya-nāmadheyo viduṣām atyanta-vijñānī 1941[+||]
+sevita-samasta-bhūpati-hr̥daya-sthiti-bhāg-guṇopapanno mūlyaḥ 1942 mutkāphala-saccaritaḥ koramiyo1943 vastu-puruṣa ityupapannam[+||]
+
+Face Va.
+anāgata-jñāna1944-vivekinī dhīranindya-cāritra-parā hi ceṣṭā aśeṣa-bhogopanatam manaś ca aho mahat koramiyasya puṇyam[+||]
+tasmai koramiya-nāmne suvarṇṇa-bhāṇḍāgāra-śrīkaraṇa-mukhyāya elavaṟṟu-nāmā-grāmas sarvva-kara-parihāreṇāgrahārīkr̥tyodaka-pūrvvam1945 uttarāyaṇa-nimittesmābhir ddatta iti viditam astu vaḥ [+||]
+asyāvadhayaḥ[+|]
+pūrvvataḥ1946 gomaḍuvu sīma[+||]
+āgneyataḥ ḍagguṁbaṟti sīma[+||]
+dakṣiṇataḥ iṇṭhūri sīma[+||]
+nairr̥ti-paścimābhyāṁ preṁpaṟti sīma[+||]
+vāyavyataḥ tuṟimiṇḍi sīma[+||]
+uttareśānābhyāṁ amutunūri sīma[+||]
+asyoparī na kenacid bādhā karttavyā yaḥ karoti sa paṁca-mahāpātako bhavati[+|]
+tathoktaṁ vyāsena[+||]
+bahubhir vvasudhā dattā bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||] (5)
+
+Face Vb.
+sva-dattāṁ para-dattāṁ vā yo haretā vasundharām[+|]
+ṣaṣṭi-varṣa-sahasrāṇi viṣṭāyā[ṁ*] jāyate1947 kr̥miḥ[+|]/̇ (6)
+ājñāptiḥ1948 kaṭakarājaḥ[+||]
+potanabhaṭṭa-kāvyam[+||]
+jontācārya-likhitam[+||]
+
+</p>
+<pb 
+
+n="5v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+    <listApp>
+      <app loc="1">
+        <lem>-tribhuvanāṁkuśa</lem>
+        <rdg source="bib:Fleet1883_01">-tribhuvanāṅkuśa</rdg>
+        <note>My scanned facsimile of the seal is not clear, but the spelling seems to be with <foreign>anusvāra</foreign>, as usual in related plates.</note>
+      </app>
+    </listApp>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="10">
+        <lem>k<choice><orig>au</orig><reg>o</reg></choice>kkiliḥ</lem>
+        <rdg source="bib:Fleet1883_01">kokkiliḥ</rdg>
+      </app>
+      <app loc="15">
+        <lem>guṇagā<supplied reason="omitted">ṁ</supplied>ka-</lem>
+        <rdg source="bib:Fleet1883_01">guṇagāṁka-</rdg>
+      </app>
+      <app loc="16">
+        <lem>tri<lb n="17" break="no"/>ṁśataṁ/</lem>
+        <note>I accept Fleet's reading here, but the <foreign>anusvāra</foreign> is not visible in the scanned estampage and may have been omitted.</note>
+      </app>
+      <app loc="17">
+        <lem>kollabigaṇḍa-</lem>
+        <rdg source="bib:Fleet1883_01">kollabhigaṇḍa-</rdg>
+        <note>Definitely a typo or oversight in Fleet's edition; the estampage clearly has <foreign>b</foreign>.</note>
+      </app>
+      <app loc="22">
+        <lem>kollabigaṇḍa-</lem>
+        <rdg source="bib:Fleet1883_01">kollabhigaṇḍa-</rdg>
+        <note>Definitely a typo or oversight in Fleet's edition; the estampage clearly has <foreign>b</foreign>.</note>
+      </app>
+      <app loc="34">
+        <lem>-mahār<choice><sic>a</sic><corr>ā</corr></choice>jādhir<choice><sic>a</sic><corr>ā</corr></choice>jaḥ</lem>
+        <rdg source="bib:Fleet1883_01">-mahārājādhir<choice><sic>a</sic><corr>ā</corr></choice>jaḥ</rdg>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17"></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>The grant includes some recycled plates. The writing on these has been beaten out quite effectively, but Fleet reports a few intelligible sequences of characters that can be read in the original, albeit invisible in the estampages. Traces of a grant written in earlier characters, parallel to the lines of the present grant, can be found on 1 verso and both sides of plate 3. A different grant, in characters of the same period as the present one and written across the lines of the present grant, can be found on both sides of plate 2. The lines of this have been truncated as the earlier plate was cut to its present size. Plates 4 and 5 are not palimpsests, and there is no earlier writing on 1 recto.
+</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Edited from the original by Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1883_01"/></bibl>), with a translation and with facsimiles. The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published facsimiles.<note>All my scans of IA12 are quite poor. Though Fleet says the plates are in perfect preservation, my scans of 3r and 4v are illegible in many places (where I simply adopt Fleet's reading), and the other plates far from perfect. Checking a printed Indian Antiquary may help.<!--A printed EI5 needs to be CHECKed for this.--></note></p>
+  <listBibl type="primary">
+    <bibl n="JFF"><ptr target="bib:Fleet1883_01"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
