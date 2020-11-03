@@ -23,10 +23,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <authority>DHARMA <note>This project has received funding from the European Research
-          Council (ERC) under the European Union's Horizon 2020 research and
-          innovation programme (grant agreement no 809994).</note>
-            </authority>
+            <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
             <idno type="filename">CalE16-Gudivada3-Jayasimha1</idno>
             <availability>
@@ -67,7 +64,32 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:daba" when="2020-04-14" status="draft">Initial encoding of the file</change>
          <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
          <!-- Add a <change> entry for each significant change to the file. -->
@@ -79,62 +101,26 @@
       
       
 <div type="edition" xml:lang="san-Latn">
-<pb 
-
-n="1r"/>
-<p><pb 
-
-n="1v"/><lb 
-n="1"/><unclear><g type="symbol" subtype="spiralR"/></unclear>svasti śrīmad-asanapura-vāsakāT sva-śakti-mukha-dalita-danu<lb 
-n="2" break="no"/>ja-pati-mahā-senena mahāsenenābhiva<supplied reason="omitted">r</supplied>ddhitānāṁ mātr̥-ga<lb 
-n="3" break="no"/>ṇa-pari<space type="binding-hole"/>pālitānāṁ mānavya-sagotrāṇāṁ hāriti-putrāṇā<lb 
-n="4" break="no"/>m aśva<space type="binding-hole"/>medha-yājināṁ <orig>cadukyānāṁ</orig> kula-jaladhi-samudbhū<lb 
-n="5" break="no"/>ta-rāja-ratnasya śrī-kī<choice><sic>ttī</sic><corr>rtti</corr></choice>varmaṇaḥ priya-naptā Aidaṁyugīna-mahā<lb 
-n="6" break="no"/>viṣṇoḥ viṣṇuvarddhana-mahārājasya priya-tanayaḥ pravarddhamā<pb 
-
-n="2r" break="no"/><lb 
-n="7" break="no"/>na-pratāpopanata-samasta-sāmanta-maṇḍalaḥ sva-śakti-traya-parā<lb 
-n="8" break="no"/>jita-para-śaktiḥ Aneka-samara-saṁghaṭṭa-vijayāvāpta-yaśo-viśe<unclear>ṣa</unclear><lb 
-n="9" break="no"/>-bhūṣa<space type="binding-hole"/>ṇaḥ pratidinam aneka-sāmanta-makuṭa-maṇi-prabhā-raṁ<lb 
-n="10" break="no"/>jita-pā<space type="binding-hole"/>da-pīṭhaḥ parama-brahmaṇyo mātā-pitr̥-pādānudhyā<lb 
-n="11" break="no"/>taḥ śrī-pr̥thiv<orig>i</orig>-jayasi<orig>ṁgha</orig>-vallabha-mahārājaḥ pḻakki-viṣaye <lb 
-n="12"/>viṣa<supplied reason="omitted">ya</supplied>-vr̥ddhān adhikārinaḥ kundūra-grāma-kuṭumbinaś ca samājñāpaya<pb 
-
-n="2v" break="no"/><lb 
-n="13" break="no"/>ti</p>
-<p>viditam astu vo yathāsmābhiś catur-vvidyā-pāragasya mitrayaśa<lb 
-n="14" break="no"/>saḥ pautrābhyāṁ sva-pitu<supplied reason="omitted">r</supplied> guṇālaṅkr̥tasya viṣṇuyaṣasaḥ putrābhyāṁ ṣaṭ-ka<lb 
-n="15" break="no"/>rmma-dharmmā<space type="binding-hole"/>nuṣṭhāna-parābhyāṁ Agniṣṭoma-yājibhyāṁ vatsa-sagotrābhyāṁ <lb 
-n="16"/>chandoga<space type="binding-hole"/>-sabrahmacāribhyāṁ svāmiyaśo-viṣṇuyaśobhyāṁ kuḍivāḍa-nā<lb 
-n="17" break="no"/>ma grāma<choice><sic>ḥ</sic><corr>ṁ</corr></choice> vasatiṁ kr̥tvā kundūra-grāma-sīmn<orig>o</orig> pr̥thak-kr̥tya puṇyābhivr̥ddhaye <lb 
-n="18"/>sarvva-kara-parihāreṇāgrahārī-kr̥tya mayā dattaḥ</p>
-<p>bhavadbhir anyaiś ca pā<pb 
-
-n="3r" break="no"/><lb 
-n="19" break="no"/>lanīyaḥ<supplied reason="subaudible">.</supplied> Asya sīma-vibhāgaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ kundūra-grāma-sīm<orig>a</orig> E<unclear>va</unclear> <add place="inline"><unclear>sīmā</unclear></add><supplied reason="subaudible">.</supplied> <lb 
-n="20"/>dakṣiṇataḥ samudra<orig>M</orig><supplied reason="subaudible">.</supplied>
-paścimataḥ goḻāva-nāma-taṭākaM<supplied reason="subaudible">.</supplied> punaḥ nāguvula<lb 
-n="21" break="no"/>-ceṟuvu<space type="binding-hole"/>-kandikaṭṭu-kaḍakaṭṭu<supplied reason="subaudible">.</supplied>
+<pb n="1r"/>
+<p><pb n="1v"/><lb n="1"/><unclear><g type="symbol" subtype="spiralR"/></unclear>svasti śrīmad-asanapura-vāsakāT sva-śakti-mukha-dalita-danu<lb n="2" break="no"/>ja-pati-mahā-senena mahāsenenābhiva<supplied reason="omitted">r</supplied>ddhitānāṁ mātr̥-ga<lb n="3" break="no"/>ṇa-pari<space type="binding-hole"/>pālitānāṁ mānavya-sagotrāṇāṁ hāriti-putrāṇā<lb n="4" break="no"/>m aśva<space type="binding-hole"/>medha-yājināṁ <orig>cadukyānāṁ</orig> kula-jaladhi-samudbhū<lb n="5" break="no"/>ta-rāja-ratnasya śrī-kī<choice><sic>ttī</sic><corr>rtti</corr></choice>varmaṇaḥ priya-naptā Aidaṁyugīna-mahā<lb n="6" break="no"/>viṣṇoḥ viṣṇuvarddhana-mahārājasya priya-tanayaḥ pravarddhamā<pb n="2r" break="no"/><lb n="7" break="no"/>na-pratāpopanata-samasta-sāmanta-maṇḍalaḥ sva-śakti-traya-parā<lb n="8" break="no"/>jita-para-śaktiḥ Aneka-samara-saṁghaṭṭa-vijayāvāpta-yaśo-viśe<unclear>ṣa</unclear><lb n="9" break="no"/>-bhūṣa<space type="binding-hole"/>ṇaḥ pratidinam aneka-sāmanta-makuṭa-maṇi-prabhā-raṁ<lb n="10" break="no"/>jita-pā<space type="binding-hole"/>da-pīṭhaḥ parama-brahmaṇyo mātā-pitr̥-pādānudhyā<lb n="11" break="no"/>taḥ śrī-pr̥thiv<orig>i</orig>-jayasi<orig>ṁgha</orig>-vallabha-mahārājaḥ pḻakki-viṣaye <lb n="12"/>viṣa<supplied reason="omitted">ya</supplied>-vr̥ddhān adhikārinaḥ kundūra-grāma-kuṭumbinaś ca samājñāpaya<pb n="2v" break="no"/><lb n="13" break="no"/>ti</p>
+<p>viditam astu vo yathāsmābhiś catur-vvidyā-pāragasya mitrayaśa<lb n="14" break="no"/>saḥ pautrābhyāṁ sva-pitu<supplied reason="omitted">r</supplied> guṇālaṅkr̥tasya viṣṇuyaṣasaḥ putrābhyāṁ ṣaṭ-ka<lb n="15" break="no"/>rmma-dharmmā<space type="binding-hole"/>nuṣṭhāna-parābhyāṁ Agniṣṭoma-yājibhyāṁ vatsa-sagotrābhyāṁ <lb n="16"/>chandoga<space type="binding-hole"/>-sabrahmacāribhyāṁ svāmiyaśo-viṣṇuyaśobhyāṁ kuḍivāḍa-nā<lb n="17" break="no"/>ma grāma<choice><sic>ḥ</sic><corr>ṁ</corr></choice> vasatiṁ kr̥tvā kundūra-grāma-sīmn<orig>o</orig> pr̥thak-kr̥tya puṇyābhivr̥ddhaye <lb n="18"/>sarvva-kara-parihāreṇāgrahārī-kr̥tya mayā dattaḥ</p>
+<p>bhavadbhir anyaiś ca pā<pb n="3r" break="no"/><lb n="19" break="no"/>lanīyaḥ<supplied reason="subaudible">.</supplied> Asya sīma-vibhāgaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ kundūra-grāma-sīm<orig>a</orig> E<unclear>va</unclear> <add place="inline"><unclear>sīmā</unclear></add><supplied reason="subaudible">.</supplied> <lb n="20"/>dakṣiṇataḥ samudra<orig>M</orig><supplied reason="subaudible">.</supplied>
+paścimataḥ goḻāva-nāma-taṭākaM<supplied reason="subaudible">.</supplied> punaḥ nāguvula<lb n="21" break="no"/>-ceṟuvu<space type="binding-hole"/>-kandikaṭṭu-kaḍakaṭṭu<supplied reason="subaudible">.</supplied>
 Uttarataḥ Āvakaṭṭu</p>
-<p>Ājñaptiḥ <choice><sic>pirimi</sic><corr>parama</corr></choice><lb 
-n="22" break="no"/>-vaiṣṇavo <space type="binding-hole"/> vājapeya-yājī bhīmaśarmmā<space/></p>
+<p>Ājñaptiḥ <choice><sic>pirimi</sic><corr>parama</corr></choice><lb n="22" break="no"/>-vaiṣṇavo <space type="binding-hole"/> vājapeya-yājī bhīmaśarmmā<space/></p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā </l>
-<l n="b">bahu<lb 
-n="23" break="no"/>bhiś cānupālitā</l>
+<l n="b">bahu<lb n="23" break="no"/>bhiś cānupālitā</l>
 <l n="c">yasya yasya yadā bhūmiḥ</l>
 <l n="d">tasya tasya tadā phalaṁ</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="a">sva<lb 
-n="24" break="no"/>-dattāṁ para-dattāṁ vā</l>
+<l n="a">sva<lb n="24" break="no"/>-dattāṁ para-dattāṁ vā</l>
 <l n="b">yo hareta vasundharāṁ</l>
 <l n="c">ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>i-varṣa-sahasrāṇi</l>
 <l n="d">viṣṭhāyāṁ jāyate k<orig>ri</orig>miḥ</l>
 </lg>
-<pb 
-
-n="3v"/>
+<pb n="3v"/>
 
 </div>
         
