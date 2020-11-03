@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Kalucuṁbaṟṟu grant of Amma II</title>
+           <!--ALT TITLE: -->
+        <respStmt>
+          <resp>EpiDoc Encoding</resp>
+          <persName ref="part:daba">
+              <forename>Dániel</forename>
+              <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+              <forename>Dániel</forename>
+              <surname>Balogh</surname>
+         </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA</authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE46-Kalacumbarru-Amma2</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+         </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas. Final N: l11, 31. Final M: l10, 12, 13, 14 (twice), 15, 35, 71 Final K: l17. Final T: l8, 29, 31, 32, 42, 60, 73. </p>
+              <p>Original punctuation marks </p>
+              <p>Other palaeographic observations. Anusvāra 
+Fleet discusses at some length the form of initial I in this inscription. He says it is a variety of "the old square type", by which he refers to the standard southern shape of I that looks like a pair of wings with a pair of dots or circles below (which Dani calls the "double roof type" of I). In the present inscription, instead of dots or circles below the wings, we only have the wingtips extended downward and ending in a hook there (two specimens in line 66 are quite clear even in the scanned photos). Fleet calls this form "more or less a freak" and an "abnormal form", while explicitly stating that it is "not a transitional form, but is a variety of the old square type". I do not know what other variety he has in mind into which this form could be a transition, but I fully agree that the present form is a variety of the old form.
+              <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+          <summary><p><p/></summary>
+          <handNote xml:id="Pallava00001_hand1"></handNote>
+          <handNote xml:id="Pallava00001_hand2"></handNote>
+        -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+      </projectDesc>
+      <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+      <listPrefixDef>
+        <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+          <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+        </prefixDef>
+        <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+          <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2020-11-03" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+      <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvan<choice><sic>a</sic><corr>ā</corr></choice>ṁku<lb n="2"/><unclear>śa</unclear>ḥ</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/><g type="floretComplex"/>@@@BEFORE ENCODING THE TEXT, CONTINUE READING FLEET'S INTRO FROM THE TOP OF P 182
+om[+|] svasti śrīmatāṁ sakala-bhuvana-saṁstūyamānamānavyasagotrāṇāṁ hāriti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñcchan1989ekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām1990 aśvamedhāvabhr̥tha1991-snāna-pavitrīkr̥ta-vapuṣāṁ cālukyānāṁ kulam alamkariṣṇoḥ satyāśraya-vallabhendrasya bhrātā
+śrī1992-patir vvikrameṇ1993ādyo durjjayād balito hr̥tām[+|]
+aṣṭādaśa samāḥ kubja-viṣṇur jjiṣṇur mmahīm apālayat[+||] (1)1994
+tad-ātmajo jayasiṁhas trayas-trimśatam[+|]
+
+Face IIa.
+tad-anujendrarāja-nandano viṣṇuvarddhano nava[+|]
+tat-sūnur mmaṁgi-yuvarājaḥ paṁca-viṁśatim[+|]
+tat-putro jayasiṁhas trayodaśa[+|]
+tasya dvaimāturānujaḥ kokkili[ḥ*] ṣaṇ-māsān[+|]
+tasya j[y*]eṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya sapta-triṁśatam[+|]
+tat-suto vijayāditya-bhaṭṭārako [+’]ṣṭādaśa[+|]
+tat-suto viṣṇuvarddhanaḥ ṣat-triṁśatam[+|]
+tat-suto narendra-mr̥garājaś cāṣṭā-catvāriṁśatam[+|]
+tat-putraḥ kali-viṣṇuvarddhano [+’]dhyarddha-varṣam[+|]
+tat-suto guṇaga-vijayādityaś catuś-catvāri[ṁ*]śatam[+|]
+athavā[+|]
+sutas tasya jyeṣṭho guṇaga-vijayāditya-patir aṁ-
+kakāras sākṣ[ā*]d vallabha-nr̥pa-samabhyarccita-bhujaḥ[+|]
+
+Face IIb.
+pradhāna[ḥ*] śūrāṇām1995 api subhaṭa-cūḍāmaṇir1996 asau1997
+catasraś catvāriṁśatim api samā bhūmim abhunak[+||] (2)
+tad-bhrātur yyuvarājasya vikramāditya-bhūpate[ḥ*][+|]
+śatru-vitrāsa1998-kr̥t putro dānī kānīna-sannibhaḥ[+||] (3)
+Jitvā saṁyati kr̥ṣṇa-vallabhamahā-daṇḍaṁ sa-dāyādakan
+dat[t*]vā deva-muni-dvijāti-tanayo dharmmārttham arttham1999 muhuḥ[+|]
+kr̥tvā rājyam a[ka*]ṇṭakan nirupamaṁ sa[ṁ*]vr̥ddham r̥ddha-praja[ṁ*]
+bhīmo bhūpatir anvabhu[ṁ*]kta bhuvana[ṁ*] nyāyāt samās triṁśatam[+||] (4)
+tad-anu vijayādityas tasya priyas tanayo2000 mahān
+adhika-dhanadas satya-tyāga-pratāpa-samanvitaḥ[+|]
+para-hr̥daya-ni[r̥*]bhedī nāmnaiva kollab[h*]igaṇḍa-bhū-
+-patir akr̥ta-
+
+Face IIIa.
+ṣan-māsān2001 rājyan naya-sthiti2002-saṁyutaḥ[+||] (5)
+tasyāgra-sūnur2003 aparājita-śaktir amma-
+-rājaḥ parājita-parāvani-rāja-rājiḥ2004/
+rāj[ā*]bhavad vidita-rājamahendra-nām[ā*]
+varṣāni sapta saraniḥ karuṇā-rasasya[+||] (6)
+tasyātmajaṁ vijayāditya-bālam uccāṭya śrī-yuddhamallātmajas tālapa-rājo māsam2005 ekam arakṣīt[+||]
+tam āhave vinirjjitya cālukya-bhīma-tanayo vikramādityo vikrameṇākrame nikṣipya nava māsān apālayat2006[+||]
+tato yuddhamallas tālapa-rājāgra(ja)janmā sapta varṣāni gr̥hītv2007ātiṣṭhat[+||]
+
+Face IIIb.
+tatrāntare vidita-kollab[h*]igaṇḍa-suto2008
+dvaimāturo vinuta-rājamahendra-nāmnaḥ[+|]
+bhīmādhipo vijita-bhīma2009-bala-pratāpo
+prācīn diśaṁ vimalayann udito vijetum[+||] (7)
+śrīmantaṁ rājamayyan-dhaḻagam urutaran tātabikkiṁ pracaṇḍa[ṁ*]
+bijjaṁ sa[jjaṁ ca*] yuddhe balinam atitarām2010 ayyapaṁ bhīmam ugram2011[+|]
+daṇḍaṁ govinda-rāja-praṇihitam adhikaṁ coḻa-paṁ lovabikkiṁ2012
+vikrānta[ṁ*] yuddhamallaṁ ghaṭita-gaja-ghaṭān sannihatyaika eva[+||] (8)
+bhītān āśvāsayan sac-charaṇam2013 upagat[ā*]n pālayan kaṇṭakān ut-
+-sannān kurvvan su-gr̥hṇan karam apara-bhuvo raṁjayana[n*] svañjan au-2014/
+gham tanvan kīrtti[ṁ*] narendroccayam avanamayann ārjjayan vastu-rā-
+-śīn eva śrī-rāja-bhīmo jagad-akhilam asau2015 dvādaśaś ābdāny arakṣat 2016// (9)
+
+Face IVa.
+tasya maheśvara-mū[r*]tter umā-samānākr̥teḥ kumāra-samāna[ḥ *][+|]
+lokamahādevyāḥ khalu yas samabhavad Ammarāja iti vikhyātaḥ2017[+||] (10)
+yo rupeṇa manojaṁ vibhavena mahendram ahimakaram urumahasā2018[+|]
+haram ari-pura-dahanena nyakkurvvan bhāti vidita-nirmmala-kīrttiḥ[+||] (11)
+yad-bāhu-daṇḍa-karavāla-vidāritāri-mattebha-kuṁbha-galitāni vibhānti yuddhe/
+muktāphalāni2019 subhaṭa-kṣatajokṣitāni bījāni kīrtti-vitater iva ropitāni(ḥ)[+||] (12)
+sa samasta-bhuvanāśraya-śrī-vijayāditya-mahārājādhirāja-parameśvaraḥ parama-bhaṭṭārakaḥ parama-brahmaṇyaḥ attilināṇḍu2020-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān kuṭuṁbinas samāhūyettham ājñāpayati2021[+||]
+
+Face IVb.
+aḍḍakali-gaccha-nāmā valahāri-gaṇapratīta-vikhyāta-yaśā[ḥ*][+|]
+cātur vvarṇā2022-śramaṇa2023-viśeṣānna-śrāṇanābhilaṣita-manaskaḥ[+||] (13)
+śrī-rāja-cāluky2024ānvaya-parivārita-paṭṭavarddhikānvaya-tilakā[+|]
+gaṇikājana-mukha-kamala2025-dyumaṇi-dyutir iha hi cāmekāṁbābhūt sā[+||] (14)
+jina-dharmma-jala-vivarddhana-śaśi-rucira-samāna-kīrtti-lābha-vilolā[+|]
+dāna-dayā-śīla2026-yutā cāru-śrī śrāvakī budha-śruta-niratā[+||] (15)
+yasyāḥ2027 guru-paṁktir ucyate[+||]
+siddhānta-pāradr̥śvā prakaṭita-guṇa-sakalacandrasiddhānta-muni[ḥ*][+|]
+tac-chiṣy[o*] guṇavān prabhur amita-yaśās su-matir ayyapoṭi-munīndraḥ[+||] (16)
+tac-chiṣyāyārhanandyaṁkita2028-vara-munaye cāmekāṁbā subhaktyā
+
+Face Va.
+śrīmac-śrī-sarvva-lokāśraya-jina-bhavana-khyāta satrārttham2029 uccaiḥ2030[+|]
+veṁgī-nāthāmmarāj[e*] kṣitibhr̥ti kalucuṁbaṟṟu-su-grāmam iṣṭaṁ
+santuṣṭā2031 dāpayitvā budha-jana-vinutāṁ yatra jagrāha2032 kīrttim[+||] (17)
+uttarāyaṇa-nimittena khaṇḍa2033-sphuṭita2034-nava-karmmārttha[ṁ*] sarvva-kara-parihāraṁ śāsanī-kr̥tya dattam[+||]
+asyāvadhayaḥ[+||]
+pūrvvataḥ āruvilli[+||]
+dakṣiṇatah korukolanu[+||]
+paścimataḥ yiḍiyūru[+||]
+uttarataḥ yullikodamaṇḍru[+||]
+tasya2035 kṣetrāvadhayaḥ[+||]
+pūrvvataḥ śarkarakuṟṟu[+||]
+dakṣiṇatah iṟṟulakoḻu[+||]
+paścimataḥ iḍiyūri polagarusu[+||]
+uttarataḥ kaṁcariguṇḍu[+||]
+asyoparī na kenacid bādhā karttavyā yaḥ karoti sa paṁca-mahāpātaka-sa[ṁ*]yukto bhavati(ḥ)//
+bahubhir vvasudhā dattā2036 bahubhiś cānupālitā[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||] (18)
+sva-dattā[ṁ*] para-dattā[ṁ*] vā yo haretā vasu[ndha*]rā[m*][+|]
+( cinquième plaque)
+ṣaṣṭi-varṣa-sahasrāṇi viṣṭāyā[ṁ*] [jāya*]te kr̥miḥ[+||] (19)
+asya grāmasya grāmakūṭa2037-tva[ṁ*] [ka*]ṭṭalāṁbātmaja2038-kusumāyudhāya dattaṁ śāśyatam[+||]
+Asya grāmasya [ka]ppābhidhānaṁ kara-varjjitam2039[+||]
+ājñāptiḥ kaṭakādiś[o*] bhaṭṭadevaś ca lekkhakaḥ kaviḥ kavicakravarttī śāsanasyāsya kāvya-kr̥t2040[+||]
+pedda2041-kalucuvubaṟiti śāsana[ṁ*] busesina bhaṭṭadevanik-arahanandi-bhaṭār[u*]lu guṁsimiya r[e*]ṭṭeḍlu-gāmpulunuṇḍi panu * * * ṇḍa tūmuna [ne] * * * vuṭlu vittu-paṭṭu vrasādāñ-cesiri[+||]
+</p>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+    <listApp>
+      <app loc="X">
+        <lem></lem>
+        <rdg source="bib:AuthorYear_01"></rdg>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-23"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-23">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>In the seal text, as Fleet describes it, <unclear>śa</unclear> is <q>behind the boar</q> and the <unclear>visarga</unclear> is <q>in front of the boar</q>, while the rest of the legend is in one line above the boar.</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1902-1903_01"/></bibl>), with a translation and with partial photographs.<note>Both my scans of EI 7 include only photos of pages 1v, 3v, 4r and 5r. A printed EI 7 should be checked to see whether all photos are present.</note> The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published photographs.<note>For pages of which I have no photo, I follow Fleet absolutely unless otherwise noted. Even where available, the scanned photos are very hard to read in many places. A printed version may be better, but if new photos of Ind. Ch. 24 can be obtained from the BL, then collation will be very advantageous.</note></p>
+  <listBibl type="primary">
+    <bibl n="JFF"><ptr target="bib:Fleet1902-1903_01"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:Fleet1883_03"/><citedRange>249</citedRange></bibl>
+    <bibl><ptr target="bib:Fleet1891_03"/><citedRange unit="page">270</citedRange><citedRange unit="item">U</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
