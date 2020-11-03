@@ -23,10 +23,7 @@
             </respStmt>
          </titleStmt>
          <publicationStmt>
-            <authority>DHARMA <note>This project has received funding from the European Research
-          Council (ERC) under the European Union's Horizon 2020 research and
-          innovation programme (grant agreement no 809994).</note>
-            </authority>
+            <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
             <idno type="filename">CalE35-Moga-Bhima1</idno>
             <availability>
@@ -67,7 +64,32 @@
             </msDesc>
          </sourceDesc>
       </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
       <revisionDesc>
+         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:daba" when="2020-09-16" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
@@ -77,180 +99,103 @@
       
 <div type="edition" xml:lang="san-Latn">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/>śrī-tri<unclear>bhuvanāṁku</unclear>śa</ab>
+  <ab><lb n="1"/>śrī-tri<unclear>bhuvanāṁku</unclear>śa</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<pb 
-
-n="1r"/>
-<p><pb 
-
-n="1v"/><lb 
-n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sa<unclear>go</unclear><lb 
-n="2" break="no"/>trānāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥<lb 
-n="3" break="no"/>-gaṇa-paripā<space type="binding-hole"/>litānāM svāmi-mahāsena-pādānuddhyātānāṁ bhagavan-n<unclear>ā</unclear><lb 
-n="4" break="no"/>rāyaṇa<space type="binding-hole"/>-prasāda-samāsādita-vara-varāha-lāṁch<choice><sic>ā</sic><corr>a</corr></choice>nekṣaṇa<lb 
-n="5" break="no"/>-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavi<lb 
-n="6" break="no"/>trīkr̥ta-vapuṣāṁ cālukyānāṁ kulam alaṁkariṣṇos satyāśraya-<unclear>va</unclear><lb 
-n="7" break="no"/>l<unclear>labh</unclear>endrasya bhrātā kub<unclear>j</unclear>a-viṣṇ<unclear>u</unclear>varddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa va<unclear>rṣā</unclear>ṇi<supplied reason="subaudible">.</supplied> tat-suto <unclear>jaya</unclear><pb 
-
-n="2r" break="no"/><lb 
-n="8" break="no"/><unclear>siṁ</unclear>ha<unclear>s tra</unclear>yastr<unclear>i</unclear>ṁśataM<supplied reason="subaudible">.</supplied> tad-anujendrar<unclear>ā</unclear>ja-nandano viṣṇuvarddha<unclear>no</unclear> nava<supplied reason="subaudible">.</supplied> <unclear>tad-ātma</unclear><lb 
-n="9" break="no"/>j<unclear>o</unclear> maṁgi-yuvarājaḥ paṁcaviṁśatin<supplied reason="subaudible">.</supplied> tat-tanujo jayasiṁhas trayodaśa<supplied reason="subaudible">.</supplied> <unclear>ta</unclear><lb 
-n="10" break="no"/>d-anujaḥ kokkil<orig>i</orig> ṣaṇ māsāN<supplied reason="subaudible">.</supplied>
-tad-<choice><sic>āgrā</sic><corr>agra</corr></choice>jo viṣṇurājas saptatriṁśataṁ<supplied reason="subaudible">.</supplied> <unclear>tat-ta</unclear><lb 
-n="11" break="no"/><unclear>nujo</unclear> vija<space type="binding-hole"/>yāditya Ekānnaviṁśatin<supplied reason="subaudible">.</supplied> tat-tanujo viṣṇurā<unclear>jaṣ ṣaṭt</unclear>ri<unclear>ṁ</unclear><lb 
-n="12" break="no"/><unclear>śataṁ</unclear><supplied reason="subaudible">.</supplied> tat-sū<space type="binding-hole"/>nur vvijayādityaś catvāriṁśataM<supplied reason="subaudible">.</supplied> tat-tanayaḥ ka<unclear>li-vi</unclear><lb 
-n="13" break="no"/><unclear>ṣṇuvarddha</unclear>no <supplied reason="subaudible">‘</supplied>ddhyarddha-varṣaM<supplied reason="subaudible">.</supplied> tad-apatya-mukhyaḥ yas tu</p>
+<pb n="1r"/>
+<p><pb n="1v"/><lb n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sa<unclear>go</unclear><lb n="2" break="no"/>trānāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥<lb n="3" break="no"/>-gaṇa-paripā<space type="binding-hole"/>litānāM svāmi-mahāsena-pādānuddhyātānāṁ bhagavan-n<unclear>ā</unclear><lb n="4" break="no"/>rāyaṇa<space type="binding-hole"/>-prasāda-samāsādita-vara-varāha-lāṁch<choice><sic>ā</sic><corr>a</corr></choice>nekṣaṇa<lb n="5" break="no"/>-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavi<lb n="6" break="no"/>trīkr̥ta-vapuṣāṁ cālukyānāṁ kulam alaṁkariṣṇos satyāśraya-<unclear>va</unclear><lb n="7" break="no"/>l<unclear>labh</unclear>endrasya bhrātā kub<unclear>j</unclear>a-viṣṇ<unclear>u</unclear>varddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa va<unclear>rṣā</unclear>ṇi<supplied reason="subaudible">.</supplied> tat-suto <unclear>jaya</unclear><pb n="2r" break="no"/><lb n="8" break="no"/><unclear>siṁ</unclear>ha<unclear>s tra</unclear>yastr<unclear>i</unclear>ṁśataM<supplied reason="subaudible">.</supplied> tad-anujendrar<unclear>ā</unclear>ja-nandano viṣṇuvarddha<unclear>no</unclear> nava<supplied reason="subaudible">.</supplied> <unclear>tad-ātma</unclear><lb n="9" break="no"/>j<unclear>o</unclear> maṁgi-yuvarājaḥ paṁcaviṁśatin<supplied reason="subaudible">.</supplied> tat-tanujo jayasiṁhas trayodaśa<supplied reason="subaudible">.</supplied> <unclear>ta</unclear><lb n="10" break="no"/>d-anujaḥ kokkil<orig>i</orig> ṣaṇ māsāN<supplied reason="subaudible">.</supplied>
+tad-<choice><sic>āgrā</sic><corr>agra</corr></choice>jo viṣṇurājas saptatriṁśataṁ<supplied reason="subaudible">.</supplied> <unclear>tat-ta</unclear><lb n="11" break="no"/><unclear>nujo</unclear> vija<space type="binding-hole"/>yāditya Ekānnaviṁśatin<supplied reason="subaudible">.</supplied> tat-tanujo viṣṇurā<unclear>jaṣ ṣaṭt</unclear>ri<unclear>ṁ</unclear><lb n="12" break="no"/><unclear>śataṁ</unclear><supplied reason="subaudible">.</supplied> tat-sū<space type="binding-hole"/>nur vvijayādityaś catvāriṁśataM<supplied reason="subaudible">.</supplied> tat-tanayaḥ ka<unclear>li-vi</unclear><lb n="13" break="no"/><unclear>ṣṇuvarddha</unclear>no <supplied reason="subaudible">‘</supplied>ddhyarddha-varṣaM<supplied reason="subaudible">.</supplied> tad-apatya-mukhyaḥ yas tu</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">kāliṁga-gaṁga-<unclear>rūpyādi</unclear></l>
-<l n="b"><lb 
-n="14"/><unclear>kośa</unclear>le<choice><sic>ṣ</sic><corr>ś</corr></choice>a-dvipādi ca</l>
+<l n="b"><lb n="14"/><unclear>kośa</unclear>le<choice><sic>ṣ</sic><corr>ś</corr></choice>a-dvipādi ca</l>
 <l n="c">pāṇḍya-pallava-hemādi</l>
-<l n="d">balā<supplied reason="omitted">t</supplied> tyāgārttha<unclear>m ā</unclear><pb 
-
-n="2v" break="no"/><lb 
-n="15" break="no"/>hara<choice><sic>ta</sic><corr>T</corr></choice><unclear>|</unclear></l>
+<l n="d">balā<supplied reason="omitted">t</supplied> tyāgārttha<unclear>m ā</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>hara<choice><sic>ta</sic><corr>T</corr></choice><unclear>|</unclear></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
 <l n="a" enjamb="yes">ga<unclear>ṁ</unclear>gān āropayad gaṁga</l>
 <l n="b">-kū<unclear>ṭaṁ</unclear> ma<unclear>ṁ</unclear>gi-śiro <supplied reason="subaudible">’</supplied>cchina<unclear>T</unclear></l>
-<l n="c">kr̥<unclear>ṣṇaṁ ra</unclear>ṇ<unclear>e</unclear> <lb 
-n="16"/><supplied reason="subaudible">’</supplied>jayad vaktuṁ</l>
+<l n="c">kr̥<unclear>ṣṇaṁ ra</unclear>ṇ<unclear>e</unclear> <lb n="16"/><supplied reason="subaudible">’</supplied>jayad vaktuṁ</l>
 <l n="d">kas samart<choice><sic>t</sic><corr>th</corr></choice>o <supplied reason="subaudible">’</supplied>sya sāhasāN</l>
 </lg>
-<p>sa vijayādityas catuśca<lb 
-n="17" break="no"/>tvāriṁśata<unclear>ṁ</unclear> ve<unclear>ṁ</unclear>gī-deśam anuvarṣam avarddhayaT|</p>
+<p>sa vijayādityas catuśca<lb n="17" break="no"/>tvāriṁśata<unclear>ṁ</unclear> ve<unclear>ṁ</unclear>gī-deśam anuvarṣam avarddhayaT|</p>
 <lg n="3" met="anuṣṭubh">
-<l n="a">jayasiṁgha-dvaye cai<lb 
-n="18" break="no"/>vaṁ</l>
+<l n="a">jayasiṁgha-dvaye cai<lb n="18" break="no"/>vaṁ</l>
 <l n="b">viṣṇu<space type="binding-hole"/>varddhana-paṁcake</l>
 <l n="c" enjamb="yes" real="+-++-+--+">maṁginā kokkilau vijayā</l>
-<l n="d">ditya-tra<lb 
-n="19" break="no"/>ya Ite tataḥ|</l>
+<l n="d">ditya-tra<lb n="19" break="no"/>ya Ite tataḥ|</l>
 </lg>
-<p>tasya vijayādityasya bhrātur vvikramākrānta-saka<lb 
-n="20" break="no"/>la-bhuvana-talasya vi<unclear>kramā</unclear>ditya-bhūpater agra-ta<unclear>na</unclear>yaḥ</p>
+<p>tasya vijayādityasya bhrātur vvikramākrānta-saka<lb n="20" break="no"/>la-bhuvana-talasya vi<unclear>kramā</unclear>ditya-bhūpater agra-ta<unclear>na</unclear>yaḥ</p>
 <lg n="4" met="vaṁśamālā">
-<l n="a"><lb 
-n="21"/><unclear>Adhyāsta</unclear> siṁ<unclear>hāsanam ārddidad ripūn</unclear></l>
-<l n="b"><unclear>apispaśad bhū</unclear>mim a<unclear>naṁdaya</unclear><pb 
-
-n="3r" break="no"/><lb 
-n="22" break="no"/>t prajāḥ</l>
+<l n="a"><lb n="21"/><unclear>Adhyāsta</unclear> siṁ<unclear>hāsanam ārddidad ripūn</unclear></l>
+<l n="b"><unclear>apispaśad bhū</unclear>mim a<unclear>naṁdaya</unclear><pb n="3r" break="no"/><lb n="22" break="no"/>t prajāḥ</l>
 <l n="c">yaśo vyatān<unclear>ī</unclear>t sad apūpujad <supplied reason="omitted">d</supplied>vijān</l>
-<l n="d">ama<unclear>ṁ</unclear>sta sādhūn a<lb 
-n="23" break="no"/>vahad guṇa-<choice><sic>j</sic><corr>s</corr></choice>rajaḥ|</l>
+<l n="d">ama<unclear>ṁ</unclear>sta sādhūn a<lb n="23" break="no"/>vahad guṇa-<choice><sic>j</sic><corr>s</corr></choice>rajaḥ|</l>
 </lg>
 <lg n="5" met="sragdharā">
-<l n="a">mattāditya-prasāda-dvirada-vara-guru-skandham ā<lb 
-n="24" break="no"/>ruhya kopā<space type="binding-hole"/>T</l>
-<l n="b">cāpād unmukta-bāṇair udaya-girim ito bhānur u<lb 
-n="25" break="no"/>srais tamisraṁ<space type="binding-hole"/></l>
-<l n="c">yadvat <supplied reason="omitted">t</supplied>advan nir<choice><sic>a</sic><corr>ā</corr></choice>sthad dhr̥ta-sakala-bhuvo yas tu godā<lb 
-n="26" break="no"/>-taṭa-sthāN</l>
-<l n="d">karṇṇāṭān durddurūṭā<orig>n</orig> jhaṭiti paṭu-naṭad-ghoṭakān lāṭa<lb 
-n="27" break="no"/><unclear>k</unclear>āṁś ca||
+<l n="a">mattāditya-prasāda-dvirada-vara-guru-skandham ā<lb n="24" break="no"/>ruhya kopā<space type="binding-hole"/>T</l>
+<l n="b">cāpād unmukta-bāṇair udaya-girim ito bhānur u<lb n="25" break="no"/>srais tamisraṁ<space type="binding-hole"/></l>
+<l n="c">yadvat <supplied reason="omitted">t</supplied>advan nir<choice><sic>a</sic><corr>ā</corr></choice>sthad dhr̥ta-sakala-bhuvo yas tu godā<lb n="26" break="no"/>-taṭa-sthāN</l>
+<l n="d">karṇṇāṭān durddurūṭā<orig>n</orig> jhaṭiti paṭu-naṭad-ghoṭakān lāṭa<lb n="27" break="no"/><unclear>k</unclear>āṁś ca||
 </l></lg>
-<p>sa sarvva-lokāśraya-śrī-vi<add place="overstrike">ṣṇuvarddhana-cālukya</add>-bhīma-mahā<unclear>rā</unclear><lb 
-n="28" break="no"/>jādhirāja-parameśvaraḥ parama-māheśvaraḥ varavara-rāṣṭra<surplus>kū</surplus><pb 
-
-n="3v" break="no"/><lb 
-n="29" break="no"/>-<unclear>ni</unclear>v<unclear>ā</unclear>s<unclear>i</unclear>no rāṣṭrakūṭa-pramukhān kuṭumbina Ittham ājñāpayati</p>
+<p>sa sarvva-lokāśraya-śrī-vi<add place="overstrike">ṣṇuvarddhana-cālukya</add>-bhīma-mahā<unclear>rā</unclear><lb n="28" break="no"/>jādhirāja-parameśvaraḥ parama-māheśvaraḥ varavara-rāṣṭra<surplus>kū</surplus><pb n="3v" break="no"/><lb n="29" break="no"/>-<unclear>ni</unclear>v<unclear>ā</unclear>s<unclear>i</unclear>no rāṣṭrakūṭa-pramukhān kuṭumbina Ittham ājñāpayati</p>
 <lg n="6" met="anuṣṭubh">
-<l n="a" enjamb="yes"><lb 
-n="30"/><unclear>sa</unclear>rvva-rājasya sāmanta</l>
+<l n="a" enjamb="yes"><lb n="30"/><unclear>sa</unclear>rvva-rājasya sāmanta</l>
 <l n="b">-mukhyasya khyāta-tejasaḥ</l>
-<l n="c">Umā himāla<lb 
-n="31" break="no"/>yasyeva</l>
+<l n="c">Umā himāla<lb n="31" break="no"/>yasyeva</l>
 <l n="d">tailāmb<unclear>ā</unclear>khyā sutābhavaT|</l>
 </lg>
 <lg n="7" met="anuṣṭubh">
 <l n="a" enjamb="yes">tāṁ śrī-baladakayyākhya</l>
-<l n="b">-sā<lb 
-n="32" break="no"/><unclear>ma</unclear>ntādhipa<space type="binding-hole"/>tes sutaḥ</l>
+<l n="b">-sā<lb n="32" break="no"/><unclear>ma</unclear>ntādhipa<space type="binding-hole"/>tes sutaḥ</l>
 <l n="c" enjamb="yes">Avoḍha śaṁbhuvad yuddha</l>
-<l n="d">malla<orig>ś</orig> <orig>ś</orig>ū<lb 
-n="33" break="no"/><unclear>kara</unclear>-lāṁchanaḥ</l>
+<l n="d">malla<orig>ś</orig> <orig>ś</orig>ū<lb n="33" break="no"/><unclear>kara</unclear>-lāṁchanaḥ</l>
 </lg>
 <lg n="8" met="anuṣṭubh">
 <l n="a">tat-sutā<unclear>ṁ</unclear> śrī-mahādevī<supplied reason="omitted">ṁ</supplied></l>
-<l n="b">dhavalāyata-locanā<lb 
-n="34" break="no"/>m</l>
+<l n="b">dhavalāyata-locanā<lb n="34" break="no"/>m</l>
 <l n="c" enjamb="yes">aśoka-pallavākāra</l>
 <l n="d">-pāṇi-pāda-talāṁguliṁ</l>
 </lg>
 <lg n="9" met="anuṣṭubh">
-<l n="a">pīnonnata-kucāna<lb 
-n="35" break="no"/>mrāṁ</l>
+<l n="a">pīnonnata-kucāna<lb n="35" break="no"/>mrāṁ</l>
 <l n="b">nimna-nābhīṁ guru-kṣitāM</l>
 <l n="c">pakva-bimbādharān tanvīṁ</l>
-<l n="d">tapta-he<pb 
-
-n="4r" break="no"/><lb 
-n="36" break="no"/>ma-prabhāṁ śubhāṁ</l>
+<l n="d">tapta-he<pb n="4r" break="no"/><lb n="36" break="no"/>ma-prabhāṁ śubhāṁ</l>
 </lg>
 <lg n="10" met="āryāgīti">
-<l n="ab">niravadya-dhavala-putro naptā śrī-pāṇḍar<unclear>āṁga</unclear><lb 
-n="37" break="no"/>-sāmanta-pateḥ|</l>
-<l n="cd">nuta-kaṭakarāja-vaṁśa-kramāgatānindya-paṭṭa-ba<lb 
-n="38" break="no"/>ddha-lalāṭaḥ</l>
+<l n="ab">niravadya-dhavala-putro naptā śrī-pāṇḍar<unclear>āṁga</unclear><lb n="37" break="no"/>-sāmanta-pateḥ|</l>
+<l n="cd">nuta-kaṭakarāja-vaṁśa-kramāgatānindya-paṭṭa-ba<lb n="38" break="no"/>ddha-lalāṭaḥ</l>
 </lg>
 <ab>yaś ca|</ab>
 <lg n="11" met="āryāgīti">
-<l n="ab">manur iva sa-vicāra-girā harir iva lakṣmyā <lb 
-n="39"/>kr̥tānta <space type="binding-hole"/> <unclear reason="eccentric_ductus">I</unclear>va śaurryeṇa</l>
-<l n="cd">smara Iva rūpeṇa dhi<lb 
-n="40" break="no"/>yā guru<space type="binding-hole"/>r iva dānena kalpatarur iva <unclear reason="eccentric_ductus">bh</unclear>āti|</l>
+<l n="ab">manur iva sa-vicāra-girā harir iva lakṣmyā <lb n="39"/>kr̥tānta <space type="binding-hole"/> <unclear reason="eccentric_ductus">I</unclear>va śaurryeṇa</l>
+<l n="cd">smara Iva rūpeṇa dhi<lb n="40" break="no"/>yā guru<space type="binding-hole"/>r iva dānena kalpatarur iva <unclear reason="eccentric_ductus">bh</unclear>āti|</l>
 </lg>
 <ab>Api ca</ab>
 <lg n="12" met="śārdūlavikrīḍita">
-<l n="a"><lb 
-n="41"/>śaurryaṁ duryyamam aryyama-dyuti vapuś cittaṁ svabhāvottamaṁ</l>
-<l n="b"><lb 
-n="42"/><unclear>sa</unclear>t<unclear>y</unclear>an nityam anatyayaṁ jaya-paṭaṁ kāśa-prakāśaṁ yaśaḥ</l>
-<l n="c">sāram <pb 
-
-n="4v"/><lb 
-n="43"/><supplied reason="lost">bhū</supplied>ri vicāra-cāru caritaṁ dānaṁ c<choice><sic>ā</sic><corr>a</corr></choice> d<unclear>ī</unclear>na-<unclear>stutaṁ</unclear></l>
-<l n="d">jñānaṁ jñānavatāṁ <supplied reason="lost">ma</supplied><lb 
-n="44" break="no"/><unclear>tan tu</unclear> vijayādityasya yasya kṣitau</l>
+<l n="a"><lb n="41"/>śaurryaṁ duryyamam aryyama-dyuti vapuś cittaṁ svabhāvottamaṁ</l>
+<l n="b"><lb n="42"/><unclear>sa</unclear>t<unclear>y</unclear>an nityam anatyayaṁ jaya-paṭaṁ kāśa-prakāśaṁ yaśaḥ</l>
+<l n="c">sāram <pb n="4v"/><lb n="43"/><supplied reason="lost">bhū</supplied>ri vicāra-cāru caritaṁ dānaṁ c<choice><sic>ā</sic><corr>a</corr></choice> d<unclear>ī</unclear>na-<unclear>stutaṁ</unclear></l>
+<l n="d">jñānaṁ jñānavatāṁ <supplied reason="lost">ma</supplied><lb n="44" break="no"/><unclear>tan tu</unclear> vijayādityasya yasya kṣitau</l>
 </lg>
 <lg n="13" met="anuṣṭubh">
-<l n="a"><unclear>so</unclear> <supplied reason="subaudible">’</supplied>yaṁ śrī-vijayāditya<lb 
-n="45" break="no"/><unclear cert="low">s</unclear></l>
+<l n="a"><unclear>so</unclear> <supplied reason="subaudible">’</supplied>yaṁ śrī-vijayāditya<lb n="45" break="no"/><unclear cert="low">s</unclear></l>
 <l n="b"><unclear cert="low">sa</unclear>tya-v<choice><orig>ā</orig><reg>a</reg></choice>dya<space type="binding-hole"/>ḫ parantapaḥ</l>
 <l n="c">ya<supplied reason="omitted">ḥ</supplied> prāpya dharmma-kāmārt<unclear>th</unclear>ā<unclear>n</unclear></l>
-<l n="d"><unclear cert="low">prārccha</unclear><supplied reason="lost" cert="low">c carama</supplied><lb 
-n="46" break="no"/>-<unclear cert="low">sa</unclear>t<unclear>k</unclear>r̥tiṁ</l>
+<l n="d"><unclear cert="low">prārccha</unclear><supplied reason="lost" cert="low">c carama</supplied><lb n="46" break="no"/>-<unclear cert="low">sa</unclear>t<unclear>k</unclear>r̥tiṁ</l>
 </lg>
 
-<p>ta<space type="binding-hole"/><unclear>s</unclear>yai <supplied reason="lost" cert="low">śrī</supplied>-mahādevyai tat-pati-<unclear>k</unclear>r̥ta-<unclear>p</unclear>ū<unclear>rvvopakāra-sma</unclear><lb 
-n="47" break="no"/>raṇa-santuṣṭaḥ kr̥tajñatā-prakhyāpana-nimittaṁ sarvva-kara-pa<unclear>r</unclear>ihā<unclear>re</unclear><lb 
-n="48" break="no"/><unclear>ṇa</unclear> mogābhidhāno grāmo dattaḥ</p>
-<p>Asyāvadhayaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ <lb 
-n="49"/><unclear>pu</unclear>liyeṟu-ṇāma taṭī| Āgneyataḥ mūṇṭha-rāvula guṇṭha<supplied reason="subaudible">.</supplied><pb 
-
-n="5r"/><lb 
-n="50"/><unclear>dakṣi</unclear>ṇataḥ ceṁbaṟu-narendreśvara-kṣetraM| nair<choice><orig>i</orig><reg>r̥</reg></choice>tyāṁ tai<unclear>la-śa</unclear><lb 
-n="51" break="no"/><unclear>rvva</unclear>-kṣetram| paścimataḥ devulaceṟuvu|
-vāyavyataḥ ca<unclear>rmma</unclear><lb 
-n="52" break="no"/>ṇḍ<unclear>i</unclear>-paścima<space type="binding-hole"/>-taṭākaM<unclear>|</unclear> Uttarataḥ peddapūṇḍi-cariya<unclear>|</unclear> Ī<lb 
-n="53" break="no"/><unclear>ś</unclear><choice><sic><unclear>a</unclear></sic><corr>ā</corr></choice><unclear>nataḥ re</unclear><space type="binding-hole"/>ṇṭha<unclear>mrā</unclear>kul<unclear>u|</unclear> na kenacid asyopari bādh<unclear>ā</unclear> karaṇīyā<unclear>|</unclear> <lb 
-n="54"/><unclear>ta</unclear>thā ca</p>
+<p>ta<space type="binding-hole"/><unclear>s</unclear>yai <supplied reason="lost" cert="low">śrī</supplied>-mahādevyai tat-pati-<unclear>k</unclear>r̥ta-<unclear>p</unclear>ū<unclear>rvvopakāra-sma</unclear><lb n="47" break="no"/>raṇa-santuṣṭaḥ kr̥tajñatā-prakhyāpana-nimittaṁ sarvva-kara-pa<unclear>r</unclear>ihā<unclear>re</unclear><lb n="48" break="no"/><unclear>ṇa</unclear> mogābhidhāno grāmo dattaḥ</p>
+<p>Asyāvadhayaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ <lb n="49"/><unclear>pu</unclear>liyeṟu-ṇāma taṭī| Āgneyataḥ mūṇṭha-rāvula guṇṭha<supplied reason="subaudible">.</supplied><pb n="5r"/><lb n="50"/><unclear>dakṣi</unclear>ṇataḥ ceṁbaṟu-narendreśvara-kṣetraM| nair<choice><orig>i</orig><reg>r̥</reg></choice>tyāṁ tai<unclear>la-śa</unclear><lb n="51" break="no"/><unclear>rvva</unclear>-kṣetram| paścimataḥ devulaceṟuvu|
+vāyavyataḥ ca<unclear>rmma</unclear><lb n="52" break="no"/>ṇḍ<unclear>i</unclear>-paścima<space type="binding-hole"/>-taṭākaM<unclear>|</unclear> Uttarataḥ peddapūṇḍi-cariya<unclear>|</unclear> Ī<lb n="53" break="no"/><unclear>ś</unclear><choice><sic><unclear>a</unclear></sic><corr>ā</corr></choice><unclear>nataḥ re</unclear><space type="binding-hole"/>ṇṭha<unclear>mrā</unclear>kul<unclear>u|</unclear> na kenacid asyopari bādh<unclear>ā</unclear> karaṇīyā<unclear>|</unclear> <lb n="54"/><unclear>ta</unclear>thā ca</p>
 <lg n="14" met="anuṣṭubh">
 <l n="a">ṣaṣṭ<unclear>iṁ</unclear> va<unclear>rṣa</unclear>-sahasrāṇi</l>
 <l n="b">sva<unclear>rgge</unclear> modati bhūmidaḥ</l>
-<l n="c">Ā<unclear>kṣeptā</unclear> <lb 
-n="55"/><unclear>cānu</unclear>mantā ca</l>
+<l n="c">Ā<unclear>kṣeptā</unclear> <lb n="55"/><unclear>cānu</unclear>mantā ca</l>
 <l n="d">t<unclear>ā</unclear>ny eva narak<unclear>e</unclear> vase<unclear>T|</unclear></l>
 </lg>
-<p><unclear>asyā</unclear>jñapti<supplied reason="omitted">ḥ</supplied> <unclear>ka</unclear>ḍeya-<unclear>r</unclear>āja E<lb 
-n="56" break="no"/>va<supplied reason="subaudible">.</supplied> <unclear>bha</unclear>ṭṭa-vāmanena <unclear>ra</unclear>citam idaM<supplied reason="subaudible">.</supplied> koṇḍācāryye<unclear>ṇa l</unclear>i<unclear>kh</unclear>i<unclear>taM</unclear>
-</p><pb 
-
-n="5v"/>
+<p><unclear>asyā</unclear>jñapti<supplied reason="omitted">ḥ</supplied> <unclear>ka</unclear>ḍeya-<unclear>r</unclear>āja E<lb n="56" break="no"/>va<supplied reason="subaudible">.</supplied> <unclear>bha</unclear>ṭṭa-vāmanena <unclear>ra</unclear>citam idaM<supplied reason="subaudible">.</supplied> koṇḍācāryye<unclear>ṇa l</unclear>i<unclear>kh</unclear>i<unclear>taM</unclear>
+</p><pb n="5v"/>
 </div>
 </div>
         
