@@ -49,9 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>Halantas. Final N: l11, 31. Final M: l10, 12, 13, 14 (twice), 15, 35, 71 Final K: l17. Final T: l8, 29, 31, 32, 42, 60, 73. </p>
-              <p>Original punctuation marks </p>
-              <p>Other palaeographic observations. Anusvāra 
+              <p>Halantas. Final N: l11, 31. Final M: a small circle at baseline level, with an upward tail that bends sharply to the right, then curves upward again; l8, l10, 12, 13, 14 (twice), 15, 35, 71 Final K: l17 (no image). Final T: l8 apālayaT looks like ta without a headmark, and with a dot above rather than a curly tail, 29, 31, 32, 42, 60, 73. </p>
+              <p>Original punctuation marks. The few that occur in pages of which I do have photos are unclear. According to Fleet, the mark after atha vā in line 15 <q>may be taken either as a single mark or as a double mark</q> and <q>is represented by what is substantially a final n</q>, but he is aware of such a mark occurring as punctuation in lines 51 and 53 the <ref target="CalE41-Diggubarru-Bhima2.xml">Diggubaṟṟu grant of Bhīma II</ref> (where I, as well as Fleet in his own edition of that text, read a final N as an error for what should be a punctuation mark). I have no image of that page, but for the time being encode an erroneous N here too. Of the opening symbol, only a few random-seeming strokes are discernible in the scanned photo. It may be a floret as in some other grants of Amma II, but the vestiges do not imply this with any certainty. Fleet transcribes it as om and says it is represented by "an ornate symbol."</p>
+              <p>Other palaeographic observations. Anusvāra is normally at headline height after the character to which it belongs, but sometimes over the next character as in l6 alaṁkariṣṇos.
 Fleet discusses at some length the form of initial I in this inscription. He says it is a variety of "the old square type", by which he refers to the standard southern shape of I that looks like a pair of wings with a pair of dots or circles below (which Dani calls the "double roof type" of I). In the present inscription, instead of dots or circles below the wings, we only have the wingtips extended downward and ending in a hook there (two specimens in line 66 are quite clear even in the scanned photos). Fleet calls this form "more or less a freak" and an "abnormal form", while explicitly stating that it is "not a transitional form, but is a variety of the old square type". I do not know what other variety he has in mind into which this form could be a transition, but I fully agree that the present form is a variety of the old form.
               <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -88,7 +88,9 @@ Fleet discusses at some length the form of initial I in this inscription. He say
       
 <div type="edition" xml:lang="san-Latn">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb n="1"/>śrī-tribhuvan<choice><sic>a</sic><corr>ā</corr></choice>ṁku<lb n="2"/><unclear>śa</unclear>ḥ</ab>
+  <ab><lb 
+n="1"/>śrī-tribhuvan<choice><sic>a</sic><corr>ā</corr></choice>ṁku<lb 
+n="2"/><unclear>śa</unclear>ḥ</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb 
@@ -97,47 +99,73 @@ n="1r"/>
 <p><pb 
 
 n="1v"/><lb 
-n="1"/><g type="floretComplex"/>@@@BEFORE ENCODING THE TEXT, CONTINUE READING FLEET'S INTRO FROM THE TOP OF P 182
-om[+|] svasti śrīmatāṁ sakala-bhuvana-saṁstūyamānamānavyasagotrāṇāṁ hāriti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñcchan1989ekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām1990 aśvamedhāvabhr̥tha1991-snāna-pavitrīkr̥ta-vapuṣāṁ cālukyānāṁ kulam alamkariṣṇoḥ satyāśraya-vallabhendrasya bhrātā
-śrī1992-patir vvikrameṇ1993ādyo durjjayād balito hr̥tām[+|]
-aṣṭādaśa samāḥ kubja-viṣṇur jjiṣṇur mmahīm apālayat[+||] (1)1994
-tad-ātmajo jayasiṁhas trayas-trimśatam[+|]
+n="1"/><g type="indistinct"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sago<unclear>trā</unclear><lb 
+n="2" break="no"/>ṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-pari<lb 
+n="3" break="no"/>pālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-prasā<lb 
+n="4" break="no"/>da-samāsā<space type="binding-hole"/>dita-vara-varāha-lāṁ<orig>cch</orig>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti<lb 
+n="5" break="no"/>-maṇḍalā<space type="binding-hole"/>nā<surplus>ṁ</surplus>m aśvamedh<choice><sic>a</sic><corr>ā</corr></choice>vabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ cā<lb 
+n="6" break="no"/>lukyānāṁ kula<space type="binding-hole"/>m alaṁkariṣṇos satyāśraya-vallabhendrasya bhrātā
+</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">śrī-patir vvi<lb 
+n="7" break="no"/>krame<choice><sic>n</sic><corr>ṇ</corr></choice>ādyo</l>
+<l n="b">durjjayād balito hr̥tāṁ</l>
+<l n="c" enjamb="yes">Aṣṭādaśa samāḥ kubja</l>
+<l n="d" real="++++-+-+--">-viṣṇur jjiṣṇu<lb 
+n="8" break="no"/>r mmahīm apālayaT<unclear>|</unclear></l></lg>
+<p>tad-ātmajo jayasiṁhas trayastriṁśataM<supplied reason="omitted">|</supplied> tad-a<pb 
 
-Face IIa.
-tad-anujendrarāja-nandano viṣṇuvarddhano nava[+|]
-tat-sūnur mmaṁgi-yuvarājaḥ paṁca-viṁśatim[+|]
-tat-putro jayasiṁhas trayodaśa[+|]
-tasya dvaimāturānujaḥ kokkili[ḥ*] ṣaṇ-māsān[+|]
-tasya j[y*]eṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya sapta-triṁśatam[+|]
-tat-suto vijayāditya-bhaṭṭārako [+’]ṣṭādaśa[+|]
-tat-suto viṣṇuvarddhanaḥ ṣat-triṁśatam[+|]
-tat-suto narendra-mr̥garājaś cāṣṭā-catvāriṁśatam[+|]
-tat-putraḥ kali-viṣṇuvarddhano [+’]dhyarddha-varṣam[+|]
-tat-suto guṇaga-vijayādityaś catuś-catvāri[ṁ*]śatam[+|]
-athavā[+|]
-sutas tasya jyeṣṭho guṇaga-vijayāditya-patir aṁ-
-kakāras sākṣ[ā*]d vallabha-nr̥pa-samabhyarccita-bhujaḥ[+|]
+n="2r" break="no"/><lb 
+n="9" break="no"/>nujendrarāja-nandano viṣṇuvarddhano nava| tat-sūnur mmaṁgi-yuvarājaḥ pa<lb 
+n="10" break="no"/>ṁcaviṁśa<supplied reason="omitted">ti</supplied>M| tat-putro jayasiṁhas trayodaśa|| tasya dvaimāturānujaḥ ko<lb 
+n="11" break="no"/>kkili<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN<supplied reason="omitted">|</supplied> tasya j<supplied reason="omitted">y</supplied>eṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya saptatriṁśa<lb 
+n="12" break="no"/>taM| tat-suto vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-suto viṣṇu<lb 
+n="13" break="no"/>varddhanaḥ ṣaṭtriṁśataM| tat-suto narendramr̥garājas sāṣṭa-catvāriṁśa<lb 
+n="14" break="no"/>taM| tat-putraḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM<supplied reason="omitted">|</supplied> tat-suto guṇaga-vijayāditya<lb 
+n="15" break="no"/>ś catuścatvāri<supplied reason="omitted">ṁ</supplied>śataM| atha vā<choice><sic>N</sic><corr>||</corr></choice></p>
+<lg n="2" met="śikhariṇī">
+<l n="a" enjamb="yes">sutas tasya jyeṣṭho guṇaga-vijayāditya-patir aṁ</l>
+<l n="b">kakāras sākṣ<choice><sic>a</sic><corr>ā</corr></choice>d vallabha-nr̥pa-samabhyarccita-bhujaḥ</l>
+<l n="c">pradhāna<supplied reason="omitted">ḥ</supplied> śūrā<choice><sic>n</sic><corr>ṇ</corr></choice>ām api subhaṭa<pb 
 
-Face IIb.
-pradhāna[ḥ*] śūrāṇām1995 api subhaṭa-cūḍāmaṇir1996 asau1997
-catasraś catvāriṁśatim api samā bhūmim abhunak[+||] (2)
-tad-bhrātur yyuvarājasya vikramāditya-bhūpate[ḥ*][+|]
-śatru-vitrāsa1998-kr̥t putro dānī kānīna-sannibhaḥ[+||] (3)
-Jitvā saṁyati kr̥ṣṇa-vallabhamahā-daṇḍaṁ sa-dāyādakan
-dat[t*]vā deva-muni-dvijāti-tanayo dharmmārttham arttham1999 muhuḥ[+|]
-kr̥tvā rājyam a[ka*]ṇṭakan nirupamaṁ sa[ṁ*]vr̥ddham r̥ddha-praja[ṁ*]
-bhīmo bhūpatir anvabhu[ṁ*]kta bhuvana[ṁ*] nyāyāt samās triṁśatam[+||] (4)
-tad-anu vijayādityas tasya priyas tanayo2000 mahān
-adhika-dhanadas satya-tyāga-pratāpa-samanvitaḥ[+|]
-para-hr̥daya-ni[r̥*]bhedī nāmnaiva kollab[h*]igaṇḍa-bhū-
--patir akr̥ta-
-
-Face IIIa.
-ṣan-māsān2001 rājyan naya-sthiti2002-saṁyutaḥ[+||] (5)
+n="2v" break="no"/><lb 
+n="17" break="no"/>-cūḍāma<choice><sic>n</sic><corr>ṇ</corr></choice>ir a<choice><sic>ś</sic><corr>s</corr></choice>au</l>
+<l n="d">catasraś catvāriṁśatim api samā bhūmim abhunaK||</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">tad-bhrātu<lb 
+n="18" break="no"/>r yyuvarājasya</l>
+<l n="b">vikramāditya-bhūpate<supplied reason="omitted">ḥ</supplied></l>
+<l n="c">śatru-vitrā<choice><sic>ś</sic><corr>s</corr></choice>a-kr̥t putro</l>
+<l n="d">dānī <lb 
+n="19"/>kānīna-sannibhaḥ||</l>
+</lg>
+<lg n="4" met="śārdūlavikrīḍita">
+<l n="a">jitvā saṁyati kr̥ṣṇa-vallabha-mahā-daṇḍaṁ sa-dāyā<lb 
+n="20" break="no"/>dakan</l>
+<l n="b">da<orig>t</orig>vā deva-muni-dvijāti-tanayo dharmmārttham art<choice><sic>t</sic><corr>th</corr></choice>a<surplus>r</surplus>m muhuḥ</l>
+<l n="c">kr̥<lb 
+n="21" break="no"/>tvā rājyam a<supplied reason="omitted">ka</supplied>ṇṭakan nirupamaṁ sa<supplied reason="omitted">ṁ</supplied>vr̥ddham r̥ddha-praja<supplied reason="omitted">ṁ</supplied></l>
+<l n="d">bhīmo bhūpati<lb 
+n="22" break="no"/>r anvabhu<supplied reason="omitted">ṁ</supplied>kta bhuvana<supplied reason="omitted">ṁ</supplied> nyāyāt samās triṁśataṁ||</l>
+</lg>
+<lg n="5" met="hariṇī">
+<l n="a">tad anu vijayādityas ta<lb 
+n="23" break="no"/>sya priya<supplied reason="omitted">s</supplied> tanayo mahān</l>
+<l n="b">adhika-dhanadas satya-tyāga-pratāpa-sama<lb 
+n="24" break="no"/>nvitaḥ</l>
+<l n="c" enjamb="yes">para-hr̥daya-ni<supplied reason="omitted">r</supplied>bhedī nāmnaiva kollabigaṇḍa-bhū</l>
+<l n="d">-patir akr̥<pb 
+n="3r" break="no"/><lb 
+n="25" break="no"/>ta ṣan māsā<choice><sic>ṁ</sic><corr>n</corr></choice> rājyan naya-s<choice><sic>t</sic><corr>th</corr></choice>iti-saṁyutaḥ||</l>
+</lg>
+<lg n="6" met="vasantatilakā">
+<l n="a">@@@
 tasyāgra-sūnur2003 aparājita-śaktir amma-
 -rājaḥ parājita-parāvani-rāja-rājiḥ2004/
 rāj[ā*]bhavad vidita-rājamahendra-nām[ā*]
-varṣāni sapta saraniḥ karuṇā-rasasya[+||] (6)
+varṣāni sapta saraniḥ karuṇā-rasasya[+||] (6)</l></lg>
+<p>
 tasyātmajaṁ vijayāditya-bālam uccāṭya śrī-yuddhamallātmajas tālapa-rājo māsam2005 ekam arakṣīt[+||]
 tam āhave vinirjjitya cālukya-bhīma-tanayo vikramādityo vikrameṇākrame nikṣipya nava māsān apālayat2006[+||]
 tato yuddhamallas tālapa-rājāgra(ja)janmā sapta varṣāni gr̥hītv2007ātiṣṭhat[+||]
@@ -213,9 +241,42 @@ pedda2041-kalucuvubaṟiti śāsana[ṁ*] busesina bhaṭṭadevanik-arahanandi-
 <div type="apparatus">
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
     <listApp>
-      <app loc="X">
-        <lem></lem>
-        <rdg source="bib:AuthorYear_01"></rdg>
+      <app loc="2">
+        <lem>hārīti-</lem>
+        <rdg source="bib:Fleet1902-1903_01">hāriti-</rdg>
+      </app>
+      <app loc="5">
+        <lem>-maṇḍalā<space type="binding-hole"/>nā<surplus>ṁ</surplus>m</lem>
+        <note>According to Fleet's note, the <foreign>ā</foreign> in this word is formed by a direct upward continuation of the last stroke of <foreign>n</foreign>, instead of being attached in the usual way as a projection to the right of that stroke. He says this is probably a subsequent insertion, drawn in this shape for lack of space for the normal form. He points out that the same occurs in l6, <foreign>satyāśraya</foreign> (see the apparatus for that word) and in a few other places as well. The character is very unclear in my scanned photo, but it seems to me rather that the vowel is attached with a downward curve which then turns back up, as <foreign>ā</foreign> is often attached to <foreign>ṇ</foreign>. Pending examination of a good photo, the character could perhaps be <foreign>ṇā</foreign> or <foreign>ṇā</foreign> corrected into <foreign>nā</foreign>.</note>
+      </app>
+      <app loc="6">
+        <lem>satyāśraya-</lem>
+        <note>According to Fleet's note, the <foreign>ā</foreign> in this word is formed by a direct upward continuation of its consonant's last stroke. In the scanned photo, I can see this clearly, looking like a <foreign>repha</foreign> or a mirrored question mark. Fleet may be correct in assuming that this vowel mark was inserted subsequently, but it seems to me that correction took place on a slightly larger scale here. The characters <foreign>tyāśra</foreign> are crowded close to one another and to the adjacent characters, and <foreign>śra</foreign> is very narrow. There is also a mark resembling a large <foreign>candrabindu</foreign> over <foreign>śra</foreign> (and interfering with the unusual <foreign>ā</foreign> of the preceding character), which I cannot interpret. The most likely interpretation in my opinion is that <foreign>śra</foreign> was initially omitted and to correct the omission, the regular vowel mark of <foreign>tyā</foreign> was deleted, replaced by the upward mark, and <foreign>śra</foreign> was added in the resulting space.</note>
+      </app>
+      <app loc="6">
+        <lem>śrī-</lem>
+        <rdg source="bib:Fleet1902-1903_01">śr<choice><sic>i</sic><corr>ī</corr></choice>-</rdg>
+      </app>
+      <app loc="7">
+        <lem>-viṣṇur jjiṣṇu<lb 
+n="8" break="no"/>r mmahīm apālayaT</lem>
+        <note>To rectify the hypermetrical line, Fleet suggests deleting <foreign>laya</foreign> (i.e. emending <foreign>apālayaT</foreign> to <foreign>apāT</foreign>). This is entirely plausible, but perhaps instead <foreign>jiṣṇur</foreign> was added unnecessarily.</note>
+      </app>
+      <app loc="8">
+        <lem>apālayaT<unclear>|</unclear></lem>
+        <note>Fleet prints an original punctuation mark as clear, but in the photo I only see a space barely wider than that between some characters, and perhaps a dot or a <foreign>visarga</foreign>-like pair of dots in that space.</note>
+      </app>
+      <app loc="8">
+        <lem>trayastriṁśataM</lem>
+        <rdg source="bib:Fleet1902-1903_01">trayastriṁśataṁ</rdg>
+      </app>
+      <app loc="23">
+        <lem>priya<supplied reason="omitted">s</supplied> tanayo</lem>
+        <note>As Fleet also observes, the emendation is not necessary for the text to make sense, but is required to restore the metre.</note>
+      </app>
+      <app loc="24">
+        <lem>-ni<supplied reason="omitted">r</supplied>bhedī</lem>
+        <note>Here too, the emendation is necessary in order to rectify the metre.</note>
       </app>
       
       
@@ -252,12 +313,13 @@ pedda2041-kalucuvubaṟiti śāsana[ṁ*] busesina bhaṭṭadevanik-arahanandi-
 
 <div type="commentary">
 <p>In the seal text, as Fleet describes it, <unclear>śa</unclear> is <q>behind the boar</q> and the <unclear>visarga</unclear> is <q>in front of the boar</q>, while the rest of the legend is in one line above the boar.</p>
+<p>In verse 2, note the enjambement with the ugly break in the middle of the word <foreign>aṁ/kakāras</foreign>.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1902-1903_01"/></bibl>), with a translation and with partial photographs.<note>Both my scans of EI 7 include only photos of pages 1v, 3v, 4r and 5r. A printed EI 7 should be checked to see whether all photos are present.</note> The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published photographs.<note>For pages of which I have no photo, I follow Fleet absolutely unless otherwise noted. Even where available, the scanned photos are very hard to read in many places. A printed version may be better, but if new photos of Ind. Ch. 24 can be obtained from the BL, then collation will be very advantageous.</note></p>
+  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1902-1903_01"/></bibl>), with a translation and with partial photographs.<note>Both my scans of EI 7 include only photos of pages 1v, 3v, 4r and 5r. A printed EI 7 should be checked to see whether all photos are present.</note> The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published photographs.<note>For pages of which I have no photo, I follow Fleet absolutely unless otherwise noted. Even where available, the scanned photos are very hard to read in many places, so in these I generally accept Fleet's indication of what is unclear and what is clear, and only add my own unclear markup where the photo is completely illegible. A printed version may be better, but if new photos of Ind. Ch. 24 can be obtained from the BL, then collation will be very advantageous.</note></p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1902-1903_01"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
