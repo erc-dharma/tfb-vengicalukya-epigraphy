@@ -49,9 +49,9 @@
           </msContents>
           <physDesc>
             <handDesc>
-              <p>Halantas. Final K in l32. Final T is a full-sized ta-shape without a headmark, with a curly tail; specimens in l8, l30; N in l10 (indistinct), l18, l24, l37, l39, l52. Final M is a raised circle at headline height, larger than an anusvāra, with a curly tail on top; specimens in l5, l7, l9, l11, l12, l51, l54, l55, l60. Jihvāmūlīya in l42, l51; upadhmānīya in l10, l41, l43, l46, l51. </p>
+              <p>Halantas. Final K is a full-sized ka with a curly tail in place of a headmark, found in l32. Final T is a full-sized ta-shape without a headmark, with a curly tail; specimens in l8, l30. Final N is a small and raised na-shape with a curly tail on top; specimens in l10 (indistinct), l18, l24, l37, l39, l52. Final M is a raised circle at headline height, larger than an anusvāra, with a curly tail on top; specimens in l5, l7, l9, l11, l12, l51, l54, l55, l60. Jihvāmūlīya in l42, l51; upadhmānīya in l10, l41, l43, l46, l51. </p>
               <p>Original punctuation marks are straight verticals of body height, with a headmark. @@@provisionally /, replace with markup. The second bar of the punctuation mark after l3 kṣite seems to have a curly upward extension like a repha and should perhaps be re-classified as an ornate one.</p>
-              <p>Other palaeographic observations. Anusvāra is normally at headline height after the character to which it belongs. Medial o is normally written with the cursive single stroke; a composite stroke like e and ā combined occurs e.g. in l9 viṣṇuvarddhano. Au is not distinguished from the cursive o in any apparent way, and in my edition I show this as a scribal mistake. Hypersandhi in l13 samāṣṭabhiḥ (for samā aṣṭabhiḥ).
+              <p>Other palaeographic observations. Anusvāra is normally at headline height after the character to which it belongs. Medial o is normally written with the cursive single stroke (not indicated in the markup); a composite stroke like e and ā combined occurs e.g. in l8 (and probably l9) viṣṇuvarddhano. Au is distinguished from the cursive o by having a larger right hump, while o is more nearly symmetrical. L17 yauvarājya is a good example for a distinct au, but some instances are identical to some instances of o and are read in good faith as expected (see e.g. the duals in ll25-26, where the cursive marker that could be o or au occurs twice and is read as au, while a bipartite mark that can only be is used once, and is read as an erroneous o. Hypersandhi in l13 samāṣṭabhiḥ (for samā aṣṭabhiḥ).
               <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
           <summary><p><p/></summary>
@@ -104,9 +104,9 @@ n="1"/><g type="floretComplex"/></ab>
 n="2" break="no"/>ya vilasad-dharmmāvalaṁbāya ca/</l>
 <l n="c">sāmartthyāt khalu yasya duṣkali-kr̥tā doṣāś ca mitthy<choice><sic>ā</sic><corr>o</corr></choice>dbhavā</l>
 <l n="d">du<lb 
-n="3" break="no"/>r<orig>vv</orig>r̥ttāni ca bhū-tale na vitatā śāntiś ca nityaṁ kṣite<supplied reason="omitted">ḥ</supplied>||</l></lg>
+n="3" break="no"/>r<orig>vv</orig>r̥ttāni ca bhū-tale na vitatā śāntiś ca nityaṁ kṣite<supplied reason="omitted">ḥ</supplied>//</l></lg>
 <p><g type="floretComplex"/>svasti śrīmatāṁ sakala-bhuvana-sa<lb 
-n="4" break="no"/>ṁstūyamā<space type="binding-hole"/>na-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ k<choice><sic>o</sic><corr>au</corr></choice>śikī-vara-prasāda-labdha-rā<lb 
+n="4" break="no"/>ṁstūyamā<space type="binding-hole"/>na-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ k<unclear>au</unclear>śikī-vara-prasāda-labdha-rā<lb 
 n="5" break="no"/>jyānām mā<space type="binding-hole"/>tr̥-ga<supplied reason="omitted">ṇa</supplied>-paripālitānāṁ svāmi-mahāsena-pādānudhyāyināM bhagava<lb 
 n="6" break="no"/>n-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāṁcchanekṣaṇa-kṣaṇa-vaś<choice><sic>i</sic><corr>ī</corr></choice>kr̥tārāti-maṇḍa<unclear>lā</unclear><lb 
 n="7" break="no"/>nām aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāM cālukyānāṁ kulam alaṁkariṣṇos satyāśra<lb 
@@ -125,96 +125,139 @@ n="12"/>viṣṇuvarddhanaṣ ṣa<space type="binding-hole"/>ṭtriṁśataM</p
 n="13" break="no"/>-bhūpāla<orig>ḥ</orig> <space type="binding-hole"/></l>
 <l n="d">catvāriṁśat samāṣṭabhiḥ</l>
 </lg>
-<p>@@@
-tat-putraḥ kali-viṣṇuvarddhano [+’]dhyarddha-varṣam[+|]
-tat-putraḥ paracakrarāma-para-nāmadheyaḥ[+||]
-hatvā bhūri-noḍaṁbarāṣṭra2062-nr̥patiṁ maṁgim mahā-saṁgare2063
-gaṁgānāśrita gaṁgakūṭa-śikharān nirjjitya saḍ-ḍ̣āhalā-/
--dhīśaṁ2064̇ saṁkilam ugra-vallabha-yutaṁ yo bhāyayitvā2065 catuś-
-catvāriṁśatam abdakāṁś ca vijayadityo rarakṣa ksịtim[+||] (3)
+<p>tat-putraḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaṁ/ ta<lb 
+n="14" break="no"/>t-putraḥ paracakrarāmāpara-nāmadheyaḥ</p>
+<lg n="3" met="śārdūlavikrīdita">
+<l n="a">hatvā bhūri-no<orig>d</orig>aṁba-rāṣṭra-nr̥patiṁ maṁgim mahā-saṁga<lb 
+n="15" break="no"/>r<unclear>e</unclear></l>
+<l n="b" enjamb="yes">gaṁgān āśr<choice><sic>ī</sic><corr>i</corr></choice>ta-gaṁgak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-śikharān nirjjitya saḍ-ḍ<unclear>ā</unclear><supplied reason="omitted">ha</supplied>lā</l>
+<l n="c" enjamb="yes">dhīśaṁ saṁkilam ugra-vallabha-yutaṁ yo bh<unclear>ā</unclear><lb 
+n="16" break="no"/>yayitvā catuś</l>
+<l n="d">catvāriṁśatam abdakāṁś ca vijayadityo rarakṣa ksịtiṁ/</l>
+</lg>
+<p>tad-anujasya labdha<pb 
 
-Face IIb.
-tad-anujasya labdhayauvarājyasya vikramāditasya sutaś cālukya-bhīmas2066 triṁśatam[+|]
-tasyāgrajo vijayādityaḥ ṣaṇ māsan[+|]
-tad-agra-sūnur ammarājaḥ saptavarṣāni[+|]
-tat-sūnum ākramya bālaṁ cālukya-Bhīma2067-pitr̥vya-yuddhamallasya nandanas tāla-nr̥po māsam ekaṁ[+||]
-nānā-sāmantavarggair2068 adhika-bala-yutair2069 mmattamātaṁga-sainaiḥ2070
-hatvā taṁ tāla-rājaṁ viṣama-raṇa-mukhe sā[r*]ddham atyugra-tejāḥ[+|]
-ekābdaṁ samyag aṁbho nidhi-valaya-vr̥ttām anvarakṣ[a*]d dharitrīṁ2071
-śrīmān2072 cālukya-bhīma-kṣitipati-tanayo vikramāditya-bhūpaḥ[+||] (4)
-Paścād aham-ahamikayā vikramādityāstam a[ya*]ne rākṣasā iva prajā-bādhana-parā dāyāda-rāja-putro rājyābhilaṣiṇo yuddhamalla-rājamārtaṇḍa(la)-kaṇṭhikā-vijayāditya-prabhr̥tayo vigrāhī2073-bhūtā āsan[+||]
+n="2v" break="no"/><lb 
+n="17" break="no"/>-yauvarājyasya vikramāditasya sutaś cālukya-bh<choice><sic>i</sic><corr>ī</corr></choice>mas triṁśataṁ/ tasyāgrajo vijayādityaḥ <lb 
+n="18"/>ṣaṇ māsāN/ tad-agra-sūnur ammarājas sapta varṣāni/ tat-sūnum ākramya bālaṁ cālukya-h<choice><sic>i</sic><corr>ī</corr></choice>ma-pi<lb 
+n="19" break="no"/>tr̥vya-yuddhamallasya nandanas tāla-nr̥po māsam ekaṁ/</p>
+<lg n="4" met="sragdharā">
+<l n="a">nānā-sāmanta-va<unclear>r</unclear>ggair adhika-bala-yutai<supplied reason="omitted">r</supplied> mma<lb 
+n="20" break="no"/>tta-mātaṁga<space type="binding-hole"/>-sain<choice><sic>o</sic><corr>yai</corr></choice>r</l>
+<l n="b">hatvā taṁ tāla-rājaṁ viṣama-raṇa-mukhe sārddham atyugra-te<lb 
+n="21" break="no"/>jāḥ</l>
+<l n="c">Ekābda<space type="binding-hole"/>ṁ samyag aṁbhonidhi-valaya-vr̥tām anvarakṣad dharitr<choice><sic>i</sic><corr>ī</corr></choice>ṁ</l>
+<l n="d">śrīmā<orig>n</orig> cālukya<lb 
+n="22" break="no"/>-bh<choice><sic>i</sic><corr>ī</corr></choice>ma-kṣitipati-tanayo vikramāditya-bhūpaḥ/</l>
+</lg>
+<p>paścād ahamahamikayā vikramādityāsta<lb 
+n="23" break="no"/>mane rākṣasā Iva prajā-bādhana-parā dāyāda-rājaputrā rājyābhilāṣiṇo yuddhamalla-rā<lb 
+n="24" break="no"/>jamārttaṇḍa<surplus>la</surplus>-kaṇṭhikā-vijayāditya-prabhr̥tayo vigrah<choice><sic>i</sic><corr>ī</corr></choice>-bhūtā ĀsaN/ vigra<pb 
 
-Face IIIa.
-vigraheṇaiva paṁca varṣāni gatāni[+|]
-tataḥ[+||]
-yo [+’]vadhīd2074 rājamārtaṇḍan2075 teṣāṁ2076 yena raṇe kr̥tau[+|]
-kaṇṭhikā-vijayāditya-yuddamallau2077 videśagau[+||] (5)
-anye mānya-mahī2078-bhr̥to [+’]pi bahavo duṣṭa-pravr̥ttoddhatā2079
-deśopadrava-kāriṇaḥ prakaṭitāḥ kālālayaṁ2080 prāpitāḥ[+|]
-dorddaṇḍerita2081-maṇḍalāgra-latayā yasyogra-saṁgrāmaka-
--syājñā2082 tat-para-bhū2083-nr̥paiś ca śiraso māleva sandhāryyate[+||] (6)
-nādgdhvā2084 vinivarttate ripu-kulaṁ kopāgnir āmūlatọ2085
-śubhraṁ ya[sya*] yaśo na lokam akhilaṁ santiṣṭhate na bhramat[+|]
-dravyāṁbhodhara-rāśir apy anudinaṁ santapyamāne bhr̥śaṁ
-dāridryogratarātapena janatā sasye2086 na no varṣati[+||] (7)
-sa cālukya-bhīma-naptā vijayāditya-nandana[ḥ][+|]
-dvādaśāśat2087 samās samyagrāja-bhīmo2088 dharātalam[+||] (8)
+n="3r" break="no"/><lb 
+n="25" break="no"/>heṇaiva paṁca varṣāni gatāni<supplied reason="subaudible">.</supplied> tataḥ</p>
+<lg n="5" met="anuṣṭubh">
+<l n="a">yo <supplied reason="subaudible">’</supplied>vadhīd r<unclear>ā</unclear>jamārtaṇḍan</l>
+<l n="b"> teṣ<unclear>āṁ</unclear> yena raṇe kr̥tau</l>
+<l n="c" enjamb="yes">ka<lb 
+n="26" break="no"/>ṇṭhikā-vijayāditya-</l>
+<l n="d">yuddamall<choice><sic>o</sic><corr>au</corr></choice> videśa-gau/</l>
+</lg>
+<lg n="6" met="śārdūlavikrīdita">
+<l n="a">Anye mānya-mah<choice><sic>i</sic><corr>ī</corr></choice>bhr̥to <supplied reason="subaudible">’</supplied>pi baha<add place="overstrike">vo du</add><lb 
+n="27" break="no"/>ṣṭa-pravr̥tt<choice><sic>ā</sic><corr>o</corr></choice>ddhatā<orig>ḥ</orig></l>
+<l n="b">deśopadrava-kāriṇaḥ prakaṭitāḥ kālālaya-prāpitāḥ</l>
+<l n="c" enjamb="yes">dordd<choice><sic>e</sic><corr>a</corr></choice>ṇḍeri<lb 
+n="28" break="no"/>ta-maṇḍalā<space type="binding-hole"/>gra-latayā yasyogra-saṁgrāmak<choice><sic>āv</sic><corr>asy</corr></choice></l>
+<l n="d">ājñā tatpara-bh<choice><sic>r̥</sic><corr>ū</corr></choice>-nr̥paiś ca <lb 
+n="29" break="no"/>śiraso mā<space type="binding-hole"/>leva sandhāryyate/</l>
+</lg>
+<lg n="7" met="śārdūlavikrīdita">
+<l n="a">nādagdh<unclear cert="low">v</unclear>ā vinivarttate ripu-kulaṁ kopāgnir āmūla<lb 
+n="30" break="no"/>t<orig>aḥ</orig></l>
+<l n="b">śubhraṁ ya<unclear>s</unclear>ya yaśo na lokam akhilaṁ santiṣṭhate na bhramaT</l>
+<l n="c">dravyāṁbhodhara-rāśir apy anudina<lb 
+n="31" break="no"/>ṁ santapyamāne bhr̥śaṁ dāridryogratarātapena janas<choice><sic>a</sic><corr>ā</corr></choice><unclear>ṁ</unclear> sasye na no varṣati/</l>
+</lg>
+<lg n="8" met="anuṣṭubh">
+<l n="a" met="ra-vipulā" real="-++-+-++">sa cālukya-bh<choice><sic>i</sic><corr>ī</corr></choice>ma-naptā</l>
+<l n="b">vi<lb 
+n="32" break="no"/>jayāditya-nandana<supplied reason="omitted">ḥ</supplied></l>
+<l n="c">dvādaśāv<choice><sic>yā</sic><corr>a</corr></choice>t samās samya<orig>K</orig></l>
+<l n="d">rāja-bh<choice><sic>i</sic><corr>ī</corr></choice>mo dharātalaṁ/</l>
+</lg>
+<lg n="9" met="āryā">
+<l n="ab">tasya maheśvara-mū<pb 
 
-Face IIIb.
-tasya maheśvara-mūrtter2089 umā-samānākr̥teḥ kumārābhaḥ[+|]
-lokamahādevyāḥ2090 khalu yas samabhavad amma[rā*]jākhyaḥ[+||] (9)
-jalajātapatra-cāmara-kalaśāṃkuśa-lakṣaṇāṃ[ka*]-kara-caraṇa-talaḥ[+|]
-lasad-ājānvāvalaṁbita-bhuja-yuga-parigho girīndrasānūraskaḥ 2091// (10)
-vidita-dharādhipa-vidyo vividhāyudha-kovido vilīn2092āri-kulaḥ[+|]
-kari-turagāgama-kuśalo hara-caraṇāṁbhoja-yugala-madhupaḥ śrīmān[+||] (11)
-kavi-gāyaka-kalpatarur dvija-muni-dīn2093āndha-bandhujana-surabhiḥ[+|]
-yācaka-jana-cintāmaṇir avanīśa-maṇir mmahogra-mahasā dyumaṇiḥ[+||] (12)
-giri-rasa-vasu-saṁkhyābde śaka-samaye mārggaśīrṣa-māsesmin[+|]
-kr̥ṣṇa2094-trayodaśa-dine bhr̥guvāre maitra-nakṣatre[+||] (13)
-dhanuṣi ravau ghaṭa-lagne dvādaśa-varṣe tu janmanaḥ paṭṭam[+|]
-yo dhād udaya-girīndre ravir iva lokānurāgāya[+||] (14)
+n="3v" break="no"/><lb 
+n="33" break="no"/><supplied reason="omitted">r</supplied>tter umā-samānākr̥teḥ kumārābhaḥ</l>
+<l n="cd">lokam<choice><sic>ā</sic><corr>a</corr></choice>hādevyāḥ khalu yas samabhavad amma<unclear>rā</unclear><lb 
+n="34" break="no"/>jākhyaḥ//</l>
+</lg>
+<lg n="10" met="āryāgīti">
+<l n="ab">jalajātapatra-cāmara-kalaśāṁkuśa-lakṣaṇāṁka-<supplied reason="omitted">ka</supplied>ra-caraṇa-talaḥ</l>
+<l n="cd">lasad-ājā<lb 
+n="35" break="no"/>nv-avalaṁbita-bhuja-yuga-parigho girīndra-sān<choice><sic>u</sic><corr>ū</corr></choice>raskaḥ//</l>
+</lg>
+<lg n="11" met="āryāgīti">
+<l n="ab">vidita-dharādhipa-vidyo vividhāyu<lb 
+n="36" break="no"/>dha-kovido vi<space type="binding-hole"/>līnāri-kulaḥ</l>
+<l n="cd">kari-turagāgama-kuśalo hara-caraṇāṁbhoja-yuga<lb 
+n="37" break="no"/>la-madhupa<space type="binding-hole"/>ś śrīmāN//</l>
+</lg>
+<lg n="12" met="āryāgīti">
+<l n="ab" real="--+--+--+----++-+-----+">kavi-gāyaka-kalpataru<supplied reason="omitted">r</supplied> dvija-muni-dīnāndha-bandhu-jana<lb 
+n="38" break="no"/>-surabhiḥ</l>
+<l n="cd">yācaka-gaṇa-cintāmaṇir avanīśa-maṇir mmahogra-mahasā dyumaṇiḥ//</l>
+</lg>
+<lg n="13" met="āryā">
+<l n="ab">@@@giri-rasa-vasu-saṁkhyābde śaka-samaye mārggaśīrṣa-māsesmin[+/]
+kr̥ṣṇa2094-trayodaśa-dine bhr̥guvāre maitra-nakṣatre[+//] (13)
+dhanuṣi ravau ghaṭa-lagne dvādaśa-varṣe tu janmanaḥ paṭṭam[+/]
+yo dhād udaya-girīndre ravir iva lokānurāgāya[+//] (14)</l></lg>
+<p>
 
 Face IVa.
-sa samasta-bhuvanāśraya-śrī-vijayāditya-mahārājādhirāja-parameśvaraḥ parama-dha[r*]mmikāmmarājaḥ kammanāṇḍu-viṣaya-nivāsino rāṣṭrakūṭa2095-pramukhān kuṭuṁbinas sarvvān2096 ittham ājñāpayati[+||]
-āryyā[ḥ*][+|]
+sa samasta-bhuvanāśraya-śrī-vijayāditya-mahārājādhirāja-parameśvaraḥ parama-dha[r*]mmikāmmarājaḥ kammanāṇḍu-viṣaya-nivāsino rāṣṭrakūṭa2095-pramukhān kuṭuṁbinas sarvvān2096 ittham ājñāpayati[+//]
+āryyā[ḥ*][+/]
 kiraṇapuram2097 adhākṣīt kr̥ṣṇa-rāja-sthitaṁ yas
-tripuram iva maheśaḥ pāṇḍaraṁgaḥ pratāpī[+|]
+tripuram iva maheśaḥ pāṇḍaraṁgaḥ pratāpī[+/]
 tad iha [mu*]kha-sahasrair2098 anvitasyāpy aśakyaṁ
-gaṇanam amala-kīrttes2099 tasya sat-sāhasānām2100[+||] (15)
-tasy-ātmajo2101 niravadyadhavala[ḥ*] kaṭakarāja-paṭṭa-śobhita-lalāṭaḥ[+|]
-tat-tanayo vijayāditya-kaṭakādhipati[h*]̣[+|]
-vr̥ttam[+||]
+gaṇanam amala-kīrttes2099 tasya sat-sāhasānām2100[+//] (15)
+tasy-ātmajo2101 niravadyadhavala[ḥ*] kaṭakarāja-paṭṭa-śobhita-lalāṭaḥ[+/]
+tat-tanayo vijayāditya-kaṭakādhipati[h*]̣[+/]
+vr̥ttam[+//]
 tat-putro durggarājaḥ pravara-guṇa-niddhir ddhārmmakas satyavādī2102
-tyāgī2103 bho[gī*] mahātmā samitiṣu vijayī2104 vīra2105-lakṣmī2106 nivāsaḥ[+|]
+tyāgī2103 bho[gī*] mahātmā samitiṣu vijayī2104 vīra2105-lakṣmī2106 nivāsaḥ[+/]
 cālukyānāṁ ca lakṣmyā yad asir api sadā rakṣaṇā[ya*] iva2107 vaṁśa[ḥ*] 2108
-khyāto yasyāpi veṁgī-gaditavara-mahā-maṇḍalālaṁbināya[+||] (16)
-tena kr̥to dharmmapu[ri*]-[da*]kṣiṇa-diśi saj-jinālayaś carutaraḥ[+|]
-kaṭakābharaṇa2109- śubhāṁkitanāma2110 ca puṇyālayo2111 vasati[+||] (17)
+khyāto yasyāpi veṁgī-gaditavara-mahā-maṇḍalālaṁbināya[+//] (16)
+tena kr̥to dharmmapu[ri*]-[da*]kṣiṇa-diśi saj-jinālayaś carutaraḥ[+/]
+kaṭakābharaṇa2109- śubhāṁkitanāma2110 ca puṇyālayo2111 vasati[+//] (17)
 
 Face IVb.
-[śrī]-Yāpanīsaṁgha2112-prapūjya2113 koṭimaḍuvagaṇ2114eśa-mukhyo yaḥ[+|]
-puṇy2115āruha-naṇḍigaccho jinanandi-munīśvaro2116 ga[ṇa*]dhara-sadr̥śaḥ[+||] (18)
+[śrī]-Yāpanīsaṁgha2112-prapūjya2113 koṭimaḍuvagaṇ2114eśa-mukhyo yaḥ[+/]
+puṇy2115āruha-naṇḍigaccho jinanandi-munīśvaro2116 ga[ṇa*]dhara-sadr̥śaḥ[+//] (18)
 tasyāgra-śiṣyaḥ pratitho dharāyāṁ 2117 divākar2118ākhyo muni-puṁgavobhūt2119/
 yaḥ kevala-jñāna2120-nidhir mmahātmā svayaṁ jinānāṁ sadr̥śo2121 guṇaughaiḥ 2122// (19)
-śrīmān diradeva-munis sutapo nidhir abhavad asya śiṣyo2123 dhīmān2124[+|]
+śrīmān diradeva-munis sutapo nidhir abhavad asya śiṣyo2123 dhīmān2124[+/]
 yam pratihārrya mahimā saṁppannam ivābhimanyate lokaḥ 2125// (20)
-tad-adhiṣṭata-kaṭakābharaṇa2126-jinālayāya2127-kaṭakarāja-vijñapte2128 khaṇṭa-sphuṭa-navakr̥tyā bali2129-prapūjādi-sa[t*]tra-siddhārttham2130 yuttarāyana-nimitte maliyapūṇḍi-nāma-grāmaṭikā sarvva-kara-parihāram2131 udaka-pūrvvaṁ 2132 kr̥tvā dattā[+||]
-asya grāma[sy*]āvadhayaḥ[+||]
-pūrvataḥ muṁjunyaru2133[+||]
-dakṣiṇataḥ yinimili[+||]
-paści[ma*]taḥ kalvakuru[+||]
-uttarata[ḥ*] dharmmavuramu[+||]
-etad2134-grāmasya kṣetrāvadhayaḥ[+||]
-pūrvataḥ gollani-guṇṭha[+||]
-āgneyata[ḥ*] rāviyaperiya-ceṟuvu[+||]
-dakṣiṇataḥ sthāpita-śilā[+||]
-nairr̥ityataḥ 2135 sthāpita2136-śilaiva[+||]
+tad-adhiṣṭata-kaṭakābharaṇa2126-jinālayāya2127-kaṭakarāja-vijñapte2128 khaṇṭa-sphuṭa-navakr̥tyā bali2129-prapūjādi-sa[t*]tra-siddhārttham2130 yuttarāyana-nimitte maliyapūṇḍi-nāma-grāmaṭikā sarvva-kara-parihāram2131 udaka-pūrvvaṁ 2132 kr̥tvā dattā[+//]
+asya grāma[sy*]āvadhayaḥ[+//]
+pūrvataḥ muṁjunyaru2133[+//]
+dakṣiṇataḥ yinimili[+//]
+paści[ma*]taḥ kalvakuru[+//]
+uttarata[ḥ*] dharmmavuramu[+//]
+etad2134-grāmasya kṣetrāvadhayaḥ[+//]
+pūrvataḥ gollani-guṇṭha[+//]
+āgneyata[ḥ*] rāviyaperiya-ceṟuvu[+//]
+dakṣiṇataḥ sthāpita-śilā[+//]
+nairr̥ityataḥ 2135 sthāpita2136-śilaiva[+//]
 
 Face Va.
-paścimataḥ malkapaṟṟu koṟaboyu-taṭākaś2137 ca[+||]
-vāyavyataḥ sthāpita-śilaiva[+||]
-uttarataḥ duba-ceṟuvu[+||]
-eśānyāṁ2138 kalvakuri evvokaceni sīmaiva2139 sīmā[+||]
+paścimataḥ malkapaṟṟu koṟaboyu-taṭākaś2137 ca[+//]
+vāyavyataḥ sthāpita-śilaiva[+//]
+uttarataḥ duba-ceṟuvu[+//]
+eśānyāṁ2138 kalvakuri evvokaceni sīmaiva2139 sīmā[+//]
 </p>
 
 <pb n="5v"/>
@@ -239,7 +282,7 @@ eśānyāṁ2138 kalvakuri evvokaceni sīmaiva2139 sīmā[+||]
       </app>
       <app loc="10">
         <lem>ta<unclear>t-putro</unclear></lem>
-        <note>Shown as clear by both editors, these characters are not really legible in the available facsimiles. In Venugopaul Chetty's photo they could with some imagination be  <foreign>tajjeṣṭo</foreign> (for <foreign>tajjyeṣṭho</foreign>), but the photo was in all probability retouched by hand, since it exhibits some other strange glyph shapes where Hultzsch's estampage shows the expected shapes. In this case, the <foreign>t</foreign> of <foreign>tro</foreign> is quite clear in the estampage, so the reading (shared by Venugopaul Chetty) is probably correct.</note>
+        <note>Shown as clear by both editors, these characters are not really legible in the available facsimiles. In BVC's photo they could with some imagination be  <foreign>tajjeṣṭo</foreign> (for <foreign>tajjyeṣṭho</foreign>), but the photo was in all probability retouched by hand, since it exhibits some other strange glyph shapes where Hultzsch's estampage shows the expected shapes. In this case, the <foreign>t</foreign> of <foreign>tro</foreign> is quite clear in the estampage, so the reading (shared by Venugopaul Chetty) is probably correct.</note>
       </app>
       <app loc="11">
         <lem source="bib:Hultzsch1907-1908_07"><unclear>sa</unclear>ptatriṁśataM</lem>
@@ -248,6 +291,116 @@ eśānyāṁ2138 kalvakuri evvokaceni sīmaiva2139 sīmā[+||]
       <app loc="13">
         <lem source="bib:Hultzsch1907-1908_07">samāṣṭabhiḥ</lem>
         <rdg source="bib:Butterworth+VenugopaulChetty1905_01">samā<choice><sic>ṣṭa</sic><corr>s su</corr></choice>dhīḥ</rdg>
+      </app>
+      <app loc="14">
+        <lem>-no<orig>d</orig>aṁba-rāṣṭra-</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">-nodam<supplied reason="omitted">ba</supplied>rāṣṭra-</rdg>
+        <rdg source="bib:Hultzsch1907-1908_07">-no<choice><sic>d</sic><corr>ḍ</corr></choice>aṁba-rāṣṭra-</rdg>
+        <note>I assume that Hultzsch's emendation is based on the parallel stanza in @@@CalE56<!--CHECK add reference when encoded-->, but I prefer retain the spelling as received. As for BVC's reading (shown in his edition as <q>नोदम्रा(म्ब)ष्ट्र</q>), I cannot fathom it. His photo, in all probability doctored by his hand, clearly shows all characters of the correct reading, so he must have read the text correctly and a typographic error must be involved somehow, but then why the emendation? Possibly a correction added by him to the print proofs was misunderstood by the typesetter to be an emendation.</note>
+      </app>
+      <app loc="14">
+        <lem>-saṁga<lb n="15" break="no"/>r<unclear>e</unclear></lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">-saṁga<lb n="15" break="no"/>re</rdg>
+        <rdg source="bib:Hultzsch1907-1908_07">-saṁga<lb n="15" break="no"/>r<choice><sic>a</sic><corr>e</corr></choice></rdg>
+        <note>BVC's (retouched) photo shows a <foreign>pṛṣṭhamātrā</foreign> <foreign>e</foreign> marker in the form of a vertical in front of the <foreign>r</foreign>, attached to the consonant at the top left. Since this form of <foreign>e</foreign> does not occur in related inscriptions as far as I know, Hultzsch may well be correct in reading <foreign>ra</foreign>. The vertical line may belong to the plate's rim, and its attachment to the consonant may be only fancy.</note>
+      </app>
+      <app loc="15">
+        <lem source="bib:Hultzsch1907-1908_07">nirjjitya saḍ-ḍ<unclear>ā</unclear><supplied reason="omitted">ha</supplied>lā°</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">nirjji<choice><sic>tya</sic><corr>taṁ</corr></choice> saṭṭal<choice><sic>a</sic><corr>ā</corr></choice>°</rdg>
+        <note>There may be a typo in BVC's reading: they are aware of the metre, but neither reading nor their emendation is metrical. The doubled consonant is clearly not <foreign>ṭṭ</foreign> in Hultzsch's estampage. I would be most inclined to read it as <foreign>ḍhḍh</foreign>, but Hultzsch's <foreign>ḍḍ</foreign> is possible. </note>
+      </app>
+      <app loc="15">
+        <lem source="bib:Hultzsch1907-1908_07">bh<unclear>ā</unclear><lb n="16" break="no"/>yayitvā</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01"><choice><sic>cā</sic><corr>yo</corr></choice><lb n="16" break="no"/><choice><sic>y</sic><corr>dh</corr></choice>ayitvā</rdg>
+      </app>
+      <app loc="19">
+        <lem source="bib:Hultzsch1907-1908_07">-nr̥po</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">-nr̥to</rdg>
+        <note>Typo in BVC.</note>
+      </app>
+      <app loc="20">
+        <lem>-sain<choice><sic>o</sic><corr>yai</corr></choice>r hatvā</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">seno hatvā</rdg>
+        <rdg source="bib:Hultzsch1907-1908_07">-s<choice><sic>ai</sic><corr>e</corr></choice>n<choice><sic>o</sic><corr>ai</corr></choice><supplied reason="omitted">r</supplied> h<choice><sic>ā</sic><corr>a</corr></choice>tvā</rdg>
+        <note>I think the stroke atop <foreign>ha</foreign> that Hultzsch reads as <foreign>ā</foreign> is a very plausible <foreign>repha</foreign>; <foreign>ā</foreign> would normally be horizontal. Hultzsch's emendation is also plausible, but I feel that my equivalent emendation reflects a more likely scribal error: the engraver mistook a subscript <foreign>y</foreign> the two strokes of <foreign>o</foreign> attached at bottom left and top right and omitted the strokes for <foreign>ai</foreign>.</note>
+      </app>
+      <app loc="21">
+        <lem source="bib:Hultzsch1907-1908_07">dharitr<choice><sic>i</sic><corr>ī</corr></choice>ṁ</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">dharitrā</rdg>
+        <note>Probably a typo in BVC.</note>
+      </app>
+      <app loc="22">
+        <lem>°āsta<lb n="23" break="no"/>mane</lem>
+        <note>Hultzsch emends to <foreign>°āstamayane</foreign>, but since <foreign>astamana</foreign> is a known alternative form, I prefer not to do so.</note>
+      </app>
+      <app loc="24">
+        <lem>°mārttaṇḍa<surplus>la</surplus>-</lem>
+        <note>I agree with the previous editors that <foreign>la</foreign> is superfluous. Hultzsch observes that it may have been added by the scribe under the influence of the common word <foreign>maṇḍala</foreign>, which is possible. The name <foreign>ākhaṇḍala</foreign>, used in some cognate inscriptions, also springs to mind.</note>
+      </app>
+      <app loc="27">
+        <lem source="bib:Butterworth+VenugopaulChetty1905_01">kālālaya-</lem>
+        <rdg source="bib:Hultzsch1907-1908_07">kālālaya<supplied reason="omitted">ṁ</supplied></rdg>
+      </app>
+      <app loc="28">
+        <lem>saṁgrāmak<choice><sic>āv</sic><corr>asy</corr></choice>ājñā</lem>
+        <note>The two previous editors agree on this emendation, though Hultzsch admits some doubt. I too can do nothing better than adopt it while noting my doubt. Sandhi fusion like this, though it does occur across caesurae, is not something I have ever seen happen across a pāda boundary. In the two alternatives that I can come up with, <foreign>saṁgrāmakā</foreign> is to be construed in apposition to <foreign>mahībhr̥to</foreign>, after which either A, a following <foreign>vā</foreign> is used in an initial, rather than enclitic, position to introduce the contrasting next sentence; or B, <foreign>v</foreign> is an epenthetic consonant (non-standard sandhi; perhaps in fact to be read as, or emended to, <foreign>m</foreign>).</note>
+      </app>
+      <app loc="28">
+        <lem>bh<choice><sic>r̥</sic><corr>ū</corr></choice></lem>
+        <note>Here I endorse the emendation of the two previous editors with more faith than above, but wonder if perhaps emendation is needed somewhere else and the construction was intended to involve <foreign>bhr̥n</foreign>.</note>
+      </app>
+      <app loc="29">
+        <lem source="bib:Hultzsch1907-1908_07">śiraso</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">śirasā</rdg>
+        <note>While <foreign>śirasā</foreign> would be better language here, the o (composed of two strokes attached at bottom left and top right) is clear in both published surrogates.</note>
+      </app>
+      <app loc="29">
+        <lem>nādagdh<unclear cert="low">v</unclear>ā</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">nāda<unclear cert="low">gdhv</unclear>ā</rdg>
+        <rdg source="bib:Hultzsch1907-1908_07">nādag<supplied reason="omitted">dh</supplied>vā</rdg>
+        <note>The clear subscript component of the problematic conjunct is more likely to be <foreign>dh</foreign> than <foreign>v</foreign>; a faint shadow below this may be an additional <foreign>v</foreign>, or <foreign>v</foreign> may have been omitted.</note>
+      </app>
+      <app loc="30">
+        <lem source="bib:Hultzsch1907-1908_07">-rāśir</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">-rā<choice><sic>ś</sic><corr>j</corr></choice>ir</rdg>
+        <note>The reading is clear and does not require emendation, yet the emendation proposed by BVC indeed fits the context of clouds better.</note>
+      </app>
+      <app loc="31">
+        <lem>janas<choice><sic>a</sic><corr>ā</corr></choice><unclear>ṁ</unclear> sasye</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">jana-sa<supplied reason="omitted">t</supplied>-sasye</rdg>
+        <rdg source="bib:Hultzsch1907-1908_07">jana<choice><sic>saṁ</sic><corr>tā</corr></choice>-sasye</rdg>
+        <note>BVC's edition in fact shows <q>जनसेससस्ये</q> (with the vowel marker positioned above the junction of the first and second स), but this impossible reading must be a typo; his actual reading <q>जनससस्ये</q> is indicated in a footnote to his translation. The <foreign>anusvāra</foreign> read by Hultzsch seems to be present in his estampage, but is not discernible in BVC's photo. I emend so in the least invasive way I deem possible, while admitting that the use of the Vedic noun <foreign>janas</foreign> is out of the ordinary, and that the composer may well have had something else in mind, with possibilities including either of the emendations proposed by the previous editors. See also the note to the translation.</note>
+      </app>
+      <app loc="32">
+        <lem source="bib:Hultzsch1907-1908_07">dvādaśāv<choice><sic>yā</sic><corr>a</corr></choice>t</lem>
+        <note>BVC do not emend the received reading and translate as expected in the context. As far as I can see, the received reading can only be construed as the precative <foreign>avyāt</foreign>, which is a plausible hyper-Sanskritism for the already bookish <foreign>āvat</foreign> to which Hultzsch, in my opinion correctly, emends.</note>
+      </app>
+      <app loc="33">
+        <lem source="bib:Hultzsch1907-1908_07">samabhavad</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">sam<choice><sic>āṁ</sic><corr>a</corr></choice>bhavad</rdg>
+        <note>BVG's pre-emendation reading is not confirmed either by their photo or by Hultzsch's estampage.</note>
+      </app>
+      <app loc="35">
+        <lem>girīndra-sān<choice><sic>u</sic><corr>ū</corr></choice>raskaḥ</lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01">girīndra-sān<choice><sic>u</sic><corr>v-aṁ</corr></choice>saḥ</rdg>
+        <rdg source="bib:Hultzsch1907-1908_07">gir<choice><sic>i</sic><corr>ī</corr></choice>ndra-sān<choice><sic>u</sic><corr>ū</corr></choice>raskaḥ</rdg>
+        <note>The <foreign>ī</foreign> is clear in both visual representations, so <foreign>i</foreign> may be a typo in Hultzsch's edition. I am not sure of BVG's reading, represented in their edition as <q>°सान्वंसः नु</q>, with a note attached to न्वंस saying, <q>नु in the original.</q> The following <foreign>ra</foreign> is very clear in their photo (as well as in Hultzsch's estampage), but may have been interpreted by BVG as an oversized <foreign>anusvāra</foreign>.</note>
+      </app>
+      <app loc="36">
+        <lem source="bib:Butterworth+VenugopaulChetty1905_01">vi<space type="binding-hole"/>līnāri-</lem>
+        <rdg source="bib:Hultzsch1907-1908_07">vil<choice><sic>i</sic><corr>ī</corr></choice>nāri-</rdg>
+      </app>
+      <app loc="37">
+        <lem>-kalpataru<supplied reason="omitted">r</supplied></lem>
+        <rdg source="bib:Butterworth+VenugopaulChetty1905_01 bib:Hultzsch1907-1908_07">-kalpatarur</rdg>
+      </app>
+      <app loc="37">
+        <lem source="bib:Butterworth+VenugopaulChetty1905_01">-dīnāndha-</lem>
+        <rdg source="bib:Hultzsch1907-1908_07">-d<choice><sic>i</sic><corr>ī</corr></choice>nāndha-</rdg>
+      </app>
+      <app loc="38">
+        <lem>-mahasā</lem>
+        <note>The characters <foreign>maha</foreign> are narrow and crowded, with <foreign>ha</foreign> distorted in shape. They are probably a correction engraved over a single original character.</note>
       </app>
       
       
@@ -282,15 +435,15 @@ eśānyāṁ2138 kalvakuri evvokaceni sīmaiva2139 sīmā[+||]
 
 
 <div type="commentary">
-<p></p>
+<p>The name Nodaṁba in stanza 3 must have a short <foreign>o</foreign> for the metre to be correct. The same stanza has two enjambements, including one from the first hemistich to the second. Verse 6, if correctly emended (see apparatus to line 28), has an early break (sandhi fusion) at the end of pāda c. The first quarter of verse 8 may be a ra-vipulā, but its preamble does not conform to a pattern permitted in this variation as far as I am aware. Stanza 12 is yet another instance of the "semi-āryāgīti" metre in which the first hemistich conforms to āryā, and the second to āryāgīti. Other instances I am aware of so far are stanza 1 of the <ref target="CalE45-Gundugolanu-Amma2.xml">Guṇḍugolanu grant of Amma II</ref> stanza 3 of the <ref target="CalE42-Kolavennu-Bhima2.xml">Kolaveṇṇu plates of Bhīma II</ref>.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>First edited from the original by V. Venugopaul Chetty  (<bibl rend="omitname"><ptr target="bib:Butterworth+VenugopaulChetty1905_01"/><citedRange unit="page">164-181</citedRange><citedRange unit="item">19</citedRange></bibl>), with photographs and translation. Re-edited from inked impressions by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1907-1908_07"/></bibl>), with an abridged translation and with estampages. The present edition by Dániel Balogh is based on a collation of the above editions and the visual material published with them.<note>Neither publication includes an image of the seal.</note></p>
+  <p>First edited from the original by Alan Butterworth and V. Venugopaul Chetty  (<bibl rend="omitname"><ptr target="bib:Butterworth+VenugopaulChetty1905_01"/><citedRange unit="page">164-181</citedRange><citedRange unit="item">19</citedRange></bibl>), with photographs and translation. Re-edited from inked impressions by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1907-1908_07"/></bibl>), with an abridged translation and with estampages. The present edition by Dániel Balogh is based on a collation of the above editions and the visual material published with them.<note>Neither publication includes an image of the seal.</note></p>
   <listBibl type="primary">
-    <bibl n="VVC"><ptr target="bib:Butterworth+VenugopaulChetty1905_01"/><citedRange unit="page">164-181</citedRange><citedRange unit="item">19</citedRange></bibl>
+    <bibl n="BVC"><ptr target="bib:Butterworth+VenugopaulChetty1905_01"/><citedRange unit="page">164-181</citedRange><citedRange unit="item">19</citedRange></bibl>
     <bibl n="EH"><ptr target="bib:Hultzsch1907-1908_07"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
