@@ -5,7 +5,7 @@
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title>Pedda-Gāḻiḍipaṟṟu grant of Amma II</title>
+        <title>Pedda-Gāḻidipaṟṟu grant of Amma II</title>
         <!--ALT TITLE: Masulipatam Plates of Amma II -->
         <respStmt>
           <resp>EpiDoc Encoding</resp>
@@ -51,7 +51,7 @@
             <handDesc>
               <p>Halantas. T is written with ta and a virāma according to KRR, while a special sign is used for N (l9, l15, l17).</p>
               <p>Original punctuation marks. Single punctuation marks are straight verticals with a serif on top; I assume the case is the same in the plates for which no facsimiles are available. <!--@@@CHECK CONVERT / TO MARKUP--></p>
-              <p>Other palaeographic observations. Anusvāra 
+              <p>Other palaeographic observations. Anusvāra is normally to the right of the character to which it belongs, but in the Telugu boundary descriptions it seems to be on top of the next character (however, none of these are clear). ḍ and d are often indistinguishable; in the Telugu words I blindly follow RKK's choice between these two, except for the name of the granted village where I disagree with them (see the apparatus to lines 56 and 61).
               <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
           <summary><p><p/></summary>
@@ -247,45 +247,66 @@ n="51" break="no"/><seg met="--"><gap reason="illegible" quantity="2" unit="char
 <l n="a"><unclear>jai</unclear>nā<unclear>cā</unclear>rry<unclear>o yadī</unclear>y<unclear>o</unclear> gurur a<unclear>khi</unclear><lb 
 n="52" break="no"/><unclear>la</unclear>-guṇaś candrasenākhya-śi<choice><sic>ś</sic><corr>ṣ</corr></choice>yo<choice><orig>/ś</orig><reg>ś/</reg></choice></l>
 <l n="b">śāstra-jñ<orig><unclear>o</unclear>r</orig> nnāthasen<orig>o<unclear>r</unclear></orig> <unclear>mmu</unclear>ni-nuta-jayaseno muni<unclear>r</unclear> dd<unclear>ī</unclear>kṣitātmā/</l>
-<l n="c">siddhānta-jñaḥ kalā-jñaḥ para-samaya-paṭu<unclear>ḥ</unclear> <add place="below" rend="mark">sa</add>n-nutokr̥ṣṭa-vr̥tta<choice><orig>/s</orig><reg>s/</reg></choice></l>
+<l n="c">si<lb 
+n="53" break="no"/>ddhānta-jñaḥ kalā-jñaḥ para-samaya-paṭu<unclear>ḥ</unclear> <add place="below" rend="mark">sa</add>n-nutokr̥ṣṭa-vr̥tta<choice><orig>/s</orig><reg>s/</reg></choice></l>
 <l n="d">sat-pātraḥ śravakāṇāṁ kṣapaṇaka-su<unclear>ja</unclear><lb 
-n="53" break="no"/>na-kṣullak<unclear>ā</unclear><orig>rjy</orig>ārjjakānāM/</l>
+n="54" break="no"/>na-kṣullak<unclear>ā</unclear><orig>rjy</orig>ārjjakānāM/</l>
 </lg>
-<p>@@@
-tasmai tābhyāṁ rājabhīma-naravāhanābhyāṁ2276 vijayāṭikāyāṁ
+<p>tasmai tābhyāṁ rāja<unclear>bh</unclear>īma-naravāha<choice><sic>ṇ</sic><corr>n</corr></choice>ābhyāṁ vijayavā<unclear>ṭ</unclear>ikāyāṁ <pb 
 
-Face IVb.
-jina-bhavana-yugan nirmmitam etad dharmmārttham asmābhis sarvva-kara-parihāraṁ deva-bhogīkr̥tya peḍḍ̣agāḻiḍipaṟṟu-nāma grāmo dattaḥ[+//]
-asyāvadhayaḥ[+//]
-pūrvvataḥ maṇḍayuri-polagarusuna yisu kaṭṭala-ceruvuna naḍimi dūba[+//]
-āgneyataḥ ālapaṟtiyuṁ jūṁṭūriyuṁ muyyalkuṭṭu[na*] būruvu paḍuva[+//]
-dakṣiṇataḥ cūṁṭūri prāntapaṟtiyuttaraṁbuna kuṇḍiviḍḍi-guṇṭha[+//]
-nairr̥tyataḥ cuṁṭūriyamma-poṭyavva-guḍi[+//]
-[paścimataḥ*] reṭipaḍumaṭidari[+//]
-vāyavyataḥ valiveri-polagarusuna gārala-guṇṭha[+//]
-uttarataḥ tapparāla pa[ḍu*]va[+//]
-īśānataḥ koḍagāḻiḍipaṟtiyuṁ [valiveriyuṁ mu*]yyalkuṭṭuna naḍupani-guṇṭha[+//]
-tasya [sthe*]yād alaṁdhyaṁ suciram2277 urutaraṁ [śāsa*]naṁ rājakoktaṁ sat-kīrtter2278 vveṁgī2279-pasya prakaṭa-guṇa-nidhir ammarājasya pūjyam[+/]
-tatredaṁ śā[sa*]naṁ [pālita*]-jina-nigaṁ śaurrya-bhītānyanātha-
-vrāto[ccair*] mmauli-māla-maṇika-makarikā2280-mallikollāsitāṁghre[+//] (17)
+n="4v"/><lb 
+n="55"/><unclear>ji</unclear>na-bhavana-yugan ni<unclear>r</unclear>mmitam<supplied reason="subaudible">.</supplied> etad-dharmmārttham asmābhis sarvva-kara-parihāraṁ devabhogī<lb 
+n="56" break="no"/>-kr̥tya pedda-gāḻidipaṟṟu nāma grāmo dattaḥ<supplied reason="subaudible">.</supplied></p>
+<p>Asyāvadhayaḥ/ pūrvvataḥ <foreign xml:lang="tel">maṇḍayū<lb 
+n="57"/>ri-polagarusuna yisu pakaṭṭala-ceṟuvuna naḍimi dūba</foreign><supplied reason="subaudible">.</supplied> <unclear>Ā</unclear>gneyataḥ <foreign xml:lang="tel">Ālapaṟ<unclear cert="low">t</unclear>iyuṁ jūṁṭūri<lb 
+n="58" break="no"></lb><unclear>yuṁ</unclear> muyyalku<space type="binding-hole"/>ṭṭu<unclear>na</unclear> būruvu paḍuva</foreign>/ dakṣiṇataḥ <foreign xml:lang="tel">cūṁṭūri-prānta-<unclear>pa</unclear>ṟti-yuttaraṁbuna kuṇḍi<lb 
+n="59" break="no"/>viḍḍi-guṇṭha</foreign>/ nairr̥<space type="binding-hole"/>tyataḥ <foreign xml:lang="tel"><unclear>c</unclear>ū<unclear>ṁ</unclear>ṭūriyamma-poṭyavva-guḍi</foreign>/ paś<unclear>c</unclear>i<unclear>mataḥ</unclear> <foreign xml:lang="tel">reṭipaḍumaṭidari</foreign>/ vā<lb 
+n="60" break="no"/>yavyataḥ <foreign xml:lang="tel">vali<space type="binding-hole"/>veri-pola<unclear>garu</unclear>suna gārala-guṇṭha</foreign>/ Uttarataḥ <foreign xml:lang="tel">t<unclear>e</unclear>pparāla paḍuva</foreign>/ Ī<lb 
+n="61" break="no"/>śānataḥ <foreign xml:lang="tel">koḍa-gāḻidipaṟtiyu<unclear>ṁ</unclear> <unclear cert="low">va</unclear><unclear>l</unclear>i<choice><unclear>v</unclear><unclear>c</unclear></choice>eriyu<unclear>ṁ</unclear> muyyalkuṭṭuna naḍupani-guṇṭha</foreign>//</p>
+<lg n="18" met="sragdharā">
+<l n="a">tasya s<unclear>th</unclear>eyād ala<lb 
+n="62" break="no"/>ṁghyaṁ <choice><sic>ś</sic><corr>s</corr></choice>uciram uruta<unclear>raṁ śāsa</unclear>naṁ rājakoktaṁ/</l>
+<l n="b">sa<choice><sic>kt</sic><corr>t-k</corr></choice>ī<unclear>r</unclear>tt<unclear>e</unclear>r vveṁgi-pasya prakaṭa-guṇa-nidher ammarā<unclear>jasya pūjyaṁ/</unclear></l>
+<l n="c" enjamb="yes"><lb 
+n="63"/>tatredaṁ śā<unclear>sa</unclear>naṁ <unclear cert="low">var</unclear><choice><sic><unclear cert="low">dh</unclear></sic><corr>d</corr></choice><unclear cert="low">dhita</unclear>-<unclear>ji</unclear>na-nigamaṁ śaurrya-bhītānyanātha</l>
+<l n="d">-vrātocc<unclear>ai</unclear>r-mmauli-mālā-maṇi<choice><sic>v</sic><corr>k</corr></choice>a-makarik<choice><sic>o</sic><corr>ā</corr></choice>-malli<pb 
 
-Face Va.
-asyoparī na kenacid bādhā karttavyā yaḥ karoti sa paṁca-mahāpātaka-saṁyukto bhavati[+/]
-tathā coktaṁ vyāsena[+//]
-bahubhir vvasudhā dattā bahubhiś cānupālitā[+/]
-yasya yasya yadā bhūmis tasya tasya tadā phalam[+//] (18)
-sva-dattāṁ para-dattāṁ vā yo hareta vasundharām[+/]
-ṣaṣṭi-varṣa-sahasrāṇi viṣṭāyāṁ jāyate kr̥miḥ[+//] (19)
-sarvvān etān bhāvinaḥ pārtthiv2281endrān bhūyo bhūyo yācate rāmabhadraḥ[+/]
-sāmānyo yaṁ dharmma-setur nr̥pāṇāṁ kale kale pālanīyo2282 bhavadbhiḥ[+//] (20)
-mad-vaṁśa-jāḥ para-mahī-pati-vaṁśa-jā vā[+/]
-pāpādapeta-manaso bhuvi bhāvibhūpāḥ[+/]
-yo pālayanti mama dharmma[m im*]aṁ samastam2283[+/]
-teṣāṁ mayāṁ viracito [+’]ṁjalir eṣa mūrdhni[+//] (17)
-ājñapti[ḥ*] kaṭakarājaḥ[+//]
-jayantācāryyeṇa likhitam[+//]
-
-</p>
+n="5r" break="no"/><lb 
+n="64" break="no"/>kollāsitāṁghr<choice><sic>i</sic><corr>e</corr></choice>ḥ//</l>
+</lg>
+<p>Asyopari na kenacid bādhā karttavyā<supplied reason="subaudible">.</supplied> yaḥ karoti sa paṁca-mahāpātaka-saṁ<lb 
+n="65" break="no"/>yukto bhavati// tathā coktaṁ vyāsena//</p>
+<lg n="19" met="anuṣṭubh">
+<l n="a">bahubhir vvasudhā dattā</l>
+<l n="b">bahubhiś cānupālitā/</l>
+<l n="c">yasya ya<lb 
+n="66" break="no"/>sya yadā bhūmis</l>
+<l n="d">tasya tasya tadā phalaṁ//</l>
+</lg>
+<lg n="20" met="anuṣṭubh">
+<l n="a">sva-dattāṁ para-dattāṁ vā</l>
+<l n="b">yo hareta vasundharāṁ</l>
+<l n="c">ṣaṣṭi-va<lb 
+n="67" break="no"/>rṣa-sahasrāṇi</l>
+<l n="d">viṣṭhāyāṁ jāyate kr̥miḥ//</l>
+</lg>
+<lg n="21" met="śālinī">
+<l n="a">sarvvān etān bhāvinaḥ p<surplus>r</surplus>ārtthivendrān</l>
+<l n="b">bhūyo <lb 
+n="68"/>bhūyo yācate rāmabhadraḥ/</l>
+<l n="c">sāmānyo <supplied reason="subaudible">’</supplied>yaṁ dharmma-setur nr̥pāṇāṁ</l>
+<l n="d">kāle kāle pālanīy<surplus>y</surplus>o bhavadbhiḥ//</l>
+</lg>
+<lg n="22" met="vasantatilakā">
+<l n="a"><lb 
+n="69"/>mad-vaṁśa-jāḥ para-mahīpati-vaṁśa-jā vā</l>
+<l n="b">pāpād apeta-manaso bhuvi bhāvi-bhūpāḥ/</l>
+<l n="c">ye pālaya<lb 
+n="70" break="no"/>nti mama dharmma<unclear>m i</unclear>maṁ samastaṁ</l>
+<l n="d">teṣāṁ mayā viracito <supplied reason="subaudible">’</supplied>ṁjalir eṣa mūrdhni//</l>
+</lg>
+<p>Ājñapti<supplied reason="omitted">ḥ</supplied> kaṭakarājaḥ/ jayantācā<lb 
+n="71" break="no"/>ryyeṇa likhitaM// <g type="unknown"/></p>
 
 <pb n="5v"/>
 
@@ -479,6 +500,38 @@ jayantācāryyeṇa likhitam[+//]
       <app loc="53">
         <lem>°<unclear>ā</unclear><orig>rjy</orig>ārjjakānāM</lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">°<unclear>ā</unclear>r<choice><sic>j</sic><corr>y</corr></choice>yājjakānāM</rdg>
+      </app>
+      <app loc="55">
+        <lem>ni<unclear>r</unclear>mmitam etad</lem>
+        <note>The character <foreign>me</foreign> has a superfluous vertical stroke down from the elbow of the right arm. The scribe probably began to write <foreign>mm</foreign> then aborted the subscript part.</note>
+      </app>
+      <app loc="56">
+        <lem>-gāḻidipaṟṟu</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">-gāḻiḍipaṟṟu</rdg>
+        <note>As KRR note, they read <foreign>ḍi</foreign> by a somewhat arbitrary "inclination". Indeed, <foreign>d</foreign> and <foreign>ḍ</foreign> are often indistinguishable in this script. However, the same word in line 61 appears with the prefix <foreign>koḍa</foreign>, where <foreign>ḍ</foreign> is written with a distinct upward curl at the end, whereas the similar character in the name <foreign>gāḻidipaṟṟu</foreign> ends on a downward bend.</note>
+      </app>
+      <app loc="57">
+        <lem>yisu pakaṭṭala-</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">yisu kaṭṭala-</rdg>
+        <note>A character is missing from KRR's edition. I follow their segmentation into words blindly.</note>
+      </app>
+      <app loc="57">
+        <lem>Ālapaṟ<unclear cert="low">t</unclear>iyuṁ</lem>
+        <note>RKK print <foreign>ṟti</foreign> as clear, but the subscript component is indistinguishable in the photo; could it not be rather <foreign>ṟṟi</foreign>? However, <foreign>ṟti</foreign> is clear in what appears to be the same word in line 58 (where, conversely, RKK print that character as unclear) and line 61.</note>
+      </app>
+      <app loc="60">
+        <lem>t<unclear>e</unclear>pparāla</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">tapparāla</rdg>
+      </app>
+      <app loc="61">
+        <lem>-gāḻidipaṟtiyuṁ</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">-gāḻiḍipaṟtiyuṁ</rdg>
+        <note>See the note on line 56 above.</note>
+      </app>
+      <app loc="61">
+        <lem><unclear cert="low">var</unclear><choice><sic><unclear cert="low">dh</unclear></sic><corr>d</corr></choice><unclear cert="low">dhita</unclear>-</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01"><unclear>pālita</unclear>-</rdg>
+        <note>KRR's reading is clearly incorrect. In a footnote, N. L. R. says (with full confidence) that the reading is <foreign>ca sthita</foreign>. This is quite plausible on the basis of the photo, but does not seem very good in the context. My own reading is, nonetheless, tentative. The first character looks most like <foreign>bha</foreign>, while the second is a conjunct with a clear <foreign>i</foreign>, whose consonant components are open to many interpretations.</note>
       </app>
       
       
