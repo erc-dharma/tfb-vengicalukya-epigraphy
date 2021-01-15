@@ -51,7 +51,7 @@
             <handDesc>
               <p>Halantas. T is written with ta and a virāma according to KRR, while a special sign is used for N (l9, l15, l17).</p>
               <p>Original punctuation marks. Single punctuation marks are straight verticals with a serif on top; I assume the case is the same in the plates for which no facsimiles are available.</p>
-              <p>Other palaeographic observations. Anusvāra is normally to the right of the character to which it belongs, but in the Telugu boundary descriptions it seems to be on top of the next character (however, none of these are clear). ḍ and d are often indistinguishable; in the Telugu words I blindly follow RKK's choice between these two, except for the name of the granted village where I disagree with them (see the apparatus to lines 56 and 61).
+              <p>Other palaeographic observations. Anusvāra is normally to the right of the character to which it belongs, but in the Telugu boundary descriptions it seems to be on top of the next character (however, none of these are clear). ḍ and d are often indistinguishable; in the Telugu words I blindly follow KRR's choice between these two, except for the name of the granted village where I disagree with them (see the apparatus to lines 56 and 61).
               <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
               <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
           <summary><p><p/></summary>
@@ -239,11 +239,11 @@ n="48" break="no"/><unclear>kula</unclear>-saha<unclear>d</unclear>e<unclear>va<
 <lg n="16" met="sragdharā">
 <l n="a">śrīma<choice><orig>t</orig><reg>c</reg></choice>-cālukya-bhī<unclear>ma-kṣiti-pa</unclear><unclear cert="low">ti-kr̥pa</unclear><lb 
 n="49" break="no"/><unclear cert="low">yā la</unclear>bdha-sā<space type="binding-hole"/>ma<unclear>n</unclear>ta-cih<unclear>nau</unclear></l>
-<l n="b">śrīdvār<sic><unclear>o</unclear><unclear cert="low">r</unclear><unclear>vv</unclear><unclear cert="low">ī-ba</unclear><unclear>riṣṭh</unclear><unclear cert="low">īva</unclear>n<unclear>a</unclear></sic>-pa<unclear>ḍa</unclear>-vilasa<unclear>c-c</unclear>āmara-<unclear>c</unclear>chatra-l<unclear cert="low">ī</unclear><unclear>l</unclear><unclear cert="low">au<g type="dandaSerif">.</g></unclear></l>
+<l n="b">śrīdvār<choice><unclear>o</unclear><unclear>au</unclear></choice><unclear cert="low">r</unclear><unclear>vv-ab</unclear><unclear cert="low">j</unclear><unclear>a</unclear><unclear cert="low">riṣṭhī</unclear><unclear>v</unclear><unclear cert="low">a</unclear><unclear>n</unclear><unclear cert="low">a</unclear>-pa<choice><unclear>ḍa</unclear><unclear>da</unclear></choice>-vilasa<unclear>c-c</unclear>āmara-<unclear>c</unclear>chatra-l<unclear cert="low">ī</unclear><unclear>l</unclear><unclear cert="low">au<g type="dandaSerif">.</g></unclear></l>
 <l n="c"><unclear cert="low">va</unclear><lb 
-n="50" break="no"/><seg met="+"><gap reason="illegible" quantity="1" unit="character"/><!--READ ndyau?--></seg> <unclear cert="low">ści</unclear> <seg met="+"><gap reason="illegible" quantity="1" unit="character"/><!--READ stā?--></seg>rik<unclear>a</unclear><space type="binding-hole"/>-sthau śikhi-r<unclear>u</unclear>ha-<unclear>pa</unclear>ṭa<unclear>la</unclear>-cchādya-sat-ka<unclear>rkka</unclear>rī<unclear>kau</unclear><g type="dandaSerif">.</g></l>
-<l n="d"><unclear>jātau cālu</unclear><unclear cert="low">kya-pā</unclear>lau <choice><unclear cert="low">ba</unclear><unclear cert="low">sa</unclear></choice><lb 
-n="51" break="no"/><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg>-<unclear cert="low">ka</unclear>ri<space type="binding-hole"/>-<unclear>ha</unclear>y<unclear>au</unclear> kāhalādy-abhyupetau<g type="dandaSerif">.</g></l>
+n="50" break="no"/><seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg> <unclear cert="low">ścistā</unclear>r<unclear cert="low">i</unclear>k<unclear>ā</unclear><space type="binding-hole"/>sthau śikhi-r<unclear>u</unclear>ha-<unclear>pa</unclear>ṭa<unclear>la</unclear>-cchādya-sat-ka<unclear>rkka</unclear>rī<unclear>kau</unclear><g type="dandaSerif">.</g></l>
+<l n="d"><unclear>jātau cālu</unclear><unclear cert="low">kya-pā</unclear>lau <unclear cert="low">ba</unclear><lb 
+n="51" break="no"/><unclear cert="low">sa</unclear><seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>-<unclear cert="low">ka</unclear>ri<space type="binding-hole"/>-<unclear>ha</unclear>y<unclear>au</unclear> kāhalādy-abhyupetau<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="17" met="sragdharā">
 <l n="a"><unclear>jai</unclear>nā<unclear>cā</unclear>rry<unclear>o yadī</unclear>y<unclear>o</unclear> gurur a<unclear>khi</unclear><lb 
@@ -260,7 +260,7 @@ n="4v"/><lb
 n="55"/><unclear>ji</unclear>na-bhavana-yugan ni<unclear>r</unclear>mmitam<supplied reason="subaudible">.</supplied> etad-dharmmārttham asmābhis sarvva-kara-parihāraṁ devabhogī<lb 
 n="56" break="no"/>-kr̥tya pedda-gāḻidipaṟṟu nāma grāmo dattaḥ<supplied reason="subaudible">.</supplied></p>
 <p>Asyāvadhayaḥ<g type="dandaSerif">.</g> pūrvvataḥ <foreign xml:lang="tel">maṇḍayū<lb 
-n="57"/>ri-polagarusuna yisu pakaṭṭala-ceṟuvuna naḍimi dūba</foreign><supplied reason="subaudible">.</supplied> <unclear>Ā</unclear>gneyataḥ <foreign xml:lang="tel">Ālapaṟ<unclear cert="low">t</unclear>iyuṁ jūṁṭūri<lb 
+n="57"/>ri-polagarusuna yisupakaṭṭala-ceṟuvuna naḍimi dūba</foreign><supplied reason="subaudible">.</supplied> <unclear>Ā</unclear>gneyataḥ <foreign xml:lang="tel">Ālapaṟ<unclear cert="low">t</unclear>iyuṁ jūṁṭūri<lb 
 n="58" break="no"></lb><unclear>yuṁ</unclear> muyyalku<space type="binding-hole"/>ṭṭu<unclear>na</unclear> būruvu paḍuva</foreign><g type="dandaSerif">.</g> dakṣiṇataḥ <foreign xml:lang="tel">cūṁṭūri-prānta-<unclear>pa</unclear>ṟti-yuttaraṁbuna kuṇḍi<lb 
 n="59" break="no"/>viḍḍi-guṇṭha</foreign><g type="dandaSerif">.</g> nairr̥<space type="binding-hole"/>tyataḥ <foreign xml:lang="tel"><unclear>c</unclear>ū<unclear>ṁ</unclear>ṭūriyamma-poṭyavva-guḍi</foreign><g type="dandaSerif">.</g> paś<unclear>c</unclear>i<unclear>mataḥ</unclear> <foreign xml:lang="tel">reṭipaḍumaṭidari</foreign><g type="dandaSerif">.</g> vā<lb 
 n="60" break="no"/>yavyataḥ <foreign xml:lang="tel">vali<space type="binding-hole"/>veri-pola<unclear>garu</unclear>suna gārala-guṇṭha</foreign><g type="dandaSerif">.</g> Uttarataḥ <foreign xml:lang="tel">t<unclear>e</unclear>pparāla paḍuva</foreign><g type="dandaSerif">.</g> Ī<lb 
@@ -409,7 +409,7 @@ n="71" break="no"/>ryyeṇa likhitaM<g type="ddandaSerif">..</g> <g type="unknow
       <app loc="39">
         <lem>et<unclear reason="eccentric_ductus">th</unclear>am</lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">et<choice><sic>t</sic><corr>th</corr></choice>am</rdg>
-        <note>The subscript <foreign>th</foreign> resembles <foreign>t</foreign> with the tail extended into a nearly full circle. It is not the regular shape of <foreign>th</foreign>, but clearly distinct from <foreign>t</foreign> and identical to the one (read as <foreign>th</foreign> by RKK) in <foreign>sthāna</foreign> earlier in this line.</note>
+        <note>The subscript <foreign>th</foreign> resembles <foreign>t</foreign> with the tail extended into a nearly full circle. It is not the regular shape of <foreign>th</foreign>, but clearly distinct from <foreign>t</foreign> and identical to the one (read as <foreign>th</foreign> by KRR) in <foreign>sthāna</foreign> earlier in this line.</note>
       </app>
       <app loc="40">
         <lem>siṁhāsanato<unclear><g type="dandaSerif">.</g></unclear></lem>
@@ -469,44 +469,44 @@ n="71" break="no"/>ryyeṇa likhitaM<g type="ddandaSerif">..</g> <g type="unknow
         <note>KRR prints both punctuation marks as clear. I do not see the first one (which would be placed correctly at the caesura). The second, which is clear in the facsimile, is indeed superfluous. I suspect that the first one is in fact missing and was engraved at the wrong place.</note>
       </app>
       <app loc="49">
-        <lem>śrīdvār<sic><unclear>o</unclear><unclear cert="low">r</unclear><unclear>vv</unclear><unclear cert="low">ī-ba</unclear><unclear>riṣṭh</unclear><unclear cert="low">īva</unclear>n<unclear>a</unclear></sic>-</lem>
-        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">śrī-dvārau <unclear cert="low">rvvabaraṣṭhīvana</unclear>-</rdg>
-        <note>I cannot interpret this stretch of text any more than KRR could. My reading of <foreign>śrīdvārorvvī</foreign> may be an improvement, but is far from certain. The next character looks like <foreign>ba</foreign> but be something else such as <foreign>va</foreign> or <foreign>ma</foreign> and may have a short vowel attached to it. Next, I am quite confident in reading <foreign>ri</foreign> rather than <foreign>ra</foreign>. The following character looks most like <foreign>ṣṭhī</foreign>, but the vowel may be <foreign>o</foreign> or <foreign>e</foreign> distorted because of the descender of <foreign>tro</foreign> above, and the consonants may also be different (<foreign>ṣv</foreign>? <foreign>sv</foreign>? <foreign>sth</foreign>?). The next character looks like <foreign>va</foreign> but may perhaps be a damaged <foreign>da</foreign>, and it is not impossible that it has an <foreign>i</foreign> attached. After this, <foreign>na</foreign> is quite clear, though a short vowel could be attached to it.</note>
-      </app>
-      <app loc="49">
-        <lem>-pa<unclear>ḍa</unclear>-</lem>
-        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">-pada-</rdg>
+        <lem>śrīdvār<choice><unclear>o</unclear><unclear>au</unclear></choice><unclear cert="low">r</unclear><unclear>vv-ab</unclear><unclear cert="low">j</unclear><unclear>a</unclear><unclear cert="low">riṣṭhī</unclear><unclear>v</unclear><unclear cert="low">a</unclear><unclear>n</unclear><unclear cert="low">a</unclear>-pa<choice><unclear>ḍa</unclear><unclear>da</unclear></choice>-</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">śrī-dvārau <unclear cert="low">rvvabaraṣṭhīvana</unclear>-pada-</rdg>
+        <note>This piece of text resists all my attempts to read a fully intelligible sequence into it. The vestiges permit several readings for many components, but nothing that makes consistent sense. I believe I have improved the beginning and end of this string, but I am far from confident about those, and remain at a loss about the middle. See the commentary for further details.</note>
       </app>
       <app loc="49">
         <lem>-vilasa<unclear>c</unclear>-</lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">-vilasa<choice><orig><unclear>t</unclear></orig><reg>c</reg></choice>-</rdg>
+        <note>KRR may be correct (compare <foreign>śrīma<choice><orig>t</orig><reg>c</reg></choice>-</foreign> in the previous line), but what I can make out in the estampage permits reading a <foreign>c</foreign> here.</note>
       </app>
       <app loc="49">
-        <lem><choice><unclear cert="low">ma</unclear><unclear cert="low">va</unclear><unclear cert="low">na</unclear></choice><lb n="50" break="no"/><seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg> <unclear cert="low">ści</unclear> <seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg>rik<unclear>a</unclear>-</lem>
-        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01"><gap reason="illegible" quantity="1" unit="character"/><lb n="50" break="no"/><seg met="+++"><gap reason="illegible" quantity="3" unit="character"/></seg> rika-</rdg>
+        <lem><unclear cert="low">va</unclear><lb 
+n="50" break="no"/><seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg> <unclear cert="low">ścistā</unclear>r<unclear cert="low">i</unclear>k<unclear>ā</unclear><space type="binding-hole"/>sthau</lem>
+        <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01"><seg met="+"><gap reason="illegible" quantity="1" unit="character"/></seg><lb n="50" break="no"/><seg met="+++"><gap reason="illegible" quantity="3" unit="character"/></seg> rika-sthau</rdg>
+        <note>I cannot interpret the readings tentatively proposed here, but prefer to indicate the most likely characters implied by the vestiges.</note>
       </app>
       <app loc="50">
         <lem><unclear cert="low">pā</unclear>lau</lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01"><unclear>cūlau</unclear></rdg>
       </app>
       <app loc="50">
-        <lem><choice><unclear cert="low">ba</unclear><unclear cert="low">sa</unclear></choice><lb n="51" break="no"/><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg>-</lem>
+        <lem><unclear cert="low">ba</unclear><lb 
+n="51" break="no"/><unclear cert="low">sa</unclear><seg met="-"><gap reason="illegible" quantity="1" unit="character"/></seg>-</lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01"><lb n="51"/><seg met="---"><gap reason="illegible" quantity="3" unit="character"/></seg>-</rdg>
-        <note>My reading is not an improvement on RKK, but it seems to me that there must have been a character at the end of line 50. There do, however, seem to be three illegible characters at the beginning of line 51 too. The last of these is faint and may have been deleted; this is not shown explicitly in my edition. I am tempted to restore <foreign>bahula</foreign> here, but the vestiges are not conducive to this.</note>
+        <note>Again, I cannot interpret the readings I tentatively propose. I agree with KRR that there seem to be three illegible characters at the beginning of line 51, but I am also certain there is one, resembling <foreign>ba</foreign>, at the end of line 50. The last of the three in line 51 is faint and may have been deleted; otherwise, the text may be hypermetrical.</note>
       </app>
       <app loc="52">
         <lem>śi<choice><sic>ś</sic><corr>ṣ</corr></choice>yo<choice><orig><g type="dandaSerif">.</g>ś</orig><reg>ś<g type="dandaSerif">.</g></reg></choice></lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">śi<choice><sic>ś</sic><corr>ṣ</corr></choice>y<sic>o<g type="dandaSerif">.</g>ś</sic><reg>aś</reg></rdg>
-        <note>It seems that RKK are correct in reading an <foreign>o</foreign> here. I normalise only the placement of the punctuation mark (which, as elsewhere, must have been placed so as to interrupt a word in preference to interrupting an <foreign>akṣara</foreign>). I prefer not to emend the case endings, since I am not convinced that RKK's emendation corresponds to the intent of the composer. See also the next entry and the note to the translation.</note>
+        <note>It seems that KRR are correct in reading an <foreign>o</foreign> here. I normalise only the placement of the punctuation mark (which, as elsewhere, must have been placed so as to interrupt a word in preference to interrupting an <foreign>akṣara</foreign>). I prefer not to emend the case endings, since I am not convinced that KRR's emendation corresponds to the intent of the composer. See also the next entry and the note to the translation.</note>
       </app>
       <app loc="52">
         <lem>śāstra-jñ<orig><unclear>o</unclear>r</orig> nnāthasen<orig>o<unclear>r</unclear></orig> <unclear>mmu</unclear>ni-</lem>
         <rdg source="bib:KrishnaRao+Rajahmundry1937-1938_01">śāstra-jño<surplus>r</surplus> n<surplus>n</surplus>āthaseno m<surplus>m</surplus>uni-</rdg>
-        <note>I am not convinced that RKK's emendation corresponds to the composer's intent, though I am uncertain about the interpretation of this passage. See also the previous entry and the note to the translation.</note>
+        <note>I am not convinced that KRR's emendation corresponds to the composer's intent, though I am uncertain about the interpretation of this passage. See also the previous entry and the note to the translation.</note>
       </app>
       <app loc="52">
         <lem>-paṭu<unclear>ḥ</unclear> <add place="below" rend="mark">sa</add>n-nuto°</lem>
-        <note>It seems to me that immediately to the right of the <foreign>visarga</foreign> (which is not really recognisable as such, but which I accept on RKK's authority) there is a mark shaped like a cross or dagger, almost the height of a character body. I take this to be an editorial mark for insertion. The added character is immediately below this point.</note>
+        <note>It seems to me that immediately to the right of the <foreign>visarga</foreign> (which is not really recognisable as such, but which I accept on KRR's authority) there is a mark shaped like a cross or dagger, almost the height of a character body. I take this to be an editorial mark for insertion. The added character is immediately below this point.</note>
       </app>
       <app loc="53">
         <lem>°<unclear>ā</unclear><orig>rjy</orig>ārjjakānāM</lem>
@@ -528,7 +528,7 @@ n="71" break="no"/>ryyeṇa likhitaM<g type="ddandaSerif">..</g> <g type="unknow
       </app>
       <app loc="57">
         <lem>Ālapaṟ<unclear cert="low">t</unclear>iyuṁ</lem>
-        <note>RKK print <foreign>ṟti</foreign> as clear, but the subscript component is indistinguishable in the photo; could it not be rather <foreign>ṟṟi</foreign>? However, <foreign>ṟti</foreign> is clear in what appears to be the same word in line 58 (where, conversely, RKK print that character as unclear) and line 61.</note>
+        <note>KRR print <foreign>ṟti</foreign> as clear, but the subscript component is indistinguishable in the photo; could it not be rather <foreign>ṟṟi</foreign>? However, <foreign>ṟti</foreign> is clear in what appears to be the same word in line 58 (where, conversely, KRR print that character as unclear) and line 61.</note>
       </app>
       <app loc="60">
         <lem>t<unclear>e</unclear>pparāla</lem>
