@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Pāṁbaṟṟu grant of Amma II</title>
+        <!--ALT TITLE: -->
+        <respStmt>
+          <resp>EpiDoc Encoding</resp>
+          <persName ref="part:daba">
+              <forename>Dániel</forename>
+              <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+              <forename>Dániel</forename>
+              <surname>Balogh</surname>
+         </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA</authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE53-Pambarru-Amma2</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+         </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>No information is available about details such as the appearance of halanta characters and original punctuation marks.</p>
+              <p>Other palaeographic observations. Dependent vowels read as o and emended to au by Sewell may be specimens of cursive o. 
+              <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+          <summary><p><p/></summary>
+          <handNote xml:id="Pallava00001_hand1"></handNote>
+          <handNote xml:id="Pallava00001_hand2"></handNote>
+        -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+      </projectDesc>
+      <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+      <listPrefixDef>
+        <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+          <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+        </prefixDef>
+        <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+          <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2021-01-28" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+      <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrā<lb 
+n="2" break="no"/>ṇāṁ k<choice><sic>o</sic><corr>au</corr></choice>śikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pā<lb 
+n="3" break="no"/>dānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñchanekṣa<supplied reason="lost">ṇa-kṣa</supplied><lb 
+n="4" break="no"/>ṇa-vaśīkr̥tārāti-maṇḍalānām aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ <unclear>calu</unclear>kyā<lb 
+n="5" break="no"/>nāṁ kulam alaṁkariṣṇoḥ satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣtādaśa <unclear>varṣāṇi</unclear> <lb 
+n="6"/>@@@veṁgī-deśam apālayat..
+tad-ātmajo jayasiṁhas trayas-trimśatam.
+tad-anujendrarāja-nandano viṣṇuvarddhano nava.
+tat-sūnur mmaṁgi-yuvarājaḥ paṁca-viṁśatim.
+tat-putro jayasiṁhas trayodaśa.
+tad-avarājaḥ kokkiliḥ ṣaṇ māsān.
+tasya jyeṣṭho bhrātā viṣṇuvardhanas tam uccāṭya sapta-triṁ[śatam*].
+
+Face IIa.
+tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa.
+tat-suto viṣṇuvarddhanaḥ ṣat-triṁśatam.
+tat-suto vijayāditya-narendra-mr̥garājaś cāṣṭā-catvāriṁśatam.
+tat-sutaḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣam.
+tat-putro guṇagāṁka-vijayādityaś catuś-catvāriṁśatam.
+tad-bhrātu[r*] vvikramāditya-bhūpates sūnuś cālukya-[bhī*]ma-bhūpālas triṁśatam.
+tat-sutaḥ kollab[h*]igaṇḍa-vijayādityaḥ ṣaṇ māsān.
+tat-sūnur ammarā[ja*]ḥ sapta varṣāni.
+tat-sutaṁ vijayādityaṁ bālam uccāṭya līlayā tālādhipatir ākramya māsam ekaṁ apād bhuvam/
+taṁ jitvā cālukya-bhīma-tanayo vikramāditya ekādaśa māsān.
+tatas tālādhipa[ti*]-sūnu[r*] yyuddhamalla[ḥ*] sapta varṣāni..
+
+Face IIb.
+nirjjityārjuna-sannibho janapadāt taṁ nirggamayyoddhatān
+dāyādān ina-bhānu-līna-bha-gaṇākārān-vidhāyetarān.
+vajrīvorjjita-nākam amma-nr̥pater bhrātā kanīyān bhuvaṁ
+bhīmo bhīma-parākramas samabhunak saṁvatsarān dvādaśa.. (1)
+tasya maheśvara-mūrtter umā-samānākr̥teḥ kumārābhaḥ.
+lokamahādevyāḥ khalu yas samabhavad ammarājākhyaḥ.. (2)
+kavi-gāyaka-kalpataru[r*] ddvija-muni-dīnāndha-bhandujana-surabhiḥ.
+yācaka-jana-cintāmaṇir avanīśa-maṇir mmahogra-mahasā dyumaṇiḥ.. (3)
+sa samasta-bhuvanāśraya2435-śrī-vijayāditya-mahārājo rājādhirāja-parameśvaraḥ2436 parama-bhaṭṭārakaḥ gudrāvāra-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān kuṭuṁbinas sarvvān ittham ājñāpayati.
+(asya) tasyāḥ paṭṭa-varddhinyāḥ pammavākhyāyāḥ sutāya yuvarāja-ballaladeva-velābhaṭāya boddiya-namne pāṁbaṟṟu2437-nāma-grāmasya dakṣinasyān diśi [nemes-kṣetra-pū] * * * kṣetram Ammarājo rāja-mahendro dattavān..
+
+Face IIIa.
+asya kṣe[tra*]-dvayasyāvadhayaḥ..
+pūrvvataḥ * * * ceṟuvu..
+dakṣiṇataḥ raṭṭedi-cenu..
+paścimataḥ su[gu]mma-cenu-garusu..
+uttarataḥ velpūr-cenu2438-turpūna-pannasa..
+pūrvvataḥ dāmadiya-pannasa..
+dakṣiṇataḥ pedda-trova..
+paścimataḥ yeṟu..
+uttarataḥ gaṇṭhaśālaya * * * yyari-pannasa..
+gr̥ha-kṣetram ca..
+pūrvvataḥ badirāla-majjaya-paṭu..
+dakṣiṇataḥ teṇ * * * ṭama paṭu..
+paścimataḥ jiṁvarakṣa-paṭu..
+uttarataḥ racca..
+asyoparī na kenacid bādhā karttavyā yaḥ karoti sa(ḥ) paṁca-mahāpātaka-yukto bhavati.
+tathā coktaṁ vyāsena..
+bahubhir vvasudhā dattā bahubhiś cānupālitā2439.
+yasya yasya yadā bhūmis tasya tasya tadā phalam2440.. (4)
+</p>
+
+<pb n="3v"/>
+
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+    <listApp>
+      <app loc="3">
+        <lem>-lāñchanekṣa<supplied reason="lost">ṇa-kṣa</supplied><lb n="4" break="no"/>ṇa-</lem>
+        <note>According to Sewell's note attached here, the characters he encloses in square brackets are illegible in the original. I assume that this note refers only to this particular locus, and where he uses square brackets elsewhere, I encode their contents as unclear.</note>
+      </app>
+      <app loc="4">
+        <lem>āvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-</lem>
+        <note>Sewell does not emend here. I cannot ascertain whether <foreign>t</foreign> is a typo in his edition or a scribal mistake he saw no necessity to correct.</note>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17">
+</p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17"></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Edited, probably from the original plates, by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">73-76</citedRange><citedRange unit="item">1</citedRange></bibl>), with a translation, without facsimile. The present edition encoded by Dániel Balogh follows Sewell in all diplomatic particulars, since no facsimile of the inscription is forthcoming, but deviates from it in editorial practice, namely in supplying <foreign>avagraha</foreign>s @CHECK and some punctuation.</p>
+  <listBibl type="primary">
+    <bibl n="RS"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">73-76</citedRange><citedRange unit="item">1</citedRange></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
