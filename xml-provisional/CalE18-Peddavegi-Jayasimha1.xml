@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -101,74 +104,35 @@
       
 <div type="edition" xml:lang="san-Latn">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/>śrī-sarvasiddhi</ab>
+  <ab><lb n="1"/>śrī-sarvasiddhi</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<pb 
-
-n="1r"/>
-<p><pb 
-
-n="1v"/><lb 
-n="1"/>namas savitre|| svasti<supplied reason="subaudible">.</supplied> śrīmatām ananya-sādhāraṇa-guṇādhāra-bhūtānāṁ sva-vikramākrā<lb 
-n="2" break="no"/>nta-sakala-mahībhujām mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ śaktidhara-prasādo<lb 
-n="3" break="no"/>pana<space type="binding-hole"/>ta-samasta-vasumatī-rājyānām mātr̥-gaṇa-paripālitānām a<lb 
-n="4" break="no"/>śvame<space type="binding-hole"/>dhāvabhr̥tha-snāna-paridhvaṁsitainasām anuṣṭhitavarṇṇāśrama-sthitīnāM <lb 
-n="5" break="no"/>mātā-pitr̥-pādānuddhyātānāñ calukyānām anvavāyam unnamayato nr̥pati-gu<lb 
-n="6" break="no"/>ṇa-sāmagrya-sannivāsasya kuśala-jana-kī<supplied reason="omitted">rtti</supplied>ta-kīrtteḥ kīrttivarmmaṇa<unclear>ḥ</unclear> tasya-priyā<pb 
-
-n="2r" break="no"/><lb 
-n="7" break="no"/>tmajasya kanīyasaḥ kāraṇa-viṣṇor iva viṣṇuva<supplied reason="omitted">r</supplied>mmaṇaḥ sva-bhuja-bala-vijitāri-sa<supplied reason="omitted">ṁ</supplied>hates sa<lb 
-n="8" break="no"/>kal<choice><sic>ā</sic><corr>a</corr></choice>-dig-aṅganā-vadana-viśeṣakāya<add place="below">māna-ya</add>śasas tasyānanda Iva vigrahavān sutaḥ sva-guṇa<lb 
-n="9" break="no"/>-gaṇātiśayita-pūrvvajaḥ śakti-bala-vaśī-kr̥tāśeṣa-ripu-balas sakala-lokāśrayā<lb 
-n="10" break="no"/>cāra<supplied reason="omitted">ḥ</supplied> <space type="binding-hole"/> sarvvasiddhir api ca||</p>
+<pb n="1r"/>
+<p><pb n="1v"/><lb n="1"/>namas savitre|| svasti<supplied reason="subaudible">.</supplied> śrīmatām ananya-sādhāraṇa-guṇādhāra-bhūtānāṁ sva-vikramākrā<lb n="2" break="no"/>nta-sakala-mahībhujām mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ śaktidhara-prasādo<lb n="3" break="no"/>pana<space type="binding-hole"/>ta-samasta-vasumatī-rājyānām mātr̥-gaṇa-paripālitānām a<lb n="4" break="no"/>śvame<space type="binding-hole"/>dhāvabhr̥tha-snāna-paridhvaṁsitainasām anuṣṭhitavarṇṇāśrama-sthitīnāM <lb n="5" break="no"/>mātā-pitr̥-pādānuddhyātānāñ calukyānām anvavāyam unnamayato nr̥pati-gu<lb n="6" break="no"/>ṇa-sāmagrya-sannivāsasya kuśala-jana-kī<supplied reason="omitted">rtti</supplied>ta-kīrtteḥ kīrttivarmmaṇa<unclear>ḥ</unclear> tasya-priyā<pb n="2r" break="no"/><lb n="7" break="no"/>tmajasya kanīyasaḥ kāraṇa-viṣṇor iva viṣṇuva<supplied reason="omitted">r</supplied>mmaṇaḥ sva-bhuja-bala-vijitāri-sa<supplied reason="omitted">ṁ</supplied>hates sa<lb n="8" break="no"/>kal<choice><sic>ā</sic><corr>a</corr></choice>-dig-aṅganā-vadana-viśeṣakāya<add place="below">māna-ya</add>śasas tasyānanda Iva vigrahavān sutaḥ sva-guṇa<lb n="9" break="no"/>-gaṇātiśayita-pūrvvajaḥ śakti-bala-vaśī-kr̥tāśeṣa-ripu-balas sakala-lokāśrayā<lb n="10" break="no"/>cāra<supplied reason="omitted">ḥ</supplied> <space type="binding-hole"/> sarvvasiddhir api ca||</p>
 <lg n="1" met="vasantatilakā">  
 <l n="a">Induṁ rucā sura-guruñ ca dhiyā sitāś<unclear cert="low">v</unclear>a<unclear cert="low">ṁ</unclear></l>
-<l n="b">śauryye<lb 
-n="11" break="no"/>ṇa vāridhim agādhatayātma-vr̥ttaiḥ</l>
+<l n="b">śauryye<lb n="11" break="no"/>ṇa vāridhim agādhatayātma-vr̥ttaiḥ</l>
 <l n="c">dharmmātmajaṁ ravi-jam īhita-dāna-śaktyā</l>
-<l n="d">ka<lb 
-n="12" break="no"/>ndarppam āhita-tanuṁ vapuṣātiśete||</l>
+<l n="d">ka<lb n="12" break="no"/>ndarppam āhita-tanuṁ vapuṣātiśete||</l>
 </lg>
-<p>Evaṁ-vidhābhirāmika-guṇaḥ śrī-ja<pb 
-
-n="2v" break="no"/><lb 
-n="13" break="no"/>yasiṁha-vallabha-mahārājaḥ kantheṟuvāṭi-viṣaye vleṇṭūro nāma grāmas ta<lb 
-n="14" break="no"/>sya dakṣiṇato <choice><orig>gavyūta</orig><reg>gavyūti</reg></choice>-mātrāt kombaṟu-nāma grāmas tan-nivāsin<choice><sic>i</sic><corr>a</corr></choice>ḥ tad-viṣaya-vā<surplus>ṁ</surplus><lb 
-n="15" break="no"/>sina<space type="binding-hole"/>ś cānyāṁś cātra-janapadāN samavetān evam ājñāpayati<supplied reason="subaudible">.</supplied> sarvvā<supplied reason="omitted">N</supplied> Anā<lb 
-n="16" break="no"/>gata-kā<space type="binding-hole"/>la-bhāvi-<choice><orig>rājariṣen</orig><reg>rājarṣīn</reg></choice> yathopacāra-purassara<unclear>ṁ</unclear> Itthaṁ <orig>sanmānayati</orig> <gap reason="illegible" quantity="3" unit="character" precision="low"/></p>
-<p><lb 
-n="17"/>kukkanūra-vāstavyas<supplied reason="omitted">ya</supplied> taittirīya-sabrahmacāriṇo gārggya-gotrasyādhigata-catuś-śāstrasyānu<lb 
-n="18" break="no"/>dinānuṣṭhita-sva-karmmaṇo devaśarmmaṇaḫ put<unclear reason="eccentric_ductus">r</unclear>asya tad-anurūpa-guṇasya svāmiśarmmaṇaḫ pu<pb 
-
-n="3r" break="no"/><lb 
-n="19" break="no"/>trāya veda-śāstra-viduṣe sva-karmma-niratāya p<supplied reason="omitted">r</supplied>iyātithaye somaśarmmaṇe kārt<unclear>tika</unclear>-p<unclear cert="low">au</unclear>rṇa-<supplied reason="lost" cert="low">māsi</supplied><lb 
-n="20" break="no"/>-viṣuva-dine <supplied reason="subaudible">’</supplied>s<unclear>m</unclear>a<choice><orig>t</orig><reg>n</reg></choice>-mātā-pitror ātmanaś ca dharmmābhivr̥ddhaye <supplied reason="subaudible">’</supplied>smābhis sarvva-kara-parihāreṇ<choice><sic>ā</sic><corr>a</corr></choice> Agrahā<supplied reason="lost">rī-kr̥</supplied><lb 
-n="21" break="no"/>tya datto <supplied reason="subaudible">’</supplied>yaṁ grāmaḥ<supplied reason="subaudible">.</supplied> na kenacid bādhā karanīyā<supplied reason="subaudible">.</supplied> yas tu karoti kārayaty anumanyate vā sa pañca-ma<lb 
-n="22" break="no"/>hāpā<space type="binding-hole"/>takair yyukto bhavaty<supplied reason="subaudible">.</supplied> api ca vyāsa-gītau ślokau bhavataḥ</p>
+<p>Evaṁ-vidhābhirāmika-guṇaḥ śrī-ja<pb n="2v" break="no"/><lb n="13" break="no"/>yasiṁha-vallabha-mahārājaḥ kantheṟuvāṭi-viṣaye vleṇṭūro nāma grāmas ta<lb n="14" break="no"/>sya dakṣiṇato <choice><orig>gavyūta</orig><reg>gavyūti</reg></choice>-mātrāt kombaṟu-nāma grāmas tan-nivāsin<choice><sic>i</sic><corr>a</corr></choice>ḥ tad-viṣaya-vā<surplus>ṁ</surplus><lb n="15" break="no"/>sina<space type="binding-hole"/>ś cānyāṁś cātra-janapadāN samavetān evam ājñāpayati<supplied reason="subaudible">.</supplied> sarvvā<supplied reason="omitted">N</supplied> Anā<lb n="16" break="no"/>gata-kā<space type="binding-hole"/>la-bhāvi-<choice><orig>rājariṣen</orig><reg>rājarṣīn</reg></choice> yathopacāra-purassara<unclear>ṁ</unclear> Itthaṁ <orig>sanmānayati</orig> <gap reason="illegible" quantity="3" unit="character" precision="low"/></p>
+<p><lb n="17"/>kukkanūra-vāstavyas<supplied reason="omitted">ya</supplied> taittirīya-sabrahmacāriṇo gārggya-gotrasyādhigata-catuś-śāstrasyānu<lb n="18" break="no"/>dinānuṣṭhita-sva-karmmaṇo devaśarmmaṇaḫ put<unclear reason="eccentric_ductus">r</unclear>asya tad-anurūpa-guṇasya svāmiśarmmaṇaḫ pu<pb n="3r" break="no"/><lb n="19" break="no"/>trāya veda-śāstra-viduṣe sva-karmma-niratāya p<supplied reason="omitted">r</supplied>iyātithaye somaśarmmaṇe kārt<unclear>tika</unclear>-p<unclear cert="low">au</unclear>rṇa-<supplied reason="lost" cert="low">māsi</supplied><lb n="20" break="no"/>-viṣuva-dine <supplied reason="subaudible">’</supplied>s<unclear>m</unclear>a<choice><orig>t</orig><reg>n</reg></choice>-mātā-pitror ātmanaś ca dharmmābhivr̥ddhaye <supplied reason="subaudible">’</supplied>smābhis sarvva-kara-parihāreṇ<choice><sic>ā</sic><corr>a</corr></choice> Agrahā<supplied reason="lost">rī-kr̥</supplied><lb n="21" break="no"/>tya datto <supplied reason="subaudible">’</supplied>yaṁ grāmaḥ<supplied reason="subaudible">.</supplied> na kenacid bādhā karanīyā<supplied reason="subaudible">.</supplied> yas tu karoti kārayaty anumanyate vā sa pañca-ma<lb n="22" break="no"/>hāpā<space type="binding-hole"/>takair yyukto bhavaty<supplied reason="subaudible">.</supplied> api ca vyāsa-gītau ślokau bhavataḥ</p>
 <lg n="2" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā</l>
-<l n="b">ba<lb 
-n="23" break="no"/>hubhiś cā<space type="binding-hole"/>nupālitā</l>
+<l n="b">ba<lb n="23" break="no"/>hubhiś cā<space type="binding-hole"/>nupālitā</l>
 <l n="c">yasya yasya yadā bhūmis</l>
 <l n="d">tasya tadā phalaM</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-<l n="a">ṣaṣṭi-varṣa<lb 
-n="24" break="no"/>-sahasrāṇi</l>
+<l n="a">ṣaṣṭi-varṣa<lb n="24" break="no"/>-sahasrāṇi</l>
 <l n="b">svargge modati bhūmidaḥ</l>
 <l n="c">Ā<choice><sic>t</sic><corr>k</corr></choice>ṣeptā cānumantā ca</l>
 <l n="d">tāny eva narake vaseT</l>
 </lg>
 <lg n="4" met="upajāti">
-<l n="a">śrī<lb 
-n="25" break="no"/>-sarvvasiddher vvasudhādhipasya</l>
+<l n="a">śrī<lb n="25" break="no"/>-sarvvasiddher vvasudhādhipasya</l>
 <l n="b">priyaḥ śarīrīva nayaḫ purodhāḥ</l>
-<l n="c">raṇe <supplied reason="subaudible">’</supplied>vasanno <supplied reason="subaudible">’</supplied>bhavad a<pb 
-
-n="3v" break="no"/><lb 
-n="26" break="no"/>sya vidvān</l>
+<l n="c">raṇe <supplied reason="subaudible">’</supplied>vasanno <supplied reason="subaudible">’</supplied>bhavad a<pb n="3v" break="no"/><lb n="26" break="no"/>sya vidvān</l>
 <l n="d">ājñaptir āryyaḥ narasiṁhmasarmmā</l>
 </lg>
 </div>

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -105,44 +108,13 @@
       
 <div type="edition" xml:lang="san-Latn">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/>śrī-viṣamasiddhi</ab>
+  <ab><lb n="1"/>śrī-viṣamasiddhi</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<ab><pb 
-
-n="1r"/><fw n="1r" place="left"><num value="1">1</num></fw><lb 
-n="01"/><g type="spiralR"/>
-<lb 
-n="02"/>svasti</ab>
-<p><lb 
-n="1"/>śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ <lb 
-n="2"/>hāritī-putrāṇāṁ sapta-loka-mātr̥bhir mmātr̥bhir abhivarddhitānāM kārtti<lb 
-n="3" break="no"/>keyā<space type="binding-hole"/>nugrahāvāpta-kalyāṇa-parampar<choice><sic>a</sic><corr>ā</corr></choice>nāṁ bhagavan-nārāy<choice><sic>ā</sic><corr>a</corr></choice>ṇa-pra<lb 
-n="4" break="no"/>sādāsādita-varāha-lāñcchanātmīkr̥tāśeṣa-bhūbhr̥tāṁ bhū-bhr̥tāṁ ivācala-sthi<lb 
-n="5" break="no"/>tīnāṁ Aśvamedhāvabhr̥tha-snānāpanīta-kali-malānāṁ caḷukyānāṁ kulam a<pb 
-
-n="1v" break="no"/><lb 
-n="6" break="no"/><unclear>laṁ</unclear>ka<choice><sic>r</sic><corr>ri</corr></choice>ṣṇoḥ śrī-kīrttivarmmaṇaḥ pranaptā sakalāvan<orig>ī</orig>-pati-makuṭa-taṭa-ghaṭita<lb 
-n="7" break="no"/>-maṇi-mayūkha-puṁja-pi<supplied reason="omitted">ṁ</supplied>ja<surplus>ṁ</surplus>rita-caraṇa-yuga<orig>ḷ</orig>asya śrī-viṣṇuvarddhana-mahārājasya <lb 
-n="8"/>naptā śa<space type="binding-hole"/>kti-traya-s<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>māsāditāśeṣa-bhū-maṇḍalādhipateḥ sva-guṇā<lb 
-n="9" break="no"/>nurakta-pra<space type="binding-hole"/>kr̥ti-saṁpādita-sarvva-saṁpadaḥ śrī-jayasi<supplied reason="omitted">ṁ</supplied>ha-vallabha-<choice><sic>v</sic><corr>m</corr></choice>ahārājasya <lb 
-n="10"/>priya-bhrātur a<add place="above" rend="mark">ne</add>ka-yuddha-labdha-vijayālaṁkr̥ta-śarīrasyendrabhaṭṭārakasya<pb 
-
-n="2r"/><fw n="2r" place="left"><num value="2">2</num></fw><lb 
-n="11"/>priya-tanayaḥ samadhigata-pañca-mahāśabdaḥ sakalendur iva sakala-kalādhi<lb 
-n="12" break="no"/>ṣṭhāno vi<del>ṣa</del><space type="binding-hole"/>ṣṇur iva śrī-nivāsaḥ śrīmān viṣṇuvarddhana-mahārājaḥ gudrahāra<lb 
-n="13" break="no"/>-viṣa<space type="binding-hole"/>ye Aṟutaṅkūrāśraye pa<choice><unclear>ḷḷ</unclear><unclear>dd</unclear><unclear>ḍḍ</unclear></choice>i<unclear>v</unclear>āḍa-grāmam adhivasataḥ <lb 
-n="14"/>sarvvān evam <choice><sic>a</sic><corr>ā</corr></choice>jñāpayati</p>
-<p part="I">yathā Asanapura-v<choice><sic>a</sic><corr>ā</corr></choice>s<choice><sic>th</sic><corr>t</corr></choice>avyasya kāśy<choice><sic>ā</sic><corr>a</corr></choice>pa-gotrasya <lb 
-n="15"/>nūvucūṭṭi-trivedasya taittirīya-sabrahmacāriṇaḥ veda-vedāṁgetihā<pb 
-
-n="2v" break="no"/><lb 
-n="16" break="no"/>sa-purāṇa-nyāyāneka-dharmmaśāstr<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>-vidaḥ Agniṣṭomādi-pauṇḍarīka-pa<lb 
-n="17" break="no"/>ryyantāneka-kratu-yaṣṭuḥ dhruvaśarmmaṇaḥ pautrāya veda-vedāṁga-vidaḥ <lb 
-n="18"/>doci<space type="binding-hole"/>śarmmaṇaḥ putrāya Adhīta-veda-dvayāya dhruvaśarmmaṇe <lb 
-n="19"/>Asmin grāme Asmat-puṇyābhivr̥<surplus>r</surplus>ddhaye <choice><sic>A</sic><corr>Ā</corr></choice>tmano vijaya-rājya-pañca<lb 
-n="20" break="no"/>me saṁ<orig>vv</orig>atsare phā<unclear>l</unclear>gu<orig>ṇ</orig>a-māse AmāvāsyāyāM sūryya-gra<supplied reason="omitted">ha</supplied>ṇa-nimi<supplied reason="lost">tte</supplied>
+<ab><pb n="1r"/><fw n="1r" place="left"><num value="1">1</num></fw><lb n="01"/><g type="spiralR"/>
+<lb n="02"/>svasti</ab>
+<p><lb n="1"/>śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ <lb n="2"/>hāritī-putrāṇāṁ sapta-loka-mātr̥bhir mmātr̥bhir abhivarddhitānāM kārtti<lb n="3" break="no"/>keyā<space type="binding-hole"/>nugrahāvāpta-kalyāṇa-parampar<choice><sic>a</sic><corr>ā</corr></choice>nāṁ bhagavan-nārāy<choice><sic>ā</sic><corr>a</corr></choice>ṇa-pra<lb n="4" break="no"/>sādāsādita-varāha-lāñcchanātmīkr̥tāśeṣa-bhūbhr̥tāṁ bhū-bhr̥tāṁ ivācala-sthi<lb n="5" break="no"/>tīnāṁ Aśvamedhāvabhr̥tha-snānāpanīta-kali-malānāṁ caḷukyānāṁ kulam a<pb n="1v" break="no"/><lb n="6" break="no"/><unclear>laṁ</unclear>ka<choice><sic>r</sic><corr>ri</corr></choice>ṣṇoḥ śrī-kīrttivarmmaṇaḥ pranaptā sakalāvan<orig>ī</orig>-pati-makuṭa-taṭa-ghaṭita<lb n="7" break="no"/>-maṇi-mayūkha-puṁja-pi<supplied reason="omitted">ṁ</supplied>ja<surplus>ṁ</surplus>rita-caraṇa-yuga<orig>ḷ</orig>asya śrī-viṣṇuvarddhana-mahārājasya <lb n="8"/>naptā śa<space type="binding-hole"/>kti-traya-s<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>māsāditāśeṣa-bhū-maṇḍalādhipateḥ sva-guṇā<lb n="9" break="no"/>nurakta-pra<space type="binding-hole"/>kr̥ti-saṁpādita-sarvva-saṁpadaḥ śrī-jayasi<supplied reason="omitted">ṁ</supplied>ha-vallabha-<choice><sic>v</sic><corr>m</corr></choice>ahārājasya <lb n="10"/>priya-bhrātur a<add place="above" rend="mark">ne</add>ka-yuddha-labdha-vijayālaṁkr̥ta-śarīrasyendrabhaṭṭārakasya<pb n="2r"/><fw n="2r" place="left"><num value="2">2</num></fw><lb n="11"/>priya-tanayaḥ samadhigata-pañca-mahāśabdaḥ sakalendur iva sakala-kalādhi<lb n="12" break="no"/>ṣṭhāno vi<del>ṣa</del><space type="binding-hole"/>ṣṇur iva śrī-nivāsaḥ śrīmān viṣṇuvarddhana-mahārājaḥ gudrahāra<lb n="13" break="no"/>-viṣa<space type="binding-hole"/>ye Aṟutaṅkūrāśraye pa<choice><unclear>ḷḷ</unclear><unclear>dd</unclear><unclear>ḍḍ</unclear></choice>i<unclear>v</unclear>āḍa-grāmam adhivasataḥ <lb n="14"/>sarvvān evam <choice><sic>a</sic><corr>ā</corr></choice>jñāpayati</p>
+<p part="I">yathā Asanapura-v<choice><sic>a</sic><corr>ā</corr></choice>s<choice><sic>th</sic><corr>t</corr></choice>avyasya kāśy<choice><sic>ā</sic><corr>a</corr></choice>pa-gotrasya <lb n="15"/>nūvucūṭṭi-trivedasya taittirīya-sabrahmacāriṇaḥ veda-vedāṁgetihā<pb n="2v" break="no"/><lb n="16" break="no"/>sa-purāṇa-nyāyāneka-dharmmaśāstr<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>-vidaḥ Agniṣṭomādi-pauṇḍarīka-pa<lb n="17" break="no"/>ryyantāneka-kratu-yaṣṭuḥ dhruvaśarmmaṇaḥ pautrāya veda-vedāṁga-vidaḥ <lb n="18"/>doci<space type="binding-hole"/>śarmmaṇaḥ putrāya Adhīta-veda-dvayāya dhruvaśarmmaṇe <lb n="19"/>Asmin grāme Asmat-puṇyābhivr̥<surplus>r</surplus>ddhaye <choice><sic>A</sic><corr>Ā</corr></choice>tmano vijaya-rājya-pañca<lb n="20" break="no"/>me saṁ<orig>vv</orig>atsare phā<unclear>l</unclear>gu<orig>ṇ</orig>a-māse AmāvāsyāyāM sūryya-gra<supplied reason="omitted">ha</supplied>ṇa-nimi<supplied reason="lost">tte</supplied>
 </p>
 </div>
 </div>
