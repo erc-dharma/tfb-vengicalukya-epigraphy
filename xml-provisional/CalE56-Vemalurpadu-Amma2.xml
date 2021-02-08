@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
+<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Vemalūrpāḍu plates of Amma II</title>
+        <!--ALT TITLE: -->
+        <respStmt>
+          <resp>EpiDoc Encoding</resp>
+          <persName ref="part:daba">
+              <forename>Dániel</forename>
+              <surname>Balogh</surname>
+          </persName>
+        </respStmt>
+        <respStmt>
+          <resp>intellectual authorship of edition</resp>
+          <persName ref="part:daba">
+              <forename>Dániel</forename>
+              <surname>Balogh</surname>
+         </persName>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <authority>DHARMA</authority>
+        <pubPlace>Berlin</pubPlace>
+        <idno type="filename">CalE56-Vemalurpadu-Amma2</idno>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">
+            <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+            <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+         </licence>
+        </availability>
+        <date from="2019" to="2025">2019-2025</date>
+      </publicationStmt>
+      <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+        <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+          <msIdentifier>
+            <repository>DHARMAbase</repository>
+            <idno/><!-- don't modify this -->
+          </msIdentifier>
+          <msContents><!-- describe the intellectual content of an inscription -->
+            <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
+          </msContents>
+          <physDesc>
+            <handDesc>
+              <p>Halantas. Final T is a nearly full-sized ta with a curly tail instead of a headmark. Final N is likewise a nearly full na with an elongated stem and a tail. Final M is a fairly large circle at body level, with a curly tail.</p>
+              <p>The opening symbol is indiscernible in the estampages; Hultzsch describes it as a flower. It is presumably a floret with four petals and four spikes, as in most grants of Amma II. Original punctuation marks are straight verticals without any decoration.</p>
+              <p>Other palaeographic observations. Anusvāra is very slightly above the headline, immediately after the character to which it belongs; occasionally it is placed above the next character. The vowel marker for ā is extended downward, usually well below the baseline. Dependent o is normally in the cursive form; au is not clearly distinguishable from this. Dependent e occurs, beside the regular form, as a vertical pr̥ṣṭhamātrā, essentially the mirror image of ā. Upadhmānīya looks like ṟ (l8). 
+                <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+              <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+          <summary><p><p/></summary>
+          <handNote xml:id="Pallava00001_hand1"></handNote>
+          <handNote xml:id="Pallava00001_hand2"></handNote>
+        -->
+            </handDesc>
+          </physDesc>
+        </msDesc>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+      </projectDesc>
+      <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/><!-- UPDATE the link once the release is made official -->
+      <listPrefixDef>
+        <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+          <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+        </prefixDef>
+        <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+          <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+        </prefixDef>
+      </listPrefixDef>
+    </encodingDesc>
+    <revisionDesc>
+      <change who="part:daba" when="2021-02-08" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+    </revisionDesc>
+  </teiHeader>
+  <text xml:space="preserve">
+      <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-tribhuvan<unclear>āṁ</unclear>k<unclear>u</unclear>śa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/><g type="floretIndistinct"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mā<choice><sic>ṇ</sic><corr>n</corr></choice>avya-sago<unclear>tr</unclear><choice><sic>a</sic><corr>ā</corr></choice><unclear>ṇāṁ hārī</unclear><lb 
+n="2" break="no"/>ti-put<unclear>r</unclear><choice><sic>a</sic><corr>ā</corr></choice>ṇā<unclear>ṁ</unclear> kauśikī-vara-prasāda-labdha-rājyānāṁ mā<choice><orig><seg type="aksara">tr̥ī</seg></orig><reg>tr̥</reg></choice>-gaṇa-paripālitān<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">ṁ</supplied> <lb 
+n="3"/>svāmi-mahāsena-pādānud<choice><sic>d</sic><corr>dh</corr></choice>yātānāṁ <choice><sic>v</sic><corr>bh</corr></choice>agavan-nārāyaṇa-prasāda-samāsā<choice><sic>d</sic><corr>dh</corr></choice>ita<lb 
+n="4" break="no"/>-vara-varāha<space type="binding-hole"/>-lāñ<choice><sic>c</sic><corr>ch</corr></choice>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānā<supplied reason="omitted">ṁ</supplied> Aśva<unclear>m</unclear>e<lb 
+n="5" break="no"/>dh<choice><sic>a</sic><corr>ā</corr></choice>vabhr̥tha-snāna-pavitrīk<choice><orig>ri</orig><reg>r̥</reg></choice>ta-vapuṣāṁ| cālukyānāṁ kulam alaṁ<choice><sic>kraṣo</sic><corr>kariṣṇoḥ</corr></choice>| satyā<lb 
+n="6" break="no"/>śraya-vallabhendrasy<choice><sic>ā</sic><corr>a</corr></choice>ḥ| <choice><sic>bh</sic><corr>v</corr></choice>rātā kubja-viṣṇuvarddhan<choice><sic>ā</sic><corr>o</corr></choice> <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣ<choice><sic>a</sic><corr>ā</corr></choice>ṇi|| ve<unclear>ṁ</unclear>gī-ma<lb 
+n="7" break="no"/>ṇḍala<supplied reason="omitted">m a</supplied>p<choice><sic>a</sic><corr>ā</corr></choice>layaT| tad-<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">tma</supplied>jo jayasiṁhas trayastriṁśata<choice><sic>T</sic><corr>M</corr></choice>| tad-anujendrarāja-<unclear>nandano</unclear> <pb 
+
+n="2r"/><lb 
+n="8"/><unclear>vi</unclear>ṣṇuva<unclear>r</unclear>ddhano nava| <unclear>tat-sūnur</unclear> mm<unclear>aṁ</unclear>gi-<unclear>yu</unclear>varā<unclear>ja</unclear>ḫ paṁca-vi<unclear>ṁ</unclear>śati<choice><orig>|n</orig><reg>M|</reg></choice> ta<unclear>t-pu</unclear>tr<choice><sic>ā</sic><corr>o</corr></choice> jayasiṁhas trayo<lb 
+n="9" break="no"/>daśa| tad-avaraja<supplied reason="omitted">ḥ</supplied> kokkili<orig>ṣ</orig> ṣaṇ m<choice><sic>a</sic><corr>ā</corr></choice>sāN| tasya jyeṣṭho bhrātā viṣṇuvarddhanas tam ucc<unclear>āṭ</unclear>ya saptatriṁśata<unclear>M</unclear> <lb 
+n="10"/>varṣ<orig>ṣ</orig><choice><sic>a</sic><corr>ā</corr></choice>ṇi<supplied reason="subaudible">.</supplied> <add place="below">ta</add>t-<unclear>pu</unclear>tro vijayāditya-bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-suto viṣṇuvarddhana<orig>ṣ</orig> ṣa<choice><sic>t</sic><corr>ṭ</corr></choice>triṁśataM|</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">narendra<lb 
+n="11" break="no"/>-mr̥garājākhyo <space type="binding-hole"/></l>
+<l n="b">mr̥garāja-p<unclear reason="eccentric_ductus">a</unclear>rākramaḥ|</l>
+<l n="c">vijayādi<add place="below">tya</add>-bh<unclear>ū</unclear>p<choice><sic>a</sic><corr>ā</corr></choice>laḥ</l>
+<l n="d"><add place="below">sa</add>-catvāriṁśa<subst><del rend="corrected"><unclear>t samā</unclear></del><add place="overstrike">d a<surplus><unclear>ṣṭhya</unclear></surplus></add></subst>ṣṭa<subst><del rend="corrected"><unclear>bhiḥ</unclear></del><add place="overstrike">kaṁ</add></subst>||</l>
+</lg>
+<p>@@@
+tat-putraḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhyardda-varṣam[+|]
+tat-putraḥ2543̣ paracakrarāmā2544-para-nāmadheyaḥ[+||]
+hatvā bhūri-noḍaṁbarāṣṭra2545-nr̥patiṁ maṁgim2546 mahā-saṁgare
+gaṁgānāśrita2547-gaṁgakūṭa-śikharān nirjjitya saḍ-ḍa[ha*]lā-/
+-dhīśaṁ saṁkilam2548 ugra-vallabha-yutaṁ yo bhāyayitvā catuś-
+catvāriṁśatam abdakaṁ ca2549 vijayādityo2550rarakṣa ksịtim2551[+||] (2)
+tad-anujasya labdhayauvarājya[sya*] vikramāditasya2552 sutaś cālukya-bhīmas2553
+triṁśatam[+|]
+tasyāgrājo vijayādityaḥ ṣaṇ mās[an*][+|]
+
+Face IIb.
+tad-agra-sūnur ammarājas sapta varṣāni2554[+|]
+tat-sūnum ākramya bāla[ṁ*] cālukya2555-bhīma-pitr̥vya-yuddhamallasya nandanas tāla-nr̥po2556 māsam ekam[+||]
+nānā-sāmantavarggair2557 adhika-bala-yutair mmattamātaṁga-senair2558
+hatvā taṁ tāla-rājaṁ viṣama-raṇa-mukhe sā[r*]ddham atyugra-tejāḥ[+|]
+ekābdaṁ2559 samyag aṁbho2560nidhi-valaya-vr̥tām anvaraksạ ddharitrīṁ
+śrīmān cālukya-bhīma-kṣitipati-tanayo vikramāditya-bhūpaḥ[+||] (3)
+paścād aham-ahamikayā vikramādityāstamayane2561 rākṣasā2562 iva prajā-bādhana2563-parā dāyāda-rāja-putro rājyābhilaṣiṇo yuddhamalla-rājamārtaṇḍa(la)-kaṇṭhikā-vijayāditya2564-prabhr̥tayo vigrāhī-bhūtā āsan2565[+||]
+vigraheṇaiva paṁca2566 varṣāni2567 ga[tāni*][+|]
+tataḥ[+||]
+yo <supplied reason="subaudible">’</supplied>vadhīd rājamārtaṇḍan teṣāṁ2568 yena rane kr̥tau[+|]
+kaṇṭhikā-vijayāditya-[yu*]ddhamallau2569 videśāgau2570[+||] (4)
+
+Face IIIa.
+anye2571 mānya [ma*]hī-bhr̥to <supplied reason="subaudible">’</supplied>pi bahavo duṣṭa-pravr̥ttoddhatāḥ2572
+deśopadrava-kāriṇaḥ prakaṭitāḥ kālālayaṁ2573 prāpitāḥ[+|]
+dorddaṇḍerita maṇḍalāgra-latayā yasyogra-saṁgrāma ka-
+-syājñā2574 tat-para-bhū2575-nr̥paiś ca śiraso māleva sandhāryyate[+||] (5)
+nādagdhvā2576 vinivarttate2577 ripu-kulaṁ kopāgnir āmūlato
+śubhraṁ yasya yaśo na lokam akhilaṁ2578 santiṣṭhate na bhramat[+|]
+drav[yā*]ṁbhodhara-rāśir apy anudinaṁ santapyamāne bhr̥śaṁ
+dāridryogratarātapena janatā-sasye na no varṣati[+||] (6)
+sa cālukya-bhīma-naptā vijayāditya-nandana[ḥ][+|]
+dvādaśāśat2579 samās samyagrāja-bhīmo2580 dharātalam[+||] (7)
+tasya maheśvara-mūrtter umā-sāmān2581ākr̥teḥ kumārābhaḥ[+|]
+lokamahādevyāḥ2582 khalu yas samabhavad ammarājākhyaḥ2583// (8)
+ammādhīśas2584 tatobhūt para-bala-jayino bhīma2585-bhūpasya putro
+cchatrānte vallabhena prahr̥tam api punaḥ paṭṭam [ā*]d[ā*]ya2586 dharttuḥ2587[+|]
+
+Face IIIb.
+nyāyāt artta-siddher vvinaya-parabr̥hat2588 bhīma2589-rājasya pautro[+|]
+śrī-yauvarājya2590-kaṇṭhābharaṇa-vilasato vikramāṁkasya naptā2591[+||] (9)
+para-sva-santyakta-mano viśuddhaḥ parāpriyān sukta-vaco viśuddhaḥ[+|]
+paropakārī2592dvija-sattamas tvam iti tri-śuddho musiyābhidhānaḥ[+||] (10)
+śrīman-mahā2593-rāja-padottamasya śiṣṭeṣṭa2594-bandu-priya-darśanasya[+|]
+devādy-r̥ṇāni2595 pratimuṁcatolaṁ putro bhavat sat-kula-nandanasya[+||] (11)
+guṇḍamayyābhidhānasya ṣaṭ-karmma-kāriṇas sadā[+|]
+pautro bhāradvājasya gotreṇāmita-te[ja*]saḥ[+||] (12)
+svāminātulayoddhr̥tvasya2596 pāṇḍarāṁgasya2597 naptr̥ā durggarājena2598 vijñāpito <supplied reason="subaudible">’</supplied>mma[rā*]jas tasmai2599[+|]
+
+Face IVa.
+prasanna-cittaḥ svāmi2600-hitāya prīti2601-purvvan tava mantriṇe [a*]grahāran dāsyāmīti2602 prativacanam uktavān2603[+||]
+sa yauvarājyāṣṭa-same [a*]bhiṣekto dviṣat-saṁvatsara-paṭṭabaddhaḥ[+|]
+mahā-haveṣu prasabhan-nihatya ripūn2604 anekān prabhāvati2605 nityam2606[+||] (13)
+So <supplied reason="subaudible">’</supplied>yaṁ samadhi gata-paṁca-mahā2607-śabda-parama-brahmaṇya-parama-bhaṭṭāraka-parama-māheśvaro2608 mātā-pitr̥-bhaktā[ḥ*] karmmarāṣṭra-vāsino rāṣṭrakūṭa-pramukhān kuṭuṁbinas sarvvān eva samāhūyettham2609 ājñāpayati[+||] viditam astu vaḥ[+||]
+iṣṭ2610eśvara-prasādasya2611 sarvva-jīva2612-dayāvataḥ[+|]
+nitya-dharmmārtha2613-kāmasya2614 śrīmato2615 musiyasya te[+||] (14)
+ammarājābhidhānārtho2616 mātr̥-candrav ubhau smr̥tau2617[+|]
+tāv ekībhūya kiṁ citraṁ prajānāṁ hita-kāriṇau[+||] (15)
+aṇmaṇaṁgūru-nāma-2618grāme2619 dakṣiṇa-dig-bhage rāja-viṣayādhyakṣa-satkāra-pūrvakaṁ daśa-khāri2620-kodrava-bījāvapa-kṣetram ādāya aṇḍeki-nāma-grāme uttara-dig-bhage pūrva-vad-daśa-khāri-kodrava-bījāvapa-kṣetram ādāya2621[+|]
+
+Face IVb.
+etasmin2622 grāme abhyantarīkr̥tya kāraṁcedu-vāstavyāya2623 krovi-kulāya bhāradvāja-gotrāya musiyanaśarmmaṇe sarvvaparihārī2624kr̥tya uttarāyaṇa2625-nimitte tumiyaveṇiyapūṇḍi-nāma-grām2626ādika-dvayam agrahāraṁ2627 prādāt2628[+||]
+asyāvadāyaḥ[+||]
+pūrvataḥ2629 medalkoṇḍa[+||]
+dakṣiṇataḥ gaṭṭipūṇḍi2630[+||]
+paścimataḥ ḻemkoṇḍa-nāma-grā[maḥ*]2631[+||]
+uttarataḥ2632 aṇmaṇaṁgūru-nāma-grāmaḥ[+||]
+kṣetra-sīmāni2633[+||]
+pūrvataḥ mu[yya*]likuṭṭuna śamī2634[+||]
+āgneyataḥ 2635 guṇṭa[+||]
+dakṣiṇataḥ 2636 guṇṭetiya2637 kaṟiti [ve*]mula2638 gonu[+||]
+nairr̥tyataḥ 2639 veṁca dakṣiṇamuna paruvulu[+||]
+paścimataḥ etiya kaṟiti ca[ṭalalu*][+||]
+vāyavyataḥ 2640 guṇṭa2641[+||]
+uttarataḥ2642 cali-guṇṭạ[+||]
+īśānataḥ muyyalikuṭṭuna vella-ṟāyu[+||]
+asyoparī na kenacid2643 bādhā karttavyā yaḥ karoti sa paṁca-mahāpātakair2644 yyukta bhavati[+||]
+yaḥ pālayati2645 sa puṇyo bhavati[+||]
+tathā2646 coktaṁ rāmabhadre[ṇa*][+||]
+sāmānyo <supplied reason="subaudible">’</supplied>yan dharmma-[se*]tu[r*] [nr̥*]pā[ṇāṁ*]2647 [ka*]le kale2648 pālanīyo bhavadbhiḥ 2649[+|]
+
+Face Va.
+sarvvān etān bhāvinaḥ 2650 pārtthivendrān bhūyo bhū[yo*]2651 [yā*]cate rāmabhadraḥ[+||] (16)
+mad-vaṁśa-jā para-ma[hīpa*]ti-vaṁśa-jāś ca
+pāpād apeta-mana[so*] bhuvi [bhā*]vibhūpāḥ[+|]
+ye pālayanti2652 mama dharmmam2653 imaṁ samastan
+teṣām ayaṁ viracito <supplied reason="subaudible">’</supplied>ṁjalir eṣa mūrdhni[+||] (17)
+bahubhir vvasudhā2654 dattā bahubhiś cānupālitā2655[+|]
+yasya yasya yadā bhūmis tasya tasya tadā phalam[+||] (18)
+sva-dattāṁ para-dattāṁ vā2656 yo haretā vasundharām[+|]
+ṣaṣṭi-varṣa-sahasrāṇi2657 viṣṭāyāṁ jāyate kr̥miḥ[+||] (19)
+mānyaṁ viṁśati-khārī-koṇḍrava-bījāvāpa-kṣetram[+|]
+ājñaptir asya dharmmasya kaṭakeśo yaśo-nidhiḥ[+||] (20)
+vaṁgipaṟu-vāstavyan2658 ātreya-gotreṇa bhaṭṭaguṇḍena viracitaṁ kāvya[m*][+||]
+tasmai bhāga-dvayan dattam[+||]
+ghanavaṭṭabīrojena likhitam 2659[+||]
+śivam2660 astu[+||]
+</p>
+<pb 
+
+n="5v"/>
+
+
+
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="2">
+        <lem>mā<choice><orig><seg type="aksara">tr̥ī</seg></orig><reg>tr̥</reg></choice>-</lem>
+        <rdg source="bib:Hultzsch1925-1926_06">māt<choice><sic>rī</sic><corr>r̥</corr></choice>-</rdg>
+        <note>Vowel markers for <foreign>r̥</foreign> (not a subscript <foreign>r</foreign>) and <foreign>ī</foreign> are both present on <foreign>t</foreign>.</note>
+      </app>
+      <app loc="3">
+        <lem><choice><sic>v</sic><corr>bh</corr></choice>agavan-</lem>
+        <rdg source="bib:Hultzsch1925-1926_06">bhagavan-</rdg>
+      </app>
+      <app loc="6">
+        <lem>-vallabhendrasy<choice><sic>ā</sic><corr>a</corr></choice></lem>
+        <rdg source="bib:Hultzsch1925-1926_06">-vallabhendrasy<choice><sic>ā</sic><corr>a</corr></choice><surplus>ḥ</surplus></rdg>
+      </app>
+      <app loc="6">
+        <lem><choice><sic>bh</sic><corr>v</corr></choice>rātā</lem>
+        <rdg source="bib:Hultzsch1925-1926_06">bhrātā</rdg>
+      </app>
+      <app loc="11">
+        <lem>-p<unclear reason="eccentric_ductus">a</unclear>rākramaḥ</lem>
+        <rdg source="bib:Hultzsch1925-1926_06">-p<choice><sic>ā</sic><corr>a</corr></choice>rākramaḥ</rdg>
+        <note>The engraver probably started adding the vowel marker for <unclear>ā</unclear>, but only got to a short distance horizontally and did not turn downward.</note>
+      </app>
+      <app loc="11">
+        <lem><add place="below">sa</add>-catvāriṁśa<subst><del rend="corrected"><unclear>t samā</unclear></del><add place="overstrike">d a<surplus><unclear>ṣṭhya</unclear></surplus></add></subst>ṣṭa<subst><del rend="corrected"><unclear>bhiḥ</unclear></del><add place="overstrike">kaṁ</add></subst></lem>
+        <rdg source="bib:Hultzsch1925-1926_06"><add place="below">sa</add> catvāriṁśad abdhyaṣṭakaṁ</rdg>
+        <note>According to Hultzsch, the text <foreign>°d abdhyaṣṭakaṁ</foreign> seems to have been engraved over an erasure and may have been meant for <foreign>°d aṣṭakaṁ</foreign> or <foreign>°d abdakān</foreign>.In my view, this correction goes hand in hand with the insertion at the beginning of the <foreign>pāda</foreign>: the initially engraved text was almost certainly <foreign>catvāriṁśat samāṣṭabhiḥ</foreign>. This was corrected to <foreign>sa-catvāriṁśad aṣṭakaṁ</foreign> in the following steps. First, <foreign>sa</foreign> was added at the beginning. Then, <foreign>tsa</foreign> was partly hammered out (only vestiges of the subscript <foreign>s</foreign> are now visible) and corrected to <foreign>da</foreign>. Next, the engraver attempted to correct <foreign>mā</foreign> to <foreign>ṣṭa</foreign>, but accidentally engraved <foreign>ṣṭhya</foreign>. At this stage, he decided to skip this character, since <foreign>ṣṭa</foreign> was already there anyway to the right. He finally went on to correct <foreign>bhiḥ</foreign> to <foreign>kaṁ</foreign> (the left leg of <foreign>bh</foreign> and part of the <foreign>i</foreign> remain visible, along with the <foreign>visarga</foreign> whose upper dot has been repurposed into an <foreign>anusvāra</foreign>). I am quite confident about most of this reconstruction, except for the putative correction of <foreign>mā</foreign> to <foreign>ṣṭa</foreign>, where something even more complex may have been going on.</note>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17"></p>
+  </div>  
+</div>
+
+
+
+<div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-17"></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+</div>
+
+
+
+<div type="bibliography">
+  <p>Edited from inked impressions by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_06"/></bibl>), with facsimiles and translation.<note>The translation does not include the first 33 lines, which are by and large identical to the first 34 lines of the <ref target="CalE47-Maliyapundi-Amma2.xml">Maliyapūṇḍi grant</ref>.</note> The present edition by Dániel Balogh is based on a collation of Hultzsch's edition with his estampages.</p>
+  <listBibl type="primary">
+    <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_06"/></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
