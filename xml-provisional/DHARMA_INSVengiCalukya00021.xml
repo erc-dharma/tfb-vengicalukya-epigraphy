@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE30-Korraparru-Vijayaditya2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00021</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE30</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -184,7 +185,7 @@ Asyopari na kenacid bādhā karaṇīyā<supplied reason="subaudible">.</supplie
         <lem><supplied reason="lost">kaṇḍeṟu</supplied><lb/>vāḍi-</lem>
         <rdg source="bib:Hultzsch1890_01"><gap reason="illegible" quantity="4" unit="character"/><lb/>vādi-</rdg>
         <rdg source="bib:Fleet1891_04"><gap reason="illegible" quantity="3" unit="character" precision="low"/><lb/>vāḍi-</rdg>
-        <note>Hultzsch prints four asterisks for the gap, while Fleet notes that it is three or four characters in extent. Nothing is discernible in Elliot's impression, and the extent of the gap is about the same as that of the sequence <foreign>ditam astu</foreign> in the next line. However, given that the village <foreign>vāṇḍṟūpedayū</foreign> (line 44) must, as pointed out by Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">120</citedRange><citedRange unit="note">10</citedRange></bibl>), be identical to <foreign>va<unclear cert="low">ṇḍṟ</unclear><unclear>upi</unclear><unclear cert="low">ṭeyu</unclear></foreign> in line 15 of the <ref target="CalE29-Ederu-Vijayaditya1.xml">Eḍeru plates</ref>, the name of the <foreign>viṣaya</foreign> may be confidently restored to that named in that earlier grant.</note>
+        <note>Hultzsch prints four asterisks for the gap, while Fleet notes that it is three or four characters in extent. Nothing is discernible in Elliot's impression, and the extent of the gap is about the same as that of the sequence <foreign>ditam astu</foreign> in the next line. However, given that the village <foreign>vāṇḍṟūpedayū</foreign> (line 44) must, as pointed out by Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">120</citedRange><citedRange unit="note">10</citedRange></bibl>), be identical to <foreign>va<unclear cert="low">ṇḍṟ</unclear><unclear>upi</unclear><unclear cert="low">ṭeyu</unclear></foreign> in line 15 of the <ref target="DHARMA_INSVengiCalukya00020.xml">Eḍeru plates</ref>, the name of the <foreign>viṣaya</foreign> may be confidently restored to that named in that earlier grant.</note>
       </app>
       <app loc="18">
         <lem source="bib:Fleet1891_04"><unclear>vo</unclear> <supplied reason="subaudible">’</supplied><unclear>smābhiḥ</unclear> <space type="binding-hole"/> penpaṇḍuru-</lem>
@@ -253,7 +254,7 @@ Asyopari na kenacid bādhā karaṇīyā<supplied reason="subaudible">.</supplie
       <app loc="45">
         <lem source="bib:Fleet1891_04">Ete<unclear cert="low">ṣām ap</unclear>y a<unclear cert="low">va</unclear><unclear>tta</unclear></lem>
         <rdg source="bib:Hultzsch1890_01">ca<unclear>turviṁśatyai</unclear> datta<supplied reason="omitted">ḥ</supplied></rdg>
-        <note>The Edinburgh rubbing does not help much, so I provisionally adopt Fleet's reading, which he prints as clear except for <foreign>va</foreign>, though he does not venture to interpret it. The correct reading probably involves some variation on <foreign>etac-catur-avadhi</foreign> (this phrase is repeated at this point in line 17 of the <ref target="DHARMA_INSVengiCalukya00016.xml">Jaḷayūru grant of Viṣṇuvardhana III</ref>, where it is part of a complete sentence; and line 23 of the <ref target="CalE29-Ederu-Vijayaditya1.xml">Eḍeru plates of Vijayāditya I</ref>, where it stands on its own); or possibly something like <foreign>eteṣām ity āghāṭāḥ</foreign>. The character Fleet reads as <foreign>pya</foreign> could very well be <foreign>dhya</foreign>, perhaps the end of the word <foreign>avadhi</foreign> in sandhi.</note>
+        <note>The Edinburgh rubbing does not help much, so I provisionally adopt Fleet's reading, which he prints as clear except for <foreign>va</foreign>, though he does not venture to interpret it. The correct reading probably involves some variation on <foreign>etac-catur-avadhi</foreign> (this phrase is repeated at this point in line 17 of the <ref target="DHARMA_INSVengiCalukya00016.xml">Jaḷayūru grant of Viṣṇuvardhana III</ref>, where it is part of a complete sentence; and line 23 of the <ref target="DHARMA_INSVengiCalukya00020.xml">Eḍeru plates of Vijayāditya I</ref>, where it stands on its own); or possibly something like <foreign>eteṣām ity āghāṭāḥ</foreign>. The character Fleet reads as <foreign>pya</foreign> could very well be <foreign>dhya</foreign>, perhaps the end of the word <foreign>avadhi</foreign> in sandhi.</note>
       </app>
       <app loc="45">
         <lem source="bib:Fleet1891_04">pa<pb/><lb/><unclear>ñca</unclear>-</lem>
@@ -394,7 +395,7 @@ l’excellent roi Nr̥pa Rudra est l’exécuteur de ce don.</p>
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">18</citedRange></bibl>. First edited from the original plates by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">31-36</citedRange><citedRange unit="item">35</citedRange></bibl>), with a translation skipping some details and an estampage.<!--CHECK?--> Also edited from the original plates by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_04"/></bibl>), with an abstract of the contents and an estampage<!--CHECK?-->. The present edition by Dániel Balogh is based on a collation of the above editions with inked impressions made by Sir Walter Elliot.<note>There is no facsimile in any of my scans of SII1 or IA20, though PEM's metadata say a facsimile is present in both editions. This needs checking. The Edinburgh volume of Elliot's impressions includes these plates, but I have no photo of folio 71, which should have the impressions of 3r, 3v and 4r. These pages were collated with the rubbings in the Bibliothèque nationale de France.<!--The original plates are in the BL, Ind Ch 23 - collate when images are available.--></note>
+  <p>First edited from the original plates by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">31-36</citedRange><citedRange unit="item">35</citedRange></bibl>), with a translation skipping some details and an estampage.<!--CHECK?--> Also edited from the original plates by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_04"/></bibl>), with an abstract of the contents and an estampage<!--CHECK?-->. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">18</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of the above editions with inked impressions made by Sir Walter Elliot.<note>There is no facsimile in any of my scans of SII1 or IA20, though PEM's metadata say a facsimile is present in both editions. This needs checking. The Edinburgh volume of Elliot's impressions includes these plates, but I have no photo of folio 71, which should have the impressions of 3r, 3v and 4r. These pages were collated with the rubbings in the Bibliothèque nationale de France.<!--The original plates are in the BL, Ind Ch 23 - collate when images are available.--></note>
   </p>
   <listBibl type="primary">
     <bibl n="EH"><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">31-36</citedRange><citedRange unit="item">35</citedRange></bibl>
