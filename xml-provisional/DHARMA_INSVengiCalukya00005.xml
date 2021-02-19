@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE14-Gudivada1-Jayasimha1</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00005</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE14</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -201,7 +202,7 @@ le cher fils du grand roi Viṣṇuvardhana, grand Viṣṇu du <foreign>yuga</f
 
 <div type="commentary">
 <p> Some notes on the relationship of the three grants edited in (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>, hereafter: SS) based on his summary on p136 and filled out with place names. SS's editor finds his argument unconvincing; he notes that both the village and the donee names are different in the first two grants, and the third grant seems to be a later modified copy of the second.</p>
-<p>Grant 1 = CalE14, called Ādivāsa by PEM
+<p>Grant 1 = <ref target="DHARMA_INSVengiCalukya00005.xml">this grant</ref>, called Ādivāsa by PEM
 <list>
 <item>SS:the second grant, creating a new agrahāra from land cut off on the one side from (the western portion of) Ādivāsa and on the other side from Guḍivāḍa</item>
 <item>Text: he grants some land, possibly cut off from (the western part of?) Punnagapadra and including Kulivataka-ksetra. The donees are Vinayasarman and Visnusarman, sons of Vasusarman, grandsons of Kumarasarman of the Maudgalya gotra.</item>
@@ -211,14 +212,14 @@ le cher fils du grand roi Viṣṇuvardhana, grand Viṣṇu du <foreign>yuga</f
 <item>I now think that the intended meaning is something like: Ādivāse(/aṁ) punnāgapadre(/aṁ) vasatiṁ kr̥tvā kuḻivāṭaka-kṣetra-sahitaḥ paścima-khaṇḍaḥ ... saṁprattaḥ (or -sahitaṁ paścima-khaṇḍaṁ ... saṁprattaM; khaṇḍa can be both m and n). </item>
 </list>
 </p>
-<p>Grant 2 = CalE15, called Kuḍivāḍa 1 by PEM
+<p>Grant 2 = <ref target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa plates (set 2)</ref>, called Kuḍivāḍa 1 by PEM
 <list>
 <item>SS: the first grant, creating the village of Kuḍivāḍa/Guḍivāḍa or creating an agrahāra from that village</item>
 <item>Text: he settles them in Kudivada village, cutting off land from Kundura village. The donees are Svamiyasas and Visnuyasas, sons of Visnuyasas, grandsons of Mitrayasas. The donees further give one ninth of their land to their sister's son (bhāgineya) Visnusarman, who is of the Gavismi gotra and thus probably different from the Visnusarman in Grant 1.</item>
 <item>Actual text: kuḍivāḍa-nāma grāmaḥ vasati kr̥tvā kundūra-grāma-simno dvātrāṅśa-nivarttanaṁ chitvā … sambrattaṁ</item>
 </list>
 </p>
-<p>Grant 3 = CalE16, called Kuḍivāḍa 2 by PEM
+<p>Grant 3 = <ref target="DHARMA_INSVengiCalukya00007.xml">Guḍivāḍa plates (set 3)</ref>, called Kuḍivāḍa 2 by PEM
 <list>
 <item>SS: the third grant, compensating the donees (which ones?) by cutting off land again from the village of Kundūru.</item>
 <item>Text: same donation and donees as in Grant 2, but without the brother-in-law. (So why don't we assume this is the earlier version, and Grant 2 is a later re-issue of this one?)</item>
@@ -233,9 +234,9 @@ le cher fils du grand roi Viṣṇuvardhana, grand Viṣṇu du <foreign>yuga</f
 
 
 <div type="bibliography">
-  <p>Edited from the original plates by M. Somasekhara Sarma(<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>129-133</citedRange></bibl>), with estampages of the plates and photograph of the seal. The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
+  <p>Edited from the original plates by M. Somasekhara Sarma(<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange unit="page">129-133</citedRange><citedRange unit="item">A</citedRange></bibl>), with estampages of the plates and photograph of the seal. The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>129-133</citedRange></bibl>
+    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange unit="page">129-133</citedRange><citedRange unit="item">A</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">

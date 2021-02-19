@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE16-Gudivada3-Jayasimha1</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00007</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                  <!--<altIdentifier type="PEM"><idno type="corpus">CalE16</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -55,7 +56,7 @@
                <physDesc>
                   <handDesc>
                      <p>Halantas. T: ta shape with elongated stem and no headmark. E.g. l1 vāsakāT. M: like a J with a curly end, quite small. E.g. l20 samudra<orig>M</orig>; even simpler and less curly, like a plain J: l20 taṭākaM.</p>
-                     <p><!--Original punctuation.   -->Other palaeographic observations. The hand is conspicuously different from that of <ref n="tfa-pallava-epigraphy" target="CalE15-Gudivada2-Jayasimha1.xml">Guḍivāḍa 2</ref>, not only in ductus but in the shaping of some glyphs as well, e.g. kha in l1 of both charters. Note the occurrence of very rare initial Ai in l5 Aidaṁyugīna. There is also initial E in l19.                
+                     <p><!--Original punctuation.   -->Other palaeographic observations. The hand is conspicuously different from that of <ref n="tfa-pallava-epigraphy" target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, not only in ductus but in the shaping of some glyphs as well, e.g. kha in l1 of both charters. Note the occurrence of very rare initial Ai in l5 Aidaṁyugīna. There is also initial E in l19.                
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -135,7 +136,7 @@ Uttarataḥ Āvakaṭṭu</p>
     <listApp>
       <app loc="1">
         <lem><unclear><g type="spiralR"/></unclear></lem>
-        <note>Somasekhara Sarma transcribes this symbol as <foreign>oṁ</foreign>. It is barely discernible in the scanned facsimile, and it must be in the margin, since the first character of the text is flush with the following line beginnings. I assume the symbol is identical to that in <ref n="tfa-pallava-epigraphy" target="CalE15-Gudivada2-Jayasimha1.xml">Guḍivāḍa 2</ref>, but it may instead be a counterclockwise spiral.</note>
+        <note>Somasekhara Sarma transcribes this symbol as <foreign>oṁ</foreign>. It is barely discernible in the scanned facsimile, and it must be in the margin, since the first character of the text is flush with the following line beginnings. I assume the symbol is identical to that in <ref n="tfa-pallava-epigraphy" target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, but it may instead be a counterclockwise spiral.</note>
       </app>
       <app loc="4">
         <lem><orig>cadukyānāṁ</orig></lem>
@@ -145,16 +146,16 @@ Uttarataḥ Āvakaṭṭu</p>
       <app loc="14">
         <lem>sva-pitu<supplied reason="omitted">r</supplied></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">pit<choice><sic>u</sic><corr>r̥</corr></choice>-</rdg>
-        <note>Although in my emendation the genitive associated with an internal compound member is not as nice grammatically as the compound in Somasekhara Sarma's emendation, compare <foreign>sva-pitur anūna-guṇa-...-rociṣṇor</foreign> in <ref target="CalE14-Gudivada1-Jayasimha1.xml">(set 1)</ref> of the same provenance.</note>
+        <note>Although in my emendation the genitive associated with an internal compound member is not as nice grammatically as the compound in Somasekhara Sarma's emendation, compare <foreign>sva-pitur anūna-guṇa-...-rociṣṇor</foreign> in <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> of the same provenance.</note>
       </app>
       <app loc="17">
         <lem>grāma<choice><sic>ḥ</sic><corr>ṁ</corr></choice></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">grāmaḥ</rdg>
-        <note>Compare the text of <ref target="CalE14-Gudivada1-Jayasimha1.xml">(set 1)</ref> and my commentary on it.</note>
+        <note>Compare the text of <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> and my commentary on it.</note>
       </app>
       <app loc="17">
         <lem>sīmn<orig>o</orig></lem>
-        <note>Compare line 18 of <ref n="tfa-pallava-epigraphy" target="CalE15-Gudivada2-Jayasimha1.xml">Guḍivāḍa 2</ref>, where this word is followed by <foreign>dvātriṅśan-nivarttanaṁ</foreign>. The same must have been omitted (deliberately or erroneously) from the present text.</note>
+        <note>Compare line 18 of <ref n="tfa-pallava-epigraphy" target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, where this word is followed by <foreign>dvātriṅśan-nivarttanaṁ</foreign>. The same must have been omitted (deliberately or erroneously) from the present text.</note>
       </app>
       <app loc="19">
         <lem>E<unclear>va</unclear> <add place="inline"><unclear>sīmā</unclear></add></lem>
@@ -215,15 +216,15 @@ renaît ver de terre dans les exécréments pour soixante mille ans.
 
 
 <div type="commentary">
-<p>My notes on the relationship of the three grants edited in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl> are in my commentary on the <ref target="CalE14-Gudivada1-Jayasimha1">Guḍivāḍa plates (set 1)</ref>. This set of plates also includes a seal, but it is without text, showing only a spiral line (photo in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>).</p>
+<p>My notes on the relationship of the three grants edited in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl> are in my commentary on the <ref target="DHARMA_INSVengiCalukya00005">Guḍivāḍa plates (set 1)</ref>. This set of plates also includes a seal, but it is without text, showing only a spiral line (photo in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl>).</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>Edited from the original plates by M. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>136-138</citedRange></bibl>), with estampages of the plates and photograph of the seal.  The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
+  <p>Edited from the original plates by M. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange unit="page">136-138</citedRange><citedRange unit="item">C</citedRange></bibl>), with estampages of the plates and photograph of the seal.  The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>136-138</citedRange></bibl>
+    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange unit="page">136-138</citedRange><citedRange unit="item">C</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE15-Gudivada2-Jayasimha1</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00006</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                  <!--<altIdentifier type="PEM"><idno type="corpus">CalE15</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -160,7 +161,7 @@
       <app loc="14">
         <lem>sva-pitu<supplied reason="omitted">r</supplied></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">pit<choice><sic>u</sic><corr>r̥</corr></choice>-</rdg>
-        <note>Although in my emendation the genitive associated with an internal compound member is not as nice grammatically as the compound in Somasekhara Sarma's emendation, compare <foreign>sva-pitur anūna-guṇa-...-rociṣṇor</foreign> in <ref target="CalE14-Gudivada1-Jayasimha1.xml">(set 1)</ref> of the same provenance.</note>
+        <note>Although in my emendation the genitive associated with an internal compound member is not as nice grammatically as the compound in Somasekhara Sarma's emendation, compare <foreign>sva-pitur anūna-guṇa-...-rociṣṇor</foreign> in <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> of the same provenance.</note>
       </app>
       <app loc="15">
         <lem>tat<unclear>v</unclear>a</lem>
@@ -170,7 +171,7 @@
         <lem>grāma<supplied reason="omitted">ṁ</supplied></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">grāme</rdg>
         <rdg source="bib:SomasekharaSarma1955-1956_01">grāma<supplied reason="omitted">ḥ</supplied></rdg>
-        <note>The incorrect reading cited from Somasekhara Sarma is his own; the correct reading and emendation cited from him is in an editorial footnote. Compare the text of <ref target="CalE14-Gudivada1-Jayasimha1.xml">(set 1)</ref> and my commentary on it.</note>
+        <note>The incorrect reading cited from Somasekhara Sarma is his own; the correct reading and emendation cited from him is in an editorial footnote. Compare the text of <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> and my commentary on it.</note>
       </app>
       <app loc="18">
         <lem>dvātr<choice><sic>o</sic><corr>i</corr></choice><orig>ṅ</orig><unclear>ś</unclear>a<supplied reason="omitted">n</supplied>-</lem>
@@ -238,14 +239,14 @@ Have no fear, o kings, that <supplied reason="subaudible">land</supplied> may no
 
 
 
-<div type="commentary"><p>My notes on the relationship of the three grants edited in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl> are in my commentary on the <ref target="CalE14-Gudivada1-Jayasimha1">Guḍivāḍa plates (set 1)</ref>.</p></div>
+<div type="commentary"><p>My notes on the relationship of the three grants edited in <bibl><ptr target="bib:SomasekharaSarma1955-1956_01"/></bibl> are in my commentary on the <ref target="DHARMA_INSVengiCalukya00005">Guḍivāḍa plates (set 1)</ref>.</p></div>
 
 
 
 <div type="bibliography">
-  <p>Edited from the original plates by M. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>133-136</citedRange></bibl>), with estampages of the plates and photograph of the seal.  The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
+  <p>Edited from the original plates by M. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange unit="page">133-136</citedRange><citedRange unit="item">B</citedRange></bibl>), with estampages of the plates and photograph of the seal.  The present edition by Dániel Balogh is based on a collation of Somasekhara Sarma's edition with his facsimiles.</p>
   <listBibl type="primary">
-    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>133-136</citedRange></bibl>
+    <bibl n="MSS"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange unit="page">133-136</citedRange><citedRange unit="item">B</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
