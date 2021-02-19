@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE21-Reyuru-Visnuvardhana2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00012</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,6 +46,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE21</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -235,7 +236,7 @@ rā<orig>puṁrbo</orig>yasya kauṇḍilyagotra jeṭṭiśarmmaṇa Ek<supplie
       </app>
       <app loc="67">
         <lem>dīrghocā<unclear>y</unclear>i<gap reason="lost" quantity="2" unit="character" precision="low"/></lem>
-        <note>According to Fleet, two or three characters are lost at the end. Given the vestiges and the size of the margin in other lines (see the notes to the ends of the previous two lines), two seems more likely. Vestiges after <foreign>yi</foreign> resemble <foreign>na</foreign> followed by <foreign>sa</foreign> or <foreign>ṇa</foreign>, but these seem to be too close together. The beginning of the next line is very closely spaced, and that may be the case here too, in which case three characters may after all have been lost here. Could the intent have been <foreign>vr̥ddhopacāyinas tasya</foreign>? Compare the spelling <foreign>puṇyābhivirdhaye</foreign> in line 18 of the <ref target="CalE17-Niduparu-Jayasimha1.xml">Niḍupaṟu grant</ref>. Finally, the character <foreign>rgho</foreign> could perpahs be read instead as <foreign>ghau</foreign>, since the strokes for <foreign>o</foreign> are not on top of the probable <foreign>repha</foreign>, but all three strokes start from the head of the consonant. Nonetheless, Fleet is probably right in reading <foreign>rgho</foreign>; the unusual execution was probably driven by interference from the descender of <foreign>myā</foreign> above.</note>
+        <note>According to Fleet, two or three characters are lost at the end. Given the vestiges and the size of the margin in other lines (see the notes to the ends of the previous two lines), two seems more likely. Vestiges after <foreign>yi</foreign> resemble <foreign>na</foreign> followed by <foreign>sa</foreign> or <foreign>ṇa</foreign>, but these seem to be too close together. The beginning of the next line is very closely spaced, and that may be the case here too, in which case three characters may after all have been lost here. Could the intent have been <foreign>vr̥ddhopacāyinas tasya</foreign>? Compare the spelling <foreign>puṇyābhivirdhaye</foreign> in line 18 of the <ref target="DHARMA_INSVengiCalukya00008.xml">Niḍupaṟu grant</ref>. Finally, the character <foreign>rgho</foreign> could perpahs be read instead as <foreign>ghau</foreign>, since the strokes for <foreign>o</foreign> are not on top of the probable <foreign>repha</foreign>, but all three strokes start from the head of the consonant. Nonetheless, Fleet is probably right in reading <foreign>rgho</foreign>; the unusual execution was probably driven by interference from the descender of <foreign>myā</foreign> above.</note>
       </app>
       
       
@@ -441,12 +442,13 @@ celui qui possède la terre en possède le fruit.</p>
 
 
 <div type="bibliography">
-  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1878_02"/></bibl>), with translation, without a facsimile. The estampage was published separately as <bibl><ptr target="bib:Fleet1879_03"/></bibl>) (where Fleet is not named as the author), which contains no edition or discussion, only the facsimile and a few lines describing what it is. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles, with photographs of the plates from the British Library (done for part of the text by Arlo Griffiths and later repeated in full by Dániel Balogh), and inked impressions from Sir Walter Elliot's collection<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum.</note>, which appear to have been taken prior to cleaning the plates and offer no new insights. 
+  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1878_02"/></bibl>), with translation, without a facsimile. The estampage was published separately as <bibl><ptr target="bib:Fleet1879_03"/></bibl>) (where Fleet is not named as the author), which contains no edition or discussion, only the facsimile and a few lines describing what it is. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-1963</citedRange><citedRange unit="item">15</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles, with photographs of the plates from the British Library (done for part of the text by Arlo Griffiths and later repeated in full by Dániel Balogh), and inked impressions from Sir Walter Elliot's collection<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum.</note>, which appear to have been taken prior to cleaning the plates and offer no new insights. 
   </p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1878_02"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-1963</citedRange><citedRange unit="item">15</citedRange></bibl>
     <bibl><ptr target="bib:Fleet1879_03"/></bibl>
     <bibl><ptr target="bib:Gaur1975_01"/><citedRange>4-5</citedRange></bibl>
   </listBibl>
