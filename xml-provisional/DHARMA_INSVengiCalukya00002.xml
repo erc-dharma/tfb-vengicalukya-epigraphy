@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE11-Cipurupalle-Visnuvardhana1</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00002</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licenced under the Creative Commons Attribution 4.0 Unported Licence. To view
@@ -44,6 +44,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE11</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -154,7 +155,7 @@
                      <app loc="13">
                         <lem><unclear>pḻaki</unclear>-</lem>
                         <rdg source="bib:Burnell1878_01 bib:Fleet1891_01"><unclear cert="low">pūki</unclear>-</rdg>
-                        <note>The improved reading was suggested in <bibl><ptr target="bib:Hultzsch1907-1908_03"/><citedRange>318</citedRange></bibl> on the basis of <foreign>paḻaki-viṣaye</foreign> in line 11 of <ref target="CalE12-Timmapuram-Visnuvardhana1.xml"/> and is perfectly plausible from the facsimile.</note>
+                        <note>The improved reading was suggested in <bibl><ptr target="bib:Hultzsch1907-1908_03"/><citedRange>318</citedRange></bibl> on the basis of <foreign>paḻaki-viṣaye</foreign> in line 11 of <ref target="DHARMA_INSVengiCalukya00003.xml"/> and is perfectly plausible from the facsimile.</note>
                      </app>
                   </listApp>
                   <app loc="14">
@@ -248,7 +249,7 @@ Né dans l’illustre famille des Matsya, celui dont les ennemis se sont inclin�
            <p>First brought to notice by Master in 1867, who sent the plates to the Madras Government. Described and translated (but not edited) by T. Foulkes (<bibl rend="omitname"><ptr target="bib:Foulkes1870_01"/></bibl>). First edited by A. C. Burnell (<bibl rend="omitname"><ptr target="bib:Burnell1878_01"/><citedRange>137-138</citedRange></bibl>) with a lithograph (of an inked estampage?) in Plate 27. Re-edited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_01"/></bibl>) by which time the plates had been lost, so Fleet worked from Burnell's lithograph. PEM's record says Fleet's edition includes a facsimile, but this does not seem to be the case; CHECK a printed copy of IA20. The present edition by Dániel Balogh is based on a collation of the above editions with the estampages published by Burnell.</p>
            <listBibl type="primary">
              <bibl n="ACB"><ptr target="bib:Burnell1878_01"/><citedRange>137-138</citedRange></bibl>
-             <bibl n="JFF"><ptr target="bib:Fleet1891_01,"/></bibl>
+             <bibl n="JFF"><ptr target="bib:Fleet1891_01"/></bibl>
            </listBibl>
            <listBibl type="secondary">
              <bibl><ptr target="bib:Foulkes1870_01"/></bibl>
