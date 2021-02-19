@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE25-Jalayuru-Visnuvardhana3</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00016</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE25</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -145,7 +146,7 @@ Original punctuation. There seems to be a punctuation mark resembling a visarga/
       </app>
       <app loc="9">
         <lem>-vandita<supplied reason="omitted">ḥ</supplied> <choice><orig>pā</orig><reg>prā</reg></choice><lb/><choice><orig>ṭaka</orig><reg>rthaka</reg></choice>-</lem>
-        <note>Hultzsch emends/standardises the same reading to <foreign>-vandi-pāṭhaka-</foreign>, which is perfectly plausible. I believe my suggestion is slightly more likely even though it involves a larger alteration to <foreign>pāṭaka</foreign>. Earlier Eastern Cālukya kings described as <foreign>kāmadhenu</foreign> direct their generosity at the needy and Brahmins (<ref target="DHARMA_INSVengiCalukya00002.xml">Cīpurupalle plates</ref>, line 5); supplicants (<ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates</ref>, line 9); and seekers of protection (<ref target="DHARMA_INSVengiCalukya00004.xml">Peṇukapaṟu grant</ref>, line 7; probably also <ref target="CalE22-Koneki-Visnuvardhana2.xml">Koṇeki grant</ref>, line 9). </note>
+        <note>Hultzsch emends/standardises the same reading to <foreign>-vandi-pāṭhaka-</foreign>, which is perfectly plausible. I believe my suggestion is slightly more likely even though it involves a larger alteration to <foreign>pāṭaka</foreign>. Earlier Eastern Cālukya kings described as <foreign>kāmadhenu</foreign> direct their generosity at the needy and Brahmins (<ref target="DHARMA_INSVengiCalukya00002.xml">Cīpurupalle plates</ref>, line 5); supplicants (<ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates</ref>, line 9); and seekers of protection (<ref target="DHARMA_INSVengiCalukya00004.xml">Peṇukapaṟu grant</ref>, line 7; probably also <ref target="DHARMA_INSVengiCalukya00013.xml">Koṇeki grant</ref>, line 9). </note>
       </app>
       <app loc="10">
         <lem>ni<supplied reason="omitted">r</supplied><choice><orig>macchājy</orig><reg>mātsary</reg></choice><unclear>ā</unclear> <gap reason="ellipsis"/> <choice><orig>riṣya</orig><reg>riṣṭa</reg></choice>-</lem>
