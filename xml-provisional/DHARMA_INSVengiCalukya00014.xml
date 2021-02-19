@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -29,7 +29,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE23-Nutulaparu-Mangi</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00014</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -48,6 +48,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE23</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -163,7 +164,7 @@ Atra vy<choice><sic>a</sic><corr>ā</corr></choice>sa-gītā<supplied reason="om
       <app loc="12">
         <lem>-dhāraṇa-namita-</lem>
         <rdg source="bib:Fleet1891_02">-dhāraṇ<choice><sic>a</sic><corr>ā</corr></choice>namita-</rdg>
-        <note>I do not see the necessity for Fleet's emendation. Moreover, the actual intent must have been <foreign>-dhārānamita-</foreign>; compare line 8 of the <ref target="CalE22-Koneki-Visnuvardhana2.xml">Koṇeki Grant</ref> and line 6 of the <ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates</ref>.</note>
+        <note>I do not see the necessity for Fleet's emendation. Moreover, the actual intent must have been <foreign>-dhārānamita-</foreign>; compare line 8 of the <ref target="DHARMA_INSVengiCalukya00013.xml">Koṇeki Grant</ref> and line 6 of the <ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates</ref>.</note>
       </app>
       <app loc="13">
         <lem>-ra<choice><sic>jiṁ</sic><corr>ṁji</corr></choice>ta-</lem>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE22-Koneki-Visnuvardhana2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00013</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,6 +46,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE22</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -193,7 +194,7 @@ Iru<lb n="40" break="no"/>kuṭūrur-bo<unclear>y</unclear><orig><unclear>asya</
       </app>
       <app loc="11">
         <lem>-prasūtāmoda-</lem>
-        <note>Compare the much better reading <foreign>prasūty-āmoda</foreign> in line 8 of the <ref target="CalE23-Nutulaparu-Mangi.xml">Nutulapaṟu Grant</ref>. There is a curved line below the characters <foreign>tāmo</foreign>, which may perhaps be a subsequently added subscript <foreign>y</foreign>. But since the phrasing is different from (and inferior to) that parallel locus, it may simply be that an item of what must be standard praise is slightly garbled here.</note>
+        <note>Compare the much better reading <foreign>prasūty-āmoda</foreign> in line 8 of the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu Grant</ref>. There is a curved line below the characters <foreign>tāmo</foreign>, which may perhaps be a subsequently added subscript <foreign>y</foreign>. But since the phrasing is different from (and inferior to) that parallel locus, it may simply be that an item of what must be standard praise is slightly garbled here.</note>
       </app>
       <app loc="15">
         <lem source="bib:Narasimhaswami1955-1956_01">-śakra<supplied reason="omitted">r</supplied>ddhi-</lem>
@@ -397,14 +398,14 @@ Prospérité !
 
 
 <div type="bibliography">
-  <p> Edited from the original by H. K. Narasimhaswami (<bibl rend="omitname"><ptr target="bib:Narasimhaswami1955-1956_01"/></bibl>) with a summary of the contents, estampages of the plates and a (poorly printed) photograph of the seal. The present edition by Dániel Balogh is based on a collation of Narasimhaswami's text with a poor-quality scan of the plates in Epigraphia Indica.
+  <p>First noticed in <bibl><ptr target="bib:ARIE1939-1943"/><citedRange unit="page">30</citedRange><citedRange unit="appendix">A/1940-1941</citedRange><citedRange unit="item">39</citedRange></bibl>. Edited from the original by H. K. Narasimhaswami (<bibl rend="omitname"><ptr target="bib:Narasimhaswami1955-1956_01"/></bibl>) with a summary of the contents, estampages of the plates and a (poorly printed) photograph of the seal. The present edition by Dániel Balogh is based on a collation of Narasimhaswami's text with a poor-quality scan of the plates in Epigraphia Indica.
   </p>
   <listBibl type="primary">
     <bibl n="HKN"><ptr target="bib:Narasimhaswami1955-1956_01"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/>
+    <bibl><ptr target="bib:ARIE1939-1943"/><citedRange unit="page">30</citedRange><citedRange unit="appendix">A/1940-1941</citedRange><citedRange unit="item">39</citedRange></bibl>
   </listBibl>
 </div>
 
