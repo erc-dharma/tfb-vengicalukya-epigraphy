@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE24-Penukaparu-Jayasimha2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00015</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,6 +46,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE24</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -122,7 +123,7 @@ Asya kṣetrasya kūpa-dvayaM<supplied reason="subaudible">.</supplied>
 taṭāka E<lb n="20" break="no"/>kaḥ<supplied reason="subaudible">.</supplied> kūpaḥ tāla-taṭākasya pūrvvataḥ</p>
 <p>dakṣiṇārddhe vrīhi-kṣetraṁ catuṣṭaya parimā<lb n="21" break="no"/>ṇaṁ prā<space type="binding-hole"/>g-apavarggaṁ ca</p>
 <p>grāmasyottara-pūrvva-deśe girāv a<supplied reason="omitted">va</supplied>kāśaM</p>
-<p>Eta<orig><add place="above">ś</add></orig> catur-avadhi<lb n="22" break="no"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<orig><unclear>ā</unclear></orig>n dharmma-yaśobhivr̥ddhaye sarvva-kara-parihāropetam u<del rend="mark">ka</del>daka-pū<lb n="23" break="no"/>rvvakaṁ brahmadeyī-kr̥tya prādāM<supplied reason="subaudible">.</supplied>
+<p>Eta<orig><add place="above">ś</add></orig> catur-avadhi<lb n="22" break="no"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<orig><unclear>ā</unclear></orig>n dharmma-yaśobhivr̥ddhaye sarvva-kara-parihāropetam u<del rend="other">ka</del>daka-pū<lb n="23" break="no"/>rvvakaṁ brahmadeyī-kr̥tya prādāM<supplied reason="subaudible">.</supplied>
 Asya sarvva-kara-parihāropetasya kṣetrasya yo <lb n="24"/>bādhāṁ karoti sa<surplus>ḥ</surplus> <orig>vāraṇāśyāṁ</orig> sahasra-brahma-haty<orig>a</orig>-pātaka-saṁyukto bhavati<supplied reason="subaudible">.</supplied><lb n="25"/>yo <supplied reason="subaudible">’</supplied>smac-chāsanam atikr<choice><sic>a</sic><corr>ā</corr></choice>met sa pāpaḥ śār<choice><sic>i</sic><corr>ī</corr></choice>ran daṇḍam arhati so <supplied reason="subaudible">’</supplied>pi paṁca-mahā<pb n="3r" break="no"/><lb n="26" break="no"/>-pātaka-saṁyukto bhavati<supplied reason="subaudible">.</supplied> bhavanti cātra ślokāḥ</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">bhūm<unclear>i</unclear>-dānāt pa<unclear>ran dānan</unclear></l>
@@ -199,12 +200,12 @@ Asya sarvva-kara-parihāropetasya kṣetrasya yo <lb n="24"/>bādhāṁ karoti s
       </app>
       <app loc="21">
         <lem>Eta<orig><add place="above">ś</add></orig> catur-avadhi<lb n="22"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<orig><unclear>ā</unclear></orig>n</lem>
-        <rdg>Eta<choice><sic>ś</sic><corr>c</corr></choice>-catur-avadhi<lb/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<choice><sic>ā</sic><corr><corr>a</corr></corr></choice>n</rdg>
+        <rdg source="bib:Hultzsch1925-1926_04">Eta<choice><sic>ś</sic><corr>c</corr></choice>-catur-avadhi<lb/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<choice><sic>ā</sic><corr><corr>a</corr></corr></choice>n</rdg>
         <note>An initially engraved <foreign>ca</foreign> was corrected to <foreign>śca</foreign> by engraving <foreign>ś</foreign> on top, which Hultzsch does not mention. His interpretation and emendation are plausible, but I believe the intent of the composer or the corrector may rather have been <foreign>etāṁś catur-avadhi-paryyantān kṣetrān</foreign>, even though <foreign>kṣetra</foreign> is expected to be neuter and was used as such in line 15 above.</note>
       </app>
       <app loc="22">
-        <lem>u<del rend="mark">ka</del>daka-</lem>
-        <note>The first <note>ka</note> is cancelled by a short horizontal stroke above it.</note>
+        <lem>u<del rend="other">ka</del>daka-</lem>
+        <note>The first <foreign>ka</foreign> is cancelled by a short horizontal stroke above it.</note>
       </app>
       <app loc="26">
         <lem>pa<unclear>ran dānan</unclear><unclear>na bhūtan na</unclear> bha<lb/>viṣyati</lem>
