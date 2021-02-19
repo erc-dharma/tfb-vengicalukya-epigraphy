@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE27-Zulakallu-Vijayaditya1</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00018</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,6 +46,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE27</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -188,7 +189,7 @@ naya-vinaya-vikramopārjita-cāru-bhūri-kīrtte<supplied reason="omitted">ḥ</
       <app loc="26">
         <lem>nāma</lem>
         <rdg source="bib:Gai1965-1966_01">-nām<choice><sic>a</sic><corr>ā</corr></choice></rdg>
-        <note>I prefer to see <note>nāma</note> as a neuter accusative, next to the name that is understood to be in the nominative, not in compound.</note>
+        <note>I prefer to see <foreign>nāma</foreign> as a neuter accusative, next to the name that is understood to be in the nominative, not in compound.</note>
       </app>
       
       
@@ -242,13 +243,13 @@ est le nommé Boḻama, au cœur pur, le meilleur des hommes dans ce monde.</p>
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1954-1955"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1954-1955</citedRange><citedRange unit="item">1</citedRange></bibl>. Edited from estampages and photographs by G. S. Gai(<bibl rend="omitname"><ptr target="bib:Gai1965-1966_01"/><citedRange>300-302</citedRange></bibl>), without translation, with estampages of the plates. The present edition by Dániel Balogh is based on a collation of Gai's text with his facsimiles.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1954-1955"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1954-1955</citedRange><citedRange unit="item">1</citedRange></bibl>. Edited from estampages and photographs by G. S. Gai(<bibl rend="omitname"><ptr target="bib:Gai1965-1966_01"/><citedRange unit="page">300-302</citedRange><citedRange unit="item">B</citedRange></bibl>), without translation, with estampages of the plates. The present edition by Dániel Balogh is based on a collation of Gai's text with his facsimiles.</p>
   <listBibl type="primary">
     <bibl n="GSG"><ptr target="bib:Gai1965-1966_01"/><citedRange>300-302</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/>
+    <bibl><ptr target="bib:ARIE1954-1955"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1954-1955</citedRange><citedRange unit="item">1</citedRange></bibl>
   </listBibl>
 </div>
 
