@@ -290,12 +290,12 @@ L’exécuteur est Nissaramiji.
 
 
 <div type="bibliography">
-  <p> First noticed by Sewell in <title>List of Antiquities, Madras</title>, vol. 2 p. 24 No. 176, 1884.<note>Not traced, there seems to be no online e-copy. CHECK: maybe it has a facsimile?</note> Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_02"/></bibl>) with a summary of the contents.<note>There seems to be no published estampage, but CHECK a printed copy of IA20.</note> The present edition follows Fleet and does not show the location of binding holes with respect to the text.</p>
+  <p>Reported in <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">24</citedRange><citedRange unit="item">176</citedRange></bibl>. Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_02"/></bibl>) with a summary of the contents.<note>There seems to be no published estampage, but CHECK a printed copy of IA20.</note> The present edition follows Fleet and does not show the location of binding holes with respect to the text.</p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1891_02"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/>
+    <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">24</citedRange><citedRange unit="item">176</citedRange></bibl>
   </listBibl>
 </div>
 
