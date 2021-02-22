@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE35-Moga-Bhima1</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00026</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE35</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -396,7 +397,7 @@ celui qui abroge <supplied reason="subaudible">cette donation</supplied> ou l’
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">2</citedRange></bibl> with discussion at <bibl rend="ibid"><ptr target="bib:ARIE1960-1961"/><citedRange>14</citedRange>&gt;</bibl>. Edited (from photos, impressions and the original) by S. Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">95-104</citedRange><citedRange unit="item">2</citedRange></bibl>), with photographs of the plates and seal (no translation). The present edition by Dániel Balogh is based on a collation of Sankaranarayanan's text with his photos.<note>The photos, as printed, are not very clear and scanning has not improved them. Many details should ideally be checked against a better facsimile.</note> Sankaranarayanan's edition has many typographic mistakes; only major ones are shown in the apparatus here and others are silently assumed to have been correctly read by Sankaranarayanan.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">2</citedRange></bibl> with discussion at <bibl rend="ibid"><ptr target="bib:ARIE1960-1961"/><citedRange>14</citedRange>&gt;</bibl>. Edited (from photos, impressions and the original) by S. Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">95-104</citedRange><citedRange unit="item">2</citedRange></bibl>), with photographs of the plates and seal (no translation). The present edition by Dániel Balogh is based on a collation of Sankaranarayanan's text with his photos.<note>The photos, as printed, are not very clear and scanning has not improved them. Many details should ideally be checked against a better facsimile.</note> Sankaranarayanan's edition has many typographic mistakes; only major ones are shown in the apparatus here and others are silently assumed to have been correctly read by Sankaranarayanan and misprinted in his text.</p>
   <listBibl type="primary">
     <bibl n="SS"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">95-104</citedRange><citedRange unit="item">2</citedRange></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
