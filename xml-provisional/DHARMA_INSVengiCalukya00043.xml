@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE52-Palamkaluru-Amma2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00043</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE52</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -244,7 +245,7 @@ yasmi<orig>N</orig> śāsati nr̥p<choice><sic>e</sic><corr>a</corr></choice>tau
       </app>
       <app loc="35">
         <lem>-chāliḥ</lem>
-        <note>While this reading occurs in several parallel copies of this stanza, I find the reading <foreign>-chālī</foreign> found in the <ref target="CalE51-Nammuru-Amma2.xml">Nammūru grant</ref> superior.</note>
+        <note>While this reading occurs in several parallel copies of this stanza, I find the reading <foreign>-chālī</foreign> found in the <ref target="DHARMA_INSVengiCalukya00042.xml">Nammūru grant</ref> superior.</note>
       </app>
       <app loc="37">
         <lem>-<supplied reason="omitted">da</supplied>hanena</lem>
@@ -412,7 +413,7 @@ renaît ver de terre dans des excréments pendant soixante mille ans.</p>
 
 
 <div type="bibliography">
-  <p>Inked impressions of the first two pages were published prior to edition by Burnell (<bibl rend="omitname"><ptr target="bib:Burnell1878_01"/><citedRange unit="plate">27</citedRange></bibl>; not Plate 25 as cited by Fleet). Edited from the original and estampages by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1878_07"/></bibl>), with estampages and translation. The present edition by Dániel Balogh is based on a collation of Fleet's edition with his rubbings and with and with inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the the British Museum, item number BM 1969,0401,0.18a. These do not include an image of the seal, for which I rely on the excellent image (a drawing?) published by Fleet.</note>.
+  <p>Inked impressions of the first two pages were published prior to edition by Burnell (<bibl rend="omitname"><ptr target="bib:Burnell1878_01"/><citedRange unit="plate">27</citedRange></bibl>; not Plate 25 as cited by Fleet). Edited from the original and estampages by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1878_07"/></bibl>), with estampages and translation. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">50</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">22</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's edition with his rubbings and with and with inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the the British Museum, item number BM 1969,0401,0.18a. These do not include an image of the seal, for which I rely on the excellent image (a drawing?) published by Fleet.</note>.
 
 
 </p>
