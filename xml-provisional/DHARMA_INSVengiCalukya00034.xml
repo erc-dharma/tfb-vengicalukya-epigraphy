@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE43-Akulamannandu-Bhima2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00034</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE43</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -206,12 +207,12 @@ tad-anuja-yu<lb n="14" break="no"/>varāja-vikramāditya-bhūbhr̥d-ātmajaś c�
       </app>
       <app loc="11">
         <lem>°varddhanaṣ <choice><sic>v</sic><corr>ṣ</corr></choice>aṭ°</lem>
-        <note>The same <foreign>sandhi</foreign> occurs in lines 11 and 13 of the <ref target="CalE41-Diggubarru-Bhima2.xml">Diggubaṟṟu grant of Bhīma II</ref>. It is also possible that the intent was <foreign>varddhanaḥ</foreign>, and the <foreign>v</foreign> is superfluous; compare <foreign>tya<supplied reason="omitted">ḥ</supplied> ṣaṇ°</foreign> in line 15.</note>
+        <note>The same <foreign>sandhi</foreign> occurs in lines 11 and 13 of the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>. It is also possible that the intent was <foreign>varddhanaḥ</foreign>, and the <foreign>v</foreign> is superfluous; compare <foreign>tya<supplied reason="omitted">ḥ</supplied> ṣaṇ°</foreign> in line 15.</note>
       </app>
       <app loc="16">
         <lem>tāḷādhipo</lem>
         <rdg source="bib:Kielhorn1898-1899_01">tāhādhipo</rdg>
-        <note>Just as in the <ref target="CalE41-Diggubarru-Bhima2.xml">Diggubaṟṟu grant</ref> where Fleet reads the name as Tāha (lines 26 and 30), we definitely have <foreign>ḷ</foreign> here, distinguished from <foreign>h</foreign> in this hand by the fact that the final hook of the latter bends backward underneath the body (see e.g. l13 <foreign>mahārājaś</foreign>), while <foreign>ḷa</foreign> has a smaller hook that does not bend below the body.</note>
+        <note>Just as in the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant</ref> where Fleet reads the name as Tāha (lines 26 and 30), we definitely have <foreign>ḷ</foreign> here, distinguished from <foreign>h</foreign> in this hand by the fact that the final hook of the latter bends backward underneath the body (see e.g. l13 <foreign>mahārājaś</foreign>), while <foreign>ḷa</foreign> has a smaller hook that does not bend below the body.</note>
       </app>
       <app loc="17">
         <lem>meḻāṁbā</lem>
@@ -245,7 +246,7 @@ tad-anuja-yu<lb n="14" break="no"/>varāja-vikramāditya-bhūbhr̥d-ātmajaś c�
       </app>
       <app loc="30">
         <lem>-grāma-</lem>
-        <note>I wonder if the vowel could instead be <note>e</note>, attached to the bottom left of the body. There is some noise there; a photo may be clearer.</note>
+        <note>I wonder if the vowel could instead be <foreign>e</foreign>, attached to the bottom left of the body. There is some noise there; a photo may be clearer.</note>
       </app>
       <app loc="30">
         <lem>-krama<unclear>k</unclear><unclear cert="low">o</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear cert="low">panna</unclear> <gap reason="illegible" quantity="3" unit="character" precision="low"/></lem>
@@ -356,7 +357,7 @@ renaît ver de terre dans les excréments pendant soixante mille ans.</p>
 
 
 <div type="bibliography">
-  <p>Some details of this grant were cited by John Faithfull Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/><citedRange unit="page">270</citedRange><citedRange unit="item">N</citedRange></bibl>) before its publication. Edited from Sir Walter Elliot's inked impressions by Franz Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">134-139</citedRange><citedRange unit="item">E</citedRange></bibl>), with an abstract of the contents and with (partial?) facsimiles.<note>My scan of EI5 only has images for pages 1v and 2v (wrongly labelled as 2r).<!--A printed EI5 needs to be CHECKed for this.--></note> The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's facsimiles where available, and with inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum. I presently have no image of the seal. Photos of the original plates and seal will probably be obtained from the BL, which will then need to be collated.</note>.</p>
+  <p>Some details of this grant were cited by John Faithfull Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/><citedRange unit="page">270</citedRange><citedRange unit="item">N</citedRange></bibl>) before its publication. Edited from Sir Walter Elliot's inked impressions by Franz Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">134-139</citedRange><citedRange unit="item">E</citedRange></bibl>), with an abstract of the contents and with (partial?) facsimiles.<note>My scan of EI5 only has images for pages 1v and 2v (wrongly labelled as 2r).<!--A printed EI5 needs to be CHECKed for this.--></note> Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">20</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's facsimiles where available, and with inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum. I presently have no image of the seal. Photos of the original plates and seal will probably be obtained from the BL, which will then need to be collated.</note>.</p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1891_03"/><citedRange unit="page">270</citedRange><citedRange unit="item">N</citedRange></bibl>
     <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">134-139</citedRange><citedRange unit="item">E</citedRange></bibl>
@@ -364,7 +365,7 @@ renaît ver de terre dans les excréments pendant soixante mille ans.</p>
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:SubrahmanyaAiyer1935-1936_01"/><citedRange>27-28</citedRange></bibl>
-    <bibl/>
+    <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">20</citedRange></bibl>
   </listBibl>
 </div>
 
