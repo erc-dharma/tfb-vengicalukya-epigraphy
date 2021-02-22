@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -27,7 +27,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE40-Sripundi-Tala2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00031</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,6 +46,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE40</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -116,7 +117,7 @@
 paśc<choice><sic>a</sic><corr>i</corr></choice><choice><sic>vā</sic><corr>ma</corr></choice>ta<supplied reason="omitted">ḥ</supplied> ka<lb n="33" break="no"/>lave<space type="binding-hole"/>lalagula-pedda-cinta|
 vāyavyataḥ ciṟuśo<lb n="34" break="no"/>di-maddalu<supplied reason="subaudible">.</supplied> Uttarataḥ goragapallamun-uttaramuna kaṭṭuṁbodalu<supplied reason="subaudible">.</supplied> <lb n="35"/>Īśānataḥ bādiyabolayaṇ<unclear>ṭ</unclear>a-pedariyāku-<choice><sic>j</sic><corr>c</corr></choice>inta|</p>
 <p>Etat-s<choice><sic>a</sic><corr>ī</corr></choice>māntar-vva<pb n="5r" break="no"/><lb n="36" break="no"/>rtti<unclear>nī</unclear> Ā<unclear>dū</unclear>ru-nām<choice><orig><unclear>ā</unclear></orig><reg>nī</reg></choice> grāmaṭikā sarvva-kara-parihāreṇa mānyam mayā <lb n="37"/>dattā Iti<supplied reason="subaudible">.</supplied> Asyopari na kenac<choice><sic>a</sic><corr>i</corr></choice>d bādhā karttavyā<supplied reason="subaudible">.</supplied> yaḥ karoti sa pa<surplus>ṁ</surplus>ñca<lb n="38" break="no"/>-mahā-pātaka-saṁyukto bhavati| tathā cokta<supplied reason="omitted">ṁ</supplied> vyāsena|</p>
-<lg n="1">
+<lg n="1" met="anuṣṭubh">
 <l n="a">sva-dattāṁ para-datt<choice><sic>a</sic><corr>āṁ</corr></choice> <lb n="39"/>vā</l>
 <l n="b">yo <space type="binding-hole"/> hareta vasu<supplied reason="omitted">ṁ</supplied>dharā<supplied reason="omitted">ṁ</supplied></l>
 <l n="c">ṣaṣṭi-varṣa-sahas<choice><sic>t</sic><corr>r</corr></choice>āṇi</l>
@@ -146,7 +147,7 @@ vāyavyataḥ ciṟuśo<lb n="34" break="no"/>di-maddalu<supplied reason="subaud
         <note>Though <foreign>ī</foreign> is usually well distinguished from <foreign>i</foreign> in this inscription, the scanned rubbing permits both readings here. Lakshmana Rao, who probably had the original plates, is probably correct in reading <foreign>ī</foreign>, but even then I hesitate to emend to <foreign>pati-hita</foreign>, since <foreign>patīhita</foreign> is also meaningful in the context.</note>
       </app>
       <app loc="29">
-        <lem>-nā<subst><del rend="corrected">ma</del><add place="opposite">mne</add></subst></lem>
+        <lem>-nā<subst><del rend="corrected">ma</del><add place="overstrike">mne</add></subst></lem>
         <note>As Lakshmana Rao notes, the conjunct <foreign>mn</foreign> is formed with what looks like a <foreign>halanta N</foreign> added below (and to the right of) <foreign>m</foreign>, rather than the usual form of subscript <foreign>n</foreign>. I believe it to be a subsequent addition, along with <foreign>e</foreign>, which touches the preceding character.</note>
       </app>
       <app loc="31">
