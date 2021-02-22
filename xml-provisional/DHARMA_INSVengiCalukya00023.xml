@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE32-Trandaparu-Vijayaditya3</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00023</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,7 +46,8 @@
                <msIdentifier>
                   <repository>DHARMAbase</repository>
                   <idno/>
-                  <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE32</idno></altIdentifier>-->
+                 <!-- don't modify this -->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -325,7 +326,7 @@ n="1"/>śrī-tribhuvanāṁkuśa is attached to CP4 in the same collection, whic
 
 
 <div type="bibliography">
-  <p>Edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">122-126</citedRange><citedRange unit="item">B</citedRange></bibl>), with an abstract of the contents and with inked rubbings produced by Sir Walter Elliot and supplied by Fleet. It seems the published facsimiles are incomplete, lacking pages 3r, 3v, 4v and 5r.<!--CHECK this in a printed EI5 to make sure it is not a folded inset.--> The present edition by Dániel Balogh is based on a collation of Kielhorn's text with his facsimiles <!--where avilable--> and with inked impressions from Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum.</note></p>
+  <p>Edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">122-126</citedRange><citedRange unit="item">B</citedRange></bibl>), with an abstract of the contents and with inked rubbings produced by Sir Walter Elliot and supplied by Fleet.<note>It seems the published facsimiles are incomplete, lacking pages 3r, 3v, 4v and 5r.<!--CHECK this in a printed EI5 to make sure it is not a folded inset.--></note>Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">19</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Kielhorn's text with his facsimiles where avilable, and with inked impressions from Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum.</note></p>
   <listBibl type="primary">
     <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">122-126</citedRange><citedRange unit="item">B</citedRange></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
