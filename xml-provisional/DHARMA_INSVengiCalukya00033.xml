@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -28,7 +28,7 @@
          <publicationStmt>
             <authority>DHARMA</authority>
             <pubPlace>Berlin</pubPlace>
-            <idno type="filename">CalE42-Kolavennu-Bhima2</idno>
+            <idno type="filename">DHARMA_INSVengiCalukya00033</idno>
             <availability>
                <licence target="https://creativecommons.org/licenses/by/4.0/">
                   <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -47,6 +47,7 @@
                   <repository>DHARMAbase</repository>
                   <idno/>
                   <!-- don't modify this -->
+                 <!--<altIdentifier type="PEM"><idno type="corpus">CalE42</idno></altIdentifier>-->
                </msIdentifier>
                <msContents><!-- describe the intellectual content of an inscription -->
                   <summary><!-- //// NOT MANDATORY  ////--></summary>
@@ -130,25 +131,25 @@
 <l n="cd" real="++-+-+--+++---+-+++-">mad-rājya-rakṣaṇāṁsala-bāhur vvājjaya Iti kṣitīśas te<lb n="24" break="no"/>na|</l>
 </lg>
 <ab>prārtthyamānair asmābhiḥ</ab>
-<lg n="5">
+<lg n="5" met="anuṣṭubh">
 <l n="a" enjamb="yes">Ābharadvasukālmādi</l>
 <l n="b">-vāstavyād revaśarmmaṇaḥ</l>
 <l n="c"><unclear>d</unclear>e<lb n="25" break="no"/>ṇiya-kramako jajñe</l>
 <l n="d">ved<choice><sic>i</sic><corr>a</corr></choice>-vedāṁga-vid vibhuḥ</l>
 </lg>
-<lg n="6">
+<lg n="6" met="anuṣṭubh">
 <l n="a" real="++++++">s<choice><sic>ya</sic><corr>ū</corr></choice>treṇāpastaṁbaḥ</l>
 <l n="b">kommaṇaḥ kula-bhūṣa<lb n="26" break="no"/>ṇaḥ</l>
 <l n="c">suta<supplied reason="omitted">ḥ</supplied> sv-abhijanas tasya|</l>
 <l n="d">brahma-śrī-bhāsvara-dyutiḥ|</l>
 </lg>
-<lg n="7">
+<lg n="7" met="anuṣṭubh">
 <l n="a">kandamavvātmajaḥ kāntyā<surplus>ḥ</surplus></l>
 <l n="b">kā<lb n="27" break="no"/>maḥ kāmadhug artthināṁ|</l>
 <l n="c">yat-sampat-sarasīm etya<surplus>ḥ</surplus></l>
 <l n="d">vipra-haṁsā vibhānty amī|</l>
 </lg>
-<lg n="8">
+<lg n="8" met="anuṣṭubh">
 <l n="a"><pb n="3r"/><lb n="28"/>yat-putra-pautrāḥ paṭavo</l>
 <l n="b">vaṭavo vāra-goṣṭhiṣu|</l>
 <l n="c">Agrahārāgra-<unclear>pū</unclear>j<choice><sic>a</sic><corr>ā</corr></choice>nām</l>
@@ -173,7 +174,7 @@
       <app loc="8">
         <lem>-yuvarājaḫ paṁca°</lem>
         <rdg source="bib:Hultzsch1890_01">-yuvarājaṣ paṁca°</rdg>
-        <note>I assume that an <foreign>upadhmānīya</foreign> was intended here. Autopsy may tell whether it is in all respects identical to an <foreign>ṣ</foreign>, as found in lines 11 and 13 of the <ref target="CalE41-Diggubarru-Bhima2.xml">Diggubaṟṟu grant of Bhīma II</ref>.</note>
+        <note>I assume that an <foreign>upadhmānīya</foreign> was intended here. Autopsy may tell whether it is in all respects identical to an <foreign>ṣ</foreign>, as found in lines 11 and 13 of the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>.</note>
       </app>
       <app loc="15">
         <lem source="bib:Hultzsch1890_01">tāḻapa-</lem>
