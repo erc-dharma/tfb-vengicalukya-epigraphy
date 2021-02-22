@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
-<!--<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>-->
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
   <teiHeader>
     <fileDesc>
@@ -28,7 +28,7 @@
       <publicationStmt>
         <authority>DHARMA</authority>
         <pubPlace>Berlin</pubPlace>
-        <idno type="filename">CalE56-Vemalurpadu-Amma2</idno>
+        <idno type="filename">DHARMA_INSVengiCalukya00047</idno>
         <availability>
           <licence target="https://creativecommons.org/licenses/by/4.0/">
             <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
@@ -46,6 +46,7 @@
           <msIdentifier>
             <repository>DHARMAbase</repository>
             <idno/><!-- don't modify this -->
+            <!--<altIdentifier type="PEM"><idno type="corpus">CalE56</idno></altIdentifier>-->
           </msIdentifier>
           <msContents><!-- describe the intellectual content of an inscription -->
             <summary><!-- //// NOT MANDATORY  ////--></summary> <!-- offers the possibility to give a summary of the inscription's content -->
@@ -665,7 +666,7 @@ De même Rāmabhadra a dit ceci : </p>
 
 
 <div type="bibliography">
-  <p>Edited from inked impressions by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_06"/></bibl>), with facsimiles and translation.<note>The translation does not include the first 33 lines, which are by and large identical to the first 34 lines of the <ref target="DHARMA_INSVengiCalukya00038.xml">Maliyapūṇḍi grant</ref>.</note> The present edition by Dániel Balogh is based on a collation of Hultzsch's edition with his estampages.</p>
+  <p>Noticed in <bibl><ptr target="bib:ARIE1909-1910"/><citedRange unit="page">15</citedRange><citedRange unit="appendix">A/1909-1910</citedRange><citedRange unit="item">4</citedRange></bibl>. Edited from inked impressions by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_06"/></bibl>), with facsimiles and translation.<note>The translation does not include the first 33 lines, which are by and large identical to the first 34 lines of the <ref target="DHARMA_INSVengiCalukya00038.xml">Maliyapūṇḍi grant</ref>.</note> The present edition by Dániel Balogh is based on a collation of Hultzsch's edition with his estampages.</p>
   <listBibl type="primary">
     <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_06"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
