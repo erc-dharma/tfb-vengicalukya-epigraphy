@@ -53,9 +53,9 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                    <p>Halantas. Final T in l6, looks like ta with sinuous tail instead of headmark. Final N in l8, is a raised and reduced na-shape with a sinuous tail.</p>
+                    <p>Halantas. Final T in l6, looks like ta with sinuous tail instead of headmark. Final N in l8, l31, is a raised and reduced na-shape with a sinuous tail.</p>
                     <p>Original punctuation marks are double verticals with a pronounced serif. @@@replace with markup.</p>
-                    <p>Other palaeographic observations. 
+                    <p>Other palaeographic observations. Anusvāra is normally at head height after the character to which it belongs.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -124,14 +124,14 @@ n="9" break="no"/><supplied reason="lost">ṭya saptatriṁśa</supplied><unclea
 n="2r"/><lb 
 n="10"/><unclear>ta</unclear>t-sūnur bhānu-bhā<unclear>s</unclear>o <unclear>raṇa</unclear>-vigaṇa<subst><del rend="corrected">ṇ</del><add place="overstrike">n</add></subst>ayā nīlakaṇṭhālayānā<unclear>M</unclear></l>
 <l n="b"><unclear>sa</unclear>-grāmā<unclear>rā</unclear>ma<unclear>kānāṁ</unclear> sa-<unclear>la</unclear><lb 
-n="11" break="no"/><unclear>li</unclear>ta-ramaṇī-saṁp<orig><unclear>p</unclear></orig>adā<unclear>ṁ</unclear> sat-<unclear>p</unclear>adā<unclear>nā</unclear>M<unclear>|</unclear></l>
+n="11" break="no"/><unclear>li</unclear>ta-ramaṇī-saṁp<orig><unclear>p</unclear></orig>adā<unclear>ṁ</unclear> sat-<unclear>p</unclear>adā<unclear>nā</unclear>M<unclear>/</unclear></l>
 <l n="c"><unclear cert="low">kr̥</unclear><unclear>tvā</unclear> prottuṁggam aṣṭottara-śata<unclear>m abhunag vīra</unclear>-dhīro <supplied reason="subaudible">’</supplied>ṣṭa-<supplied reason="lost">yuktā</supplied><lb n="12" break="no"/>ś</l>
 <l n="d"><unclear>c</unclear>atvāri<unclear>ṁśa</unclear>t samā<unclear>ḥ</unclear> <unclear>kṣmāṁ</unclear> <unclear cert="low">jana-nu</unclear><unclear>ta-vijayāditya</unclear>-nāmā nar<unclear>endraḥ//</unclear></l>
 </lg>
 <lg n="2" met="praharṣiṇī">
 <l n="a">tat-sū<unclear>nus satatam anū</unclear><supplied reason="lost" cert="low">na-dā</supplied><lb 
 n="13" break="no"/>na-v<choice><sic>i</sic><corr>r̥</corr></choice>ṣṭ<unclear>iṁ</unclear></l>
-<l n="b"><unclear>dī</unclear>nā<space type="binding-hole"/>n<unclear>dh</unclear>a-<unclear cert="low">dvija</unclear>-<unclear>gaṇikārtthi</unclear>-sā<unclear>r</unclear>ttha-sasya<unclear>M</unclear>|</l>
+<l n="b"><unclear>dī</unclear>nā<space type="binding-hole"/>n<unclear>dh</unclear>a-<unclear cert="low">dvija</unclear>-<unclear>gaṇikārtthi</unclear>-sā<unclear>r</unclear>ttha-sasya<unclear>M</unclear>/</l>
 <l n="c">sa<unclear>n</unclear>toṣa<unclear>ṁ sakala</unclear><unclear cert="low">m a</unclear><unclear>vāpa</unclear><supplied reason="lost" cert="low">ya</supplied><lb 
 n="14" break="no"/>n<supplied reason="omitted">n</supplied> apā<unclear>d g</unclear>ā<unclear>m at</unclear>y-a<space type="binding-hole"/><unclear>rddhaṁ ki</unclear>la <unclear>kali-vi</unclear>ṣṇu<unclear>var</unclear>ddha<unclear>no</unclear> <supplied reason="subaudible">’</supplied><unclear>bdaṁ</unclear>//</l>
 </lg>
@@ -149,7 +149,7 @@ n="16" break="no"/>pā<unclear>ta</unclear>yat ka<unclear>nnarāṁ</unclear>ka<
 <l n="b">caturbhi<lb 
 n="18" break="no"/><unclear>r bhrātr̥</unclear>bh<unclear>i</unclear>s <unclear>sa</unclear><supplied reason="lost">ha</supplied></l>
 <l n="c"><supplied reason="lost">ca</supplied><unclear>tvāriṁśat sa</unclear>mās <unclear>s</unclear>ā<unclear>rddhaṁ</unclear></l>
-<l n="d"><unclear>ca</unclear>t<unclear>urbhi</unclear>r abhunag <unclear>bh</unclear>uvaṁ||</l>
+<l n="d"><unclear>ca</unclear>t<unclear>urbhi</unclear>r abhunag <unclear>bh</unclear>uvaṁ//</l>
 </lg>
 <lg n="5" met="anuṣṭubh">
 <l n="a" enjamb="yes"><unclear>tad-bhrā</unclear>t<unclear>u</unclear><supplied reason="lost">r vvikramāditya</supplied></l>
@@ -161,7 +161,58 @@ n="19" break="no"/>-bhūpates sac-cam<choice><sic>u</sic><corr>ū</corr></choice
 <l n="d">-<unclear>ka</unclear>ṇṭhasya tanayo nayī//</l>
 </lg>
 <lg n="6" met="sragdharā">
-<l n="a">dīnānāthā<unclear>tu</unclear><supplied reason="lost">rāṇāṁ</supplied></l>
+<l n="a">dīnānāthā<unclear>tu</unclear><supplied reason="lost">rāṇāṁ</supplied> <lb 
+n="20"/>dvija-vara-samiter yyā<unclear>c</unclear>akānāṁ <unclear>ya</unclear>t<unclear>ī</unclear>nāṁ</l>
+<l n="b"><unclear>nān</unclear>ā-deśāgatānāṁ paṭu-vaṭu-naṭa-sad-gā<unclear>ya</unclear><supplied reason="lost">kānāṁ ka</supplied><lb 
+n="21" break="no"/>vī<unclear>nā</unclear>ṁ</l>
+<l n="c">bandhūnām andhakānām abhilaṣita-phala-śrāṇanād rakṣaṇād yo</l>
+<l n="d">māteva triṁśa<supplied reason="lost">d abdān sama</supplied><lb 
+n="22" break="no"/>m abhunag asau <space type="binding-hole"/> cāru-cālukya-bhīmaḥ//</l>
+</lg>
+<lg n="7" met="śārdūlavikrīḍita">
+<l n="a">tat-putraḥ sva-bhujāsi-khaṇḍi<unclear>ta</unclear><seg met="-+++"><gap reason="lost" quantity="4" unit="character"/></seg><lb 
+n="23" break="no"/>d balād vāsavī<unclear>ṁ</unclear> <space type="binding-hole"/></l>
+<l n="b">jitvā<choice><sic>s</sic><corr>ś</corr></choice>āṁ viraje pratiṣṭhita-<supplied reason="omitted">ja</supplied>ya-staṁbh<choice><sic>a</sic><corr>ā</corr></choice><choice><sic>p</sic><corr>rgh</corr></choice>a-<choice><sic>t</sic><corr>n</corr></choice>i<unclear>r</unclear>ddh<unclear>ā</unclear><unclear>raṇe/</unclear></l>
+<l n="c"><unclear cert="low">svarṇṇā</unclear><unclear>rū</unclear><supplied reason="lost">ḍha</supplied><lb 
+n="24" break="no"/>-<unclear>t</unclear>ulo ’tra <unclear reason="eccentric_ductus">b</unclear>āḍha<space type="binding-hole"/>m atulo dhātrī-tal<unclear>e kṣatriyair</unclear></l>
+<l n="d">mmitrābh<choice><sic>ā</sic><corr>aḥ</corr></choice> pari<supplied reason="omitted">ra</supplied>kṣati sma vija<supplied reason="lost">yā</supplied><lb 
+n="25" break="no"/><unclear>dit</unclear>yaḥ samārddhaṁ dharāM//</l>
+</lg>
+<lg n="8" met="vasantatilakā">
+<l n="a" enjamb="yes"><unclear>tas</unclear>y<unclear>āt</unclear>majaḥ praṇata-vairi-śiro-vilagna</l>
+<l n="b">-ratna-dvirepha-pari<unclear>cuṁbi</unclear><lb n="26" break="no"/><unclear>ta-pā</unclear>da-padmaḥ/</l>
+<l n="c">meruṁ hasaṁs tulita-hāṭaka-rāśi-bhāsā</l>
+<l n="d">varṣāṇi sapta s<surplus>s</surplus>ama<unclear>pā</unclear><supplied reason="lost">d bhuvam a</supplied><lb 
+n="27" break="no"/><unclear>mmarāja</unclear>ḥ//</l>
+</lg>
+<lg n="9" met="anuṣṭubh">
+<l n="a">tat-sutaṁ vijayādityaṁ</l>
+<l n="b">bālam uccāṭya l<choice><sic>i</sic><corr>ī</corr></choice>layā/</l>
+<l n="c">tāḻādhipati<unclear>r ākra</unclear><supplied reason="lost">mya</supplied></l>
+<l n="d"><supplied reason="lost">mā</supplied><pb 
+
+n="3r" break="no"/><lb 
+n="28" break="no"/><unclear>sam eka</unclear>m apād bhuvaṁ/</l>
+</lg>
+<lg n="10" met="anuṣṭubh">
+<l n="a" enjamb="yes">taṁ jitvā yudhi cālukya</l>
+<l n="b">-bhīma-bhūmipates sutaḥ/</l>
+<l n="c"><unclear>vi</unclear>kramāditya<lb 
+n="29" break="no"/><unclear>bhūpo ’pā</unclear>n</l>
+<l n="d"><unclear>m</unclear>āsān ekādaśa kṣitiṁ//</l>
+</lg>
+<lg n="11" met="anuṣṭubh">
+<l n="a">tatas tāḻapa-rājasya</l>
+<l n="b">sūnus sūnr̥ta-vā<unclear>k p</unclear>r<unclear>abhuḥ</unclear>/</l>
+<l n="c">yuddha<lb 
+n="30" break="no"/><unclear>ma</unclear>lla-dharādhīśas</l>
+<l n="d">sapta varṣāṇy apād <unclear>bh</unclear>uvaṁ//</l>
+</lg>
+<lg n="12" met="śārdūlavikrīḍita">
+<l n="a">san<unclear>n</unclear>addhaṁ yudhi yuddhamallam av<choice><sic>e</sic><corr>a</corr></choice>ner nnirddhāṭya dhāṭyāha<lb 
+n="31" break="no"/>rat</l>
+<l n="b">kr̥tvā <choice><unclear>c</unclear><unclear>bh</unclear></choice><unclear cert="low">a</unclear><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg><space type="binding-hole"/><seg met="+-"><gap reason="illegible" quantity="2" unit="character"/></seg>thān @@@api parā<choice><orig>n</orig><reg>ñ</reg></choice> śiṣṭāṁś ca śiṣṭetarāN/</l>
+<l n="c">śrīmat-kollabigaṇḍa-nāma-vija</l>
 </lg>
 
 
@@ -201,14 +252,44 @@ n="19" break="no"/>-bhūpates sac-cam<choice><sic>u</sic><corr>ū</corr></choice
         <rdg source="bib:KrishnaRao1965_01">dīnāṁdha-</rdg>
       </app>
       <app loc="13">
-        <lem>-<unclear>gaṇikārtthi</unclear>-sā<unclear>r</unclear>ttha-sasya<unclear>M</unclear>|</lem>
-        <rdg source="bib:KrishnaRao1965_01">-gaṇikār<unclear>tthī</unclear>-sārtha-sasy<choice><sic>a</sic><corr>ā</corr></choice>ṁ|</rdg>
+        <lem>-<unclear>gaṇikārtthi</unclear>-sā<unclear>r</unclear>ttha-sasya<unclear>M</unclear>/</lem>
+        <rdg source="bib:KrishnaRao1965_01">-gaṇikār<unclear>tthī</unclear>-sārtha-sasy<choice><sic>a</sic><corr>ā</corr></choice>ṁ/</rdg>
         <note>KR's emendation to <foreign>sasyām</foreign> does not seem necessary to me.</note>
       </app>
       <app loc="13">
         <lem><supplied reason="lost">a</supplied><unclear>vāpa</unclear><supplied reason="lost" cert="low">ya</supplied><lb n="14" break="no"/>n<supplied reason="omitted">n</supplied></lem>
         <rdg source="bib:KrishnaRao1965_01">sakalam avāpa<unclear>ya</unclear><lb n="14" break="no"/>n</rdg>
         <note>Though KR prints this segment as clear and only <foreign>ya</foreign> as unclear, the entire stretch is in fact quite damaged and and the plate is altogether gone where <foreign>ya</foreign> may have been inscribed. The reading and restoration are quite plausible, except that an extra <foreign>n</foreign> must be supplied at the end of this segment, both for the metre and for correct sandhi. KR notes that his restorations elsewhere in this stanza are based on a parallel that I am not aware of, see the commentary.</note>
+      </app>
+      <app loc="23">
+        <lem>-<supplied reason="omitted">ja</supplied>ya-staṁbh<choice><sic>a</sic><corr>ā</corr></choice><choice><sic>p</sic><corr>rgh</corr></choice>a-<choice><sic>t</sic><corr>n</corr></choice>i<unclear>r</unclear>ddh<unclear>ā</unclear><unclear>raṇe</unclear></lem>
+        <rdg source="bib:KrishnaRao1965_01">-<supplied reason="omitted">ja</supplied>ya-staṁbha<supplied reason="omitted">ḥ</supplied> p<supplied reason="omitted">r</supplied>a-<choice><sic>t</sic><corr>s</corr></choice>iddho raṇe</rdg>
+        <note>I am not satisfied with KR's emendation in the latter part of this segment. The resulting text is rather bland, and it is hard to conceive of a scribe engraving <foreign>patiddhoḥ</foreign> instead of <foreign>prasiddho</foreign>. Moreover, the last character of that string looks like <foreign>rddhā</foreign> (or possibly <foreign>rddho</foreign>), not <foreign>ddho</foreign>. I cannot tell whether two of the three dots to the right of this last character do indeed constitute a <foreign>visarga</foreign> as read by KR, but I prefer to assume that all three are damage. My own conjectural emendation is offered very tentatively and is almost as problematic as KR's. Nonetheless, if I am correct to read <foreign>rddhā</foreign>, then the only major scribal mistake implied by this emendation is the engraving of <foreign>ti</foreign> where <foreign>ni</foreign> should have been written, and this is no less plausible than KR's expectation of <foreign>si</foreign> for this character. The preceding character, <foreign>pa</foreign>, may be the result of the scribe simply neglecting to engrave the right-hand prong of <foreign>gha</foreign>, and the remaining required alterations are even more minor. Vijayāditya IV's ascension of a balance scale is also mentioned in close proximity to his erection of a victory pillar in Viraja in stanza 32 of the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>, so it is not inconceivable that this was done with the purpose of rewarding the makers of that pillar.</note>
+      </app>
+      <app loc="24">
+        <lem><unclear reason="eccentric_ductus">b</unclear>āḍha<space type="binding-hole"/>m</lem>
+        <rdg source="bib:KrishnaRao1965_01"><choice><sic>bh</sic><corr>b</corr></choice>āḍham</rdg>
+      </app>
+      <app loc="24">
+        <lem><unclear>kṣatriyair</unclear> mmitrābh<choice><sic>ā</sic><corr>aḥ</corr></choice></lem>
+        <rdg source="bib:KrishnaRao1965_01">kṣatriye mitrābhā<supplied reason="omitted">ḥ</supplied></rdg>
+      </app>
+      <app loc="25">
+        <lem>samārddhaṁ</lem>
+        <rdg source="bib:KrishnaRao1965_01">samārddhāṁ</rdg>
+      </app>
+      <app loc="26">
+        <lem>-pari<unclear>cuṁbi</unclear><lb n="26" break="no"/><unclear>ta</unclear>-</lem>
+        <note>There seem to be some vestiges of <foreign>ta</foreign> at the beginning of line 26, to the left of the clearer vestiges of <foreign>pa</foreign>. I therefore follow KR in putting <foreign>ta</foreign> in line 26, but in principle this character could also have been in the much damaged and partly broken-off space at the end of line 25, where it could have fit easily to the right of the vestiges of <foreign>bi</foreign>.</note>
+      </app>
+      <app loc="31">
+        <lem>-kollabigaṇḍa-</lem>
+        <rdg source="bib:KrishnaRao1965_01">-kollabhigaṇḍa-</rdg>
+      </app>
+      <app loc="31">
+        <lem><choice><unclear>c</unclear><unclear>bh</unclear></choice><unclear cert="low">a</unclear><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg><space type="binding-hole"/><seg met="+-"><gap reason="illegible" quantity="2" unit="character"/></seg>thān</lem>
+        <rdg source="bib:KrishnaRao1965_01">bh<unclear>in</unclear>na-<unclear>ra</unclear>thān</rdg>
+        <note>I cannot exclude KR's reading with full confidence, but since it is metrically deficient by two syllables, I find it unconvincing. The space on the plate permits two more characters, provided that the last one before the binding hole is close to the hole's edge and has no descenders. The first character of this stretch is more likely in my opinion to be <foreign>c</foreign> than <foreign>bh</foreign>. It has no vowel mark on the bottom or left-hand side, but a vowel may have been attached to it at the top. The second character has an illegible subscript component, but none of its body is visible. The third character that I believe would have been present before the hole is also wholly invisible in the facsimile. After the hole, there is a mess of damage wide enough to hide two characters, before coming to <foreign>thā</foreign>.</note>
       </app>
       
       
@@ -236,7 +317,7 @@ n="19" break="no"/>-bhūpates sac-cam<choice><sic>u</sic><corr>ū</corr></choice
 
 
 <div type="commentary">
-<p rend="stanza" n="3-4">KR prints most of these stanzas as clearly legible, and for restorations at the ends of lines indicates that they are restored <q>with the help of the other well-known copper plate grants</q> of the Eastern Cālukyas. As of March 2021, I am not yet aware of another occurrence of either stanza in the corpus, but the readings and restorations are very plausible and I believe KR did know a parallel that was easier to read. I therefore accept his readings, but add my indications of uncertainty and mark up the text as supplied where I find it wholly illegible in the facsimile.</p>
+<p rend="stanza" n="3-6">KR prints most of these stanzas as clearly legible, and for restorations at the ends of lines indicates that they are restored <q>with the help of the other well-known copper plate grants</q> of the Eastern Cālukyas. As of March 2021, I am not yet aware of another occurrence of any of these stanzas in the corpus, but the readings and restorations are very plausible and I believe KR did know a parallel that was easier to read. I therefore accept his readings, but add my indications of uncertainty and mark up the text as supplied where I find it wholly illegible in the facsimile.</p>
 </div>
 
 
