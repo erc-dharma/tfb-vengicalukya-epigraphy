@@ -195,16 +195,16 @@ n="3v"/>
     <listApp>
       <app loc="11">
         <lem>-guṇa<supplied reason="omitted">ḥ</supplied></lem>
-        <rdg source="bib:Fleet1891_02">-guṇa-</rdg>
+        <rdg source="bib:Fleet1891_03">-guṇa-</rdg>
       </app>
       <app loc="11">
         <lem>-pra<supplied reason="omitted">yo</supplied>geṣu</lem>
-        <rdg source="bib:Fleet1891_02">-pra<choice><sic>g</sic><corr>śn</corr></choice>eṣu</rdg>
+        <rdg source="bib:Fleet1891_03">-pra<choice><sic>g</sic><corr>śn</corr></choice>eṣu</rdg>
         <note>Fleet suggests the emendation <foreign>praśneṣu</foreign>, which is definitely very plausible. Still, I wonder if perhaps <foreign>pārageṣu</foreign> was intended instead.</note>
       </app>
       <app loc="12">
         <lem>-dhāraṇa-namita-</lem>
-        <rdg source="bib:Fleet1891_02">-dhāraṇ<choice><sic>a</sic><corr>ā</corr></choice>namita-</rdg>
+        <rdg source="bib:Fleet1891_03">-dhāraṇ<choice><sic>a</sic><corr>ā</corr></choice>namita-</rdg>
         <note>I do not see the necessity for Fleet's emendation. Moreover, the actual intent must have been <foreign>-dhārānamita-</foreign>; compare line 8 of the <ref target="DHARMA_INSVengiCalukya00013.xml">Koṇeki Grant</ref> and line 6 of the <ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates</ref>.</note>
       </app>
       <app loc="13">
@@ -241,7 +241,7 @@ n="3v"/>
       </app>
       <app loc="23">
         <lem>-kodra<supplied reason="lost">vāvāpa-pramāṇaṁ kṣe</supplied><lb/>tra<supplied reason="omitted">ṁ</supplied></lem>
-        <rdg source="bib:Fleet1891_02">-kodra<gap reason="lost" quantity="5" unit="character" precision="low"/> <supplied reason="lost">kṣe</supplied><lb/>tra<supplied reason="omitted">ṁ</supplied></rdg>
+        <rdg source="bib:Fleet1891_03">-kodra<gap reason="lost" quantity="5" unit="character" precision="low"/> <supplied reason="lost">kṣe</supplied><lb/>tra<supplied reason="omitted">ṁ</supplied></rdg>
         <note>According to Fleet's note, the gap is five or six characters in extent, in which he probably (but not definitely) includes the supplied <foreign>kṣe</foreign>. He further notes that the intended text may have been <q><foreign>dvâdaśa-khaṇḍikak-ôdrava-brâhmaṇa-kshetraṁ</foreign></q>, for which he cites the parallel <q><foreign>dvâdaśa-khaṇḍikak-ôdrava-bîja-saṁsthânaṁ kshetraṁ</foreign></q> as his own reading of the <ref target="DHARMA_INSVengiCalukya00020.xml">Eḍeru plates</ref>. I am not sure why Fleet prefers to read <foreign>khaṇḍikaka</foreign> and <foreign>udrava</foreign> (the latter is a kind of tax according to Sircar's IEG, s.v., but it seems to be a rare term if not a hapax legomenon), when <foreign>khaṇḍika</foreign> and <foreign>kodrava</foreign> appear much more natural. Fleet's summary says the line probably means that the yield of the field was twelve <foreign>khaṇḍika</foreign>s, possibly understanding <foreign>saṁsthāna</foreign> as "production". Again perhaps more likely is the interpretation that it can be sown with (has as its foundation <foreign>saṁsthāna</foreign>) twelve <foreign>khaṇḍika</foreign>s of <foreign>kodrava</foreign> seed. The closely parallel unpublished grant reads <foreign>pramāṇaṁ</foreign> in a similar context (line 19); several other parallels are also available in later Eastern Cālukya grants (not yet edited digitally), on the basis of which I tentatively restore as above.<!--CHECK: add reference to the unpublished one when it has a proper filename.--></note>
       </app>
       <app loc="28">
@@ -331,9 +331,9 @@ L’exécuteur est Nissaramiji.
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">24</citedRange><citedRange unit="item">176</citedRange></bibl>. Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_02"/></bibl>) with a summary of the contents.<note>There seems to be no published estampage, but CHECK a printed copy of IA20.</note> The present edition follows Fleet and does not show the location of binding holes with respect to the text.</p>
+  <p>Reported in <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">24</citedRange><citedRange unit="item">176</citedRange></bibl>. Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1891_03"/></bibl>) with a summary of the contents.<note>There seems to be no published estampage, but CHECK a printed copy of IA20.</note> The present edition follows Fleet and does not show the location of binding holes with respect to the text.</p>
   <listBibl type="primary">
-    <bibl n="JFF"><ptr target="bib:Fleet1891_02"/></bibl><!-- one <bibl/> per item of primary bibliography -->
+    <bibl n="JFF"><ptr target="bib:Fleet1891_03"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">24</citedRange><citedRange unit="item">176</citedRange></bibl>

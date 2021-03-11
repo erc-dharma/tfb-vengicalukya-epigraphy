@@ -204,13 +204,13 @@ n="3v"/>
       <app loc="14">
         <lem>kaṇḍe<unclear>ḥ</unclear>ṟuv<unclear>ā</unclear><pb/><lb/>ḍi-</lem>
         <rdg source="bib:Kielhorn1898-1899_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ḍi-</rdg>
-        <rdg source="bib:AuthorYear_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ṭi-</rdg>
+        <rdg source="bib:NatesaSastri1884_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ṭi-</rdg>
         <note>Kielhorn does not read this superfluous <foreign>visarga</foreign>, but does mention it in a note. Naṭeśa Śāstrī ignores it. It may have been deleted in some way, but it seems quite clear and it also seems to occupy horizontal space.</note>
       </app>
       <app loc="15">
         <lem>va<unclear cert="low">ṇḍṟ</unclear><unclear>upi</unclear><unclear cert="low">ṭeyu</unclear></lem>
         <rdg source="bib:NatesaSastri1884_01">vana <gap reason="illegible" extent="unknown" unit="character"/></rdg>
-        <rdg source="bib:Fleet1891_03">vamṟupi<choice><unclear>ṟ</unclear><unclear>ḻ</unclear></choice>eyu</rdg>
+        <rdg source="bib:Fleet1891_05">vamṟupi<choice><unclear>ṟ</unclear><unclear>ḻ</unclear></choice>eyu</rdg>
         <rdg source="bib:Kielhorn1898-1899_01">va<unclear>ṇḍ</unclear>ṟupiṭe<unclear>y</unclear>u</rdg>
         <note>I adopt Kielhorn's reading and only cite him as a separate witness to show the level of his confidence, which I do not share. Kielhorn further remarks that this name is identical to that of the village said to be to the west of Koṟṟapaṟṟu in line 44 the <ref target="DHARMA_INSVengiCalukya00021.xml">Koṟṟapaṟṟu grant</ref>, which was read by Hultzsch as <foreign>vā<unclear>ṇḍhṟū</unclear>pe<unclear>dayū</unclear></foreign> and by Fleet as <foreign>vāṇḍṟūpedayū</foreign>. I am particularly doubtful of reading the second character as <foreign>ṇḍṟu</foreign>, since the upper part does not look line <foreign>ṇ</foreign>, and I discern no indication of <foreign>ṟ</foreign> in the subscript parts. Possible alternatives include <foreign>sthu</foreign>, <foreign>ñju</foreign> and <foreign>nthru</foreign>, but all of these are likewise problematic.</note>
       </app>
@@ -351,14 +351,14 @@ celui qui possède la terre en possède le fruit.</p>
 
 
 <div type="bibliography">
-  <p>A rudimentary translation was published in Madras Government Order No. 367 of 7 April 1873.<note>Not traced.</note> Reported in <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">26</citedRange><citedRange unit="item">180</citedRange></bibl>. First edited, possibly from the original plates, by S. M. Naṭeśa Śāstrī (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange unit="page">55-57</citedRange><citedRange unit="item">2</citedRange></bibl>), with a translation, without facsimile.<note>Though PEM's metadata say a facsimile is present - CHECK a printed IA13 volume</note> Some readings revised in <bibl><ptr target="bib:Fleet1891_03"/><citedRange>101</citedRange></bibl>. Re-edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">118-122</citedRange><citedRange unit="item">A</citedRange></bibl>), with an abstract of the contents and with inked rubbings produced by Hultzsch. The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's facsimiles. No image of the seal is available, so the seal legend is reproduced here as reported by Kielhorn.</p>
+  <p>A rudimentary translation was published in Madras Government Order No. 367 of 7 April 1873.<note>Not traced.</note> Reported in <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">26</citedRange><citedRange unit="item">180</citedRange></bibl>. First edited, possibly from the original plates, by S. M. Naṭeśa Śāstrī (<bibl rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange unit="page">55-57</citedRange><citedRange unit="item">2</citedRange></bibl>), with a translation, without facsimile.<note>Though PEM's metadata say a facsimile is present - CHECK a printed IA13 volume</note> Some readings revised in <bibl><ptr target="bib:Fleet1891_05"/><citedRange>101</citedRange></bibl>. Re-edited from estampages by F. Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">118-122</citedRange><citedRange unit="item">A</citedRange></bibl>), with an abstract of the contents and with inked rubbings produced by Hultzsch. The present edition by Dániel Balogh is based on a collation of the above editions with Kielhorn's facsimiles. No image of the seal is available, so the seal legend is reproduced here as reported by Kielhorn.</p>
   <listBibl type="primary">
     <bibl n="NS" rend="omitname"><ptr target="bib:NatesaSastri1884_01"/><citedRange unit="page">55-57</citedRange><citedRange unit="item">2</citedRange></bibl>
     <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">118-122</citedRange><citedRange unit="item">A</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl n="JFF"><ptr target="bib:Fleet1891_03"/><citedRange>101</citedRange></bibl>
+    <bibl n="JFF"><ptr target="bib:Fleet1891_05"/><citedRange>101</citedRange></bibl>
     <bibl><ptr target="bib:Sewell1884_02"/><citedRange unit="page">26</citedRange><citedRange unit="item">180</citedRange></bibl>
   </listBibl>
 </div>
