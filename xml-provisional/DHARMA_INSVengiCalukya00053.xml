@@ -53,11 +53,15 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                    <p>Halantas. Final M looks rather like a check mark, at head height. Final T looks like a slightly reduced ta, possibly with a different stroke in place of its headmark (l18, l34). Final N is a slightly simplified na without a headmark (l26). Rare final Ḷ in l28-29 (3 times) and l37. All instances of the latter are unclear; those in l28-29 seem like regular ḷa with a curved horizontal stroke attached to the head, while that in l37 appears to be a reduced ḷa with a curved vertical stroke in place of a headmark.</p>
-                    <p>Original punctuation marks</p>
-                    <p>Other palaeographic observations. Anusvāra is normally on top of the character to which it belongs, but occasionally (l19 muṁjuṇūru: only in vernacular words?) atop the next character. 
+<summary>
+                    <p>Halantas. Final M looks rather like a check mark, at head height. Final T looks like a slightly reduced ta, possibly with a different stroke in place of its headmark (l18, l34), or clearly without a headmark in line 34. Final N is a slightly simplified na without a headmark (l26). Rare final Ḷ in l28-29 (3 times) and l37. All instances of the latter are unclear; those in l28-29 seem like regular ḷa with a curved horizontal stroke attached to the head, while that in l37 appears to be a reduced ḷa with a curved vertical stroke in place of a headmark.</p>
+                    <p>Original punctuation marks, if present in the inscription, may be plain vertical bars and perhaps a median dot. See the apparatus to lines 14, 19, 28 and 33 for potential punctuation marks.</p>
+                    <p>Other palaeographic observations. Anusvāra is normally on top of the character to which it belongs, but occasionally apparently atop the next character ((l19 muṁjuṇūru, possibly l37 °āśaṁ for °āṁśa). 
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+</summary>
+<handNote xml:id="DHARMA_INSVengiCalukya00053_hand1">The primary hand inscribing most of the text. Tends to be rather bold, using fairly simple and slightly cursive glyph forms.</handNote>
+<handNote xml:id="DHARMA_INSVengiCalukya00053_hand2">I cannot assert definitively that this is a different hand, but line 37 certainly includes a higher number of awkward characters than the rest of the text. In addition, the dependent vowel <foreign>i</foreign> may be formed differently here than elsewhere, and most importantly, the consonants <foreign>b</foreign> and especially <foreign>y</foreign> are drawn rather differently. My impression is that this is a less confident hand, which attempts to draw sophisticated characters with a varying degree of success, unlike the primary hand that simplifies boldly and confidently.</handNote>
+<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
                 <handNote xml:id="Pallava00001_hand2"></handNote>
@@ -128,32 +132,33 @@ n="8" break="no"/><unclear>rā</unclear>jasya naptā śrī-viṣṇuvarddhana-ma
 
 n="2v" break="no"/><lb 
 n="9" break="no"/>-vijaya-samupalabdha-śrī-vadhū-nivāsāyamāna-vipula-vakṣ<choice><orig>a</orig><reg>aḥ</reg></choice>-sthala<lb 
-n="10" break="no"/>sya putraḥ śakti-traya-samadhigata-mahā-khyāti-vibhūti<unclear>ḥ</unclear> tri<lb 
+n="10" break="no"/>sya putraḥ śakti-traya-samadhigat<choice><sic>a</sic><corr>o</corr></choice> mahā-khyāti-vibhūti<unclear>ḥ</unclear> tri<lb 
 n="11" break="no"/>vargga-sevā-nipuṇaḥ purāṇa-puruṣa Iva bahu-loka-stu<lb 
 n="12" break="no"/>taḥ purārātir iva bhūta-gaṇa-priyaḥ dvitīya Iva makaradhvajaḥ<pb 
 
 n="3r"/><lb 
 n="13"/>pañcama Iva lokapālaḥ <choice><sic>pridhagra</sic><corr>pr̥thāgra</corr></choice>-suta Iva satya-sandhaḥ śar<choice><sic>ā</sic><corr>a</corr></choice><unclear>t</unclear>-k<unclear>ā</unclear>la <unclear>I</unclear>va<lb 
-n="14"/>kr̥<space type="binding-hole"/>ta-bandhu-jīvotsavaḥ pūrvvācal<subst><del rend="corrected">o</del><add place="overstrike">e</add></subst>ndra Iva mitrodayānukūla<lb 
+n="14"/>kr̥<space type="binding-hole"/>ta-bandhu-jīvotsava<unclear>ḥ</unclear> pūrvvācal<subst><del rend="corrected">o</del><add place="overstrike">e</add></subst>ndra Iva mitrodayānukūla<lb 
 n="15" break="no"/>-mahim<choice><orig>ā</orig><reg>aḥ</reg></choice> mahīpati-makuṭa-taṭa-ghaṭita-mahā-ratna-marīci-ma<lb 
 n="16" break="no"/>ñjarī-rañjita-caraṇāravinda-yuga<choice><orig>ḷ</orig><reg>l</reg></choice>aḥ śrīndrava<supplied reason="omitted">r</supplied>mma-mahārājaḥ tyā<lb 
 n="17" break="no"/>ga-dhen<choice><sic>yā</sic><corr>v-a</corr></choice>para-nāma-dheyaḥ Udaka-pūrv<unclear>v</unclear>akaṁ sarvva-karā!a-parihāropetaM<pb 
 
 n="3v"/><lb 
 n="18"/><unclear>b</unclear>rahmad<choice><sic>a</sic><corr>e</corr></choice>y<unclear>ī</unclear>k<unclear>r̥</unclear>tya koṇḍaṇagūru-nāma grāma<surplus>grāma</surplus>M prādāT</p>
-<p>tasya grāmasya <lb n="19"/><unclear>d</unclear>ig-<unclear>v</unclear>ibhāgā<supplied reason="omitted">ḥ</supplied>| Uttarataḥ muṁjuṇūru-nāma grāma<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> pūrvvataḥ pagu<unclear>nū</unclear>ru-nāma grā<lb 
+<p>tasya grāmasya <lb 
+n="19"/><unclear>d</unclear>ig-<unclear>v</unclear>ibhāgā<unclear>ḥ</unclear><supplied reason="subaudible">.</supplied> Uttarataḥ muṁjuṇūru-nāma grāma<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> pūrvvataḥ pagu<unclear>nū</unclear>ru-nāma grā<lb 
 n="20" break="no"/>maḥ<supplied reason="subaudible">.</supplied> dakṣiṇa-vibhāg<choice><sic>a</sic><corr>ā</corr></choice>vasthitaḥ ceṟupūru-nāma grāma<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> pa<unclear>ś</unclear>c<unclear>i</unclear>mataḥ Irb<unclear>u</unclear><lb 
 n="21" break="no"/><unclear>l</unclear>i-nāma gr<choice><sic>a</sic><corr>ā</corr></choice>maḥ<supplied reason="subaudible">.</supplied> Eteṣāṁ grāmāṇāṁ maddhye<surplus>ṁ</surplus> niv<choice><sic>a</sic><corr>ā</corr></choice>sī-kr̥taḥ<supplied reason="subaudible">.</supplied> vājasaneya-ca<lb 
 n="22" break="no"/><unclear>ra</unclear>ṇasya du<supplied reason="omitted">r</supplied>ggaśa<supplied reason="omitted">r</supplied>mmaṇaḥ brahma-vihita-karmma-niratasya Iṟṟaḷ<unclear>ūr</unclear>-boya-nāma<pb 
 
 n="4r"/><lb 
-n="23"/><unclear cert="low">brāhmaṇa</unclear>sya pautrāya Abhijana-v<choice><sic>ī</sic><corr>i</corr></choice>dyā-v<choice><orig>ri</orig><corr>r̥</corr></choice>ttavataḥ bhāradvā<unclear>ja</unclear>-sa<unclear>go</unclear>tra<lb 
+n="23"/><unclear cert="low">brāhmaṇa</unclear>sya pautrāya Abhijana-v<choice><sic>ī</sic><corr>i</corr></choice>dyā-v<choice><orig>ri</orig><reg>r̥</reg></choice>ttavataḥ bhāradvā<unclear>ja</unclear>-sa<unclear>go</unclear>tra<lb 
 n="24" break="no"/>sya viṣṇuśarmmaṇaḥ putrāya vedavid-vipra-saṁstūyamāna-caritā<unclear>ya</unclear><lb 
 n="25"/>ceṇḍiśarmmaṇe mātā-pitror ātmanaś ca puṇy<choice><sic>o</sic><corr>ā</corr></choice>vāptaye</p>
 <p>Iti <unclear>ca</unclear> <lb 
 n="26"/>bhāvino rāja<supplied reason="omitted">r</supplied>ṣīN yathopacāra-purassaraM sammānayati</p>
 <p>Āryy<unclear>ā</unclear><lb 
-n="27" break="no"/>hū-va<unclear>ṁ</unclear>śa-gagana-tilaka-bhūta-<choice><unclear>r</unclear><unclear>k</unclear></choice>oṇ<unclear reason="eccentric_ductus">ḍi</unclear>varmmaṇo mahārājasyāgra-suta-I<pb 
+n="27" break="no"/>hū-va<unclear>ṁ</unclear>śa-gagana-tilaka-bhūta-<choice><unclear>r</unclear><unclear>k</unclear></choice>oṇ<unclear reason="eccentric_ductus">ḍi</unclear>varmmaṇo mahārājasyāgra-sut<choice><orig>a-I</orig><reg>a-I</reg></choice><pb 
 
 n="4v" break="no"/><lb 
 n="28" break="no"/>ndrava<unclear>r</unclear>mma<surplus><unclear cert="low">ṇa</unclear></surplus>-<unclear>n</unclear>āma-dheya-vi<choice><sic>ñj</sic><corr>jñ</corr></choice>āpanayā<supplied reason="subaudible">.</supplied> tasyā<choice><sic>ñjā</sic><corr>jña</corr></choice>ptir <choice><sic>o</sic><corr>e</corr></choice>vaM Ālapāka-<unclear>boḶ</unclear> <lb 
@@ -161,6 +166,35 @@ n="29"/><gap reason="illegible" quantity="2" unit="character"/><unclear>ppi-bo�
 <p>Api ca mohā<unclear>l lobhā</unclear><lb 
 n="30" break="no"/>d vā yaẖ kaścid vighna-karttā<surplus>ra</surplus> sa pañca-mahāpātaka-yukto bhaviṣyati<supplied reason="subaudible">.</supplied> Iti ca <lb 
 n="31"/>veda-vyā<supplied reason="omitted">sa</supplied>sya ślok<choice><sic>a</sic><corr>ā</corr></choice>ś cātra</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a" enjamb="yes">nighnato <space type="defect"/> bha<supplied reason="omitted">r</supplied>t<choice><orig>ri</orig><reg>r̥</reg></choice>-go-vipra</l>
+<l n="b">-bāla-yoṣit-<unclear>t</unclear>a<lb 
+n="32" break="no"/>pasvinaḥ</l>
+<l n="c">yā gatis sā bhave<choice><sic>t</sic><corr>d</corr></choice> vr̥ttiM</l>
+<l n="d">harata<supplied reason="omitted">ḥ</supplied> śāsanāṅkitāM</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">ṣaṣṭiṁ<surplus>ma</surplus> varṣa-sa<pb 
+
+n="5r" break="no"/><lb 
+n="33" break="no"/>h<choice><sic>ā</sic><corr>a</corr></choice>srāṇi</l>
+<l n="b">svargge tiṣṭhati bhūmi-da<unclear>ḥ</unclear></l>
+<l n="c">Ākṣeptā cānumant<choice><sic>a</sic><corr>ā</corr></choice> ca</l>
+<l n="d">tāny eva na<lb 
+n="34" break="no"/><del><unclear>ra</unclear></del><space type="binding-hole"/>rake vaseT</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">bahubhir vva<supplied reason="omitted">su</supplied>dhā dattā</l>
+<l n="b">bahubhiś cā<unclear reason="eccentric_ductus">nu</unclear>pālitā</l>
+<l n="c">yasya ya<lb 
+n="35" break="no"/>sya yad<unclear>ā bh</unclear>ūmi<supplied reason="omitted">s</supplied></l>
+<l n="d">tasya tasya tadā phalaM</l>
+</lg>
+<ab>Iti</ab>
+<p>kanakarāma-li<unclear>kh</unclear>i<lb 
+n="36" break="no"/>te śā<choice><sic>ś</sic><corr>s</corr></choice>ane catu<supplied reason="omitted">ḥ</supplied>ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>y-<choice><sic>ā</sic><corr>a</corr></choice><supplied reason="omitted">ṁ</supplied>ś<choice><sic>a</sic><corr>ā</corr></choice>ḥ<supplied reason="subaudible">.</supplied> Eteṣā<supplied reason="omitted">ṁ</supplied> nāmānāM Ekaikā<supplied reason="omitted">ṁ</supplied>śaḥ <g type="spiralR"/></p>
+<ab><lb 
+n="37"/><handShift new="#DHARMA_INSVengiCalukya00053_hand2"/><gap reason="illegible" quantity="2" unit="character" precision="low"/><unclear cert="low">pājñā</unclear> <sic>kuṁḷḷ</sic> ekāṁśa<unclear cert="low">ṁ</unclear> <choice><unclear>c</unclear><unclear>v</unclear></choice><unclear reason="eccentric_ductus" cert="low">o</unclear>ḍa-boḶ t<choice><orig>ri</orig><reg>r̥</reg></choice>t<choice><sic>i</sic><corr>ī</corr></choice>yā<choice><sic>śaṁ</sic><corr>ṁśa</corr></choice><supplied reason="omitted">ḥ</supplied></ab>
 
 <pb 
 
@@ -200,9 +234,19 @@ n="5v"/>
         <rdg source="bib:Hultzsch1925-1926_07">-<choice><sic>g</sic><corr>ś</corr></choice>ata-</rdg>
         <note>I consider Hultzsch's emendation unnecessary.</note>
       </app>
+      <app loc="8">
+        <lem>-samadhigat<choice><sic>a</sic><corr>o</corr></choice></lem>
+        <rdg source="bib:Hultzsch1925-1926_07">-samadhigata-</rdg>
+        <note>I prefer to see the end of a compound here, since being equipped with the three <foreign>śakti</foreign>s is listed as a separate item in numerous grants of the dynasty.</note>
+      </app>
       <app loc="14">
-        <lem source="bib:Hultzsch1925-1926_07">-jīvotsavaḥ</lem>
-        <note>I accept Hultzsch's reading, but the last character looks in the estampage rather like a vertical bar rather.</note>
+        <lem source="bib:Hultzsch1925-1926_07">-jīvotsava<unclear>ḥ</unclear></lem>
+        <note>I accept Hultzsch's reading (which he prints as clear), but the last character looks in the estampage rather like a vertical bar.</note>
+      </app>
+      <app loc="19">
+        <lem>-<unclear>v</unclear>ibhāgā<unclear>ḥ</unclear><supplied reason="subaudible">.</supplied></lem>
+        <rdg source="bib:Hultzsch1925-1926_07">-vibhāgā<supplied reason="omitted">ḥ</supplied>|</rdg>
+        <note>Hultzsch may be correct in reading the sign as a punctuation mark, but it looks more like a <foreign>visarga</foreign> to me; compare the note on line 14 above.</note>
       </app>
       <app loc="19">
         <lem>muṁjuṇūru-</lem>
@@ -229,7 +273,7 @@ n="5v"/>
       </app>
       <app loc="25">
         <lem>Iti <unclear>ca</unclear></lem>
-        <note>Hultzsch construes these words with the preceding sentence, but to me the lack of sandhi before them, as well as the context, suggest that they go with the following one. See the translation for my interpretation.</note>
+        <note>Hultzsch construes these words with the preceding sentence, but to me the lack of sandhi before them, as well as the context, suggest that they go with the following one. See my translation and commentary for details.</note>
       </app>
       <app loc="26">
         <lem>Āryy<unclear>ā</unclear><lb n="27" break="no"/>hū-</lem>
@@ -238,24 +282,71 @@ n="5v"/>
       <app loc="27">
         <lem>-<choice><unclear>r</unclear><unclear>k</unclear></choice>oṇ<unclear reason="eccentric_ductus">ḍi</unclear>varmmaṇo</lem>
         <rdg source="bib:Hultzsch1925-1926_07">-ko<unclear>ṇḍi</unclear>varmmaṇā</rdg>
-        <note>I think the <foreign>ṇ</foreign> at the end of this word has a quite clear second vowel stroke attached at the bottom left. See the note to the translation on how Hultzsch interprets this passage and how I differ from him. The first character of the name looks like <foreign>ro</foreign> in the estampage; if it was indended for <foreign>ko</foreign>, then it has no headmark. The second character may have been corrected from something else. Its consonants are probably intended to be <foreign>ṇḍ</foreign>, but <foreign>ḍ</foreign> is attached to the right of <foreign>ṇ</foreign> rather than to the bottom (as e.g. in l25, <foreign>ceṇḍiśarmmaṇe</foreign>). The vowel marker includes a second curved stroke to the left of a recognisable <foreign>i</foreign>.</note>
+        <note>I think the <foreign>ṇ</foreign> at the end of this word has a quite clear second vowel stroke attached at the bottom left. See my translation and commentary about how my interpetation differs from that of Hultzsch here. The first character of the name looks like <foreign>ro</foreign> in the estampage; if it was indended for <foreign>ko</foreign>, then it has no headmark. The second character may have been corrected from something else. Its consonants are probably intended to be <foreign>ṇḍ</foreign>, but <foreign>ḍ</foreign> is attached to the right of <foreign>ṇ</foreign> rather than to the bottom (as e.g. in l25, <foreign>ceṇḍiśarmmaṇe</foreign>). The vowel marker includes a second curved stroke to the left of a recognisable <foreign>i</foreign>.</note>
       </app>
       <app loc="27">
-        <lem>āgra-suta-I<pb n="4v" break="no"/><lb n="28" break="no"/>ndrava<unclear>r</unclear>mma<surplus><unclear cert="low">ṇa</unclear></surplus>-nāma-dheya-</lem>
+        <lem>āgra-sut<choice><orig>a-I</orig><reg>a-I</reg></choice><pb n="4v" break="no"/><lb n="28" break="no"/>ndrava<unclear>r</unclear>mma<surplus><unclear cert="low">ṇa</unclear></surplus>-nāma-dheya-</lem>
         <rdg source="bib:Hultzsch1925-1926_07">āgra-suta I<pb n="4v" break="no"/><lb n="28" break="no"/>ndravarmma<surplus>ṇa</surplus>-n<choice><sic>a</sic><corr>ā</corr></choice>madhey<choice><sic>a</sic><corr>o</corr></choice></rdg>
-        <note>I feel quite sure that all of this sequence describes the petitioner, so the words are technically in compound (in fact simply being used without case endings). See the note to the translation on how Hultzsch interprets this passage and how I differ from him. Hultzsch's <foreign>nama</foreign> may be a typo in the edition, since the <foreign>ā</foreign> is the clearest part of the character <foreign>nā</foreign>; his emendation concerns the locus as a whole, not this particular character. In the facsimile, I see nothing of Hultzsch's <foreign>ṇa</foreign>. The damaged space is slightly wider than expected for <foreign>ṇa</foreign>, but I assume that Hultzsch read this character correctly. If so, this genitive ending, though syntactically incorrect here, is nonetheless in my opinion an indication that I am correct to interpret all of this stretch as a description of the petitioner.</note>
+        <note>I feel quite sure that all of this sequence describes the petitioner, so the words are technically in compound (in fact simply being used without case endings). See my translation and commentary about how my interpetation differs from that of Hultzsch here. Hultzsch's <foreign>nama</foreign> may be a typo in the edition, since the <foreign>ā</foreign> is the clearest part of the character <foreign>nā</foreign>; his emendation concerns the locus as a whole, not this particular character. In the facsimile, I see nothing of Hultzsch's <foreign>ṇa</foreign>. The damaged space is slightly wider than expected for <foreign>ṇa</foreign>, but I assume that Hultzsch read this character correctly. If so, this genitive ending, though syntactically incorrect here, is nonetheless in my opinion an indication that I am correct to interpret all of this stretch as a description of the petitioner.</note>
       </app>
       <app loc="28">
         <lem>-vi<choice><sic>ñj</sic><corr>jñ</corr></choice>āpanayā<supplied reason="subaudible">.</supplied> tasyā<choice><sic>ñjā</sic><corr>jña</corr></choice>ptir <choice><sic>o</sic><corr>e</corr></choice>vaM</lem>
         <rdg source="bib:Hultzsch1925-1926_07">-vi<choice><sic>ñj</sic><corr>jñ</corr></choice>āpanayā tasyā<choice><sic>ñjā</sic><corr>jña</corr></choice>pti<choice><sic>r</sic><corr>ḥ</corr></choice><supplied reason="subaudible">.</supplied> <choice><sic>o</sic><corr>E</corr></choice>vaM</rdg>
-        <note>See the note to the translation on how Hultzsch interprets this passage and how I differ from him. There is in fact a dot at median height after this word, which may be a punctuation mark or the remnant of one.</note>
+        <note>See my translation and commentary about how my interpetation differs from that of Hultzsch here. There is in fact a dot at median height after this word, which may be a punctuation mark or the remnant of one.</note>
       </app>
       <app loc="30">
         <lem>bhaviṣyati<supplied reason="subaudible">.</supplied> Iti <unclear>ca</unclear></lem>
         <rdg source="bib:Hultzsch1925-1926_07">bhaviṣyat<choice><sic>i I</sic><corr>ī</corr></choice>ti <unclear>ca</unclear><supplied reason="subaudible">.</supplied></rdg>
         <note>Hultzsch construes <foreign>Iti ca</foreign> with the preceding sentence, but to me the lack of sandhi before these words, as well as the context, suggest that they go with the following one. See the translation for my interpretation.</note>
       </app>
-
+      <app loc="31">
+        <lem>nighnato <space type="defect"/></lem>
+        <note>After this word, there is a thick, roughly horizontal line at about median height, occupying about one character width. This may be a pre-existing defect in the copper surface that the engraver skipped, or it may be an aborted character.</note>
+      </app>
+      <app loc="33">
+        <lem>bhūmi-da<unclear>ḥ</unclear></lem>
+        <rdg source="bib:Hultzsch1925-1926_07">bhūmi-da<supplied reason="omitted">ḥ</supplied>|</rdg>
+        <note>If Hultzsch is correct in reading a punctuation mark here, then this may be the only punctuation mark in the charter. It thus seems more likely to me that we have a <foreign>visarga</foreign> here, similar to the apparent vertical bar read by Hultzsch as a <foreign>visarga</foreign> in line 14.</note>
+      </app>
+      <app loc="33">
+        <lem>na<lb n="34" break="no"/><del><unclear>ra</unclear></del><space type="binding-hole"/>rake</lem>
+        <note>In line 34 above the hole (slightly to the left of its centreline) there is a mark that resembles a capital T. It does not appear to be a numeral for foliation, and thus I take it to be part of an aborted <foreign>ra</foreign> that the scribe commenced here, then decided not to squeeze it in above the binding hole and re-engraved to the right of the hole.</note>
+      </app>
+      <app loc="33">
+        <lem>cā<unclear reason="eccentric_ductus">nu</unclear>pālitā</lem>
+        <note>The intended <foreign>nu</foreign> looks very much like <foreign>ka</foreign>.</note>
+      </app>
+      <app loc="36">
+        <lem>nāmānāM</lem>
+        <note>Hultzsch tentatively suggests emending this word to <foreign>brāhmaṇānāṁ</foreign>.</note>
+      </app>
+      <app loc="37">
+        <lem>Ekaikā<supplied reason="omitted">ṁ</supplied>śaḥ</lem>
+        <note>It is also possible that <foreign>Ekaikaśaḥ</foreign> was intended here.</note>
+      </app>
+      <app loc="37">
+        <lem><g type="spiralR"/></lem>
+        <note>This symbol may have been intended for the very end of the text, but it is clearly at the end of line 37.</note>
+      </app>
+      <app loc="37">
+        <lem><gap reason="illegible" quantity="2" unit="character" precision="low"/><unclear cert="low">pājñā</unclear></lem>
+        <rdg source="bib:Hultzsch1925-1926_07"><gap reason="illegible" quantity="2" unit="character" precision="low"/><unclear>pālvā</unclear></rdg>
+        <note>The lacuna at the beginning may be only one character in extent; if it is two characters, then the first is rather narrow. The second (or only) illegible character seems to have a roundish body. The first tentatively read character seems to be <foreign>pā</foreign>, but may perhaps be <foreign>dā</foreign> instead. The second looks to me like <foreign>jñā</foreign> with the vowel <foreign>ā</foreign> attached twice, once to the middle prong and curling over the top as occasionally done with <foreign>j</foreign>, and a second time in the standard way, attached to the top right. It is also possible that Hultzsch is correct in interpreting the curled upper part (which I see as the first <foreign>ā</foreign>) as <foreign>l</foreign>, but in that case the subscript component seems to me to be too large and complex for <foreign>v</foreign>, looking more like a consonant+<foreign>r</foreign> combination.</note>
+      </app>
+      <app loc="37">
+        <lem><choice><unclear>c</unclear><unclear>v</unclear></choice><unclear reason="eccentric_ductus" cert="low">o</unclear>ḍa-</lem>
+        <rdg source="bib:Hultzsch1925-1926_07">coḍa-</rdg>
+        <note>The vowel marker on the first character looks like that for <foreign>ā</foreign>, but is connected to the body with a double-humped line resembling the single-stroke cursive form of <foreign>o</foreign>. The humps are, however, to the right of and in line with the head of the character instead of being above it. Given that this inscription does not use the cursive <foreign>o</foreign>, I am not sure what vowel was intended here.</note>
+      </app>
+      <app loc="37">
+        <lem>-boḶ</lem>
+        <note>As Hultzsch also observes, there is a dot (or short dash) at median height after <foreign>bo</foreign>. This is probably irrelevant to the text even if it is not a product of later damage.</note>
+      </app>
+      <app loc="37">
+        <lem>t<choice><orig>ri</orig><reg>r̥</reg></choice>t<choice><sic>i</sic><corr>ī</corr></choice>yā°</lem>
+        <rdg source="bib:Hultzsch1925-1926_07">t<choice><orig>ri</orig><reg>r̥</reg></choice>tīyā°</rdg>
+      </app>
+      
       
       
       
@@ -271,7 +362,17 @@ n="5v"/>
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-9">
+<p n="1-18">Greetings. The grandson of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Kīrtivarman, who by <supplied reason="subaudible">the mere fact of</supplied> his birth shone <supplied reason="subaudible">like an ornament</supplied> adorning the lineage of the majestic Caḷukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārīti, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, who attained kingship by the grace of Kauśikī’s boon, to whom all kings instantaneously submit at the <supplied reason="explanation">mere</supplied> sight of the Boar emblem they have acquired by the grace of the divine Nārāyaṇa, whose <seg cert="low">minds and</seg> bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice, and who have subjected the triple world to themselves by their inherent glory—; the son of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">I</supplied>, the wide face of whose chest became the dwelling-place of Lady Majesty acquired by defeating enemies who had positioned themselves at the battlefront: His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Indravarman <supplied reason="explanation">Indra Bhaṭṭāraka</supplied>—whose other name is Milchcow of Liberality <supplied reason="explanation"><foreign>tyāga-dhenu</foreign></supplied>, who is endowed with the three powers <supplied reason="explanation"><foreign>śakti-traya</foreign></supplied>, whose fame and might are great, who is adept in serving the three orders of society <supplied reason="explanation"><foreign>trivarga</foreign></supplied>,<note>I assume that <foreign>trivarga</foreign> refers here to the three upper <foreign>varṇa</foreign>s. However, some other group of three may have been meant, e.g. the three primary <foreign>puruṣārthas</foreign>.</note> who is praised by many people as the Primeval Man <supplied reason="explanation"><foreign>purāṇa-puruṣa</foreign>, i.e. probably Viṣṇu</supplied> <seg rend="pun">is praised by many worlds</seg>, who is the beloved of hosts of creatures as the Enemy of Pura <supplied reason="explanation">Śiva</supplied> <seg rend="pun">is the beloved of troops of ghosts <supplied reason="explanation"><foreign>bhūta</foreign></supplied></seg>, who is like a second Crocodile-Bannered <supplied reason="explanation">Kāma</supplied>, like a fifth Guardian of the World <supplied reason="explanation"><foreign>lokapāla</foreign></supplied>, who is true to his word like the firstborn son of Pr̥thā <supplied reason="explanation">Yudhiṣṭhira</supplied>, who creates a feast for his kinsmen and for living beings <supplied reason="explanation">in general</supplied> like the autumn season <seg rend="pun">which creates a feast of <foreign>bandhujīva</foreign> flowers</seg>, whose power is inclined toward the elevation of his friends, like the Lordly Mountain of the East <seg rend="pun">whose bulk is inclined toward the rising of the sun</seg>, whose pair of lotus feet are tinted by clusters of rays from great gems fitted to the surfaces of the crowns of kings—<supplied reason="explanation">this King Indravarman</supplied> has donated the village named Koṇḍaṇagūru, converted into a Brahmanic gift <supplied reason="explanation"><foreign>brahma-deya</foreign></supplied> and with a remission of all taxes, <supplied reason="subaudible">the donation being</supplied> sanctified by <supplied reason="explanation">a libation of</supplied> water.</p>
+<p n="18-25">The demarcations of directions for that village <supplied reason="subaudible">are as follows</supplied>. To the north, the village named Muṁjuṇūru. To the east, the village named Pagunūru. The village named Ceṟupūru is established as the southern demarcation. To the west, the village named Irbuli. <supplied reason="subaudible" cert="low">The donee</supplied> has been allocated a residence amidst these villages. <supplied reason="subaudible">The donation has been made</supplied> to the grandson of the Brāhmin Durgaśarman <supplied reason="explanation">also</supplied> named Iṟṟaḷūr-boya, who belonged to the Vājasaneya <foreign>caraṇa</foreign> and was dedicated to the rituals <supplied reason="explanation"><foreign>karma</foreign></supplied> ordained for Brahmins; the son of Viṣṇuśarman of the Bhāradvāja <foreign>gotra</foreign>, who possessed a high birth, knowledge and <supplied reason="explanation">virtuous</supplied> conduct; <supplied reason="explanation">namely,</supplied> to Ceṇḍiśarman, whose demeanour is praised by Brahmins knowledgeable in the Vedas. <supplied reason="subaudible">The donation has been made</supplied> in order to acquire merit for <supplied reason="subaudible">my <supplied reason="explanation">Indravarman’s</supplied></supplied> mother and father as well as for myself <supplied reason="explanation">Indravarman</supplied>.</p>
+<p n="25-26">He <supplied reason="explanation">Indravarman</supplied> further respects <supplied reason="explanation">i.e. respectfully informs</supplied> future kingly sages <supplied reason="explanation"><foreign>rājarṣi</foreign></supplied> with all due courtesy as follows:<note>I construe <foreign>iti</foreign> at the beginning of this passage to refer to the following text. See also the apparatus to line 25.</note></p>
+<p n="26-29"><supplied reason="subaudible">The donation has been made</supplied> at the petition of the firstborn son, named Indravarman, of King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Koṇḍivarman<note>Or Roṇḍivarman.</note>, who was an ornament of the sky<note>Although <foreign>tilaka</foreign>, “ornament” and <foreign>gagana</foreign>, “sky” are not normally associated, I believe the composer’s intent was to say that this ruler was a moon (“sky-ornament”) to the sky that was his dynasty.</note> of the <seg cert="low">Āryāhū</seg> lineage.<note>Or possibly the lineage named Ārya.</note> The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of that <supplied reason="explanation">decree</supplied> is thus Ālapāka-boḷ, <gap reason="lost"/>ppi-boḷ, Somayājula-veḷḷekki-boḷ <supplied reason="explanation">and</supplied> Māraṭa-boḷ.<note>The word <foreign>boḷ</foreign> probably means either a village officer or the landlord of a village. It is thus likely that four persons are listed here not by name but by their titles (except probably for Somayājula, who seems to have both a name and a title); but since <foreign>ājñapti</foreign> appears in the singular, it is also possible that a single unnamed person was <foreign>boḷ</foreign> of four villages. See the commentary for my interpretation and how it differs from that of Hultzsch.</note></p>
+<p n="29-31">Moreover, whosoever would pose an obstacle <supplied reason="explanation">to the donee’s rights</supplied> out of a lack of discernment <supplied reason="explanation"><foreign>moha</foreign></supplied> or out of greed shall be conjoined with the five great sins. In addition, there are also the following verses of Veda-vyāsa on this matter.</p>
+<p rend="stanza" n="1">One who takes away income <supplied reason="explanation"><foreign>vr̥tti</foreign></supplied> sanctioned <supplied reason="explanation"><foreign>aṅkita</foreign></supplied> by <supplied reason="explanation">a royal</supplied> decree <supplied reason="explanation"><foreign>śāsana</foreign></supplied> incurs the fate of one who murders his lord, a cow, a Brahmin, a child, a woman or an ascetic.</p>
+<p rend="stanza" n="2">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
+<p rend="stanza" n="3">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
+<p n="35-36">With regard to this decree written <supplied reason="explanation"><foreign>likhita</foreign></supplied> by Kanakarāma, there are sixty-four shares. One share each for these <seg cert="low">names</seg>. <note>This passage is again obscure. Hultzsch tentatively emends the text to mean “One share each for these Brahmins” and believes that the Brahmins referred to may include the four <foreign>boḷ</foreign>s mentioned in lines 28-29 above, in addition to the principal donee Ceṇḍiśarman. He further assumes that the pronoun <foreign>eteṣām</foreign>, “these”, implies that the Brahmins in question would have been assembled in the king’s presence when he made the grant. I have no opinion pro or contra, except that the required emendation is a major one (not the rectification of a scribal error), and that is the assumption that the donees were assembled is correct, this gathering would probably have taken place at the village in question and not in the king’s presence. I wonder if the donees were in fact listed on an additional plate that is now lost.</note></p>
+<p n="35-37"><gap reason="lost"/> <gap reason="ellipsis"/> one share. Coḍa-boḷ, one third share.<note>See the commentary.</note>
+
 </p>
   </div>  
 </div>
@@ -283,7 +384,9 @@ n="5v"/>
 <div type="commentary">
 <p>The opening text <foreign>svasti</foreign> level with (or slightly above) line 2 of the body text, placed on the left (beginning around 1 o' clock of the binding hole), so that the body text of line 2 is indented by about 3 character widths.</p>
 <p>On most pages, lines next to the binding hole are indented to avoid the hole, but occasionally (where the hole is indicated in my edition), a character is inserted into the narrow space before the hole.</p>
-<p>I feel quite sure that <foreign>-nāma grāmagrāmaM</foreign> in line 18 is dittography, where the scribe engraved <foreign>grāma</foreign>, then skipped believing he was still at <foreign>nāma</foreign> and re-engraved <foreign>grāma</foreign>. Hultzsch <bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_07"/><citedRange unit="page">4</citedRange><citedRange unit="note">11</citedRange></bibl> believes otherwise and thinks <foreign>grāma-grāma</foreign> is deliberately used, meaning perhaps a large village or a chief village. He points out a parallel in line 18 of the <ref target="DHARMA_INSVengiCalukya00004.xml">Peṇukapaṟu grant of Jayasiṁha I</ref> (where, however, the original editor of that grant, Fleet, deems the repetition to be dittography). </p>
+<p>I feel quite sure that <foreign>-nāma grāmagrāmaM</foreign> in line 18 is dittography, where the scribe engraved <foreign>grāma</foreign>, then skipped believing he was still at <foreign>nāma</foreign> and re-engraved <foreign>grāma</foreign>. Hultzsch <bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_07"/><citedRange unit="page">4</citedRange><citedRange unit="note">11</citedRange></bibl> believes otherwise and thinks <foreign>grāma-grāma</foreign> is deliberately used, meaning perhaps a large village or a chief village. He points out a parallel in line 18 of the <ref target="DHARMA_INSVengiCalukya00004.xml">Peṇukapaṟu grant of Jayasiṁha I</ref> (where, however, the original editor of that grant, Fleet, deems the repetition to be dittography).</p>
+<p>By my interpretation of the rather ellpitical and vague passage in lines 26-29, the Eastern Cālukya king Indravarman is hereby issuing a grant at the request of (or endorsing a grant made by) a petty ruler likewise named Indravarman, the son of Koṇḍivarman/Roṇḍivarman. The four <foreign>boḷ</foreign>s listed here were probably persons of note in the territory concerned, which was ruled by the petty Indravarman as a vassal of the Cālukya Indravarman, and were therefore (<foreign>evam</foreign> in the text) given the task of conveying the grant to the village and publicising it. It is also conceivable that they were, in the first place, the messengers sent by the vassal Indravarman to the suzerain Indravarman’s court to ask for this grant to be made or endorsed. Hultzsch, however, interprets the passage differently. He believes that the subordinate who petitioned for the grant was Koṇḍivarman, and the Indravarman mentioned in this passage was the son of the Cālukya Indravarman, who was appointed as the executor of the grant at the request of Koṇḍivarman. As for the four <foreign>boḷ</foreign>s, according to Hultzsch they were probably witnesses to the grant, which he sees as being implied by the word <foreign>evam</foreign>, “thus”, in the text. I find his interpretation unconvincing for the following reasons. 1) it requires two emendations (<foreign>nāma-dheya</foreign> to <foreign>nāma-dheyo</foreign> and <foreign>°ājñaptir</foreign> to <foreign>°ājñaptiḥ|</foreign>) , whereas my proposal only assumes a lack of sandhi at a point where the writer may well have preferred hiatus for the sake of clarity. 2) even with Hultzsch’s emendations, the resulting syntax is extremely awkward and staggered, with the possessive phrase <foreign>koṇḍivarmmaṇo … vijñāpanayā</foreign> split into two widely separated parts, containing another possessive phrase in the intervening text, whereas the text as I read it involves only the minimal awkwardness of a long and not-quite-regular compound. 3) I perceive my own scenario as quite coherent, while I do not see such coherence in Hultzsch’s scenario. Why would the vassal have requested that the suzerain’s son be appointed as executor? Why is the text not clearer if the vassal actually made two requests, one for the grant to be made, and another for the prince to be appointed as executor? Why would witnesses need to be involved at all, and—since I am not aware of witnesses being named in any Eastern Cālukya grant—why is their function and the reason for their inclusion not clearly stated? 4) I believe that the reason why Hultzsch did not choose to interpret the text along lines similar to my thinking was the fact that by my interpretation, both the vassal and the suzerain bear the style <foreign>mahārāja</foreign>, whereas by his understanding, only the suzerain gets this style. Since <foreign>mahārāja</foreign> is often used as a title of subordinate rulers, I see no difficulty in understanding this to refer to the vassal Koṇḍivarman here; and conversely, Eastern Cālukya grants frequently use <foreign>mahārāja</foreign> (as well as even more unassuming styles) for their kings without any implication of inferior status.</p>
+<p>The meaning and purpose of the last line is obscure. It may have been added subsequently, since it comes after the closing sign at the end of line 36 and it seems to be in a different hand. If I am correct in reading the word <foreign>ājñā</foreign> in line 37, then it may be that the executors were also granted shares in the donated land, and if so, Coḍa-boḷ may have been another agent instrumental to the implementation of the grant.</p>
 </div>
 
 
