@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Mḻoṁpaṟṟu grant of Maṅgi Yuvarāja</title><!--Alt Title: Ipuru (Īpūru, Īpūr) plates of Maṅgi yuva-vallabha-mahārāja-->
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00054</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+<summary>
+                    <p>Halantas. </p>
+                    <p>Original punctuation marks</p>
+                    <p>Other palaeographic observations. The consonants ka and ra occur in both short and long forms. Anusvāra is normally above the character to which it belongs.
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+</summary>
+<handNote xml:id="DHARMA_INSVengiCalukya00053_hand1">The primary hand inscribing most of the text. Tends to be rather bold, using fairly simple and slightly cursive glyph forms.</handNote>
+<handNote xml:id="DHARMA_INSVengiCalukya00053_hand2">I cannot assert definitively that this is a different hand, but line 37 certainly includes a higher number of awkward characters than the rest of the text. In addition, the dependent vowel <foreign>i</foreign> may be formed differently here than elsewhere, and most importantly, the consonants <foreign>b</foreign> and especially <foreign>y</foreign> are drawn rather differently. My impression is that this is a less confident hand, which attempts to draw sophisticated characters with a varying degree of success, unlike the primary hand that simplifies boldly and confidently.</handNote>
+<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-03-22" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-sarvvasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p>
+<pb 
+
+n="1v"/><lb 
+n="1"/>svas<unclear>t</unclear>i. śrīm<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>d-bhagava<choice><sic>ta</sic><corr>t</corr></choice>-sv<unclear>ā</unclear>mi-mahāsena-pā<unclear>dān</unclear>udhy<unclear>ā</unclear>t<choice><sic>a</sic><corr>ā</corr></choice>nā<unclear>m mātr̥</unclear>-gaṇa-paripālitānāṁ m<unclear>ā</unclear><lb 
+n="2" break="no"/>na<unclear>v</unclear>ya-sagotr<unclear>ā</unclear>ṇā<unclear>ṁ hā</unclear>ri<unclear>tī-putrāṇāṁ kauśikī-vara-pra</unclear>sā<unclear>da-la</unclear>bdha-<unclear>r</unclear>ājy<unclear>ā</unclear>nāṁ <unclear>Aśvamedha-yāj</unclear>in<unclear>ām a</unclear>
+
+</p>
+
+<pb 
+
+n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="1">
+        <lem>-bhagava<choice><sic>ta</sic><corr>t</corr></choice>-</lem>
+        <rdg source="bib:RamachandraMurthy1986_01">bhāgavata</rdg>
+        <note>It is not impossible that the character read as <foreign>ta</foreign> is in fact a final <foreign>T</foreign>.</note>
+      </app>
+      <app loc="2">
+        <lem><unclear>hā</unclear>ri<unclear>tī</unclear>-</lem>
+        <rdg source="bib:RamachandraMurthy1986_01">h<choice><sic>a</sic><corr>ā</corr></choice>ritī-</rdg>
+      </app>
+      
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-18">
+</p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1919-1920"/><citedRange unit="page">12</citedRange><citedRange unit="appendix">A/1919-20</citedRange><citedRange unit="item">9</citedRange></bibl> with discussion at <bibl><ptr target="bib:ARIE1919-1920"/><citedRange>99</citedRange></bibl>. Edited from inked estampages by S. S. Ramachandra Murthy (<bibl rend="omitname"><ptr target="bib:RamachandraMurthy1986_01"/></bibl>), with facsimiles,<note>No image of the seal has been published.</note> without translation. The present edition by Dániel Balogh is based on a collation of Ramachandra Murthy's edition with his facsimiles.</p>
+  <listBibl type="primary">
+    <bibl n="RM"><ptr target="bib:RamachandraMurthy1986_01"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1919-1920"/><citedRange unit="page">12</citedRange><citedRange unit="appendix">A/1919-20</citedRange><citedRange unit="item">9</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1919-1920"/><citedRange>99</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
