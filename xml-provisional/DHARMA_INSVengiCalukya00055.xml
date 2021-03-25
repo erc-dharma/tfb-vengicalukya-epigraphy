@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Cāmaṟṟu plates of Jayasiṁha I</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00055</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+
+                    <p>Halantas</p>
+                    <p>Original punctuation marks</p>
+                    <p>Other palaeographic observations 
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+
+<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_V01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-03-25" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-sarvvasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p>
+<pb 
+
+n="1r"/><lb 
+n="1"/>svasti śrīmat-piṣṭapurā<supplied reason="omitted">T</supplied><supplied reason="subaudible">.</supplied> svām<choice><sic>ī</sic><corr>i</corr></choice>-mahāsena-pādānudhyātānā<supplied reason="omitted">ṁ</supplied>
+<lb n="2"/>hāriti-putrāṇā<supplied reason="omitted">ṁ</supplied> mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> ku<surplus>ra</surplus>
+<lb n="3" break="no"/>māra-svāmi-vara-la<supplied reason="omitted">b</supplied>dha-r<choice><sic>a</sic><corr>ā</corr></choice>jyānā<supplied reason="omitted">ṁ</supplied> śrī-<unclear>vīra</unclear>-<choice><sic><unclear>v</unclear></sic><corr>l</corr></choice><unclear>a</unclear><choice><sic><unclear>khkh</unclear></sic><corr>kṣ</corr></choice><unclear>aṇ</unclear><choice><sic>a</sic><corr>ā</corr></choice>śvame
+<lb n="4" break="no"/>dha-y<choice><sic>a</sic><corr>ā</corr></choice>jinā<unclear cert="low">m anvaye</unclear> mahodadh<choice><sic>o</sic><corr>e</corr></choice><supplied reason="omitted">ḥ</supplied> Amr̥ta <choice><orig>yi</orig><reg>I</reg></choice>va bhūta-trāṇā
+
+</p>
+
+<pb 
+
+n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem source="bib:Katti+PadmanabhaSastry1995_01">śrī-<unclear>vīra</unclear>-<choice><sic><unclear>v</unclear></sic><corr>l</corr></choice><unclear>a</unclear><choice><sic><unclear>khkh</unclear></sic><corr>kṣ</corr></choice><unclear>aṇ</unclear><choice><sic>a</sic><corr>ā</corr></choice>śvame
+<lb n="4" break="no"/>dha-</lem>
+        <note>I have strong doubts about KPS's reading and their emendation, but have nothing better to offer.</note>
+      </app>
+      <app loc="4">
+        <lem>y<choice><sic>a</sic><corr>ā</corr></choice>jinā<unclear cert="low">m anvaye</unclear></lem>
+        <rdg source="bib:Katti+PadmanabhaSastry1995_01">-y<choice><sic>a</sic><corr>ā</corr></choice>jiṇā <choice><sic>cātraya</sic><corr>kṣatriya</corr></choice>-</rdg>
+        <note>Since KPM do not emend to <foreign>yājināṁ</foreign>, I suspect that the <foreign>ṇ</foreign> in their edition is a typo. I further suspect that their reading <foreign>cātraya</foreign> (which may be a misprint instead of <foreign>chātraya</foreign>) is mistaken, and the plate probably has <foreign>m anvaye</foreign> (or characters derivable through scribal error from that) at this locus.</note>
+      </app>
+      <app loc="4">
+        <lem>mahodadh<choice><sic>o</sic><corr>e</corr></choice><supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Katti+PadmanabhaSastry1995_01">mahodadh<choice><sic>o</sic><corr>ā</corr></choice></rdg>
+        <note>I do not understand KPM's emendation of <foreign>mahodadho</foreign> to <foreign>mahodadhā</foreign>. It is possible that their actual reading is <foreign>mahodadhomr̥ta</foreign>, which they emend to <foreign>mahodadhāmr̥ta</foreign>, but this would still be incorrect. I believe the text, or at least the composer's intent, must have been <foreign>mahodadheḥ Amr̥ta</foreign>.</note>
+      </app>
+      
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-18">
+
+</p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+<p>Very unusually, both sides of the first plate are inscribed.</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1990-1991"/><citedRange unit="page">23</citedRange><citedRange unit="appendix">A/1990-91</citedRange><citedRange unit="item">8</citedRange></bibl> with some further details at <bibl><ptr target="bib:ARIE1990-1991"/><citedRange>3-4</citedRange></bibl>. Edited from inked impressions by Madhav N. Katti and C. A. Padmanabha Sastry (<bibl rend="omitname"><ptr target="bib:Katti+PadmanabhaSastry1995_01"/></bibl>), without facsimiles and without translation. The present edition by Dániel Balogh follows the published edition, with conjectural corrections of suspected typographic errors. Conjectural changes to the reading are shown as unclear in my edition, and the apparatus records the text of the published edition for these loci.</p>
+  <listBibl type="primary">
+    <bibl n="KPS"><ptr target="bib:Katti+PadmanabhaSastry1995_01"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1990-1991"/><citedRange unit="page">23</citedRange><citedRange unit="appendix">A/1990-91</citedRange><citedRange unit="item">8</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1990-1991"/><citedRange>3-4</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
