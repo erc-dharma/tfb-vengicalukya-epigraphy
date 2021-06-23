@@ -46,7 +46,7 @@ However, if you need to do it locally, you can access all DHARMA RelexNG and Sch
   - Step 2: from those edited XMLs, it will create a HTML output and retrieve Zotero data as well.
   - Step 3: it will push those files in the repository under `editedxml` and `htmloutput` folders.
   - Step 4: to access those newly created files, make a `git pull`
-    - Step 5: all the HTML are available as a static website thanks to GitHub pages service. Note that the README is the by default page if no XMLs are stored in the repository: https://erc-dharma.github.io/tfb-vengicalukya-epigraphy/  
+  - Step 5: all the HTML are available as a static website thanks to GitHub pages service. Note that the README is the by default page if no XMLs are stored in the repository: https://erc-dharma.github.io/tfb-vengicalukya-epigraphy/  
 
   *Please note that this process can break easily and requires high quality data*. The content log of the pipeline are available under [Actions tab](https://github.com/erc-dharma/tfb-vengicalukya-epigraphy/actions) of the repository, if you need to find the reason behind an error.
 
