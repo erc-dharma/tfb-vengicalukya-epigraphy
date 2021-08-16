@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Sātalūru plates of Vijayāditya III</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00069</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+
+                    <p>Halantas.</p>
+                    <p>KR does not describe the original punctuation marks. This edition prints | and || as shown in KR's edition.</p>
+                    <p>Other palaeographic observations, summarised from Krishna Rao. The writing is very neat and careful, but with innumerable mistakes. Anusvāra is frequently omitted or added superfluously. There are two forms of ja, an open square form (l5, 10) and a later cursive form (l6, 7, 8, 9, 10). The scribe makes a distinction between da and ḍa, notable in l45 where the two are side by side.
+                      
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+
+<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-08-16" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/><p><pb 
+
+n="1v"/><lb n="1"/>svasti| śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrānā<supplied reason="omitted">ṁ</supplied> harīti-putrā<choice><sic>n</sic><corr>ṇ</corr></choice>āṁ kau<lb 
+n="2" break="no"/>śitī-vara-prasāda-labdha-rājy<choice><sic>a</sic><corr>ā</corr></choice>nāṁ mātr̥-ga<choice><sic>n</sic><corr>ṇ</corr></choice>a-paripāl<choice><sic>ī</sic><corr>i</corr></choice>tānāṁ svāmi-mahāsena-pādā<lb 
+n="3" break="no"/>nudhyātānāṁ bhagava<choice><sic>ṇ-ṇ</sic><corr>n-n</corr></choice>ārāyaṇa-prasāda-samāsādita-vara-var<choice><sic>a</sic><corr>ā</corr></choice>ha-lā<choice><orig>n</orig><reg>nñ</reg></choice>chanekṣa<choice><sic>n</sic><corr>ṇ</corr></choice>a-kṣa<lb 
+n="4" break="no"/>ṇa-vaś<choice><sic>i</sic><corr>ī</corr></choice>kr̥tārāti-maṇḍalānāṁ Aśvamedhāvabhr̥tha-sn<choice><sic>a</sic><corr>ā</corr></choice>na-pavit<choice><sic>r̥</sic><corr>rī</corr></choice>kr̥ta-vapuṣāṁ cālu<lb 
+n="5" break="no"/>kyānāṁ kulam ala<choice><orig>n</orig><reg>ṁ</reg></choice>kariṣṇoḥ satyāśraya-vallabhendrasya bhrātā<surplus>D</surplus> kubja-viṣṇuvarddhana Aṣṭā<lb 
+n="6" break="no"/><supplied reason="omitted">da</supplied>śa varṣ<choice><sic>a</sic><corr>ā</corr></choice><choice><sic>n</sic><corr>ṇ</corr></choice>i+. tasya sūnuḥ sakala-lokāśrayo jayasiṁha-vallabhaḥ trayast<choice><sic>r̥</sic><corr>ri</corr></choice><supplied reason="omitted">ṁ</supplied>śad varṣā<choice><sic>n</sic><corr>ṇ</corr></choice>i+.<lb 
+n="7"/>tasyānujasya Indra-bhaṭṭārakasya p<choice><sic>r̥</sic><corr>ri</corr></choice>ya-tanayaḥ viṣṇurājaḥ nava varṣā<choice><sic>n</sic><corr>ṇ</corr></choice>i+. tasya suta<choice><sic>ṁ</sic><corr>ḥ</corr></choice><pb 
+
+n="2r"/><lb 
+n="8"/>maṁgi-dau<unclear reason="eccentric_ductus" cert="low">śa</unclear>rājaḥ pañcaviṁśati varṣā<choice><sic>n</sic><corr>ṇ</corr></choice>i+. tasya putraḥ jayasi<supplied reason="omitted">ṁ</supplied>ha-vallabhaḥ trayodaśa va<lb 
+n="9" break="no"/><choice><sic>ṣa</sic><corr>rṣā</corr></choice>ṇ<choice><sic>ī</sic><corr>i</corr></choice>+. tasyānujaḥ dvaimātura<supplied reason="omitted">ḥ</supplied> kokkiliḥ ṣaṇ māsā<choice><sic>T</sic><corr>N</corr></choice>+. tasyāgrajaḥ viṣṇur<choice><sic>a</sic><corr>ā</corr></choice>jaḥ sv<choice><sic>a</sic><corr>ā</corr></choice>nujam uccā<lb 
+n="10" break="no"/>ṭya pañcat<choice><sic>r̥</sic><corr>ri</corr></choice>ṁśad va<supplied reason="omitted">r</supplied>ṣāṇ<choice><sic>ī</sic><corr>i</corr></choice>+. tasyātmajaḥ vijayāditya-mahārāja Aṣṭāda<supplied reason="omitted">śa va</supplied>rṣā<choice><sic>ṇ</sic><corr>n</corr></choice>i+. tasya ta<lb 
+n="11" break="no"/>nayaḥ viṣṇuvarddhanaḥ pañcat<choice><sic>r̥</sic><corr>ri</corr></choice>ṁśad varṣāṇi dvādaśa-sahasra-pramāṇa<supplied reason="omitted">ṁ</supplied> ve<choice><sic><unclear>n</unclear></sic><corr>ṅ</corr></choice>gī-maṇḍala<surplus>ṁ</surplus><lb 
+n="12" break="no"/>m anvapālaya<choice><sic>N</sic><corr>T</corr></choice>+. tasya jyeṣṭhaḥ vijayādityaḥ Āditya Iva satatodaya-kar<choice><sic>i</sic><corr>ī</corr></choice> vindhyāṭa<lb 
+n="13" break="no"/>v<choice><sic>i</sic><corr>ī</corr></choice>va su-vaṁśa-śatādhāraḥ merur iva su<supplied reason="omitted">va</supplied>r<choice><sic>nn</sic><corr>ṇṇ</corr></choice>a-va<supplied reason="omitted">r</supplied><choice><sic>nn</sic><corr>ṇṇ</corr></choice>īkr̥ta-tanuḥ hara-jaṭ<unclear>ā</unclear>-makuṭa I<unclear>va gaṁ</unclear>gā<lb 
+n="14" break="no"/>-rava-pratibandhana-samart<choice><sic>t</sic><corr>th</corr></choice>a<supplied reason="omitted">ḥ</supplied> surapati-gaja Iva satata-dāna-<unclear>karī</unclear> viṣṇur i<supplied reason="omitted">va</supplied> ba<pb 
+
+n="2v" break="no"/><lb 
+n="15" break="no"/>li-ripu-ma<choice><sic>t</sic><corr>th</corr></choice>a<choice><sic>ṇ</sic><corr>n</corr></choice>aḥ śeṣa-mahānāga Iva bhū-dharaṇa-kṣama-bhujaḥ mahā-vrat<choice><sic>i</sic><corr>ī</corr></choice>va mahā-śaṁkha<lb 
+n="16" break="no"/>-dhvani-virājanaḥ sa<supplied reason="omitted">kala-gaṁga-</supplied>kula-garjjaj-jalada-ghaṭa-koṭi-vitrāsana-viśiṣṭa-mā<lb 
+n="17" break="no"/>rutaḥ Api ca</p>
+<lg n="1" met="sragdharā">
+<l n="a">śrī<unclear>mad-dharmma</unclear>sya mū<supplied reason="omitted">r</supplied>tt<choice><sic>ī</sic><corr>i</corr></choice>s subha<supplied reason="omitted">ṭa</supplied>-madhupa-sad-bodhanā<supplied reason="omitted">ṁ</supplied>bhoruhābha<supplied reason="omitted">ḥ</supplied></l>
+<l n="b">śauryāgny-u<lb 
+n="18" break="no"/>tpat<supplied reason="omitted">t</supplied>i-bīja<supplied reason="omitted">ḥ</supplied> p<choice><sic>r̥</sic><corr>ri</corr></choice>ya-vacana-ma<choice><sic>n</sic><corr>ṇ</corr></choice>er ākaraḥ sarvva-santo</l>
+<l n="c">kī<supplied reason="omitted">r</supplied>tti-str<choice><sic>i</sic><corr>ī</corr></choice>-vallabhas sat-kula-g<choice><sic>ra</sic><corr>r̥</corr></choice>ham a<lb 
+n="19" break="no"/>malaṁ satya-vā<choice><sic>n</sic><corr>ṇ</corr></choice>ī-kumāryyā</l>
+<l n="d">vidvad-vr̥ndasya dhāma prakaṭam avanipo gotra-nist<choice><sic>a</sic><corr>ā</corr></choice>rakāṁkaḥ</l></lg>
+<p><lb 
+n="20"/>Aṣṭottara-śata-na<supplied reason="omitted">re</supplied>ndreśvara-dev<choice><sic>a</sic><corr>ā</corr></choice>layānāṁ karttā dvādaśa-varṣa-yuddhaṁ vallabhendra-daṇḍa<lb 
+n="21" break="no"/>-nāyakaiḥ saha bhīma-saḷuke-n<unclear>ā</unclear>māna<supplied reason="omitted">ṁ</supplied> sv<unclear>ā</unclear>nujaṁ nirjjitya gr̥<supplied reason="omitted">hī</supplied>ta-veṁgi-maṇḍala<unclear>ḥ</unclear> catvāri<supplied reason="omitted">ṁ</supplied>śa<pb 
+
+n="3r" break="no"/><lb 
+n="22" break="no"/>d varṣāṇi+. tasya sutaḥ|</p>
+<lg n="2" met="campakamālā">
+<l n="a">Ari-nr̥pa-vāji-vāraṇa-padāti-mahābhra-virāma-mārutaḥ</l>
+<l n="b">para<lb 
+n="23" break="no"/>-kari<surplus>kari</surplus>-sa<supplied reason="omitted">ṁ</supplied>s<choice><sic>t</sic><corr>th</corr></choice>itāsi<choice><sic>bh</sic><corr>t</corr></choice>aruci-pravināśana-bhānu-sannibhaḥ</l>
+<l n="c">gurutara-d<choice><sic>i</sic><corr>ī</corr></choice>na-bhāgavata<lb 
+n="24" break="no"/>-m<unclear>ā</unclear>nava-m<unclear>ā</unclear>nita-kalpa-pādapaḥ</l>
+<l n="d">vara-kari-galla-bhūmipa-bhujāsir ihāj<choice><sic>ī</sic><corr>i</corr></choice>-bhuvi prahā
+<lb n="25" break="no"/>sate</l>
+</lg>
+<p>
+</p>
+<pb n="7v"/><!--CHECK GO BACK AND REPLACE +.--> 
+
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+      <app loc="1">
+        <lem>tribhuvanāṁkuśa</lem>
+        <note>KR reports the reading of the seal without śrī, but the honorific may still be present.</note>
+      </app>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem>lā<choice><orig>n</orig><reg>nñ</reg></choice>chanekṣa<choice><sic>n</sic><corr>ṇ</corr></choice>a-</lem>
+        <note>KR does not normalise the dental <foreign>n</foreign>, which may be a typo in his edition.</note>
+      </app>
+      <app loc="5">
+        <lem>ala<choice><orig>n</orig><reg>ṁ</reg></choice>kariṣṇoḥ</lem>
+        <note>KR does not normalise the dental <foreign>n</foreign>, which may be a typo in his edition.</note>
+      </app>
+      <app loc="5">
+        <lem>bhrātā<surplus>D</surplus></lem>
+        <note>KR does not emend the superfluous <foreign>D</foreign>, which may be a typo in his edition.</note>
+      </app>
+      <app loc="5">
+        <lem>-viṣṇuvarddhana</lem>
+        <note>According to KR's note, Lakshmana Rao interpreted some dots above <foreign>na</foreign> as a subsequently inserted <foreign>visarga</foreign>. KR asserts that the dots are only corrosion, though I do not know how he can be so sure if he edited the plates from impressions while LR had the originals.</note>
+      </app>
+      <app loc="5">
+        <lem>Aṣṭā<lb n="6" break="no"/><supplied reason="omitted">da</supplied>śa</lem>
+        <note>KR does not supply <foreign>da</foreign>, which thus may be omitted in his edition by mistake.</note>
+      </app>
+      <app loc="7">
+        <lem>Indra-</lem>
+        <note>KR in fact prints <foreign>ḍandra</foreign>, clearly a typo in the Devanagari edition.</note>
+      </app>
+      <app loc="8">
+        <lem>-dau<unclear reason="eccentric_ductus" cert="low">śa</unclear>rājaḥ</lem>
+        <note>According to KR's note, <foreign>śa</foreign> is not clear and looks like <foreign>ga</foreign>. I do not know why then he thinks it is <foreign>śa</foreign>. In his discussion he uses the name as <foreign>dogarāja</foreign> and equates it to <foreign>yuvarāja</foreign>.</note>
+      </app>
+      <app loc="10">
+        <lem>Aṣṭāda<supplied reason="omitted">śa va</supplied>rṣā<choice><sic>ṇ</sic><corr>n</corr></choice>i</lem>
+        <note>KR prints the supplied characters in round parentheses with an asterisk. This may represent illegible and supplied text, since above he uses square brackets and an asterisk for omitted and supplied.</note>
+      </app>
+      <app loc="11">
+        <lem>ve<choice><sic><unclear>n</unclear></sic><corr>ṅ</corr></choice>gī-</lem>
+        <note>KR's Devanagari edition has वे[न्]गी, emending to <foreign>veṅgī</foreign> in a footnote. I assume, but am not sure, that the upper consonant is unclear but resembles <foreign>n</foreign>.</note>
+      </app>
+      <app loc="13">
+        <lem>-tanuḥ</lem>
+        <note>After this word, KR prints an asterisk in round parentheses. He may perhaps have wished to indicate that the <foreign>visarga</foreign> is supplied.</note>
+      </app>
+      <app loc="13">
+        <lem>-jaṭ<unclear>ā</unclear>-makuṭa I<unclear>va gaṁ</unclear>gā</lem>
+        <note>The characters shown here as unclear are in round parentheses in KR's edition. Elsewhere he also uses square brackets, apparently to indicate unclear, so something else may be the case here.</note>
+      </app>
+      <app loc="14">
+        <lem>-<unclear>karī</unclear></lem>
+        <note>This word is in square brackets in KR's edition.</note>
+      </app>
+      <app loc="14">
+        <lem>i<supplied reason="omitted">va</supplied></lem>
+        <note>KR uses round parentheses with an asterisk here.</note>
+      </app>
+      <app loc="16">
+        <lem>sa<supplied reason="omitted">kala-gaṁga-</supplied>kula-</lem>
+        <note>KR prints the supplied characters in square brackets with an asterisk. If I am correct in assuming that no characters are present here in the original, then I have strong reservations about supplying this. I am not sure of my understanding of the following words (see the translation), but given that KR's summary speaks about Vijayāditya II “destroying the Gāṅga race root and branch like a fierce wind,” probably referring to this locus, I believe KR too did not understand this passage clearly. I would expect another comparison with <foreign>iva</foreign> here; given <foreign>māruta</foreign>, the object of the comparison may be Indra. Unless perhaps we have a single long comparison here, and <foreign>mahā-vratin</foreign> above means Rudra.</note>
+      </app>
+      <app loc="17">
+        <lem>subha<supplied reason="omitted">ṭa</supplied>-</lem>
+        <note>KR shows <foreign>ṭa</foreign> in round parentheses with an asterisk, probably indicating a scribal omission. I provisionally accept his restoration because I do not have a clearly better solution, but I cannot make good sense of the word in context and other restorations may well be possible, including supplying a syllable before <foreign>bha</foreign>.</note>
+      </app>
+      <app loc="18">
+        <lem>sarvva-santo</lem>
+        <note>Though printed as clear by KR, this reading seems doubtful to me. Note also the sandhi at the end of the second <foreign>pāda</foreign>.</note>
+      </app>
+      <app loc="18">
+        <lem>-strī-</lem>
+        <note>I provisionally accept KR's emendation, but believe that <foreign>śrī</foreign> is at least as likely to have been the composer's intent.</note>
+      </app>
+      <app loc="20">
+        <lem>-na<supplied reason="omitted">re</supplied>ndreśvara-</lem>
+        <note>Round parentheses and asterisk in KR.</note>
+      </app>
+      <app loc="20">
+        <lem>-yuddhaṁ</lem>
+        <note>This should perhaps be read as, or emended to, <foreign>yuddhe</foreign>.</note>
+      </app>
+      <app loc="21">
+        <lem>-n<unclear>ā</unclear>māna<supplied reason="omitted">ṁ</supplied> sv<unclear>ā</unclear>nujaṁ</lem>
+        <note>The characters shown as unclear are in round parentheses in KR's edition. He does not supply <foreign>anusvāra</foreign>, printing this stretch of text without spaces, but I assume he must have interpreted it as I do.</note>
+      </app>
+      <app loc="23">
+        <lem>-kari<surplus>kari</surplus>-</lem>
+        <rdg source="bib:KrishnaRao1930-1931_01">-kari-kar<choice><sic>i</sic><corr>a</corr></choice>-</rdg>
+        <note>The second <foreign>kari</foreign> is hypermetrical and so, if it is present at all in the original, is probably dittography. But KR emends it to <foreign>kara</foreign> in his edition. He cites this stanza in full in his discussion, there printing <foreign>karikari</foreign> without emendation. See also the next note.</note>
+      </app>
+      <app loc="23">
+        <lem>-sa<supplied reason="omitted">ṁ</supplied>s<choice><sic>t</sic><corr>th</corr></choice>itāsi<choice><sic>bh</sic><corr>t</corr></choice>aruci-</lem>
+        <rdg source="bib:KrishnaRao1930-1931_01">-s<choice><sic>a</sic><corr>u</corr></choice>s<choice><sic>t</sic><corr>th</corr></choice>itāsibharuci-</rdg>
+        <note>I cannot make sense of KR's emendation, which is identical in his edition and in the citation of this stanza in his text, except that in the edition the emendation is <foreign>susthī</foreign>, which is unmetrical and thus evidently a typo. See also the previous note. My own emendation is tenuous and may well be wrong; see the translation for my interpretation.</note>
+      </app>
+      <app loc="23">
+        <lem>bhāgavata</lem>
+        <note>I have strong doubts that this word is present in the text. KR prints it both in his edition and in the stanza cited in his discussion; he moreover emends it in the edition to Bhāgavata (the only difference from the text being that the text is in Devanagari, and the emendation in the footnote is in transliteration, with a capital initial). This makes me wonder if the text in fact has <foreign>bhāva-gata</foreign>, which, even if slightly awkward, would make good sense in the context. Venturing further from the edition's text, I could imagine <foreign>nagna-naṭa</foreign> here; compare <foreign>dīnānātha-nagna-naṭa-gāyaka-dharmma-dhvaja-vr̥ttīnāM</foreign> in line 31 of the <ref target="DHARMA_INSVengiCalukya00028.xml">Eḍeru plates of Amma I</ref> and <foreign>dīnānātha-naṭāndha-nagna-kavi-</foreign> in line 39 of the <ref target="DHARMA_INSVengiCalukya00030.xml">Ārumbāka grant of Bādapa</ref>.</note>
+      </app>
+      <app loc="24">
+        <lem>-m<unclear>ā</unclear>nava-m<unclear>ā</unclear>nita-</lem>
+        <note>The characters shown as unclear are in square brackets in KR's edition.</note>
+      </app>
+      <app loc="24">
+        <lem>-bhujāsir ihā°</lem>
+        <note>If the reading is correct, then this is probably the parsing intended by the composer. KR prints a space after <foreign>bhujā</foreign> and nowhere else in this segment. Even with the words resolved, I am unable to interpret the line.</note>
+      </app>
+      
+<!--
+
+-->
+      
+      
+    </listApp>
+  </div>
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-14"></p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>First reported and edited by K. V. Lakshmana Rao (posthumous publication curated by M. Somasekhara Sarma) in Bhārati, Vol. I, No. 1, pp. 90 ff., not traced. Edited by B. V. Krishna Rao (<bibl rend="omitname"><ptr target="bib:KrishnaRao1930-1931_01"/></bibl>) from inked impressions, without facsimiles and without translation. The present edition by Dániel Balogh follows Krishna Rao unless otherwise noted.</p>
+  <listBibl type="primary">
+    <bibl n="KR"><ptr target="bib:KrishnaRao1930-1931_01"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
