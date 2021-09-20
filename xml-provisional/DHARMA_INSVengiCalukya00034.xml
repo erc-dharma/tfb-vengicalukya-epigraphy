@@ -165,7 +165,7 @@ n="23" break="no"/>m ājñ<choice><sic>a</sic><corr>ā</corr></choice>payati<g t
 <lg n="4" met="anuṣṭubh">
 <l n="a" enjamb="yes">vaṁgipaṟṟu-mahāgrāma</l>
 <l n="b">-vāstavyo go<!--cursive o-->tamānvayaḥ</l>
-<l n="c">tyākkiya-kramako nāmnā</l>
+<l n="c">t<choice><sic>yā</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>kkiya-kramako nāmnā</l>
 <l n="d">tu<lb 
 n="24" break="no"/>rāṣāḍ-vibhavo<!--cursive o--> <supplied reason="subaudible">’</supplied>jani<g type="ddandaSerif">..</g></l>
 </lg>
@@ -283,6 +283,11 @@ n="9" break="no"/>śata<unclear reason="eccentric_ductus">M</unclear></lem>
         <rdg source="bib:Kielhorn1898-1899_01">g<unclear>au</unclear>tamānvayaḥ</rdg>
         <note>The vowel mark is clear but ambiguous; it could have been intended for <foreign>au</foreign> as Kielhorn reads it, but it looks identical to <foreign>o</foreign> nearby (e.g. in <foreign>kramako</foreign> and <foreign>vibhavo</foreign>), and its tail is much shorter than that of <foreign>kauśikī</foreign> in line 2.</note>
       </app>
+      <app loc="23">
+        <lem>t<choice><sic>yā</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>kkiya-</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">tyākkiya-</rdg>
+        <note>The reading is unambiguous, but I believe <foreign>yā</foreign> must be a scribal mistake for the similar-looking <foreign>ū</foreign>. Two Brahmins named Tūrkkiya (and Tūrkkaya) are mentioned in the <ref target="DHARMA_INSVengiCalukya00046.xml">Vandram plates of Amma II</ref>; a Turkaśarmman in the <ref target="DHARMA_INSVengiCalukya00020.xml">Eḍeru plates of Vijayāditya I</ref>, the <ref target="DHARMA_INSVengiCalukya00023.xml">Ṭraṇḍapaṟu grant of Vijayāditya III</ref> and in the <ref target="DHARMA_INSVengiCalukya00069.xml">Sātalūru plates of Vijayāditya III</ref>; and a Tūrkama(bhaṭṭa) in the <ref target="DHARMA_INSVengiCalukya00025.xml">Kākamrāṇu grant of Bhīma I</ref> and the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>.</note>
+      </app>
       <app loc="24">
         <lem>bhaktimā<choice><sic>ne</sic><corr>ñ</corr></choice></lem>
         <note>The last character is a clear <foreign>ne</foreign>, which may be a mistake for <foreign>N</foreign> (to be further normalised to <foreign>ñ</foreign> in a conjunct to the next character).</note>
@@ -326,7 +331,7 @@ n="9" break="no"/>śata<unclear reason="eccentric_ductus">M</unclear></lem>
 <p rend="stanza" n="2">Eradicating his haughty foes and reinstating his kinsmen, he has propagated his reputation, bright as jasmine or the moon, to the ten quarters.</p>
 <p rend="stanza" n="3">The kingly extravagances <supplied reason="subaudible">which</supplied> shine in him are not <supplied reason="subaudible">found</supplied> in other kings: is the splendour manifest in a stand of day lotuses there in a stand of night lilies?</p>
 <p n="20-23">That shelter of the entire world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>, the supremely pious Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>mahārājādhirāja</foreign></supplied>, His Majesty Viṣṇuvardhana <supplied reason="explanation">VII</supplied>, who was deliberately appointed <supplied reason="explanation">as heir</supplied> by his mother and father, commands the householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—who reside in Gudravāra district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> as follows:</p>
-<p rend="stanza" n="4">In the lineage of Gotama there arose a <supplied reason="subaudible">man</supplied> as prodigious as Indra <supplied reason="explanation"><foreign>turāṣāh</foreign></supplied>. Named Tyākkiya the <foreign>krama</foreign> reciter, he was a resident of the great village Vaṁgipaṟṟu.</p>
+<p rend="stanza" n="4">In the lineage of Gotama there arose a <supplied reason="subaudible">man</supplied> as prodigious as Indra <supplied reason="explanation"><foreign>turāṣāh</foreign></supplied>. Named Tūrkkiya the <foreign>krama</foreign> reciter, he was a resident of the great village Vaṁgipaṟṟu.</p>
 <p rend="stanza" n="5">His son, the Soma sacrificer Mādhava, was devoted to Janārdana <supplied reason="explanation">Viṣṇu</supplied> and delighted everyone by his all-surpassing magnificence.</p>
 <p rend="stanza" n="6">His son in turn is the <foreign>krama</foreign> reciter Reverend Viddamayya of no mean prowess, rich in Brahmanic splendour and the <supplied reason="subaudible">veritable</supplied> arrival of a feast for priests.</p>
 <p rend="stanza" n="7">His courtyard, turned into a morass by water <supplied reason="subaudible">used</supplied> for washing feet in <supplied reason="subaudible">the course of</supplied> the worship of guests in his house, purifies his family up to the seventh <supplied reason="subaudible">generation</supplied>.</p>
