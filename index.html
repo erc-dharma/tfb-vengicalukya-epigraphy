@@ -33,10 +33,8 @@
     </script>
 
   </head>
-  <body>
-  <body>
-  <h1></h1>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <body>  
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="https://erc-dharma.github.io/">ERC-DHARMA</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -113,14 +111,13 @@
           <img src="https://img.shields.io/badge/licence-CC--BY-green.svg" class="img-fluid" alt="CC-BY"/>
           <img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103" class="img-fluid" alt="Open Science"/>
         <p>Texts edited in XML TEI for the ERC-DHARMA Task force B.</p>
+      <p><span  class="badge badge-warning">Number of files <b id="lenght"></b> </span> </p>
         <br/>
       <ul id="list" class="list-group">
       </ul>
     </div>
     </div>
-    </div>
-    </body>
-    <!-- (async () => {
+    </div>    <!-- (async () => {
         const response = await fetch('https://api.github.com/repos/erc-dharma/tfb-vengicalukya-epigraphy/contents/texts/htmloutput');
         const data = await response.json();
         let htmlString = '<ul>';
@@ -176,6 +173,8 @@
           htmlString += `<li class="list-group-item"><a href="${fileName}">${fileDisplayName}</a></li>`;
         }
         document.getElementById('list').innerHTML = htmlString;
+        document.getElementById('lenght').innerHTML = data.length;
+        
       }
       // Quick navigate to file if perfect match
       const navigateToFile = (data, filter = '') => {
@@ -210,5 +209,5 @@
       })()
 
     </script>
-  <body>
+  </body>
 </html>
