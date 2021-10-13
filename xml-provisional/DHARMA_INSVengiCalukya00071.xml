@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Kaṇḍyam plates of Dānārṇava</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00071</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                    <p>Original punctuation marks. MN uses vertical bars for punctuation in his edition. MN transliterates the opening symbol as oṁ.</p>
+                      <p>Other palaeographic observations. Anusvāra 
+                      
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                    
+<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-10-13" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<lg n="1" met="uncertain">
+<l n="ab"><pb 
+
+n="1v"/><lb n="1"/><g type="unknown"/>lakṣmīṁ tanotu jagatāṁ kāla-galasyāruṇa-<unclear>divyojva</unclear>la jāyo<unclear>ṭā</unclear>nta</l>
+<l n="cd">su<lb 
+n="2" break="no"/>ranadī-kuhara-kambukarāñjala-nikara Iva bhāti||</l>
+</lg>
+<p>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhu<lb 
+n="3" break="no"/>vana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda<lb 
+n="4" break="no"/>-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānu<lb 
+n="5" break="no"/>dhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñcha<lb 
+n="6" break="no"/>nekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānāṁ Aśvamedhāvabhr̥tha-snāna-pavitrīkr̥<lb 
+n="7" break="no"/>ta-vapuṣāṁ cā<orig>ḷ</orig>ukyānāṁ kulam alaṁ<choice><orig>kār</orig><reg>kari</reg></choice>ṣṇos satyāśraya-vallabhendrasya bhrātā||</p>
+<lg n="2" met="anuṣṭubh">
+<l n="a">śrī<lb 
+n="8" break="no"/>-patir vvikrame<choice><sic>n</sic><corr>ṇ</corr></choice>ādy<choice><sic>a</sic><corr>o</corr></choice></l>
+<l n="b">durjjayād balito dharām</l>
+<l n="c">āhr̥tyāṣṭādaśābdāni</l>
+<l n="d">kubja-viṣṇu<pb 
+
+n="2r" break="no"/><lb 
+n="9" break="no"/>r apād imāM|</l>
+</lg>
+<p>tad-ātmajo jayasiṁhas trayastriṁśaT| tad-anujendrarāja-nandano vi<lb 
+n="10" break="no"/>ṣṇuvarddhano nava| tat-sūnur mmaṅgi-yuvarājaḥ pañcaviṁśati| tat-putro jayasiṁhas tra<lb 
+n="11" break="no"/>yodaśa| tad-avarajaḥ kokiliḥ ṣaṇ māsāN| tasya jyeṣṭho bhrātā viṣṇuvardhanas tam uccāṭya sapta<lb 
+n="12" break="no"/>triṁśaT| tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-suto viṣṇuvardhana<supplied reason="omitted">ḥ</supplied> ṣaṭtri<lb 
+n="13" break="no"/>ṁśaT|</p>
+<lg n="3" met="sragdharā">
+<l n="a">tat-sūnur bhānu-bhāso raṇa-vigaṇanayā nīlakaṇtḥālayānāṁ</l>
+<l n="b">sa-grāmā<lb 
+n="14" break="no"/>rāmakāṇāṁ sa-lalita-ramaṇī-saṁpadā<supplied reason="omitted">ṁ sat-padā</supplied>nāṁ</l>
+<l n="c">kr̥tvā prottuṅgam aṣṭottara-śatam abhunag vī<lb n="15" break="no"/>ra-dhīro <supplied reason="subaudible">’</supplied>ṣṭa-yuktāś</l>
+<l n="d">catvāriṁśat samāḥ kṣmāṁ jana-nuta-vijayāditya-nāmā narendraḥ|</l></lg>
+<p>tat-putr<orig>o</orig> <lb 
+n="16"/>kali-viṣṇuvardhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaṁ|| tat-priya-tanayaḥ|</p>
+<lg n="4" met="sragdharā">
+<l n="a">Aṅgāt saṁgrāma-raṅge nija-lasa<pb 
+
+n="2v" break="no"/><lb 
+n="17" break="no"/>d-asinā maṅgi-rājottamāṅgaṁ</l>
+<l n="b">tuṅgādreḥ śr̥ṅgam urvyām aśa<supplied reason="omitted">ni</supplied>r iva mudāpātayat kannarāṅkaṁ</l>
+<l n="c">niśśa<lb 
+n="18" break="no"/>ṁkaṁ śaṁkilena pra<choice><sic>dh</sic><corr>th</corr></choice>ita-janapadād durggamān nirggamayya</l>
+<l n="d">drāg dāvaṁ yaḥ praveśya<surplus>ḥ</surplus> prabhur abhaya<lb 
+n="19" break="no"/>-manā<choice><sic>ṁ</sic><corr>ḥ</corr></choice> pratyapād ba<orig>ddha</orig>gāṅkaṁ|</l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a" enjamb="yes">sa śrīmān vijayāditya</l>
+<l n="b">-bhūpat<choice><sic>e</sic><corr>ir</corr></choice> bhrātr̥bhis saha|</l>
+<l n="c">catvā<lb 
+n="20" break="no"/>riṁśat samās sārdhaṁ</l>
+<l n="d">caturbhir abhuna<orig>K</orig> bhuvaM|</l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+<l n="a" enjamb="yes">tad-bhrātur vikramāditya</l>
+<l n="b">-bhūpates sa<lb 
+n="21" break="no"/>c-camū-pateḥ</l>
+<l n="c" enjamb="yes">vilasat-kaṇṭhikā-dāma</l>
+<l n="d">-kaṇṭhasya tanayo nayī||</l>
+</lg>
+<lg n="7" met="sragdharā">
+<l n="a">dīnānāthāturā<lb n="22" break="no"/>ṇāṁ dvija-vara-samiter yyācakanā<unclear>ṁ</unclear> yatīnāṁ</l>
+<l n="b">nānā-deśāgatānā<unclear>ṁ</unclear> paṭu-vara-naṭa-sad-gāya<lb n="23" break="no"/>kānāṁ kavīnāṁ</l>
+<l n="c">bandhūnām andhakānāṁ Abhilaṣita-phala-śrāṇanād rakṣaṇād yo</l>
+<l n="d">mā<lb n="24" break="no"/>tāvat triṁśad abdān bhuvam abhunag asau cāru-cālu<supplied reason="omitted">kya</supplied>-bhīmaḥ||</l>
+</lg>
+<lg n="8" met="śārdūlavikrīḍita">
+<l n="a">tat-putraḥ sva-bhujāsi-khaṇḍita<pb 
+
+n="3r" break="no"/><lb 
+n="25" break="no"/>-ripu-kṣmābhr̥d balād vāsavīṁ</l>
+<l n="b">jitvā<choice><sic>s</sic><corr>ś</corr></choice>āṁ viraje pratiṣṭhita-jaya-staṁbhaḥ pradiṣṭe raṇe</l>
+<l n="c">svarṇṇārū<lb 
+n="26" break="no"/>ḍha-tulo <supplied reason="subaudible">’</supplied>tra bāḍham atulo dhātrī-tale kṣatriyai<unclear>r</unclear></l>
+<l n="d">mmitrābhaḥ parirakṣati sma vijayāditya<lb 
+n="27" break="no"/>s samārddhaṁ dharāM|</l>
+</lg>
+<lg n="9" met="vasantatilakā">
+<l n="a" enjamb="yes">tasyātmajaḥ praṇata-vairi-śiro-vilagna</l>
+<l n="b">-ratna-dvirepha-paricuṁbita-pāda-padmaḥ</l>
+<l n="c"><lb 
+n="28"/>meruṁ hasaṁs tulita-hāṭaka-rāśi-bhāsā</l>
+<l n="d">varṣāṇi sapta samapād bhuvam ammarā<lb 
+n="29" break="no"/>jaḥ|</l>
+</lg>
+<p>
+</p>
+<pb n="5v"/>
+
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="1">
+        <lem source="bib:Narasimham1937-1938_01">-<unclear>divyojva</unclear>la jāyo<unclear>ṭā</unclear>nta</lem>
+        <note>The invocatory stanza was probably a <foreign>gīti</foreign>, possibly a different member of the <foreign>āryā</foreign> family. I cannot reconstruct a meaningful and metrical reading. MN shows <foreign>divyojva</foreign> and <foreign>ṭā</foreign> in round parentheses, which elsewhere he uses for emendation. But in the present case I see no reason why he would have wanted to emend the preceding syllables to these strings; also, the number of <foreign>akṣara</foreign>s in this line would be very small compared to adjacent lines if the parenthetical text were not present on the plate. Scribal errors may well be present in addition to misreading and misprinting. The composer's intent probably included the words <foreign>jaṭā</foreign> and <foreign>karāñjali</foreign>, and <foreign>yatra</foreign> or an equivalent is sorely missing. See the translation for my interpretation.</note>
+      </app>
+      <app loc="8">
+        <lem>-patir</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-pati</rdg>
+        <note>Since MN prints a double <foreign>v</foreign> after this word, but does not supply <foreign>r</foreign>, I assume <foreign>r</foreign> is present in the original.</note>
+      </app>
+      <app loc="8">
+        <lem>vvikrame<choice><sic>n</sic><corr>ṇ</corr></choice>ādy<choice><sic>a</sic><corr>o</corr></choice></lem>
+        <rdg source="bib:Narasimham1937-1938_01">vvikramenādya</rdg>
+        <note>I emend on the basis of the parallel stanza in the <ref target="DHARMA_INSVengiCalukya00037.xml">Kalucuṁbaṟṟu grant of Amma II</ref>.</note>
+      </app>
+      <app loc="8">
+        <lem>dharām</lem>
+        <rdg source="bib:Narasimham1937-1938_01">darām</rdg>
+        <note>Since MN does not emend, I assume the original text has the correct <foreign>dh</foreign>.</note>
+      </app>
+      <app loc="9">
+        <lem>imāM</lem>
+        <rdg source="bib:Narasimham1937-1938_01">imam</rdg>
+        <note>Again, I merely assume that the original is correct.</note>
+      </app>
+      <app loc="9">
+        <lem source="bib:Narasimham1937-1938_01">trayastriṁśaT</lem>
+        <note>Here and in lines 12 and 13 below, MN of course prints <foreign>°triṁśat</foreign> without explicit indication that a final consonant is present. The actual reading is perhaps <foreign>°triṁśata</foreign>, intended for <foreign>°triṁśataṁ</foreign>.</note>
+      </app>
+      <app loc="12">
+        <lem><supplied reason="subaudible">’</supplied>ṣṭādaśa</lem>
+        <rdg source="bib:Narasimham1937-1938_01">Aṣṭādaśa</rdg>
+      </app>
+      <app loc="12">
+        <lem>viṣṇuvardhana<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">viṣṇuvardhana</rdg>
+      </app>
+      <app loc="14">
+        <lem>sa-lalita-ramaṇī-saṁpadā<supplied reason="omitted">ṁ sat-padā</supplied>nāṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">salilata-ramaṇīm saṁpadānā</rdg>
+        <note>I overrule MN on the basis of the parallels in the <ref target="DHARMA_INSVengiCalukya00045.xml">Tāṇḍikoṇḍa grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. Given the length of the line, the missing sequence is probably omitted in the original, not a typo in MN's edition.</note>
+      </app>
+      <app loc="14">
+        <lem>-dhīro <supplied reason="subaudible">’</supplied>ṣṭa-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">dhīr=aāṣṭa-</rdg>
+        <note>The locus reads <foreign>-dhīr aṣṭa-</foreign> in the <ref target="DHARMA_INSVengiCalukya00045.xml">Tāṇḍikoṇḍa grant of Amma II</ref> and <foreign>-dhīroṣṭa-</foreign> in the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. The latter is perhaps more likely here.</note>
+      </app>
+      <app loc="14">
+        <lem>-yuktāś</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-yuktas</rdg>
+      </app>
+      <app loc="16">
+        <lem>Aṅgāt</lem>
+        <rdg source="bib:Narasimham1937-1938_01">Abdāt</rdg>
+        <note>I overrule MN on the basis of the parallels in the <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>.</note>
+      </app>
+      <app loc="17">
+        <lem>aśa<supplied reason="omitted">ni</supplied>r</lem>
+        <rdg source="bib:Narasimham1937-1938_01">asa<supplied reason="omitted">ni</supplied>r</rdg>
+      </app>
+      <app loc="18">
+        <lem source="bib:Narasimham1937-1938_01">durggamān</lem>
+        <note>Parallels of this stanza are found in the <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. The former very clearly reads <foreign>durggaman</foreign> here, while the latter is unclear, but was read as <foreign>durggamān</foreign> by its editor.</note>
+      </app>
+      <app loc="18">
+        <lem>dāvaṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">dhāvaṁ</rdg>
+        <note>Of the two parallels, Amma's grant clearly reads <foreign>dāvaṁ</foreign> here (misread or misprinted by its original editor as <foreign>dhāvaṁ</foreign>, perhaps under the influence of the present grant's published edition), while Śaktivarman's plates are wholly illegible at this locus (but their original editor supplies <foreign>dhāvaṁ</foreign>). In my opinion <foreign>dāvaṁ</foreign> is the only sensible choice, but this does not exclude the possibility that MN's reading is correct here, in which case the present text needs emendation.</note>
+      </app>
+      <app loc="19">
+        <lem>ba<orig>ddha</orig>gāṅkaṁ</lem>
+        <note>The word is <foreign>baddegāṁkaṁ</foreign> in both parallels, and that is the correct form of the name. I assume that the plates are erroneous here, but this may also be a typo in MN's edition.</note>
+      </app>
+      <app loc="20">
+        <lem>-bhūpat<choice><sic>e</sic><corr>ir</corr></choice></lem>
+        <note>MN does not emend this word and may have read or printed it incorrectly. The original editor of the <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> also prints <foreign>bhūpate</foreign>, probably on the basis of the present grant, though the reading there is clearly <foreign>bhūpati</foreign> (with or without <foreign>r</foreign>).</note>
+      </app>
+      <app loc="20">
+        <lem>tad-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">tat-</rdg>
+      </app>
+      <app loc="22">
+        <lem>-vara-</lem>
+        <note>Both known parallels read <foreign>vaṭu</foreign> here, which is superior. MN may have misread the plate.</note>
+      </app>
+      <app loc="23">
+        <lem>mā<lb n="24" break="no"/>tāvat</lem>
+        <note>Both known parallels read <foreign>māteva</foreign> here. As <foreign>mātāvat</foreign> is morphologically incorrect, I tend to believe MN misread the plate here.</note>
+      </app>
+      <app loc="24">
+        <lem>abdān</lem>
+        <rdg source="bib:Narasimham1937-1938_01">abdhān</rdg>
+      </app>
+      <app loc="24">
+        <lem>-putraḥ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-putro</rdg>
+      </app>
+      <app loc="25">
+        <lem>balād</lem>
+        <note>I am tempted to emend to <foreign>-balo</foreign>, but the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> have the same reading.</note>
+      </app>
+      <app loc="25">
+        <lem>jitvā<choice><sic>s</sic><corr>ś</corr></choice>āṁ</lem>
+        <note>The s may be a typo in MN, but since the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> read the same, I assume it is an original mistake.</note>
+      </app>
+      <app loc="25">
+        <lem>pradiṣṭe</lem>
+        <rdg source="bib:Narasimham1937-1938_01">prādiṣṭhe</rdg>
+        <note>The <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> are unclear here and their text is more corrupt, but given MN's reading for this locus and the facsimile of the parallel, this seems to be the most likely reading. See the translation for my tentative interpretation.</note>
+      </app>
+      <app loc="26">
+        <lem>bāḍham</lem>
+        <rdg source="bib:Narasimham1937-1938_01">baddham</rdg>
+        <note>The parallel is quite clear here.</note>
+      </app>
+      <app loc="27">
+        <lem>dharāM</lem>
+        <rdg source="bib:Narasimham1937-1938_01">varāM</rdg>
+      </app>
+      
+<!--
+
+-->
+      
+      
+    </listApp>
+    </div>
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-11"></p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">7</citedRange></bibl> with discussion at <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">81-82</citedRange><citedRange unit="item">12</citedRange></bibl>. Edited from the original by Manda Narasimham (<bibl rend="omitname"><ptr target="bib:Narasimham1937-1938_01"/></bibl>), with partial estampages (showing plates 3v to 5v, but not the earlier plates and the seal<!--RECHECK printed JAHRS 11 1937-38-->). The present edition by Dániel Balogh is based on a collation of Narasimham's edition with his facsimiles where available; where no estampage is available, I follow Narasimham unless otheriwse noted. Minor typographic mistakes in Narasimham's edition (which are numerous) are ignored in the apparatus here.</p>
+  <listBibl type="primary">
+    <bibl n="MN"><ptr target="bib:Narasimham1937-1938_01"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">7</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">81-82</citedRange><citedRange unit="item">12</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
