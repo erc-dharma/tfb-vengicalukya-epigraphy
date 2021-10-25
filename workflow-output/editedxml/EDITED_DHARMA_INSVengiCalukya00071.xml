@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Kaṇḍyam plates of Dānārṇava</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00071</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Original punctuation marks are vertical bars with small serifs. <!--@@@CHECKreplace | with markup-->MN transliterates the opening symbol as oṁ.</p>
+                     <p>Other palaeographic observations. Anusvāra 
+                      
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-10-13" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<lg n="1" met="uncertain">
+<l n="ab"><pb n="1v"/><lb n="1"/><g type="unknown"/>lakṣmīṁ tanotu jagatāṁ kāla-galasyāruṇa-<unclear>divyojva</unclear>la jāyo<unclear>ṭā</unclear>nta</l>
+<l n="cd">su<lb n="2" break="no"/>ranadī-kuhara-kambukarāñjala-nikara Iva bhāti||</l>
+</lg>
+<p>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhu<lb n="3" break="no"/>vana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda<lb n="4" break="no"/>-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānu<lb n="5" break="no"/>dhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñcha<lb n="6" break="no"/>nekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānāṁ Aśvamedhāvabhr̥tha-snāna-pavitrīkr̥<lb n="7" break="no"/>ta-vapuṣāṁ cāḷukyānāṁ kulam alaṁ<choice><orig>kār</orig><reg>kari</reg></choice>ṣṇos satyāśraya-vallabhendrasya bhrātā||</p>
+<lg n="2" met="anuṣṭubh">
+<l n="a">śrī<lb n="8" break="no"/>-patir vvikrame<choice><sic>n</sic><corr>ṇ</corr></choice>ādy<choice><sic>a</sic><corr>o</corr></choice></l>
+<l n="b">durjjayād balito dharām</l>
+<l n="c">āhr̥tyāṣṭādaśābdāni</l>
+<l n="d">kubja-viṣṇu<pb n="2r" break="no"/><lb n="9" break="no"/>r apād imāM|</l>
+</lg>
+<p>tad-ātmajo jayasiṁhas trayastriṁśaT| tad-anujendrarāja-nandano vi<lb n="10" break="no"/>ṣṇuvarddhano nava| tat-sūnur mmaṅgi-yuvarājaḥ pañcaviṁśati| tat-putro jayasiṁhas tra<lb n="11" break="no"/>yodaśa| tad-avarajaḥ kokiliḥ ṣaṇ māsāN| tasya jyeṣṭho bhrātā viṣṇuvardhanas tam uccāṭya sapta<lb n="12" break="no"/>triṁśaT| tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-suto viṣṇuvardhana<supplied reason="omitted">ḥ</supplied> ṣaṭtri<lb n="13" break="no"/>ṁśaT|</p>
+<lg n="3" met="sragdharā">
+<l n="a">tat-sūnur bhānu-bhāso raṇa-vigaṇanayā nīlakaṇtḥālayānāṁ</l>
+<l n="b">sa-grāmā<lb n="14" break="no"/>rāmakāṇāṁ sa-lalita-ramaṇī-saṁpadā<supplied reason="omitted">ṁ sat-padā</supplied>nāṁ</l>
+<l n="c">kr̥tvā prottuṅgam aṣṭottara-śatam abhunag vī<lb n="15" break="no"/>ra-dhīro <supplied reason="subaudible">’</supplied>ṣṭa-yuktāś</l>
+<l n="d">catvāriṁśat samāḥ kṣmāṁ jana-nuta-vijayāditya-nāmā narendraḥ|</l></lg>
+<p>tat-putr<orig>o</orig> <lb n="16"/>kali-viṣṇuvardhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaṁ|| tat-priya-tanayaḥ|</p>
+<lg n="4" met="sragdharā">
+<l n="a">Aṅgāt saṁgrāma-raṅge nija-lasa<pb n="2v" break="no"/><lb n="17" break="no"/>d-asinā maṅgi-rājottamāṅgaṁ</l>
+<l n="b">tuṅgādreḥ śr̥ṅgam urvyām aśa<supplied reason="omitted">ni</supplied>r iva mudāpātayat kannarāṅkaṁ</l>
+<l n="c">niśśa<lb n="18" break="no"/>ṁkaṁ śaṁkilena pra<choice><sic>dh</sic><corr>th</corr></choice>ita-janapadād durggamān nirggamayya</l>
+<l n="d">drāg dāvaṁ yaḥ praveśya<surplus>ḥ</surplus> prabhur abhaya<lb n="19" break="no"/>-manā<choice><sic>ṁ</sic><corr>ḥ</corr></choice> pratyapād ba<orig>ddha</orig>gāṅkaṁ|</l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a" enjamb="yes">sa śrīmān vijayāditya</l>
+<l n="b">-bhūpat<choice><sic>e</sic><corr>ir</corr></choice> bhrātr̥bhis saha|</l>
+<l n="c">catvā<lb n="20" break="no"/>riṁśat samās sārdhaṁ</l>
+<l n="d">caturbhir abhuna<orig>K</orig> bhuvaM|</l>
+</lg>
+<lg n="6" met="anuṣṭubh">
+<l n="a" enjamb="yes">tad-bhrātur vikramāditya</l>
+<l n="b">-bhūpates sa<lb n="21" break="no"/>c-camū-pateḥ</l>
+<l n="c" enjamb="yes">vilasat-kaṇṭhikā-dāma</l>
+<l n="d">-kaṇṭhasya tanayo nayī||</l>
+</lg>
+<lg n="7" met="sragdharā">
+<l n="a">dīnānāthāturā<lb n="22" break="no"/>ṇāṁ dvija-vara-samiter yyācakanā<unclear>ṁ</unclear> yatīnāṁ</l>
+<l n="b">nānā-deśāgatānā<unclear>ṁ</unclear> paṭu-vara-naṭa-sad-gāya<lb n="23" break="no"/>kānāṁ kavīnāṁ</l>
+<l n="c">bandhūnām andhakānāṁ Abhilaṣita-phala-śrāṇanād rakṣaṇād yo</l>
+<l n="d">mā<lb n="24" break="no"/>tāvat triṁśad abdān bhuvam abhunag asau cāru-cālu<supplied reason="omitted">kya</supplied>-bhīmaḥ||</l>
+</lg>
+<lg n="8" met="śārdūlavikrīḍita">
+<l n="a">tat-putraḥ sva-bhujāsi-khaṇḍita<pb n="3r" break="no"/><lb n="25" break="no"/>-ripu-kṣmābhr̥d balād vāsavīṁ</l>
+<l n="b">jitvā<choice><sic>s</sic><corr>ś</corr></choice>āṁ viraje pratiṣṭhita-jaya-staṁbhaḥ pradiṣṭe raṇe</l>
+<l n="c">svarṇṇārū<lb n="26" break="no"/>ḍha-tulo <supplied reason="subaudible">’</supplied>tra bāḍham atulo dhātrī-tale kṣatriyai<unclear>r</unclear></l>
+<l n="d">mmitrābhaḥ parirakṣati sma vijayāditya<lb n="27" break="no"/>s samārddhaṁ dharāM|</l>
+</lg>
+<lg n="9" met="vasantatilakā">
+<l n="a" enjamb="yes">tasyātmajaḥ praṇata-vairi-śiro-vilagna</l>
+<l n="b">-ratna-dvirepha-paricuṁbita-pāda-padmaḥ</l>
+<l n="c"><lb n="28"/>meruṁ hasaṁs tulita-hāṭaka-rāśi-bhāsā</l>
+<l n="d">varṣāṇi sapta samapād bhuvam ammarā<lb n="29" break="no"/>jaḥ|</l>
+</lg>
+<lg n="10" met="anuṣṭubh">
+<l n="a">tat-sutaṁ vijayādityaṁ</l>
+<l n="b">bālam uccāṭya līlayā</l>
+<l n="c"><choice><sic>ko</sic><corr>tā</corr></choice>lādhipatir ākra<lb n="30" break="no"/>mya</l>
+<l n="d">māsam ekam apād bhuvaṁ||</l>
+</lg>
+<lg n="11" met="anuṣṭubh">
+<l n="a" enjamb="yes">taṁ jitvā yudhi cāḷukya</l>
+<l n="b">-bhīma-bhūmipates sutaḥ</l>
+<l n="c">vikra<lb n="31" break="no"/>māditya-bhūpo <supplied reason="subaudible">’</supplied>pān</l>
+<l n="d">māsān ekādaśa kṣitiṁ|</l>
+</lg>
+<lg n="12" met="anuṣṭubh">
+<l n="a">tatas tālapa-rājasya</l>
+<l n="b">sūnus sūnr̥ta-vā<lb n="32" break="no"/>k prabhu<choice><sic>ṁ</sic><corr>ḥ</corr></choice></l>
+<l n="c">yuddhamalla-dharādhīśas</l>
+<l n="d">sapta varṣāṇy apād bhuvaM||</l>
+</lg>
+<lg n="13" met="śārdūlavikrīdita">
+<l n="a">nirjjityārjjuna-sannibho janapa<pb n="3v" break="no"/><lb n="33" break="no"/>dāt tan nirggamayyoddhatān</l>
+<l n="b">dāyādān ina-bhānu-līna-bha-gaṇākārān vidhā<unclear>ye</unclear>tarā<unclear>N</unclear>|</l>
+<l n="c">vajrīvo<unclear>r</unclear>jj<unclear>i</unclear><lb n="34" break="no"/><unclear>ta</unclear>-nākam amma-nr̥pater bhrātā kanīyān bhuvaṁ</l>
+<l n="d">bhīmo bhīma-parākramas samabhunak saṁvatsarā<unclear>n</unclear> dv<unclear>ā</unclear><lb n="35" break="no"/><unclear>da</unclear>śa||</l>
+</lg>
+<lg n="14" met="lalitā">
+<l n="ab">tat-sūnur ammarājo <surplus>pi</surplus> dharma-paraḥ pañcaviṁśati<unclear>ṁ</unclear> ca samāḥ</l>
+<l n="cd">rājya<unclear>ṁ ca</unclear>kāra ta<unclear>r</unclear>ppi<unclear>ta</unclear><lb n="36" break="no"/>-vipra-jano viji<space type="binding-hole"/>ta-vairir ūrjjita-kīrttiḥ||</l>
+</lg>
+<lg n="15" met="indravajrā">
+<l n="a">dvaim<choice><sic>a</sic><corr>ā</corr></choice>turas tasya ca dānapeśo</l>
+<l n="b"><unclear>j</unclear>y<unclear>e</unclear>ṣṭho mahad-bhū<lb n="37" break="no"/>ri-bhujo jitāri<supplied reason="omitted">ḥ</supplied><space type="binding-hole"/></l>
+<l n="c"><unclear>śrīmā</unclear>n su-veṅg<choice><sic>i</sic><corr>ī</corr></choice>-viṣayādhipo <supplied reason="subaudible">’</supplied>bhūt</l>
+<l n="d">tas<supplied reason="omitted">m</supplied>i<supplied reason="omitted">n</supplied> kṣi<supplied reason="omitted">tiṁ</supplied> <unclear>śāsa</unclear>ti satya-dh<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>nyaḥ||</l>
+</lg>
+<lg n="16" met="indravajrā">
+<l n="a"><lb n="38"/>sūno<supplied reason="omitted">r</supplied> br̥had-bhīma-m<subst><del>i</del><add place="overstrike">a</add></subst>h<choice><sic>i</sic><corr>ī</corr></choice><orig>bhu<unclear>ja</unclear>sya</orig></l>
+<l n="b"><choice><sic>rāptaḥ</sic><corr>naptuḥ</corr></choice> kalāvit-kali-viṣṇu-nāmna<unclear>ḥ</unclear></l>
+<l n="c">sūnuḥ kali<unclear>ṁ</unclear>geśvara-sat-sutā<unclear cert="low">yāṁ</unclear></l>
+<l n="d"><lb n="39"/>bh<unclear>ī</unclear>mādhipo <supplied reason="subaudible">’</supplied>bhūd vara<unclear cert="low">m ūr</unclear>jap<unclear cert="low">āyāM|</unclear></l>
+</lg>
+<lg n="17" met="upajāti">
+<l n="a"><unclear>ka</unclear>vāṭa-va<unclear>kṣ</unclear>ā <unclear>d</unclear>r̥<unclear>ḍ</unclear>ha-dīrggha-bā<unclear>h</unclear>uḥ</l>
+<l n="b">kṣātra-svakarmma-kṣama-m ā<unclear>ś</unclear>ri<lb n="40" break="no"/>tov<unclear cert="low">aT</unclear></l>
+<l n="c">dharmma<supplied reason="omitted">ḥ</supplied> s<unclear>v</unclear>aya<unclear cert="low">ṁ</unclear> <unclear>deha</unclear>-m i<unclear cert="low">v</unclear><unclear>o</unclear>ru-<unclear>k</unclear><choice><sic>i</sic><corr>ī</corr></choice><unclear>rtt</unclear>i<unclear>r</unclear></l>
+<l n="d">vvirājat<unclear>e</unclear> bhū-jana va<unclear>tsa</unclear>l<unclear>o yaḥ|</unclear></l>
+</lg>
+<lg n="18" met="upajāti">
+<l n="a">bālye <supplied reason="subaudible">’</supplied>dhi<space/>gam<unclear>y</unclear><supplied reason="lost">ā</supplied><pb n="4r" break="no"/><lb n="41" break="no"/>kh<unclear>i</unclear>la-rāja-vidy<unclear>o</unclear></l>
+<l n="b">vi<unclear>dyā</unclear>-vid-ācār<choice><sic>u</sic><corr>ya</corr></choice>-matānuyāy<unclear>ī</unclear></l>
+<l n="c">nyā<unclear>y</unclear><unclear cert="low">a</unclear> <seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>y<seg type="component" subtype="vowel" met="-"><gap reason="lost" quantity="1" unit="component"/></seg></seg> <seg met="++--+-+="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="d"><seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg><lb n="42" break="no"/>ya vikhyāti<unclear>m upā</unclear><unclear cert="low">ga</unclear>to yaḥ||</l>
+</lg>
+<lg n="19" met="sragdharā">
+<l n="a">śāke sa<unclear>ṁ</unclear>vatsaraughe dvi-nava-<unclear>vasu</unclear> <seg met="-++-++-+="><gap reason="lost" quantity="9" unit="character"/></seg></l>
+<l n="b"><seg met="++"><gap reason="lost" quantity="2" unit="character"/></seg><lb n="43" break="no"/>ṣṭamyāṁ surānāṁ vara-guru-divase san-muhūrtte mah<choice><sic>o</sic><corr>au</corr></choice>j<unclear>ā</unclear>ḥ</l>
+<l n="c"><unclear>de</unclear><unclear cert="low">vānā</unclear><seg met="+-++------"><gap reason="lost" quantity="10" unit="character"/></seg><lb n="44" break="no"/>tiṁ tarppayitvā <space type="binding-hole"/> yatheṣṭaṁ</l>
+<l n="d">śrīmā<orig>n</orig> cālu<unclear>kya-bhī</unclear>ma-<unclear>kṣi</unclear><supplied reason="lost">tipati</supplied><supplied reason="lost" cert="low">-tanayaḥ</supplied> <seg met="+-++-+"><gap reason="lost" quantity="6" unit="character"/></seg><lb n="45" break="no"/>nā<unclear>ṁ</unclear>||</l>
+</lg>
+<lg n="20" met="śārdūlavikrīḍita">
+<l n="a">tyāgo ya<space type="binding-hole"/>sya mahīpater agaṇitā<seg type="aksara"><seg type="component" subtype="body"><gap reason="lost" quantity="1" unit="component"/></seg>ī</seg><seg met="+-++-="><gap reason="lost" quantity="6" unit="character"/></seg></l>
+<l n="b"><seg met="+++--+-"><gap reason="lost" quantity="7" unit="character"/></seg><lb n="46" break="no"/>da<unclear>r</unclear>ppa-mathanaṁ śau<unclear>r</unclear>yyaṁ sadāryya-stutaṁ</l>
+<l n="c"><seg met="+++--+-+---+++-+"><gap reason="lost" quantity="16" unit="character"/></seg><lb n="47" break="no"/>bhūpati<supplied reason="omitted">ḥ</supplied></l>
+<l n="d">śrīmac-cāru-calukya-bhīma-nr̥pa<unclear>t</unclear><supplied reason="lost">eḥ</supplied> <seg met="++-++-="><gap reason="lost" quantity="7" unit="character"/></seg></l>
+</lg>
+<p><supplied reason="lost">sa samasta-bhuvanāśraya</supplied><lb n="48" break="no"/>-<unclear>śr</unclear>ī-viṣṇuvarddhana-mahārājādhirāja-param<unclear>e</unclear>śva<unclear>ra</unclear><supplied reason="lost">ḥ parama-bhaṭṭārakaḥ parama-brahmaṇyo mā</supplied><pb n="4v" break="no"/><lb n="49" break="no"/><unclear cert="low">tā</unclear><unclear>-pitr̥-pā</unclear>dānudhyātaḥ ma<unclear>ṁ</unclear>tri-pur<unclear>o</unclear>h<unclear>i</unclear>ta-s<unclear>e</unclear>nāpati-<supplied reason="lost"/>yuvarāja<gap reason="lost" quantity="10" unit="character" precision="low"/><lb n="50"/><unclear cert="low">pottapinā</unclear>ṇḍu-viṣaya-<add place="inline"><unclear>ni</unclear></add>vāsino rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pra<unclear>mu</unclear><supplied reason="lost">khān kuṭuṁbinaḥ</supplied><gap reason="lost" quantity="10" unit="character" precision="low"/></p>
+<lg n="21" met="mālabhāriṇī">
+<l n="a"><lb n="51"/><unclear>m</unclear>udugoṇḍa-ca<unclear>ḻ</unclear>uk<unclear>y</unclear>a-va<unclear>ṁ</unclear>śaj<unclear>o y</unclear>aḥ</l>
+<l n="b">prathito mal<unclear>l</unclear>a-<seg met="-+-+-+="><gap reason="lost" quantity="7" unit="character"/></seg></l>
+<l n="c"><seg met="--+--+-+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
+<l n="d" real="--++--+-++"><seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg><lb n="52" break="no"/><unclear cert="low">ji</unclear>ti prāpta-vas<unclear>u</unclear><space type="binding-hole"/><unclear>ndha</unclear>rāyā<choice><unclear>ṁ</unclear><unclear>ḥ</unclear></choice>||</l>
+</lg>
+<lg n="22" met="upajāti">
+<l n="a">tadātma<unclear>jo</unclear> <seg met="+--+-+="><gap reason="lost" quantity="7" unit="character"/></seg></l>
+<l n="b"><seg met="=+-++--+-+="><gap reason="lost" quantity="11" unit="character"/></seg></l>
+<l n="c"><lb n="53"/><unclear cert="low">dhī</unclear>mān dhanu<unclear>r</unclear>-nni<unclear>r</unclear>jjita<space type="binding-hole"/>-bhūr<choice><sic>a</sic><corr>i</corr></choice>-śatruḥ</l>
+<l n="d"><unclear>pātra-pra</unclear><unclear cert="low">daḥ</unclear> kṣ<unclear>a</unclear>tra-gu<unclear cert="low">ṇai</unclear><supplied reason="lost" cert="low">ḥ prapannaḥ</supplied></l>
+</lg>
+<lg n="23" met="praharṣiṇī">
+<l n="a"><seg met="+++----+-"><gap reason="lost" quantity="9" unit="character"/></seg><lb n="54" break="no"/><unclear cert="low">pe</unclear>rakāṁbā</l>
+<l n="b">bhāryyāryyāmara-hita-kā<unclear>riṇī</unclear> <unclear cert="low">surūpā</unclear></l>
+<l n="c">dharmmārttham <unclear cert="low">m</unclear>a<seg met="---+-+-+="><gap reason="lost" quantity="9" unit="character"/></seg></l>
+<l n="d"><seg met="+++"><gap reason="lost" quantity="3" unit="character"/></seg><lb n="55" break="no"/>ta-bahu-mu<unclear cert="low">khe</unclear>śvara<supplied reason="omitted" cert="low">sya</supplied> putr<unclear cert="low">aḥ||</unclear></l>
+</lg>
+<pb n="5v"/>
+
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="1">
+        <lem source="bib:Narasimham1937-1938_01">-<unclear>divyojva</unclear>la jāyo<unclear>ṭā</unclear>nta</lem>
+        <note>The invocatory stanza was probably a <foreign>gīti</foreign>, possibly a different member of the <foreign>āryā</foreign> family. I cannot reconstruct a meaningful and metrical reading. MN shows <foreign>divyojva</foreign> and <foreign>ṭā</foreign> in round parentheses, which elsewhere he uses for emendation. But in the present case I see no reason why he would have wanted to emend the preceding syllables to these strings; also, the number of <foreign>akṣara</foreign>s in this line would be very small compared to adjacent lines if the parenthetical text were not present on the plate. Scribal errors may well be present in addition to misreading and misprinting. The composer’s intent probably included the words <foreign>jaṭā</foreign> and <foreign>karāñjali</foreign>, and <foreign>yatra</foreign> or an equivalent is sorely missing. See the translation for my interpretation.</note>
+      </app>
+      <app loc="7">
+        <lem source="bib:Narasimham1937-1938_01">cāḷukyānāṁ</lem>
+        <note>MN prints <foreign>ḷ</foreign> in several places where the estampage has <foreign>l</foreign>, so it is likely that here too, though no estampage is available, the actual reading is with <foreign>l</foreign>.</note>
+      </app>
+      <app loc="8">
+        <lem>-patir</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-pati</rdg>
+        <note>Since MN prints a double <foreign>v</foreign> after this word, but does not supply <foreign>r</foreign>, I assume <foreign>r</foreign> is present in the original.</note>
+      </app>
+      <app loc="8">
+        <lem>vvikrame<choice><sic>n</sic><corr>ṇ</corr></choice>ādy<choice><sic>a</sic><corr>o</corr></choice></lem>
+        <rdg source="bib:Narasimham1937-1938_01">vvikramenādya</rdg>
+        <note>I emend on the basis of the parallel stanza in the <ref target="DHARMA_INSVengiCalukya00037.xml">Kalucuṁbaṟṟu grant of Amma II</ref>.</note>
+      </app>
+      <app loc="8">
+        <lem>dharām</lem>
+        <rdg source="bib:Narasimham1937-1938_01">darām</rdg>
+        <note>Since MN does not emend, I assume the original text has the correct <foreign>dh</foreign>.</note>
+      </app>
+      <app loc="9">
+        <lem>imāM</lem>
+        <rdg source="bib:Narasimham1937-1938_01">imam</rdg>
+        <note>Again, I merely assume that the original is correct.</note>
+      </app>
+      <app loc="9">
+        <lem source="bib:Narasimham1937-1938_01">trayastriṁśaT</lem>
+        <note>Here and in lines 12 and 13 below, MN of course prints <foreign>°triṁśat</foreign> without explicit indication that a final consonant is present. The actual reading is perhaps <foreign>°triṁśata</foreign>, intended for <foreign>°triṁśataṁ</foreign>.</note>
+      </app>
+      <app loc="12">
+        <lem><supplied reason="subaudible">’</supplied>ṣṭādaśa</lem>
+        <rdg source="bib:Narasimham1937-1938_01">Aṣṭādaśa</rdg>
+      </app>
+      <app loc="12">
+        <lem>viṣṇuvardhana<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">viṣṇuvardhana</rdg>
+      </app>
+      <app loc="14">
+        <lem>sa-lalita-ramaṇī-saṁpadā<supplied reason="omitted">ṁ sat-padā</supplied>nāṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">salilata-ramaṇīm saṁpadānā</rdg>
+        <note>I overrule MN on the basis of the parallels in the <ref target="DHARMA_INSVengiCalukya00045.xml">Tāṇḍikoṇḍa grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. Given the length of the line, the missing sequence is probably omitted in the original, not a typo in MN’s edition.</note>
+      </app>
+      <app loc="14">
+        <lem>-dhīro <supplied reason="subaudible">’</supplied>ṣṭa-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">dhīr=aāṣṭa-</rdg>
+        <note>The locus reads <foreign>-dhīr aṣṭa-</foreign> in the <ref target="DHARMA_INSVengiCalukya00045.xml">Tāṇḍikoṇḍa grant of Amma II</ref> and <foreign>-dhīroṣṭa-</foreign> in the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. The latter is perhaps more likely here.</note>
+      </app>
+      <app loc="14">
+        <lem>-yuktāś</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-yuktas</rdg>
+      </app>
+      <app loc="16">
+        <lem>Aṅgāt</lem>
+        <rdg source="bib:Narasimham1937-1938_01">Abdāt</rdg>
+        <note>I overrule MN on the basis of the parallels in the <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>.</note>
+      </app>
+      <app loc="17">
+        <lem>aśa<supplied reason="omitted">ni</supplied>r</lem>
+        <rdg source="bib:Narasimham1937-1938_01">asa<supplied reason="omitted">ni</supplied>r</rdg>
+      </app>
+      <app loc="18">
+        <lem source="bib:Narasimham1937-1938_01">durggamān</lem>
+        <note>Parallels of this stanza are found in the <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. The former very clearly reads <foreign>durggaman</foreign> here, while the latter is unclear, but was read as <foreign>durggamān</foreign> by its editor.</note>
+      </app>
+      <app loc="18">
+        <lem>dāvaṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">dhāvaṁ</rdg>
+        <note>Of the two parallels, Amma’s grant clearly reads <foreign>dāvaṁ</foreign> here (misread or misprinted by its original editor as <foreign>dhāvaṁ</foreign>, perhaps under the influence of the present grant’s published edition), while Śaktivarman’s plates are wholly illegible at this locus (but their original editor supplies <foreign>dhāvaṁ</foreign>). In my opinion <foreign>dāvaṁ</foreign> is the only sensible choice, but this does not exclude the possibility that MN’s reading is correct here, in which case the present text needs emendation.</note>
+      </app>
+      <app loc="19">
+        <lem>ba<orig>ddha</orig>gāṅkaṁ</lem>
+        <note>The word is <foreign>baddegāṁkaṁ</foreign> in both parallels, and that is the correct form of the name. I assume that the plates are erroneous here, but this may also be a typo in MN’s edition.</note>
+      </app>
+      <app loc="20">
+        <lem>-bhūpat<choice><sic>e</sic><corr>ir</corr></choice></lem>
+        <note>MN does not emend this word and may have read or printed it incorrectly. The original editor of the <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> also prints <foreign>bhūpate</foreign>, probably on the basis of the present grant, though the reading there is clearly <foreign>bhūpati</foreign> (with or without <foreign>r</foreign>).</note>
+      </app>
+      <app loc="20">
+        <lem>tad-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">tat-</rdg>
+      </app>
+      <app loc="22">
+        <lem>-vara-</lem>
+        <note>Both known parallels read <foreign>vaṭu</foreign> here, which is superior. MN may have misread the plate.</note>
+      </app>
+      <app loc="23">
+        <lem>mā<lb n="24" break="no"/>tāvat</lem>
+        <note>Both known parallels read <foreign>māteva</foreign> here. As <foreign>mātāvat</foreign> is morphologically incorrect, I tend to believe MN misread the plate here.</note>
+      </app>
+      <app loc="24">
+        <lem>abdān</lem>
+        <rdg source="bib:Narasimham1937-1938_01">abdhān</rdg>
+      </app>
+      <app loc="24">
+        <lem>-putraḥ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-putro</rdg>
+      </app>
+      <app loc="25">
+        <lem>balād</lem>
+        <note>I am tempted to emend to <foreign>-balo</foreign>, but the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> have the same reading.</note>
+      </app>
+      <app loc="25">
+        <lem>jitvā<choice><sic>s</sic><corr>ś</corr></choice>āṁ</lem>
+        <note>The s may be a typo in MN, but since the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> read the same, I assume it is an original mistake.</note>
+      </app>
+      <app loc="25">
+        <lem>pradiṣṭe</lem>
+        <rdg source="bib:Narasimham1937-1938_01">prādiṣṭhe</rdg>
+        <note>The <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> are unclear here and their text is more corrupt, but given MN’s reading for this locus and the facsimile of the parallel, this seems to be the most likely reading. See the translation for my tentative interpretation.</note>
+      </app>
+      <app loc="26">
+        <lem>bāḍham</lem>
+        <rdg source="bib:Narasimham1937-1938_01">baddham</rdg>
+        <note>The parallel is quite clear here.</note>
+      </app>
+      <app loc="27">
+        <lem>dharāM</lem>
+        <rdg source="bib:Narasimham1937-1938_01">varāM</rdg>
+      </app>
+      <app loc="29">
+        <lem><choice><sic>ko</sic><corr>tā</corr></choice>lādhipatir</lem>
+        <note>I understand MN’s edition to mean that he emends an inscribed <foreign>ko</foreign> to <foreign>tā</foreign>. The emendation is vindicated by the parallel stanza in the <ref target="DHARMA_INSVengiCalukya00044.xml">Pāṁbaṟṟu grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>.</note>
+      </app>
+      <app loc="30">
+        <lem source="bib:Narasimham1937-1938_01">cāḷukya-</lem>
+        <note>MN prints <foreign>ḷ</foreign> in several places where the estampage has <foreign>l</foreign>, so it is likely that here too, though no estampage is available, the actual reading is with <foreign>l</foreign>.</note>
+      </app>
+      <app loc="31">
+        <lem>prabhu<choice><sic>ṁ</sic><corr>ḥ</corr></choice></lem>
+        <rdg source="bib:Narasimham1937-1938_01">prabhuṁ</rdg>
+        <note>I emend on the basis of parallels in several other grants.</note>
+      </app>
+      <app loc="32">
+        <lem>-gaṇākārān</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-gaṇākārām</rdg>
+      </app>
+      <app loc="35">
+        <lem><surplus>pi</surplus></lem>
+        <rdg source="bib:Narasimham1937-1938_01">pi</rdg>
+        <note>I emend with some hesitation. MN may have perceived this as a prose passage, but its prosody is too close to a <foreign>gaṇacchandas</foreign> structure to be accidental. The <foreign>visarga</foreign> in <foreign>samāḥ</foreign> also suggests a hemistich boundary. Removing this <foreign>pi</foreign>, coupled with some improvements of MN’s reading (confirmed by the facsimile), results in a perfect specimen of the rare metre <foreign>lalitā</foreign>. Perhaps <foreign>pi</foreign> was added because the drafter of the grant too, while adopting a pre-existing text, believed this to be prose and thus permissive of small changes.</note>
+      </app>
+      <app loc="35">
+        <lem>pañcaviṁśati<unclear>ṁ</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">pañcaviṁśati</rdg>
+      </app>
+      <app loc="35">
+        <lem>ta<unclear>r</unclear>ppi<unclear>ta</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">tarpite</rdg>
+      </app>
+      <app loc="36">
+        <lem>ūrjjita-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">ajita-</rdg>
+      </app>
+      <app loc="37">
+        <lem>-bhujo</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-bhujair</rdg>
+      </app>
+      <app loc="37">
+        <lem><supplied reason="subaudible">’</supplied>bhūt tas<supplied reason="omitted">m</supplied>i<supplied reason="omitted">n</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">bhūd api</rdg>
+      </app>
+      <app loc="37">
+        <lem>kṣi<supplied reason="omitted">tiṁ</supplied> <unclear cert="low">śāsa</unclear>ti</lem>
+        <rdg source="bib:Narasimham1937-1938_01">kṣitiṁ śāsati</rdg>
+      </app>
+      <app loc="37">
+        <lem>satya-dh<choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice>nyaḥ</lem>
+        <note>For this locus, MN shows <q>dhanyaḥ(vān)</q>. He may have intended to emend to <foreign>satyavān yaḥ</foreign>, or to indicate the latter as a possible alternative reading. The vowel of <foreign>dh</foreign> does seem to be <foreign>ā</foreign>, but by my perception a relative pronoun would be out of the syntax here, so I prefer to read <foreign>dhanyaḥ</foreign>.</note>
+      </app>
+      <app loc="38">
+        <lem>sūno<supplied reason="omitted">r</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">sūno</rdg>
+        <note>It seems from MN’s discussion that he interpreted <foreign>suno</foreign> as a nominative. See my commentary on this stanza.</note>
+      </app>
+      <app loc="38">
+        <lem>-m<subst><del>i</del><add place="overstrike">a</add></subst>h<choice><sic>i</sic><corr>ī</corr></choice><orig>bhu<unclear>ja</unclear>sya</orig></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-mahībhujasya</rdg>
+        <note>The reading is quite certain, but out of context the fourth character would more likely be read as <foreign>ca</foreign> or <foreign>ṣa</foreign>, and the entire sequence <foreign>bhujasya</foreign> may be a correction engraved over something else.</note>
+      </app>
+      <app loc="38">
+        <lem><choice><sic>rāptaḥ</sic><corr>naptuḥ</corr></choice></lem>
+        <rdg source="bib:Narasimham1937-1938_01">Āptaḥ</rdg>
+        <note>The reading, though unintelligible, is unambiguous in the estampage. It would perhaps be more straightforward to emend to <foreign>rājñaḥ</foreign>, since the engraver could easily have mistaken a slightly smudged pre-drawn <foreign>jña</foreign> for <foreign>pta</foreign>. But since interpreting the stanza would be problematic that way, I tentatively emend as indicated. The retroflex and dental nasal are often mixed up, and <foreign>rā</foreign> may well be a scribal misrecognition of a smudged <foreign>ṇa</foreign>. See the commentary for my interpretation.</note>
+      </app>
+      <app loc="38">
+        <lem>kalāvit-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">kalāvit</rdg>
+        <note>The text works with a nominative (in which case this word describes the son), but because of proximity and the word-play in <foreign>kalā/kali</foreign>, I prefer to understand this word as describing Kali Viṣṇuvardhana in spite of the slightly more awkward syntax involved.</note>
+      </app>
+      <app loc="38">
+        <lem>-nāmna<unclear>ḥ</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-nāmnā</rdg>
+      </app>
+      <app loc="39">
+        <lem>sūnuḥ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">sūnoḥ</rdg>
+      </app>
+      <app loc="39">
+        <lem>kali<unclear>ṁ</unclear>geśvara-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">kaḷiṅgeśvara-</rdg>
+      </app>
+      <app loc="39">
+        <lem>-sutā<unclear cert="low">yāṁ</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-sutāya<unclear>ḥ</unclear></rdg>
+        <note>Only the left edge of <foreign>y</foreign> is visible in the estampage, and this is far from unambiguous. I accept that MN could make out <foreign>y</foreign> more clearly, in the original. Depending on the ending of the word <foreign>urjapā</foreign> (see note below), the stanza would also be intelligible and mean the same with <foreign>sutāyāṁ</foreign>.</note>
+      </app>
+      <app loc="39">
+        <lem>vara<unclear cert="low">m ūr</unclear>jap<unclear cert="low">āyāM|</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">varam urjapāyāṁ|</rdg>
+        <note>Much of the sequence <foreign>mūrjapāyāM</foreign> is probably a correction written over something else. I read <foreign>mū</foreign> in accordance with secondary literature citing this name as Ūrjapā, assuming that the <foreign>u</foreign> marker is entirely below the body of <foreign>m</foreign>, and the hook that changes it to <foreign>ū</foreign> is at baseline to the right of the body. This character seems to have been changed from <foreign>ra</foreign>, and there would have been no room to insert a regular-shaped <foreign>ū</foreign> between this character and the next. Nonetheless, MN’s reading <foreign>mu</foreign> is also definitely possible, as is plain <foreign>ma</foreign>. The next one appears to have been <foreign>ja</foreign> even before correction. No <foreign>repha</foreign> is discernible in the estampage, but on MN’s statement I accept that one is present; the faint vertical line above and to the right of the <foreign>j</foreign>’s initial circle may be a vestige of that. The following <foreign>pa</foreign> also seems to be pre-correction, but the barely distinct <foreign>ā</foreign> marker, if it is one, is probably a subsequent addition. The final <foreign>y</foreign> is, however, heavily corrected
+first vowel of this name may perhaps be <foreign>ū</foreign>, as the name appears in secondary literature, but in the rubbing it seems to be <foreign>u</foreign>. The ending may be <foreign>yāḥ</foreign> instead of <foreign>yāM</foreign> (see also the note on <foreign>sutāyāṁ</foreign> above), but does not seem to be simply <foreign>yāṁ</foreign>.</note>
+      </app>
+      <app loc="39">
+        <lem><unclear>d</unclear>r̥<unclear>ḍ</unclear>ha-</lem>
+        <note>This is clearly the word intended, but the first consonant may in fact be <foreign>dh</foreign> or <foreign>ḍh</foreign>, and the second looks like <foreign>ḍ</foreign>.</note>
+      </app>
+      <app loc="39">
+        <lem>kṣātra-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">kṣatra-</rdg>
+      </app>
+      <app loc="39">
+        <lem>-kṣama-m ā<unclear>ś</unclear>ri<lb n="40" break="no"/>tov<unclear cert="low">aT</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-kṣamām āsri<lb n="40" break="no"/>tovaT</rdg>
+        <note>MN’s <foreign>kṣamā</foreign> is definitely <foreign>kṣama</foreign>, and his <foreign>sri</foreign> is probably a typo for <foreign>śri</foreign>, which is a plausible but not fully certain reading of the the last character in line 39, partly obscured by the rim of the plate. The sequence is hard to make sense of, but I think <foreign>kṣama-m</foreign> is probably non-standard sandhi for <foreign>kṣama</foreign> (epenthetic <foreign>m</foreign> inserted to avoid hiatus); scribal error for <foreign>kṣama Āśrito</foreign> is also a possibility. The string <foreign>āśritovat</foreign> was perhaps intended to be <foreign>āśritoddhr̥t</foreign>, one who uplifts. The <foreign>v</foreign> may have a very faint <foreign>i</foreign> attached to it, but I see no plausible reading involving <foreign>-viT</foreign>.</note>
+      </app>
+      <app loc="40">
+        <lem>dharmma<supplied reason="omitted">ḥ</supplied> s<unclear>v</unclear>aya<unclear cert="low">ṁ</unclear> <unclear>deha</unclear>-m i<unclear cert="low">v</unclear><unclear>o</unclear>ru-<unclear>k</unclear><choice><sic>i</sic><corr>ī</corr></choice><unclear>rtt</unclear>i<unclear>r</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">dharmasyāya<unclear>m</unclear> deham ihor kīrttir</rdg>
+        <note>The <foreign>m</foreign> in MN’s reading was presumably meant to be <foreign>ṁ</foreign>; it is shown in round parentheses, which may mean that it is supplied rather than unclear. His <foreign>ihor</foreign> must have been intended for <foreign>ihoru</foreign>. As indicated in my markup, much of the last line is unclear, and this applies in particular to any character components below the baseline. Nonetheless, I am certain that MN’s <foreign>sya</foreign> must be read as <foreign>sva</foreign>. Instead of his <foreign>ihoru</foreign>, I prefer to read <foreign>ivoru</foreign>. The problematic character does resemble the one in <foreign>deham</foreign>, but but is narrower and does not have a distinct tail like the <foreign>h</foreign> of the latter. The final <foreign>r</foreign> may be indicated by the squiggliness of the lower outline of the <foreign>i</foreign> marker on the next character, or it may be absent and need to be supplied; see also the next note. I am far from certain of my reading and restoration as a whole, much less of my understanding of the text. Nonetheless, if an epenthetic <foreign>m</foreign> is assumed (as in the first hemistich, see the note above), then <foreign>dharmmaḥ svayaṁ deha-m ivoru-kīrttir</foreign> (for <foreign>deha Ivoru-</foreign>) is intelligible and fits the context.</note>
+      </app>
+      <app loc="40">
+        <lem>vvirājat<unclear>e</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">virājate</rdg>
+        <note>The subscript <foreign>v</foreign> is clearly visible. This in turn confirms that the preceding word was meant to in <foreign>r</foreign>, even though a <foreign>repha</foreign> is not clearly present here.</note>
+      </app>
+      <app loc="40">
+        <lem><unclear>bhū</unclear>-jana</lem>
+        <rdg source="bib:Narasimham1937-1938_01">bhūjana</rdg>
+        <note>The heavy noise below <foreign>ja</foreign> implies a subscript consonant, but even though <foreign>bhū-jana</foreign> is a little awkward, any alternative reading (e.g. <foreign>’bhūj jana</foreign>) would be inappropriate in the context.</note>
+      </app>
+      <app loc="40">
+        <lem>va<unclear>tsa</unclear>l<unclear>o yaḥ|</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">vatsalāya|</rdg>
+        <note>In the character I read as <foreign>lo</foreign>, a vowel marker on the right-hand (the tail of <foreign>l</foreign>) is indeed clear, but a second vowel stroke seems to be attached to the bottom left of the body. The <foreign>visarga</foreign> before the punctuation mark is faint but fairly certain.</note>
+      </app>
+      <app loc="40">
+        <lem>bālye <supplied reason="subaudible">’</supplied>dhi<space/>gam<unclear>y</unclear><supplied reason="lost">ā</supplied><pb n="4r" break="no"/><lb n="41" break="no"/>khila-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">bālyādhi vīra-dharmm-a<pb n="4r" break="no"/><lb n="41" break="no"/>khila</rdg>
+        <note>The vowel marker of <foreign>lye</foreign> is clear, attached on the left to the subscript <foreign>y</foreign>. MN’s <foreign>vīra-dharmm-a</foreign> seems to be a reading of the characters I read as <foreign>dhi<space/>gamyā</foreign>, but something is clearly wrong with his edition, since he als reads <foreign>dhi</foreign> before this. I cannot guess why a space, the width of one regular character, was skipped by the scribe here, but if a character (such as MN’s <foreign>ra</foreign>) is present in that space, it is very faint and must have been beaten out by the engraver. After that, <foreign>ga</foreign> is almost closed at the bottom, but it is definitely not <foreign>dha</foreign>. The subscript component of the last character is partly obscured by damage (or by the rubbing’s inability to fit into the inner corner of the rim), but it is quite certainly <foreign>y</foreign>, not <foreign>m</foreign>.</note>
+      </app>
+      <app loc="41">
+        <lem>vidy<unclear>o</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">vidyā</rdg>
+        <note>The second stroke for <foreign>o</foreign> is indistinct and may not be present. I would prefer a <foreign>bahuvrīhi</foreign> in the masculine nominative here, though it is also possible to wring meaning out of the text if we read <foreign>vidyā-</foreign> in compound here.</note>
+      </app>
+      <app loc="41">
+        <lem>-ācār<choice><sic>u</sic><corr>ya</corr></choice>-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-ācāra-</rdg>
+        <note>The composer’s intent may also have been <foreign>ācāra</foreign>, but the plate definitely has <foreign>ru</foreign>. Either of these words may also be interpreted so that they are not compounded to the preceding, but in that case <foreign>vidyā-vid</foreign> would be largely tautological.</note>
+      </app>
+      <app loc="41">
+        <lem>nyā<unclear>y</unclear><unclear cert="low">a</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">nyāye</rdg>
+        <note>I see no indication of an <foreign>e</foreign> marker, but MN may be correct.</note>
+      </app>
+      <app loc="43">
+        <lem>vara-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">vāre</rdg>
+      </app>
+      <app loc="44">
+        <lem>yatheṣṭaṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">yadheṣṭaṁ</rdg>
+      </app>
+      <app loc="44">
+        <lem>-<unclear>kṣi</unclear><supplied reason="lost">tipati</supplied><supplied reason="lost" cert="low">-tanayaḥ</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-kṣiti<gap reason="lost" extent="unknown"/></rdg>
+        <note>In the estampage, the plate breaks off right after (and partly through) <foreign>kṣi</foreign>, so if MN could read <foreign>ti</foreign>, then the edge of the plate suffered further damage by the time the estampage was made. It is also possible that he too supplied <foreign>ti</foreign> for restoration.</note>
+      </app>
+      <app loc="45">
+        <lem>agaṇitā</lem>
+        <rdg source="bib:Narasimham1937-1938_01">agaṇita</rdg>
+      </app>
+      <app loc="46">
+        <lem>-mathanaṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-madhanaṁ</rdg>
+      </app>
+      <app loc="46">
+        <lem>śau<unclear>r</unclear>yyaṁ sadāryya-stutaṁ</lem>
+        <rdg source="bib:Narasimham1937-1938_01">śauryaudārya stuta</rdg>
+      </app>
+      <app loc="47">
+        <lem>bhūpati<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">bhūpatis</rdg>
+        <note>Or perhaps construe <foreign>bhūpati-</foreign>, with the compound going on into the last quarter, but that would be redundant with <foreign>nr̥pateḥ</foreign>. Possibly supply <foreign>dānārṇavo</foreign> before this word.</note>
+      </app>
+      <app loc="47">
+        <lem>-calukya-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-cāḷukya-</rdg>
+      </app>
+      <app loc="47">
+        <lem><supplied reason="lost">sa samasta-bhuvanāśraya</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01"><gap reason="lost" extent="unknown"/></rdg>
+        <note>The lacuna should be about two characters shorter than in the line above, i.e. 14 characters in total, of which 7 belong to the end of the preceding stanza. My restoration is 9 characters long and thus slightly too long. Nonetheless, the <foreign>āśraya</foreign>-epithet is expected here, and in his <ref target="DHARMA_INSVengiCalukya00039.xml">Māṁgallu grant</ref>, Dānārṇava’s epithet is <foreign>samasta-bhuvanāśraya</foreign>, and so is that of all kings who use the crown name Vijayāditya and have an attested <foreign>āśraya</foreign>-epithet, so <foreign>sarvva-lokāśraya</foreign>, though it is exactly 7 characters long, can be excluded with fair confidence.</note>
+      </app>
+      <app loc="48">
+        <lem>param<unclear>e</unclear>śva<unclear>ra</unclear><supplied reason="lost">ḥ parama-bhaṭṭārakaḥ parama-brahmaṇyo mā</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">parameśvara<gap reason="lost" extent="unknown"/></rdg>
+        <note>Again, we expect the lacuna to be about two characters shorter than in the previous line, probably around 12 to 14 characters. My restoration of 14 characters is thus feasible, and the epithet <foreign>parama-brahmaṇya</foreign> is confirmed by the <ref target="DHARMA_INSVengiCalukya00039.xml">Māṁgallu grant</ref>.</note>
+      </app>
+      <app loc="49">
+        <lem>-s<unclear>e</unclear>nāpati-<supplied reason="lost"/>yuvarāja<gap reason="lost" quantity="10" unit="character" precision="low"/></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-senāpati<gap reason="lost" extent="unknown"/></rdg>
+        <note>The whole lacuna should be about the same length as the last line on 4r (the back side of this line), i.e. roughly 14 characters. Parallel loci (emended and restored) are <foreign>-senāpati-yuvarājādy-aṣṭādaśa-tīrtthādhyakṣam ittham ājñāpayati</foreign> in the <ref target="DHARMA_INSVengiCalukya00039.xml">Māṁgallu grant of Dānārṇava</ref>, and <foreign>-senāpati-yuvarāja-dauvārikādhyakṣam ittham ājñāpayati</foreign> in the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref> and the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref>. I restore <foreign>yuvarāja</foreign> with some confidence, since it is common to all three parallels, and the circular stroke at the edge of the crack makes <foreign>y</foreign> likely. However, all three parallels have this phrase after the words <foreign>rāṣṭrakūṭa-pramukhān kuṭuṁbinas samāhūya</foreign>, while in the present grant that phrase comes subsequently, so <foreign>ājñāpayati</foreign> is unlikely here. The lost text may perhaps have been <foreign>yuvarāja-dauvārikādhyakṣān samāhūya</foreign>.</note>
+      </app>
+      <app loc="50">
+        <lem><unclear cert="low">pottapinā</unclear>ṇḍu-</lem>
+        <note>MN prints the whole of this name as clear, and I assume he could read it more confidently from the original. Only bare shadows are visible in the estampage. These do not contradict the reading, though the character read as <foreign>tta</foreign> seems to have something on top (<foreign>rtta</foreign>? <foreign>tte</foreign>?). A <foreign>viṣaya</foreign> called <foreign>potupa</foreign> (unclearly read by its editor and no facsimile available) is mentioned in the <ref target="DHARMA_INSVengiCalukya00056.xml">Peddāpurappāḍu plates of Viṣṇuvardhana II</ref>.</note>
+      </app>
+      <app loc="50">
+        <lem>-<add place="inline"><unclear>ni</unclear></add>vāsino</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-nivāsino</rdg>
+        <note>From the estampage, I would read just <foreign>vāsino</foreign> without hesitation. But since the formula is <foreign>nivāsino</foreign> in almost all related grants, and MN prints this reading, I assume that the faint strokes to the right of <foreign>ya</foreign> and the clearer semicircular stroke above that are remnants of a small-size <foreign>ni</foreign> that was added subsequently in the space between two characters.</note>
+      </app>
+      <app loc="50">
+        <lem>-pra<unclear>mu</unclear><supplied reason="lost">khān kuṭuṁbinaḥ</supplied><gap reason="lost" quantity="10" unit="character" precision="low"/></lem>
+        <rdg source="bib:Narasimham1937-1938_01">pra<gap reason="lost" extent="unknown"/></rdg>
+        <note>A lacuna of about 15 characters is expected. Since the phrases are not in the usual order (see the note to line 49), no straightforward restoration is possible. The missing text beyond <foreign>kuṭuṁbinaḥ</foreign> may be <foreign>sarvvān ittham ājñāpayati yathā</foreign>, perhaps without <foreign>sarvvān</foreign> or without <foreign>yathā</foreign>.</note>
+      </app>
+      <app loc="51">
+        <lem>-ca<unclear>ḻ</unclear>uk<unclear>y</unclear>a-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">-cāḷukya-</rdg>
+        <note>The second consonant of this name is quite certainly neither <foreign>ḷ</foreign> nor <foreign>l</foreign>, though <foreign>ḻ</foreign> is also less than certain.</note>
+      </app>
+      <app loc="51">
+        <lem>prathito mal<unclear>l</unclear>a-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">pradhitāmala</rdg>
+      </app>
+      <app loc="52">
+        <lem><unclear cert="low">ji</unclear>ti</lem>
+        <rdg source="bib:Narasimham1937-1938_01">jita-</rdg>
+        <note>The first character is indistinct; <foreign>ji</foreign> is possible assuming an <foreign>i</foreign> marker distorted because of the descender of <foreign>mu</foreign> above. Although MN explicitly refers to <ref>jita-prāpta-vasundharā</ref>, conquered land, this reading can be ruled out given the clear <foreign>ti</foreign>. See also my commentary about this stanza.</note>
+      </app>
+      <app loc="52">
+        <lem>-vas<unclear>u</unclear><space type="binding-hole"/><unclear>ndha</unclear>rāyā<choice><unclear>ṁ</unclear><unclear>ḥ</unclear></choice></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-vasuṁdharāyāṁ</rdg>
+      </app>
+      <app loc="53">
+        <lem>dhanu<unclear>r</unclear>-nni<unclear>r</unclear>jjita<space type="binding-hole"/>-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">vasūn nirjjitā</rdg>
+      </app>
+      <app loc="53">
+        <lem><unclear>-pra</unclear><unclear cert="low">daḥ</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-padaḥ</rdg>
+        <note>Possibly a typo in MN.</note>
+      </app>
+      <app loc="53">
+        <lem>kṣ<unclear>a</unclear>tra-</lem>
+        <note>This is quite certainly the intended word, but the inscribed text may be <foreign>kṣitra-</foreign>.</note>
+      </app>
+      <app loc="53">
+        <lem>-gu<unclear cert="low">ṇai</unclear><supplied reason="lost" cert="low">ḥ prapannaḥ</supplied></lem>
+        <rdg source="bib:Narasimham1937-1938_01">-gu<gap reason="lost" extent="unknown" unit="character"/></rdg>
+        <note>Only the bottom left corner of the last character is extant, but it was quite certainly <foreign>n</foreign> or <foreign>ṇ</foreign> with <foreign>e</foreign> or <foreign>ai</foreign>. My subsequent restoration is conjectural.</note>
+      </app>
+      <app loc="54">
+        <lem source="bib:Narasimham1937-1938_01"><unclear cert="low">pe</unclear>rakāṁbā</lem>
+        <note>MN shows the first character as clear. I accept his reading assuming he could make it out more clearly in the original, but it is completely indistinct in the estampage.</note>
+      </app>
+      <app loc="54">
+        <lem>bhāryyāryyāmara-</lem>
+        <rdg source="bib:Narasimham1937-1938_01">bhāryyāmara-</rdg>
+        <note>Probably a typo in MN.</note>
+      </app>
+      <app loc="54">
+        <lem source="bib:Narasimham1937-1938_01"><unclear cert="low">surūpā</unclear></lem>
+        <note>MN shows this word as clear, but it is completely indistinct in the estampage.</note>
+      </app>
+      <app loc="54">
+        <lem>dharmmārttham <unclear cert="low">m</unclear>a</lem>
+        <rdg source="bib:Narasimham1937-1938_01">dharmmād dharmya</rdg>
+        <note>Probably a typo in MN.</note>
+      </app>
+      <app loc="54">
+        <lem>ta-bahu-mu<unclear cert="low">khe</unclear>śvara<supplied reason="omitted" cert="low">sya</supplied> putr<unclear cert="low">aḥ||</unclear></lem>
+        <rdg source="bib:Narasimham1937-1938_01">ta-bahu-śuro <choice><sic>ś</sic><corr>s</corr></choice>mara-puttraḥ||</rdg>
+        <note>MN’s <foreign>śu</foreign> is impossible. His <foreign>śmara</foreign> (which, emended to <foreign>smara</foreign>, he equates to Kusumāyudha) cannot be excluded, but does not seem to make sense in the context. My supplied <foreign>sya</foreign> is entirely conjectural, but the metre requires an extra syllable here and the preceding syllable needs to be long.</note>
+      </app>
+      
+<!--
+
+-->
+      
+      
+    </listApp>
+    </div>
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-11"/>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+<p/>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">26</citedRange></bibl> with discussion at <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">81-82</citedRange><citedRange unit="item">12</citedRange></bibl>. Edited from the original by Manda Narasimham (<bibl rend="omitname"><ptr target="bib:Narasimham1937-1938_01"/></bibl>), with partial estampages (showing plates 3v to 5v, but not the earlier plates and the seal<!--RECHECK printed JAHRS 11 1937-38-->) and a summary of the contents. The present edition by Dániel Balogh is based on a collation of Narasimham’s edition with his facsimiles where available.<note>Where no estampage is available, I follow Narasimham unless otheriwse noted and do not indicate the position of binding holes.</note> Minor typographic mistakes in Narasimham’s edition (which are numerous) are ignored in the apparatus here.</p>
+  <listBibl type="primary">
+    <bibl n="MN"><ptr target="bib:Narasimham1937-1938_01"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">26</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">81-82</citedRange><citedRange unit="item">12</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
