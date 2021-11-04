@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>@@@</title>
+            <!--ALT TITLE: -->
+            <respStmt>
+               <resp>EpiDoc Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00075</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+                  <!--<altIdentifier type="PEM"><idno type="corpus">CalE53</idno></altIdentifier>-->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                    <p>Halantas. Final N (e.g. l6, l7) is a simplified na without a headmark. Final T (l39) is a slightly reduced ta with an elongated vertical stem without a headmark. Final M (l44, l45) is a stylised ma (lacking the right limb), with an extension that begins horizontally and then turns sharply upward.</p>
+                    <p>Original punctuation marks are short, straight verticals with small serifs. @@@REPLACE WITH MARKUP</p>
+                    <p>Other palaeographic observations. Anusvāra is normally at the top right of the character to which it belongs, but sometimes (e.g. l1 sagotrāṇāṁ) above the next character. There is a probable instance of rare jh in line 35. This subscript component begins with a shape resembling ka or ña. Attached to this, on its right-hand side, slightly below the crossbar, there is a wavy horizontal line which then turns upward at a soft right angle. In addition, there is a circle like an <foreign>anusvāra</foreign>, placed to the right of this additional stroke, on a level with its horizontal component. The circle may be irrelevant, but it does not look like random damage.
+              <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+          <summary><p><p/></summary>
+          <handNote xml:id="Pallava00001_hand1"></handNote>
+          <handNote xml:id="Pallava00001_hand2"></handNote>
+        -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <!-- UPDATE the link once the release is made official -->
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-11-04" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+      <body>
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/><p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-pu<lb 
+n="2" break="no"/>trāṇāṁ kauśikī-vara-prasāda-labdha-rājyānām mātr̥-gaṇa-paripālitānāṁ svāmi-ma<unclear>hā</unclear><lb 
+n="3" break="no"/>sena-pādā<space type="binding-hole"/>nudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varā<lb 
+n="4" break="no"/>ha-lāñcha<space type="binding-hole"/>nekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām aśvamedhāvabhr̥tha-snā<lb 
+n="5" break="no"/>na-pavitrīkr̥<space type="binding-hole"/>ta-vapuṣāṁ cālukyānāṁ kulam alaṁkari
+ṣṇus satyāśraya-vallabhe<lb 
+n="6" break="no"/>ndro nāma babhūva|</p>
+<lg n="1" met="āryāgīti">
+<l n="ab">tad-bhrātātha kanīyāN kubja-śrī-viṣṇuvarddhano manujendraḥ|</l>
+<l n="cd">sama<lb 
+n="7" break="no"/>dhiṣṭhitāndhra-viṣayāN dūrād utsāryya durjjayān atula-balāN</l>
+</lg>
+<ab>saṁprāpya ca tatra <pb 
+
+n="2r" break="no"/><lb 
+n="8"/>@@@</ab>
+<p>@@@<pb 
+
+n="3v" break="no"/><lb 
+n="29" break="no"/><unclear>tā-p</unclear>itr<unclear>̥</unclear>-pādānudhyātaḥ Ānvīkṣiky-ādi-nīti-nipuṇaḥ guha Ivāpratihata-śaktiḥ vai<lb 
+n="30" break="no"/><unclear>na</unclear>teya Iva vinatānanda-jananaḥ| yudhiṣṭhira Iva <unclear reason="eccentric_ductus">bh</unclear>īmasenodvr̥ta-pracaṇḍārāti-maṇḍa<lb 
+n="31" break="no"/><unclear>laḥ po</unclear>t<unclear cert="low">t</unclear>u<space type="binding-hole"/><unclear>pa</unclear>-viṣaya-nivāsino rāṣṭrakūṭa-pramukhāN kuṭuṁbinas sarvvān ittha<lb 
+n="32" break="no"/><unclear>m ājñāpa</unclear><space type="binding-hole"/>yati<supplied reason="subaudible">.</supplied> viditam astu vaḥ|</p>
+<p>kauṇḍinya-gotrāya| vājasaneya-sa<lb 
+n="33" break="no"/>brahmacā<space type="binding-hole"/>riṇe sabbiśarmmaṇaḥ pautrāya| vīthiśarmmaṇaḥ putrāya ḻaṁgāthi<lb 
+n="34" break="no"/>kaśvarābhidhānāya Asmat-khaḍga-sahāya-nimittaṁ| sodaka-p<choice><orig>au</orig><reg>ū</reg></choice>rvvaṁ sarvva-kara-parihāra<lb 
+n="35" break="no"/>m agrāhārīkr̥tya pañcapāka nāma <unclear>grā</unclear>mas sa-dvādaśa-grāmaṭikaḥ| koppani-grāmaṭi<pb 
+
+n="4r" break="no"/><lb 
+n="36" break="no"/>kā| potūri-parvvataś ca| vallani-grāmaṭikā ca <unclear reason="eccentric_ductus">p</unclear>odaṟupākaś cāsmābhis saṁprada<lb 
+n="37" break="no"/>ttā <unclear>It</unclear>i<unclear>|</unclear></p>
+<p>Et<unclear>e</unclear>ṣām avadhayaḥ| pūrvvataḥ potūri-parvvatasya pūrvvāntaḥ| Ā<lb 
+n="38" break="no"/>gneyataḥ sattavu nāma <foreign xml:lang="tel">paṁdri mro<unclear>ḍ</unclear>lāni garuguś</foreign> ca| dakṣiṇataḥ <unclear>kana</unclear>ṟuvatas sa<lb 
+n="39" break="no"/>kāśāT <space type="binding-hole"/> Umm<unclear>e</unclear>ṁggim āgataḥ purāṇa-panthāḥ|| nairr̥tyāṁ ca sa Eva panthāḥ<lb 
+n="40" break="no"/>paścima<space type="binding-hole"/><unclear>ta</unclear>ḥ Ummeṁggi-koppani-grāmaṭikayor mmadhye nij<unclear reason="eccentric_ductus">jh</unclear>ar<unclear>a</unclear>-nadī| vā<lb 
+n="41" break="no"/>yavyata<unclear>ḥ</unclear> śa<unclear>rkara</unclear>ku<unclear cert="low">t</unclear>ti-sīmaiva sīmā| Uttarataḥ paṁpā nadī| <choice><orig>Ī</orig><reg>Ai</reg></choice>śānataḥ <foreign xml:lang="tel">ciku<lb 
+n="42" break="no"/>lūri vā<unclear cert="low">ka</unclear>-</foreign>sīmaiva sīmā||</p>
+<p>Asya dharmmasyopari na kenacid bādhā karttavyā<supplied reason="subaudible">.</supplied> yaḥ karo<pb 
+
+n="4v" break="no"/><lb 
+n="43" break="no"/>ti sa paṁca-mahāpātaka-<unclear>s</unclear>aṁyukto narakaṁ gamiṣyati<supplied reason="subaudible">.</supplied> tathā ca bhagavatā vyāseno<lb 
+n="44" break="no"/>ktaM||
+</p>
+<lg n="2" met="anuṣṭubh">
+<l n="a"><!--CHECK: the missing plates probably contain some stanzas, so will need to renumber from here--> bahubhir vvasudhā dattā|</l>
+<l n="b">bahubhiś cānupālitā|</l>
+<l n="c">yasya yasya ya<lb 
+n="45" break="no"/>dā bhūmi<space type="binding-hole"/>s</l>
+<l n="d">tasya tasya tadā phalaM||</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">sva-dattāṁ para-dattāṁ vā</l>
+<l n="a">yo hare</l>
+</lg>
+<p></p>
+
+<pb 
+
+n="3v"/>
+
+</div>
+</div>
+        
+        
+      
+        
+<div type="apparatus">
+
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="33">
+        <lem>ḻaṁgāthi<lb n="34" break="no"/>kaśvarā°</lem>
+        <note>All characters of the name are quite clear, but it is a weird name. There is a small chance that <foreign>thi</foreign> is in fact <foreign>dhi</foreign>, and that a faint <foreign>e</foreign> is attached to the bottom left of <foreign>ka</foreign>. Since the ending is Sanskrit, I assume that <foreign>ke</foreign> was in fact intended, though probably inscribed as <foreign>ka</foreign>.</note>
+      </app>
+      <app loc="36">
+        <lem><unclear reason="eccentric_ductus">p</unclear>odaṟupākaś</lem>
+        <note>The ambiguous first character was in all probability intended to be <foreign>po</foreign>, but it may perhaps be <foreign>bo</foreign> or <foreign>dho</foreign>.</note>
+      </app>
+      <app loc="38">
+        <lem><foreign xml:lang="tel">paṁdri</foreign></lem>
+        <note>The <foreign>anusvāra</foreign> is above and to the right of <foreign>dri</foreign>; Jens Thomas suggests reading it with <foreign>pa</foreign>.</note>
+      </app>
+      <app loc="40">
+        <lem>nij<unclear reason="eccentric_ductus">jh</unclear>ar<unclear>a</unclear>-nadī</lem>
+        <note>See the hand description about the component I read as <foreign>jh</foreign>. What I read as <foreign>ra</foreign> may be <foreign>ru</foreign>, but the possible vowel marker is a horizontal stroke (not a hook), it is short, and it contacts the following <foreign>na</foreign>, so it is either a random scratch or a subsequent correction. There is also a dot or circle above <foreign>na</foreign> that looks much like an <foreign>anusvāra</foreign>, but if it is one, then it is superfluous.</note>
+      </app>
+      <app loc="42">
+        <lem>vā<unclear cert="low">ka</unclear>-</lem>
+        <note>The second character may perhaps be <foreign>ra</foreign> or <foreign>ru</foreign>.</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-13"></p>
+  </div>  
+</div>
+
+
+
+
+
+
+<div type="commentary">
+<p/>
+</div>
+
+
+
+<div type="bibliography">
+  <p>These plates have apparently never been published or noticed before. The present edition has been prepared for DHARMA by Dániel Balogh on the basis of inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library.</note> Elliot may have prepared an edition that never reached publication (see his note in the commentary).</p>
+  <listBibl type="primary">
+    <bibl n="XX"/>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
