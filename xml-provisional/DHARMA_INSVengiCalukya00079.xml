@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Kalidiṇḍi grant of the Eastern Cālukya Rājarāja I</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00079</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. Final T (line 10) seems to be a ta without a headmark, perhaps slightly reduced in size; it may have a tail.</p>
+                    <p>Original punctuation marks are plain vertical strokes; one in line 3 appears to be of body height, but those in line 8 onward are much shorter, at varying height. The double bar in line 9 may have some ornamentation.</p>
+                    <p>Other palaeographic observations. Anusvāras are placed after the character to which they belong, often at median height.
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>This project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-11-01" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/><ab><pb 
+
+n="1v"/><lb 
+n="1"/><g type="floretQuatrefoil"/></ab>
+<lg n="1" met="śārdūlavikrīḍita">
+<l n="a">śrī-dh<unclear>āmnaḥ</unclear> p<unclear>uruṣo</unclear>t<unclear>ta</unclear>masya mahato nārāyaṇasya prabho<unclear>r</unclear></l>
+<l n="b">nn<unclear>ā</unclear>bhī-paṁkaruhā<unclear>d babhū</unclear>va <unclear>jagatas sraṣṭā svayaṁ</unclear><lb 
+n="2" break="no"/><unclear>bh</unclear>ūs tata<unclear>ḥ</unclear></l>
+<l n="c">jajñ<unclear>e</unclear> mā<unclear>na</unclear>sa-sūnur atrir iti yas tasmān <unclear>mu</unclear>n<unclear>e</unclear>r atritas</l>
+<l n="d">s<unclear>o</unclear>mo vaṁśa-ka<unclear>ras su</unclear>dhā<unclear>ṁśu</unclear>r udita<unclear>ś śrīka</unclear>ṇṭha-cū<lb 
+n="3" break="no"/>ḍāmaṇiḥ|</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">tasmād <unclear>a</unclear>bhūt s<unclear>u</unclear>dhā-s<choice><sic>u</sic><corr>ū</corr></choice>ter</l>
+<l n="b">bbudho budha-nutas tataḥ</l>
+<l n="c">jātaḥ purūra<unclear>vā</unclear> nāma</l>
+<l n="d">ca<unclear>kra</unclear>va<unclear>rt</unclear>t<unclear>ī sa-v</unclear>ikra<lb 
+n="4" break="no"/>maḥ</l>
+</lg>
+<p>tasmād āyus+.REPLACE +. WITH MARKUP; REPLACE COMMAS WITH MARKUP tato nahu<unclear>ṣa</unclear>ḥ+. tato yayātiḥ cakrava<unclear>r</unclear>ttī vaṁśa-ka<unclear>r</unclear>ttā+. tataḥ purur iti cakra<unclear>varttī</unclear>+. tato ja<lb 
+n="5" break="no"/>name<unclear>ja</unclear>yo <supplied reason="subaudible">’</supplied>śvamedha-tritayasya ka<unclear>r</unclear>ttā+. tataḥ prācīśaḥ+. tasm<choice><sic>a</sic><corr>ā</corr></choice>t sainyayātiḥ+. tato hayapatiḥ+. tatas sārvvabhau<lb 
+n="6" break="no"/>maḥ+. tato jayasenaḥ+. tato mahābhaumaḥ+. tasmād aiśānakaḥ+. tataḥ krodhānanaḥ+. tato devakiḥ+. tasmād r̥bhu<lb 
+n="7" break="no"/>kaḥ+. tasmād r̥<space type="binding-hole"/>kṣakaḥ+. tato mativaraḥ satra-yāga-yājī sarasvatī-nadī-nā<unclear>thaḥ</unclear>+. tataḥ kātyāyanaḥ+. <lb 
+n="8"/>tato <unclear>nīlaḥ</unclear>+. <space type="binding-hole"/> tato duṣyantaḥ tat-sutaḥ,</p>
+<lg n="3" met="anuṣṭubh">
+<l n="a">cakrava<unclear>r</unclear>ttī mahā-tejā</l>
+<l n="b">bharato yūpa-kānanaṁ,</l>
+<l n="c">kr̥tvāśvamedh<unclear>ā</unclear><lb 
+n="9" break="no"/>n akarod</l>
+<l n="d">gaṁgā<space type="binding-hole"/>-yamunayos taṭe<unclear>||</unclear></l>
+</lg>
+<p>tato bharatād bhūmanyuḥ<unclear>,</unclear> tatas suhotraḥ, tato hastī, tato virocanaḥ+. <lb 
+n="10"/>tasmād ajamīlaḥ, tatas saṁvaraṇaḥ, saṁvaraṇasya tapana-sutāyās tapatyāś ca sudhanvā, tataḥ par<choice><orig>I</orig><reg>ī</reg></choice>kṣiT,
+
+
+
+</p>
+<pb 
+
+n="5v"/>
+
+</div>
+</div>
+        
+        
+      
+        
+<div type="apparatus">
+
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem>s<choice><sic>u</sic><corr>ū</corr></choice>ter</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">sūter</rdg>
+      </app>
+      <app loc="5">
+        <lem>tasm<choice><sic>a</sic><corr>ā</corr></choice>t</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">tasmāt</rdg>
+      </app>
+      <app loc="6">
+        <lem>tasm<choice><sic>a</sic><corr>ā</corr></choice>d</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">tasmād</rdg>
+      </app>
+      <app loc="6">
+        <lem>r̥bhu<lb n="7" break="no"/>kaḥ</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">r̥<choice><sic>bh</sic><corr>c</corr></choice>u<lb n="7" break="no"/>kaḥ</rdg>
+        <note>In the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref>, its first editor V. Venkayya emends <foreign>r̥cuka</foreign> to <foreign>r̥bhuka</foreign>, while here V emends the other way round. I cannot yet form an opinion as to which variant is more correct or typical.</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="37-39"></p>
+  </div>  
+</div>
+
+
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">6</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">5</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">82</citedRange><citedRange unit="item">14</citedRange></bibl>. Edited from inked impressions by N. Venkataramanayya (<bibl rend="omitname"><ptr target="bib:Venkataramanayya1951-1952_01"/></bibl>), withot translation, with facsimiles. The present edition by Dániel Balogh is based on a collation of Venkataramanayya's edition with his facsimiles.<note>Venkataramanayya shows much of the text as clear even though it cannot be made out in the published estampage, and some of what he shows in unclear is much clearer than some of what he shows as clear. I accept his readings unless otherwise noted, but indicate unclear readings according to the published estampage.</note></p>
+  <listBibl type="primary">
+    <bibl n="V"><ptr target="bib:Venkataramanayya1951-1952_01"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">6</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">5</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">82</citedRange><citedRange unit="item">14</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
