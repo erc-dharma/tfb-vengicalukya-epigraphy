@@ -53,15 +53,19 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>Halantas. Final T (line 10) seems to be a ta without a headmark, perhaps slightly reduced in size; it may have a tail; the specimen in line 14 (employed to avoid the ligature tkr̥) definitely has one, looking much like a repha. Final N (line 35) is a slightly reduced na with a short slanting tail in place of (or, in the second instance, perhaps in addition to) a headmark. Final Ṭ, used in line 36 to avoid the conjunct <foreign>ṭtr</foreign>, looks rather like ṭa, but the right-hand stroke of the headmark is straighter and longer than normal, so I believe it is a tail rather than part of a headmark.</p>
-                     <p>Original punctuation marks are plain vertical strokes; one in line 3 appears to be of body height, but those in line 8 onward are much shorter, at varying height. The double bar in line 9 may have some ornamentation, while the double bars in e.g. lines 11 and 12 are short, like the single ones.</p>
-                     <p>Other palaeographic observations. Anusvāras are placed after the character to which they belong, often at median height. They can be moved to the next line as at the beginning of line 13. There may be an editorial deletion mark in line 33, for which see the apparatus. Jihvāmūlīya occurs in line 42, shaped like a figure-8 (not an hourglass) that is placed inline like a separate character (or like a visarga), not conjoined in a ligature to the following character.
+                     <summary>
+                        <p>Halantas. Final T (line 10) seems to be a ta without a headmark, perhaps slightly reduced in size; it may have a tail; the specimen in line 14 (employed to avoid the ligature tkr̥) definitely has one, looking much like a repha, while that in line 64 appears to be full-sized and may or may not have a tail. Final N (line 35) is a slightly reduced na with a short slanting tail in place of (or, in the second instance, perhaps in addition to) a headmark. Final Ṭ, used in line 36 to avoid the conjunct <foreign>ṭtr</foreign>, looks rather like ṭa, but the right-hand stroke of the headmark is straighter and longer than normal, so I believe it is a tail rather than part of a headmark.</p>
+                        <p>Original punctuation marks are plain vertical strokes, usually short and placed at a varying height, but occasionally, and without any apparent system, of the regular length (i.e. as tall as character bodies), especially when doubled. See also the hand descriptions. The double bar in line 9 may have some ornamentation.</p>
+                        <p>Other palaeographic observations. Anusvāras are placed after the character to which they belong, often at median height. They can be moved to the next line as at the beginning of line 13. Visarga is also moved to the next line in l52. There may be an editorial deletion mark in line 33, for which see the apparatus. Jihvāmūlīya occurs in line 42, shaped like a figure-8 (not an hourglass) that is placed inline like a separate character (or like a visarga), not conjoined in a ligature to the following character (see also the apparatus). 
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     </summary>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
                 <handNote xml:id="Pallava00001_hand2"></handNote>
               -->
+                     <handNote xml:id="DHARMA_INSVengiCalukya00079_hand1">Venkataramanayya observes that plate 3 and onwards may have been written by a different hand, but since the script is identical, this is not certain. I agree that a hand change is probable but. Hand 1 is perhaps slightly neater. In this hand, the upper part of ṇa is a "proper" horizontal figure-8 (e.g. l47 gīrvvāṇa); the marker for dependent au is distinguished from o by the greater height of the second hump (e.g. l6 mahābhaumaḥ); initial A (l11) is close to the classical form resembling sra. This hand may have a slight preference for shorter punctuation bars.</handNote>
+                     <handNote xml:id="DHARMA_INSVengiCalukya00079_hand2">Hand 2 is perhaps less neat than Hand 1. In this hand, the upper part of ṇa is an open stroke, resembling the o marker (e.g. l53 guṇa); the marker for dependent au is not clearly distinguished from o, though its tail may descend further than that of o (e.g. l54 ravau, śītagau), or it may have a higher rise in the second hump (two instances in line 63); initial A (l56, l65) is a late, cursively simplified form that is similar to initial E. This hand may have a slight preference for longer punctuation bars.</handNote>
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -108,7 +112,7 @@
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb n="1r"/><ab><pb n="1v"/><lb n="1"/><g type="floretQuatrefoil"/></ab>
 <lg n="1" met="śārdūlavikrīḍita">
-<l n="a">śrī-dh<unclear>āmnaḥ</unclear> p<unclear>uruṣo</unclear>t<unclear>ta</unclear>masya mahato nārāyaṇasya prabho<unclear>r</unclear></l>
+<l n="a"><handShift new="#Pallava00001_hand1"/>śrī-dh<unclear>āmnaḥ</unclear> p<unclear>uruṣo</unclear>t<unclear>ta</unclear>masya mahato nārāyaṇasya prabho<unclear>r</unclear></l>
 <l n="b">nn<unclear>ā</unclear>bhī-paṁkaruhā<unclear>d babhū</unclear>va <unclear>jagatas sraṣṭā svayaṁ</unclear><lb n="2" break="no"/><unclear>bh</unclear>ūs tata<unclear>ḥ</unclear></l>
 <l n="c">jajñ<unclear>e</unclear> mā<unclear>na</unclear>sa-sūnur atrir iti yas tasmān <unclear>mu</unclear>n<unclear>e</unclear>r atritas</l>
 <l n="d">s<unclear>o</unclear>mo vaṁśa-ka<unclear>ras su</unclear>dhā<unclear>ṁśu</unclear>r udita<unclear>ś śrīka</unclear>ṇṭha-cū<lb n="3" break="no"/>ḍāmaṇiḥ|</l>
@@ -126,7 +130,7 @@
 <l n="c">kr̥tvāśvamedh<unclear>ā</unclear><lb n="9" break="no"/>n akarod</l>
 <l n="d">gaṁgā<space type="binding-hole"/>-yamunayos taṭe<unclear>||</unclear></l>
 </lg>
-<p>tato bharatād bhūmanyuḥ<unclear>,</unclear> tatas suhotraḥ, tato hastī, tato virocanaḥ+. <lb n="10"/>tasmād ajamīlaḥ, tatas saṁvaraṇaḥ, saṁvaraṇasya tapana-sutāyās tapatyāś ca sudhanvā, tataḥ par<choice><orig>I</orig><reg>ī</reg></choice>kṣiT, <lb n="11"/>tato bhīmasenaḥ, tataḥ pradīpanaḥ, tataḥ śantanuḥ, tato vicitravīryyaḥ, tataḥ pāṇḍ<unclear>u</unclear>rājaḥ,,</p>
+<p>tato bharatād bhūmanyuḥ<unclear>,</unclear> tatas suhotraḥ, tato hastī, tato virocanaḥ+. <lb n="10"/>tasmād ajamīlaḥ, tatas saṁvaraṇaḥ, saṁvaraṇasya tapana-sutāyās tapatyāś ca sudhanvā, tataḥ par<choice><orig>i</orig><reg>ī</reg></choice>kṣiT, <lb n="11"/>tato bhīmasenaḥ, tataḥ pradīpanaḥ, tataḥ śantanuḥ, tato vicitravīryyaḥ, tataḥ pāṇḍ<unclear>u</unclear>rājaḥ,,</p>
 <lg n="4" met="upagīti">
 <l n="ab">putrās tasya yu<lb n="12" break="no"/>dh<choice><orig>asth</orig><reg>iṣṭh</reg></choice>ira-bhīmā<unclear>r</unclear>j<unclear>u</unclear>na-nakula-sahadevāḥ,</l>
 <l n="cd">paṁceṁdriyavat paṁca s<unclear>y</unclear>u<unclear>r</unclear> vvi<choice><sic>s</sic><corr>ṣ</corr></choice>aya-grāhiṇas tatra,,</l>
@@ -137,7 +141,7 @@
 <l n="c">yenādhyāsita<lb n="14" break="no"/>m ā<unclear>sa</unclear>naṁ maghavataś cārddhaṁ sura-dveṣiṇaḥ</l>
 <l n="d">saṁpiṣyāgamayaT kr̥tānta-nagarīṁ yaḥ k<unclear>au</unclear>ravān vidviṣaḥ,</l>
 </lg>
-<p>tato <supplied reason="subaudible">’</supplied>rjunā<lb n="15" break="no"/>d abhimanyuḥ, tataḥ par<choice><orig>I</orig><reg>ī</reg></choice>kṣiT, tato janamejayaḥ, tataḥ kṣemukaḥ, tato naravāhanaḥ, tataḥ śatānīkaḥ, tasmā<lb n="16" break="no"/>d <unclear>u</unclear>dayanaḥ, tataḥ paraṁ tat-<unclear>p</unclear>rabhr̥tiṣv avicchinna-santāneṣv ayodhyā-siṁhāsanāsīneṣ<unclear>v</unclear> ekān<unclear>n</unclear>a-ṣaṣ<unclear>ṭ</unclear>i-cakravar<unclear>tt</unclear>i<pb n="2r" break="no"/><lb n="17" break="no"/><unclear>ṣu</unclear> gate<choice><sic>s</sic><corr>ṣ</corr></choice>u ta<unclear>d-vaṁśyo</unclear> vijayādityo nāma rājā <unclear>v</unclear>ijigī<unclear>ṣa</unclear>yā dakṣi<unclear>ṇā</unclear>pathaṁ gatvā tri<unclear>lo</unclear>ca<unclear>na</unclear>-pa<unclear>lla</unclear><lb n="18" break="no"/>vam adh<choice><sic>a</sic><corr>i</corr></choice>kṣipya kāla-vaśāl lokāntaram agamaT, tasmin saṁkule <unclear>ta</unclear>sya mahādevī gar<orig>bhbh</orig>a-bhārālasāntaḥpurādhi<unclear>k</unclear>r̥<lb n="19" break="no"/>ta-vanitā-<unclear>k</unclear>aṁc<choice><sic>r̥</sic><corr>u</corr></choice>ki<surplus>,</surplus>bhis sā<unclear>r</unclear>ddha<unclear>ṁ</unclear> vr̥ddhāmāt<unclear>yai</unclear>ḥ purohitena ca nīyamānā kathaṁcin m<unclear cert="low">u</unclear>ḍivemu-nāmāgrāhāram upaga<lb n="20" break="no"/>mya tad-vāstavyena viṣṇubhaṭṭa-somayājinā duhitr̥-ni<supplied reason="omitted">r</supplied><choice><sic>n</sic><corr>v</corr></choice>viśeṣam abhi<choice><sic>g</sic><corr>r</corr></choice>akṣitā satī naṁdanaṁ viṣṇuvarddhanam as<unclear>ū</unclear>ta+. <lb n="21"/>sā tasya ca kumārasya mānavya-sagotra-hārīti-putrādi-sva-kṣatra-gotra-kramocitāni ka<unclear>r</unclear>mm<unclear>ā</unclear><choice><sic>n</sic><corr>ṇ</corr></choice>i kārayitvā ta<lb n="22" break="no"/>m avarddhayaT,, sa ca mātrā vidita-vr̥ttāntas san nirggatya calukya-girau naṁdāṁ bhagavat<choice><sic>i</sic><corr>ī</corr></choice>ṁ gaur<choice><sic>i</sic><corr>ī</corr></choice>m ārādhya kumāra-nārāya<lb n="23" break="no"/>ṇa-mātr̥-gaṇāṁś ca saṁtarpya śvetātapatr<choice><sic>e</sic><corr>ai</corr></choice>ka-<choice><sic>g</sic><corr>ś</corr></choice>aṁkha-paṁca-mahāśabda-pāliketana-pratiḍhakkā-varāha-lāṁcchana-piṁ<lb n="24" break="no"/>ccha-kuṁta-siṁhā<space type="binding-hole"/>sana-makara-toraṇa-kanaka-daṇḍa-gaṁgā-yamunādīni sva-k<unclear>u</unclear>la-kramāgatāni nikṣiptān<choice><sic>i</sic><corr>ī</corr></choice><lb n="25" break="no"/>va sāmrājya<space type="binding-hole"/>-cihnāni s<choice><sic>ā</sic><corr>a</corr></choice>māsādya trilocana-pallavaṁ jitvā tat-sutām uttamadānīm upaya<lb n="26" break="no"/>mya kadaṁba<space type="binding-hole"/>-gaṁgādi-bhūmipān ni<unclear>r</unclear>jjitya setu-narmmadā-madhyaṁ sārddha-sapta-lakṣaṁ dakṣiṇāpathaṁ pāla<lb n="27" break="no"/>yām āsa,,</p>
+<p>tato <supplied reason="subaudible">’</supplied>rjunā<lb n="15" break="no"/>d abhimanyuḥ, tataḥ par<choice><orig>i</orig><reg>ī</reg></choice>kṣiT, tato janamejayaḥ, tataḥ kṣemukaḥ, tato naravāhanaḥ, tataḥ śatānīkaḥ, tasmā<lb n="16" break="no"/>d <unclear>u</unclear>dayanaḥ, tataḥ paraṁ tat-<unclear>p</unclear>rabhr̥tiṣv avicchinna-santāneṣv ayodhyā-siṁhāsanāsīneṣ<unclear>v</unclear> ekān<unclear>n</unclear>a-ṣaṣ<unclear>ṭ</unclear>i-cakravar<unclear>tt</unclear>i<pb n="2r" break="no"/><lb n="17" break="no"/><unclear>ṣu</unclear> gate<choice><sic>s</sic><corr>ṣ</corr></choice>u ta<unclear>d-vaṁśyo</unclear> vijayādityo nāma rājā <unclear>v</unclear>ijigī<unclear>ṣa</unclear>yā dakṣi<unclear>ṇā</unclear>pathaṁ gatvā tri<unclear>lo</unclear>ca<unclear>na</unclear>-pa<unclear>lla</unclear><lb n="18" break="no"/>vam adh<choice><sic>a</sic><corr>i</corr></choice>kṣipya kāla-vaśāl lokāntaram agamaT, tasmin saṁkule <unclear>ta</unclear>sya mahādevī gar<orig>bhbh</orig>a-bhārālasāntaḥpurādhi<unclear>k</unclear>r̥<lb n="19" break="no"/>ta-vanitā-<unclear>k</unclear>aṁc<choice><sic>r̥</sic><corr>u</corr></choice>ki<surplus>,</surplus>bhis sā<unclear>r</unclear>ddha<unclear>ṁ</unclear> vr̥ddhāmāt<unclear>yai</unclear>ḥ purohitena ca nīyamānā kathaṁcin m<unclear cert="low">u</unclear>ḍivemu-nāmāgrāhāram upaga<lb n="20" break="no"/>mya tad-vāstavyena viṣṇubhaṭṭa-somayājinā duhitr̥-ni<supplied reason="omitted">r</supplied><choice><sic>n</sic><corr>v</corr></choice>viśeṣam abhi<choice><sic>g</sic><corr>r</corr></choice>akṣitā satī naṁdanaṁ viṣṇuvarddhanam as<unclear>ū</unclear>ta+. <lb n="21"/>sā tasya ca kumārasya mānavya-sagotra-hārīti-putrādi-sva-kṣatra-gotra-kramocitāni ka<unclear>r</unclear>mm<unclear>ā</unclear><choice><sic>n</sic><corr>ṇ</corr></choice>i kārayitvā ta<lb n="22" break="no"/>m avarddhayaT,, sa ca mātrā vidita-vr̥ttāntas san nirggatya calukya-girau naṁdāṁ bhagavat<choice><sic>i</sic><corr>ī</corr></choice>ṁ gaur<choice><sic>i</sic><corr>ī</corr></choice>m ārādhya kumāra-nārāya<lb n="23" break="no"/>ṇa-mātr̥-gaṇāṁś ca saṁtarpya śvetātapatr<choice><sic>e</sic><corr>ai</corr></choice>ka-<choice><sic>g</sic><corr>ś</corr></choice>aṁkha-paṁca-mahāśabda-pāliketana-pratiḍhakkā-varāha-lāṁcchana-piṁ<lb n="24" break="no"/>ccha-kuṁta-siṁhā<space type="binding-hole"/>sana-makara-toraṇa-kanaka-daṇḍa-gaṁgā-yamunādīni sva-k<unclear>u</unclear>la-kramāgatāni nikṣiptān<choice><sic>i</sic><corr>ī</corr></choice><lb n="25" break="no"/>va sāmrājya<space type="binding-hole"/>-cihnāni s<choice><sic>ā</sic><corr>a</corr></choice>māsādya trilocana-pallavaṁ jitvā tat-sutām uttamadānīm upaya<lb n="26" break="no"/>mya kadaṁba<space type="binding-hole"/>-gaṁgādi-bhūmipān ni<unclear>r</unclear>jjitya setu-narmmadā-madhyaṁ sārddha-sapta-lakṣaṁ dakṣiṇāpathaṁ pāla<lb n="27" break="no"/>yām āsa,,</p>
 <lg n="6" met="anuṣṭubh">
 <l n="a">tasyāsīd vijayādityo</l>
 <l n="b">viṣṇuva<unclear>r</unclear>ddhana-bhūpateḥ,</l>
@@ -186,8 +190,58 @@
 <l n="a">tad-anu tad-anujanmā rājamārttaṇḍa-<unclear>bhū</unclear><lb n="49" break="no"/>po</l>
 <l n="b">viśada-rucir arāti-dhvānta-vidhvaṁsa-dakṣaḥ,</l>
 <l n="c">sma vahati bhuvam abdān sapta saptāśva-tejās</l>
-<l n="d">sa<unclear cert="low">kala-va</unclear>
-</l>
+<l n="d">sa<unclear cert="low">kala-va</unclear><pb n="3r" break="no"/><lb n="50" break="no"/><handShift new="#Pallava00001_hand2"/>sumatī-bhr̥n-mastaka-nyasta-pādaḥ||</l>
+</lg>
+<lg n="14" met="śārdūlavikrīḍita">
+<l n="a" enjamb="yes">lakṣmī-bha<del><gap reason="illegible" quantity="1" unit="character"/></del><unclear>r</unclear>tr̥<surplus>i</surplus>-nibhasya tasya vimalādityasya <choice><sic>bh</sic><corr>c</corr></choice>oḍānvaya</l>
+<l n="b">-kṣīrāṁbhonidhi<lb n="51" break="no"/>-janmanaḥ śriya Iva śrī-rājarājādhipaḥ|</l>
+<l n="c">devyāś cā<choice><sic>b</sic><corr>j</corr></choice>ani rājarāja-duhituḥ kuṁdāṁbikāyās suto</l>
+<l n="d">ya<lb n="52" break="no"/>ḥ kaṁdarppa Ivāparaḥ prativasaN loka-traye strī-hr̥di||</l>
+</lg>
+<lg n="15" met="āryā">
+<l n="ab">bālye bhūṣaṇam abhavad ratnamayī yasya ka<lb n="53" break="no"/>ṁṭhikā kaṁṭhe,</l>
+<l n="cd">guṇa-lub<choice><sic>d</sic><corr>dh</corr></choice>ayeva mālā dharayā dattā patiṁ<unclear>va</unclear><supplied reason="lost">ra</supplied>yā,,</l>
+</lg>
+<lg n="16" met="śārdūlavikrīḍita">
+<l n="a">vedāṁbhodhi-nidhi-pramāṇa-ga<choice><sic>n</sic><corr>ṇ</corr></choice>ite <unclear>ś</unclear>ā<lb n="54" break="no"/>kābda-saṁghe ravau</l>
+<l n="b">siṁha-sthe bahula-dvitīya-divase vāre gu<unclear>roś śī</unclear>tagau,</l>
+<l n="c"><unclear>yu</unclear>kte <choice><sic>bh</sic><corr>c</corr></choice>ottara-bhadrayodyati vaṇi<lb n="55" break="no"/><choice><orig>j</orig><reg>g</reg></choice>-yāme tu <supplied reason="omitted">sarvva</supplied>-kṣamāṁ</l>
+<l n="d">trātuṁ paṭṭam adhatta yo guṇa-nidhiḥ śrī-rājarājo nr̥paḥ,,</l>
+</lg>
+<lg n="17" met="anuṣṭubh">
+<l n="a">yasyottamāṁgam ābaddha<lb n="56" break="no"/>m</l>
+<l n="b">ābhāt <choice><sic>v</sic><corr>p</corr></choice>aṭṭena <unclear>bhū</unclear>yasā||</l>
+<l n="c">bharttuṁ viśvaṁbharā-bhāraṁ</l>
+<l n="d">janai<choice><sic>ś</sic><corr>r</corr></choice> ā<unclear cert="low">r</unclear>o<unclear cert="low">pita</unclear><unclear>ṁ ya</unclear><choice><sic>t</sic><corr>th</corr></choice>ā,,</l>
+</lg>
+<ab>Api ca,,</ab>
+<lg n="18" met="vasantatilakā">
+<l n="a" enjamb="yes">khyātas samasta-nara<lb n="57" break="no"/>-nātha-<choice><sic>r</sic><corr>k</corr></choice>irīṭa<space type="binding-hole"/>-koṭi</l>
+<l n="b">-ratna-prabhā-pa<add place="overstrike">ṭala-pāṭala-pāda-pīṭhaḥ<unclear>,</unclear></add></l>
+<l n="c">yas tyāga-varṣa-pariharṣita-sat-samājo</l>
+<l n="d">rājeṁ<lb n="58" break="no"/>dra-coḍa I<space type="binding-hole"/>ti coḍa-kulaika-ratnaṁ,,</l>
+</lg>
+<lg n="19" met="mandākrāntā">
+<l n="a">Ekasyāsīd api sa himavān īśva<unclear>r</unclear>asyāpatadbhi<unclear>r</unclear></l>
+<l n="b">mmūrddh<unclear>n</unclear>o gaṁg<unclear>ā</unclear><lb n="59" break="no"/>-vimala-sa<space type="binding-hole"/>lilais si<unclear>c</unclear>yamānaḥ pavitraḥ,</l>
+<l n="c">rājeṁdro <supplied reason="subaudible">’</supplied>ya<choice><sic>ḥ</sic><corr>ṁ</corr></choice> kim uta namatām īśvarāṇā<unclear>ṁ</unclear> bahūnā<lb n="60" break="no"/>ṁ</l>
+<l n="d">ratnāloka-prakaṭita-jagat-prāṁgaṇ<choice><sic>o</sic><corr>e</corr></choice>bhyaś śirobhyaḥ,,</l>
+</lg>
+<lg n="20" met="śārdūlavikrīḍita">
+<l n="a">sa-dvīpā<unclear>ṁ ca</unclear>tur-aṁbu-<choice><sic>ś</sic><corr>r</corr></choice>āśi-parikhāṁ vi<unclear>śvaṁbha</unclear>rāṁ <unclear>lī</unclear><lb n="61" break="no"/>layā</l>
+<l n="b">daṇḍenaiva vijitya yo diś<choice><sic>a</sic><corr>i</corr></choice> diśi prātiṣṭhipat sa<unclear>rvvataḥ,</unclear></l>
+<l n="c">svairodbhrānti-nivāraṇāya vijaya-<unclear>sta</unclear><lb n="62" break="no"/>ṁbhān sva-nāmāṁ<choice><sic>r</sic><corr>k</corr></choice>itān</l>
+<l n="d">ālānān iva ba<unclear>ddhu</unclear>m a<supplied reason="omitted">ṁ</supplied>dha-ma<unclear>naso</unclear> darppeṇa dig-dantinaḥ||</l>
+</lg>
+<lg n="21" met="śārdūlavikrīḍita">
+<l n="a">sa śr<choice><sic>a</sic><corr>u</corr></choice>tvā paritu<unclear>ṣy</unclear><choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice> <unclear>vaṁśa</unclear>-vinaya<lb n="63" break="no"/>-tyāgābhimānonnati<unclear>ṁ</unclear></l>
+<l n="b">praj<unclear>ñ</unclear>ā-vikrama-satya-śau<unclear>ca</unclear>-paṭutā-śauryya-kṣamādīn guṇā<add place="inline"><unclear>N,,</unclear></add></l>
+<l n="c">co<unclear>ḍe</unclear>śo <unclear>madhu</unclear>rā<unclear>nta</unclear><lb n="64" break="no"/>kaḥ sva-ta<unclear>na</unclear>yām ammaṁga-nāmāṁ satīṁ</l>
+<l n="d">cā<unclear>ḷ</unclear>ukyābharaṇasya cāgra-ma<unclear>h</unclear>iṣṁ s<unclear>n</unclear>ehena yasyākaroT,<unclear>,</unclear></l>
+</lg>
+<lg n="22" met="gīti">
+<l n="ab"><lb n="65" break="no"/>yasmin rājani rakṣati bhūcakram avakram ucita-mā<supplied reason="omitted">r</supplied>ggeṇa|</l>
+<l n="cd">Abhavad abādham akalama<unclear>ṣam a</unclear>d<unclear>ūṣi</unclear>tam a@@@</l>
 </lg>
 <pb n="5v"/>
 
@@ -238,7 +292,7 @@
         <note>As also observed by V, the body of <foreign>ra</foreign> is bisected by a horizontal line. It does not look like <foreign>ka</foreign>, but may perhaps have been corrected from <foreign>śa</foreign>.</note>
       </app>
       <app loc="15">
-        <lem>par<choice><orig>I</orig><reg>ī</reg></choice>kṣiT</lem>
+        <lem>par<choice><orig>i</orig><reg>ī</reg></choice>kṣiT</lem>
         <rdg source="bib:Venkataramanayya1951-1952_01">parīkṣiT</rdg>
       </app>
       <app loc="18">
@@ -326,6 +380,11 @@
         <rdg source="bib:Venkataramanayya1951-1952_01">dha<gap reason="lost" quantity="2" unit="character"/></rdg>
         <note>The restoration <foreign>dharām aśāT</foreign> was suggested by V’s editor in a footnote. It is very plausible in the context, and <foreign>rā</foreign> is possible. However, there seem to be only two illegible characters after it. I also have some doubts about <foreign>dh</foreign>. Since V prints it as clear, I accept it, but the subscript attached to the previous word’s final <foreign>n</foreign> appears to be more complex (restore <foreign>ksamā</foreign> here?).</note>
       </app>
+      <app loc="42">
+        <lem>-bharatopama<seg type="aksara">yoẖ</seg></lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-bharatopamayoḥ</rdg>
+        <note>The final glyph is a figure-8, definitely not a regular <foreign>visarga</foreign>. I interpret it to be a <foreign>jihvāmūlīya</foreign> that is written inline rather than in a conjunct with the following character. V may have had the same interpretation in mind. Theoretically, the glyph might represent <foreign>ri</foreign>, but that would be out of place here, and <foreign>ri</foreign> is normally narrower at the neck.</note>
+      </app>
       <app loc="44">
         <lem>°ād<choice><sic>i</sic><corr>ī</corr></choice>n</lem>
         <rdg source="bib:Venkataramanayya1951-1952_01">°ādīn</rdg>
@@ -350,6 +409,61 @@
       <app loc="46">
         <lem source="bib:Venkataramanayya1951-1952_01"><unclear>dha</unclear>r<unclear>i</unclear><choice><sic>śrīḥ</sic><corr>trīṁ</corr></choice></lem>
         <note>I accept V’s emendation, since the reading (which he prints as clear throughout) is quite secure.</note>
+      </app>
+      <app loc="50">
+        <lem>-bha<del><gap reason="illegible" quantity="1" unit="character"/></del><unclear>r</unclear>tr̥<surplus>i</surplus>-</lem>
+        <note>The deleted character probably had a subscript <foreign>y</foreign> or <foreign>r̥</foreign>. The following <foreign>rtr̥</foreign> also has an <foreign>i</foreign> marker and mnay have been corrected from <foreign>rtri</foreign>.</note>
+      </app>
+      <app loc="53">
+        <lem>-lub<choice><sic>d</sic><corr>dh</corr></choice>ayeva</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-lubdhayeva</rdg>
+      </app>
+      <app loc="54">
+        <lem><choice><sic>bh</sic><corr>c</corr></choice>ottara-bhadrayodyati</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">bhottara-bhadrayā<choice><sic>d</sic><corr>p</corr></choice>y ati-</rdg>
+      </app>
+      <app loc="55">
+        <lem source="bib:Venkataramanayya1951-1952_01"><supplied reason="omitted">sarvva</supplied>-</lem>
+        <note>V may have supplied this word on the basis of a parallel stanza of which I am not yet aware. Even without a parallel, the word omitted here must have been similarly generic.</note>
+      </app>
+      <app loc="56">
+        <lem><choice><sic>v</sic><corr>p</corr></choice>aṭṭena</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">paṭṭena</rdg>
+      </app>
+      <app loc="56">
+        <lem source="bib:Venkataramanayya1951-1952_01">janai<choice><sic>ś</sic><corr>r</corr></choice> ā<unclear cert="low">r</unclear>o<unclear cert="low">pita</unclear><unclear>ṁ</unclear></lem>
+        <note>V’s reading, which he prints as clear throughout, is probably correct, and if so, I agree with his emendation. Nothing is visible in the estampage of the characters shown here as unclear and tentatively read.</note>
+      </app>
+      <app loc="57">
+        <lem>-<choice><sic>r</sic><corr>k</corr></choice>irīṭa-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-kirīṭa-</rdg>
+      </app>
+      <app loc="57">
+        <lem>-pa<add place="overstrike">ṭala-pāṭala-pāda-pīṭhaḥ<unclear>,</unclear></add></lem>
+        <note>In the facsimile, the first <foreign>ṭa</foreign> of this sequence does not appear to be a correction, but I accept V’s opinion that it is one. The remainder of the string has clearly been re-inscribed, and the pre-correction text must have been one or two characters shorter. None of the latter can be made out with any certainty, but the <foreign>ṭa</foreign> of <foreign>pāṭala</foreign> may have been struck over a <foreign>ba</foreign> or perhaps <foreign>ja</foreign>.</note>
+      </app>
+      <app loc="58">
+        <lem>īśva<unclear>r</unclear>asyāpatadbhi<unclear>r</unclear></lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">īśva<choice><sic>ś</sic><corr>r</corr></choice>asyāpatadbhir</rdg>
+        <note>V’s edition actually reads <foreign>īśvasasyā°</foreign>, but he must have meant <foreign>śa</foreign>, which the character in question does resemble.</note>
+      </app>
+      <app loc="61">
+        <lem>diś<choice><sic>a</sic><corr>i</corr></choice> diśi</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">d<choice><sic>i</sic><corr>a</corr></choice>śa-diśi</rdg>
+        <note>V’s emendation is also plausible, but mine is perhaps a little more likely in the context.</note>
+      </app>
+      <app loc="62">
+        <lem>-nāmāṁ<choice><sic>r</sic><corr>k</corr></choice>itān</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-nāmāṁkitān</rdg>
+      </app>
+      <app loc="62">
+        <lem>ba<unclear>ddhu</unclear>m a<supplied reason="omitted">ṁ</supplied>dha-ma<unclear>naso</unclear></lem>
+        <note>As far as I can tell from the facsimile, this sequence is probably a correction written over slightly shorter struck-out text; but V does not mention correction here, as he does in line 57 above.</note>
+      </app>
+      <app loc="62">
+        <lem>guṇā<add place="inline"><unclear>N,,</unclear></add></lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">guṇā<unclear>N</unclear>,</rdg>
+        <note>It seems to me that two very short punctuation bars have been added below the vowel marker of <foreign>ṇā</foreign>, and perhaps also a very small final <foreign>N</foreign> squeezed in above the bars, to the right of the vowel marker.</note>
       </app>
       
       
