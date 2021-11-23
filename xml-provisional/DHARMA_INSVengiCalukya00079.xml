@@ -94,7 +94,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:daba" when="2021-11-01" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2021-11-18" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
    </teiHeader>
@@ -103,7 +103,7 @@
       
       
       
-<div type="edition" xml:lang="san-Latn">
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83215">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
 n="1"/>śrī-tribhuvanāṁkuśa</ab>
@@ -116,7 +116,7 @@ n="1r"/><ab><pb
 n="1v"/><lb 
 n="1"/><g type="floretQuatrefoil"/></ab>
 <lg n="1" met="śārdūlavikrīḍita">
-<l n="a"><handShift new="#Pallava00001_hand1"/>śrī-dh<unclear>āmnaḥ</unclear> p<unclear>uruṣo</unclear>t<unclear>ta</unclear>masya mahato nārāyaṇasya prabho<unclear>r</unclear></l>
+<l n="a"><handShift new="#DHARMA_INSVengiCalukya00079_hand1"/>śrī-dh<unclear>āmnaḥ</unclear> p<unclear>uruṣo</unclear>t<unclear>ta</unclear>masya mahato nārāyaṇasya prabho<unclear>r</unclear></l>
 <l n="b">nn<unclear>ā</unclear>bhī-paṁkaruhā<unclear>d babhū</unclear>va <unclear>jagatas sraṣṭā svayaṁ</unclear><lb 
 n="2" break="no"/><unclear>bh</unclear>ūs tata<unclear>ḥ</unclear></l>
 <l n="c">jajñ<unclear>e</unclear> mā<unclear>na</unclear>sa-sūnur atrir iti yas tasmān <unclear>mu</unclear>n<unclear>e</unclear>r atritas</l>
@@ -249,7 +249,7 @@ n="49" break="no"/>po</l>
 <l n="d">sa<unclear cert="low">kala-va</unclear><pb 
 
 n="3r" break="no"/><lb 
-n="50" break="no"/><handShift new="#Pallava00001_hand2"/>sumatī-bhr̥n-mastaka-nyasta-pādaḥ||</l>
+n="50" break="no"/><handShift new="#DHARMA_INSVengiCalukya00079_hand2"/>sumatī-bhr̥n-mastaka-nyasta-pādaḥ||</l>
 </lg>
 <lg n="14" met="śārdūlavikrīḍita">
 <l n="a" enjamb="yes">lakṣmī-bha<del><gap reason="illegible" quantity="1" unit="character"/></del><unclear>r</unclear>tr̥<surplus>i</surplus>-nibhasya tasya vimalādityasya <choice><sic>bh</sic><corr>c</corr></choice>oḍānvaya</l>
@@ -315,7 +315,58 @@ n="64" break="no"/>kaḥ sva-ta<unclear>na</unclear>yām ammaṁga-nāmāṁ sat
 <lg n="22" met="gīti">
 <l n="ab"><lb 
 n="65" break="no"/>yasmin rājani rakṣati bhūcakram avakram ucita-mā<supplied reason="omitted">r</supplied>ggeṇa|</l>
-<l n="cd">Abhavad abādham akalama<unclear>ṣam a</unclear>d<unclear>ūṣi</unclear>tam a@@@</l>
+<l n="cd">Abhavad abādham akalama<unclear>ṣam a</unclear>d<unclear>ūṣi</unclear>tam a<pb 
+
+n="3v" break="no"/><lb 
+n="66" break="no"/><unclear>matsaraṁ prajā-caritaṁ</unclear>,,</l>
+</lg>
+<lg n="23" met="śārdūlavikrīḍita">
+<l n="a"><unclear>rājño rāja-ca</unclear>lukya-vaṁśa-latikālaṁbasya yasya svayaṁ</l>
+<l n="b">śaśvat-<unclear>kīrttir alaṁka</unclear><lb 
+n="67" break="no"/>roti <unclear>ni</unclear>ta<unclear>r</unclear>ā<unclear>ṁ loka-t</unclear>r<unclear>ayī</unclear>-k<choice><sic>a</sic><corr>ā</corr></choice>minīṁ|</l>
+<l n="c">hār<choice><sic>a</sic><corr>ā</corr></choice>līva sugandhi-candana-ma<unclear>yī</unclear> <unclear cert="low">loleva lālāma</unclear>kī</l>
+<l n="d"><unclear>mā</unclear>l<unclear>e</unclear>vā<unclear>ma</unclear><unclear cert="low">la-jā</unclear><lb 
+n="68" break="no"/>ti-<unclear>jā</unclear>la-<unclear>kali</unclear>tā dau<unclear>kū</unclear>la-lakṣmīr iva<unclear>,,</unclear></l>
+</lg>
+<lg n="24" met="śārdūlavikrīḍita">
+<l n="a" enjamb="yes">yasya śrī-paragaṇḍa-bhairava-vibho<unclear>r</unclear> ddor-dda<unclear>ṇḍa-kaukṣeyaka</unclear></l>
+<l n="b">-<unclear>prodbhinnā</unclear>hita-<unclear>ha</unclear><lb 
+n="69" break="no"/>st<unclear>i</unclear>-mast<unclear>a</unclear>ka-galan-masti<unclear>ṣka-kh</unclear>ā<unclear>d</unclear>āśayā</l>
+<l n="c" enjamb="yes">gr̥dhrāḥ pakṣa-puṭ<choice><sic>a</sic><corr>ā</corr></choice>n visāryya <unclear>v</unclear>iyati <unclear>vyābaddha-cakrāś ca</unclear>la<unclear>t</unclear></l>
+<l n="d">-<unclear>piṁcchā-pa</unclear><lb 
+n="70" break="no"/>tra-<unclear>caya</unclear>-śr<choice><sic>ī</sic><corr>i</corr></choice>yaṁ vidadhate vīr<choice><sic>i</sic><corr>a</corr></choice>-śr<choice><sic>ī</sic><corr>i</corr></choice>yas saṁyati||</l>
+</lg>
+<lg n="25" met="śārdūlavikrīḍita">
+<l n="a">Ekenaiva hayī haye<unclear>na bahu</unclear>śo <unclear>vāhā</unclear>-<unclear cert="low">sahasran ta</unclear><lb 
+n="71" break="no"/>thā</l>
+<l n="b">ko vā <unclear>vīra-bha</unclear>ṭo jayeT pratibhaṭa<unclear>ṁ</unclear> cāstrābhiva<unclear>r</unclear>ṣ<unclear>ai</unclear>s tathā,</l>
+<l n="c">kas siṁced iti vidr<unclear>u</unclear>tā ra<unclear>ṇa-mukheṣv āśca</unclear><lb 
+n="72" break="no"/><unclear>r</unclear>yya-<unclear>paryyā</unclear><space type="binding-hole"/>kulā</l>
+<l n="d">yasyārātaya Eva śauryyam aniśaṁ stunvanti ta<unclear>nvanti ca,,</unclear></l>
+</lg>
+<p><unclear>svasti</unclear><supplied reason="subaudible">.</supplied> <supplied reason="omitted">sa</supplied><unclear>rvalokā</unclear><lb 
+n="73" break="no"/><unclear>śraya-śrī-vi</unclear><space type="binding-hole"/>ṣṇuvarddhana-mahārāj<choice><sic>a</sic><corr>ā</corr></choice>dhirāja-parameśvara-parama-bhaṭṭ<unclear>ā</unclear>ra<unclear>ka</unclear>ḥ parama-<unclear>māhe</unclear><lb 
+n="74" break="no"/><unclear>śvaraḥ para</unclear><space type="binding-hole"/>ma-brahmaṇyaḥ māt<subst><del rend="corrected">o</del><add place="overstrike">ā</add></subst>-pitr̥-pādānudhyātaḥ tyāga-siṁhāsan<unclear>āsī</unclear>naḥ g<unclear cert="low">āḍevalu-nā</unclear><lb 
+n="75" break="no"/>ma-viṣaya-sahit<unclear>a</unclear>-palla<unclear>p</unclear>u-gudravāra-viṣayam adhivasataḥ rāṣṭrakūṭa-pramukh<unclear>ān kuṭuṁbina</unclear>ḥ <unclear>sarvvān sa</unclear><lb 
+n="76" break="no"/>māh<choice><sic>u</sic><corr>ū</corr></choice>ya <unclear>ma</unclear>ntri-purohita-senāpati-yuvarāja-dauvārika-pra<choice><sic>v</sic><corr>dh</corr></choice>ānādi-sam<choice><sic>e</sic><corr>a</corr></choice>kṣa<unclear>m ittham ājñā</unclear><lb 
+n="77" break="no"/>pa<surplus>ha</surplus>yati| ya<choice><sic>dh</sic><corr>th</corr></choice>ā|</p>
+<lg n="26" met="āryāgīti">
+<l n="ab">khyāto +’sti rājarāja-brahma-mahārā<unclear reason="eccentric_ductus">ja I</unclear>ti mahā-daṇḍa-patiḥ</l>
+<l n="cd">yo ma<unclear>dhu</unclear>rā<lb 
+n="78" break="no"/>ntaka-bhūbhr̥t-karuṇā-rasa-sikta-varddhita-yaśo-latikaḥ,</l>
+</lg>
+<lg n="27" met="anuṣṭubh">
+<l n="a" enjamb="yes">rājendra-coḷa-bhūpāla</l>
+<l n="b">-rāj<unclear>y</unclear>a-la<unclear>kṣm</unclear>ī-ma<unclear>hā</unclear><lb 
+n="79" break="no"/>-<unclear>n</unclear>idhe<unclear>ḥ</unclear></l>
+<l n="c" enjamb="yes"><unclear>r</unclear>akṣaṇa-kṣama-dakṣ<unclear>o</unclear>gra</l>
+<l n="d">-mahā-<unclear>bhu</unclear>ja-bhuja<unclear>ṁ</unclear>gamaḥ</l>
+</lg>
+<lg n="28" met="śārdūlavikrīḍita">
+<l n="a"><unclear>d</unclear>ikto dakṣi<unclear>ṇa</unclear>taḥ <unclear>pu</unclear>ra<unclear>skr̥</unclear>ta-br̥had-daṇḍaḥ pracaṇḍa<lb 
+n="80" break="no"/>s sa yo</l>
+<l n="b">vidvi@@@ṭ-choṇita-pāna-gr̥dhnur aparaḥ kālo na vetīkṣitaḥ</l>
+<l n="c">rājendra-kṣitipālakasya mahato man-mātu</l>
 </lg>
 <pb 
 
@@ -540,6 +591,94 @@ n="5v"/>
         <lem>guṇā<add place="inline"><unclear>N,,</unclear></add></lem>
         <rdg source="bib:Venkataramanayya1951-1952_01">guṇā<unclear>N</unclear>,</rdg>
         <note>It seems to me that two very short punctuation bars have been added below the vowel marker of <foreign>ṇā</foreign>, and perhaps also a very small final <foreign>N</foreign> squeezed in above the bars, to the right of the vowel marker.</note>
+      </app>
+      <app loc="66">
+        <lem><unclear>prajā-caritaṁ</unclear></lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01"><unclear>prajā-bharitaṁ</unclear></rdg>
+        <note>I adopt the reading suggested by V's editor in a footnote, since it fits the context better and is just as possible from the unclear estampage.</note>
+      </app>
+      <app loc="67">
+        <lem><unclear cert="low">loleva lālāma</unclear>kī</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01"><seg met="++-"><gap reason="illegible" quantity="3" unit="character"/></seg><unclear>lālāmakī</unclear>-</rdg>
+        <note>My reading of the characters not read by V is a rather desperate guess. The reading <foreign>lālāmakī</foreign> is quite plausible from the estampage but hard to interpret. I do not know why V connects this word with a hyphen to the next one.</note>
+      </app>
+      <app loc="68">
+        <lem>-<unclear>jā</unclear>la-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-j<choice><sic>a</sic><corr>ā</corr></choice>la-</rdg>
+      </app>
+      <app loc="69">
+        <lem>-mast<unclear>a</unclear>ka-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-mast<choice><sic>i</sic><corr>a</corr></choice>ka-</rdg>
+        <note>I see no discernible <foreign>i</foreign> marker; if one is present as read by V, then it may be accepted as a legitimate variant of the word.</note>
+      </app>
+      <app loc="69">
+        <lem>-puṭ<choice><sic>a</sic><corr>ā</corr></choice>n</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-puṭān</rdg>
+      </app>
+      <app loc="69">
+        <lem>-<unclear>piṁcchā</unclear>-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-picchā-</rdg>
+      </app>
+      <app loc="69">
+        <lem>-śr<choice><sic>ī</sic><corr>i</corr></choice>yaṁ</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-śriyaṁ</rdg>
+      </app>
+      <app loc="69">
+        <lem>vīr<choice><sic>i</sic><corr>a</corr></choice>-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">vīra-</rdg>
+      </app>
+      <app loc="69">
+        <lem>-śr<choice><sic>ī</sic><corr>i</corr></choice>yas</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-śriyas</rdg>
+      </app>
+      <app loc="71">
+        <lem>-<unclear>mukheṣv</unclear></lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-<unclear>mukhāsv</unclear></rdg>
+        <note>V's reading seems uninterpretable. His editor notes that <q>the sense requires</q> <foreign>-mukhād</foreign>. I see no <foreign>e</foreign>, but <foreign>ṣ</foreign> appears plausible from the estampage.</note>
+      </app>
+      <app loc="73">
+        <lem>-mahārāj<choice><sic>a</sic><corr>ā</corr></choice>dhirāja-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-mahārājādhirāja-</rdg>
+      </app>
+      <app loc="74">
+        <lem>māt<subst><del rend="corrected">o</del><add place="overstrike">ā</add></subst>-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">māt<choice><sic>o</sic><corr>ā</corr></choice>-</rdg>
+        <note>An <foreign>o</foreign> and an <foreign>ā</foreign> marker are both present without apparent deletion, but the former must have been corrected to the latter.</note>
+      </app>
+      <app loc="74">
+        <lem>-siṁhāsan<unclear>āsī</unclear>naḥ</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-siṁh<choice><sic>a</sic><corr>ā</corr></choice>sanāsīnaḥ</rdg>
+        <note>An <foreign>ā</foreign> marker is definitely present here, but instead of bending downward on the right of the body, it bends down right next to the head, into the cavity of the body. This suggests it may be a subsequent addition.</note>
+      </app>
+      <app loc="74">
+        <lem>g<unclear cert="low">āḍevalu-nā</unclear></lem>
+        <note>V prints only the last <foreign>nā</foreign> as unclear. In the estampage, the second character is indiscernible, the next two look rather like <foreign>vula</foreign> than <foreign>valu</foreign> to me, and the last is again indiscernible but could well be <foreign>ga</foreign>.</note>
+      </app>
+      <app loc="75">
+        <lem>-sahit<unclear>a</unclear>-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-sahitāṁ</rdg>
+        <note>There is no clear <foreign>ā</foreign> and I would not expect one. A large dot above <foreign>ta</foreign> is probably not an <foreign>anusvāra</foreign>, since that would be placed to the right of the character.</note>
+      </app>
+      <app loc="75">
+        <lem><unclear>kuṭuṁbina</unclear>ḥ</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">kuṭuṁbinaḥ</rdg>
+        <note>I accept V's reading, which he prints as clear throughout. To my eye, the second character could well be <foreign>ṭi</foreign>, as is quite common in related inscriptions.</note>
+      </app>
+      <app loc="76">
+        <lem>°āh<choice><sic>u</sic><corr>ū</corr></choice>ya</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">°āhūya</rdg>
+      </app>
+      <app loc="76">
+        <lem>sam<choice><sic>e</sic><corr>a</corr></choice>kṣa<unclear>m</unclear></lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">samakṣam</rdg>
+      </app>
+      <app loc="77">
+        <lem>-mahārā<unclear reason="eccentric_ductus">ja I</unclear>ti</lem>
+        <note>The characters <foreign>ja I</foreign> are small and crowded together. They may be a correction.</note>
+      </app>
+      <app loc="78">
+        <lem>-coḷa-</lem>
+        <rdg source="bib:Venkataramanayya1951-1952_01">-coḍa-</rdg>
       </app>
       
       
