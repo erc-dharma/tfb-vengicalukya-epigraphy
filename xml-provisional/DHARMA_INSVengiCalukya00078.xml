@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-           <title>Korumelli grant of the Eastern Cālukya Rājarāja I</title><!--ALT TITLE: Korumelli plates; Korumilli grant; Korumilli plates. The name of the village is korumelli in the grant; the modern spelling is Korumilli in Google Maps.-->
+           <title>Korumelli grant of the Eastern Cālukya Rājarāja I</title><!--ALT TITLE: Korumelli plates; Korumilli grant; Korumilli plates. The name of the village is korumelli in the grant; the modern spelling of the findspot is Korumilli in Google Maps.-->
             <respStmt>
                <resp>Encoding</resp>
                <persName ref="part:daba">
@@ -53,9 +53,9 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                    <p>Halantas. </p>
-                    <p>Original punctuation marks </p>
-                      <p>Other palaeographic observations. Anusvāras 
+                    <p>Halantas. Final T (e.g. l13, l18) is a regular ta with just a wiggly tail (upward and to the right) instead of a V-shaped headmark. Final N (e.g. l16, l43) is a much reduced and simplified na without a headmark.</p>
+                    <p>Original punctuation marks are simple straight vertical, generally slightly shorter than a character body is tall; occasionally very short. The opening symbol consists of two concentric circles; the outer circle has four wavy appendages in the cardinal directions, and four dots spaced in the intercardinals.</p>
+                    <p>Other palaeographic observations. Anusvāras are placed at median height after the character to which they belong. They may be moved to the next line (l27) or across a binding hole (l37). Vowel markers are generally just small extensions, outward and down, on the left, right or both sides, of the V-shaped headmark, when such a headmark exists in a consonant. Dependent au, when distinguished from o, has a taller right hump (e.g. l25, l26, l32; see also o corrected to au in line 7). Subscript consonants are as a rule simplified, and are often ambiguous outside context, e.g. ṣṣa looks like ṣva.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -112,10 +112,104 @@ n="1"/>śrī-tribhuvanāṁkuśa</ab>
 n="1r"/><ab><pb 
 
 n="1v"/><lb 
-n="1"/><g type="floretQuatrefoil"/></ab>
+n="1"/><g type="floretComplex"/></ab>
 <lg n="1" met="śārdūlavikrīḍita">
-<l n="a"></l>
+<l n="a">śrī-dhāmnaḥ puruṣottamasya mahato nārāyaṇasya prabho<supplied reason="omitted">r</supplied></l>
+<l n="b">nnābhī-paṁkaruhād babhū<lb 
+n="2" break="no"/>va jagatas sraṣṭā svayaṁbhūs tataḥ</l>
+<l n="c">jajñe mānasa-sūnur atrir iti ya<supplied reason="omitted">ḥ</supplied> tasmān muner atritas</l>
+<l n="d">somo <lb 
+n="3"/>vaṁśa-karas sudhāṁśur udita<supplied reason="omitted">ḥ</supplied> śrīkaṇ<unclear reason="eccentric_ductus">ṭh</unclear>a-cūḍāmaṇiḥ|</l>
 </lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">tasmād āsīt sudhā-sūter</l>
+<l n="b">bbudho budha-nutas ta<lb 
+n="4" break="no"/>taḥ</l>
+<l n="c">j<choice><sic>a</sic><corr>ā</corr></choice>taḥ purūravā nāma</l>
+<l n="d">cakrava<supplied reason="omitted">r</supplied>ttī sa-vikramaḥ|</l>
+</lg>
+<p>tasmād āyur+.@@@REPLACE +. Āyuṣo nahuṣaḥ+. tato y<choice><sic>ā</sic><corr>a</corr></choice><lb 
+n="5" break="no"/>yātiś cakravarttī vaṁśa-ka<supplied reason="omitted">r</supplied>ttā+. tataḥ purur iti cakravarttī<supplied reason="subaudible">.</supplied> tato janamejayo <supplied reason="subaudible">’</supplied>śvamedha-trita<lb 
+n="6" break="no"/>yasya kartt<choice><sic>a</sic><corr>ā</corr></choice>+. tataḥ <space type="binding-hole"/> prācīśaḥ+. tasmāt sainyayātiḥ+. tato hayapati<choice><sic>ṁ</sic><corr>ḥ</corr></choice>+. tatas sā<supplied reason="omitted">r</supplied>vva<lb 
+n="7" break="no"/>bh<choice><sic>o</sic><corr>au</corr></choice>maḥ+. tato jaya<space type="binding-hole"/>senaḥ+. tato mahābh<subst><del rend="corrected">o</del><add place="overstrike">au</add></subst>maḥ+. tasmād <unclear reason="eccentric ductus">ai</unclear>śānakaḥ| tataḥ krodhānanaḥ<supplied reason="subaudible">.</supplied> <lb 
+n="8"/>tato devakiḥ+. devake <space type="binding-hole"/> <choice><sic>ri</sic><corr>r̥</corr></choice>bhukaḥ+. tasmād r̥kṣakaḥ, tato mativaras satra-yāga-yājī sara<lb 
+n="9" break="no"/>svatī-nadī-nāthaḥ+. tataḥ kātyāyanaḥ+. kātyāyanān nīlaḥ+. tato duṣyantaḥ+. tata</p>
+<ab>Āryyā</ab>
+<lg n="3" met="āryāgīti">
+<l n="ab">gaṁ<lb 
+n="10" break="no"/>gā-yamunā-tīre yad avi<choice><sic>chc</sic><corr>cch</corr></choice>innan nikhāya yūpān kramaśaḥ</l>
+<l n="cd">kr̥tvā tathāśvamedhān nāma mahā-ka<lb 
+n="11" break="no"/>rmma-bharata Iti yo <supplied reason="subaudible">’</supplied>labhata,</l>
+</lg>
+<p>tato <subst><del rend="corrected">ta</del><add place="overstrike">bha</add></subst><add place="inline">ra</add>tād bhūmanyuḥ+. tasmāt suhotraḥ+. tato hastī| tato viro<lb 
+n="12" break="no"/>canaḥ+. tasmād ajamīlaḥ+. tatas saṁvaraṇaḥ+. tasya ca tapana-sutāyās tapatyāś ca sudhanvā, ta<lb 
+n="13" break="no"/>taḥ parikṣiT, tato bhīmasenaḥ, tataḥ pradīpanaḥ+. tasmā<choice><sic>chc</sic><corr>c ch</corr></choice>antanuḥ+. tato vicitravīryyaḥ| <pb 
+
+n="2r"/><lb 
+n="14"/>tataḥ pāṇḍu-rājaḥ+. tataḥ</p>
+<ab>Āryyā</ab>
+<lg n="4" met="upagīti">
+<l n="ab">putrās tasya ca dharmmaja-bh<choice><sic>i</sic><corr>ī</corr></choice>mārjjuna-nakula-sahadevāḥ</l>
+<l n="cd">paṁ<lb 
+n="15" break="no"/>ce<unclear reason="eccentric_ductus">n</unclear>driyava<unclear reason="eccentric_ductus">T</unclear> paṁca syur vviṣ<choice><sic>i</sic><corr>a</corr></choice>ya-grāhiṇas tatra|</l>
+</lg>
+<lg n="5" met="śārdūlavikrīḍita">
+<l n="a">yenādāhi vijitya <choice><sic>k</sic><corr>kh</corr></choice>āṇḍavam atho gāṇḍīvinā <lb 
+n="16"/><choice><sic>m</sic><corr>v</corr></choice>ajriṇaṁ</l>
+<l n="b">yuddhe <choice><sic>dh</sic><corr>p</corr></choice>āśupatāstram a<add place="inline">ṁ</add>dhaka-ripoś cālābhi d<unclear reason="eccentric ductus">ai</unclear>tyāN bah<choice><sic>u</sic><corr>ū</corr></choice>n</l>
+<l n="c">i<unclear reason="eccentric_ductus">n</unclear>drārddhāsanam adhyarohi j<choice><sic>i</sic><corr>a</corr></choice>yi<lb 
+n="17" break="no"/>nā yat kālikeyādikān</l>
+<l n="d">hatvā svairam akāri vaṁśa-vipina-cchedaḥ kur<choice><sic>u</sic><corr>ū</corr></choice>ṇāṁ vibhoḥ,</l>
+</lg>
+<p>tato <supplied reason="subaudible">’</supplied>rjj<choice><sic>a</sic><corr>u</corr></choice>nād abhimanyuḥ+. <lb 
+n="18"/>tataḥ parikṣiT+. tato janame<supplied reason="omitted">ja</supplied>yaḥ+. tataḥ kṣemukaḥ+. tato naravāhanaḥ+. tata<subst><del rend="corrected"><unclear>ś c</unclear></del><add place="overstrike">ś ś</add></subst>atānīkaḥ+. tasmād udayanaḥ+.</p>
+<p><lb 
+n="19"/>tataḥ paraṁ tat-p<unclear reason="eccentric_ductus">r</unclear>abhr̥tiṣv avicchinna-<supplied reason="omitted">sa</supplied>ntāneṣv ayodhyā-siṁhāsanāsīneṣv ekā<choice><sic>d</sic><corr>n</corr></choice>na-ṣaṣṭi-cakravarttiṣu tad-vaṁśyo vi<lb 
+n="20" break="no"/>jayādityo nāma rāj<unclear>ā</unclear> <choice><sic>ṣa</sic><corr>vi</corr></choice>jigīṣayā dakṣiṇāpathaṁ gatvā trilocana-pallavam adhikṣipya daiva<lb 
+n="21" break="no"/>-durīhayā l<choice><sic>e</sic><corr>o</corr></choice>kānta<space type="binding-hole"/>ram agamaT+. tasmin sa<unclear>ṁ</unclear>kule purohitena sārddham antarvvatnī tasya mahādevī <lb 
+n="22"/>muḍivemu nāmā<space type="binding-hole"/>grahāraṁ katipayābhir antaḥpura-kāntābhiḥ kaṁcukibhiś ca sahopagamya <lb 
+n="23"/>tad-vāstavyena viṣṇubhaṭṭa-somayājinā duhitr̥-ni<supplied reason="omitted">r</supplied>vviśeṣam abhirakṣitā satī viṣṇuvarddhanan na<lb 
+n="24" break="no"/>ndanam asūta<add place="inline">|</add> sā tasya ca kumārakasya mānavya-sagotra-hārīti-putra-dvipakṣa-gotra-<choice><sic>v</sic><corr>k</corr></choice>ramocitā<lb 
+n="25" break="no"/>ni karmmāṇi kārayitvā tam ava<supplied reason="omitted">r</supplied>ddhayaT+. sa ca mātrā vidita-vr̥ttāntas san nirggatya calukya-girau na<lb 
+n="26" break="no"/><unclear reason="eccentric_ductus">n</unclear>dāṁ bhagavatīṁ gaurīm ārādhya kumāra-nārāyaṇa-mātr̥-gaṇāṁś ca saṁta<supplied reason="omitted">r</supplied>pya śvetātapatr<choice><sic>e</sic><corr>ai</corr></choice>ka-śaṁkha-pa<lb 
+n="27" break="no"/>ṁca-mahāś<choice><sic>ā</sic><corr>a</corr></choice>bda-pāliketana-prati<choice><sic>ḍ</sic><corr>ḍh</corr></choice>akkā-varāha-lāṁcchana-piṁcha-kun<choice><sic>th</sic><corr>t</corr></choice>a-siṁhāsana-makara-toraṇa<lb 
+n="28" break="no"/>-kanaka-daṇḍa-gaṁgā-yamunādīni sva-kula-kramāgatāni nikṣiptān<unclear reason="eccentric_ductus">ī</unclear>va sā<choice><orig>ṁb</orig><reg>m</reg></choice>rājya-cihnān<choice><sic>ī</sic><corr>i</corr></choice> samā<lb 
+n="29" break="no"/>dāya kaḍaṁba-gaṁgādi-bhūmipān nirjj<unclear>i</unclear>tya setu-narmmadā-madhyaṁ sārddha-sapta-lakṣaṁ dakṣiṇāpa<pb 
+
+n="2v" break="no"/><lb 
+n="30" break="no"/><choice><sic>dh</sic><corr>th</corr></choice>aṁ pālayām āsa,</p>
+<ab>ś<choice><sic>y</sic><corr>l</corr></choice>okaḥ,</ab>
+<lg n="6" met="anuṣṭubh">
+<l n="a">tasyāsīd vijayādityo</l>
+<l n="b">viṣṇuvarddhana-bhūpateḥ</l>
+<l n="c">pallavānvaya-jātā<lb 
+n="31" break="no"/>yā</l>
+<l n="d">mahādevyāś ca nandanaḥ</l>
+</lg>
+<p>tat-sutaḥ polakeśi-vallabhaḥ+. tat-putra<supplied reason="omitted">ḥ</supplied> kīrttivarmmā, tasya tanayaḥ</p>
+<p>svasti+. <lb 
+n="32"/>śrīmatāṁ sakala-bhuvana-saṁstūyamāna-m<choice><sic>a</sic><corr>ā</corr></choice>navya-sagotrāṇāṁ hārītī-putrāṇāṁ kauśikī-vara-pra<lb 
+n="33" break="no"/>sāda-labdha-rājyānā<surplus>ṁ</surplus>m m<choice><sic>a</sic><corr>ā</corr></choice>tr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nār<unclear>ā</unclear><lb 
+n="34" break="no"/>yaṇa-pr<choice><sic>ā</sic><corr>a</corr></choice>sāda-sam<choice><sic>a</sic><corr>ā</corr></choice>sādita-vara-varāha-lāṁcchanekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām aśva<lb 
+n="35" break="no"/>medhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ cālukyānāṁ kulam alaṁkariṣṇos satyāśraya-vallabhe<lb 
+n="36" break="no"/>ndrasya bhrātā kubja-viṣṇ<unclear reason="eccentric_ductus">u</unclear>varddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣāṇi veṅgī-deśam ap<choice><sic>a</sic><corr>ā</corr></choice>layaT+. tad-ātmajo jayasiṁ<lb 
+n="37" break="no"/>ha-vallabhas trayastri<space type="binding-hole"/>ṁśataṁ| tad-anujendrarāja-nandanas sapta dinān<choice><sic>ī</sic><corr>i</corr></choice>+. tat-suto viṣṇuvarddhano <lb 
+n="38"/>nava varṣāṇi, tat-sūnur <orig>mmāṁgī</orig>-yuvarājaḥ paṁcaviṁśatiṁ| tat-putro jayasiṁhas tra<unclear>yo</unclear><lb 
+n="39" break="no"/>daśa+. tad-avarajaḥ kokkiliṣ ṣa<choice><sic>n</sic><corr>ṇ</corr></choice> māsā<supplied reason="omitted">N</supplied>, tasya jyeṣṭho bhrātā viṣṇuvarddhanas tam uc<choice><sic>v</sic><corr>c</corr></choice>āṭya saptatriṁśata<lb 
+n="40" break="no"/>m abdā<choice><sic>|</sic><corr>N</corr></choice>| tat-putro vijayāditya-bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-tanujo viṣṇuvarddhanaṣ ṣaṭtriṁśataṁ| tat-sūnu<lb 
+n="41" break="no"/>r vvijayāditya-nare<unclear reason="eccentric_ductus">n</unclear>dra-mr̥garājaś cāṣṭācatvāriṁśataṁ, tat-sutaḥ kali-viṣṇuvarddha<choice><sic>ṇ</sic><corr>n</corr></choice><unclear reason="eccentric_ductus">o</unclear> <supplied reason="subaudible">’</supplied>dhyarddha-varṣaṁ| ta<lb 
+n="42" break="no"/>t-suto guṇaga-vijayādityaś catuśc<choice><sic>ā</sic><corr>a</corr></choice><supplied reason="omitted">tvā</supplied>riṁśataṁ| tad-bhrātur vvikramāditya-bhūpates tanayaś cāl<choice><sic>ū</sic><corr>u</corr></choice><lb 
+n="43" break="no"/>ky<choice><sic>ā</sic><corr>a</corr></choice>-bhīmas triṁśataṁ+. tat-sutaḥ kollabigaṇḍa-vijayādityaṣ ṣa<choice><sic>n</sic><corr>ṇ</corr></choice> māsāN+. tat-sūnur <choice><sic>ā</sic><corr>a</corr></choice>mmarājas sapta <lb 
+n="44"/>varṣ<choice><sic>a</sic><corr>ā</corr></choice>ṇi| tat-sutaṁ vijayādityaṁ bālam uccāṭya tāḍapo m<choice><sic>a</sic><corr>ā</corr></choice>sam ekaṁ+. taṁ jitvā cālukya-bh<choice><sic>i</sic><corr>ī</corr></choice><unclear>ma</unclear><lb 
+n="45" break="no"/>-tanayo vikramāditya Ekādaśa māsāN+. tat-tāḍapa-rāj<choice><sic>ā</sic><corr>a</corr></choice>-suto yuddham<choice><sic>ā</sic><corr>a</corr></choice>llas <choice><sic>t</sic><corr>s</corr></choice>apta varṣ<choice><sic>a</sic><corr>ā</corr></choice>
+
+
+
+
+</p>
+<lg n="5" met="śārdūlavikrīḍita">
+<l n="d">
+</l></lg>
 <pb 
 
 n="5v"/>
@@ -132,9 +226,194 @@ n="5v"/>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
+      <app loc="1">
+        <lem>prabho<supplied reason="omitted">r</supplied></lem>
+        <rdg source="bib:Fleet1885_01">prabhor</rdg>
+      </app>
       <app loc="3">
-        <lem></lem>
-        <rdg source="bib:Fleet1885_01"></rdg>
+        <lem>śrīkaṇ<unclear reason="eccentric_ductus">ṭh</unclear>a-</lem>
+        <rdg source="bib:Fleet1885_01">śrīkaṇ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>a-</rdg>
+      </app>
+      <app loc="5">
+        <lem>-ka<supplied reason="omitted">r</supplied>ttā</lem>
+        <rdg source="bib:Fleet1885_01">-karttā</rdg>
+      </app>
+      <app loc="5">
+        <lem>cakravarttī<supplied reason="subaudible">.</supplied></lem>
+        <rdg source="bib:Fleet1885_01">cakravarttī|</rdg>
+        <note>The faint and short vertical here does not seem to be a punctuation mark.</note>
+      </app>
+      <app loc="7">
+        <lem>sā<supplied reason="omitted">r</supplied>vva<lb n="7" break="no"/>bh<choice><sic>o</sic><corr>au</corr></choice>maḥ</lem>
+        <rdg source="bib:Fleet1885_01">sārvva<lb n="7" break="no"/>bh<choice><sic>o</sic><corr>au</corr></choice>maḥ</rdg>
+      </app>
+      <app loc="7">
+        <lem>mahābh<subst><del rend="corrected">o</del><add place="overstrike">au</add></subst>maḥ</lem>
+        <rdg source="bib:Fleet1885_01">mahābhaumaḥ</rdg>
+      </app>
+      <app loc="7">
+        <lem>tasmād <unclear reason="eccentric ductus">ai</unclear>śānakaḥ</lem>
+        <rdg source="bib:Fleet1885_01">tasmād deśānakaḥ</rdg>
+        <note>The stroke below <foreign>de</foreign> must have been intended for the lower stroke of <foreign>ai</foreign>, not for a subscript <foreign>d</foreign>. Compare <foreign>daityān</foreign> in line 16 below.</note>
+      </app>
+      <app loc="7">
+        <lem>krodhānanaḥ<supplied reason="subaudible">.</supplied></lem>
+        <rdg source="bib:Fleet1885_01">krodhānanaḥ|</rdg>
+      </app>
+      <app loc="9">
+        <lem>Āryyā</lem>
+        <rdg source="bib:Fleet1885_01">Āryy<choice><sic>ā</sic><corr>o</corr></choice></rdg>
+      </app>
+      <app loc="10">
+        <lem>avi<choice><sic>chc</sic><corr>cch</corr></choice>innan</lem>
+        <rdg source="bib:Fleet1885_01">avi<choice><sic>chc</sic><corr>cch</corr></choice>inn<choice><sic>a</sic><corr>ā</corr></choice>n</rdg>
+        <note>The text is acceptable without Fleet's emendation, and corroborated by stanza 3 of the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref>.</note>
+      </app>
+      <app loc="10">
+        <lem>tathāśvamedhān</lem>
+        <rdg source="bib:Fleet1885_01">tathāśvamedh<choice><sic>ā</sic><corr>a</corr></choice>n</rdg>
+        <note>The text is acceptable without Fleet's emendation, and corroborated by stanza 3 of the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref> (though read as <foreign>tathāśvamedhān</foreign> by Venkayya) as well as by the Kolāṟu grant (<bibl><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">49-62</citedRange><citedRange unit="item">39</citedRange></bibl>, line 9). See also the note to the translation.</note>
+      </app>
+      <app loc="11">
+        <lem><subst><del rend="corrected">ta</del><add place="overstrike">bha</add></subst><add place="inline">ra</add>tād</lem>
+        <note>According to Fleet's note, an originally inscribed <foreign>tā</foreign> has been corrected into <foreign>bhara</foreign> here. I think the pre-correction character was rather <foreign>ta</foreign>; <foreign>ra</foreign> is added in small size and slightly raised between the corrected <foreign>bha</foreign> and the following <foreign>tā</foreign>, and this <foreign>tā</foreign> may also be a correction from <foreign>to</foreign> (i.e. <foreign>tato tato</foreign> may have been inscribed first, then the second iteration corrected to <foreign>bharatā</foreign>.</note>
+      </app>
+      <app loc="11">
+        <lem>hastī|</lem>
+        <note>This original punctuation mark is not visible in Fleet's estampage, but it has been read by him and is present in the Elliot estampages.</note>
+      </app>
+      <app loc="12">
+        <lem>sudhanvā,</lem>
+        <note>Again, the punctuation mark is not visible in Fleet's estampage, but it has been read by him and is present in the Elliot estampages.</note>
+      </app>
+      <app loc="13">
+        <lem>pradīpanaḥ+.</lem>
+        <rdg source="bib:Fleet1885_01">pradīpanaḥ|</rdg>
+        <note>There is perhaps an original punctuation mark here, but none is visible in Fleet's estampage, and the Elliot estampages are unclear.</note>
+      </app>
+      <app loc="14">
+        <lem>Āryyā</lem>
+        <rdg source="bib:Fleet1885_01">Āryyā-</rdg>
+      </app>
+      <app loc="14">
+        <lem>-bh<choice><sic>i</sic><corr>ī</corr></choice>mārjjuna-</lem>
+        <rdg source="bib:Fleet1885_01">-bhīmārjjuna-</rdg>
+      </app>
+      <app loc="15">
+        <lem>°e<unclear reason="eccentric_ductus">n</unclear>driya°</lem>
+        <note>The body part may have been mistaken for <foreign>d</foreign> by the scribe, but reading <foreign>ndri</foreign> is possible with some goodwill. Compare <foreign>ekādna</foreign> in line 19 with a definite <foreign>d</foreign>, and an unambiguous <foreign>nd</foreign> conjunct in line 26.</note>
+      </app>
+      <app loc="15">
+        <lem>-grāhiṇas</lem>
+        <rdg source="bib:Fleet1885_01">-gr<choice><sic>a</sic><corr>ā</corr></choice>h<choice><sic>ī</sic><corr>i</corr></choice>ṇas</rdg>
+      </app>
+      <app loc="15">
+        <lem><choice><sic>k</sic><corr>kh</corr></choice>āṇḍavam atho</lem>
+        <rdg source="bib:Fleet1885_01"><choice><sic>k</sic><corr>kh</corr></choice>āṇḍava-maṭhe</rdg>
+      </app>
+      <app loc="16">
+        <lem><choice><sic>dh</sic><corr>p</corr></choice>āśupatāstram</lem>
+        <rdg source="bib:Fleet1885_01">pāśupatāstram</rdg>
+      </app>
+      <app loc="16">
+        <lem>a<add place="inline">ṁ</add>dhaka-</lem>
+        <rdg source="bib:Fleet1885_01">a<choice><sic>dhaṁ</sic><corr>ṁdha</corr></choice>ka-</rdg>
+        <note>I think what Fleet saw as an <foreign>anusvāra</foreign> after <foreign>dha</foreign> is just a hook on the tail of <foreign>hi</foreign> above; however, there seems to be an <foreign>anusvāra</foreign> above the left shoulder of <foreign>dha</foreign>, which must have been added subsequently. This is clearest in the Edinburgh specimen of Elliot's rubbing; in Fleet's estampage, neither of the possible <foreign>anusvāra</foreign>s is visible.</note>
+      </app>
+      <app loc="16">
+        <lem>d<unclear reason="eccentric ductus">ai</unclear>tyān</lem>
+        <rdg source="bib:Fleet1885_01">d<surplus>d</surplus><choice><sic>e</sic><corr>ai</corr></choice>tyān</rdg>
+        <note>The stroke below <foreign>de</foreign> must have been intended for the lower stroke of <foreign>ai</foreign>, not for a subscript <foreign>d</foreign>. Compare <foreign>aiśānakaḥ</foreign> in line 7 above.</note>
+      </app>
+      <app loc="16">
+        <lem>bah<choice><sic>u</sic><corr>ū</corr></choice>n</lem>
+        <rdg source="bib:Fleet1885_01">bahūn</rdg>
+      </app>
+      <app loc="16">
+        <lem>°i<unclear reason="eccentric_ductus">n</unclear>drā°</lem>
+        <note>The body part may have been mistaken for <foreign>d</foreign> by the scribe, but reading <foreign>ndrā</foreign> is possible with some goodwill. Compare <foreign>ekādna</foreign> in line 19 with a definite <foreign>d</foreign>, and an unambiguous <foreign>nd</foreign> conjunct in line 26.</note>
+      </app>
+      <app loc="18">
+        <lem>tataś <subst><del rend="corrected"><unclear>c</unclear></del><add place="overstrike">ś</add></subst>atānīkaḥ</lem>
+        <rdg source="bib:Fleet1885_01">tataś śatānīkaḥ</rdg>
+      </app>
+      <app loc="19">
+        <lem>ekā<choice><sic>d</sic><corr>n</corr></choice>na-</lem>
+        <note>The body part of the unusual conjunct may have been intended for <foreign>n</foreign>; compare the conjunct <foreign>ndr</foreign> in lines 15 and 16. There, however, the shape of <foreign>n</foreign> is recognisable in the upper part of the <foreign>d</foreign>-like body, while the lower part of what looks like <foreign>d</foreign> is in fact the upper part of the subscript <foreign>d</foreign>.</note>
+      </app>
+      <app loc="19">
+        <lem>vi<lb n="20" break="no"/>jayādityo</lem>
+        <rdg source="bib:Fleet1885_01">vi<lb n="20" break="no"/>j<choice><sic>ā</sic><corr>a</corr></choice>yādityo</rdg>
+      </app>
+      <app loc="20">
+        <lem><choice><sic>ṣa</sic><corr>vi</corr></choice>jigīṣayā</lem>
+        <rdg source="bib:Fleet1885_01"><choice><sic>pa</sic><corr>vi</corr></choice>jigīṣayā</rdg>
+      </app>
+      <app loc="21">
+        <lem>sa<unclear>ṁ</unclear>kule</lem>
+        <rdg source="bib:Fleet1885_01">sa<supplied reason="omitted">ṁ</supplied>kule</rdg>
+        <note>The <foreign>anusvāra</foreign> is directly adjacent to the ascending limb of the subscript <foreign>s</foreign>. It may be a subsequent addition.</note>
+      </app>
+      <app loc="24">
+        <lem>-dvipakṣa-</lem>
+        <note>There is a short horizontal stroke above <foreign>kṣa</foreign>, which seems to have been deliberately engraved, but its function is uncertain. Could it be an editorial mark for something to be done about the deviation from the standard text <foreign>-putrādi-sva-kṣatra-gotra-</foreign>?</note>
+      </app>
+      <app loc="25">
+        <lem>ava<supplied reason="omitted">r</supplied>ddhayaT+.</lem>
+        <rdg source="bib:Fleet1885_01">ava<supplied reason="omitted">r</supplied>ddhayaT|</rdg>
+      </app>
+      <app loc="25">
+        <lem>na<lb n="26" break="no"/><unclear reason="eccentric_ductus">n</unclear>dāṁ</lem>
+        <note>The body part may have been mistaken for <foreign>d</foreign> by the scribe, but reading <foreign>ndā</foreign> is possible with some goodwill. Compare <foreign>ekādna</foreign> in line 19 with a definite <foreign>d</foreign>, and an unambiguous <foreign>nd</foreign> conjunct in line 26.</note>
+      </app>
+      <app loc="26">
+        <lem>°<choice><sic>e</sic><corr>ai</corr></choice>ka-</lem>
+        <rdg source="bib:Fleet1885_01">°aika-</rdg>
+      </app>
+      <app loc="27">
+        <lem>-piṁcha-</lem>
+        <rdg source="bib:Fleet1885_01">-pi<surplus>ṁ</surplus><supplied reason="omitted">c</supplied>cha-</rdg>
+      </app>
+      <app loc="28">
+        <lem>cihnān<choice><sic>ī</sic><corr>i</corr></choice></lem>
+        <rdg source="bib:Fleet1885_01">cihnāni</rdg>
+      </app>
+      <app loc="29">
+        <lem>dakṣiṇāpa<pb n="2v" break="no"/><lb n="30" break="no"/><choice><sic>dh</sic><corr>th</corr></choice>aṁ</lem>
+        <rdg source="bib:Fleet1885_01">dakṣiṇāpa<pb n="2v" break="no"/><lb n="30" break="no"/>thaṁ</rdg>
+      </app>
+      <app loc="33">
+        <lem>-rājyānā<surplus>ṁ</surplus>m</lem>
+        <rdg source="bib:Fleet1885_01">-rājyānām</rdg>
+      </app>
+      <app loc="37">
+        <lem>dinān<choice><sic>ī</sic><corr>i</corr></choice></lem>
+        <rdg source="bib:Fleet1885_01">dināni</rdg>
+      </app>
+      <app loc="39">
+        <lem>uc<choice><sic>v</sic><corr>c</corr></choice>āṭya</lem>
+        <rdg source="bib:Fleet1885_01">uccāṭya</rdg>
+      </app>
+      <app loc="41">
+        <lem>-nare<unclear reason="eccentric_ductus">n</unclear>dra-</lem>
+        <note>The body part may have been mistaken for <foreign>d</foreign> by the scribe, but reading <foreign>ndra</foreign> is easily possible. Compare <foreign>ekādna</foreign> in line 19 with a definite <foreign>d</foreign>, and an unambiguous <foreign>nd</foreign> conjunct in line 26.</note>
+      </app>
+      <app loc="41">
+        <lem>-viṣṇuvarddha<choice><sic>ṇ</sic><corr>n</corr></choice><unclear reason="eccentric_ductus">o</unclear></lem>
+        <rdg source="bib:Fleet1885_01">-viṣṇuvarddhano</rdg>
+      </app>
+      <app loc="41">
+        <lem><supplied reason="subaudible">’</supplied>dhyarddha-</lem>
+        <rdg source="bib:Fleet1885_01">’dhya-arddha-</rdg>
+        <note>Probably a typo in Fleet.</note>
+      </app>
+      <app loc="42">
+        <lem>cāl<choice><sic>ū</sic><corr>u</corr></choice><lb n="43" break="no"/>ky<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
+        <rdg source="bib:Fleet1885_01">cālu<lb n="43" break="no"/>ky<choice><sic>ā</sic><corr>a</corr></choice>-</rdg>
+      </app>
+      <app loc="45">
+        <lem><choice><sic>t</sic><corr>s</corr></choice>apta</lem>
+        <rdg source="bib:Fleet1885_01">sapta</rdg>
       </app>
       
       
@@ -167,7 +446,7 @@ n="5v"/>
 
 
 <div type="bibliography">
-  <p>Reported only in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">50</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">23</citedRange></bibl> without further discussion. Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1885_01"/></bibl>), with facsimiles but withot translation (though with some parts translated in his discussion of the contents). According to Fleet, the text has been transcribed by Sir Walter Elliot in his <title>Telugu Sasanams</title>, vol. 1, p. 73ff (not traced). The present edition by Dániel Balogh is based on a collation of Fleet's edition with his facsimiles with inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library and the Bibliothèque nationale de France. None of the three sets of facsimiles includes the seal, the text of which is given in Fleet's introduction to the edition.</note>.</p>
+  <p>Reported only in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">50</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">23</citedRange></bibl> without further discussion. Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1885_01"/></bibl>), with facsimiles but withot translation (though with some parts translated in his discussion of the contents). According to Fleet, the text has been transcribed by Sir Walter Elliot in his <title>Telugu Sasanams</title>, vol. 1, p. 73ff (not traced). The present edition by Dániel Balogh is based on a collation of Fleet's edition with his facsimiles with inked rubbings in Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library and the Bibliothèque nationale de France. Fleet's rubbing appears to have been taken after a cleaning of the plates, and is much better legible than the earlier Elliot rubbings. None of the three sets of facsimiles includes the seal, the text of which is given in Fleet's introduction to the edition.</note>.</p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1885_01"/></bibl>
   </listBibl>
