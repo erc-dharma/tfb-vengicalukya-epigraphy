@@ -4,8 +4,9 @@
       <title>DHARMA_INSVengiCalukya00036. Guṇḍugolanu grant of Amma II</title>
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/erc-dharma/project-documentation@latest/stylesheets/inscriptions/global.css">
       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
    </head>
-   <body>
+   <body class="font-weight-light" data-spy="scroll" data-target="#myScrollspy" data-offset="5">
       <nav class="navbar navbar-expand-lg navbar-light bg-light"><a class="navbar-brand" href="https://erc-dharma.github.io/">ERC-DHARMA</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
                <li class="nav-item active"><a class="nav-link" href="https://erc-dharma.github.io/">Home <span class="sr-only">(current)</span></a></li>
@@ -18,17 +19,42 @@
                      Controlled Vocabularies
                      </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://erc-dharma.github.io/controlled-vocabularies/DHARMA_mdt_artefactControlledVoc">Artefacts – Controlled Vocabularies</a><a class="dropdown-item" href="https://erc-dharma.github.io/controlled-vocabularies/DHARMA_mdt_artefactClosedLists">Artefacts – Closed List</a><a class="dropdown-item" href="https://erc-dharma.github.io/controlled-vocabularies/DHARMA_mdt_textControlledVoc">Texts – Controlled Vocabularies</a><a class="dropdown-item" href="https://erc-dharma.github.io/controlled-vocabularies/DHARMA_mdt_textClosedLists">Texts – Closed List for texts</a></div>
                </li>
-               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownDoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                      Documentation
-                     </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/atom/UsingAtom_v01">Starting with Atom</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/atom/UsingAtomGit_v01">Starting with Atom &amp; Git</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/atom/UsingAtomTeletype_v01">Starting with Atom Teletype</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/git/DHARMA_git_guide_v01">Starting with git</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/github-issuetracker/UsingGitHubIssueTracker.pdf">Starting with GitHub issues</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/github-issuetracker/UsingMarkdownSyntax_v01">Starting with markdown</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/encoding-diplomatic/DHARMA%20EGD%20v1%20release.pdf">Encoding Guide for Diplomatic editions</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/FNC/DHARMA_FNC_v01.1.pdf">File Naming Conventions</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/transliteration/DHARMA%20Transliteration%20Guide%20v3%20release.pdf">Transliteration Guide</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/zotero/DHARMA_ZoteroGuide_v01.1.1.pdf">Zotero Guide</a></div>
+                     </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/encoding-diplomatic/DHARMA%20EGD%20v1%20release.pdf">Encoding Guide for Diplomatic editions</a><a class="dropdown-item" href="critEd_elements">Critical Editions Memo</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/FNC/DHARMA_FNC_v01.1.pdf">File Naming Conventions</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/transliteration/DHARMA%20Transliteration%20Guide%20v3%20release.pdf">Transliteration Guide</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/zotero/DHARMA_ZoteroGuide_v01.1.1.pdf">Zotero Guide</a></div>
+               </li>
+               <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" id="navbarDropdownDoc" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Training
+                     </a><div class="dropdown-menu" aria-labelledby="navbarDropdown"><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/atom/UsingAtom_v01">Starting with Atom</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/atom/UsingAtomGit_v01">Starting with Atom &amp; Git</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/atom/UsingAtomTeletype_v01">Starting with Atom Teletype</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/git/DHARMA_git_guide_v01">Starting with git</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/github-issuetracker/UsingGitHubIssueTracker.pdf">Starting with GitHub issues</a><a class="dropdown-item" href="https://erc-dharma.github.io/project-documentation/github-issuetracker/UsingMarkdownSyntax_v01">Starting with markdown</a><a class="dropdown-item" href="https://erc-dharma.github.io/digital-areal/">Starting with XML in French</a></div>
                </li>
                <li class="nav-item"><a class="nav-link" href="https://erc-dharma.github.io/arie">ARIE</a></li>
                <li class="nav-item"><a class="nav-link" href="https://www.zotero.org/groups/1633743/erc-dharma/library">Zotero Library</a></li>
+               <li class="nav-item"><a class="nav-link" href="https://dharma.hypotheses.org/">Blog</a></li>
             </ul>
          </div>
       </nav>
       <div class="container">
-         <div class="edition-content col-10">
+         <div id="sidebar-wrapper" class="collapse">
+            <nav id="myScrollspy">
+               <ul class="nav nav-pills flex-column">
+                  <li class="nav-item"><a class="nav-link" href="#metadatadiv">Metadata</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#edition">Edition</a><ul class="nav-second nav-pills">
+                        <li class="nav-item-second nav-item"><a class="nav-link" href="#1v">Folio 1v</a></li>
+                        <li class="nav-item-second nav-item"><a class="nav-link" href="#2r">Folio 2r</a></li>
+                        <li class="nav-item-second nav-item"><a class="nav-link" href="#2v">Folio 2v</a></li>
+                        <li class="nav-item-second nav-item"><a class="nav-link" href="#3r">Folio 3r</a></li>
+                        <li class="nav-item-second nav-item"><a class="nav-link" href="#3v">Folio 3v</a></li>
+                        <li class="nav-item-second nav-item"><a class="nav-link" href="#3r">Folio 3r</a></li>
+                     </ul>
+                  </li>
+                  <li class="nav-item"><a class="nav-link" href="#apparatus">Apparatus</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#translation">English Translation</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#translation">French Translation</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#commentary">Commentary</a></li>
+                  <li class="nav-item"><a class="nav-link" href="#bibliography">Bibliography</a></li>
+               </ul>
+            </nav>
+         </div><a class="btn btn-info" data-toggle="collapse" href="#sidebar-wrapper" role="button" aria-expanded="false" aria-controls="sidebar-wrapper" id="toggle-table-contents">☰ Document Outline</a><div class="edition-content col-10">
             <h1>Guṇḍugolanu grant of Amma II</h1>
             <div id="metadatadiv">
                <h2>Metadata</h2>
@@ -57,12 +83,12 @@
                <h2>Edition</h2>  
                <h3 class="textpartnumber" id="abA">Textpart&nbsp;A</h3>
                <h3>Seal</h3>  
-               <p class="ab">  <a id="aA-l1"><!--0--></a><sup class="linenumber">1</sup>śrī-tribhuvan<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ṁkuśa</p>  
+               <p class="ab">  <a id="aA-l1"></a><sup class="linenumber">1</sup>śrī-tribhuvan<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ṁkuśa</p>  
                <h3 class="textpartnumber" id="abB">Textpart&nbsp;B</h3>
                <h3>Plates</h3>  
-               <p>  <a id="aB-l1"><!--0--></a><sup>⎘ plate 1v </sup><sup class="linenumber">1</sup><span class="notBold">(</span><span class="symbol">floretQuatrefoil</span><span class="notBold cas1.1">)</span>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrā- <br id="aB-l2"><sup class="linenumber">2</sup>ṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānām mātr̥-gaṇa-pa- <br id="aB-l3"><sup class="linenumber">3</sup>ripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-pra- <br id="aB-l4"><sup class="linenumber">4</sup>sāda-samā◯sādita-vara-varāha-lāñ<span class="orig">¡cch!</span>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍa- <br id="aB-l5"><sup class="linenumber">5</sup>lānām a◯śvamedhāvabhr̥<span class="sic">¿t?</span><span class="corr">⟨th⟩</span>a-snāna-pavitrīkr̥ta-vapuṣāṁ calukyānāṁ kulam a- <br id="aB-l6"><sup class="linenumber">6</sup>laṁkariṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano [’]ṣṭādaśa varṣāṇi⟨|⟩
+               <p>  <a id="aB-l1"></a><sup id="1v">⎘ plate 1v </sup><sup class="linenumber">1</sup><span class="notBold">(</span><span class="symbol">floretQuatrefoil</span><span class="notBold cas1.1">)</span>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrā- <br id="aB-l2"><sup class="linenumber">2</sup>ṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānām mātr̥-gaṇa-pa- <br id="aB-l3"><sup class="linenumber">3</sup>ripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-pra- <br id="aB-l4"><sup class="linenumber">4</sup>sāda-samā◯sādita-vara-varāha-lāñ<span class="orig">¡cch!</span>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍa- <br id="aB-l5"><sup class="linenumber">5</sup>lānām a◯śvamedhāvabhr̥<span class="sic">¿t?</span><span class="corr">⟨th⟩</span>a-snāna-pavitrīkr̥ta-vapuṣāṁ calukyānāṁ kulam a- <br id="aB-l6"><sup class="linenumber">6</sup>laṁkariṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano [’]ṣṭādaśa varṣāṇi⟨|⟩
                   <br id="aB-l7"><sup class="linenumber">7</sup>tad-ātmajo jayasiṁhas trayastriṁśata{ṁ}M|| tad-anujendrarāja-nandano viṣṇuvarddha-
-                  <br id="aB-l8"><sup class="linenumber">8</sup>no nava| tat-sūnu⟨r⟩ mmaṁg<span class="sic">¿ī?</span><span class="corr">⟨i⟩</span>-yuvarājaḥ paṁcaviṁśati<span class="notBold cas1.1">(</span>M|<span class="notBold">)</span> tat-putro jayasiṁha- <br id="aB-l9"><sup>⎘ plate 2r </sup><sup class="linenumber">9</sup>s trayodaśa| tad-avarajaḥ kokkili⟨ḥ⟩ ṣaṇ māsāN| tasya jyeṣṭho bhrātā viṣṇuvarddhanas
+                  <br id="aB-l8"><sup class="linenumber">8</sup>no nava| tat-sūnu⟨r⟩ mmaṁg<span class="sic">¿ī?</span><span class="corr">⟨i⟩</span>-yuvarājaḥ paṁcaviṁśati<span class="notBold cas1.1">(</span>M|<span class="notBold">)</span> tat-putro jayasiṁha- <br id="aB-l9"><sup id="2r">⎘ plate 2r </sup><sup class="linenumber">9</sup>s trayodaśa| tad-avarajaḥ kokkili⟨ḥ⟩ ṣaṇ māsāN| tasya jyeṣṭho bhrātā viṣṇuvarddhanas
                   tam u- <br id="aB-l10"><sup class="linenumber">10</sup>ccāṭya saptatriṁśataM| tat-putro vijayāditya-bhaṭṭārako [’]ṣṭādaśa| tat-suto viṣṇu-
                   <br id="aB-l11"><sup class="linenumber">11</sup>varddhanaḥ ṣaṭtriṁśataM| tat-suto vijayāditya-narendra-mr̥garājas sāṣṭa-catvāriṁśataṁ⟨|⟩
                   <br id="aB-l12"><sup class="linenumber">12</sup>tat-sutaḥ kali-viṣṇuvarddhano [’]dhyarddha-varṣaM| tat-suto guṇaga-vijayādityaś ca-
@@ -74,7 +100,7 @@
                   <div class="verse-line">triṁśad varṣāṇi bh<span class="sic">¿i?</span><span class="corr">⟨ī⟩</span>ma-rāṬ</div>  </div><br>  
                <p>tat-tanaya⟨ḥ⟩ ⟨⟨ṣa⟩⟩ṇ-māsāN kollabigaṇḍa-bhāskara⟨ḥ⟩⟨|⟩ <br id="aB-l15"><sup class="linenumber">15</sup>tad-agra-nandano [’]<span class="orig">¡ṁb!</span>a-rājas sapta varṣāṇi| tad-agra-sūnur bbālo vijayā<span class="notBold">(</span>dityaḥ<span class="notBold">)</span> pakṣam ekaM⟨|⟩ <br id="aB-l16"><sup class="linenumber">16</sup>tam ākramya kārāgāre ni<span class="sic">¿d?</span><span class="corr">⟨dh⟩</span>āya cālukya-bhī⟨⟨ma⟩⟩-pitr̥vy<span class="sic">¿āṁ?</span><span class="corr">⟨a⟩</span>-yuddhamallātmajas tāla-nr̥p<span class="sic">¿e?</span><span class="corr">⟨o⟩</span>  <br id="aB-l17"><sup class="linenumber">17</sup>māsam <span class="sic">¿a?</span><span class="corr">⟨e⟩</span>kaM⟨|⟩ tad-anu vikramādityas saṁvatsaraṁ⟨|⟩</p>  
                <div class="verse-part"><span class="stanzanumber">II. </span><span class="verse-meter">Lalitā</span>  
-                  <div class="first-line">kollabigaṇḍa-tanūjo bh<span class="sic">¿i?</span><span class="corr">⟨ī⟩</span>maḥ ka<sup>⎘ plate 2v </sup><sup class="versenumber">18</sup>ṟayilladāta-nāmāsīT|</div>  
+                  <div class="first-line">kollabigaṇḍa-tanūjo bh<span class="sic">¿i?</span><span class="corr">⟨ī⟩</span>maḥ ka<sup id="2v">⎘ plate 2v </sup><sup class="versenumber">18</sup>ṟayilladāta-nāmāsīT|</div>  
                   <div class="verse-line">dvādaśa varṣā⟨n⟩ veṁg<span class="sic">¿i?</span><span class="corr">⟨ī⟩</span>-nātho dāyāda-vairi-timiram apāsya</div>  </div><br>  
                <div class="verse-part"><span class="stanzanumber">III. </span><span class="verse-meter">Anuṣṭubh</span>  
                   <div class="first-line">  <sup class="versenumber">19</sup>tasya lokamahādevyā{ṁ}m</div>  
@@ -90,7 +116,7 @@
                   <div class="verse-line">-satya-dharmma-parāyaṇā</div>  
                   <div class="verse-line">nāyamā{ṁ}bāṁgaṇā tasya</div>  
                   <div class="verse-line">saroruha-dalekṣaṇā</div>  </div><br>  
-               <p>  <br id="aB-l25"><sup class="linenumber">25</sup>tābhyā{ṁ}m asmad<span class="sic">¿i?</span><span class="corr">⟨ī⟩</span>y{y}a-śva<span class="sic">¿s?</span><span class="corr">⟨ś⟩</span>ura-śvaśr<span class="sic">¿u?</span><span class="corr">⟨ū⟩</span>bhyā⟨ṁ⟩ prārt<span class="sic">¿v?</span><span class="corr">⟨th⟩</span>yamānair asmābhi⟨ḥ⟩ kallūru-grā⟨⟨ma⟩⟩-vāstavya- <br id="aB-l26"><sup class="linenumber">26</sup>-bhāradv<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ja-gotra-vājasaneya-v<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ma⟨⟨na⟩⟩bhaṭṭa-pautrāya śivvanabhaṭṭa-putrāya vāmanaśa- <br id="aB-l27"><sup>⎘ plate 3r </sup><sup class="linenumber">27</sup>rmmaṇe guṇ<span class="notBold">(</span>ḍ<span class="notBold">/</span>ṭ<span class="notBold">)</span>ugolanu nāma g{g}rāme pūrvva-di<span class="sic">¿s?</span><span class="corr">⟨ś⟩</span>i rāja-mānena dvādaśa-kh<span class="sic">¿o?</span><span class="corr">⟨a⟩</span>ṇḍi⟨⟨<span class="notBold">(</span>ka<span class="notBold">)</span>⟩⟩-kodrava-bīja- <br id="aB-l28"><sup class="linenumber">28</sup>-vāpa-kṣetram udaka-pūrvvam uttarāyaṇa-nimitte dattam i⟨⟨ti⟩⟩ viditam astu va⟨ḥ⟩|
+               <p>  <br id="aB-l25"><sup class="linenumber">25</sup>tābhyā{ṁ}m asmad<span class="sic">¿i?</span><span class="corr">⟨ī⟩</span>y{y}a-śva<span class="sic">¿s?</span><span class="corr">⟨ś⟩</span>ura-śvaśr<span class="sic">¿u?</span><span class="corr">⟨ū⟩</span>bhyā⟨ṁ⟩ prārt<span class="sic">¿v?</span><span class="corr">⟨th⟩</span>yamānair asmābhi⟨ḥ⟩ kallūru-grā⟨⟨ma⟩⟩-vāstavya- <br id="aB-l26"><sup class="linenumber">26</sup>-bhāradv<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ja-gotra-vājasaneya-v<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ma⟨⟨na⟩⟩bhaṭṭa-pautrāya śivvanabhaṭṭa-putrāya vāmanaśa- <br id="aB-l27"><sup id="3r">⎘ plate 3r </sup><sup class="linenumber">27</sup>rmmaṇe guṇ<span class="notBold">(</span>ḍ<span class="notBold">/</span>ṭ<span class="notBold">)</span>ugolanu nāma g{g}rāme pūrvva-di<span class="sic">¿s?</span><span class="corr">⟨ś⟩</span>i rāja-mānena dvādaśa-kh<span class="sic">¿o?</span><span class="corr">⟨a⟩</span>ṇḍi⟨⟨<span class="notBold">(</span>ka<span class="notBold">)</span>⟩⟩-kodrava-bīja- <br id="aB-l28"><sup class="linenumber">28</sup>-vāpa-kṣetram udaka-pūrvvam uttarāyaṇa-nimitte dattam i⟨⟨ti⟩⟩ viditam astu va⟨ḥ⟩|
                   sarvva-kara-parihā- <br id="aB-l29"><sup class="linenumber">29</sup>reṇa śās<span class="sic">¿ā?</span><span class="corr">⟨a⟩</span>nī-kr̥<span class="orig">¡tt!</span>ya</p>  
                <p>Asya kṣetrasyāvadhayaḥ[.] pūrvvataḥ tepalamupariya| dakṣiṇata⟨ḥ⟩- <br id="aB-l30"><sup class="linenumber">30</sup>punnīsvaramma◯-nagaruvu| paścimataḥ bhaṭāri-pannasa| Uttarata⟨ḥ⟩ guṇ<span class="notBold">(</span>ḍ<span class="notBold">/</span>ṭ<span class="notBold">)</span>iyabhaṭlaveṟu- <br id="aB-l31"><sup class="linenumber">31</sup>vu| Asyo◯pari <span class="sic">¿ṇ?</span><span class="corr">⟨n⟩</span>a kenacid bādhā karttavyā[.] yaḥ karoti sa paṁca-mahāpātaka- <br id="aB-l32"><sup class="linenumber">32</sup>-saṁyukto bhavati| tathā coktaṁ vyāsena</p>  
                <div class="verse-part"><span class="stanzanumber">VI. </span><span class="verse-meter">Anuṣṭubh</span>  
@@ -103,13 +129,13 @@
                   <div class="verse-line">  <sup class="versenumber">34</sup>yo ha⟦tta⟧⟨⟨re⟩⟩tt tu vasu{ṁ}ndharāṁ</div>  
                   <div class="verse-line">ṣaṣṭi-varṣa-sahasrāṇi</div>  
                   <div class="verse-line">viṣ<span class="sic">¿ṭ?</span><span class="corr">⟨ṭh⟩</span>āyāṁ jāyate kr̥miḥ</div>  </div><br>  
-               <p>  <br id="aB-l35"><sup>⎘ plate 3v </sup><sup class="linenumber">35</sup>Ājñ<span class="orig">¡ā!</span>ptiḥ kaṭaka-rājaḥ| Etasya rakṣakā⟨ḥ⟩ syur u⟨ru⟩-hasty-ubhaya-gaṇa-sahasra-dvitaye|
+               <p>  <br id="aB-l35"><sup id="3v">⎘ plate 3v </sup><sup class="linenumber">35</sup>Ājñ<span class="orig">¡ā!</span>ptiḥ kaṭaka-rājaḥ| Etasya rakṣakā⟨ḥ⟩ syur u⟨ru⟩-hasty-ubhaya-gaṇa-sahasra-dvitaye|
                   kalvapākṣī- <br id="aB-l36"><sup class="linenumber">36</sup>vumācepu-patayaḥ balāka-piṁccha-cchatra-velā-bhaṭ<span class="sic">¿a?</span><span class="corr">⟨ā⟩</span>ḥ|| mādhavabhaṭṭasya kāvyaM|</p>  
                <div class="verse-part"><span class="stanzanumber">VIII. </span><span class="verse-meter">Anuṣṭubh</span>  
                   <div class="first-line"><span class="orig">¡dattan drāja!</span><span class="reg">⟨dattaṁ rāja⟩</span>-ma<sup class="versenumber">37</sup>hendrasya</div>  
                   <div class="verse-line">viśvaka<span class="notBold">(</span>r<span class="notBold">)</span>mmopamena ca</div>  
                   <div class="verse-line">koṇḍācāryyeṇa nāmnātaṁ</div>  
-                  <div class="verse-line">likhitaṁ śāsanaṁ śubhaṁ||</div>  </div>  </div>  
+                  <div class="verse-line">likhitaṁ śāsanaṁ śubhaṁ||</div>  </div><br>  </div>  
             <div id="apparatus">
                <h2>Apparatus</h2>
                <p>  
@@ -189,7 +215,7 @@
                   <p>
                      <div class="translated-stanzanumber">VIII. </div>This excellent charter, handed out by Rājamahendra (Amma II), was written (<span class="lang" lang="eng"><i>likhita</i></span>) by the one named Koṇḍācārya, who is comparable to Viśvakarman.</p>  </div>  
                <h3>Notes</h3>
-               <p id="notes-translation"><a id="to-app-note15" href="#from-app-note15">↑1.</a>  <span class="tooltiptext-notes"><span class="lang" lang="eng"><i>Pannasa</i></span> is an obscure term that may mean land held in some sort of tenure. See <a href="http://zotero.org/groups/1633743/items/HSK823X4">Sircar 1966</a>: s.v. pannasa.</span><br><a id="to-app-note16" href="#from-app-note16">↑2.</a>  <span class="tooltiptext-notes">The term <span class="lang" lang="eng"><i>velā-bhaṭa</i></span> also occurs the <a href="https://github.com/erc-dharma/tfb-vengicalukya-epigraphy">Pāṁbaṟṟu grant of Amma II</a>, where it is applied to a Ballaladeva, a member of the Paṭṭavardhinī family. I tentatively
+               <p id="notes-translation"><a id="to-app-note15" href="#from-app-note15">↑1.</a>  <span class="tooltiptext-notes"><span class="lang" lang="eng"><i>Pannasa</i></span> is an obscure term that may mean land held in some sort of tenure. See <a href="http://zotero.org/groups/1633743/items/HSK823X4">Sircar 1966</a>: <i>s.v. </i>pannasa.</span><br><a id="to-app-note16" href="#from-app-note16">↑2.</a>  <span class="tooltiptext-notes">The term <span class="lang" lang="eng"><i>velā-bhaṭa</i></span> also occurs the <a href="https://github.com/erc-dharma/tfb-vengicalukya-epigraphy">Pāṁbaṟṟu grant of Amma II</a>, where it is applied to a Ballaladeva, a member of the Paṭṭavardhinī family. I tentatively
                      translate it as a soldier of the marches, but other meanings are possible, including
                      “soldier of the coastland” or “soldier of the harbour."</span><br><a id="to-app-note17" href="#from-app-note17">↑3.</a>  <span class="tooltiptext-notes">I do not fully understand this sentence; see also the commentary. The segmentation
                      of the string <span class="lang" lang="eng"><i>kalvapākṣīvumācepu</i></span> into three names is in particular arbitrary; by my intuition these are plausible
@@ -285,5 +311,5 @@
       </div>
       <footer class="footer mt-auto py-3">
          <div>Copyright © 2019-2025 by Dániel Balogh.</div>
-      </footer><script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/gh/erc-dharma/project-documentation@master/stylesheets/criticalEditions/loader.js"></script></body>
+      </footer><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script><script src="https://cdn.jsdelivr.net/gh/erc-dharma/project-documentation@latest/stylesheets/criticalEditions/loader.js"></script></body>
 </html>
