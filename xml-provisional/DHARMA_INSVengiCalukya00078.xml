@@ -55,7 +55,7 @@
                   <handDesc>
                     <p>Halantas. Final T (e.g. l13, l18) is a regular ta with just a wiggly tail (upward and to the right) instead of a V-shaped headmark. Final N (e.g. l16, l43) is a much reduced and simplified na without a headmark, while in l46 it is an extremely simplified and reduced na with a wiggly tail. In l46, ka is erroneously inscribed instead of final K, and l47 has ta instead of final T.</p>
                     <p>Original punctuation marks are simple straight vertical, generally slightly shorter than a character body is tall; occasionally very short. The opening symbol consists of two concentric circles; the outer circle has four wavy appendages in the cardinal directions, and four dots spaced in the intercardinals.</p>
-                    <p>Other palaeographic observations. Anusvāras are placed at median height after the character to which they belong. They may be moved to the next line (l27) or across a binding hole (l37). Vowel markers are generally just small extensions, outward and down, on the left, right or both sides, of the V-shaped headmark, when such a headmark exists in a consonant. Dependent au, when distinguished from o, has a taller right hump (e.g. l25, l26, l32; see also o corrected to au in line 7). Subscript consonants are as a rule simplified, and are often ambiguous outside context, e.g. ṣṣa looks like ṣva.
+                    <p>Other palaeographic observations. Anusvāras are placed at median height after the character to which they belong. They may be moved to the next line (l27) or across a binding hole (l37). Vowel markers are generally just small extensions, outward and down, on the left, right or both sides, of the V-shaped headmark, when such a headmark exists in a consonant. Dependent au, when distinguished from o, has a taller right hump (e.g. l25, l26, l32; see also o corrected to au in line 7). Subscript consonants are as a rule simplified, and are often ambiguous outside context, e.g. ṣṣa looks like ṣva. It seems that occasionally (lines 77, 78, 92, 96), a combination of short <foreign>u</foreign> and <foreign>ā</foreign> (attached to the headmark, not to the end of the <foreign>u</foreign> marker) is used to represent long <foreign>ū</foreign>. (But compare the properly written <foreign>kūṁdavā</foreign> in line 61.) Since this double <foreign>uā</foreign> marker is not a plausible scribal mistake, it is probably a deliberately employed alternate notation; nonetheless, I mark it up as erroneous usage.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -398,15 +398,53 @@ n="89" break="no"/>taṁ</l>
 n="90"/>dvija-varair yyaṁ vipra-kalpadr<choice><sic>a</sic><corr>u</corr></choice>maṁ|</l>
 </lg>
 <lg n="31" met="śārdūlavikrīḍita">
-<l n="a">yad-ge<surplus>hā</surplus>haṁ suciraṁ vibhāti paratāṁ puṇyair vvaṭ<choice><sic>u</sic><corr>ū</corr></choice>nāṁ pa
+<l n="a" enjamb="yes">yad-ge<surplus>hā</surplus>haṁ suciraṁ vibhāti paratāṁ puṇyair vvaṭ<choice><sic>u</sic><corr>ū</corr></choice>nāṁ pa<lb 
+n="91" break="no"/>ṭu</l>
+<l n="b">-vyāv<choice><sic>a</sic><corr>r̥</corr></choice>ttyāvirataṁ kramāt krama-pade sāmarthya-ju<choice><orig><choice><sic>gh-g</sic><corr>g-gh</corr></choice></orig><corr>ḍ-gh</corr></choice>oṣaṇais</l>
+<l n="c" enjamb="yes">sāy<choice><sic>o</sic><corr>a</corr></choice>ṁ-prātar upāhitaṁ hu<lb 
+n="92" break="no"/>ti-hr̥ta-s<unclear>v</unclear>āhā-priya-proccalad</l>
+<l n="d">-<supplied reason="omitted">d</supplied>ām<unclear>ai</unclear>ś cāpi samantataḥ kali-malaṁ protsārayad <supplied reason="omitted">d</supplied><choice><sic><unclear>u</unclear>ā</sic><corr>ū</corr></choice>rataḥ|</l>
+</lg>
+<p><pb 
 
-
-
-
-
-
-
-</l></lg>
+n="4v"/><lb 
+n="93"/>tasm<choice><sic>e</sic><corr>ai</corr></choice> 
+<list>
+<item>samasta-janatā-viśeṣa-guṇā<surplus>ṁ</surplus>ya,</item>
+<item>rai-suta<unclear>r</unclear>ppita-mahīdeva-deva-gaṇāya,</item>
+<item>viprānva<lb 
+n="94" break="no"/>yābdhi-śaśabhr̥t-pr<choice><sic>e</sic><corr>a</corr></choice>ti<choice><orig><unclear reason="eccentric_ductus">cha</unclear></orig><reg>ccha</reg></choice>ndāya<supplied reason="omitted">,</supplied></item>
+<item>vidvaj-janā<supplied reason="omitted">ṁ</supplied>gīkr̥ta-viśrutānandāya,</item>
+<item>janm<choice><sic>i</sic><corr>a</corr></choice>-prabhr̥ti-gīta-vedārttha-ta<lb 
+n="95" break="no"/><orig>tv</orig>āya,</item>
+<item>san-mano-vasati-vāstavyātma-sa<orig>tv</orig>āya,</item>
+<item>laṁbhita-gurutva-parilālita-caritrāya,</item>
+<item>śuṁbhita-ma<lb 
+n="96" break="no"/>ti-s<unclear>th</unclear>a<unclear reason="eccentric_ductus">g</unclear>ita-jīva-bhr̥<unclear reason="eccentric_ductus">gu</unclear>-putrāya,</item>
+<item>siddha-nija-nātha-kr̥ti-sevita-manīṣāya|</item>
+<item>śud<choice><sic>th</sic><corr>dh</corr></choice>a-mati-d<choice><sic>uā</sic><corr>ū</corr></choice>ṣita-sama<lb 
+n="97" break="no"/>sta-jana-doṣāya<supplied reason="omitted">,</supplied></item>
+<item>santat-ārādhita-nija-svāmi-pādāya,</item>
+<item>cintita-mana<supplied reason="omitted">ḥ</supplied>stha-sukhadābhūta-supādāya,</item>
+<item>ho<lb n="98" break="no"/>ma-<unclear reason="eccentric_ductus">dhū</unclear>ma-vinirggatāmita-kalaṁkāya,</item>
+<item>dhīmat-pragīta-rucira-sthira-guṇāṁkāya|</item>
+<item>sakala-m<subst><del>ā</del><add place="overstrike">u</add></subst>ni-gaṇa-nutāpa<lb 
+n="99" break="no"/>staṁba-sūtrāya|</item>
+<item>ta<space type="binding-hole"/>tra saṁgīta-bhāradvāja-gotrāya,</item>
+<item>sapta-tantu-kr̥ta-yūpa-staṁbha-śobhāya,</item>
+<item><lb 
+n="100"/>saptāśva-rūpa-sa<space type="binding-hole"/>dr̥śātma-tanu-lābhāya,</item>
+<item>nitya-janatocita-susatya-guṇa-yuktāya,</item>
+<item>paty-a<lb 
+n="101" break="no"/>bhi<add place="inline">la</add>ṣita-kā<choice><sic>yū</sic><corr>ryya</corr></choice>-ni<space type="binding-hole"/><choice><orig>ḥ</orig><reg>ṣ</reg></choice>patti-saktāya,</item>
+<item>parama-puruṣārttha-saṁpādana-paṭiṣṭhāya,</item>
+<item>parame<unclear>ś</unclear>vara-sma<lb 
+n="102" break="no"/>raṇa-pālana-variṣṭhāya,</item>
+<item>sakalārttha-ś<choice><sic>o</sic><corr>ā</corr></choice>stra-pariniścita-vi<choice><sic>ṇ</sic><corr>n</corr></choice>odāy<choice><sic>e</sic><corr>a</corr></choice>,</item>
+<item>sukumāratā<choice><sic>v</sic><corr>dh</corr></choice>ika-saroja-nibha<lb n="103" break="no"/>pādāya,</item>
+</list>
+@@@
+</p>
 <pb 
 
 n="5v"/>
@@ -800,14 +838,6 @@ n="5v"/>
         <lem>guddavādi-</lem>
         <rdg source="bib:Fleet1885_01">guddavā<choice><sic>d</sic><corr>ḍ</corr></choice>i-</rdg>
       </app>
-      <app loc="77">
-        <lem>rāṣṭrak<choice><sic>uā</sic><corr>ū</corr></choice>ṭa-</lem>
-        <note>As Fleet also indicates, <foreign>k</foreign> has a short <foreign>u</foreign> and an <foreign>ā</foreign>. Compare <foreign>samāhūya</foreign> in the next line, and the properly written <foreign>kūṁdavā</foreign> in line 61. However, the double <foreign>uā</foreign> marker is not a plausible scribal mistake; so can this be a use of the <foreign>ā</foreign> as a length marker?</note>
-      </app>
-      <app loc="77">
-        <lem>samāh<choice><sic>uā</sic><corr>ū</corr></choice>ya</lem>
-        <note>Compare <foreign>rāṣṭrakūṭa</foreign> in the previous line.</note>
-      </app>
       <app loc="78">
         <lem>ā<lb n="79" break="no"/>dhyak<unclear>ṣ</unclear>am</lem>
         <rdg source="bib:Fleet1885_01">ā<lb n="79" break="no"/>dhyakṣ<choice><sic>am</sic><corr>ān</corr></choice></rdg>
@@ -855,6 +885,85 @@ n="5v"/>
       <app loc="89">
         <lem>s<choice><sic>o</sic><corr>e</corr></choice>vitvā</lem>
         <rdg source="bib:Fleet1885_01">sovitvā</rdg>
+      </app>
+      <app loc="91">
+        <lem>-vyāv<choice><sic>a</sic><corr>r̥</corr></choice>ttyā</lem>
+        <rdg source="bib:Fleet1885_01">-vyav<choice><sic>a</sic><corr>r̥</corr></choice>ttyā</rdg>
+        <note>Probably a typo in Fleet.</note>
+      </app>
+      <app loc="91">
+        <lem>krama-</lem>
+        <rdg source="bib:Fleet1885_01">kṣama-</rdg>
+      </app>
+      <app loc="91">
+        <lem>-ju<choice><orig><choice><sic>gh-g</sic><corr>g-gh</corr></choice></orig><corr>ḍ-gh</corr></choice>oṣaṇais</lem>
+        <note>Fleet does not comment on this word. The reading is clear. I assume that <foreign>gh-g</foreign> erroneously stands for <foreign>g-gh</foreign>, which in turn is non-standard sandhi for <foreign>ḍ-gh</foreign>.</note>
+      </app>
+      <app loc="92">
+        <lem>-<supplied reason="omitted">d</supplied>ām<unclear>ai</unclear>ś</lem>
+        <rdg source="bib:Fleet1885_01">-dāmaiś</rdg>
+        <note>I see no subscript <foreign>d</foreign> (compare <foreign>dūrataḥ</foreign> later in the line), and if the lower component of <foreign>ai</foreign> is present, it is mostly lost in the crease at the rim of the plate.</note>
+      </app>
+      <app loc="92">
+        <lem><supplied reason="omitted">d</supplied><choice><sic><unclear>u</unclear>ā</sic><corr>ū</corr></choice>rataḥ</lem>
+        <note>Fleet is probably correct in reading a combined <foreign>u</foreign> and <foreign>ā</foreign> here (compare lines 77 and 78), but the <foreign>u</foreign> marker is not visible at all in his estampage and very uncertain in Elliot's rubbings.</note>
+      </app>
+      <app loc="93">
+        <lem>tasm<choice><sic>e</sic><corr>ai</corr></choice></lem>
+        <rdg source="bib:Fleet1885_01">tasmai</rdg>
+      </app>
+      <app loc="93">
+        <lem>samasta-</lem>
+        <note>Fleet comments that <q>This passage is <foreign>Gadya</foreign>, or rhythmical and alliterative prose.</q> It seems to me that with end-rhymes and initial or second-syllable alliteration for every pair of lines, coupled with almost fully consistent punctuation, the passage must be some kind of verse. I am not sure whether <foreign>tasmai</foreign> is part of the verse, but my intuition is that it is not.</note>
+      </app>
+      <app loc="93">
+        <lem>-viśeṣa-guṇā<surplus>ṁ</surplus>ya</lem>
+        <rdg source="bib:Fleet1885_01">-viśeṣa<surplus>sa</surplus>ṇāya</rdg>
+        <note>Here and several more times in the following lines, <foreign>gu</foreign> looks almost identical to <foreign>sa</foreign>. Apart from the fact that the text is hard to interpret with <foreign>sa</foreign>, it seems to me that instances of <foreign>gu</foreign> do have a small notch in the line where the right leg of <foreign>g</foreign> joins the <foreign>u</foreign> marker, whereas the upward bend of the right leg of <foreign>sa</foreign> is normally a smooth curve (though a similar notch is occasionally present).</note>
+      </app>
+      <app loc="94">
+        <lem>-pr<choice><sic>e</sic><corr>a</corr></choice>ti<choice><orig><unclear reason="eccentric_ductus">cha</unclear></orig><reg>ccha</reg></choice>ndāya</lem>
+        <rdg source="bib:Fleet1885_01">-pr<choice><sic>e</sic><corr>a</corr></choice>ticand<supplied reason="omitted">r</supplied>āya</rdg>
+        <note>The character Fleet reads as <foreign>ca</foreign> is markedly different from <foreign>ca</foreign> earlier on, as well as from that in line 95 (which, too, is different from earlier <foreign>ca</foreign>-s, as its headmark is attached to the right-hand component of the body and thus looks much like <foreign>bha</foreign>). I am quite certain it was intended for <foreign>cha</foreign>, which in turn is non-standard spelling for <foreign>ccha</foreign>, yielding without emendation a word that fits the context better than Fleet's emended reading and rhymes better with <foreign>ānandāya</foreign>.</note>
+      </app>
+      <app loc="95">
+        <lem>-gurutva-</lem>
+        <rdg source="bib:Fleet1885_01">-sara<supplied reason="omitted">la</supplied>tva-</rdg>
+        <note>The second character is definitely <foreign>ru</foreign>, not <foreign>ra</foreign>, so  the first must be <foreign>gu</foreign>. See also line 93 above.</note>
+      </app>
+      <app loc="96">
+        <lem>-s<unclear>th</unclear>a<unclear reason="eccentric_ductus">g</unclear>ita-</lem>
+        <rdg source="bib:Fleet1885_01">-svasita-</rdg>
+        <note>There is an extra stroke on the right-hand side of <foreign>gi</foreign> that makes it resemble <foreign>si</foreign>, but since the subscript <foreign>th</foreign> of <foreign>stha</foreign> is quite clear in Elliot's BnF rubbing (though not in Fleet's estampage), I am confident of my reading.</note>
+      </app>
+      <app loc="96">
+        <lem>-bhr̥<unclear reason="eccentric_ductus">gu</unclear>-</lem>
+        <rdg source="bib:Fleet1885_01">-bhr̥<choice><sic>s</sic><corr>ś</corr></choice>a-</rdg>
+        <note>See also lines 93 and 95 above.</note>
+      </app>
+      <app loc="98">
+        <lem>-guṇāṁkāya</lem>
+        <rdg source="bib:Fleet1885_01">s<supplied reason="omitted">v</supplied>a<choice><sic>ṇ</sic><corr>n</corr></choice>ā<supplied reason="omitted">mā</supplied>ṁkāya</rdg>
+        <note>See also lines 93, 95 and 96 above.</note>
+      </app>
+      <app loc="98">
+        <lem>-m<subst><del>ā</del><add place="overstrike">u</add></subst>ni-</lem>
+        <rdg source="bib:Fleet1885_01">-muni-</rdg>
+        <note>The text looks like <foreign>māni</foreign>, but has probably been corrected to <foreign>muni</foreign>, as read by Fleet.</note>
+      </app>
+      <app loc="98">
+        <lem>-bhāradvāja-</lem>
+        <rdg source="bib:Fleet1885_01">-bhāra<surplus>ṁ</surplus>dvāja-</rdg>
+        <note>There is definitely a dot next to <foreign>ra</foreign>, but it is smaller and closer to the character than an <foreign>anusvāra</foreign> would be, so I assume it is random noise.</note>
+      </app>
+      <app loc="100">
+        <lem>-guṇa-</lem>
+        <rdg source="bib:Fleet1885_01">-saṇa-</rdg>
+        <note>See also lines 93, 95, 96 and 98 above.</note>
+      </app>
+      <app loc="102">
+        <lem>vi<choice><sic>ṇ</sic><corr>n</corr></choice>odāy<choice><sic>e</sic><corr>a</corr></choice></lem>
+        <rdg source="bib:Fleet1885_01">vinodāy<choice><sic>e</sic><corr>a</corr></choice></rdg>
       </app>
 
       
