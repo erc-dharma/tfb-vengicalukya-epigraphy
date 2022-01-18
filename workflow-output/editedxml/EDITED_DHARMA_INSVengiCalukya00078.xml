@@ -187,7 +187,7 @@
 </lg>
 <lg n="13" met="anuṣṭubh">
 <l n="a">vimalāditya-devākhyas</l>
-<l n="b">tata<subst><del><unclear cert="low">syā</unclear></del><add place="overstrike"><unclear reason="eccentric ductus">s tasyā</unclear></add></subst>nujo da<choice><sic>th</sic><corr>dh</corr></choice>āT<g type="comma">.</g></l>
+<l n="b">tata<subst><del><unclear cert="low">syā</unclear></del><add place="overstrike"><unclear reason="eccentric ductus">s tasyā</unclear></add></subst>nujo <supplied reason="subaudible">’</supplied>da<choice><sic>th</sic><corr>dh</corr></choice>āT<g type="comma">.</g></l>
 <l n="c">mahi-maṇḍala-sā<choice><orig><supplied reason="omitted">ṁ</supplied>b</orig><reg>m</reg></choice>rājya<unclear>ṁ</unclear></l>
 <l n="d">vijitya vi<unclear>j</unclear><choice><sic><unclear>ā</unclear></sic><corr>a</corr></choice><lb n="53" break="no"/>y<choice><sic>i</sic><corr>ī</corr></choice> ripūN|</l>
 </lg>
@@ -254,7 +254,7 @@
 <lg n="24" met="sragdharā">
 <l n="a">ś<choice><sic>o</sic><corr>au</corr></choice>ryy<choice><sic>o</sic><corr>au</corr></choice>dāryyābhimānā<lb n="70" break="no"/><choice><sic>p</sic><corr>d</corr></choice>y-agaṇita-guṇa<space type="binding-hole"/>-janmānuraktā mahimnā</l>
 <l n="b">prakhyātenāti-kr̥ṣṇā śaśadhara-dhavalā saj-janā<lb n="71" break="no"/>nāṁ gaṇena</l>
-<l n="c">pītā <space type="binding-hole"/> prītena karṇṇāṁjalibhir abhinavā <unclear>bhā</unclear>ti dig-devatānān nānā-varṇṇ<choice><sic>a</sic><corr>ā</corr></choice>ṁ vi<lb n="72" break="no"/>tāna-śriyam ata<space type="binding-hole"/>nutarā tanvatī yasya kīrttiḥ||</l>
+<l n="c">pītā <space type="binding-hole"/> prītena karṇṇāṁjalibhir abhinavā <unclear reason="eccentric_ductus">bh</unclear>āti dig-devatānān nānā-varṇṇ<choice><sic>a</sic><corr>ā</corr></choice>ṁ vi<lb n="72" break="no"/>tāna-śriyam ata<space type="binding-hole"/>nutarā tanvatī yasya kīrttiḥ||</l>
 </lg>
 <lg n="25" met="śārdūlavikrīḍita">
 <l n="a">pitror vvaṁśa-gurū babhūvatur alaṁ<lb n="73"/>yasya s<choice><sic>p</sic><corr>ph</corr></choice>urat-tejasau</l>
@@ -619,6 +619,10 @@
         <rdg source="bib:Fleet1885_01">cālukya-</rdg>
         <note>The <foreign>ā</foreign> marker is clear in Fleet’s estampage, though it isn’t in Elliot’s BnF rubbing. Given its narrowness, it may be an incorrect correction in the original.</note>
       </app>
+      <app loc="50">
+        <lem>satye pratiṣṭhitā lokā</lem>
+        <note>Possibly citing the <title>Mahābhārata</title> 13,150.009d@020_0379, <foreign>satye pratiṣṭhitā lokā dharmaḥ satye pratiṣṭhitaḥ</foreign> or 05,043.019d*0266_09, <foreign>satyātmā bhava rājendra satye lokāḥ pratiṣṭhitāḥ</foreign>; or <title>Rāmāyaṇa</title> 2.101.010c, <foreign>tasmāt satyātmakaṃ rājyaṃ satye lokaḥ pratiṣṭhitaḥ</foreign>. Compare also <title>Aṅgirasasmrti</title>, 2.3.2, <foreign>bhūr bhuvaḥ svas trayo lokās te ‘pi satye pratiṣṭhitāḥ</foreign></note>
+      </app>
       <app loc="51">
         <lem>saty<unclear>a</unclear>-rāj<unclear>e</unclear></lem>
         <note>I accept Fleet’s reading because I see no other way to make sense of the text. Fleet prints the vowels as clear, but the estampages look rather like <foreign>satye rājo</foreign>, with some damage at the possible vowel mark of <foreign>je</foreign>.</note>
@@ -727,13 +731,13 @@
         <rdg source="bib:Fleet1885_01">rakṣaty avarggaṁ</rdg>
         <note>Fleet’s reading/interpretation is probably correct, but it requires emending a clearly present superfluous <foreign>r</foreign>.</note>
       </app>
-      <app loc="69">
-        <lem source="bib:Fleet1885_01">°ābhimānā<lb n="70" break="no"/><choice><sic>p</sic><corr>d</corr></choice>y-</lem>
-        <note>Fleet’s emendation is probably warranted.</note>
+      <app loc="71">
+        <lem><unclear reason="eccentric_ductus">bh</unclear>āti</lem>
+        <note>Fleet prints <foreign>bh</foreign> as clear, but it is far from unambiguous. It may have been corrected from something else, perhaps <foreign>ś</foreign>.</note>
       </app>
       <app loc="71">
         <lem>dig-devatānān</lem>
-        <note>As in line 48 above (but not noted here by Fleet), <foreign>g</foreign> is inscribed on top of <foreign>d</foreign>, so that it looks like an <foreign>i</foreign> marker except that there is an additional <foreign>e</foreign> marker above. The <foreign>g</foreign> does not seem to be a subsequent addition.</note>
+        <note>As in line 48 above (but not noted here by Fleet), <foreign>g</foreign> is inscribed on top of <foreign>d</foreign>, so that it looks like an <foreign>i</foreign> marker except that there is an additional <foreign>e</foreign> marker above. The <foreign>g</foreign> does not seem to be a subsequent addition, but perhaps <foreign>di</foreign> was initially engraved and then re-conceived into <foreign>gde</foreign>.</note>
       </app>
       <app loc="75">
         <lem>-mahārāj<choice><sic>a</sic><corr>ā</corr></choice>dhirāja-</lem>
