@@ -367,7 +367,10 @@
 <l n="c"><supplied reason="lost" cert="low">A</supplied><lb n="121" break="no"/>stādrer aparāt sadāsta-vidhinā <seg met="++-++-+"><gap reason="lost" quantity="7" unit="character"/></seg></l>
 <l n="d"><seg met="+++--+-+---+++-++-+"><gap reason="lost" quantity="19" unit="character"/></seg></l>
 </lg>
-<p><supplied reason="lost" cert="low">Ājñaptiḥ kaṭake</supplied><lb n="122" break="no"/>śo rāciya-pedderi <unclear cert="low">bh</unclear>ī<supplied reason="lost" cert="low">mana-bhaṭṭa-sutaḥ</supplied> <gap reason="lost" extent="unknown" unit="character"/></p>
+<lg n="44" met="āryāgīti">
+<l n="ab"><supplied reason="lost" cert="low">Ājñaptiḥ kaṭake</supplied><lb n="122" break="no"/>śo rāciya-pedderi-<unclear cert="low">bh</unclear>ī<supplied reason="lost" cert="low">bhīmana-nāma-tanūjaḥ</supplied></l>
+<l n="cd"><gap reason="lost" quantity="20" unit="character" precision="low"/></l>
+</lg>
 <pb n="5v"/>
 
 </div>
@@ -853,9 +856,9 @@
         <note>Given the extant fragments, I am reasonably certain that we have a <foreign>śārdūlavikrīḍita</foreign> stanza here, but I cannot establish this beyond doubt. The required number of syllables is only a hair more than that required in the preceding lines for the known <foreign>anuṣṭubh</foreign> stanzas, and the last five lines of the plate do appear to be written in smaller and tighter script than the rest. The first character in line 120 does not seem to be <foreign>pā</foreign>. It may perhaps be <foreign>pe</foreign> or <foreign>po</foreign>, but if I am correct that the text is metrical, then these are inappropriate. The next one does look like <foreign>mā</foreign> marker, but there may be a second stroke to the left of the headmark, making the vowel <foreign>o</foreign>. The reading <foreign>mā</foreign> is feasible and plausible, but I believe <foreign>mo</foreign> is slightly more likely, because I cannot think of a relevant word with <foreign>°pamādhikatva</foreign>.</note>
       </app>
       <app loc="121">
-        <lem><supplied reason="lost" cert="low">Ājñaptiḥ kaṭake</supplied><lb n="122" break="no"/>śo rāciya-pedderi <unclear cert="low">bh</unclear>ī<supplied reason="lost" cert="low">mana-bhaṭṭa-sutaḥ</supplied></lem>
+        <lem><supplied reason="lost" cert="low">Ājñaptiḥ kaṭake</supplied><lb n="122" break="no"/>śo rāciya-pedderi-<unclear cert="low">bh</unclear>ī<supplied reason="lost" cert="low">bhīmana-nāma-tanūjaḥ</supplied></lem>
         <rdg source="bib:Venkataramanayya1951-1952_01"><gap reason="lost" extent="unknown" unit="character"/><lb n="122" break="no"/>śo rāciya-pedderi <unclear cert="low">bh</unclear>ī<gap reason="lost" extent="unknown" unit="character"/></rdg>
-        <note>I restore conjecturally. This passage may well have been a stanza in <foreign>āryā</foreign> or a related metre. Compare stanza XXXVII, in <foreign>āryāgīti</foreign>, of the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref>, <q><foreign>Ājñaptir nr̥pakāmo rāciya-pedderi-tanaya-bhīmana-bhaṭṭaḥ karttaiṣāṁ kāvyānām atha śāsana-lekhakaś ca jontācāryyaḥ</foreign></q>. See also the note to the translation.</note>
+        <note>I restore conjecturally on the basis of the concluding stanza of the <ref target="DHARMA_INSVengiCalukya00078.xml">Korumelli grant</ref>. The present one may have been composed in a different moraic metre, but the meaning was quite certainly identical to that restored here. Compare also stanza XXXVII, also <foreign>āryāgīti</foreign>, of the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref>, where the composer is the same person. See also the note to the translation.</note>
       </app>
       
       
@@ -925,8 +928,7 @@
 <p rend="stanza" n="41">“<supplied reason="lost">Each in your own time, you shall respect this</supplied> framework of legality <supplied reason="lost">that is universally applicable</supplied> to kings!”—<supplied reason="subaudible">thus</supplied> Rāmabhadra begs all these future kings over <supplied reason="lost">and over again.</supplied></p>
 <p rend="stanza" n="42"><supplied reason="lost">Hereby I offer my respectful obeisance <supplied reason="explanation"><foreign>añjali</foreign></supplied> to <supplied reason="subaudible">all</supplied> future</supplied> kings <supplied reason="lost">on earth, <supplied reason="subaudible">whether</supplied> born in my lineage or a different royal lineage</supplied>, who <supplied reason="lost">with minds averted from sin</supplied> observe <supplied reason="lost">this ruling <supplied reason="explanation"><foreign>dharma</foreign></supplied> of mine in its integrity.</supplied></p>
 <p rend="stanza" n="43">His Majesty Rājarāja, <seg cert="low">comparable to</seg> <gap reason="lost"/>, <seg cert="low">by the convention of superiority</seg> <gap reason="lost"/> from the western Sunset Mountain, <seg cert="low">always by the convention of setting</seg><note>This stanza is too fragmentarily preserved for any coherent interpretation, and I know of no parallels. The translations of the surviving fragments are offered as suggestions, but depending on the context, their meaning may have been quite different.</note></p>
-<p n="121-122"><supplied reason="lost">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is the chamberlain <supplied reason="explanation"><foreign>kaṭakeśa</foreign></supplied></supplied>. Rāciya Pedderi, <supplied reason="lost">son of</supplied> Bhī<supplied reason="lost">mana Bhaṭṭa is the author of the poetry</supplied>
-<gap reason="lost"/><note>Most of this passage is lost, and my restoration is conjectural; see also the apparatus to line 121. The composer of the poetry in the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref> is a Bhīmana Bhaṭṭa, son of Rāciya Pedderi; the present composer may have been the son of that man, with the same name as his grandfather.</note>
+<p n="121-122"><supplied reason="lost">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is the Castellan <supplied reason="explanation"><foreign>kaṭakeśa</foreign></supplied></supplied>, Rāciya Pedderi<supplied reason="lost">’s son named Bhīmana</supplied>. <gap reason="lost"/><note>Most of this stanza is lost, and my restoration is conjectural; see also the apparatus to line 121.</note>
 </p>
   </div>  
 </div>
