@@ -54,11 +54,13 @@
                <physDesc>
                   <handDesc>
 
-                    <p>Halantas. A potential final M in l25 dattaM looks like a modern Bengali anusvāra (a small circle and a slanted stroke below it), while another in line 43 appears to be just a small circle, possibly with a slanted line above and to the right of it. Both of these may simply be large anusvāras with some superfluous strokes or damage. Final D in line 39 (if correctly read) is a da with a sinuous tail resembling a repha.</p>
+                    <summary><p>Halantas. A potential final M in l25 dattaM looks like a modern Bengali anusvāra (a small circle and a slanted stroke below it), while another in line 43 appears to be just a small circle, possibly with a slanted line above and to the right of it. Both of these may simply be large anusvāras with some superfluous strokes or damage. Final D in line 39 (if correctly read) is a da with a sinuous tail resembling a repha.</p>
                     <p>Original punctuation marks. </p>
                     <p>Other palaeographic observations. Anusvāra is above or, mostly when constrained by space, to the right of the character to which it belongs, but it may also be at median height to the right (l14, saṁghānvaye). Dependent au is clearly distinguished from o (e.g. l2 kauśikī), but o is also used in place of au (e.g. l6 potraḥ).
-                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
-
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p></summary>
+                    <handNote xml:id="VengiCalukya00080_hand1">This is the hand responsible for most of the document with large, slightly clumsily formed characters and slightly uneven lines.</handNote>
+                    <handNote xml:id="VengiCalukya00080_hand2">The secondary hand, possibly of the same scribe in more haste, is responsible for the last three lines. Here, characters are much smaller and the ductus and line arrangement is more uneven.</handNote>
+                    
 <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
@@ -114,7 +116,7 @@ n="1"/>śrī-viṣamasiddhi</ab>
 n="1r"/><p><pb 
 
 n="1v"/><lb 
-n="1"/>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-<supplied reason="omitted">māna</supplied>vya-sago<lb 
+n="1"/><handShift new="#VengiCalukya00080_hand1"/>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-<supplied reason="omitted">māna</supplied>vya-sago<lb 
 n="2" break="no"/>tr<unclear>ā</unclear>ṇāṁ hārīti-putrāṇāṁ kauśikī-vara-pras<choice><sic>a</sic><corr>ā</corr></choice>da-labdha-rājyānā<unclear>ṁ</unclear><lb 
 n="3"/>svāmi-mahāsena-pādānudhy<unclear>ā</unclear>tā<add place="inline">nāṁ</add> m<choice><sic>a</sic><corr>ā</corr></choice>t<choice><sic>ra</sic><corr>r̥</corr></choice>-gaṇa-paripālit<choice><sic>a</sic><corr>ā</corr></choice>nā<unclear>ṁ</unclear><lb 
 n="4"/>bhagavan-nā<space type="binding-hole"/>rā<unclear>ya</unclear><choice><sic>n</sic><corr>ṇ</corr></choice>a-prasāda-samāsādita-vara-var<choice><sic>a</sic><corr>ā</corr></choice>ha-lā<lb 
@@ -128,12 +130,12 @@ n="9" break="no"/>-yugalaḥ parama-brahmaṇya<supplied reason="omitted">ḥ</s
 n="10"/>śrī-viṣṇuvarddhana-mahārāj<surplus>y</surplus>aḥ sarvv<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">n ā</supplied>jñāpayati</p>
 <p>vidita<lb 
 n="11" break="no"/>m astu vo <space type="binding-hole"/> <supplied reason="subaudible">’</supplied><choice><sic>svādita</sic><corr>smābhiḥ</corr></choice> mā<supplied reason="omitted">r</supplied>ggaśīrṣa-māsa-bahula<lb 
-n="12" break="no"/>-dvādaśī-pūrvāhna param<choice><sic>a</sic><corr>e</corr></choice>śva<choice><unclear>ra</unclear><unclear>Ī</unclear></choice>ś <choice><unclear>c</unclear><unclear>v</unclear></choice>a <sic>padanvayālaplya</sic><lb 
-n="13"/><sic>ta <unclear reason="eccentric_ductus">I</unclear>ty acita</sic> <sic>thapaladeśa-tuṣṭya-hr̥dayadai</sic> śr<choice><sic>i</sic><corr>ī</corr></choice>-kavu<lb 
+n="12" break="no"/>-dvādaśī-pūrvāhna <sic>paramaśva<choice><unclear>ra</unclear><unclear>Ī</unclear></choice>ś <choice><unclear>c</unclear><unclear>v</unclear></choice>a padanvayālaplya</sic><lb 
+n="13" break="no"/><sic>ta</sic> <unclear reason="eccentric_ductus">I</unclear>ty <choice><sic>a</sic><corr>u</corr></choice>cita <sic>thapaladeśa-tuṣṭya-hr̥dayadai</sic> śr<choice><sic>i</sic><corr>ī</corr></choice>-kavu<lb 
 n="14" break="no"/>ṟūri gaṇa-saṁghānvaye surasta-gaṇe śr<choice><sic>i</sic><corr>ī</corr></choice>-c<choice><sic>ā</sic><corr>a</corr></choice>ndr<choice><sic>ā</sic><corr>a</corr></choice>prabhā<pb 
 
 n="2v" break="no"/><lb 
-n="15" break="no"/>cāryya-praśiṣya-ravicandrācāryya-praśiṣya-r<choice><sic>ā</sic><corr>a</corr></choice>vinandy-<unclear>ā</unclear><lb 
+n="15" break="no"/>cāryya-praśiṣya-ravicandrācāryya-praśiṣya-rāvinandy-<unclear>ā</unclear><lb 
 n="16" break="no"/>cāryya-kamalabhadrācāryya-praśiṣya-devanandy-ācā<lb 
 n="17" break="no"/>ryyāyāṁ Aṣṭāṁga-divya-jñāna-vaśīkr̥tāśeṣa-nr̥pa<lb 
 n="18" break="no"/>ti-maṇḍa<space type="binding-hole"/>la-śr<choice><sic>i</sic><corr>ī</corr></choice>mat-kālibhadrācāryyāyāṁ śr<choice><sic>i</sic><corr>ī</corr></choice>ma<lb 
@@ -148,14 +150,15 @@ n="24"/>kr̥tvā sarva-kara-va<choice><sic>ṁ<unclear cert="low">r</unclear>ja<
 n="25" break="no"/>-<supplied reason="subaudible">’</supplied>bhivr̥ddha<space type="binding-hole"/>ye datta<unclear>M</unclear> Asmābhi<supplied reason="omitted">ḥ</supplied></p>
 <p>Asya grāma-sīma<lb 
 n="26" break="no"/>s<choice><sic>i</sic><corr>ī</corr></choice>māni<supplied reason="subaudible">.</supplied> p<choice><sic>u</sic><corr>ū</corr></choice>rvvataḥ Aruvalapallama-gataḥ<supplied reason="subaudible">.</supplied> da<lb 
-n="27" break="no"/>kṣiṇataḥ kusuma-guṇḍa-p<choice><orig>ri</orig><reg>r̥</reg></choice>ṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>ata<supplied reason="omitted">ḥ</supplied> cintakād ṟāyirā<lb 
+n="27" break="no"/>kṣiṇataḥ kusuma-guṇḍa-p<choice><orig>ri</orig><reg>r̥</reg></choice>ṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>ata<supplied reason="omitted">ḥ</supplied> cintakād ṟāyi-rā<lb 
 n="28" break="no"/>vi-guṇḍa-sīmāvadhi-gataḥ<supplied reason="subaudible">.</supplied> paścimataḥ mroṁguṟa<pb 
 
 n="3v" break="no"/><lb 
-n="29" break="no"/>yi-sīmāvadhi-gataḥ<supplied reason="subaudible">.</supplied> Uttarataḥ rāceṟuvula<lb 
-n="30"/>cillo<unclear reason="eccentric_ductus">ḻka</unclear>-pallavu-<choice><sic>ś</sic><corr>s</corr></choice>īmāvadhi-gataḥ<supplied reason="subaudible">.</supplied> Evaṁ catu<lb 
-n="31" break="no"/>r-avadhi-paryyantaṁ<supplied reason="subaudible">.</supplied> Asya grāma-sīmāni vi<surplus>ddi</surplus>dikṣu <lb 
-n="32"/>sīmāni<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> <choice><sic>A</sic><corr>Ā</corr></choice>gneyataḥ viri-guṇḍa c<unclear>e</unclear>mro<unclear>vu</unclear><lb n="33" break="no"/>la-taṭāka<space type="binding-hole"/>s tūbhāmogaḍla<unclear cert="low" reason="eccentric_ductus">nū</unclear>yi Uñca-panna<lb 
+n="29" break="no"/>yi-sīmāvadhi-gataḥ<supplied reason="subaudible">.</supplied> Uttarataḥ <foreign xml:lang="tel-Latn">rāceṟuvula<lb 
+n="30"/>cillo<unclear reason="eccentric_ductus">ḻka</unclear>-pallavu</foreign>-<choice><sic>ś</sic><corr>s</corr></choice>īmāvadhi-gataḥ<supplied reason="subaudible">.</supplied> Evaṁ catu<lb 
+n="31" break="no"/>r-avadhi-paryyantaṁ</p>
+<p>Asya grāma-sīmāni vi<surplus>ddi</surplus>dikṣu <lb 
+n="32"/>sīmāni<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> <choice><sic>A</sic><corr>Ā</corr></choice>gneyataḥ viriṁguṇḍa c<unclear>a</unclear> mro<unclear>vu</unclear><lb n="33" break="no"/>la-taṭ<choice><sic>a</sic><corr>ā</corr></choice>ka<space type="binding-hole"/>s tūbhāmogaḍla<unclear cert="low" reason="eccentric_ductus">nū</unclear>yi Uñca-panna<lb 
 n="34" break="no"/>sa-sīmāvadhi-gataḥ<supplied reason="subaudible">.</supplied> nair<choice><orig>i</orig><reg>r̥</reg></choice>ti-di<surplus>ṁ</surplus>kṣu rāvadhi rāvi<lb 
 n="35" break="no"/>-guṇḍa-paścima-cāṭṟayi Elamañci-kuṭṟu-kallu-sī<pb 
 
@@ -203,8 +206,9 @@ n="50" break="no"/>nta-saṁbhūta<surplus>ṁ</surplus></l>
 n="51" break="no"/>jñapti Ayyana-mahādevī| śāsanāṁkitaṁ<lb 
 n="52"/>kubja-vi<space type="binding-hole"/>ṣṇ<unclear>u</unclear>va<supplied reason="omitted">r</supplied>ddhana-mahārājasya</p>
 <p><lb 
-n="53"/>g<choice><orig>r̥</orig><reg>r̥</reg></choice>ha-pari<space type="binding-hole"/>sūtra-pramāṇaṁ pū<unclear>r</unclear>vvataḥ pa<unclear>n</unclear>th<unclear>āḥ da</unclear>kṣi
-</p>
+n="53"/><handShift new="#VengiCalukya00080_hand1"/>g<choice><orig>r̥</orig><reg>r̥</reg></choice>ha-pari<space type="binding-hole"/>sūtra-pramāṇaṁ pū<unclear>r</unclear>vvataḥ pa<unclear>n</unclear>th<unclear>āḥ</unclear><supplied reason="subaudible">.</supplied> <unclear>da</unclear>kṣi<lb 
+n="54" break="no"/>ṇataḥ <unclear cert="low">n</unclear>āgula-pa<unclear cert="low">ṇḍu</unclear><supplied reason="subaudible">.</supplied> pa<unclear>śc</unclear>imataḥ laya<unclear>ṇaṁ</unclear><supplied reason="subaudible">.</supplied> Uttarataḥ <lb 
+n="55"/>koṇḍa lāya| <unclear>p</unclear>e<unclear>sa</unclear> ledu</p>
 
 </div>
 </div>
@@ -240,29 +244,19 @@ n="53"/>g<choice><orig>r̥</orig><reg>r̥</reg></choice>ha-pari<space type="bind
         <note>I am less then certain of my emendation, but fairly sure that previous scholars were mistaken in believing these characters to be a chronogram. See the commentary.</note>
       </app>
       <app loc="12">
-        <lem>param<choice><sic>a</sic><corr>e</corr></choice>śva<choice><unclear>ra</unclear><unclear>Ī</unclear></choice>ś <choice><unclear>c</unclear><unclear>v</unclear></choice>a</lem>
-        <rdg source="bib:Ramesam1945-1946_01">paramaśwa iśva</rdg>
-        <note>I emend tentatively on the assumption that the plate has <foreign>paramaśvaraśca</foreign> here. However, the second <foreign>ra</foreign> may indeed be <foreign>Ī</foreign> (though not <foreign>I</foreign>) if the pair of dots on its two sides are not accidental. There is a similar dot only on the left-hand side of the first <foreign>ra</foreign>, so I prefer to believe that here too, the two dots are not part of the script. See line 37 for a definite <foreign>Ī</foreign>. The subscript component of the second conjunct with <foreign>ś</foreign> is wider and more squarish than that of the first, so I believe the first is <foreign>v</foreign>, while the second is <foreign>c</foreign>. Both of these assumptions may be wrong.</note>
-      </app>
-      <app loc="12">
-        <lem><sic>padanvayālaplya</sic></lem>
-        <rdg source="bib:Ramesam1945-1946_01">padānvayāla</rdg>
-        <note>R completely ignores the last character in the line. The body <foreign>p</foreign> and subscript <foreign>y</foreign> are definite, and the only plausible interpretation of the squiggle to the left of the <foreign>y</foreign> is a subscript <foreign>l</foreign>. I am unable to interpret the text or to suggest a plausible improvement. The composer's intent may have involved the word <foreign>padānvaya</foreign>. Alternatively, <foreign>nva</foreign> may perhaps be a badly written <foreign>ntha</foreign>, with <foreign>padantha</foreign> being a poor spelling of <foreign>bhadanta</foreign>.</note>
-      </app>
-      <app loc="12">
-        <lem><sic>padanvayālaplya</sic></lem>
-        <rdg source="bib:Ramesam1945-1946_01">padānvayāla</rdg>
-        <note>R completely ignores the last character in the line. The body <foreign>p</foreign> and subscript <foreign>y</foreign> are definite, and the only plausible interpretation of the squiggle to the left of the <foreign>y</foreign> is a subscript <foreign>l</foreign>. I am unable to interpret the text or to suggest a plausible improvement. The composer's intent may have involved the word <foreign>padānvaya</foreign>. Alternatively, <foreign>nva</foreign> may perhaps be a badly written <foreign>ntha</foreign>, with <foreign>padantha</foreign> being a poor spelling of <foreign>bhadanta</foreign>.</note>
+        <lem><sic>paramaśva<choice><unclear>ra</unclear><unclear>Ī</unclear></choice>ś <choice><unclear>c</unclear><unclear>v</unclear></choice>a padanvayālaplya</sic><lb n="13" break="no"/>ta</lem>
+        <rdg source="bib:Ramesam1945-1946_01">paramaśwa iśva padānvayāla<lb n="13"/><sic>ta</sic></rdg>
+        <note>The second <foreign>ra</foreign> may indeed be <foreign>Ī</foreign> (though not <foreign>I</foreign>) if the pair of dots on its two sides are not accidental. There is a similar dot only on the left-hand side of the first <foreign>ra</foreign>, so I prefer to believe that here too, the two dots are not part of the script. See line 37 for a definite <foreign>Ī</foreign>. The subscript component of the second conjunct with <foreign>ś</foreign> is wider and more squarish than that of the first, so I believe the first is <foreign>v</foreign>, while the second is <foreign>c</foreign>. Both of these assumptions may be wrong. R completely ignores the last character in the line. The body <foreign>p</foreign> and subscript <foreign>y</foreign> are definite, and the only plausible interpretation of the squiggle to the left of the <foreign>y</foreign> is a subscript <foreign>l</foreign>. I think the composer's intent was most probably something like <foreign>pārameśvaraś ca pado ’nvayād ālabhyata</foreign>, but due to the uncertainty of the reading and the corruptness of the language, this is only a tentative suggestion.</note>
       </app>
       <app loc="13">
-        <lem><sic>ta <unclear reason="eccentric_ductus">I</unclear>ty acita</sic></lem>
-        <rdg source="bib:Ramesam1945-1946_01">ta na tvavitha</rdg>
-        <note>The second character looks like a figure 3 rotated 90 degrees counterclockwise, while I would expect initial <foreign>I</foreign> to be this shape with two dots below (compare line 36). It is patently not <foreign>na</foreign>; Ramesam may have intended <foreign>ṇa</foreign> for his reading, but that is also out of the question. The third character is unquestionably <foreign>tya</foreign>. The fourth is in my opinion <foreign>ci</foreign>, though R's <foreign>vi</foreign> cannot be excluded. If my reading <foreign>Ity</foreign> is correct, then the next word may be emended to <foreign>ucita</foreign>, but since I cannot reconstruct the context, this is uncertain.</note>
+        <lem><unclear reason="eccentric_ductus">I</unclear>ty <choice><sic>a</sic><corr>u</corr></choice>cita</lem>
+        <rdg source="bib:Ramesam1945-1946_01">na tvavitha</rdg>
+        <note>The first character looks like a figure 3 rotated 90 degrees counterclockwise, while I would expect initial <foreign>I</foreign> to be this shape with two dots below (compare line 36). It is patently not <foreign>na</foreign>; Ramesam may have intended <foreign>ṇa</foreign> for his reading, but that is also out of the question. The third character is unquestionably <foreign>tya</foreign>. The fourth is in my opinion <foreign>ci</foreign>, though R's <foreign>vi</foreign> cannot be excluded.</note>
       </app>
       <app loc="13">
         <lem><sic>thapaladeśa-tuṣṭya-hr̥dayadai</sic></lem>
         <rdg source="bib:Ramesam1945-1946_01">dhapaladesa thu hridaya da</rdg>
-        <note>Again, I cannot offer a confident improvement. The reading is quite clear; the first character is definitely <foreign>tha</foreign>, not <foreign>dha</foreign>; the second is a little narrower than expected (correction over a narrower character?) but definitely <foreign>pa</foreign>. I do not know why R ignores the clear <foreign>ṣṭya</foreign>, or the clear double vowel marker on the top left and lower left of the following <foreign>d</foreign>. I believe that the composer's intent probably involved <foreign>ādeśa-tuṣṭa-hr̥daya</foreign> (see line 10 for another superfluous subscript <foreign>y</foreign>). Perhaps <foreign>dharmmādeśa-</foreign> or <foreign>dhavalādeśa-</foreign> was meant.</note>
+        <note>I cannot offer a confident and full reconstruction improvement. The reading is quite clear; the first character is definitely <foreign>tha</foreign>, not <foreign>dha</foreign>; the second is a little narrower than expected (correction over a narrower character?) but definitely <foreign>pa</foreign>. I do not know why R ignores the clear <foreign>ṣṭya</foreign>, or the clear double vowel marker on the top left and lower left of the following <foreign>d</foreign>. I believe that the composer's intent involved <foreign>ādeśa-tuṣṭa-hr̥dayaiḥ</foreign> (see line 10 for another superfluous subscript <foreign>y</foreign>). Perhaps <foreign>dharmmādeśa-</foreign> or <foreign>dhavalādeśa-</foreign> was meant. The former is more likely, since the latter makes less sense, and <foreign>thapaladeśa</foreign> is a fairly plausible scribal mistake for a hypothetical <foreign>dharmma-Ādeśa</foreign>.</note>
       </app>
       <app loc="14">
         <lem>surasta-</lem>
@@ -314,8 +308,12 @@ n="53"/>g<choice><orig>r̥</orig><reg>r̥</reg></choice>ha-pari<space type="bind
         <note>I do not understand how R arrived at his reading. The character with <foreign>ll</foreign> has a clear <foreign>o</foreign> of two strokes, one at top right and another at bottom left (just like <foreign>mro</foreign> in l28). I am not certain about the next character. Its body looks like <foreign>ḻ</foreign> to me, but may have been intended for <foreign>ṟ</foreign> with an omitted or indistinct cross-stroke. Its subscript part is probably <foreign>ka</foreign>, but may be <foreign>ku</foreign>.</note>
       </app>
       <app loc="32">
-        <lem>c<unclear>e</unclear>mro<unclear>vu</unclear><lb n="33" break="no"/>la-</lem>
-        <note>R's edition is again blank for this word and the whole of line 33. In <foreign>ce</foreign>, the vowel marker may be a subsequent addition or random damage. The last character in line 32 may perhaps be <foreign>mu</foreign> or <foreign>vū</foreign> instead of <foreign>vu</foreign>.</note>
+        <lem>viriṁguṇḍa</lem>
+        <rdg source="bib:Ramesam1945-1946_01">virigunda</rdg>
+      </app>
+      <app loc="32">
+        <lem>c<unclear>a</unclear> mro<unclear>vu</unclear><lb n="33" break="no"/>la-</lem>
+        <note>R's edition is again blank for this word and the whole of line 33. The correct reading of <foreign>ca</foreign> may be <foreign>ce</foreign>, but the stroke that looks like a vowel marker is likely to be random damage, or perhaps a subsequent addition. The last character in line 32 may perhaps be <foreign>mu</foreign> or <foreign>vū</foreign> instead of <foreign>vu</foreign>.</note>
       </app>
       <app loc="33">
         <lem>tūbhāmogaḍla<unclear cert="low" reason="eccentric_ductus">nū</unclear>yi</lem>
@@ -397,6 +395,22 @@ n="53"/>g<choice><orig>r̥</orig><reg>r̥</reg></choice>ha-pari<space type="bind
       <app loc="53">
         <lem>pa<unclear>n</unclear>th<unclear>āḥ</unclear></lem>
         <rdg source="bib:Ramesam1945-1946_01">bandhah</rdg>
+      </app>
+      <app loc="54">
+        <lem><unclear cert="low">n</unclear>āgula-pa<unclear cert="low">ṇḍu</unclear></lem>
+        <rdg source="bib:Ramesam1945-1946_01">nasala bandhah</rdg>
+      </app>
+      <app loc="54">
+        <lem>laya<unclear>ṇaṁ</unclear></lem>
+        <rdg source="bib:Ramesam1945-1946_01">Ayanah</rdg>
+      </app>
+      <app loc="55">
+        <lem>koṇḍa lāya|</lem>
+        <rdg source="bib:Ramesam1945-1946_01">kondilāya</rdg>
+      </app>
+      <app loc="55">
+        <lem><unclear>p</unclear>e<unclear>sa</unclear></lem>
+        <rdg source="bib:Ramesam1945-1946_01">desa</rdg>
       </app>
 
 
