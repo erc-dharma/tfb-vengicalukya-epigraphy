@@ -208,7 +208,7 @@
 <l n="a">Umayā tapasā<lb n="50" break="no"/>pratāpi<supplied reason="omitted">tā</supplied>s t<unclear>ā</unclear> <space type="binding-hole"/></l>
 <l n="b">jaya-vijaye Ajitāparājite|</l>
 <l n="c">jagataḥ kṣaya<lb n="51" break="no"/>-vr̥ddhi-he<space type="binding-hole"/>t<choice><sic>ū</sic><corr>u</corr></choice>-bhūtā</l>
-<l n="d">bhagavati <orig>tān</orig> asiṣevire patau|</l>
+<l n="d">bhagavati tā<supplied reason="omitted">ṁ</supplied> na siṣevire patau|</l>
 </lg>
 <lg n="17" met="anuṣṭubh">
 <l n="a">visr̥jyomām a<lb n="52" break="no"/>kanyān tā</l>
@@ -244,7 +244,7 @@
 <l n="a" enjamb="yes">Ābhy<choice><sic>a</sic><corr>ā</corr></choice>ṁ<surplus>|</surplus> prasū<lb n="58" break="no"/><surplus>sū</surplus>to malla<supplied reason="omitted">ḥ</supplied> ś<unclear>r</unclear>ī</l>
 <l n="b">-y<choice><sic>ū</sic><corr>u</corr></choice>ddhamallā<del>|</del>bhidhānavāN|</l>
 <l n="c">mall<subst><del rend="corrected">a</del><add place="overstrike">ā</add></subst>yāsm<choice><sic>e</sic><corr>ai</corr></choice> sva-putrāya</l>
-<l n="d">prādā<orig>d</orig> tām<supplied reason="omitted">r</supplied>aṁ sa <lb n="59" break="no"/>śāsanaṁ|</l>
+<l n="d">prādā<orig>d</orig> tām<supplied reason="omitted">r</supplied>aṁ sa <lb n="59"/>śāsanaṁ|</l>
 </lg>
 <lg n="23" met="anuṣṭubh">
 <l n="a">rā<unclear>jā</unclear><space type="binding-hole"/>pi pit<orig>r̥</orig><choice><sic>n</sic><corr>ṇ</corr></choice>ā<choice><sic>rmm</sic><corr>m</corr></choice> asm<choice><sic>e</sic><corr>ai</corr></choice></l>
@@ -287,7 +287,7 @@
 <lg n="29" met="anuṣṭubh">
 <l n="a">kāvyan divāka<supplied reason="omitted">ra</supplied>syeda<unclear>ṁ</unclear></l>
 <l n="b"><lb n="74"/>lekhya<unclear>ṁ</unclear> vīrasya śāsanaṁ|</l>
-<l n="c" enjamb="yes">māvaśarmma-suto malla</l>
+<l n="c" enjamb="yes">māvaśarmma-suto malla<supplied reason="omitted">ḥ</supplied></l>
 <l n="d">svāmy asyācan<unclear>dr</unclear>a-tārakaṁ|</l>
 </lg>
 <pb n="5v"/>
@@ -409,8 +409,8 @@
         <note>Although <foreign>hetū-</foreign> is grammatically correct here, the metre (for which see the commentary) requires <foreign>hetu</foreign>.</note>
       </app>
       <app loc="51">
-        <lem><orig>tān</orig> asiṣevire</lem>
-        <note>The plural masculine accusative is definitely incorrect here, but I am not sure what the composer may have intended. I think it is most likely <foreign>tā asiṣevire</foreign>, and <foreign>n</foreign> has been added to avoid hiatus. See also the commentary on stanza 6 for a possible <foreign>n</foreign> as a hiatus filler. There is, however, no such filler in <foreign>jayādyā Anucaryyas</foreign>, line 53, so <foreign>na</foreign> may also be a scribal error for <foreign>A</foreign>. It is also possible that <foreign>tām asiṣevire</foreign> was intended, though the sentence is even harder to interpret that way.</note>
+        <lem>tā<supplied reason="omitted">ṁ</supplied></lem>
+        <note>I emend tentatively, being somewhat uncertain of the stanza (see my translation). I think the emendation is warranted even if my interpretation is not wholly correct, since <foreign>tā</foreign> is already present in the first quarter.</note>
       </app>
       <app loc="54">
         <lem>catasr̥bhyo <supplied reason="subaudible">’</supplied>bhavan</lem>
@@ -472,6 +472,10 @@
         <lem>divāka<supplied reason="omitted">ra</supplied>syeda<unclear>ṁ</unclear></lem>
         <note>Although I cannot exclude <foreign>divāka</foreign> as a possible name, the metre requires one more syllable.</note>
       </app>
+      <app loc="73">
+        <lem>malla<supplied reason="omitted">ḥ</supplied></lem>
+        <note>It is also possible that the full name is Mallasvāmin, but I prefer to understand <foreign>svāmin</foreign> in apposition to the name; see my translation.</note>
+      </app>
       
 <!--
 
@@ -510,8 +514,8 @@
 <p rend="stanza" n="14"><seg cert="low">The eminent Brahmin Ahi<supplied reason="explanation">śarman</supplied></seg>, born in the majestic Kuṇḍina <foreign>gotra</foreign> and engaged in sacrifice, fathered on Ānāṁbikā, a woman of the <seg cert="low">venerable Āyāṇa</seg> family, a splendid son named Yakṣa. That banner of his family begat on his own wife Kundamā a <seg cert="low">glorious</seg> son: Māveṇa, whose eminence has been recognised by kings.<note>There are several difficulties with this stanza. See the apparatus for 43 and 45 about the strings <foreign>ījitan</foreign> and <foreign>jjataśrīyaṁ</foreign>. I understand the text to mean that Māveṇa’s grandfather was called Ahi, i.e. presumably Ahiśarman. There are several Nāgaśarmans mentioned in Eastern Cālukya grants, though no other Ahiśarman that I know of. But <foreign>dvijāgryāhiṇā</foreign> is a very strange compound and it may be a scribal error for something else. The word <foreign>dvijāgryarṣiṇā</foreign> could have turned into this through quite simple scribal error, but would <foreign>r̥ṣi</foreign> be used for a person in recent history? Else, <foreign>dvijāgryāyiṇā</foreign> could have been intended, metri causa, for <foreign>dvijāgrayāyinā</foreign>; or <foreign>dvijāgryārhiṇā</foreign>, with <foreign>arhin</foreign> meaning “meritorious”.  The Āyāṇa (or Ayāṇa) family may be identical to the Ayyaṇa family mentioned in the <ref target="DHARMA_INSVengiCalukya00050.xml">Cendalūr Plates of Maṅgi Yuvarāja</ref> and/or may be connected to Ayyaṇa Mahādevī, the wife of Kubja Viṣṇuvardhana. But there is also a possibility that <foreign>jyeṣṭhāyāṇa</foreign> is a scribal error for <foreign>jyeṣṭhāyāṁ ca</foreign>, in which case Yakṣa’s mother is simply the „eldest wife, a well-born woman”.</note></p>
 <p rend="stanza" n="15">To this Māveṇaśarman of honest nature, a loyal servant of immeasurable brilliance, King Bādapa has compassionately<note>The word “compassionately” (<foreign>karuṇayā</foreign>) is probably used here in the sense of “generously,” without any implication that Māveṇa had suffered.</note> granted a village across the Tāra river; <seg cert="low">and moreover <supplied reason="explanation"><foreign>itarad</foreign></supplied>, nobility <supplied reason="explanation"><foreign>kula</foreign></supplied></seg> henceforth as long as the moon and stars <supplied reason="explanation">last</supplied>, that—though it springs also from <supplied reason="explanation">Māveṇa’s</supplied> mother and father—<seg cert="low">shall be an elevation</seg> extending to sons and grandsons.<note>The wording of the stanza is a little vague and hard to understand, but I am quite certain that in addition to land, Bādapa is conferring a noble title higher than Māveṇa’s inherited status. </note></p>
 <p n="49"><supplied reason="subaudible">Here follows</supplied> the genealogy of Māvaśarman’s beloved<note>The origin story seems to imply that women of this family did not marry. It is perhaps no accident that she is not referred to as his wife. See also the note to the translation of stanza 21.</note> Sabbā.</p>
-<p rend="stanza" n="16">Umā, through her ascetic power <supplied reason="explanation"><foreign>tapas</foreign></supplied>, energised <supplied reason="explanation"><foreign>pratāpita</foreign></supplied> these <supplied reason="explanation">ladies</supplied>: Jayā and Vijayā; Ajitā and Aparājitā. They, the causes of the degeneration and generation <supplied reason="explanation"><foreign>kṣaya-vr̥ddhi</foreign></supplied> of the world, took up residence with <supplied reason="explanation">Umā’s</supplied> divine husband <supplied reason="explanation">Śiva</supplied>.<note>I am again uncertain of the exact purport here. The first hemistich certainly means that Umā essentially created the four minor goddesses through her ascetic power. Given the continuation of the story, the last quarter should perhaps rather mean that they served her only until she was married to Śiva.</note></p>
-<p rend="stanza" n="17">Rejecting Umā because she was no <supplied reason="subaudible">longer a</supplied> maiden, they took recourse to the goddess Durgā. Durgā <supplied reason="explanation">at another time</supplied> acceded, saying “om,” to <supplied reason="subaudible">the prayers of</supplied> the Cālukya king who was performing penance.<note>This is a clear reference to the Purāṇic genealogy of the Eastern Cālukyas, which is to my knowledge first attested in the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref>. In that story, the progenitor <supplied reason="explanation">or restorer of family glory</supplied> Viṣṇuvardhana worships Nandā = Gaurī in order to obtain the paraphernalia of royalty.</note></p>
+<p rend="stanza" n="16">Those who were energised <supplied reason="explanation"><foreign>pratāpita</foreign></supplied> by Umā through her ascetic power <supplied reason="explanation"><foreign>tapas</foreign></supplied>—Jayā and Vijayā, Ajitā and Aparājitā, who are indeed the causes of the degeneration and generation <supplied reason="explanation"><foreign>kṣaya-vr̥ddhi</foreign></supplied> of the world—did not serve her <supplied reason="explanation">Umā</supplied> <supplied reason="subaudible">any longer</supplied> once the Lord <supplied reason="explanation">Śiva</supplied> <supplied reason="subaudible">became</supplied> her husband.</p>
+<p rend="stanza" n="17">Rejecting Umā because she was not <supplied reason="subaudible">any more</supplied> a maiden, they took recourse to the goddess Durgā. Durgā <supplied reason="explanation">at another time</supplied> acceded, saying “om,” to <supplied reason="subaudible">the prayers of</supplied> the Cālukya king who was performing penance.<note>This is a clear reference to the Purāṇic genealogy of the Eastern Cālukyas, which is to my knowledge first attested in the <ref target="DHARMA_INSVengiCalukya00049.xml">Raṇastipūṇḍi grant of Vimalāditya</ref>. In that story, the progenitor <supplied reason="explanation">or restorer of family glory</supplied> Viṣṇuvardhana worships Nandā = Gaurī in order to obtain the paraphernalia of royalty.</note></p>
 <p rend="stanza" n="18">Thereby Durgā became the family deity of the Cālukya dynasty, while her handmaidens Jayā and so on <supplied reason="explanation">became</supplied> four <seg cert="low">couturières</seg> <supplied reason="explanation"><foreign>paṭṭa-vardhikā</foreign></supplied>.<note>We thus have an origin story for the Paṭṭavardhika or Paṭṭavardhinī family here. The interpretation of that name is uncertain and may be connected to the royal turban <supplied reason="explanation"><foreign>paṭṭa</foreign></supplied>.</note></p>
 <p rend="stanza" n="19">Of the four there arose four families of attendants <supplied reason="explanation"><foreign>dāsī</foreign></supplied>. There, in the lineage of Jayā, <supplied reason="subaudible">was born one</supplied> distinguished as “Miṇḍ with the name Ambā after.”<note>That is to say, her name was Miṇḍambā. See the apparatus to line 55 about this awkward expression, and to line 54 about other textual problems with the stanza.</note></p>
 <p rend="stanza" n="20">Her daughter’s daughter was Cāvvī, and Kumārī was the daughter of Cavvikā. Kumārī’s daughter is Samṟī, renowned as Sabbākavvā.</p>
@@ -524,7 +528,7 @@
 <p rend="stanza" n="26">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
 <p rend="stanza" n="27">There has never been and will never be a gift superior to the gift of land, nor has there ever been or will ever be a sin <supplied reason="subaudible">superior</supplied> to the seizing of the same.</p>
 <p rend="stanza" n="28">“Each in your own time, you shall respect this framework of legality that is universally applicable to kings!”—<supplied reason="subaudible">thus</supplied> Rāmabhadra begs all these future kings over and over again.</p>
-<p rend="stanza" n="29">This poetry is Divākara’s. The writing <supplied reason="explanation"><foreign>lekhya</foreign></supplied> is Vīra’s. The decree, as long as the moon and stars last, is his: Mallasvāmin the son of Māvaśarman.</p>
+<p rend="stanza" n="29">This poetry is Divākara’s. The decree is the writing <supplied reason="explanation"><foreign>lekhya</foreign></supplied> of Vīra. Its owner <supplied reason="explanation"><foreign>svāmin</foreign></supplied>, for as long as the moon and stars last, is Malla the son of Māvaśarman.</p>
   </div>  
 </div>
 
