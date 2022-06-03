@@ -55,7 +55,7 @@
                   <handDesc>
                      <p>Halantas are reduced/simplified consonant characters with a tail that starts out horizontally to the right, turns upward at a sharp angle (which may have a point downwards), ascends vertically, then turns softly to the right. Final N (l8, 13, 16). Final T (l21). Final M (l8).</p>
                      <p>Original punctuation marks. </p>
-                     <p>Other palaeographic observations. Anusvāra is normally to the right of the associated character, at or above headline. It is occasionally (l10, aṁbudhi; l60, Elaṁbaṟa) above the next character. Upadhmānīya (l26, perhaps l45, l47, l51, l52, l53, l69) identical in form to ṟ.
+                     <p>Other palaeographic observations. Anusvāra is normally to the right of the associated character, at or above headline. It is occasionally (l10, aṁbudhi; l60, Elaṁbaṟa) above the next character. Upadhmānīya (l26, perhaps l45, l47, l51, l52, l53, l69) identical in form to ṟ. Initial Ai may occur in line 64.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -120,7 +120,7 @@
 <l n="d">veṅgī-ma<lb n="8" break="no"/>ṇḍalam āptavāN|</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
-<l n="a">Aṣṭau dáśa ca va<supplied reason="omitted">r</supplied>ṣāṇi</l>
+<l n="a">Aṣṭau daśa ca va<supplied reason="omitted">r</supplied>ṣāṇi</l>
 <l n="b">kr̥tvāsau rājyam uttamaM</l>
 <l n="c" enjamb="yes">yayau nāka-va<unclear>dhū</unclear><lb n="9" break="no"/>bhoga</l>
 <l n="d">-vā<unclear>ṁ</unclear>chayā marutāṁ padaM|</l>
@@ -248,18 +248,18 @@
 <lg n="24" met="anuṣṭubh">
 <l n="a" enjamb="yes">Āsīt prāvaca<unclear>na</unclear>-khyāta</l>
 <l n="b">-vipra-vaṁśa-kulottamaḥ</l>
-<l n="c" enjamb="yes">kāṭūru-vāyulūrākhya</l>
+<l n="c" enjamb="yes">kāṭūru-vāyulūr-ākhya</l>
 <l n="d"><lb n="39" break="no"/>-grāma-dvaya-patiḥ prabhuḥ|</l>
 </lg>
 <lg n="25" met="anuṣṭubh">
 <l n="a" real="+++-++-" enjamb="yes">tatrā<unclear>ś</unclear>eṣa-deśaika</l>
 <l n="b">-<unclear>nā</unclear>yako gu<choice><sic>n</sic><corr>ṇ</corr></choice>a-lā<choice><orig>ḷ</orig><reg>l</reg></choice>itaḥ</l>
-<l n="c">kumāra<lb n="40" break="no"/>mū<unclear>r</unclear>tti-nāmāṁka<unclear cert="low">ṁ</unclear></l>
-<l n="d">śrī<unclear>mān bhū</unclear>ri-yaśo-dhanaḥ</l>
+<l n="c">kumāra<lb n="40" break="no"/>mū<unclear>r</unclear>tti-nāmāṁka<choice><sic><unclear cert="low">ṁ</unclear></sic><corr>ḥ</corr></choice></l>
+<l n="d">śrī<unclear>mān bh</unclear>ūri-yaśo-dhanaḥ</l>
 </lg>
 <lg n="26" met="anuṣṭubh">
 <l n="a">jaya-mānoddhr̥taṁ hastaṁ</l>
-<l n="b"><unclear>bhū</unclear>pates toṇḍa<lb n="41" break="no"/>māninaḥ</l>
+<l n="b">bhūpates toṇḍa<lb n="41" break="no"/>māninaḥ</l>
 <l n="c"><unclear cert="low">no</unclear><space type="binding-hole"/><unclear cert="low">ddharā</unclear>my adya tan nūnaṁ</l>
 <l n="d">kāḍuveṭṭi-mahīśa te</l>
 </lg>
@@ -267,7 +267,7 @@
 <l n="a">Ity uktvā saṁ<unclear>pa</unclear>ri<lb n="42" break="no"/><unclear>t</unclear>yajya</l>
 <l n="b">deśaṁ <space type="binding-hole"/> mā<unclear>na-dha</unclear>nānvitaḥ</l>
 <l n="c"><unclear>ve</unclear>ṁgī-deśaṁ praviśyāsāv</l>
-<l n="d">uṇḍyākhya-grāma<lb n="43" break="no"/><unclear>m āya</unclear>y<unclear>au</unclear>|</l>
+<l n="d">uṇḍy-ākhya-grāma<lb n="43" break="no"/><unclear>m āya</unclear>y<unclear>au</unclear>|</l>
 </lg>
 <lg n="28" met="anuṣṭubh">
 <l n="a">tatra <unclear>sthi</unclear>t<unclear>vā sa</unclear> tanayaṁ</l>
@@ -317,9 +317,27 @@
 <l n="c"><lb n="53"/>prāptaḫ paramam ānaṁda<choice><orig>ṁm</orig><reg>m</reg></choice></l>
 <l n="d">aihikāmutrika-kṣamaM|</l>
 </lg>
-<p>tatra sa vijayāditya-rājā<lb n="54" break="no"/>dhirāja-parameśvara-<unclear>pa</unclear>rama-bhaṭṭārakaḥ parama-brahmaṇyas sārvvabhaumo nirvvarttitā<pb n="4v" break="no"/><lb n="55" break="no"/>śeṣa-jagad-vyāpāro bhūtvā dharmmaika-niṣṭha<supplied reason="omitted">ḥ</supplied> saN premānurakta-cittata<unclear>yā A</unclear><lb n="56" break="no"/>sādhāraṇa-karuṇayā ca tasmai rājāditya-dvijottamāya sūryya-grahaṇa-<unclear>nimi</unclear><lb n="57" break="no"/>tte kāṭlapaṟṟu nāma grāmaM sarvva-kara-parihāreṇa AgrahāraM <unclear>prādā</unclear>T<supplied reason="subaudible">.</supplied><lb n="58"/>datvā ca veṁgī-sahasra-grāma-deśa-rāṣṭrakūṭa-pramukhāN kuṭumbina Ittham ā<lb n="59" break="no"/>jñāpayati<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> viditam astu vo <supplied reason="subaudible">’</supplied>smābhir vveṁgī-sahasrākhya-viṣaye <lb n="60"/>rājādityā<space type="binding-hole"/>yāsmai kāṭlapaṟṟu-grāmas sarvva-kara-parihāre<choice><sic>n</sic><corr>ṇ</corr></choice>ā<unclear>gra</unclear><lb n="61" break="no"/>hāro datta Iti</p>
-<p>Asya grāmasyāvadhayaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ velivroluḥ sīmā| <lb n="62"/><unclear>Ā</unclear>gneyataḥ Elaṁbaṟa-ceṟuvu| dakṣiṇataḥ virppaṟṟu<unclear>|</unclear> nairr̥tyāṁ virppaṟṟ<unclear>u-grā</unclear><lb n="63" break="no"/>ma-kṣetraṁ| paścimataḥ rāvulapaṟṟu| vāyavyataḥ <unclear>gogu</unclear>lamaṇḍa| Uttarataḥ
-</p>
+<p>tatra sa vijayāditya-rājā<lb n="54" break="no"/>dhirāja-parameśvara-<unclear>pa</unclear>rama-bhaṭṭārakaḥ parama-brahmaṇyas sārvvabhaumo nirvvarttitā<pb n="4v" break="no"/><lb n="55" break="no"/>śeṣa-jagad-vyāpāro bhūtvā dharmmaika-niṣṭha<supplied reason="omitted">ḥ</supplied> saN premānurakta-cittata<unclear>yā A</unclear><lb n="56" break="no"/>sādhāraṇa-karuṇayā ca tasmai rājāditya-dvijottamāya sūryya-grahaṇa-<unclear>nimi</unclear><lb n="57" break="no"/>tte kāṭlapaṟṟu nāma grāmaM sarvva-kara-parihāreṇa AgrahāraM <unclear>prādā</unclear>T<supplied reason="subaudible">.</supplied><lb n="58"/>datvā ca veṁgī-sahasra-grāma-deśa-rāṣṭrakūṭa-pramukhāN kuṭumbina Ittham ā<lb n="59" break="no"/>jñāpayati<space type="binding-hole"/></p>
+<p>viditam astu vo <supplied reason="subaudible">’</supplied>smābhir vveṁgī-sahasrākhya-viṣaye <lb n="60"/>rājādityā<space type="binding-hole"/>yāsmai kāṭlapaṟṟu-grāmas sarvva-kara-parihāre<choice><sic>n</sic><corr>ṇ</corr></choice>ā<unclear>gra</unclear><lb n="61" break="no"/>hāro datta Iti<supplied reason="subaudible">.</supplied> Asya grāmasyāvadhayaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ velivroluḥ sīmā| <lb n="62"/><unclear>Ā</unclear>gneyataḥ Elaṁbaṟa-ceṟuvu| dakṣiṇataḥ virppaṟṟu<unclear>|</unclear> nairr̥tyāṁ virppaṟṟ<unclear>u-grā</unclear><lb n="63" break="no"/>ma-kṣetraṁ| paścimataḥ rāvulapaṟṟu| vāyavyataḥ <unclear>gogu</unclear>lamaṇḍa| Uttarataḥ <pb n="5r"/><lb n="64"/>ba<unclear>m</unclear><unclear cert="low">m</unclear><unclear>i</unclear>ni<unclear>pa</unclear>ṟ<unclear>ṟu</unclear> bo<unclear>d</unclear>yama<unclear>p</unclear>ūṇḍi| <unclear cert="low">Ai</unclear>śānyān diśi <unclear cert="low">ve</unclear>li<unclear>vrol</unclear>i-k<unclear>ṣ</unclear>etraṁ| Eta<unclear>d-aṣṭa-dik-sī</unclear><lb n="65" break="no"/>m<unclear cert="low">ā</unclear>-<unclear>madhya-var</unclear>tt<unclear>i grāmaḥ| A</unclear>syopa<unclear>r</unclear>i <unclear>na</unclear> kenacid bā<unclear>dhā</unclear> ka<unclear>r</unclear>tta<unclear>v</unclear>yā| yaḥ karoti sa pa<unclear>ṁ</unclear><lb n="66" break="no"/><unclear>ca-mahāpātaka-saṁy</unclear>ukto bha<unclear>va</unclear>ti| bha<unclear>gava</unclear>tā vyā<unclear>senāp</unclear>y <unclear>uk</unclear>taṁ|</p>
+<lg n="36" met="anuṣṭubh">
+<l n="a"><unclear>bahubh</unclear>ir vva<unclear>su</unclear><lb n="67" break="no"/><unclear>dhā da</unclear>ttā</l>
+<l n="b">ba<unclear>h</unclear>ubhiś cānupālit<unclear>ā|</unclear></l>
+<l n="c">yasya yasya <unclear>yadā bhū</unclear>mis</l>
+<l n="d">tasya tasya ta<unclear>dā</unclear> <lb n="68"/><unclear>phalaM|</unclear></l>
+</lg>
+<lg n="37" met="anuṣṭubh">
+<l n="a"><unclear>sva-da</unclear><space type="binding-hole"/>ttāṁ para-dattāṁ vā</l>
+<l n="b">yo hareta vasundharāM|</l>
+<l n="c">ṣaṣṭi<unclear cert="low">ṁ</unclear> varṣa-sa<unclear>ha</unclear><lb n="69" break="no"/><unclear>srāṇi</unclear></l>
+<l n="d"><unclear>viṣṭhā</unclear><space type="binding-hole"/>yāṁ jāyate k<choice><orig>ri</orig><reg>r̥</reg></choice><unclear>m</unclear>iḥ|</l>
+</lg>
+<lg n="38" met="vasantatilakā">
+<l n="a">ma<unclear>d-vaṁ</unclear>śa-<unclear>jāḫ para</unclear>-mahīpati-v<unclear>aṁ</unclear>śa-<unclear>jā</unclear>ś <unclear>ca</unclear></l>
+<l n="b"><lb n="70"/><unclear>pāpād ape</unclear>ta-manaso bhuvi bhāvi-bhū<unclear>pāḥ|</unclear></l>
+<l n="c"><unclear>ye</unclear> pālayanti mama dha<unclear>rmmam imaṁ sa</unclear><lb n="71" break="no"/><unclear>mastan</unclear></l>
+<l n="d">t<unclear>eṣā</unclear>m mayā <unclear>v</unclear>ira<unclear>c</unclear>ito <supplied reason="subaudible">’</supplied>ṁ<unclear>j</unclear>alir e<unclear>ṣa</unclear> mūrddhni|</l>
+</lg>
+<p>Ā<unclear>j</unclear>ña<unclear>p</unclear>tir asya pā<unclear>ṇḍa</unclear>rāṁgaḥ<supplied reason="subaudible">.</supplied> <unclear>śi</unclear><lb n="72" break="no"/>vam astu| <unclear>śān</unclear>tir a<unclear>st</unclear>u|</p>
 <pb n="5v"/> 
 
 </div>
@@ -383,7 +401,7 @@
       <app loc="40">
         <lem>-nāmāṁka<unclear cert="low">ṁ</unclear></lem>
         <rdg source="bib:Ramesh+Sampath1977-1978_01">-nāmāṁka<supplied reason="omitted">ḥ</supplied></rdg>
-        <note>An <foreign>anusvāra</foreign> seems to be present here, though it may be random damage. I cannot securely interpret this passage, and apparently the earlier editors could not either. See also the translation and note there.</note>
+        <note>An <foreign>anusvāra</foreign> seems to be present here, though it may be random damage. I cannot securely interpret this passage, but emendation to a nominative may be warranted even if the <foreign>anusvāra</foreign> is genuine. See also the translation and the commentary.</note>
       </app>
       <app loc="40">
         <lem>-dhanaḥ</lem>
@@ -431,6 +449,28 @@
         <lem><unclear>gogu</unclear>lamaṇḍa</lem>
         <rdg source="bib:Ramesh+Sampath1977-1978_01"><unclear>go</unclear>gūlamaṇḍa</rdg>
       </app>
+      <app loc="64">
+        <lem>bo<unclear>d</unclear>yama<unclear>p</unclear>ūṇḍi</lem>
+        <rdg source="bib:Ramesh+Sampath1977-1978_01">bedyamapūṇḍi</rdg>
+      </app>
+      <app loc="64">
+        <lem><unclear cert="low">Ai</unclear>śānyān</lem>
+        <rdg source="bib:Ramesh+Sampath1977-1978_01">Īśānyān</rdg>
+        <note>The first character is far from clear in the printed estampage, but does not look like initial <foreign>Ī</foreign>. Although this word often occurs in cognate plates in the form <foreign>īśānya</foreign>, in this case the spelling appears to be with <foreign>Ai</foreign>; compare initial <foreign>E</foreign> further on in this line, or a clearer one in line 62.</note>
+      </app>
+      <app loc="64">
+        <lem>-<unclear>sī</unclear><lb n="65" break="no"/>m<unclear cert="low">ā</unclear></lem>
+        <rdg source="bib:Ramesh+Sampath1977-1978_01">-sī<lb n="65" break="no"/>ma</rdg>
+      </app>
+      <app loc="68">
+        <lem>ṣaṣṭi<unclear cert="low">ṁ</unclear> varṣa-</lem>
+        <rdg source="bib:Ramesh+Sampath1977-1978_01">ṣaṣṭir vvarṣa-</rdg>
+        <note>I cannot exclude that there was a <foreign>repha</foreign> on the <foreign>va</foreign>, obscured by a blotch of damage at the right spot, but I am quite certain that a subscript <foreign>va</foreign> is not present, so the original reading was either <foreign>ṣaṣṭiṁ</foreign> or <foreign>ṣaṣṭi-</foreign>.</note>
+      </app>
+      <app loc="68">
+        <lem><unclear>viṣṭhā</unclear><space type="binding-hole"/>yāṁ</lem>
+        <rdg source="bib:Ramesh+Sampath1977-1978_01">viṣṭāyāṁ</rdg>
+      </app>
 
 <!--
 
@@ -449,7 +489,50 @@
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-15"/>
+<p n="1">Om! Obeisance to Nārāyaṇa.</p>
+<p n="2-5">Greetings. <supplied reason="subaudible">In the dynasty of the</supplied> majestic <supplied reason="subaudible">Cālukyas, who are</supplied> of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārīti, who attained kingship by the grace of Kauśikī’s boon, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom the realms of adversaries instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice—</p>
+<p rend="stanza" n="1">In <supplied reason="subaudible">this</supplied> dynasty of the Cālukyas was born Vijayāditya Vallabha <supplied reason="explanation">Pulakeśin II</supplied>, also known on <supplied reason="subaudible">this</supplied> earth by the epithet Abode of Truth <supplied reason="explanation"><foreign>satyāśraya</foreign></supplied>.</p>
+<p rend="stanza" n="2">His renowned and mighty younger brother was named <supplied reason="subaudible">Kubja</supplied> Viṣṇuvardhana. He obtained the country <supplied reason="explanation"><foreign>maṇḍala</foreign></supplied> of Veṅgī after extirpating Durjaya.<note>See <bibl><ptr target="bib:Sankaranarayanan1973_01"/><citedRange>87-88</citedRange></bibl> for some speculation on who this Durjaya may have been. The name, if a name it is, is said to occur only here and in the <ref target="DHARMA_INSVengiCalukya00025.xml">Kākamrāṇu grant of Bhīma I</ref>, but compare <foreign>durjjayād balito hr̥tāṁ</foreign> in line 7 of the <ref target="DHARMA_INSVengiCalukya00037.xml">Kalucuṁbaṟṟu grant of Amma II</ref>. There remains the possibility that <foreign>durjaya</foreign> is to be understood metonymically in the vague sense of “a tough enemy,” and it is also quite possible that <foreign>veṅgī-maṇḍala</foreign> was not actually conquered by Kubja Viṣṇuvardhana, this act being projected backward onto him.</note></p>
+<p rend="stanza" n="3">Having ruled most excellently for eight and ten years, he passed on to heaven because he was eager to enjoy the divine ladies.</p>
+<p rend="stanza" n="4">His son, named Jayasiṁha <supplied reason="explanation">I</supplied> and possessing the valour of many lions <supplied reason="explanation"><foreign>siṁha</foreign></supplied>, possessed <supplied reason="explanation"><foreign>bhuj-</foreign></supplied> for thirty-three years over the land up to the four oceans.</p>
+<p rend="stanza" n="5">The son of his younger brother King Indra was King Viṣṇu <supplied reason="explanation">Viṣṇuvardhana II</supplied>. He effortlessly protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth for nine years.</p>
+<p rend="stanza" n="6">His son in turn, the king <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> called Maṅgi Yuvarāja, protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth justly for twenty-five years.</p>
+<p rend="stanza" n="7">From him was born a majestic son, King <supplied reason="explanation"><foreign>mahīpati</foreign></supplied> Jayasiṁha <supplied reason="explanation">II</supplied>. That most excellent king reigned for thirteen years.</p>
+<p rend="stanza" n="8">His younger brother by a different mother was widely known by the name Kokkili. Having ruled <supplied reason="explanation"><foreign>pāl-</foreign></supplied> it for a mere six months, he relinquished the earth.</p>
+<p rend="stanza" n="9">That one’s famous elder brother, Viṣṇuvardhana <supplied reason="explanation">III</supplied> by name, protected <supplied reason="explanation"><foreign>rakṣ-</foreign></supplied> this entire earth for thirty-seven years.</p>
+<p rend="stanza" n="10">His son was the king <supplied reason="explanation"><foreign>mahīpati</foreign></supplied> named Vijayāditya <supplied reason="explanation">I</supplied>. He in turn protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth for eight and ten years.</p>
+<p rend="stanza" n="11">From him was born King <supplied reason="explanation"><foreign>bhūpa</foreign></supplied> Viṣṇu<supplied reason="explanation">vardhana IV</supplied>, a crusher of the mighty just as Viṣṇu <seg rend="pun">is the crusher of Bali</seg>,<note>Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange>88</citedRange></bibl>), as well as RS (<bibl><ptr target="bib:Ramesh+Sampath1977-1978_01"/><citedRange>37</citedRange></bibl>) are convinced that the name Bali signifies a victory of Viṣṇuvardhana over a king of the Bāṇa lineage, who traced themselves from the demon Bali. While the possibility of such an allusion cannot be ruled out, I find it more likely that Bali is to be understood as a name only in the context of Viṣṇu, and in the prima facie meaning it simply stands for “powerful enemies.”</note> who went on to heaven after protecting <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth for thirty-six years.</p>
+<p rend="stanza" n="12">His son was the clever one named Vijayāditya <supplied reason="explanation">II</supplied>, prominent because of his victories attained in a hundred and eight famous battles.</p>
+<p rend="stanza" n="13">Afterward erecting just as many <supplied reason="explanation">i.e. 108</supplied> abodes of Śambhu, he ruled for forty years over an earth devoid of enemies.</p>
+<p rend="stanza" n="14">His son was named Viṣṇuvardhana <supplied reason="explanation">V</supplied> who conquered his enemies. He possessed <supplied reason="explanation"><foreign>bhuj-</foreign></supplied> the earth for a year and six months.</p>
+<p rend="stanza" n="15">A <seg rend="pun">chaste</seg> daughter, Śīlakāmbā, was born to Paramakāmbā and Indrarāja as <seg rend="pun">Satī</seg> Bhavānī <supplied reason="explanation">Pārvatī</supplied> was born to Menā and Himavat. <note>As RS (<bibl><ptr target="bib:Ramesh+Sampath1977-1978_01"/><citedRange>37-38</citedRange></bibl>) observe, the Indrarāja referred to here is probably the Rāṣṭrakūṭa Indra, younger brother of Govinda III.</note></p>
+<p rend="stanza" n="16">A son of that King Viṣṇu <supplied reason="explanation">Viṣṇuvardhana V</supplied> was born from that Śīlakāmbā. Marked by the name Vijayāditya <supplied reason="explanation">III</supplied>, he became king as far as the oceans.</p>
+<p rend="stanza" n="17">He attained great fame by defeating the rulers of the circuit of four directions with a single sword, placing his pair of feet atop their heads.<note>The syntax is awkward here, as the stanza appears to be a single sentence, but its logical subject Vijayāditya III is in the instrumental (as the agent of a passive construction) in the first three quarters, and in the nominative (as the subject of an active construction) in the fourth. See also the commentary.</note></p>
+<p rend="stanza" n="18">When he protects the world, the populace loses its interest in listening to the deeds of the kings of yore, <supplied reason="subaudible">thinking,</supplied> “this <supplied reason="explanation">Vijayāditya</supplied> is himself a parable about the <foreign>dharma</foreign> of the sage Manu.” A mere fraction, as it were, of the ways of his conduct have turned the entire world into the residence of his fame. That dear Vijayāditya shines supreme.<note>Again, the syntax of the stanza is awkward, and the images are not very coherent. The sentence about Vijayāditya being a parable (<foreign>dharmopadeśa</foreign>) can be fitted into the whole by assuming that is is the thought of the people, but this is not explicitly indicated by anything. The syntactical role of the compound ending in <foreign>°aikadeśa</foreign> is not clear; I have assumed it to be a locative expressing a condition, but the passive causative participle <foreign>gamitam</foreign> would expect an instrumental expressing an agent here, as in the translation.</note></p>
+<p rend="stanza" n="19">Whatever the number of the hosts of kings that there are within—as far as the Causeway whose flock of mountains was constructed by the army of eminent monkeys unleashed by Rāma <supplied reason="explanation">in the south</supplied>; as far as <supplied reason="explanation">Mount</supplied> Kailāsa whose slopes are hemmed by trees <supplied reason="explanation">made</supplied> beautiful with flowers gathered by Pārvatī <supplied reason="explanation">in the north</supplied>; as far as the lofty Sunset Mountain <supplied reason="explanation">in the west</supplied> and likewise as far as the Sunrise Mountain with its clusters of stars <supplied reason="explanation">in the east</supplied>—he shines, praised by them <supplied reason="explanation">all</supplied>.<note>Again, I find the stanza awkward. The first image of course refers to Rāma’s Causeway, but it is not clear to me whether the poet speaks about the monkey army constructing that causeway from rocks (called mountains here), or to some episode I am not aware of in which the monkey constructed mountains. The second image is about Kailāsa as the home of Pārvatī (and, implicitly, Śiva), but the flowers seem to have been picked by Pārvatī elsewhere, then hung (as garlands?) on the trees.</note></p>
+<p rend="stanza" n="20">Enemies, <supplied reason="explanation">even</supplied> coming from other continents, are ever so enervated by the sunlight of his valour that they do not relinquish the shade of his feet.</p>
+<p rend="stanza" n="21">The flame consisting of his command, as it roams the palace that is the world, serves as the perfect searchlight for rooting out miscreants.<note>I do not know any attestation of the compound <foreign>śodhanā-dīpikā</foreign>, but it seems to be a lantern carried by a night guard as he patrols a palace. My translation “searchlight” may invoke too modern an image, but I use it nonetheless because it is close to a literal translation.</note></p>
+<p rend="stanza" n="22">The position of Indra is like <supplied reason="subaudible">only</supplied> an unripe fruit of the tree of his favour, and Aurva’s fire is dwarfed by the blaze of his wrath.</p>
+<p rend="stanza" n="23">In perspective to his greatness, <supplied reason="explanation">Mount</supplied> Meru becomes a chip of straw, and <supplied reason="explanation">in perspective</supplied> to his immeasurable profundity, the ocean becomes knee-deep.</p>
+<p n="37-38">In these circumstances,</p>
+<p rend="stanza" n="24">There was a supreme <supplied reason="explanation">scion</supplied> of a Brahmanical family line reputed for <supplied reason="explanation">its skill in</supplied> exposition <supplied reason="explanation">of scripture</supplied>: the masterful lord of two villages named Kāṭūru and Vāyulūr.</p>
+<p rend="stanza" n="25">Cherished on account of his virtues <seg cert="low">by</seg> the sovereign lord of all the land there, he was marked by the name Kumāramūrti, majestic and rich in copious glory.<note>This passage is rather obscure. See the commentary.</note></p>
+<p rend="stanza" n="26"><supplied reason="subaudible" cert="low">Kumāramūrti said,</supplied>” <seg cert="low">I will certainly not <seg cert="low">accept from you now the hand offered with honour and <supplied reason="explanation">wishes of</supplied> victory</seg>, King Kāḍuveṭṭi, <supplied reason="subaudible" cert="low">because you are</supplied> a king of Toṇḍamān</seg>.”</p>
+<p rend="stanza" n="27">Having said so and having left <supplied reason="subaudible">that</supplied> country with honours and gifts, he entered the country of Veṅgī and came to the village named Uṇḍi.</p>
+<p rend="stanza" n="28">Staying there, he had a son named Viddiśarman, the best of his Brahmanical family, sinless, famous and proud of his truthfulness.</p>
+<p rend="stanza" n="29">He in turn, after worshipping Mahāsena, at long last begat a son, who possessed two names, Kumāra and Peddana.</p>
+<p rend="stanza" n="30">A glorious son was born to him from Cānamāmbā. Known as Rājāditya, his eyes are like dark waterlilies <supplied reason="explanation"><foreign>rājīva</foreign></supplied>.</p>
+<p rend="stanza" n="31">Overcoming indomitable enemies by the blade of his single sword, he seizes great riches and offers them to his lord.</p>
+<p rend="stanza" n="32">There is not, was not, nor will <supplied reason="explanation">ever</supplied> be anyone in the world comparable to him in qualities such as truthfulness, morality, pride, great generosity and valour.</p>
+<p rend="stanza" n="33">A famous son was born to him: a king among Brahmins named Peddana, who is majestic, immersed in dedication to his lord, with his great glory spreading to <supplied reason="explanation">all</supplied> directions.</p>
+<p rend="stanza" n="34">Steadfast, heroic, pure, wise, intelligent, cleared of debt to the gods and so forth,<note>The reference is to the three debts: that to the gods, to be paid by performing sacrifices; that to one’s ancestors, to be paid by performing rituals in their honour and begetting descendants; and that to the sages, by reciting the Vedas.</note> he is a lord who grants security to those who take refuge with him and has <supplied reason="explanation">thus</supplied> elevated all <supplied reason="explanation">his</supplied> families.<note>If “two families” had been mentioned here, then the text would clearly mean his paternal and maternal family. Since the text strongly implies more than two, either the family of his lord is to be understood as the third, or this Peddana II traced his descent from more than one matriline (e.g. his grandmother as well as mother may have come from notable families). </note></p>
+<p rend="stanza" n="35">Having obtained such a most excellent son capable of <supplied reason="explanation">serving ends pertaining to</supplied> both this world and the otherworld, that Rājāditya experienced utter happiness.</p>
+<p n="53-59">Thereupon that Vijayāditya, the supremely pious Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>rājādhirāja</foreign></supplied>, the Supreme Sovereign <supplied reason="explanation"><foreign>parama-bhaṭṭāraka</foreign></supplied> and Universal Ruler <supplied reason="explanation"><foreign>sārvabhauma</foreign></supplied>, having concluded all worldly activity and being dedicated solely to <foreign>dharma</foreign>, with a fondly loving mind and with extraordinary sympathy, has on the occasion of an eclipse of the sun given the village named Kāṭlapaṟṟu, as a Brahmanical holding <supplied reason="explanation"><foreign>agrahāra</foreign></supplied> with an exemption from all taxes, to that most excellent Brahmin Rājāditya. And having given it, he commands the householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—of the Veṅgī thousand-village territory <supplied reason="explanation"><foreign>deśa</foreign></supplied> as follows:</p>
+<p n="59-66">Let it be known to you that we have given the village Kāṭlapaṟṟu in the district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> called the Veṅgī-thousand to this Rājāditya as a Brahmanical holding <supplied reason="explanation"><foreign>agrahāra</foreign></supplied> with an exemption from all taxes. The boundaries of this village <supplied reason="subaudible">are as follows</supplied>. To the east, the border is Velivrolu. To the southeast, the Elaṁbaṟa reservoir <supplied reason="explanation"><foreign>ceṟuvu</foreign></supplied>. To the south, Virppaṟṟu. To the southwest, the fields <supplied reason="subaudible">belonging to</supplied> the village Virppaṟṟu. To the west, Rāvulapaṟṟu. To the northwest, Gogulamaṇḍa. To the north, Bamminipaṟṟu <supplied reason="subaudible">and</supplied> Bodyamapūṇḍi. In the northeastern direction, the fields of Velivrolu. The village is situated in the midst of these boundaries in the eight directions. Let no-one pose an obstacle <supplied reason="explanation">to the enjoyment of rights</supplied> over it. He who does so shall be conjoined with the five great sins. So too has the reverend Vyāsa said:</p>
+<p rend="stanza" n="36">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
+<p rend="stanza" n="37">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty millennia.</p>
+<p rend="stanza" n="38">Hereby I offer my respectful obeisance <supplied reason="explanation"><foreign>añjali</foreign></supplied> to <supplied reason="subaudible">all</supplied> future kings on earth, <supplied reason="subaudible">whether</supplied> born in my lineage or a different royal lineage, who with minds averted from sin observe this ruling <supplied reason="explanation"><foreign>dharma</foreign></supplied> of mine in its integrity.</p>
+<p n="71-72">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of this <supplied reason="subaudible">grant</supplied> is Pāṇḍarāṅga. Let it be well. Let there be peace.</p>
   </div>  
 </div>
 
@@ -459,6 +542,9 @@
 
 <div type="commentary">
 <p>Obscured caesura in v18a and d (śārdūlavikrīḍita).</p>
+<p>Up to stanza XIV, the text is identical to that of the <ref target="DHARMA_INSVengiCalukya00025.xml">Kākamrāṇu grant of Bhīma I</ref>, down to the level of some spelling idiosyncrasies, except that the opening stanza in praise of Bhīma is not present here. Our stanzas XX and XXII also appear there, describing Bhīma while here they describe Vijayāditya III. These two charters represent the earliest occurrences of a full king list among the Eastern Cālukya charters known to me, and the only instances of a fully versified king list. It cannot be ascertained whether this list was composed in the reign of Vijayāditya III or Bhīma I, since the present grant may well have been issued when Vijayāditya III was no longer active. At any rate, given the awkward (or incorrect) syntax in some of the stanzas not shared with the Kākamrāṇu grant (including much of the donee’s description), I suspect that the verse king list was composed by someone with a better command of Sanskrit, and the writer of the present grant simply adopted it from the official records.</p>
+<p rend="stanza" n="25-26">These two stanzas are not quite intelligible to me. The earlier editors Ramesh and Sampath may have interpreted it as I do, but all they say about them is that the donee’s ancestor Kumāramūrti <q>developed differences with his erstwhile lord mentioned as Toṇḍamān and Kāḍuveṭṭi</q> (<bibl><ptr target="bib:Ramesh+Sampath1977-1978_01"/><citedRange>37-38</citedRange></bibl>). The reason for the passage’s opacity is primarily the poor Sanskrit used by the composer; in addition, better knowledge of the context may help reconstruct what is being hinted at here. The plates also have some damage here, but the only real ambiguity as regards the received reading is whether or not an <foreign>anusvāra</foreign> is present at the beginning of line 40 (see the apparatus). I agree with RS that a <foreign>visarga</foreign> is needed here, and whether the emendation is to replace an <foreign>anusvāra</foreign> or to correct an omission is of little import. Assuming that the name Kumāramūrti is in the nominative, stanza XXV should then mean that he was the lord of the entire country and not just of two villages. This seems unlikely, since the ancestor would not be named then, while his grandson would bear the name Kumāra (stanza XXIX). However, our composer has already (in stanza XVII) shown a cavalier attitude to active and passive construction. I therefore propose that the other nominative in the stanza, <foreign>nāyako</foreign>, is to be understood as the agent of the passive participle <foreign>lāḷitaḥ</foreign>, resulting in a coherent and plausible stanza. What happened next is, however, even more opaque. Stanza XXVI seems to mention two kings, one of Toṇḍamān (though <foreign>bhūpates toṇḍamāninaḥ</foreign> is a strange expression and may mean something else) and one called Kāḍuveṭṭi. These two may or may not be a single person and either, none or both may be identical to the local ruler introduced above. The phrase <foreign>ity uktvā</foreign> in stanza XXVII makes it clear that the speaker of at least the second half of stanza XXVI (with the finite verb <foreign>uddharāmi</foreign> in the first person) was the donee’s ancestor, and what he said resulted in his leaving the country where he had lived. The situation is all the more unfortunate because the verb is much the same as the earlier <foreign>uddhr̥tam</foreign>, but probably used in a different meaning among the wide choice of senses derivable from either <foreign>hr̥</foreign> or <foreign>dhr̥</foreign> with the prefix <foreign>ud</foreign>. It seems most likely that the whole of stanza XXVI is meant to be a direct quote, but if so, then we learn nothing about the occasion that prompted Kumāramūrti to say this. My understanding is that the two references to a king mean a single person. This ruler, I believe, offered vassal status (or the command of an army) to Kumāramūrti, who may have been already a military leader rather than a simple country Brahmin. This is implied by <foreign>bhūri-yaśo-dhanaḥ</foreign> in stanza XXV and by the fact that his descendant the donee was also a general. Assuming this is the case, the virtue on account of which Kumāramūrti was cherished (stanza XXV) may have been military success rather than a generic platitude. However, precisely because he had already been cherished by his local ruler, it is perhaps most likely that the present offer came from someone else. Kumāramūrti apparently refused the distinction, so <foreign>noddharāmi</foreign> in stanza XXVI is to be understood as “I will not take as my own.” The position of <foreign>bhūpates toṇḍamāninaḥ</foreign> in the sentence may imply that the grounds for Kumāramūrti’s rejection was the king’s Toṇḍamān lineage or territorial affiliation. (Or possibly, the Sanskrit word <foreign>mānin</foreign> is to be understood here, in the sense “[only] a pretender to Toṇḍai kingship”.) To complicate matters further, the phrase <foreign>māna-dhanānvitaḥ</foreign> in stanza XXVII suggests that Kumāramūrti departed in honour rather than fleeing from a king’s wrath. The account may simply be putting a good face on what had actually happened. But I could also imagine that this is a further implication of what I propose above: if Kumāramūrti was solicited by a rival of the local ruler or by a king aspiring for suzerainty over the region, and Kumāramūrti refused out of loyalty to his local ruler, then it makes sense that he would have to depart out of fear of the other ruler, yet receive honours from his former ruler.
+</p>
 </div>
 
 
