@@ -202,9 +202,9 @@ n="3v"/>
         <note>I see no trace of <foreign>ā</foreign> in the otherwise clear scanned estampage. Since neither of the previous editors emend their reading, I must assume that this is a typo in both editions.</note>
       </app>
       <app loc="14">
-        <lem>kaṇḍe<unclear>ḥ</unclear>ṟuv<unclear>ā</unclear><pb/><lb/>ḍi-</lem>
-        <rdg source="bib:Kielhorn1898-1899_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ḍi-</rdg>
-        <rdg source="bib:NatesaSastri1884_01">kaṇḍeṟuv<unclear>ā</unclear><pb/><lb/>ṭi-</rdg>
+        <lem>kaṇḍe<surplus><unclear>ḥ</unclear></surplus>ṟuv<unclear>ā</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>ḍi-</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">kaṇḍeṟuv<unclear>ā</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>ḍi-</rdg>
+        <rdg source="bib:NatesaSastri1884_01">kaṇḍeṟuv<unclear>ā</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>ṭi-</rdg>
         <note>Kielhorn does not read this superfluous <foreign>visarga</foreign>, but does mention it in a note. Naṭeśa Śāstrī ignores it. It may have been deleted in some way, but it seems quite clear and it also seems to occupy horizontal space.</note>
       </app>
       <app loc="15">
@@ -228,7 +228,7 @@ n="3v"/>
         <rdg source="bib:Kielhorn1898-1899_01">-pautr<choice><sic>a</sic><corr>āya</corr></choice></rdg>
       </app>
       <app loc="18">
-        <lem>-vi<lb/>d<choice><orig>e</orig><reg>aḥ</reg></choice> <gap reason="ellipsis"/> -nirat<choice><orig>āya</orig><reg>asya</reg></choice></lem>
+        <lem>-vi<lb n="19" break="no"/>d<choice><orig>e</orig><reg>aḥ</reg></choice> <gap reason="ellipsis"/> -nirat<choice><orig>āya</orig><reg>asya</reg></choice></lem>
         <note>Though no previous editor suggests an emendation here, on the basis of the structure of this passage I feel quite certain that this compound was intended to describe the donee's father, not the donee himself. My emendation is indicative of this, but incomplete, since to express this purport in textbook grammar, <foreign>doṇaśarmma-trivedi-putrāya</foreign> would also need to be emended to <foreign>doṇaśarmma-trivedinaḥ putrāya</foreign>.</note>
       </app>
       <app loc="20">
@@ -259,9 +259,9 @@ n="3v"/>
         <rdg source="bib:NatesaSastri1884_01">ta<unclear cert="low">ṟu</unclear>kaḥ</rdg>
       </app>
       <app loc="23">
-        <lem>ṟa<lb/>māṭī</lem>
-        <rdg source="bib:NatesaSastri1884_01">ṟu<lb/>māṭi</rdg>
-        <rdg source="bib:Kielhorn1898-1899_01">ṟa<lb/>māṭi</rdg>
+        <lem>ṟa<lb n="24" break="no"/>māṭī</lem>
+        <rdg source="bib:NatesaSastri1884_01">ṟu<lb n="24" break="no"/>māṭi</rdg>
+        <rdg source="bib:Kielhorn1898-1899_01">ṟa<lb n="24" break="no"/>māṭi</rdg>
       </app>
       <app loc="24">
         <lem source="bib:Kielhorn1898-1899_01">reṇ<choice><sic>v</sic><corr>ḍ</corr></choice>uvaṭi boḷa-reṇḍuvaṭi</lem>
@@ -277,9 +277,9 @@ n="3v"/>
         <rdg source="bib:Kielhorn1898-1899_01"><choice><sic>sagraṁhaṁ</sic><corr>saṁgrahe</corr></choice></rdg>
       </app>
       <app loc="25">
-        <lem>boḻama nāma lo<lb/>ke <supplied reason="subaudible">’</supplied>smi<choice><sic>t</sic><corr>n</corr></choice></lem>
-        <rdg source="bib:NatesaSastri1884_01">bādhamāna-male <lb/><choice><sic>kasvat</sic><corr>kaścit</corr></choice></rdg>
-        <rdg source="bib:Kielhorn1898-1899_01">boḻama-nām<choice><sic>a</sic><corr>ā</corr></choice> lo<lb/>ke smi<choice><sic>t</sic><corr>n</corr></choice></rdg>
+        <lem>boḻama nāma lo<lb n="26" break="no"/>ke <supplied reason="subaudible">’</supplied>smi<choice><sic>t</sic><corr>n</corr></choice></lem>
+        <rdg source="bib:NatesaSastri1884_01">bādhamāna-male <lb n="26" break="no"/><choice><sic>kasvat</sic><corr>kaścit</corr></choice></rdg>
+        <rdg source="bib:Kielhorn1898-1899_01">boḻama-nām<choice><sic>a</sic><corr>ā</corr></choice> lo<lb n="26" break="no"/>ke smi<choice><sic>t</sic><corr>n</corr></choice></rdg>
         <note>I prefer to see <foreign>nāma</foreign> as a neuter accusative, next to the name that is understood to be in the nominative, not in compound.</note>
       </app>
       <app loc="26">
