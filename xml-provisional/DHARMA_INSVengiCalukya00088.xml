@@ -53,9 +53,9 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                    <p>Halantas. Anusvāra is typically omitted, but in some places where an anusvāra would be expected, there are small raised characters resembling a Latin S, which I take to be final M-s (e.g. l3 rājyānāM, l5 vapuṣāM).</p>
-                    <p>Original punctuation marks </p>
-                    <p>Other palaeographic observations.  
+                    <p>Halantas. Anusvāra is typically omitted, but in some places where an anusvāra would be expected, there are small raised characters resembling a Latin S, which I take to be final M-s (e.g. l3 rājyānāM, l5 vapuṣāM). The two instances on 3r are increasingly sketchy, with that in l23 phalaM looking like a small question mark, and that in l27 °kākinaM like a completely plain daṇḍa. Where actual   anusvāra is used, its placement is haphazard: in l23 datāṁ it is above the next character, while in l26 goraṁ it is to the left of ra.</p>
+                    <p>Original punctuation marks. What seems to be a space filler symbol at the end of line 9 is about half a character tall, floating at the midline, shaped like a Latin Z with very short arms, or a vertical line with a top serif to the left and a bottom serif to the right. It is by and large identical in shape to the punctuation mark in line 14.</p>
+                    <p>Other palaeographic observations. Consonants other than y are generally not doubled after r.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -112,18 +112,69 @@ n="1"/>śrī-<unclear>viṣama</unclear><supplied reason="lost">s</supplied><unc
 n="1r"/><p><pb 
 
 n="1v"/><lb 
-n="1"/>svasti+. śrīmatā+ṁ sakalabhū!uvana-jā!agad-abhiṣṭūyamāna-mānavya-sagotrāṇā+ṁ (h)ā
-<lb n="2" break="no"/>riti-putra!āṇā+ṁ svāmi-mahāsena-pādānudhyātānā+ṁ kauśiki!ī-vara-prasāda-la
-<lb n="3" break="no"/>bdha-rājya!ānā+ṁ sapta-mātri!r̥bhir abhiva+rddhita-rājy(ā)nā(M) bhagava{na}n-n(ā)rāyaṇa-vara-pra(sā)
-<lb n="4" break="no"/>da-saHOLEmāsādita-vara-varāha-lāñchanānā(M) Aśvamedhāvabhr̥tha-snāna-(pa)
-<lb n="5" break="no"/>vitri!īkr̥ta-vapuṣā(M) caḷukyānā+ṁ kula-jala(dh)i-samuditend(or na)ya-vina(ya)
-<lb n="6" break="no"/>-vikramā+rji(ta)-cāru-bhūri-ki!īrtti!eḥ śrī-jayasi+ṁgha-vallabha-mahā(rāja)-pri(yā)
-<lb n="7" break="no"/>nujasyendra-samāna-vikramasya!endra-bhaṭṭārakasya (sūno)r aṇ!neka-samara-[saṁ]
+n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatā<supplied reason="omitted">ṁ</supplied> sakala-bh<choice><sic>ū</sic><corr>u</corr></choice>vana-j<choice><sic>ā</sic><corr>a</corr></choice>gad-abhiṣṭūyamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> <unclear>h</unclear>ā<lb 
+n="2" break="no"/>riti-putr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<supplied reason="omitted">ṁ</supplied> svāmi-mahāsena-pādānudhyātānā<supplied reason="omitted">ṁ</supplied> kauśik<choice><sic>i</sic><corr>ī</corr></choice>-vara-prasāda-la<lb 
+n="3" break="no"/>bdha-rājy<choice><sic>a</sic><corr>ā</corr></choice>nā<supplied reason="omitted">ṁ</supplied> sapta-māt<choice><orig>ri</orig><reg>r̥</reg></choice>bhir abhiva<supplied reason="omitted">r</supplied>ddhita-rājy<unclear>ā</unclear>nā<unclear reason="eccentric_ductus">M</unclear> bhagava<surplus>na</surplus>n-n<unclear>ā</unclear>rāyaṇa-vara-pra<unclear>sā</unclear><lb 
+n="4" break="no"/>da-sa<space type="binding-hole"/>māsādita-vara-varāha-lāñchanānā<unclear reason="eccentric_ductus">M</unclear> Aśvamedhāvabhr̥tha-snāna-<unclear>pa</unclear><lb 
+n="5" break="no"/>vitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-vapuṣā<unclear reason="eccentric_ductus">M</unclear> caḷukyānā<supplied reason="omitted">ṁ</supplied> kula-jala<unclear>dh</unclear>i-samuditend<unclear>or na</unclear>ya-vina<unclear>ya</unclear><lb 
+n="6" break="no"/>-vikramā<supplied reason="omitted">r</supplied>ji<unclear>ta</unclear>-cāru-bhūri-k<choice><sic>i</sic><corr>ī</corr></choice>rtt<choice><orig>i</orig><reg>eḥ</reg></choice> śrī-jayasi<supplied reason="omitted">ṁ</supplied><choice><orig>gh</orig><reg>h</reg></choice>a-vallabha-mahā<unclear>rāja</unclear>-pri<unclear>yā</unclear><lb 
+n="7" break="no"/>nujasyendra-samāna-vikramasy<choice><sic>a</sic><corr>e</corr></choice>ndra-bhaṭṭārakasya <unclear>sūno</unclear>r a<choice><sic>ṇ</sic><corr>n</corr></choice>eka-samara-<supplied reason="lost">saṁ</supplied><pb 
 
-</p>
+n="2r" break="no"/><lb 
+n="8" break="no"/>ghāṭopalabdha-yuddha-vijaya-yaśa<supplied reason="omitted">ḥ</supplied>-pras<choice><sic>u</sic><corr>ū</corr></choice>ty-<choice><sic>a</sic><corr>ā</corr></choice>moda-gandhāvāsita-sakala-<choice><sic><unclear cert="low">mbi</unclear></sic><corr>di</corr></choice><lb 
+n="9" break="no"/><supplied reason="omitted">ṅ</supplied>-maṇḍalasya nānā-<choice><sic>s</sic><corr>ś</corr></choice>āstr<choice><sic>a</sic><corr>ā</corr></choice>bhy<choice><sic>a</sic><corr>ā</corr></choice>sopabr̥<supplied reason="omitted">ṁ</supplied>hita-vipula-vimala-<choice><orig>v</orig><reg>b</reg></choice>uddh<unclear>eḥ</unclear> ty<choice><sic>a</sic><corr>ā</corr></choice>g<choice><sic>o</sic><corr>au</corr></choice><choice><sic>dh</sic><corr>d</corr></choice>āryya<g type="commaHigh">§</g><lb 
+n="10" break="no"/>-<choice><orig>dhaiyi</orig><reg>dhai</reg></choice>ryya-g<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">ṁ</supplied>bh<choice><sic>i</sic><corr>ī</corr></choice><unclear reason="eccentric_ductus">ry</unclear>ya-kān<unclear>ty</unclear>-<choice><sic>a</sic><corr>ā</corr></choice>d<surplus>dh</surplus>i-guṇ<choice><sic>a</sic><corr>ā</corr></choice>la<supplied reason="omitted">ṁ</supplied>kr̥tasya vikramopā<supplied reason="omitted">r</supplied>jita-mah<choice><sic>i</sic><corr>ī</corr></choice>-maṇḍa<lb 
+n="11" break="no"/>lasya <space type="binding-hole"/> kali-timira-nirasano<choice><orig>d</orig><reg>dd</reg></choice>yotita-śr<choice><sic>i</sic><corr>ī</corr></choice>-pralayādityasya<surplus>ḥ</surplus> <sic>Upubr̥ṁh</sic>-va<lb 
+n="12" break="no"/>stavyasya vāj<choice><orig>i</orig><reg>a</reg></choice><supplied reason="omitted">saneyi</supplied>-cara<choice><sic>n</sic><corr>ṇ</corr></choice>asya va<choice><orig>cca</orig><reg>tsa</reg></choice>-gotr<choice><orig>āya</orig><reg>asya</reg></choice> <unclear>v</unclear>eda-v<choice><sic>a</sic><corr>e</corr></choice>dā<supplied reason="omitted">ṁ</supplied>ga-pārag<choice><orig><unclear>ā</unclear>ya</orig><reg>asya</reg></choice>ya rudraśar<unclear>ma</unclear><lb 
+n="13" break="no"/>na<supplied reason="omitted">ḥ</supplied> pautr<choice><sic>a</sic><corr>ā</corr></choice>ya japa-ho<unclear>ma</unclear><supplied reason="omitted">-yama</supplied>-niyama-ṣa<choice><sic>ṣ</sic><corr>ṭ</corr></choice>-karmma-nirat<choice><orig>āya</orig><reg>asya</reg></choice><surplus>ḥ</surplus> reva-śa<supplied reason="omitted">r</supplied>maṇa<supplied reason="omitted">ḥ</supplied> p<unclear>utrā</unclear><lb 
+n="14" break="no"/>ya <supplied reason="omitted">ya</supplied>jana-yājana-<gap reason="omitted" extent="unknown" unit="character"/> <choice><orig>dve</orig><reg>dvive</reg></choice>dāya bhavaśa<supplied reason="omitted">r</supplied>mmaṇe<g type="commaHigh">.</g> varanāṇḍu-viṣaye pa<unclear cert="low">ṇṭimu</unclear><pb 
+
+n="2v" break="no"/><lb 
+n="15" break="no"/>ku nāma grāme<supplied reason="subaudible">.</supplied> Uttara-diśāy<choice><orig>e</orig><reg>āṁ</reg></choice> p<choice><sic>u</sic><corr>ū</corr></choice>rvva-diśāy<choice><orig>e</orig><reg>āṁ</reg></choice> vya<unclear>gr</unclear><unclear cert="low">a</unclear><gap reason="illegible" quantity="2" unit="character"/><unclear cert="low">pe</unclear><gap reason="illegible" quantity="1" unit="character"/><unclear cert="low">ma</unclear><gap reason="illegible" quantity="1" unit="character"/><supplied reason="subaudible">.</supplied> <supplied reason="lost">da</supplied><lb 
+n="16" break="no"/><unclear>k</unclear>ṣiṇa-diśāy<choice><orig>e</orig><reg>āṁ</reg></choice> śam<choice><sic>i</sic><corr>ī</corr></choice> śul<unclear cert="low">b</unclear>a-vālm<choice><sic>i</sic><corr>ī</corr></choice>ka<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> paścima-diśā<unclear>y</unclear><choice><orig><unclear>e</unclear></orig><reg>āṁ</reg></choice> ta<unclear>ṭāka</unclear><supplied reason="omitted">ṁ</supplied><supplied reason="subaudible">.</supplied> <unclear>U</unclear>t<supplied reason="omitted">t</supplied>ara-di<lb 
+n="17" break="no"/>śāyā<supplied reason="omitted">ṁ</supplied> lākulika-vālm<choice><sic>i</sic><corr>ī</corr></choice>ka<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> Evañ catur-avadhi-madhya-gata-rā<choice><orig>c</orig><reg>j</reg></choice>a-mā<choice><orig><unclear reason="eccentric_ductus">ṇ</unclear></orig><reg>n</reg></choice>a-dvā<lb 
+n="18" break="no"/>daśa<space type="binding-hole"/><choice><sic>gva</sic><corr>kha</corr></choice>ṇḍi-<choice><sic>g</sic><corr>k</corr></choice>odrava-b<choice><sic>i</sic><corr>ī</corr></choice>ja-vāpa-paripramā<choice><sic>n</sic><corr>ṇ</corr></choice>a-<unclear>kṣ</unclear>e<unclear>tr</unclear>aḥ <unclear>grā</unclear>ma-madhy<choice><sic>a</sic><corr>e</corr></choice> g<choice><orig>ri</orig><reg>r̥</reg></choice><unclear>ha</unclear><lb 
+n="19" break="no"/>-kṣetra<supplied reason="omitted">ṁ</supplied> grāma-<sic>paścimatayatā pu<unclear>ṣ</unclear>pakatoṭā</sic> ca<unclear>ndra-graha</unclear>ṇa-nimi<unclear>t</unclear><supplied reason="omitted">t</supplied>a<supplied reason="omitted">ṁ</supplied> <supplied reason="lost">sa</supplied><lb 
+n="20" break="no"/>rvva-k<choice><sic>ā</sic><corr>a</corr></choice>ra-parih<choice><sic>a</sic><corr>ā</corr></choice>ropeta<supplied reason="omitted">ḥ</supplied> Udaka-p<choice><sic>u</sic><corr>ū</corr></choice>rvva<supplied reason="omitted">ṁ</supplied> datta<unclear cert="low">ḥ</unclear></p>
+<p><unclear>prava</unclear><unclear cert="low">rddha</unclear><unclear>māna</unclear>-vija<supplied reason="lost">ya-rā</supplied><lb 
+n="21" break="no"/>jya-sa<supplied reason="omitted">ṁ</supplied>va<choice><orig>c</orig><reg>ts</reg></choice>are <choice><orig>tri</orig><reg>tr̥tīye</reg></choice> va<choice><orig>ruṣe</orig><reg>rṣe</reg></choice><g type="dotHigh">.</g> Api ca vy<choice><sic>a</sic><corr>ā</corr></choice>sa-g<choice><sic>i</sic><corr>ī</corr></choice>t<unclear>au</unclear> śl<unclear>o</unclear>k<unclear>au</unclear></p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">bahubhi<supplied reason="omitted">r</supplied> vasu<pb 
+
+n="3r" break="no"/><lb 
+n="22" break="no"/>dhā dat<supplied reason="omitted">t</supplied>ā</l>
+<l n="b">bahubhiś cānupāl<choice><sic>a</sic><corr>i</corr></choice>tā</l>
+<l n="c">yasya yasya yadā bhūmis</l>
+<l n="d">tasya <unclear>ta</unclear><lb 
+n="23" break="no"/>sya tadā <unclear>pha</unclear>la<unclear reason="eccentric_ductus">M</unclear></l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">sva-dat<supplied reason="omitted">t</supplied>āṁ para-dat<supplied reason="omitted">t</supplied>ā<choice><sic>bva</sic><corr>m vā</corr></choice></l>
+<l n="b">yo haret<choice><sic>i</sic><corr>a</corr></choice> va<unclear>su</unclear>ndharā<supplied reason="omitted">ṁ</supplied></l>
+<l n="c">ṣa<unclear>ṣṭi</unclear><lb 
+n="24" break="no"/>-va<choice><sic>ruṣa</sic><corr>rṣa</corr></choice>-sahasr<choice><sic>a</sic><corr>ā</corr></choice>ṇi</l>
+<l n="d">viṣ<choice><orig>ṭ</orig><reg>ṭh</reg></choice>āy<choice><sic>a</sic><corr>ā</corr></choice>ñ j<choice><sic>a</sic><corr>ā</corr></choice>yate k<choice><orig>ri</orig><reg>r̥</reg></choice><unclear>miḥ</unclear></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a"><unclear>bh</unclear><choice><sic>u</sic><corr>ū</corr></choice><unclear>mi</unclear>-dā<supplied reason="omitted">nā</supplied>t para<supplied reason="omitted">ṁ</supplied> dā<lb 
+n="25" break="no"/>na<supplied reason="omitted">ṁ</supplied></l>
+<l n="b">na <space type="binding-hole"/> bhūta<supplied reason="omitted">ṁ</supplied> na bhaviṣyati</l>
+<l n="c">tasy<choice><sic>a</sic><corr>ai</corr></choice>va haraṇ<unclear>ā</unclear><supplied reason="omitted">t</supplied> pā<unclear>pa</unclear>n</l>
+<l n="d">na bh<choice><sic>u</sic><corr>ū</corr></choice>tan na <surplus><unclear>na</unclear></surplus><lb 
+n="26" break="no"/>bhaviṣyati<g type="commaHigh">.</g></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a"><choice><orig>braṁmaṁ</orig><reg>brahma</reg></choice>-sva<supplied reason="omitted">ṁ</supplied> <supplied reason="omitted">tu</supplied> viṣa<supplied reason="omitted">ṁ</supplied> <choice><sic>g</sic><corr>gh</corr></choice>oraṁ</l>
+<l n="b">na viṣa<supplied reason="omitted">ṁ</supplied> viṣam <unclear>uc</unclear>yate</l>
+<l n="c">viṣam e<lb 
+n="27" break="no"/>kākina<unclear reason="eccentric_ductus">M</unclear> hanti</l>
+<l n="d">bra<choice><orig>mha</orig><reg>hma</reg></choice>s<choice><sic>y</sic><corr>v</corr></choice>a<supplied reason="omitted">ṁ</supplied> put<supplied reason="omitted">r</supplied>a-<choice><sic>pavi</sic><corr>pau</corr></choice>trika<supplied reason="omitted">M</supplied></l>
+</lg>
+<p>Ājñap<unclear>t</unclear>i<supplied reason="lost">r a</supplied>sya dharmmasya pa<lb 
+n="28" break="no"/>ram<choice><orig>i</orig><reg>e</reg></choice>śvara<supplied reason="omitted">ḥ</supplied> <sic>sa<unclear cert="low">ṁ</unclear>sārā-sarva-bhūbhuvāḥ</sic></p>
 <pb 
 
-n="5v"/>
+n="3v"/>
 
 </div>
 </div>
@@ -137,9 +188,37 @@ n="5v"/>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
-      <app loc="4">
-        <lem></lem>
-        <note></note>
+      <app loc="9">
+        <lem>-<choice><orig>v</orig><reg>b</reg></choice>uddh<unclear>eḥ</unclear></lem>
+        <note>All of the genitives from this point on to line 11 may have been intended for instrumentals. See also the translation and the commentary.</note>
+      </app>
+      <app loc="11">
+        <lem><sic>Upubr̥ṁh</sic>-</lem>
+        <note>The reading is clear, but this is all but impossible as a place name. The final <foreign>h</foreign> is conjoined to the following <foreign>va</foreign>, which in turn is part of the word continuing in the next line, so if eyeskip omission has taken place (involving e.g. another <foreign>upabr̥ṁhita</foreign>), then it was more than simply skipping some words at the end of the line.</note>
+      </app>
+      <app loc="13">
+        <lem>-ho<unclear>ma</unclear><supplied reason="omitted">-yama</supplied>-niyama</lem>
+        <note>The text is of course acceptable without my restoration, but <foreign>niyama</foreign> is normally paired with <foreign>yama</foreign>, so I suspect eyeskip omission.</note>
+      </app>
+      <app loc="13">
+        <lem>p<unclear>utrā</unclear><lb n="14" break="no"/>ya <supplied reason="omitted">ya</supplied>jana-</lem>
+        <note>Eyeskip omission is certain here.</note>
+      </app>
+      <app loc="14">
+        <lem>-yājana-<gap reason="omitted" extent="unknown" unit="character"/></lem>
+        <note>See the translation.</note>
+      </app>
+      <app loc="14">
+        <lem>pa<unclear cert="low">ṇḍimu</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>ku</lem>
+        <note>In the plate's present condition, the last two characters are effaced. The penultimate character is most probably <foreign>ṇḍi</foreign> or <foreign>ṇṭi</foreign>, while the last is completely effaced. I restore the name on the basis of <ref target="DHARMA_INSVengiCalukya00089.xml">Pamiḍimukkala plates (set 2) of Viṣṇuvardhana II</ref>, where it is quite clear. According to the ARIE report, the village of both these grants is named Paṇṭimuku. While <foreign>ṇṭi</foreign> cannot be excluded, the consonant component is in the other grant exactly identical to other instances of <foreign>ṇḍ</foreign>.</note>
+      </app>
+      <app loc="18">
+        <lem><sic>paścimatayatā pu<unclear>ṣ</unclear>pakatoṭā</sic></lem>
+        <note>The reading is clear. The intent may have been <foreign>paścimenāyatā puṣpa-vāṭikā</foreign> or something along these lines.</note>
+      </app>
+      <app loc="28">
+        <lem><sic>sa<unclear cert="low">ṁ</unclear>sārā-sarva-bhūbhuvāḥ</sic></lem>
+        <note>The reading is clear, except for the <foreign>anusvāra</foreign>. A conspicuous dot is certainly present above the gap between <foreign>ra</foreign> and <foreign>sa</foreign>. It may have been meant to go with <foreign>ra</foreign>, or it may be part of the weirdly formed final <foreign>M</foreign> in the previous line. The composer's actual intent may have been <foreign>svasty astu sarva-bhūtebhyaḥ</foreign>.</note>
       </app>
       
       
