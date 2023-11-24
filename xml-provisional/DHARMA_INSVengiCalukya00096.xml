@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Peddāpurappāḍu plates (set 3) of Viṣṇuvardhana II</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00096</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                    <p>The only halantas character occurring in the text is an unclear final M in line 35, which seems to be a reduced and simplified ma.</p>
+                    <p>Original punctuation marks are plain verticals, used in profusion for segmentation into units smaller than sentences, and often in groups to punctuate larger units. Elaborate florets mark the ends of sections, and the end of the text is signified, in addition to three vertical bars, by a sign that I classify as a gomūtra symbol with tails to both the left and right, but which may in fact be two separate symbols, a plain circle and a clockwise spiral with a tail to the right, plus some damage.</p>
+                    <p>Other palaeographic observations. Anusvāra is typically a small circle at head height to the right of the character to which it belongs. Headmarks are prominent V shapes. Dependent e is often (e.g. l2 mahāsena, l5 samuditendu) written by closing the left-hand stroke of the headmark downward into a small circle. An unusual glyph in line 26 that I cannot identify with confidence may be initial Au or Ū. The glyph for li in l26 cānupālitā has a body unlike any l I have ever seen in an Eastern Cālukya inscription, but which is attested for example in the Reyūru Grant of Pallava Narasimhavarman (<bibl><ptr target="bib:Desai1951-1952_01"/></bibl>), written in an ornate Andhra-style script.
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2023-11-22" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/><unclear>v</unclear>iṣa<unclear>ma</unclear>siddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/><p><pb 
+
+n="1v"/><lb 
+n="1"/><g type="floretQuatrefoil"/> svasti<supplied reason="subaudible">.</supplied> śrīmat<unclear>āṁ</unclear> sakala-jagad-abhiṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice><choice><sic>u</sic><corr>ū</corr></choice>yamāna-mānavya<lb 
+n="2" break="no"/>-sagotrāṇāṁ| hārīti-putrāṇāṁ| svāmi-mahāsena-pādānu<lb 
+n="3" break="no"/>dhyātānāṁ| k<unclear>au</unclear>śikī-vara-prasāda-labdha-rājyānāṁ| bhagavan-nā<lb 
+n="4" break="no"/><space type="binding-hole"/>rāyaṇa-prasāda-samāsādita-vara-varāhalāṁ<lb 
+n="5" break="no"/><space type="binding-hole"/>chanānāṁ| cālukyānāṁ kula-jaladhi-samuditenduś śrī<lb 
+n="6" break="no"/><space type="binding-hole"/>-viṣṇuvarddhana-mahārājaḥ| tasyātmaja<supplied reason="omitted">ḥ</supplied> śrī jayasiṁ<choice><orig>gh</orig><reg>h</reg></choice>avarmmaḥ| <lb 
+n="7"/>tat-priyānujasya| Indra-bhaṭṭārakasya priya<del>ḥ</del>-tanaya<supplied reason="omitted">ḥ</supplied> śrī-viṣamasi<lb 
+n="8" break="no"/>ddhi-mahārājaḥ||| yāpanīya-vr̥kṣa-mūla-gaṇa-tilakasya bha<pb 
+
+n="2r" break="no"/><lb 
+n="9" break="no"/>gavataḥ kanakanandy-ācāryya-dharmmopadeś<choice><sic>a</sic><corr>e</corr></choice>na kasumi-sthitā<lb 
+n="10" break="no"/>ya jinālayāya| bhagavatām arhatāṁ bali-vaiśvadeva-śaraṇā<lb 
+n="11" break="no"/>rtthaṁ svadharmmābhivr̥ddha<supplied reason="omitted">ye</supplied>|</p>
+<p>Aṣṭami-viṣaye kākaṇḍipaṟṟu nāma grāmasya<lb 
+n="12"/><space type="binding-hole"/> jinālayasya sthala-bhāga-kṣetrasya Uttarataḥ rathyā-mārggaḥ pū<unclear>r</unclear>vvataḥ <lb 
+n="13"/><space type="binding-hole"/>panth<choice><sic>a</sic><corr>ā</corr></choice>ḥ dakṣiṇatas taṭākaṁ paścimatas taṭākād udag <choice><orig>ri</orig><reg>r̥</reg></choice><del>tyā</del>ju-gatyā <lb 
+n="14"/><space type="binding-hole"/>rathyā-mārggaḥ|||| grāmasya pūrvvasyā<supplied reason="omitted">ṁ</supplied> diṣi kummaṟa<unclear cert="low">mm</unclear>u <unclear>nāma</unclear> <lb 
+n="15"/>kṣetra<supplied reason="omitted">ṁ</supplied> dvādaśa-vrīhi-khaṇḍikā-phala-sthānaṁ| Anyaṁ pitaṟeka<lb 
+n="16" break="no"/>padhuga nāma kṣetraṁ dvādaśa-vrīhi-khaṇḍikā-phala-sthānaṁ| grāmasya <lb 
+n="17"/>dakṣiṇataḥ triśata-kramuka-vr̥kṣ<choice><sic>ā</sic><corr>a</corr></choice>-vāṭaṁ|| <g type="floretComplex"/> tasyaiva <choice><sic>ṣ</sic><corr>p</corr></choice>rati<pb 
+
+n="2v" break="no"/><lb 
+n="18" break="no"/>baddhe| tūṟaṁgū nāma grāma-jinālayasya sthala-bhāga-kṣetrasya <lb 
+n="19"/>pūrvvataḫ panth<choice><sic>a</sic><corr>ā</corr></choice>ḥ dakṣiṇataḥ rathyā paścima<unclear>ta</unclear>ḥ rathyā Uttarataḥ gocā<lb 
+n="20" break="no"/>raṁ||| grāmasya Uttarataḥ tāḻammu nāma phala-kṣetraṁ tasya pū<lb 
+n="21" break="no"/><space type="binding-hole"/>rvvataḥ gocāraṁ dakṣiṇataḫ panth<choice><sic>a</sic><corr>ā</corr></choice>ḥ paścimato <unclear cert="low">U</unclear><unclear>bbu</unclear>gaddā <lb 
+n="22"/><space type="binding-hole"/>Uttarataḥ dammiguṇḍa-kṣetraṁ||| <g type="floretComplex"/> ||| tasyaiva pratibaddhe <lb 
+n="23"/><del>ga</del> kḻoyyūru nāma grāma-jinālayasya sthala-bhāga-kṣetrasya <unclear>pū</unclear><lb 
+n="24" break="no"/>rvvataḥ rathyā dakṣiṇato <supplied reason="subaudible">’</supplied>raṇyaṁ paścimato vaṭa-vr̥kṣaṁ Uttarato <lb 
+n="25"/>rathyā-mārggaṁ<supplied reason="subaudible">.</supplied> grāmasya c<choice><orig>e</orig><reg>ai</reg></choice>śānyān diśi Aṣṭaśata-khaṇḍikā-phala<lb 
+n="26" break="no"/>-sthānaṁ trirāva nāma kṣetraṁ| tasya pūrvvataḥ <choice><unclear reason="eccentric_ductus">Au</unclear><unclear reason="eccentric_ductus">Ū</unclear></choice>ṣara-kṣetraṁ dakṣiṇa<pb 
+
+n="3r" break="no"/><lb 
+n="27" break="no"/>to navarāmaṁ paścimato grāmasya mahā-sīmā Uttarasyā<supplied reason="omitted">m a</supplied>pi mahā<lb 
+n="28" break="no"/>-sīmā| Anyaṁ dviśata-khaṇḍikā-phala-sthānaṁ dvirāvaṁ grāmasya dakṣiṇa<lb 
+n="29" break="no"/>taḥ ṣaṭ-khaṇḍikā-kodrava-bīja-phala-sthānaṁ <g type="floretComplex"/></p>
+<p>Ity evam-ādi kṣe<lb 
+n="30" break="no"/>trasya Ubhaya-sasya-bhogyasya sarvva-kara-parīhāro dattaḥ</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a"><lb 
+n="31"/><space type="binding-hole"/> bahubhir vvasudhā dattā|||</l>
+<l n="b">bahubhiś cānupālitā|||</l>
+<l n="c">ya<lb 
+n="32" break="no"/><space type="binding-hole"/>sya yasya yadā bhūm<choice><orig>i</orig><reg>is</reg></choice>|||</l>
+<l n="d"><choice><orig>st</orig><reg>t</reg></choice>asya tasya tadā phalaṁ|||</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">na vi<lb 
+n="33" break="no"/><supplied reason="lost">ṣaṁ vi</supplied>ṣam ity āhuḥ|||</l>
+<l n="b">deva-svaṁ viṣam ucyate|||</l>
+<l n="c">viṣam ekā<lb 
+n="34" break="no"/><supplied reason="lost">kinaṁ hant</supplied><unclear>i</unclear>|||</l>
+<l n="d">deva-svaṁ putra-pautrikaṁ|||</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">sva-datt<choice><sic>a</sic><corr>ā</corr></choice>ṁ para-datt<choice><sic>a</sic><corr>ā</corr></choice>ṁ vā|||</l>
+<l n="b"><lb 
+n="35"/><supplied reason="lost">yo haret</supplied><choice><sic><unclear>i</unclear></sic><corr>a</corr></choice> vasuṁdharā<unclear>M</unclear>|||</l>
+<l n="c">ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>ir vvarṣa-sahasrāṇi|||</l>
+<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>hāyāṁ jā<lb 
+n="36" break="no"/><supplied reason="lost">yate kr̥mi</supplied><unclear>ḥ</unclear>||| <g type="gomutraDouble"/></l>
+</lg>
+
+
+<pb n="3v"/>
+</div>
+</div>
+        
+        
+      
+        
+<div type="apparatus">
+
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+    <listApp>
+      <app loc="1">
+        <lem><unclear>v</unclear>iṣa<unclear>ma</unclear>siddhi</lem>
+        <note>The ARIE reports the seal legend as <foreign>śrī viṣamasiddhi</foreign>. There is no visible <foreign>śrī</foreign> on the seal, and although the left-hand point is broken off, there does not seem to have been room for another character before the legend, unless it was crammed in at the left below the rest of the legend.</note>
+      </app>
+    </listApp>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="10">
+        <lem>-vaiśvadeva-śaraṇā<lb n="11" break="no"/>rtthaṁ</lem>
+        <note>The <ref target="DHARMA_INSVengiCalukya00056.xml">first Peddāpurappāḍu set</ref>, ll17-18, reads <foreign>mahā-bali-vaiśvadeva-navakarmma-saraṇārtthaM</foreign> (now confirmed from photos of the original) in the same context. I feel that <foreign>śaraṇa</foreign> is more appropriate to the context than <foreign>saraṇa</foreign>, although <foreign>ācaraṇa</foreign> may have been intended in both cases.</note>
+      </app>
+      <app loc="11">
+        <lem>Aṣṭami-</lem>
+        <note>ARIE reports the district as Nātavāḍi. The reading is clear here, and the name Nātavāḍi does not occur in the charter.</note>
+      </app>
+      <app loc="13">
+        <lem>udag <choice><orig>ri</orig><reg>r̥</reg></choice><del>tyā</del>ju-gatyā</lem>
+        <note>Probably <foreign>udagatyā</foreign> was first inscribed, then corrected to <foreign>udagrijugatyā</foreign> by adding subscript <foreign>r</foreign> and <foreign>i</foreign> to <foreign>ga</foreign> and striking out <foreign>tyā</foreign>.</note>
+      </app>
+      <app loc="21">
+        <lem><unclear cert="low">U</unclear><unclear>bbu</unclear>gaddā</lem>
+        <note>Part of the first character is obliterated, only a curve resembling a Latin C remains. Its shape corresponds exactly to other instances of initial <foreign>U</foreign>, but the text generally observes standard sandhi, so I am hesitant to read <foreign>U</foreign> here. Another candidate on the basis of shape would be <foreign>ṭa</foreign>, but I believe that <foreign>o</foreign> sandhi is even less likely before that character. My impression is that the glyph is not tall enough to be part of <foreign>la</foreign>, and some vestige of the central part of <foreign>la</foreign> also ought to be visible if that character had been engraved. The bottom of the extant part is distinctly not notched, ruling out readings such as <foreign>ḍa</foreign>, <foreign>da</foreign>, <foreign>va</foreign> and <foreign>ma</foreign>.</note>
+      </app>
+      <app loc="23">
+        <lem><del>ga</del></lem>
+        <note>This character is clearly recognisable, but faint and has probably been hammered or rubbed out. It is below the centre of the hole, positioned slightly lower than the rest of line 23, to which it is in all probability not connected at all. I have no insight into why it may have been engraved here. There is no indication whatsoever of the plate being a palimpsest, and I consider this sign unlikely to serve pagination.</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-12"></p>
+  </div>  
+</div>
+
+
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1997-1998"/><citedRange unit="page">17</citedRange><citedRange unit="appendix">A/1997-98</citedRange><citedRange unit="item">3</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1997-1998"/><citedRange unit="page">3-4</citedRange></bibl>. According to the ARIE, the plates have been edited in Bhārati, 1983 October, p8ff with plates; not traced. The present edition by Dániel Balogh is based on photographs taken by myself in 2023 at the Andhra Sahitya Parishad Museum, Kakinada.</p>
+  <listBibl type="primary">
+    <bibl/>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1997-1998"/><citedRange unit="page">17</citedRange><citedRange unit="appendix">A/1997-98</citedRange><citedRange unit="item">3</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1997-1998"/><citedRange unit="page">3-4</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
