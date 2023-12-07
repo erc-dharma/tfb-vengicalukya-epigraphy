@@ -56,7 +56,7 @@
                <physDesc>
                   <handDesc>
                      <p>Halantas. T: ta shape with elongated stem and no headmark. E.g. l1 vāsakāT. M: like a J with a curly end, quite small. E.g. l20 samudra<orig>M</orig>; even simpler and less curly, like a plain J: l20 taṭākaM.</p>
-                     <p><!--Original punctuation.   -->Other palaeographic observations. The hand is conspicuously different from that of <ref n="tfa-pallava-epigraphy" target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, not only in ductus but in the shaping of some glyphs as well, e.g. kha in l1 of both charters. Note the occurrence of very rare initial Ai in l5 Aidaṁyugīna. There is also initial E in l19.                
+                    <p><!--Original punctuation.   -->Other palaeographic observations. The hand is different from that of <ref target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, not only in ductus but in the shaping of some glyphs as well, e.g. kha in l1 of both charters. The difference from <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> is even more conspicuous. Note the occurrence of very rare initial Ai in l5 Aidaṁyugīna. There is also initial E in l19.                
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -93,7 +93,8 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+        <change who="part:daba" when="2023-12-07" status="draft">Collation with photographs</change>
+        <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
         <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
         <change who="part:daba" when="2020-04-14" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
@@ -111,42 +112,42 @@ n="1r"/>
 <p><pb 
 
 n="1v"/><lb 
-n="1"/><unclear><g type="spiralR"/></unclear>svasti śrīmad-asanapura-vāsakāT sva-śakti-mukha-dalita-danu<lb 
+n="1"/><!--PHOTO: P1020018.JPG-->svasti śrīmad-asanapura-vāsakāT sva-śakti-mukha-dalita-danu<lb 
 n="2" break="no"/>ja-pati-mahā-senena mahāsenenābhiva<supplied reason="omitted">r</supplied>ddhitānāṁ mātr̥-ga<lb 
 n="3" break="no"/>ṇa-pari<space type="binding-hole"/>pālitānāṁ mānavya-sagotrāṇāṁ hāriti-putrāṇā<lb 
-n="4" break="no"/>m aśva<space type="binding-hole"/>medha-yājināṁ <orig>cadukyānāṁ</orig> kula-jaladhi-samudbhū<lb 
-n="5" break="no"/>ta-rāja-ratnasya śrī-kī<choice><sic>ttī</sic><corr>rtti</corr></choice>varmaṇaḥ priya-naptā Aidaṁyugīna-mahā<lb 
+n="4" break="no"/>m aśva<space type="binding-hole"/>medha-yājināṁ caḍukyānāṁ kula-jaladhi-samudbhū<lb 
+n="5" break="no"/>ta-rāja-ratnasya śrī-kī<choice><sic>ttī</sic><corr>rtti</corr></choice>varmmaṇaḥ priya-naptā Aidaṁyugīna-mahā<lb 
 n="6" break="no"/>viṣṇoḥ viṣṇuvarddhana-mahārājasya priya-tanayaḥ pravarddhamā<pb 
 
 n="2r" break="no"/><lb 
-n="7" break="no"/>na-pratāpopanata-samasta-sāmanta-maṇḍalaḥ sva-śakti-traya-parā<lb 
+n="7" break="no"/><!--PHOTO: P1020024.JPG-->na-pratāpopanata-samasta-sāmanta-maṇḍalaḥ sva-śakti-traya-parā<lb 
 n="8" break="no"/>jita-para-śaktiḥ Aneka-samara-saṁghaṭṭa-vijayāvāpta-yaśo-viśe<unclear>ṣa</unclear><lb 
 n="9" break="no"/>-bhūṣa<space type="binding-hole"/>ṇaḥ pratidinam aneka-sāmanta-makuṭa-maṇi-prabhā-raṁ<lb 
 n="10" break="no"/>jita-pā<space type="binding-hole"/>da-pīṭhaḥ parama-brahmaṇyo mātā-pitr̥-pādānudhyā<lb 
-n="11" break="no"/>taḥ śrī-pr̥thiv<orig>i</orig>-jayasi<orig>ṁgha</orig>-vallabha-mahārājaḥ pḻakki-viṣaye <lb 
-n="12"/>viṣa<supplied reason="omitted">ya</supplied>-vr̥ddhān adhikārinaḥ kundūra-grāma-kuṭumbinaś ca samājñāpaya<pb 
+n="11" break="no"/>taḥ śrī-pr̥thiv<choice><orig>i</orig><reg>ī</reg></choice>-jayasiṁ<choice><orig>gh</orig><reg>h</reg></choice>a-vallabha-mahārājaḥ pḻakki-viṣaye <lb 
+n="12"/>viṣa<supplied reason="omitted">ya</supplied>-vr̥ddhān adhikāriṇaḥ kund<unclear reason="eccentric_ductus">ū</unclear>ra-grāma-kuṭumbinaś ca samājñāpaya<pb 
 
 n="2v" break="no"/><lb 
-n="13" break="no"/>ti</p>
-<p>viditam astu vo yathāsmābhiś catur-vvidyā-pāragasya mitrayaśa<lb 
+n="13" break="no"/><!--PHOTO: P1020031.JPG-->ti</p>
+<p>viditam astu vo yathāsmābhiś catu<unclear>r</unclear>-vvidyā-pāragasya mitrayaśa<lb 
 n="14" break="no"/>saḥ pautrābhyāṁ sva-pitu<supplied reason="omitted">r</supplied> guṇālaṅkr̥tasya viṣṇuyaṣasaḥ putrābhyāṁ ṣaṭ-ka<lb 
-n="15" break="no"/>rmma-dharmmā<space type="binding-hole"/>nuṣṭhāna-parābhyāṁ Agniṣṭoma-yājibhyāṁ vatsa-sagotrābhyāṁ <lb 
-n="16"/>chandoga<space type="binding-hole"/>-sabrahmacāribhyāṁ svāmiyaśo-viṣṇuyaśobhyāṁ kuḍivāḍa-nā<lb 
-n="17" break="no"/>ma grāma<choice><sic>ḥ</sic><corr>ṁ</corr></choice> vasatiṁ kr̥tvā kundūra-grāma-sīmn<orig>o</orig> pr̥thak-kr̥tya puṇyābhivr̥ddhaye <lb 
-n="18"/>sarvva-kara-parihāreṇāgrahārī-kr̥tya mayā dattaḥ</p>
+n="15" break="no"/>rmma-dharmmā<space type="binding-hole"/>nuṣṭhāna-parābhyāṁ Agniṣṭoma-yājibhyāṁ vat<unclear reason="eccentric_ductus">s</unclear>a-sagotrābhyāṁ <lb 
+n="16"/>chandoga<space type="binding-hole"/>-sabrahmacāribhyāṁ svāmiyaśo-viṣ<unclear reason="eccentric_ductus">ṇu</unclear>yaśobhyāṁ kuḍivāḍa-nā<lb 
+n="17" break="no"/>ma grāma<choice><sic>ḥ</sic><corr>ṁ</corr></choice> vasatiṁ kr̥tvā kund<unclear reason="eccentric_ductus">ū</unclear>ra-grāma-sīmn<orig>o</orig> pr̥thak-kr̥tya puṇyābhivr̥ddhaye <lb 
+n="18"/>sarvva-kara-parihāreṇāgrahārīkr̥tya mayā dattaḥ</p>
 <p>bhavadbhir anyaiś ca pā<pb 
 
 n="3r" break="no"/><lb 
-n="19" break="no"/>lanīyaḥ<supplied reason="subaudible">.</supplied> Asya sīma-vibhāgaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ kundūra-grāma-sīm<orig>a</orig> E<unclear>va</unclear> <add place="inline"><unclear>sīmā</unclear></add><supplied reason="subaudible">.</supplied> <lb 
+n="19" break="no"/><!--PHOTO: P1020036.JPG-->lanīyaḥ<supplied reason="subaudible">.</supplied> Asya sīm<orig>a</orig>-vibhāgaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ kundūra-grāma-sīm<orig>a</orig> E<add place="overstrike"><unclear>va</unclear></add><add place="inline"><unclear>sī</unclear></add><add place="below"><unclear>ma</unclear></add><supplied reason="subaudible">.</supplied> <lb 
 n="20"/>dakṣiṇataḥ samudra<orig>M</orig><supplied reason="subaudible">.</supplied>
 paścimataḥ goḻāva nāma taṭākaM<supplied reason="subaudible">.</supplied> punaḥ nāguvula<lb 
-n="21" break="no"/>-ceṟuvu<space type="binding-hole"/>-kandikaṭṭu-kaḍakaṭṭu<supplied reason="subaudible">.</supplied>
+n="21" break="no"/>-ceṟuvu<space type="binding-hole"/> kandikaṭṭu kaḍakaṭṭu<supplied reason="subaudible">.</supplied>
 Uttarataḥ Āvakaṭṭu</p>
-<p>Ājñaptiḥ <choice><sic>pirimi</sic><corr>parama</corr></choice><lb 
+<p>Ājñaptiḥ <choice><sic>pirimi<add place="below">ma</add></sic><corr>parama</corr></choice><lb 
 n="22" break="no"/>-vaiṣṇavo <space type="binding-hole"/> vājapeya-yājī bhīmaśarmmā<space/></p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā </l>
-<l n="b">bahu<lb 
+<l n="b"><unclear reason="eccentric_ductus">b</unclear>ahu<lb 
 n="23" break="no"/>bhiś cānupālitā</l>
 <l n="c">yasya yasya yadā bhūmiḥ</l>
 <l n="d">tasya tasya tadā phalaṁ</l>
@@ -156,7 +157,7 @@ n="23" break="no"/>bhiś cānupālitā</l>
 n="24" break="no"/>-dattāṁ para-dattāṁ vā</l>
 <l n="b">yo hareta vasundharāṁ</l>
 <l n="c">ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>i-varṣa-sahasrāṇi</l>
-<l n="d">viṣṭhāyāṁ jāyate k<orig>ri</orig>miḥ</l>
+<l n="d">viṣṭhāyāṁ jāyat<choice><sic>i</sic><corr>e</corr></choice> k<choice><orig>ri</orig><reg>r̥</reg></choice>miḥ</l>
 </lg>
 <pb 
 
@@ -171,36 +172,46 @@ n="3v"/>
 <div type="apparatus">
     <listApp>
       <app loc="1">
-        <lem><unclear><g type="spiralR"/></unclear></lem>
-        <note>Somasekhara Sarma transcribes this symbol as <foreign>oṁ</foreign>. It is barely discernible in the scanned facsimile, and it must be in the margin, since the first character of the text is flush with the following line beginnings. I assume the symbol is identical to that in <ref n="tfa-pallava-epigraphy" target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, but it may instead be a counterclockwise spiral.</note>
+        <lem>svasti</lem>
+        <rdg source="bib:SomasekharaSarma1955-1956_01">oṁ svasti</rdg>
+        <note>Somasekhara Sarma's edition shows <foreign>oṁ</foreign> <q>expressed by a symbol</q> at the beginning of the text. A spiral symbol is present at this point in both other Guḍivāḍa sets, but definitely not here.</note>
       </app>
       <app loc="4">
-        <lem><orig>cadukyānāṁ</orig></lem>
+        <lem>caḍukyānāṁ</lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">ca<choice><sic>d</sic><corr>l</corr></choice>ukyānāṁ</rdg>
-<note>I think the intent may have been <foreign>caḷukyānāṁ</foreign>.</note>
+        <note>The intent was probably <foreign>caḷukyānāṁ</foreign>.</note>
+      </app>
+      <app loc="12">
+        <lem>viṣa<supplied reason="omitted">ya</supplied>-vr̥ddhān adhikāriṇaḥ</lem>
+        <note>Some or all of this segment may be a correction over very thoroughly deleted text, or the plate may have had some text engraved on it before writing this grant. Very faint vestiges of earlier writing can be discerned especially underneath <foreign>ddhā</foreign> and <foreign>dhikāri</foreign>.</note>
       </app>
       <app loc="14">
         <lem>sva-pitu<supplied reason="omitted">r</supplied></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">pit<choice><sic>u</sic><corr>r̥</corr></choice>-</rdg>
-        <note>Although in my emendation the genitive associated with an internal compound member is not as nice grammatically as the compound in Somasekhara Sarma's emendation, compare <foreign>sva-pitur anūna-guṇa-...-rociṣṇor</foreign> in <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> of the same provenance.</note>
+        <note>Although in my emendation the genitive associated with an internal compound member is not as nice grammatically as the compound in Somasekhara Sarma's emendation, compare <foreign>sva-pitur anūna-guṇa-...-rociṣṇor</foreign> in <ref target="DHARMA_INSVengiCalukya00005.xml">Set 1</ref> of the same provenance.</note>
       </app>
       <app loc="17">
         <lem>grāma<choice><sic>ḥ</sic><corr>ṁ</corr></choice></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">grāmaḥ</rdg>
-        <note>Compare the text of <ref target="DHARMA_INSVengiCalukya00005.xml">(set 1)</ref> and my commentary on it.</note>
+        <note>Compare the text of <ref target="DHARMA_INSVengiCalukya00005.xml">Set 1</ref> and my commentary on it.</note>
       </app>
       <app loc="17">
         <lem>sīmn<orig>o</orig></lem>
-        <note>Compare line 18 of <ref n="tfa-pallava-epigraphy" target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, where this word is followed by <foreign>dvātriṅśan-nivarttanaṁ</foreign>. The same must have been omitted (deliberately or erroneously) from the present text.</note>
+        <note>Compare line 18 of <ref target="DHARMA_INSVengiCalukya00006.xml">Guḍivāḍa 2</ref>, where this word is followed by <foreign>dvātriṅśan-nivarttanaṁ</foreign>. The incorrect sandhi indicates that the same must have been omitted (deliberately or erroneously) from the present text.</note>
       </app>
       <app loc="19">
-        <lem>E<unclear>va</unclear> <add place="inline"><unclear>sīmā</unclear></add></lem>
+        <lem>E<add place="overstrike"><unclear>va</unclear></add><add place="inline"><unclear>sī</unclear></add><add place="below"><unclear>mā</unclear></add></lem>
         <rdg source="bib:SomasekharaSarma1955-1956_01">E<unclear>va sīmā</unclear></rdg>
-        <note><foreign>sī</foreign> is in the top right corner of the plate, partly overlapping with <foreign>va</foreign>, while <foreign>mā</foreign> seems to be below, and almost wholly overlapping with, <foreign>sī</foreign>. I believe these characters were omitted in a sort of eyeskip and added subsequently.</note>
+        <note>There seems to have been a single character, probably with an <foreign>i</foreign> marker, after <foreign>E</foreign>. It seems that this was overwritten with <foreign>va</foreign>, then <foreign>sī</foreign> (with a malformed vowel marker) was squeezed in next to it, and finally a distorted <foreign>ma</foreign> was added below the latter. All this probably happened after the next line had been fully engraved. See also the note to line 21.</note>
       </app>
       <app loc="21">
-        <lem><choice><sic>pirimi</sic><corr>parama</corr></choice></lem>
-        <note>Could these be deletion signs instead of superfluous <foreign>i mātrā</foreign>s?</note>
+        <lem><choice><sic>pirimi<add place="below">ma</add></sic><corr>parama</corr></choice>-</lem>
+        <rdg source="bib:SomasekharaSarma1955-1956_01"><choice><sic>pirimi</sic><corr>parama</corr></choice>-</rdg>
+        <note>It is not clear what correction has taken place here apart from the addition of <foreign>ma</foreign> below the last character. This added <foreign>ma</foreign> is not shown in SS's edition, nor in the ASI transcript, but it is very clear in the original plate. Within the line, <foreign>pi</foreign> has an extra vertical line so that its body resembles a malformed <foreign>ph</foreign>, <foreign>h</foreign> or <foreign>gh</foreign>, and its <foreign>i</foreign> marker may have been added subsequently. Next, <foreign>ri</foreign> is unambiguous, though its vowel may also be a subsequent addition. The last <foreign>mi</foreign> in the line has some noise in its body, and its vowel marker is very small and shallowly engraved. I wonder if the strokes that look like <foreign>i mātrā</foreign>s are in fact deletion markers, and whether one or more such markers are also involved at the end of line 19.</note>
+      </app>
+      <app loc="24">
+        <lem>jāyat<choice><sic>i</sic><corr>e</corr></choice></lem>
+        <rdg source="bib:SomasekharaSarma1955-1956_01">jāyate</rdg>
       </app>
       
       
