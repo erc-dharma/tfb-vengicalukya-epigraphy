@@ -54,8 +54,9 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT, l24 vaseT. The inscription also seems to contain an explicit vowel killer, see apparatus note to line 6, viṣ·ṇuvardhana-. 
-                <!--Original punctuation. --><!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                    <p>Halantas. T: ta shape (actually more like na), with elongated stem and no headmark. E.g. l1 vāsakāT, l24 vaseT.</p>
+                    <p>Other palaeographic observations. The inscription features an explicit vowel killer, see apparatus note to line 6, viṣ·ṇuvardhana-. In addition to the typical southern form of ra, there occurs an alternative form with a single stem and a secondary serif at the bottom (e.g. l2 paripālitānāṁ and especially l5 karasya). Many instances of ta are objectively indistinguishable from na; otherwise, ta is distinguished by a longer right limb, but even then this right limb does not curl back under the body.
+                <!--Original punctuation. --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
@@ -91,7 +92,8 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+        <change who="part:daba" when="2023-12-08" status="draft">Collation with estampages</change>
+        <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
         <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
         <change who="part:daba" when="2020-04-15" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
@@ -114,35 +116,35 @@ n="1r"/>
 <p><pb 
 
 n="1v"/><lb 
-n="1"/>svasti śrīmad-asanapura-vāsakāT svāmi-mahāsena-pādānudhyātānāṁ hārītī-putrāṇā<unclear>ṁ</unclear> mānavya<lb 
-n="2" break="no"/>-sagot<unclear>r</unclear>āṇāṁ mātr̥-gaṇa-paripālitānāṁ Aśvamedha-yājināṁ calukyānāṁ vi<unclear>ś</unclear>uddha-vaṁ<unclear>ś</unclear>oda<lb 
-n="3" break="no"/>ya-giri-śikharodita-kṣitipaty-ahimadīdhiteḥ sakala-jagad-ā<supplied reason="omitted">r</supplied>tti-hara-karmaṇa<unclear>ḥ</unclear> <lb 
-n="4"/>śrī-kīrtivarmaṇaḥ priya-naptā śaśalāñchanasyeva sakala-jagan-ma<unclear>n</unclear>o-nayanāna<lb 
+n="1"/>svast<unclear>i</unclear> śr<unclear>ī</unclear>mad-asanapura-vāsakāT<supplied reason="subaudible">.</supplied> sv<unclear>ā</unclear>m<unclear>i</unclear>-mahāsena-pādānudhyātānāṁ hār<unclear>i</unclear>t<unclear>ī</unclear>-putrāṇā<unclear>ṁ</unclear> mānavya<lb 
+n="2" break="no"/>-sagot<unclear>r</unclear>āṇāṁ mātr̥-gaṇa-paripālitānāṁ Aśvame<unclear>dha</unclear>-yā<unclear>j</unclear>ināṁ calukyānāṁ vi<unclear>ś</unclear>u<unclear>d</unclear>dha-vaṁ<unclear>ś</unclear>o<unclear>da</unclear><lb 
+n="3" break="no"/>ya-giri-śikharodita-kṣitipaty-ahimadīdhit<unclear>e</unclear>ḥ sakala-jagad-ā<supplied reason="omitted">r</supplied>tti-hara-karmaṇa<unclear>ḥ</unclear> <lb 
+n="4"/>śrī-kī<supplied reason="omitted">r</supplied>tivarmaṇaḥ priya-naptā śaśalā<unclear>ñcha</unclear>nasyeva sakala-jagan-ma<unclear>no</unclear>-nayanāna<lb 
 n="5" break="no"/>ndana-karasya sva-rūpa-lāvaṇyāvajita-makara<choice><sic>th</sic><corr>dh</corr></choice>vajasya makaradhvajāpara-nāmnaḥ śrīmad-aida<supplied reason="omitted">ṁ</supplied>yugīna<lb 
-n="6" break="no"/>-viṣṇoḥ viṣ·ṇuvardhana-mahārājasya priya-tanayaḥ pravarddhamānodaya-pratāpopanata-sama<pb 
+n="6" break="no"/>-viṣṇoḥ viṣ·ṇuvardhana-mahārājasya priya-<unclear>t</unclear>anayaḥ pravarddhamānodaya-pra<unclear>t</unclear>āpopana<unclear>t</unclear>a-sama<pb 
 
 n="2r" break="no"/><lb 
 n="7" break="no"/>sta-sāmanta-makuṭa-taṭa-ghaṭita-maṇi-mayūkha-mañjarī-puṁja-piṁjarita-caraṇāravinda-yugalaḥ nija<lb 
-n="8" break="no"/>-guṇa-dīdhiti-kalāpa kaliyuga-dhvāntaṁ nirākariṣṇuḥ Ākhaṇḍala Ivākhaṇḍita-paur<choice><sic>a</sic><corr>u</corr></choice>ṣaḥ pa<lb 
-n="9" break="no"/>rama-brahmaṇyo mātā-pitr̥-pā<choice><sic>t</sic><corr>d</corr></choice>ānudhyātaḥ śrī-jayasiṁha-vallabha-mahārājaḥ gaṇḍe<lb 
-n="10" break="no"/>ṟuvāṭyā<unclear>ṁ</unclear> vyāghra-nadyāś cottarataḥ vanneṟu-nadyāś ca tīre gaṇḍeṟu-rājadhānyāḥ <lb 
+n="8" break="no"/>-guṇa-dīdhiti-kalāp<choice><sic>a</sic><corr>ena</corr></choice> kaliyuga-dhvāntaṁ nirākariṣṇuḥ Ākhaṇḍala Ivākhaṇḍita-paur<choice><sic>a</sic><corr>u</corr></choice>ṣaḥ pa<lb 
+n="9" break="no"/>rama-brahmaṇyo mātā-pitr̥-pā<choice><sic>t</sic><corr>d</corr></choice>ānudhyātaḥ śrī-<unclear>ja</unclear>yasiṁha-vallabha-mahārājaḥ gaṇḍe<lb 
+n="10" break="no"/>ṟuvāḍyā<unclear>ṁ</unclear> vyāghra-nadyāś cottarataḥ vanneṟu-nadyāś ca tīre gaṇḍeṟu-rājadhānyāḥ <lb 
 n="11"/>pūrva-dig-vibhāge <choice><orig>gavyūta</orig><reg>gavyūti</reg></choice>-dvaye niḍubaṟu nāma grāmam adhivasataḥ ku<choice><sic>ḍ</sic><corr>ṭ</corr></choice>uṁbinaḥ samavetā<lb 
 n="12" break="no"/>n ājñāpayati</p>
-<p>viditam astu vo yathāsanapura-sthāna-nivāsino ghaṭikā-sāmānya<pb 
+<p>viditam astu vo yathāsanapura-sthāna-nivāsino <unclear>ghaṭikā-s</unclear>āmānya<pb 
 
 n="2v" break="no"/><lb 
-n="13" break="no"/>sya sa-<unclear>pa</unclear>da-kramānukramādhīta-veda-dvayasya sa-kalpopaniṣat-purāṇetihāsāneka-dharmaśāstra<lb 
-n="14" break="no"/>-vidaḥ maṇ<unclear>ḍ</unclear>aśarmanaḥ pautrāya sva-pitur adhika-guṇa-saṁpad-gaṇ<choice><sic>ā</sic><corr>o</corr></choice>pārjita-nirmala-yaśo-vi<unclear>śe</unclear><lb 
-n="15" break="no"/>ṣe<unclear>ṇa</unclear> Ātmano <supplied reason="subaudible">’</supplied>nvayam alam alaṁkariṣṇoḥ Agniṣṭoma-yājinaḥ śivarudraśarmana<unclear>ḥ</unclear> <lb 
-n="16"/>putrāya dvi-v<unclear>e</unclear>dādhyāyine yajñāgamopaniṣan-mantrārtth<choice><sic>i</sic><corr>e</corr></choice>tihāsa-purāṇa-dharma<lb 
-n="17" break="no"/>śāstra-vimalīkr̥ta-vin<choice><sic>a</sic><corr>ī</corr></choice>ta-mataye hārīta-sagotrāya taittirīya-sabrahmacār<choice><sic>a</sic><corr>i</corr></choice>ṇe kāṭiśarmaṇe <lb 
-n="18"/>kārtika-paurṇamāsyāṁ mātā-pitror ātmanaś ca yaśaḥ-puṇyābhi<choice><sic>virdha</sic><corr>vr̥ddha</corr></choice>ye saṁpratto <supplied reason="subaudible">’</supplied>yam niḍupa<pb 
+n="13" break="no"/>sya sa-pada-kramānukramādh<unclear>ī</unclear>ta-veda-dvayasya sa-kalpopaniṣat-purāṇetihāsāneka-dha<unclear>r</unclear>ma<unclear>śā</unclear>stra<lb 
+n="14" break="no"/>-vidaḥ maṇḍaśarmanaḥ pautrāya sva-pitur adhika-guṇa-saṁpad-gaṇ<choice><sic>ā</sic><corr>o</corr></choice>pārjita-nirmala-yaśo-vi<unclear>śe</unclear><lb 
+n="15" break="no"/>ṣe<unclear cert="low">ṇa</unclear> Ā<unclear>t</unclear>mano <supplied reason="subaudible">’</supplied>nvayam alam alaṁkariṣṇoḥ Agniṣṭoma-yājinaḥ śivarudraśarmana<unclear>ḥ</unclear> <lb 
+n="16"/>putrāya dv<unclear>i</unclear>-v<unclear>e</unclear>dādhyāyine yajñāgamopaniṣan-mantrārtth<choice><sic>i</sic><corr>e</corr></choice>tihāsa-purā<unclear>ṇa</unclear>-dharma<lb 
+n="17" break="no"/>śāstra-v<unclear>i</unclear>mal<unclear>ī</unclear>kr̥ta-vin<choice><sic>a</sic><corr>ī</corr></choice>ta-mataye hārīta-sagotrāya taittirīya-sabrahmacār<choice><sic>a</sic><corr>i</corr></choice>ṇe kāṭiśarmaṇe <lb 
+n="18"/>kārtika-paurṇamā<unclear>syāṁ</unclear> mātā-pit<unclear>r</unclear>or āt<unclear>m</unclear>anaś <unclear>c</unclear>a yaśaḥ-puṇyābhi<choice><sic>virdha</sic><corr>vr̥ddha</corr></choice>ye saṁp<unclear>r</unclear>at<unclear>t</unclear>o <supplied reason="subaudible">’</supplied>yam niḍ<unclear>u</unclear>pa<pb 
 
 n="3r" break="no"/><lb 
 n="19" break="no"/>ṟu nāma grāmaḥ<supplied reason="subaudible">.</supplied> nāsya bādhā karaṇīyā</p>
 <lg n="1" met="indravajrā">
 <l n="a">Ājñaptir atrāryya-manobhirāmaḥ</l>
-<l n="b">śrī-vīrya<unclear>m</unclear>ā<unclear cert="low">n sa</unclear><supplied reason="lost" cert="low">rva-ja</supplied><lb 
+<l n="b"><!--@@@COLLATION-->śrī-vī<unclear>r</unclear>ya<unclear>m</unclear>ā<unclear cert="low">n sa</unclear><supplied reason="lost" cert="low">rva-ja</supplied><lb 
 n="20" break="no"/>nāśrayo <supplied reason="subaudible">’</supplied>yaṁ</l>
 <l n="c">bhūpendra-nīti-pravibhāga-dakṣaḥ</l>
 <l n="d"><unclear>ve</unclear>dāṅga-vit sarva-kalāntara<choice><sic>ñ</sic><corr>j</corr></choice>ñaḥ</l>
@@ -185,42 +187,34 @@ n="3v"/>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
       <app loc="1">
-        <lem>svasti <gap reason="ellipsis"/> hārītī-</lem>
-        <note>None of the <foreign>i/ī mātrā</foreign>s in the first line are discernible in the scanned estampage, and there is very little distance to the upper edge of the plate. Since the edges are slightly raised into rims, it is possible that these vowel marks are in fact restored by Hultzsch but were never engraved, possibly excepting that in <foreign>svāmi</foreign>, where the arms of <foreign>m</foreign> may have been closed into a compressed circle.</note>
+        <lem>hār<unclear>i</unclear>t<unclear>ī</unclear>-</lem>
+        <rdg source="bib:Hultzsch1925-1926_02">hārītī-</rdg>
       </app>
       <app loc="4">
-        <lem>-kīrtivarmaṇaḥ</lem>
-        <note>I accept Hultzsch's reading, but no <foreign>r</foreign> is visible in the scanned estampage.</note>
-      </app>
-      <app loc="5">
-        <lem>makara<choice><sic>th</sic><corr>dh</corr></choice>vajasya</lem>
-        <note>I once again accept Hultzsch's reading but note that judging by the scan, the faint dot in the middle of this character could well be noise, and there is no other feature by which this character could be read as <foreign>th</foreign> rather than the expected <foreign>dh</foreign>. However, in line 22 <foreign>yathā</foreign> is similarly inscribed for <foreign>yadā</foreign>, and the <foreign>th</foreign> is quite clear there.</note>
+        <lem>-kī<supplied reason="omitted">r</supplied>tivarmaṇaḥ</lem>
+        <rdg source="bib:Hultzsch1925-1926_02">-kīrtivarmaṇaḥ</rdg>
       </app>
       <app loc="6">
         <lem>viṣ·ṇuvardhana-</lem>
-        <note>This being the last line on the page with barely any margin at the botton, a vertically composed ligature would not have fit in the space. I agree with Hultzsch that the engraver seems to have used a vowel killer here, which takes the shape of a tiny slash (Hultzsch calls it a dash) at the top right of what is otherwise a normal-looking <foreign>ṣa</foreign>. If correct, this is a rare and quite early example of an explicit vowel killer used in an Indian Sanskrit inscription, all the more remarkable because it is used in a conjunct, not in a final position.</note>
+        <note>This being the last line on the page with barely any margin at the botton, a vertically composed ligature would not have fit in the space. I agree with Hultzsch that the engraver seems to have used a vowel killer here, which takes the shape of a tiny slash (Hultzsch calls it a dash) at the top right of what is otherwise a normal-looking <foreign>ṣa</foreign>. This is a rare and quite early example of an explicit vowel killer used in an Indian Sanskrit inscription, all the more remarkable because it is used in a conjunct, not in a final position.</note>
       </app>
-      <app loc="8">
-        <lem>-kalāpa</lem>
-        <note>Hultzsch proposes emending to <foreign>-kalāpena</foreign>. While the text does need emendation, inscribing <foreign>-kalāpa</foreign> instead of <foreign>-kalāpena</foreign> is not a likely scribal error; an omitted final member to the compound (e.g. <foreign>varcasā</foreign>) may perhaps be more likely.</note>
+      <app loc="9">
+        <lem>gaṇḍe<lb n="10" break="no"/>ṟuvāḍyā<unclear>ṁ</unclear></lem>
+        <rdg source="bib:Hultzsch1925-1926_02">gaṇḍe<lb n="10" break="no"/>ṟuvāṭyā<unclear>ṁ</unclear></rdg>
+        <note>Interestingly, in line 11 (<foreign>ku<choice><sic>ḍ</sic><corr>ṭ</corr></choice>uṁbinaḥ</foreign>) EH too reads the exact same consonant glyph as <foreign>ḍ</foreign>, emending to the expected <foreign>ṭ</foreign>.</note>
       </app>
-      <app loc="12">
-        <lem>ghaṭikā-sā°</lem>
-        <note>Of these characters, only a few inconclusive strokes and the vowel markers are discernible in the scanned rubbing. I assume Hultzsch could see them clearly.</note>
+      <app loc="17">
+        <lem source="bib:Hultzsch1925-1926_02">-vin<choice><sic>a</sic><corr>ī</corr></choice>ta-</lem>
+        <note>I adopt Hultzsch's emendation but note that the text is intelligible without it.</note>
       </app>
-      <app loc="12">
-        <lem>ābhi<choice><sic>virdha</sic><corr>vr̥ddha</corr></choice>ye</lem>
+      <app loc="18">
+        <lem>°ābhi<choice><sic>virdha</sic><corr>vr̥ddha</corr></choice>ye</lem>
         <note>I wonder whether, rather than being a strange scribal error, this is again an out-of-the ordinary way of dealing with the last line on an all but marginless page: <foreign>vr̥ddha</foreign> would have been very hard to fit in the space.</note>
-      </app>
-      <app loc="13">
-        <lem>saṁpratto</lem>
-        <note>No trace of the subscript characters is visible in the scanned estampage.</note>
       </app>
       <app loc="19">
         <lem>-vīrya<unclear>m</unclear>ā<unclear cert="low">n sa</unclear><supplied reason="lost" cert="low">rva-ja</supplied><lb 
 n="20"/>nāśrayo</lem>
-        <rdg source="bib:Hultzsch1925-1926_02">-vīrya<unclear>m</unclear>ā<unclear>t sa</unclear><gap reason="lost" quantity="2" unit="character"/><lb 
-n="20"/>nāśrayo</rdg>
+        <rdg source="bib:Hultzsch1925-1926_02">-vīrya<unclear>m</unclear>ā<unclear>t sa</unclear><gap reason="lost" quantity="2" unit="character"/><lb n="20"/>nāśrayo</rdg>
         <note>Hultzsch tentatively proposes <foreign>-vīryavān sarva-janāśrayo</foreign>. The restoration is very plausible, but seems to require an emendation: although <foreign>mā</foreign> is damaged, its vowel marker is attached to the body, not to the head, so it is impossible to read <foreign>vā</foreign>. I believe it should be possible to read <foreign>nsa</foreign> instead of Hultzsch's <foreign>tsa</foreign>, but only an indistinct trace of this character is visible in the scanned rubbing. For the lost text, <foreign>sādhujanāśrayo</foreign> seems likewise possible. Hultzsch notes that the name of this person (minister?) may have been Sarvajanāśraya, while Estienne-Monod assumes the name was Vīryavān. The latter seems less likely to be a name, so I assume that <foreign>śrī</foreign> is not an honorary suffix but part of a <foreign>dvandva</foreign>. Could the presence of <foreign>śrī</foreign> have motivated the choice of the suffix <foreign>-mat</foreign> instead of <foreign>-vat</foreign>?</note>
       </app>
       <app loc="23">
@@ -287,13 +281,12 @@ celui qui la prend ou qui le permet demeure aussi longtemps en enfer.
 
 <div type="commentary">
 <p>Each plate is engraved with 6 lines, of which the third and fourth begin with an indent, skipping the space around the binding hole.</p>
-<p>For the district(?) Gaṇḍeṟuvāṭī compare kantheṟuvāṭi-viṣaye in the <ref target="DHARMA_INSVengiCalukya00009.xml">Pedda-Vegi plates</ref>, line 13.</p>
 </div>
 
 
 
 <div type="bibliography">
-<p>First reported in <bibl><ptr target="bib:ARIE1916-1917"/><citedRange unit="page">6</citedRange><citedRange unit="appendix">A/1916-1917</citedRange><citedRange unit="item">7</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1916-1917"/><citedRange unit="page">113</citedRange><citedRange unit="item">19</citedRange></bibl>. Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_02"/></bibl>) with estampages of the plates and photograph of the seal, with an abstract (not a full translation) of the contents. Also edited in <title>Bhārati</title>, Vol. II, No. 5, pp. 90 ff, not traced. The present edition by Dániel Balogh is based on a collation of Hultzsch's text with his facsimiles.</p>
+<p>First reported in <bibl><ptr target="bib:ARIE1916-1917"/><citedRange unit="page">6</citedRange><citedRange unit="appendix">A/1916-1917</citedRange><citedRange unit="item">7</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1916-1917"/><citedRange unit="page">113</citedRange><citedRange unit="item">19</citedRange></bibl>. Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_02"/></bibl>) with estampages of the plates and photograph of the seal, with an abstract (not a full translation) of the contents. Also edited in <title>Bhārati</title>, Vol. II, No. 5, pp. 90 ff, not traced. The present edition by Dániel Balogh is based on a collation of Hultzsch's text with estampages preserved at the ASI (Mysore).<note>The estampages are accompanied by a Telugu transcript and do not include an image of the seal.</note></p>
   <listBibl type="primary">
     <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_02"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
