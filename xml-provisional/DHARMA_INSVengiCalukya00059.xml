@@ -54,9 +54,9 @@
                <physDesc>
                   <handDesc>
 
-                    <p>Halantas. Final M is a reduced and simplified ma, resembling a tick mark.</p>
+                    <p>Halantas. Final M is a reduced and simplified ma, resembling a tick mark. Final T (l17) is a simplified ta without a headmark.</p>
                     <p>Original punctuation marks. </p>
-                    <p>Other palaeographic observations 
+                    <p>Other palaeographic observations. Anusvāra is atop the next character in l9 vaṁgipaṟu (inside the i marker); l11 ṣaḍ-aṁga. Elsewhere, may be between two characters at head height or atop the character to which it belongs.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
 
 <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -127,44 +127,44 @@ n="6" break="no"/>sta-sāmanta-maṇḍala<unclear>ḥ</unclear> sama<gap reason
 n="7" break="no"/>pratihata-śaktitvāt sarvva-siddh<choice><sic>a</sic><corr>i</corr></choice>ḥ <gap reason="lost" quantity="13" unit="character" precision="low"/> <supplied reason="lost">jaya</supplied><pb 
 
 n="2r" break="no"/><lb 
-n="8" break="no"/><!--PHOTO: P1030025.JPG-->si<subst><del rend="corrected"><unclear cert="low">śā</unclear></del><add place="overstrike"><unclear>ṅ</unclear>ha</add></subst>a-vallabha-mahārāja<unclear>ḥ</unclear> nātavāṭy<unclear>ā</unclear>M Uccāti nāma grāme @@@pūrvva-<choice><orig>sīme</orig><reg>sīmāyāṁ</reg></choice> sarvva<lb 
-n="9" break="no"/>rddhi relluvaṭṭi nāma bhūmi<supplied reason="omitted">ṁ</supplied> dvi-dvādaśa-khaṇḍikā-bīja-pramāṇena vaṁgipaṟu-vāstavya<unclear>sya</unclear><lb 
-n="10"/>Āpastamba-sab<supplied reason="omitted">r</supplied>a<choice><sic>hm</sic><corr>p</corr></choice>acāriṇaḥ kaṇva-sagotrasya dvivedinaḥ durgganandiśarmmaṇaḥ<lb 
-n="11" break="no"/>putrasya mātr̥śarmmaṇa<supplied reason="omitted">ḥ</supplied> pada<surplus>ga</surplus>vida<supplied reason="omitted">ḥ</supplied> putrāya veda-vide ṣa<choice><orig>ch</orig><reg>ṭ-ś</reg></choice>āstra-vidyāya<lb 
-n="12"/>mātr̥śarmmaṇe Asman-mātā-pitror ātmanaś ca puṇyābhivr̥ddhaye sarvva-kara-parihā<lb 
-n="13" break="no"/>reṇa vaiśākha-māsi vyatīpāta-nimitt<choice><orig>e</orig><reg>a I</reg></choice>yam bhūmir ddattā<supplied reason="subaudible">.</supplied> na kenaci<orig>T</orig> bādhā karaṇīyā<supplied reason="subaudible">.</supplied><lb 
-n="14"/>Api ca vyāsa-gītāḥ ślokā bhavanti</p>
+n="8" break="no"/><!--PHOTO: P1030025.JPG; underneath ring: P1030028.JPG-->si<subst><del rend="corrected"><unclear cert="low">śā</unclear></del><add place="overstrike"><unclear>ṅ</unclear>ha</add></subst>a-vallabha-mahārāja<unclear>ḥ</unclear></p>
+<p>nātavāṭy<unclear>ā</unclear>M Uccāti nāma grāme pūrvva-<choice><orig>sim<unclear reason="eccentric_ductus">e</unclear></orig><reg>sīmāyāṁ</reg></choice> sa<unclear cert="low">r</unclear><unclear>vva</unclear><lb 
+n="9" break="no"/>rddhi reṇḍuvaṭṭi nāma bhūmir dvi-dvādaśa-khaṇḍi<choice><sic>r</sic><corr>k</corr></choice>ā-bīja-pramāṇena vaṁgipaṟu-vā<unclear>sta</unclear>vya<unclear>sya</unclear><lb 
+n="10"/>Āpastamba-sab<supplied reason="omitted">r</supplied>a<choice><sic>p</sic><corr>hm</corr></choice>ac<choice><sic>a</sic><corr>ā</corr></choice>r<subst><del rend="corrected">ā</del><add place="overstrike">i</add></subst>ṇaḥ kaṇva-sagotrasya dvivedinaḥ durgga<choice><orig>ṇ</orig><reg>ṇ</reg></choice>andiśarmmaṇa<unclear>ḥ</unclear><lb 
+n="11" break="no"/>putrasya <space type="binding-hole"/> māt<choice><orig>ri</orig><reg>rir̥</reg></choice>śarmmaṇa<supplied reason="omitted">ḥ</supplied> <unclear>ṣ</unclear>aḍ-a<unclear>ṁga</unclear>vida<supplied reason="omitted">ḥ</supplied> putrāya veda-v<choice><sic>ī</sic><corr>i</corr></choice>de samāpta-vidy<choice><sic>a</sic><corr>ā</corr></choice>ya <space/><lb 
+n="12"/>mātr̥śa<space type="binding-hole"/>rmmaṇe Asman-m<choice><sic>a</sic><corr>ā</corr></choice>tā-p<choice><sic>ī</sic><corr>i</corr></choice>tr<choice><sic>a</sic><corr>o</corr></choice>r ātma<choice><sic>ṇ</sic><corr>ṇ</corr></choice>aś ca pu<choice><sic>n</sic><corr>ṇ</corr></choice>yābhivr̥ddhay<unclear>e</unclear> sa<unclear>r</unclear>v<unclear>v</unclear>a-kara-parihā<lb 
+n="13" break="no"/><unclear>re</unclear>ṇa vaiś<unclear>ākha-mā</unclear>si <unclear>vy</unclear>atīpāta-nimitt<choice><orig>e</orig><reg>a I</reg></choice>yam bhūmir ddattā</p>
+<p>na k<unclear>e</unclear>naci<choice><orig>t</orig><reg>d</reg></choice> bādhā karaṇī<unclear>y</unclear><supplied reason="lost">ā</supplied><supplied reason="subaudible">.</supplied><lb 
+n="14"/>Api ca <space/> <unclear reason="eccentric_ductus">vyā</unclear>sa-gītā<supplied reason="omitted">ḥ</supplied> ślokā bhavanti</p>
 <lg n="1" met="anuṣṭubh">
-<l n="a">bahubhir vvasudhā dattā</l>
-<l n="b">bahubhiś cānu<pb 
+<l n="a">bahubhi<supplied reason="omitted">r</supplied> vvasudhā dattā</l>
+<l n="b">bahu<choice><sic>v</sic><corr>bh</corr></choice>iś c<choice><sic>a</sic><corr>ā</corr></choice>nu<pb 
 
 n="2v" break="no"/><!--yes, 2v is blank--><pb 
 
 n="3r" break="no"/><lb 
-n="15" break="no"/><unclear>pālitā</unclear></l>
-<l n="c">yasya yasya yadā bhūmiḥ</l>
-<l n="d">tasya tasya tadā <choice><sic>p</sic><corr>ph</corr></choice>ala<supplied reason="omitted">M</supplied></l>
+n="15" break="no"/><!--PHOTO: P1030032.JPG; under ring: P1030034.JPG; bottom left: P1030035.JPG; bottom right: P1030036.JPG -->pā<unclear>l</unclear>it<choice><sic>a</sic><corr>ā</corr></choice> <space/></l>
+<l n="c">yasya yasya yadā bhūmiḥ <space/></l>
+<l n="d">tasya tasya tadā <choice><sic>p</sic><corr>ph</corr></choice>alaM</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
 <l n="a"><lb 
-n="16"/>ṣaṣṭi<supplied reason="omitted">ṁ</supplied> varṣa-sahasrāṇi</l>
-<l n="b">svargge modati bhūmi-daḥ||</l>
-<l n="c">Ācchettā <lb 
-n="17"/>c<surplus>c</surplus>ānumantā c<surplus>c</surplus>a</l>
-<l n="d">tāny eva narake vaseT||</l>
+n="16"/>ṣaṣṭiṁ varṣa-sahasrāṇi <space/></l>
+<l n="b">sva<unclear>r</unclear>gg<unclear>e</unclear> modati bhūmi-da<unclear>ḥ|</unclear></l>
+<l n="c">Ācchett<unclear>ā</unclear> <lb 
+n="17"/>c<surplus>c</surplus>ānumantā c<surplus>c</surplus>a <space/></l>
+<l n="d">tāny <choice><sic>a</sic><corr>e</corr></choice>va <unclear>nara</unclear>ke vaseT||</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
 <l n="a">sva-dattām para-da<lb 
 n="18" break="no"/>ttāṁ vā</l>
-<l n="b">yo hareta vasundharāM</l>
-<l n="c">gavāṁ śata-sahasrasya</l>
+<l n="b">yo hareta vasundhar<unclear>ā</unclear>M</l>
+<l n="c">gavāṁ śata-sa<unclear>hasras</unclear>ya</l>
 <l n="d"><lb 
-n="19"/>hantu<supplied reason="omitted">ḥ</supplied> pib<choice><sic>i</sic><corr>a</corr></choice>ti kilbiṣaM</l>
+n="19"/>hantuḫ pib<choice><sic>i</sic><corr>a</corr></choice>ti kilbiṣaM</l>
 </lg>
-<p>traloka mahādevuka sammukhaṁ bu<lb 
-n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ḍi</unclear> buggi āṇati||
-
-</p>
+<p>traloka mahādevuḷa samm<unclear>ukha su</unclear><lb 
+n="20" break="no"/><unclear cert="low">lva</unclear> buggi Āṇati<unclear>|</unclear></p>
 <pb n="3v"/>
 
 </div>
@@ -197,14 +197,18 @@ n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><uncle
         <rdg source="bib:Ramesan1988_01">tr̥vu vāna</rdg>
         <note>Compare <foreign>tribhuvana-mātr̥bhir mmātr̥bhir abhirakṣitānāṁ</foreign> in line 2 of the <ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates of Viṣṇuvardhana I</ref>.</note>
       </app>
+      <app loc="3">
+        <lem>°tr<unclear>ā</unclear>ṇāM</lem>
+        <note>The phrase ending here is probably to be restored as <foreign>hāritī-putrāṇāṁ</foreign>, but <foreign>mānavya-sagotrāṇāṁ</foreign> is also possible. The latter phrase usually precedes the former (not always immediately), but may occasionally come second. In this unusually short <foreign>vaṁśa-praśasti</foreign>, one or another of the two may have been omitted.</note>
+      </app>
       <app loc="4">
         <lem><unclear>°sya</unclear></lem>
-        <note>Jayasiṁha I's grandfather was Kīrtīvarman, whos name, however, takes the standard genitive <foreign>kīrttīvarmaṇaḥ</foreign> in all cognate plates where he is mentioned. Given the probable continuation of this line (see the next note), it seems likely that <foreign>naptr̥</foreign> was used here in the sense of "great-grandson", and the person mentioned at the end of line 3 was Pulikeśin I Raṇavikrama.</note>
+        <note>Jayasiṁha I's grandfather was Kīrtīvarman, whose name, however, takes the standard genitive <foreign>kīrttīvarmaṇaḥ</foreign> in all cognate plates where he is mentioned. Together with the end of this line (see the next note), it seems possible that <foreign>naptr̥</foreign> was used here in the sense of "great-grandson", and the person mentioned at the end of line 3 was Pulikeśin I Raṇavikrama.</note>
       </app>
       <app loc="4">
         <lem>vi<unclear>pu</unclear>°</lem>
         <rdg source="bib:Ramesan1988_01">vi</rdg>
-        <note>Although <foreign>pu</foreign> is partly lost at the broken edge, the reading is quite unambiguous. It suggests the continuation <foreign>vipula-kīrtteḥ kīrttivarmaṇaḥ</foreign> (as in the <ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates of Viṣṇuvardhana I</ref>), followed by a word meaning "grandson". However, this restoration leaves too little room for text missing before the extant beginning of the next line (e.g. <foreign>śakti-traya-vaśīkr̥ta-saka-la-mahī</foreign>, from the <ref target="DHARMA_INSVengiCalukya00013.xml">Koṇeki grant of Viṣṇuvardhana II</ref>). Reading <foreign>viṣṇu</foreign> here is not impossible, but less likely than <foreign>vipu</foreign>. In this case, the introduction of Viṣṇuvardhana would presumably begin here (and the genealogy would then start with Kīrtīvarman contrary to the previous note), but I am not familiar with a description of Viṣṇuvardhana I beginning with the word <foreign>viṣṇu</foreign>.</note>
+        <note>Although <foreign>pu</foreign> is partly lost at the broken edge, the reading is quite unambiguous. It suggests the continuation <foreign>vipula-kīrtteḥ kīrttivarmaṇaḥ</foreign> (as in the <ref target="DHARMA_INSVengiCalukya00003.xml">Timmapuram plates of Viṣṇuvardhana I</ref>), followed by a word meaning "grandson". However, this restoration leaves little room for text expected before the extant beginning of the next line (e.g. <foreign>śakti-traya-vaśīkr̥ta-sakala-mahī</foreign>, from the <ref target="DHARMA_INSVengiCalukya00013.xml">Koṇeki grant of Viṣṇuvardhana II</ref>). A shorter phrase of similar purport may have been used, e.g. <foreign>vaśīkr̥ta-mahī</foreign>. Alternatively, reading <foreign>viṣṇu</foreign> here is not impossible, but less likely than <foreign>vipu</foreign>. In this case, the introduction of Viṣṇuvardhana would presumably begin here (and the genealogy would then start with Kīrtīvarman contrary to the previous note), but I am not familiar with a description of Viṣṇuvardhana I beginning with the word <foreign>viṣṇu</foreign>.</note>
       </app>
       <app loc="6">
         <lem>sta-sāmanta-maṇḍala<unclear>ḥ</unclear> sama</lem>
@@ -224,29 +228,52 @@ n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><uncle
         <lem>Uccāti-</lem>
         <note>The ARIE reports the name as Uccāṭi, but NR is correct in reading the dental <foreign>t</foreign> here.</note>
       </app>
+      <app loc="8">
+        <lem>-<choice><orig>sim<unclear reason="eccentric_ductus">e</unclear></orig><reg>sīmāyāṁ</reg></choice></lem>
+        <note>What I (and NR) take to be an <foreign>e</foreign> marker is in fact exactly like the subscript <foreign>r</foreign> in <foreign>grāme</foreign> just above in this line, and quite unlike the <foreign>e</foreign> marker in the same word.</note>
+      </app>
+      <app loc="9">
+        <lem>reṇḍuvaṭṭi</lem>
+        <rdg source="bib:Ramesan1988_01">re<unclear>llu</unclear>vaṭṭi</rdg>
+        <note>Compare the possible village name Reṇḍubaḷḷi in the <ref target="DHARMA_INSVengiCalukya00083.xml">Peravali plates of Viṣṇuvardhana IV or V</ref>.</note>
+      </app>
+      <app loc="9">
+        <lem>bhūmir</lem>
+        <rdg source="bib:Ramesan1988_01">bhūmi<supplied reason="omitted">ṁ</supplied> </rdg>
+      </app>
       <app loc="9">
         <lem>dvi-dvādaśa-</lem>
-        <note>NR repeats this phrase in his discussion, interpreting it to mean twice 12 <foreign>khaṇḍikā</foreign>s. This is possible, but not paralleled in any related grant that I know. I wonder if <foreign>dvi</foreign> is in fact deleted.</note>
+        <note>NR interprets this to mean twice 12 <foreign>khaṇḍikā</foreign>s. This is possible, but not paralleled in any related grant that I know. The following <foreign>dvā</foreign> may have been intended to correct and replace this, although <foreign>dvi</foreign> has a clear superscript <foreign>r</foreign> (syntactically correct), which <foreign>dvā</foreign> lacks.</note>
       </app>
       <app loc="11">
-        <lem>putrasya</lem>
-        <note>I wonder if the word intended here was in fact <foreign>pautrāya</foreign>. This would result in a more typical formulation of the donee's descent, and would also eliminate the strangeness of father and son bearing the same name.</note>
+        <lem><unclear>ṣ</unclear>aḍ-a<unclear>ṁga</unclear>vida<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Ramesan1988_01">padagavida<supplied reason="omitted">ḥ</supplied></rdg>
+      </app>
+      <app loc="11">
+        <lem>samāpta-</lem>
+        <rdg source="bib:Ramesan1988_01">ṣa<choice><sic>ch</sic><corr>ṭ-ch</corr></choice>āstra-</rdg>
+      </app>
+      <app loc="12">
+        <lem>ātma<choice><sic>ṇ</sic><corr>ṇ</corr></choice>aś</lem>
+        <note>This could conceivably be read as <foreign>ātmanoś</foreign>, but such a strange variation to this stock phrase is unlikely to have been the composer's intent.</note>
       </app>
       <app loc="13">
         <lem>-nimitt<choice><orig>e</orig><reg>a I</reg></choice>yam</lem>
         <note>Scribal omission is also possible here; the composer's intent may have been <foreign>nimitteneyam</foreign>. However, since related grants normally use <foreign>nimitte</foreign> in the locative, it is more likely that this is a case of non-standard sandhi, or possibly of inaccurate gender use (<foreign>nimitte</foreign> + <foreign>ayam</foreign>).</note>
       </app>
       <app loc="13">
-        <lem>kenaci<orig>T</orig> bādhā</lem>
-        <note>NR's actual spelling in his edition is <foreign>kenacit bādhā</foreign> (with a <foreign>tb</foreign> conjunct), but I assume that the original has a final <foreign>T</foreign> here.</note>
+        <lem>kenaci<choice><orig>t</orig><reg>d</reg></choice> bādhā</lem>
+        <note>The text is written with a <foreign>tb</foreign> conjunct.</note>
       </app>
       <app loc="19">
-        <lem>traloka mahādevuka sammukhaṁ</lem>
-        <note>This reading is doubtful. According to NR's discussion, the grant was made <q>in the presence of the Queen Triloka Mahādevī</q>. I know of no such queen, and even NR seems not to trust his own reading/interpretation, since according to his introduction, the grant does not contain <q>any new unknown or additional information about the Eastern Cālukyan chronology or genealogy</q>. If the reading can be checked against the original and a queen by this name is indeed indicated, then this is important new information. More likely, the correct reading is something else. One of Jayasiṁha I's epithets is <foreign>trailokya-vikrama</foreign>, which may have been featured or indicated here. As for <foreign>sammukhaṁ</foreign>, I wonder if the correct reading is in fact <foreign>samukha</foreign> (for <foreign>sva-mukha</foreign>).</note>
+        <lem>mahādevuḷa</lem>
+        <rdg source="bib:Ramesan1988_01">mahādevuka</rdg>
+        <note>See also the commentary.</note>
       </app>
       <app loc="19">
-        <lem>bu<lb n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ḍi</unclear> buggi āṇati</lem>
-        <note>According to NR's discussion, the executor was called Buggi. He does not discuss the damaged characters before these.</note>
+        <lem>samm<unclear>ukha su</unclear><lb n="20" break="no"/><unclear cert="low">lva</unclear> buggi</lem>
+        <rdg source="bib:Ramesan1988_01">sammukhaṁ bu<lb n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><unclear>ḍi</unclear> buggi</rdg>
+        <note>My reading of the end of line 19 is quite certain in spite of damage. It is, however, conceivable that the character which looks like <foreign>su</foreign> is a very badly drawn <foreign>jña</foreign>. I am far less certain about the first character in line 20. Here, NR probably intended to show in his edition a conjunct with a subscript <foreign>ḍ</foreign> and an <foreign>i</foreign> marker. The upper part of this glyph does not, however, resemble any <foreign>i</foreign> (or <foreign>ī</foreign>) in the inscription, and is also much larger than the lower component, implying that it is the body belonging to a subscript consonant rather than a superscript vowel marker. Although its inner part differs from instances of <foreign>l</foreign> in the inscription, its shape is a plausible <foreign>l</foreign> for the time and region, and if it is indeed <foreign>l</foreign>, then no vowel marker is attached. The subscript part does look rather like <foreign>ḍ</foreign>, but taking it for a <foreign>v</foreign> is the only way I can extract some sense from the text. Alternatively, this character may perhaps be a thoroughly botched <foreign>pte</foreign> (or <foreign>pti</foreign>), so that assuming a likewise botched <foreign>jña</foreign> in the previous line and a few smaller scribal errors, the intent may have been <foreign>svamukhājñapti</foreign>, although I cannot explain why another person would then be named as <foreign>āṇati</foreign>. The name of this latter executor (or the end of his name) may perhaps be <foreign>buṁggi</foreign> with an <foreign>anusvāra</foreign> within the <foreign>i mātrā</foreign>, and the text read as <foreign>sulva</foreign> may belong to this name.</note>
       </app>
       
 <!--
@@ -267,12 +294,13 @@ n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><uncle
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="01">Greetings!</p>
-<p n="1-7"><supplied reason="lost">From</supplied> the majestic residence at Asanapura. The grandson <supplied reason="lost">of Kīrtivarman, who</supplied> <gap reason="lost"/> <supplied reason="lost">the family of</supplied> the Calukyas—who are <seg cert="low">empowered</seg> <supplied reason="lost">by Mahāsena</supplied>, <supplied reason="lost">who are protected by the Mothers who are mothers of</supplied> <seg cert="low">the three worlds</seg> <gap reason="lost"/> <supplied reason="lost">who are of the Mānavya <foreign>go</foreign></supplied><foreign>tra</foreign> <gap reason="lost"/>—<supplied reason="lost">the son of</supplied> His Majesty Viṣṇuvardhana, who <gap reason="lost"/> circle<note>This was probably a reference to subduing the circle of rival rulers, to conquering the circle of the earth, or to perfuming the circle of the horizon with his glory. </note> <gap reason="lost"/> King <supplied reason="lost">Jaya</supplied>siṁha Vallabha, who <supplied reason="lost">has subdued</supplied> the circle of rival rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> <gap reason="lost"/> who prevails over all <supplied reason="explanation"><foreign>sarva-siddhi</foreign></supplied> thanks to his incontestable power <gap reason="lost"/></p>
-<p n="7-14">The <supplied reason="subaudible">plot of</supplied> land named <seg cert="low">Sarvvarddhi Relluvaṭṭi</seg> on the eastern boundary of the village named Uccāṭi in Nātavāḍi <supplied reason="subaudible">district</supplied>, to the extent <supplied reason="subaudible">sufficient for sowing</supplied> twice twelve<note>Or perhaps just twelve; see the apparatus to line 9.</note> <foreign>khaṇḍika</foreign>s of seed—this <supplied reason="subaudible">plot of</supplied> land has been given <supplied reason="subaudible">by us, Jayasiṁha</supplied> with exemption from all taxes, in order to augment the merit of our mother and father and ourselves on the occasion of <foreign>vyatīpāta</foreign><note><foreign>Vyatīpāta</foreign> is an astronomical moment at which the declinations of the moon and sun are of equal magnitude, related to the prediction of eclipses (<bibl><ptr target="bib:Shylaja+Kydala2016_01"/></bibl>).</note> in the month of Vaiśākha, to Mātr̥śarman, a knower of the Veda learned in six <foreign>śāstras</foreign>, son of Mātr̥śarman who was a knower of <foreign>pada</foreign> recitation <supplied reason="subaudible">and who was in turn</supplied> son of Durganandiśarman,<note>It is possible that the text is erroneous here (see the apparatus to line 11); the donee's father was perhaps Durganandiśarman, and the donee perhaps bore the same name as his grandfather Mātr̥śarman.</note> a knower of two Vedas residing in Vaṁgipaṟu, of the Āpastamba school and the Kaṇva <foreign>gotra</foreign>. Let no-one pose an obstacle <supplied reason="explanation">to his enjoyment of his rights over it</supplied>. There are moreover <supplied reason="subaudible">these</supplied> <foreign>śloka</foreign>s sung by Vyāsa.</p>
+<p n="1-8"><supplied reason="lost">From</supplied> the majestic residence at Asanapura. The <seg cert="low">great-grandson</seg> of <supplied reason="lost" cert="low">Raṇarāga</supplied> <gap reason="lost"/> <supplied reason="lost">the family of</supplied> the Calukyas—who are <seg cert="low">empowered</seg> <supplied reason="lost">by Mahāsena</supplied>, <supplied reason="lost">who are protected by the Mothers who are mothers of</supplied> the three worlds <gap reason="lost"/> —<supplied reason="lost" cert="low">the grandson of Kīrtivarman whose fame was</supplied> <seg cert="low">extensive</seg>; <supplied reason="lost">the son of</supplied> His Majesty Viṣṇuvardhana, who <gap reason="lost"/> circle <gap reason="lost"/> King <supplied reason="lost">Jaya</supplied>siṁha Vallabha, who <supplied reason="lost">has subdued</supplied> the <seg cert="low">complete</seg> circle of rival rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> <gap reason="lost"/> who prevails over all <supplied reason="explanation"><foreign>sarva-siddhi</foreign></supplied> thanks to his incontestable power <gap reason="lost"/><note>See the apparatus to lines 2 to 6 for some possible restorations of the lost segments.</note></p>
+<p n="8-13">The <supplied reason="subaudible">plot of</supplied> land named <seg cert="low">Sarvvarddhi Reṇḍuvaṭṭi</seg> on the eastern boundary of the village named Uccāti in Nātavāṭi <supplied reason="subaudible">district</supplied>, of an extent <supplied reason="subaudible">sufficient for sowing</supplied> <seg cert="low">twice</seg> twelve<note>Or perhaps just twelve; see the apparatus to line 9.</note> <foreign>khaṇḍikā</foreign>s of seed—this <supplied reason="subaudible">plot of</supplied> land has been given <supplied reason="subaudible">by us, King Jayasiṁha</supplied> with exemption from all taxes, in order to augment the merit of our mother and father and ourselves on the occasion of <foreign>vyatīpāta</foreign><note><foreign>Vyatīpāta</foreign> is an astronomical moment at which the declinations of the moon and sun are of equal magnitude, related to the prediction of eclipses (<bibl><ptr target="bib:Shylaja+Kydala2016_01"/></bibl>).</note> in the month of Vaiśākha, to Mātr̥śarman, a knower of the Veda who has completely acquired learning, the son of Mātr̥śarman who was learned in the six limbs <supplied reason="explanation"><foreign>ṣaḍ-aṁga</foreign></supplied> <supplied reason="explanation">of the Veda</supplied> <supplied reason="subaudible">and who was in turn</supplied> son of Durganandiśarman,<note>The received text is grammatically correct and meaningful, but it is strange that the donee and his father bore the same name, while their grandfather had a different name. Normally, names recur every other generation, so they may have been mixed up here.</note> a knower of two Vedas residing in Vaṁgipaṟu, of the Āpastamba school and the Kaṇva <foreign>gotra</foreign>.</p>
+<p n="13-14">Let no-one pose an obstacle <supplied reason="explanation">to his enjoyment of his rights over it</supplied>. There are moreover <supplied reason="subaudible">these</supplied> <foreign>śloka</foreign>s sung by Vyāsa.</p>
 <p rend="stanza" n="1">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
 <p rend="stanza" n="2">A donor of land stays in heaven for sixty millennia, <supplied reason="subaudible">while</supplied> a seizer <supplied reason="subaudible">of granted land</supplied> and a condoner <supplied reason="subaudible">of such seizure</supplied> shall reside in hell for just as many.</p>
 <p rend="stanza" n="3">He who would seize land, whether given by himself or by another, imbibes the sin of the slayer of a hundred thousand cows.</p>
-<p n="19-20"><seg cert="low">In the presence of Traloka Mahādevuka.</seg> <note>See the apparatus to line 19.</note> The executor <supplied reason="explanation"><foreign>āṇati</foreign></supplied> is Bu<gap reason="illegible" quantity="1" unit="character"/>ḍibuggi.</p>
+<p n="19-20"><seg cert="low">Measurement in the presence of Traloka Mahādevuḷa</seg>. The executor <supplied reason="explanation"><foreign>āṇati</foreign></supplied> is <seg cert="low">Buggi</seg>.<note>See the apparatus to line 19 and the commentary.</note></p>
   </div>  
 </div>
 
@@ -281,8 +309,7 @@ n="20" break="no"/><gap reason="illegible" quantity="1" unit="character"/><uncle
 
 
 <div type="commentary">
-<p>
-</p>
+<p>According to Ramesan’s discussion, the grant was made <q>in the presence of the Queen Triloka Mahādevī</q>. I know of no such queen, and even NR seems not to trust his own interpretation, since according to his introduction, the grant does not contain <q>any new unknown or additional information about the Eastern Cālukyan chronology or genealogy</q>. The reading of the last two lines has some uncertainties (see the apparatus) and is not fully intelligible. Since <foreign>trailokya-vikrama</foreign> is one of Jayasiṁha I’s epithets, it is at least possible that he is indicated by the name Traloka Mahādevuḷa. If I read the word <foreign>sulva</foreign> correctly and this was intended to mean <foreign>śulva</foreign>, then this clause probably means that the plot was measured in the presence of the king himself.</p>
 </div>
 
 
