@@ -57,8 +57,8 @@
                      <p>Halantas. M: l2. abhivarddhitānāM is a simplified J shape raised to headline height.l20 AmāvāsyāyāM: looks like a largish circle at headline height CHECK PHOTOS.</p>
                      <p>Original punctuation. The opening symbol is a dextrorse spiral of about 1.5 full turns, with a tail at the top left.</p>
                      <p>Other palaeographic observations. In the correction in line 10, the omitted character is added right above the spot where it must go, and a kākapada in the shape of a + sign is inserted right below that spot. In l20, sū looks like sya with a short loop: instead of adding a stroke to the well-shaped u marker, the entire bottom of the well is bent to the left.</p>
-                     <p>Le and lo are written in the cursive form (as used in earlier / more northerly scripts?): instead of attaching markers to the sides of a fully rounded la, the stem is not bent to the left and down, but curved at the top sharply back in le (l11 sakalendur) and the curve extended beyond the stem in lo (l2 loka).</p>
-                     <p>The anusvāra is shifted to the right in l7 pijaṁrita, encoded as a scribal error since normally the anusvāra is in its expected position. 
+                     <p>Le and lo are written in the cursive form: instead of attaching markers to the sides of a fully rounded la, the stem is not bent to the left and down, but curved at the top sharply back in le (l11 sakalendur) and the curve extended beyond the stem in lo (l2 loka).</p>
+                     <p>The anusvāra is atop the next character in l7 pijaṁrita. 
                 
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -113,9 +113,10 @@
 n="1"/>śrī-viṣamasiddhi</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<ab><pb 
+<pb 
 
-n="1r"/><fw n="1r" place="left"><num value="1">1</num></fw><lb 
+n="1r"/><fw n="1r" place="left"><num value="1">1</num></fw>
+<ab><lb 
 n="01"/><g type="spiralR"/>
 <lb 
 n="02"/>svasti</ab>
@@ -123,12 +124,12 @@ n="02"/>svasti</ab>
 n="1"/>śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ <lb 
 n="2"/>hāritī-putrāṇāṁ sapta-loka-mātr̥bhir mmātr̥bhir abhivarddhitānāM kārtti<lb 
 n="3" break="no"/>keyā<space type="binding-hole"/>nugrahāvāpta-kalyāṇa-parampar<choice><sic>a</sic><corr>ā</corr></choice>nāṁ bhagavan-nārāy<choice><sic>ā</sic><corr>a</corr></choice>ṇa-pra<lb 
-n="4" break="no"/>sādāsādita-varāha-lāñcchanātmīkr̥tāśeṣa-bhūbhr̥tāṁ bhū-bhr̥tāṁ ivācala-sthi<lb 
+n="4" break="no"/>sādāsādita-varāh<choice><sic>ā</sic><corr>a</corr></choice>-lāñcchanātmīkr̥tāśeṣa-bhūbhr̥tāṁ bhū-bhr̥tāṁ ivācala-sthi<lb 
 n="5" break="no"/>tīnāṁ Aśvamedhāvabhr̥tha-snānāpanīta-kali-malānāṁ caḷukyānāṁ kulam a<pb 
 
 n="1v" break="no"/><lb 
-n="6" break="no"/><unclear>laṁ</unclear>ka<choice><sic>r</sic><corr>ri</corr></choice>ṣṇoḥ śrī-kīrttivarmmaṇaḥ praṇaptā sakalāvan<orig>ī</orig>-pati-makuṭa-taṭa-ghaṭita<lb 
-n="7" break="no"/>-maṇi-mayūkha-puṁja-pi<supplied reason="omitted">ṁ</supplied>ja<surplus>ṁ</surplus>rita-caraṇa-yuga<orig>ḷ</orig>asya śrī-viṣṇuvarddhana-mahārājasya <lb 
+n="6" break="no"/><unclear>laṁ</unclear>ka<choice><sic>r</sic><corr>ri</corr></choice>ṣṇoḥ śrī-kīrttivarmmaṇaḥ pranaptā sakalāvan<choice><orig>ī</orig><reg>i</reg></choice>-pati-makuṭa-taṭa-ghaṭita<lb 
+n="7" break="no"/>-maṇi-mayūkha-puṁja-piṁjarita-caraṇa-yuga<choice><orig>ḷ</orig><reg>l</reg></choice>asya śrī-viṣṇuvarddhana-mahārājasya <lb 
 n="8"/>naptā śa<space type="binding-hole"/>kti-traya-s<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>māsāditāśeṣa-bhū-maṇḍalādhipateḥ sva-guṇā<lb 
 n="9" break="no"/>nurakta-pra<space type="binding-hole"/>kr̥ti-saṁpādita-sarvva-saṁpadaḥ śrī-jayasi<supplied reason="omitted">ṁ</supplied>ha-vallabha-<choice><sic>v</sic><corr>m</corr></choice>ahārājasya <lb 
 n="10"/>priya-bhrātur a<add place="above" rend="mark">ne</add>ka-yuddha-labdha-vijayālaṁkr̥ta-śarīrasyendra-bhaṭṭārakasya <pb 
@@ -136,18 +137,17 @@ n="10"/>priya-bhrātur a<add place="above" rend="mark">ne</add>ka-yuddha-labdha-
 n="2r"/><fw n="2r" place="left"><num value="2">2</num></fw><lb 
 n="11"/>priya-tanayaḥ samadhigata-pañca-mahāśabdaḥ sakalendur iva sakala-kalādhi<lb 
 n="12" break="no"/>ṣṭhāno vi<del>ṣa</del><space type="binding-hole"/>ṣṇur iva śrī-nivāsaḥ śrīmān viṣṇuvarddhana-mahārājaḥ gudrahāra<lb 
-n="13" break="no"/>-viṣa<space type="binding-hole"/>ye Aṟutaṅkūrāśraye pa<choice><unclear>ḷḷ</unclear><unclear>dd</unclear><unclear>ḍḍ</unclear></choice>i<unclear>v</unclear>āḍa-grāmam adhivasataḥ <lb 
+n="13" break="no"/>-viṣa<space type="binding-hole"/>ye Aṟutaṅkūrāśraye pa<unclear>ḷḷ</unclear>i<unclear>v</unclear>āḍa-grāmam adhivasataḥ <lb 
 n="14"/>sarvvān evam <choice><sic>a</sic><corr>ā</corr></choice>jñāpayati</p>
-<p part="I">yathā Asanapura-v<choice><sic>a</sic><corr>ā</corr></choice>s<choice><sic>th</sic><corr>t</corr></choice>avyasya kāśy<choice><sic>ā</sic><corr>a</corr></choice>pa-gotrasya <lb 
+<p part="I">yathā Asanapura-v<choice><orig>a</orig><reg>ā</reg></choice>s<choice><sic>th</sic><corr>t</corr></choice>avyasya kāśy<choice><sic>ā</sic><corr>a</corr></choice>pa-gotrasya <lb 
 n="15"/>nūvucūṭṭi-trivedasya taittirīya-sabrahmacāriṇaḥ veda-vedāṁgetihā<pb 
 
 n="2v" break="no"/><lb 
 n="16" break="no"/>sa-purāṇa-nyāyāneka-dharmmaśāstr<subst><del rend="corrected">ā</del><add place="overstrike">a</add></subst>-vidaḥ Agniṣṭomādi-pauṇḍarīka-pa<lb 
 n="17" break="no"/>ryyantāneka-kratu-yaṣṭuḥ dhruvaśarmmaṇaḥ pautrāya veda-vedāṁga-vidaḥ <lb 
-n="18"/>doci<space type="binding-hole"/>śarmmaṇaḥ putrāya Adhīta-veda-dvayāya dhruvaśarmmaṇe <lb 
-n="19"/>Asmin grāme Asmat-puṇyābhivr̥<surplus>r</surplus>ddhaye <choice><sic>A</sic><corr>Ā</corr></choice>tmano vijaya-rājya-pañca<lb 
-n="20" break="no"/>me saṁ<orig>vv</orig>atsare phā<unclear>l</unclear>gu<orig>ṇ</orig>a-māse AmāvāsyāyāM sūryya-gra<supplied reason="omitted">ha</supplied>ṇa-nimi<supplied reason="lost">tte</supplied>
-</p>
+n="18"/>doci<space type="binding-hole"/><unclear>śa</unclear>rm<unclear>m</unclear>a<unclear>ṇaḥ pu</unclear>t<unclear>r</unclear>āya Adhīta-veda-dvayāya dhruvaśarmmaṇe <lb 
+n="19"/>Asmin grāme A<unclear>s</unclear>mat-puṇyābhivr̥<surplus>r</surplus>ddhaye <choice><sic>A</sic><corr>Ā</corr></choice>tmano vijaya-rājya-pañca<lb 
+n="20" break="no"/>me saṁ<choice><orig>vv</orig><reg>v</reg></choice>atsare phā<unclear>l</unclear>gu<choice><orig>ṇ</orig><reg>n</reg></choice>a-māse AmāvāsyāyāM sūryya-gra<supplied reason="omitted">ha</supplied>ṇa-nimi</p>
 </div>
 </div>
         
@@ -162,7 +162,16 @@ n="20" break="no"/>me saṁ<orig>vv</orig>atsare phā<unclear>l</unclear>gu<orig
     <listApp>
       <app loc="3">
         <lem>-nārāy<choice><sic>ā</sic><corr>a</corr></choice>ṇa-</lem>
-        <note>According to Fleet's note, the superfluous <foreign>ā</foreign> marker was partially erased. Based on photos of the cleaned original plate, this does not seem to be the case. Nonetheless, Fleet may be correct; for the premodern correction of <foreign>śāstrā</foreign> to <foreign>śāstra</foreign> in line 16, he notes that the correction was made by paring down the copper on both sides of the unwanted stroke, but in the estampage, only the stroke is visible. In the photo of that locus, a thinning of the superfluous stroke is clear, and the surface around it seems slightly different from the rest of the surface. None of these signs are, however, discernible here.</note>
+        <note>According to Fleet's note, the superfluous <foreign>ā</foreign> marker was partially erased. Based on the photos of the cleaned original plate, this does not seem to be the case. Nonetheless, Fleet may be correct; for the premodern correction of <foreign>śāstrā</foreign> to <foreign>śāstra</foreign> in line 16, he notes that the correction was made by paring down the copper on both sides of the unwanted stroke, but in the estampage, only the stroke is visible. In the photo of that locus, a thinning of the superfluous stroke is clear, and the surface around it seems slightly different from the rest of the surface. None of these signs are, however, discernible here.</note>
+      </app>
+      <app loc="4">
+        <lem>-varāh<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
+        <rdg source="bib:Fleet1878_01">-varāha-</rdg>
+        <note>The superfluous <foreign>ā</foreign> may have been corrected in the original.</note>
+      </app>
+      <app loc="4">
+        <lem>-piṁjarita-</lem>
+        <rdg source="bib:Fleet1878_01">-pi<supplied reason="omitted">ṁ</supplied>ja<surplus>ṁ</surplus>rita-</rdg>
       </app>
       <app loc="12">
         <lem>vi<del>ṣa</del><space type="binding-hole"/>ṣṇur</lem>
@@ -180,6 +189,10 @@ n="20" break="no"/>me saṁ<orig>vv</orig>atsare phā<unclear>l</unclear>gu<orig
       <app loc="19">
         <lem>-rājya-</lem>
         <note>Fleet's edition omits this word, but his translation includes it.</note>
+      </app>
+      <app loc="20">
+        <lem>-nimi</lem>
+        <note>Restore <foreign>-nimitte</foreign>.</note>
       </app>
       
       
@@ -227,7 +240,7 @@ To wit, in this village, in the fifth year of my victory <supplied reason="expla
 
 
 <div type="bibliography">
-  <p>Edited from the original by J. F. FLeet (<bibl rend="omitname"><ptr target="bib:Fleet1878_01"/></bibl>), with estampages of the plates and translation. The date is revised in <bibl><ptr target="bib:Fleet1891_05"/><citedRange>8-9</citedRange></bibl>. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-1963</citedRange><citedRange unit="item">16</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles and inked impressions from Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum.</note> 
+  <p>Edited from the original by J. F. FLeet (<bibl rend="omitname"><ptr target="bib:Fleet1878_01"/></bibl>), with estampages of the plates and translation. The date is revised in <bibl><ptr target="bib:Fleet1891_05"/><citedRange>8-9</citedRange></bibl>. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">49</citedRange><citedRange unit="appendix">A/1962-1963</citedRange><citedRange unit="item">16</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet's text with his published facsimiles and with photographs of the original taken by Arlo Griffiths at the British Library in 2016, as well as with inked impressions from Sir Walter Elliot's collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library, the Bibliothèque nationale de France and the British Museum.</note> 
   </p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1878_01"/></bibl>
