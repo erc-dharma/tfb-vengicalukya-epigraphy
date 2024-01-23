@@ -56,7 +56,7 @@
 
                     <p>Halantas. </p>
                     <p>Original punctuation marks. </p>
-                    <p>Other palaeographic observations. Anusvāra is normally above the character to which it belongs. It may also be atop the next character, when required by descenders from the previous line (e.g. l5 triṁśad) or in non-Sanskritic words (e.g. l6 maṁgi), and is occasionally slightly to the left of the character to which it belongs (l10 Aṣṭottāraṁ). Short and long dependent i are indistinguishable most of the time, and are read as expected unless there is reason to read otherwise.
+                    <p>Other palaeographic observations. A neat and clipped hand with beautiful orthogonal characters, but becoming untidy on plate 3, which is more crowded than the others. Anusvāra is normally above the character to which it belongs. It may also be atop the next character, when required by descenders from the previous line (e.g. l5 triṁśad) or in non-Sanskritic words (e.g. l6 maṁgi), and is occasionally slightly to the left of the character to which it belongs (l10 Aṣṭottāraṁ). The length of the vowels a, i and u is hardly better than random, and the distinction between i and ī is particularly poor. I give the engraver the benefit of doubt when there is any ambiguity, but show most instances of mistaken vowel length as errors. 
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
 
 <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -169,16 +169,24 @@ n="21" break="no"/>-caritaḥ ah<unclear>i</unclear>-nā<supplied reason="omitte
 
 n="3r" break="no"/><lb 
 n="22" break="no"/><!--P1020346.JPG  (right edge: P1020334.JPG, P1020336.JPG, P1020337.JPG)-->ndrikāy<choice><sic>a</sic><corr>ā</corr></choice>ṁ kulajāy<choice><sic>a</sic><corr>ā</corr></choice>ṁ Anuk<choice><sic>u</sic><corr>ū</corr></choice>lavatyā<supplied reason="omitted">ṁ</supplied> ś<choice><sic>i</sic><corr>ī</corr></choice>la-mahādevyā<supplied reason="omitted">ṁ</supplied> um<unclear>ā</unclear>y<choice><sic>a</sic><corr>ā</corr></choice>m iva kārttikey<unclear>a</unclear><supplied reason="omitted">ḥ</supplied> sva-ta<lb 
-n="23" break="no"/>nu-sama-dhr̥t<choice><sic>a</sic><corr>ā</corr></choice>n<unclear>e</unclear>ka-tulābhāra-dāna-dhārā-prakṣālita-kalmaṣo sva-vikrama-vyākr̥tā<unclear cert="low">ne</unclear>ka<lb 
-n="24" break="no"/>-cakr<choice><sic>a</sic><corr>ā</corr></choice>rāti-cakra-vikrama<supplied reason="omitted">ḥ</supplied></p>
+n="23" break="no"/>nu-sama-dhr̥t<choice><sic>a</sic><corr>ā</corr></choice>n<unclear>e</unclear>ka-tulābhāra-dāna-dhārā-prakṣālita-kalmaṣo sva-vikrama-<choice><sic>v</sic><corr>n</corr></choice>yak<supplied reason="omitted">k</supplied>r̥tā<unclear cert="low">ne</unclear>ka<lb 
+n="24" break="no"/>-vakr<choice><sic>a</sic><corr>ā</corr></choice>rāti-cakra-vikrama<supplied reason="omitted">ḥ</supplied></p>
 <lg n="1" met="āryā"><certainty match="../@met" locus="value"/>
 <l n="ab" real="--+--++--+--++--+++">kali-viṭṭara-devasya ca <orig>ś<unclear>ī</unclear>lama</orig>-devy<choice><sic>a</sic><corr>ā</corr></choice>ś ca samutpann<choice><sic>ā</sic><corr>aḥ</corr></choice></l>
 </lg>
-<lg n="1" met="āryā">
-<l n="ab">bhadra-ghaṭa-kalpa<lb 
-n="25" break="no"/>-pāda<space type="binding-hole"/>pa-cintāmaṇi-k<unclear>ā</unclear>madhenuṣu gatāsu</l>
-<l n="cd"> j<unclear>ī</unclear>vanti dhanaya<!--CHECK--> k<subst><del rend="other">ā</del><add place="overstrike">a</add></subst>tham ity ajani pra<unclear reason="eccentric_ductus">th</unclear>ita<lb 
-n="26" break="no"/>-bhuvana-kandarppa<unclear>ḥ</unclear></l>
+<lg n="2" met="āryā">
+<l n="ab">bhadra-ghaṭa-kalpa-<lb 
+n="25" break="no"/>-pāda<space type="binding-hole"/>pa-cintā-maṇi-k<unclear>ā</unclear>madhenuṣu gatāsu</l>
+<l n="cd" real="++------+--+------+++">j<unclear>ī</unclear>vanti <sic>dhanaya</sic> k<subst><del rend="other">ā</del><add place="overstrike">a</add></subst>tham ity ajani pra<unclear reason="eccentric_ductus">th</unclear>ita<lb 
+n="26" break="no"/>-bhuvana-kandarppa<supplied reason="omitted">ḥ</supplied></l>
+</lg>
+<lg n="3" met="āryā">
+<l n="ab">k<choice><sic>a</sic><corr>ā</corr></choice>n<unclear>ī</unclear>na-gupta-bali-śibi-dadh<choice><sic>i</sic><corr>ī</corr></choice><choice><sic>ccā</sic><corr>ca</corr></choice>yas ty<choice><sic>a</sic><corr>ā</corr></choice>gina<supplied reason="omitted">ḥ</supplied> pur<choice><sic>a</sic><corr>ā</corr></choice>bhūvaN</l>
+<l n="cd">y<choice><sic>a</sic><corr>ā</corr></choice>caka-<unclear cert="low">jana</unclear> pu<lb 
+n="27" break="no"/>ṇya-vaśā<unclear>T</unclear> ṣ<choice><sic>ā</sic><corr>a</corr></choice>ṣṭho jātas tato guṇagaḥ</l>
+</lg>
+<lg n="4" met="@@@">
+<l n="ab"></l>
 </lg>
 <p></p>
 
@@ -215,13 +223,25 @@ n="26" break="no"/>-bhuvana-kandarppa<unclear>ḥ</unclear></l>
         <lem>-mu<unclear reason="eccentric_ductus">kha</unclear>-ca<unclear>kra</unclear>-</lem>
         <note>I am not entirely certain of this reading, but compare the similar-looking <foreign>kha</foreign> in line 34.</note>
       </app>
+      <app loc="23">
+        <lem>-<choice><sic>v</sic><corr>n</corr></choice>yak<supplied reason="omitted">k</supplied>r̥tā<unclear cert="low">ne</unclear>ka-</lem>
+        <note>The initial <foreign>v</foreign> is quite clear, so <foreign>-vyākr̥tāneka-</foreign> would be a smaller emendation. It is, however, less appropriate to the context, and <foreign>-nyakkr̥tāneka-</foreign> is corroborated by line 25 of the <ref target="DHARMA_INSVengiCalukya00095.xml">Uṟuvuṭūru grant of Vijayāditya III</ref>. The character read as <foreign>ne</foreign> is damaged and may have been corrected; the preceding <foreign>ā</foreign> marker may also be involved in this correction.</note>
+      </app>
       <app loc="24">
         <lem>-vikrama<supplied reason="omitted">ḥ</supplied></lem>
-        <note>The text is interpretable without my emendation. It seems to me, however, that a <foreign>gaṇacchandas</foreign> line starts with <foreign>kali-viṭṭara-</foreign>. In addition to the more or less correct prosody of that passage (see also the next note), the birth of Vijayāditya III from Viṣṇuvardhana V and Śīla-mahādevī has just been related above. Repeating this information in prose would be very awkward, while a restatement is acceptable if the diction now changes to verse. However, if I am correct in assuming that the following part is verse, then it is a single hemistich, since from <foreign>bhadra-ghaṭa</foreign> onward we have fairly correct and coherent <foreign>gaṇacchandas</foreign> stanzas. On the other hand, I see no way to fit the text before <foreign>kali-viṭṭara-</foreign> to metre.</note>
+        <note>The text is interpretable without my emendation. It seems to me, however, that a <foreign>gaṇacchandas</foreign> line starts with <foreign>kali-viṭṭara-</foreign>. In addition to the more or less correct prosody of that passage (see also the next note), the birth of Vijayāditya III from Viṣṇuvardhana V and Śīla-mahādevī has just been related above. Repeating this information in prose would be very awkward, while a restatement is acceptable if the diction now changes to verse. However, if I am correct in assuming that the following part is verse, then it is a single hemistich, since from <foreign>bhadra-ghaṭa</foreign> onward we have a fairly correct and coherent <foreign>gaṇacchandas</foreign> stanza. On the other hand, I see no way to fit the text before <foreign>kali-viṭṭara-</foreign> to metre. The <ref target="DHARMA_INSVengiCalukya00095.xml">Uṟuvuṭūru grant</ref> has a clear <foreign>visarga</foreign> here and also switches to verse at this point, but the stanza that follows there is analogous to stanza 2 of the present text.</note>
       </app>
       <app loc="24">
         <lem><orig>ś<unclear>ī</unclear>lama</orig>-devy<choice><sic>a</sic><corr>ā</corr></choice>ś</lem>
         <note>This may be an alternative name of the queen mother, or a scribal error for <foreign>śīla-mahādevyāś</foreign>. If this passage is meant to be <foreign>gaṇacchandas</foreign> verse, then <foreign>śīla-mahādevyāś ca samutpanno</foreign> yields a 30-mora line with the sub-par pattern – ⏑ ⏑ in the seventh foot, while <foreign>śīlama-devyās samutpanno</foreign> (without <foreign>ca</foreign>) yields a fully correct 27-mora line.</note>
+      </app>
+      <app loc="24">
+        <lem>k<subst><del rend="other">ā</del><add place="overstrike">a</add></subst>tham</lem>
+        <note>The superfluous vowel marker has been struck through with a horizontal line or a series of dots.</note>
+      </app>
+      <app loc="25">
+        <lem><sic>dhanaya</sic></lem>
+        <note>I am unable to offer an interpretation or a convincing correction for this word. I would expect a plural substantive meaning something like "subjects" or "the poor" here, but other meanings may also work. Accepting the received reading, the line is a mostly correct second hemistich of an <foreign>āryā</foreign> stanza, with metrical licence in the fourth foot where the <foreign>ni</foreign> of <foreign>ajani</foreign> must be scanned as short in spite of the following <foreign>pr</foreign>. If <foreign>dhanaya</foreign> is erroneous, then it should most probably be corrected so that it becomes five morae in length, three of them in the second foot and two in the third. This would yield a prosodically correct 30-mora line (such as the second hemistich of a <foreign>gīti</foreign>) without any metrical anomalies. Emending to <foreign>nirdhanāḥ</foreign> would make sense in the context and produce correct metre, but I prefer not to intervene so invasively in the text.</note>
       </app>
       
 <!--
