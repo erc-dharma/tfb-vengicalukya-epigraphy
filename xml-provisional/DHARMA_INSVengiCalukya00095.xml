@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Uṟuvuṭūru grant of Vijayāditya III</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00095</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+
+                    <p>Halantas. </p>
+                    <p>Original punctuation marks. </p>
+                    <p>Other palaeographic observations. A neat and clipped hand with beautiful orthogonal characters. Many subscript consonants (not only r and y but also e.g. n and m) are ornamentally enlarged and stylised. Markers for dependent i, when interfering with a subscript stroke from the previous line, are only partially drawn. Anusvāra may be above the pertinent character on the right, or to the right of the pertinent character at or above head height, or occasionally over the next character, especially in non-Sanskritic words (e.g. l7 maṁgi where, unusually, it is above rather than within the i marker).
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+
+<!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2024-01-26" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/>śrī-tribhuvanāṁkuśa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/><p><pb 
+
+n="1v"/><lb 
+n="1"/><!--P1030161.JPG (below ring: P1030163, P1030164, P1030165-->svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārītī-putrāṇāṁ <lb 
+n="2"/>kauśik<unclear>ī</unclear>-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-par<unclear>i</unclear>pālitānāṁ svāmi-mahāsena-pādā<lb 
+n="3" break="no"/>nudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñchanekṣaṇa-kṣaṇa-vaśī<lb 
+n="4" break="no"/>kr̥<space type="binding-hole"/>tārāti-maṇḍalānā<choice><sic>ma</sic><corr>M</corr></choice> Aśvamedhāvabhr̥tha-snāna-pavitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-vapuṣāṁ cāḷukyā<lb 
+n="5" break="no"/>nāṁ kulam ala<supplied reason="omitted">ṁ</supplied>kariṣṇoḥ satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhanaḥ Aṣṭādaśa va<supplied reason="omitted">r</supplied>ṣāṇi<supplied reason="subaudible">.</supplied> <lb 
+n="6"/>tasya sūnuḥ jayasiṁha-vallabhaḥ trayastriṁśad varṣ<unclear>ā</unclear>ṇ<unclear>i</unclear><supplied reason="subaudible">.</supplied> tasyānujasya Indra-bhaṭṭārakasya priya<lb 
+n="7" break="no"/>-tanayaḥ viṣṇurājaḥ nava varṣ<choice><sic>a</sic><corr>ā</corr></choice>ṇi<supplied reason="subaudible">.</supplied> tasyātmajaḥ maṁgi-yuvarājaḥ pañcaviṁśat<unclear>i</unclear> varṣāṇi<supplied reason="subaudible">.</supplied> tasya suta<supplied reason="lost">ḥ</supplied><pb 
+
+n="2r"/><lb 
+n="8"/><!--P1030134.JPG-->sakala-lokāśrayaḥ jayasīha-vallabhaḥ trayodaśa va<supplied reason="omitted">r</supplied>ṣāṇi<supplied reason="subaudible">.</supplied> tasyānujaḥ dvaimātura<supplied reason="lost">ḥ ko</supplied><lb 
+n="9" break="no"/>kkiliḥ ṣaṇ māsāN<supplied reason="subaudible">.</supplied> tasyāgrajaḥ viṣṇuvarddhanaḥ saptatriṁśad varṣ<choice><sic>a</sic><corr>ā</corr></choice>ṇ<unclear>i</unclear><supplied reason="subaudible">.</supplied> tasya putraḥ vi<unclear>jayādityaḥ</unclear> <lb 
+n="10"/>Ekān<unclear>n</unclear>a<unclear>v</unclear>iṁśati-varṣāṇi<supplied reason="subaudible">.</supplied> tasya sūnuḥ viṣṇuvarddhanaḥ ṣaṭtriṁśad varṣāṇ<choice><sic>ī</sic><corr>i</corr></choice><supplied reason="subaudible">.</supplied> tasya priya-tanayaḥ <unclear>vi</unclear><lb 
+n="11" break="no"/><unclear>jayā</unclear><space type="binding-hole"/>dityaḥ</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">Aṣṭottaraṁ yuddha-śataṁ</l>
+<l n="b">jitvā labdha-yaśo-jayaḥ</l>
+<l n="c">cāḷukyārjuna-bhūp<unclear>āl</unclear><supplied reason="lost">o</supplied></l>
+<l n="d"><lb 
+n="12"/>rājā cāḷukya-vaṁśa-jaḥ</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a" enjamb="yes">narendra-mr̥garāja-śrī-</l>
+<l n="b">vijayāditya-bhūpatiḥ</l>
+<l n="c">tyāg<unclear>ī</unclear> bhogī <unclear>ma</unclear><supplied reason="lost">ho</supplied><unclear>dy</unclear><supplied reason="lost">o</supplied><lb 
+n="13" break="no"/>gī</l>
+<l n="d">nityaṁ satyāśrayānvayaḥ</l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a" met="bha-vipulā">Aṣṭottara<supplied reason="omitted">ṁ</supplied> yuddha-śata<choice><sic>ḥ</sic><corr>ṁ</corr></choice></l>
+<l n="b">yuddhvā tat-pāpa-nuttaye</l>
+<l n="c">tat-ta<unclear>d-yuddha</unclear><lb 
+n="14" break="no"/>-pradeśeṣu</l>
+<l n="d">veṁgī-deśe samantataḥ</l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a" enjamb="yes">Agrahāra-prapārāma-</l>
+<l n="b">taṭ<unclear>ā</unclear>kopavanā<unclear>ni</unclear> <supplied reason="lost">ca</supplied></l>
+<l n="c"><supplied reason="lost">na</supplied><pb 
+
+n="2v" break="no"/><lb 
+n="15" break="no"/><!--P1030143.JPG-->rendreśvara-nāmāni</l>
+<l n="d">seśvarāyatanāni ca</l>
+</lg>
+<lg n="5" met="anuṣṭubh">
+<l n="a">sa-nr̥tta-gita-satrāṇi</l>
+<l n="b">cāṣṭottara-śatāni ya<unclear>ḥ</unclear></l>
+<l n="c"><supplied reason="lost">kr̥</supplied><lb 
+n="16" break="no"/>tavān sa sadā bhāti</l>
+<l n="d">bhūtale khyāta-sāhasaḥ</l>
+</lg>
+<p>Ekacatvāriṁśad varṣāṇi<supplied reason="subaudible">.</supplied> tasya sutaḥ kali-<supplied reason="lost">vi</supplied><lb 
+n="17" break="no"/>ṭṭara-nāmā viṁśati māsāN ve<unclear>ṁ</unclear>g<unclear>ī</unclear>-maṇḍalam anvapālayaT<supplied reason="subaudible">.</supplied> tasya jyeṣṭho vijayādityaḥ dinaka<supplied reason="lost">ra</supplied> <lb 
+n="18"/>I<space type="binding-hole"/>va padmānanda-karaḥ v<choice><sic>e</sic><corr>ai</corr></choice>nateya Iva vinatānanda-jananaḥ Aneka-dhanuṣmat-sah<unclear>ā</unclear><lb 
+n="19" break="no"/>yo py utkhāta-niśāta-taravā<add place="overstrike">ri</add>-sanātha-karaika-sahāyaḥ rāma Iva s<unclear>ī</unclear>tānanda-karaḥ yudhiṣṭhira <lb 
+n="20"/>Iva bhīmārjuna-yaśo-<supplied reason="subaudible">’</supplied>dhikaḥ candra Iva san-mārgga-yāyī kalādharo <supplied reason="subaudible">’</supplied>py adoṣākaraḥ la<unclear>kṣmī</unclear><lb 
+n="21" break="no"/>-priyo <supplied reason="subaudible">’</supplied>pi ku-vadhū-priyaḥ <choice><sic>A</sic><corr>Ā</corr></choice>yatimā<supplied reason="omitted">n a</supplied>pi suvr̥ttaḥ mātaṁgapriyo pi śuddhacaritaḥ <unclear cert="low">Ahi</unclear>-<supplied reason="lost">nā</supplied><supplied reason="omitted">mā</supplied><pb 
+
+n="3r" break="no"/><lb 
+n="22" break="no"/><!--P1030184.JPG; right side P1030186.JPG-->py a-vyā<choice><orig>ḷ</orig><reg>l</reg></choice>a<surplus>ṁ</surplus>-sa<supplied reason="omitted">ṁ</supplied>grahaḥ yasya ca mātā rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭādhipasyendra-bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rakasya hima<supplied reason="omitted">va</supplied>to bhav<choice><sic>a</sic><corr>ā</corr></choice><lb 
+n="23" break="no"/>n<choice><sic>i</sic><corr>ī</corr></choice>va pitu<add place="inline">ḥ</add> bhūdhara-māny<choice><sic>ā</sic><corr>a</corr></choice>tāṁ janayantī jaladher llakṣm<choice><sic>i</sic><corr>ī</corr></choice>r iva janakāt sīteva śīlādi-guṇānvita<lb 
+n="24" break="no"/>tvāc chīlakety anvartthanavaty ajani tasyāḥ Umāyā Iva śaravaṇa-bhavo <supplied reason="subaudible">’</supplied>pratihata-śakti<supplied reason="omitted">ḥ</supplied> sva-ta<lb 
+n="25" break="no"/>nu-sa<space type="binding-hole"/>ma-dhr̥tāneka-tulābhāra-dāna-dhārā-prakṣālita-kalmaṣaḥ sva-vikrama-nyak<supplied reason="omitted">k</supplied>r̥tāne<lb 
+n="26" break="no"/>ka-vakrārāti-cakra-vikramaḥ</p>
+<lg n="6" met="gīti">
+<l n="ab">bhadra-ghaṭa-kalpa-pādapa-cintā-maṇi-kāma-dhenuṣu gatāsu</l>
+<l n="cd">jīva<choice><sic>nti</sic><corr>nty a</corr></choice><lb 
+n="27" break="no"/>dhanā<supplied reason="omitted">ḥ</supplied> katham iti ditsur ivābhūt sa bhuvana-kandarppaḥ</l>
+</lg>
+<lg n="7" met="gīti">
+<l n="ab">bali-śibi-dadh<choice><sic>i</sic><corr>ī</corr></choice>ci-karṇṇā guptaś caite pr̥tha<lb 
+n="28" break="no"/>g-gatās tyāge</l>
+<l n="cd">yācaka-jana-bhāgya-vaśāt sa<supplied reason="omitted">ṁ</supplied>ghas teṣām ivābhavad guṇagaḥ</l>
+</lg>
+
+<p>
+</p>
+
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+    <listApp>
+      <app loc="11">
+        <lem>°<unclear>jayā</unclear>°</lem>
+        <note>These characters are very small. It seems likely that only one character was first engraved to the left of the hole, then deleted and struck over with these.</note>
+      </app>
+      <app loc="13">
+        <lem>Aṣṭottara<supplied reason="omitted">ṁ</supplied></lem>
+        <note>The text is intelligible without the emendation, but the metre requires a long syllable here, and the <foreign>anusvāra</foreign> is present in the closely parellel <ref target="DHARMA_INSVengiCalukya00097.xml">Pulgoṭlapaṁbuluru grant of Vijayāditya III</ref>.</note>
+      </app>
+      <app loc="13">
+        <lem>-taravā<add place="overstrike">ri</add>-</lem>
+        <note><foreign>ri</foreign> was written over a previous <foreign>di</foreign> or <foreign>vi</foreign>.</note>
+      </app>
+      <app loc="21">
+        <lem><choice><sic>A</sic><corr>Ā</corr></choice>yatimā<supplied reason="omitted">n a</supplied>pi</lem>
+        <note>I emend tentatively; see also my translation. The <ref target="DHARMA_INSVengiCalukya00097.xml">Pulgoṭlapaṁbuluru grant</ref> has the same reading.</note>
+      </app>
+      <app loc="21">
+        <lem><unclear cert="low">Ahi</unclear>-<supplied reason="lost">nā</supplied><supplied reason="omitted">mā</supplied><pb n="3r" break="no"/><lb n="22" break="no"/>py</lem>
+        <note>I emend even more tentatively than above, and I am uncertain of the intended meaning. See also my translation. The <ref target="DHARMA_INSVengiCalukya00097.xml">Pulgoṭlapaṁbuluru grant</ref> has the same reading.</note>
+      </app>
+      <app loc="21">
+        <lem>jīva<choice><sic>nti</sic><corr>nty a</corr></choice><lb n="27" break="no"/>dhanā<supplied reason="omitted">ḥ</supplied></lem>
+        <note>I emend tentatively; <foreign>jīvanti janāḥ</foreign> may have been intended instead, and there may be other solutions as well. In the <ref target="DHARMA_INSVengiCalukya00097.xml">Pulgoṭlapaṁbuluru grant</ref>, the stanza is slightly different, and this locus reads <foreign>jīvanti dhanaya</foreign> (uninterpretable).</note>
+      </app>
+      <app loc="28">
+        <lem>sa<supplied reason="omitted">ṁ</supplied>ghas</lem>
+        <note>I emend tentatively and find the resulting expression quite awkward. On the basis of the approximate parallel in the <ref target="DHARMA_INSVengiCalukya00097.xml">Pulgoṭlapaṁbuluru grant</ref>, it is possible that <foreign>ṣaṣṭhas</foreign> was intended here, but I prefer the less invasive emendation.</note>
+      </app>
+
+      
+<!--
+
+-->
+      
+      
+    </listApp>
+    
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+<p n="1-11"></p>
+    
+</div>
+
+
+
+
+
+<div type="commentary">
+<p>The ASI estampages are accompanied by two copies of a cover sheet, a draft with many insertions, and a largely identical clean copy. The latter says the following.</p>
+<p>These are fine copper-plates the first and last of which are engraved on the inner sides only. They measure roughly 9½” by 3¾” and possess high rims which are evidently meant to protect the writing. Even the unwritten sides of the first and last plates have raised rims. Nearly ½” from the left margin of the plates are seen ring holes measuring ¾” in diameter. The ring with seal which holds these plates together is elliptical and measures 6 3/8” by 4½”. It is 5/8” thick. The round seal measuring 3½” in diameter has got an ornamental raised edge and is fashioned like a flower. It bears on a countersunk surface the legend Śrī-Tribhuvanāṁkuśa in the centre. Above it is a recumbent boar and over the boar is the symbol of the crescent with a dot within which may stand for the Sun. Below the legend is a floral device like a spreading lotus flower. The mass of metal at the bottom of the seal into which the ends of the ring are fixed is beaten out on either side of the ring and shaped with the face of a Yāli.</p>
+<p>One of the plates was broken on the right edge and a small chip in continuation of the broken part came off by the application of pressure while taking impressions. There are small cracks seen on the top portion of the back of the last plate.</p>
+<p>The plates weigh nearly 360 tolas.</p>
+<p>[These were received from Mr. G. Ramayya Pantulu. To be published in the Epigraphia Indica by Prof. Hultzsch.]</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1912-1913"/><citedRange unit="page">13</citedRange><citedRange unit="appendix">A/1912-13</citedRange><citedRange unit="item">3</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1912-1913"/><citedRange unit="page">125</citedRange><citedRange unit="item">64</citedRange></bibl>. I am not aware of a previous published edition. The present edition was created for DHARMA by Dániel Balogh, on the basis of photographs taken by myself in February 2023 at the Telangana State Archaeology Museum, Hyderabad and of estampages kept at the ASI, Mysore.</p>
+  <listBibl type="primary">
+    <bibl/>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
