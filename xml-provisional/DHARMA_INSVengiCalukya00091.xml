@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Timmapuram unfinished plates of Maṅgi Yuvarāja</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00091</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                    <p>Halantas. </p>
+                    <p>Original punctuation. </p>
+                    <p>Other palaeographic observations. Written in rather ungainly characters of uneven size and distribution.
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2021-10-29" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/><unclear>śrī-vija</unclear>yasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p>
+<pb 
+
+n="1v"/>
+<lb 
+n="1"/><!--P1000419.JPG; left of hole: P1000421.JPG--><supplied reason="lost">sva</supplied><unclear>sti</unclear><supplied reason="subaudible">.</supplied> samasta-bhuvanāśraya-śrī-saṁstūyamāna-<supplied reason="omitted">māna</supplied>vya-sagotrāṇ<choice><sic>a</sic><corr>ā</corr></choice>ṁ h<choice><sic>a</sic><corr>ā</corr></choice>riti-pu<lb 
+n="2" break="no"/><supplied reason="lost">trāṇā</supplied><unclear>ṁ</unclear> Aśvamedha-yājināṁ kauśik<choice><sic>i</sic><corr>ī</corr></choice>-vara-prasāda-rājyānāṁ nārāyaṇa-vara-pras<unclear>ā</unclear><lb 
+n="3" break="no"/><unclear>do</unclear>palab<unclear>dh</unclear>a-vara-varāha-lāṁchanā<surplus>ṁ</surplus>nāṁ mātr̥-gaṇa-paripālitānāṁ māna<lb 
+n="4" break="no"/><unclear>v</unclear>ya-sagotrāṇāṁ caḷukyānāṁ kula-jaladhi-samudbhūta-rājasya śrīma<lb 
+n="5" break="no"/>to jayasiṁgha-vallabha-mah<unclear>ā</unclear>rājasyendra-samāna-kīrtt<choice><sic>i</sic><corr>e</corr></choice>r indra-bhaṭṭā<pb 
+
+n="2r" break="no"/><lb 
+n="6" break="no"/><!--P1000427.JPG-->rakasya priya-tanaya<supplied reason="omitted">ḥ</supplied> sva-pitur adhika-guṇa-gaṇo<choice><orig>d</orig><reg>dd</reg></choice>yo<choice><sic>d</sic><corr>t</corr></choice>ita-yaśo-vitāna-ro<lb 
+n="7" break="no"/>ciṣṇo<supplied reason="omitted">ḥ</supplied> <choice><sic>Anda</sic><corr>Aidaṁ</corr></choice>yu<choice><sic>ś</sic><corr>g</corr></choice>īna-mahāviṣṇ<supplied reason="omitted">ḥ</supplied>ḥ viṣṇuvarddhana-mahārājasya priya-tanaya<supplied reason="omitted">ḥ</supplied> <lb n="8"/>pravarddha</p>
+
+<pb 
+
+n="2v"/>
+
+<pb 
+
+n="3r"/>
+
+<pb 
+
+n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="5">
+        <lem>-mah<unclear>ā</unclear>rājasyendra-</lem>
+        <note>If this inscription was ever meant to be a properly issued land grant, the text intended here would have been something like <foreign>-mahārājasya priyānujasyendra-</foreign>.</note>
+      </app>
+      <app loc="6">
+        <lem>-tanaya<supplied reason="omitted">ḥ</supplied></lem>
+        <note>The ending I supply is syntactically inappropriate and should in fact be <foreign>-tanayasya</foreign>. But convention seems rather to call for <foreign>sūnor</foreign> at this point, and the king list may be a clumsy adoption from that used in grants of Viṣṇuvardhana II.</note>
+      </app>
+      <app loc="8">
+        <lem>pravarddha</lem>
+        <note>The text ends here.</note>
+      </app>
+      
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-11">.</p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+   <p>The findspot is recorded as Timmāpuram, Sarvasiddhi Taluk, Visakhapatnam District, Andhra Pradesh. I believe Sarvasiddhi Taluk should be NE of Kakinada, more or less corresponding to present-day Anakapalli district. Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1955-1956_01"/><citedRange>131</citedRange></bibl>) identifies Kumulūru as Pedda Gummulūru (or the nearby Chinna Gummulūru) in Sarvasiddhi Taluk, located near Gudivada (also said to be in Sarvasiddhi Taluk by Somasekhara Sarma) and the findspot Timmapuram. The most likely place is around 17.43342446086503, 82.75163439357617, where the India Place Finder and Open Street Maps show a Timmapuram coterminous with (or part of) a Pedda Gummuluru (Pedha Gumuluru on Google Maps). A small village called Gudivada is located about 6 km SE of this, whereas the major town Gudivada is over 200 km to the SW.</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1907-1908"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1907-08</citedRange><citedRange unit="item">1</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1907-1908"/><citedRange>48-49</citedRange></bibl>. No previous editions known. The present edition was created for DHARMA by Dániel Balogh, on the basis of photographs taken by myself in February 2023 at the Government Museum, Chennai.</p>
+  <listBibl type="primary">
+    <bibl></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
