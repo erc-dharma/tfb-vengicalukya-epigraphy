@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Pasapubaṟṟu grant of Viṣṇuvardhana III</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00092</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+                  <!--<altIdentifier type="PEM"><idno type="corpus">CalE25</idno></altIdentifier>-->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                    <p>Halantas. Final M is fairly large, but highly simplified into a tick-mark shape. Anusvāra is normally placed above headline to the right of the character to which it belongs. It is occasionally to the right of the next character, which has been treated as a scribal error, while when it is right atop the next character, as in the toponym Uppolaṁbu in line 17 (and probably maṁgi in line 7), it has been read in the expected place.
+                Other palaeographic observations. The script is a mature alphabet executed beautifully and very neatly. <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+        <change who="part:daba" when="2024-02-26" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb 
+n="1"/><unclear>t</unclear>ribhuvanāṁk<unclear>uśa</unclear></ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb 
+
+n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>P1020531.JPG; beneath ring: P1020533.JPG svasti+. śrīmata!āṁ sakala-bhu(va)[*na-saṁstūyamāna-mānavya-sagotrāṇāṁ = 13]
+<lb n="2"/>ha!āriti-putrāṇāṁ kauśi[k]ī-[*vara-prasāda-labdha-rājyānāṁ svāmi-mahāsena = 16, expecting 14, perhaps without vara as in 00093]
+<lb n="3" break="no"/>pa!ādāHOLEnudhya!āta!ānāṁ [*bhagavan-nārāyaṇa-prasāda-samāsādita-va = 16; expecting 16]
+<lb n="4" break="no"/>rā HOLE halācaṁ!ṁcha(n)e [kṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍalānām aśvame = 17; expecting 16]
+<lb n="5" break="no"/>dha!āvabhr̥tha-snāna-pavi(tr)[ī] [*kr̥ta-vapuṣāṁ calukyānāṁ kulam alaṁkari = 15; expecting 14]
+<lb n="6" break="no"/>ṣṇo+ḥ śrī-viṣ(ṇu)varddhana-maha!ā [rājasya sūnor … expecting 15]
+
+<pb n="2r" break="no"/><lb n="7" break="no"/>P1020548.JPG; beneath ring: P1020553.JPG; line ends clearer in P1020550.JPG
+dhaka-vijaya-siddhi-prabhu-mantrotsa!āha-śakti-traya-sampann(o) ma(ṁ)gi
+<lb n="8" break="no"/>-yuvarāja!āpara-nāma-dehaya!deyaḥ tat-priya-sūnu+ḥ Akaciṁgaṁgasāgara(?X) 
+<lb n="9" break="no"/>dhya HOLE paripakaṁ tulādānādh!di-daśa-vidha-mahā-dāna-manā(th)ika
+<lb n="10" break="no"/>dāna-buddhi+ḥ Aneka-taṭākārāma-devālaya-pratiṣṭ!ṭhita-prabha!āva+ḥ sa
+<lb n="11" break="no"/>rvva-lokāśraya-śrī-viṣṇuvarddhana-maha!ārāja+ḥ gudrahāra-viṣaye pasapu(ba)
+<lb n="12" break="no"/>(ṟṟu-nā)ma grāmam adhivasato rāṣṭraku!ūṭa-pramukhān kuṭi!uṁbinas sarvva!ān it(th)a
+
+<pb n="2v" break="no"/><lb n="13" break="no"/>P1020544.JPG; beneath ring: P1020547.JPG; line ends clearer in P1020543.JPG, P1020551.JPG
+m ājñ!apayati+. viditam astu vo +’smābhi+ḥ paṟantūr-vvāstavyāya sā(ṁ)kr̥
+ARIE: Paṟandūr
+<lb n="14" break="no"/>ti-gotrāya prāvacana-sūtrāya ṣaḍ-aṁga-vi+de nārāyaṇa +śarmmaṇa+ ḫ pautrāya tri-vedi
+<lb n="15" break="no"/>-deHOLEvaśarmmaṇaḫ putrāya caturvvedi-keśavaśarmmaṇe Asya grā
+<lb n="16" break="no"/>maHOLEsya pūrvva-diśīṁ!āyāṁ kṣetrasya pūrvvataḥ śrīgaṁM!śr̥ṁgaM+. dakṣiṇataḥ Ervvoka-ce
+<lb n="17" break="no"/>nu+. paścimataḥ Uppolaṁbu+. Uttarataḥ veḷḷeṟu+. Evañ ca
+<lb n="18" break="no"/>tur-avadhi-madhya-st!thita pañcadaśa ceṇḍi-vri!īhi-v!bījāvā(pa)
+
+<pb n="3r" break="no"/><lb n="19" break="no"/>P1020538.JPG; beneath ring: P1020541.JPG
+<milestone unit="fragment" n="a"/>paripramāṇaṁ <milestone unit="fragment" n="b"/>kṣetraM gr̥ha-st!thānañ ca puṣpa-vāṭik(ā-sa)
+<lb n="20" break="no"/><milestone unit="fragment" n="a"/>hi?taṁ sūrj!yya-graha<milestone unit="fragment" n="b"/>ṇa-nimitte Udaka-pūrvvaṁ ¡kr̥tya! dattaM sarvva-kara-pariha!ā
+<lb n="21" break="no"/><milestone unit="fragment" n="a"/>reṇa HOLE na kha!kena<milestone unit="fragment" n="b"/>cir bba!d bādhā karaṇīyā karoti yas sa {sa} pañca-mah(ā-pā)
+<lb n="22" break="no"/><milestone unit="fragment" n="a"/>takaHOLE-saṁyukto bha<milestone unit="fragment" n="b"/>vati+. vyāsenāpy uktaṁ!ḥ ślokaḥ (sva)-dattā(ṁ) para-dattā(ṁ) vā
+<lb n="23" break="no"/><milestone unit="fragment" n="a"/>yo hareta vasundhā!a<milestone unit="fragment" n="b"/>rāṁ ṣaṣṭiṁ varṣa-sahasrāṇi viṣṭ!ṭha!āyā(ṁ) jāyate
+<lb n="24" break="no"/><milestone unit="fragment" n="a"/>kri!r̥mi+ḥ Ājṇaptir a<milestone unit="fragment" n="b"/>sya dharmmasya Agra-mahiṣ!i-vijaya-mahādev(ī)
+ 
+
+</p>
+<pb 
+
+n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem></lem>
+        <note></note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-12">
+</p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">11</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">9</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">85</citedRange><citedRange unit="item">8</citedRange></bibl>. No previous edition known. The present edition by Dániel Balogh is based on photographs taken by myself in February 2023 at the Andhra Sahitya Parishad Museum, Kakinada, and on estampages preserved at the ASI, Mysore.<note>The larger part of plate 3 has been lost since the plate was first recorded, so the text of fragment b is only available in the estampage, which only shows a small crack.</note></p>
+  <listBibl type="primary">
+    <bibl></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">11</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">9</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">85</citedRange><citedRange unit="item">8</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
