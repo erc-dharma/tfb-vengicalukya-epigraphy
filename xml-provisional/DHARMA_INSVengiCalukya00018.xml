@@ -94,10 +94,11 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+        <change who="part:daba" when="2024-02-29" status="draft">Re-collated with ASI estampages</change>
+        <change who="part:daba" when="2021-05-03" status="draft">Re-collated with NV edition and estampages</change>
+        <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
         <change who="part:daba" when="2020-08-14" status="draft">Encoded hand description, bibliography and commentary from earlier comments</change>
         <change who="part:daba" when="2020-06-15" status="draft">Initial encoding of the file</change>
-        <change who="part:daba" when="2021-05-03" status="draft">Re-collated with NV edition and estampages</change>
         <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
    </teiHeader>
@@ -111,12 +112,12 @@ n="1r"/>
 <p><pb 
 
 n="1v"/><lb 
-n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatā<supplied reason="omitted">ṁ</supplied> sakala-bhuvana-sa<unclear>ṁ</unclear>stūyamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> hāritī-putrāṇāṁ <lb 
-n="2"/>kauśik<choice><orig>i</orig><reg>ī</reg></choice>-vara-prasāda-labdha-rājy<choice><sic>a</sic><corr>ā</corr></choice>nāṁ mātr̥-gaṇa-paripālitānā<supplied reason="omitted">ṁ</supplied> sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mahāsena-pādā<lb 
+n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatā<unclear>ṁ</unclear> sakala-bhuvana-sa<unclear>ṁ</unclear>stūyamāna-mānavya-sagotrāṇā<unclear>ṁ</unclear> hāritī-putrāṇ<unclear>āṁ</unclear> <lb 
+n="2"/>kauśik<choice><orig>i</orig><reg>ī</reg></choice>-vara-prasāda-labdha-rājy<choice><sic>a</sic><corr>ā</corr></choice>nāṁ mātr̥-gaṇa-parip<unclear>ā</unclear>litānā<supplied reason="omitted">ṁ</supplied> sv<choice><sic>a</sic><corr>ā</corr></choice>mi-mahāsena-pādā<lb 
 n="3" break="no"/>nudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lā<supplied reason="omitted">ṁ</supplied>chanekṣaṇa-kṣaṇa<lb 
 n="4" break="no"/>-vaśīkr̥<space type="binding-hole"/>tārāti-maṇḍalānāṁ Aśvamedhāvabhr̥tha-snāna-pavit<choice><sic>r̥</sic><corr>rī</corr></choice>kr̥ta-vapuṣā<surplus>ṁ</surplus><lb 
-n="5" break="no"/>ñ calukyānāṁ kulam alaṁkariṣṇoḥ vividha-yuddha-labdha-vijaya-siddher bhuvana-mano<lb 
-n="6" break="no"/>-r<choice><sic>ā</sic><corr>a</corr></choice>ma-maṁgi-yuvarājasya pautraḥ naya-vinaya-vikramopārjita-cāru-bhūri-kīrtte<supplied reason="omitted">ḥ</supplied> sarvva<lb 
+n="5" break="no"/>ñ calukyānā<unclear>ṁ</unclear> kulam alaṁkariṣṇoḥ vividha-yuddha-labdha-vijaya-siddher bhuvana-man<unclear>o</unclear><lb 
+n="6" break="no"/>-<supplied reason="omitted">bhi</supplied>rāma-@@@maṁgi-yuvarājasya pautraḥ naya-vinaya-vikramopārjita-cāru-bhūri-kīrtte<supplied reason="omitted">ḥ</supplied> sarvva<lb 
 n="7" break="no"/>-lokāśr<choice><sic>ā</sic><corr>a</corr></choice>ya-śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rājasya priya-t<choice><sic>ā</sic><corr>a</corr></choice>nayaḥ svāsi-dhārā-prabhāvāv<choice><sic>ā</sic><corr>a</corr></choice><pb 
 
 n="2r" break="no"/><lb 
@@ -189,6 +190,10 @@ n="3v"/>
       <app loc="2">
         <lem source="bib:Gai1965-1966_01">sv<choice><sic>a</sic><corr>ā</corr></choice>mi-</lem>
         <rdg source="bib:Venkataramanayya1974_01">svām<choice><sic>ī</sic><corr>i</corr></choice>-</rdg>
+      </app>
+      <app loc="5">
+        <lem>-man<unclear>o</unclear><lb n="6" break="no"/>-<supplied reason="omitted">bhi</supplied>rāma-</lem>
+        <rdg source="bib:Gai1965-1966_01 bib:Venkataramanayya1974_01">-man<unclear>o</unclear><lb n="6" break="no"/>-rāma-</rdg>
       </app>
       <app loc="6">
         <lem source="bib:Gai1965-1966_01">-cāru-bhūri-</lem>
@@ -345,7 +350,7 @@ est le nommé Boḻama, au cœur pur, le meilleur des hommes dans ce monde.</p>
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1954-1955"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1954-1955</citedRange><citedRange unit="item">1</citedRange></bibl>. Edited from estampages and photographs by G. S. Gai(<bibl rend="omitname"><ptr target="bib:Gai1965-1966_01"/><citedRange unit="page">300-302</citedRange><citedRange unit="item">B</citedRange></bibl>), without translation, with estampages of the plates. Also edited, perhaps independently of Gai, by N. Venkataramanayya(<bibl rend="omitname"><ptr target="bib:Venkataramanayya1974_01"/></bibl>), also without translation and with estampages. These estampages seem to be much clearer (yet without any indication that they were retouched manually) than those published by Gai, but the edition is of an inferior standard. The present edition by Dániel Balogh is based on a collation of the published editions and facsimiles. Minor misreadings/typos in Venkataramanayya's edition are not indicated in my apparatus.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1954-1955"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1954-1955</citedRange><citedRange unit="item">1</citedRange></bibl>. Edited from estampages and photographs by G. S. Gai(<bibl rend="omitname"><ptr target="bib:Gai1965-1966_01"/><citedRange unit="page">300-302</citedRange><citedRange unit="item">B</citedRange></bibl>), without translation, with estampages of the plates. Also edited, perhaps independently of Gai, by N. Venkataramanayya(<bibl rend="omitname"><ptr target="bib:Venkataramanayya1974_01"/></bibl>), also without translation and with estampages. These estampages seem to be much clearer (yet without any indication that they were retouched manually) than those published by Gai, but the edition is of an inferior standard. The present edition by Dániel Balogh is based on a collation of the published editions and facsimiles with estampages preserved at the ASI headquarters, Mysore, and a Devanagari transcript attached to these estampages. Minor misreadings/typos in Venkataramanayya's edition are not indicated in my apparatus.</p>
   <listBibl type="primary">
     <bibl n="GSG"><ptr target="bib:Gai1965-1966_01"/><citedRange unit="page">300-302</citedRange><citedRange unit="item">B</citedRange></bibl>
     <bibl n="NV"><ptr target="bib:Venkataramanayya1974_01"/></bibl>
