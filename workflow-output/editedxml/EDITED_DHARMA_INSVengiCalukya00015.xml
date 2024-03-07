@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -108,7 +108,7 @@
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb n="1r"/>
-<p><pb n="1v"/><lb n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ <lb n="2"/>sapta-<unclear reason="eccentric_ductus">lo</unclear>ka-māt<unclear reason="eccentric_ductus">r</unclear>̥bhiḥ paripālitānāṁ svāmi-mahāsena-pāda-bhaktānāṁ bhagavan-nārā<lb n="3" break="no"/>yaṇa-prasāda-samāsādita-vara-varāha-lāṁchanekṣaṇa-kṣaṇa-vaśikr̥t<choice><sic>a</sic><corr>ā</corr></choice>śeṣa-śa<lb n="4" break="no"/>tru-ma<space type="binding-hole"/>ṇḍalānām<surplus>m</surplus> aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāṁ <orig>caḷikyānāṁ</orig> kula<lb n="5" break="no"/>m a<space type="binding-hole"/>laṁkariṣṇoḥ śrī-viṣṇuvarddhana-m<choice><sic>ā</sic><corr>a</corr></choice>hārājasya pautraḥ śrī-sarvvalokāśra<lb n="6" break="no"/>ya-mahārājasya putraḥ svāsi-dhārā-namita-rājanya-makuṭa-taṭā-ghaṭ<surplus>ṭ</surplus><unclear>i</unclear>ta<lb n="7" break="no"/>-maṇi-mayū<choice><sic>k</sic><corr>kh</corr></choice>a-puñja-<supplied reason="omitted">mañja</supplied>rī-rañjita-caraṇa-yuga<choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>aḥ</unclear> pratāpavā<unclear>N</unclear> prasanna-viniveśita-śakti-tra<unclear>yaḥ</unclear> <lb n="8"/>parama-b<unclear>r</unclear>ah<unclear>m</unclear>aṇ<unclear>y</unclear>o mātā-pitr̥-pādānudhyātaḥ sakala-lokāśraya-śrī-ja<unclear>ya</unclear><pb n="2r" break="no"/><lb n="9" break="no"/>siṁgha-vallabha-mahārājaḥ sarvv<choice><sic>a</sic><corr>ā</corr></choice>n ittham ājñāpayati</p>
+<p><pb n="1v"/><lb n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ <lb n="2"/>sapta-<unclear reason="eccentric_ductus">lo</unclear>ka-māt<unclear reason="eccentric_ductus">r̥</unclear>bhiḥ paripālitānāṁ svāmi-mahāsena-pāda-bhaktānāṁ bhagavan-nārā<lb n="3" break="no"/>yaṇa-prasāda-samāsādita-vara-varāha-lāṁchanekṣaṇa-kṣaṇa-vaśikr̥t<choice><sic>a</sic><corr>ā</corr></choice>śeṣa-śa<lb n="4" break="no"/>tru-ma<space type="binding-hole"/>ṇḍalānām<surplus>m</surplus> aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāṁ <orig>caḷikyānāṁ</orig> kula<lb n="5" break="no"/>m a<space type="binding-hole"/>laṁkariṣṇoḥ śrī-viṣṇuvarddhana-m<choice><sic>ā</sic><corr>a</corr></choice>hārājasya pautraḥ śrī-sarvvalokāśra<lb n="6" break="no"/>ya-mahārājasya putraḥ svāsi-dhārā-namita-rājanya-makuṭa-taṭā-ghaṭ<surplus>ṭ</surplus><unclear>i</unclear>ta<lb n="7" break="no"/>-maṇi-mayū<choice><sic>k</sic><corr>kh</corr></choice>a-puñja-<supplied reason="omitted">mañja</supplied>rī-rañjita-caraṇa-yuga<choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>aḥ</unclear> pratāpavā<unclear>N</unclear> prasanna-viniveśita-śakti-tra<unclear>yaḥ</unclear> <lb n="8"/>parama-b<unclear>r</unclear>ah<unclear>m</unclear>aṇ<unclear>y</unclear>o mātā-pitr̥-pādānudhyātaḥ sakala-lokāśraya-śrī-ja<unclear>ya</unclear><pb n="2r" break="no"/><lb n="9" break="no"/>siṁgha-vallabha-mahārājaḥ sarvv<choice><sic>a</sic><corr>ā</corr></choice>n ittham ājñāpayati</p>
 <p>viditam astu vo <supplied reason="subaudible">’</supplied>smābhiḥ vaṁgipaṟu-v<choice><sic>a</sic><corr>ā</corr></choice>stavy<unclear>ā</unclear>ya <lb n="10"/>kauṇḍinya-gotrāya taittirīyāyāpastaṁba-sūtrāya guṁjadevaśarmmaṇa<supplied reason="omitted">ḥ</supplied> pautrāya sarvva<lb n="11" break="no"/>-kratu-yājino devaśarmmaṇaḥ putrāya catur-vveda-pāragāya sarvva-śāstra-viśāradāya <lb n="12"/>śrī-Eṟa<space type="binding-hole"/>droṇaśarmmaṇe</p>
 <ab>karmma-rāṣṭra-viṣaya-nivāsi-ku<add place="below" rend="mark">ṭu</add>ṁbina<add place="inline">ḥ</add> bhavad-viṣaye sarvvān i<lb n="13" break="no"/>ttha<space type="binding-hole"/>m ājñāpayati</ab>
 <p>jyaiṣṭhyāṁ paurṇṇamāsyāṁ saṁkrānti-kāle bhūmidāna-nimitte <lb n="14"/>gobbaḍi-vijñāpanāt karmma-rāṣṭre peṇukapaṟu nāma grāme tasya grā<lb n="15" break="no"/>masyottara-pūrvvasyān diśi kṣetran dattam</p>
@@ -164,7 +164,7 @@ taṭāka E<lb n="20" break="no"/>kaḥ<supplied reason="subaudible">.</supplied
     <listApp>
       <app loc="1">
         <lem>hārīti-</lem>
-        <note>I adopt Hultzsch’s reading but note that this looks more like <foreign>hāritī</foreign> in my scan. The difference between <foreign>i</foreign> and <foreign>ī</foreign> is minor and the vowels are not very clear, being right on the edge of the plate.</note>
+        <note>I adopt Hultzsch’s reading but note that this looks more like <foreign>hāritī</foreign> in my scan. The difference between <foreign>i</foreign> and <foreign>ī</foreign> is minor and the vowels are not very clear, being right on the edge of the plate.</note>
       </app>
       <app loc="2">
         <lem>-puñja-<supplied reason="omitted">mañja</supplied>rī-</lem>
@@ -178,7 +178,7 @@ taṭāka E<lb n="20" break="no"/>kaḥ<supplied reason="subaudible">.</supplied
       <app loc="11">
         <lem>-ku<add place="below" rend="mark">ṭu</add>ṁbina<add place="inline">ḥ</add></lem>
         <rdg source="bib:Hultzsch1925-1926_05">-ku<add place="below" rend="mark">ṭu</add>ṁbinaṁ</rdg>
-        <note>The addition <foreign>ṭu</foreign> was engraved immediately below <foreign>ku</foreign>, and probably before engraving the next line. A small cross to the right of the headmark of <foreign>ku</foreign> indicates the correction. Where Hultzsch sees an <foreign>anusvāra</foreign>, I see a <foreign>visarga</foreign>. Its dots are above and below the limb of the following <foreign>bha</foreign>, so even if it is an <foreign>anusvāra</foreign>, it was in all probability added subsequently.</note>
+        <note>The addition <foreign>ṭu</foreign> was engraved immediately below <foreign>ku</foreign>, and probably before engraving the next line. A small cross to the right of the headmark of <foreign>ku</foreign> indicates the correction. Where Hultzsch sees an <foreign>anusvāra</foreign>, I see a <foreign>visarga</foreign>. Its dots are above and below the limb of the following <foreign>bha</foreign>, so even if it is an <foreign>anusvāra</foreign>, it was in all probability added subsequently.</note>
       </app>
       <app loc="16">
         <lem>pa<del>ści</del>ścimato</lem>
@@ -190,7 +190,7 @@ taṭāka E<lb n="20" break="no"/>kaḥ<supplied reason="subaudible">.</supplied
         <note>Hultzsch indicates the lacuna with two dots. Since he uses six dots for the lacuna at the end of the previous line, he clearly means two lost characters, with which I concur. The span of the lacuna is actually more like three character widths, but there must have been characters hanging down into this line from the one above. I think vestiges or <foreign>ra</foreign> are visible immediately before the damaged but recognisable <foreign>ta</foreign>, and thus restore as shown.</note>
       </app>
       <app loc="19">
-        <lem>E<lb/>kaḥ<supplied reason="subaudible">.</supplied> <gap reason="ellipsis"/> pūrvvataḥ</lem>
+        <lem>E<lb n="20" break="no"/>kaḥ<supplied reason="subaudible">.</supplied> <gap reason="ellipsis"/> pūrvvataḥ</lem>
         <note>Hultzsch parses this passage differently, supplying punctuation after <foreign>taṭāka ekaḥ kūpaḥ</foreign> and reading <foreign>tāla-taṭakasya pūrvvataḥ</foreign> as part of the following sentence.</note>
       </app>
       <app loc="21">
@@ -199,20 +199,20 @@ taṭāka E<lb n="20" break="no"/>kaḥ<supplied reason="subaudible">.</supplied
       </app>
       <app loc="21">
         <lem>Eta<orig><add place="above">ś</add></orig> catur-avadhi<lb n="22"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<orig><unclear>ā</unclear></orig>n</lem>
-        <rdg source="bib:Hultzsch1925-1926_05">Eta<choice><sic>ś</sic><corr>c</corr></choice>-catur-avadhi<lb/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<choice><sic>ā</sic><corr><corr>a</corr></corr></choice>n</rdg>
-        <note>An initially engraved <foreign>ca</foreign> was corrected to <foreign>śca</foreign> by engraving <foreign>ś</foreign> on top, which Hultzsch does not mention. His interpretation and emendation are plausible, but I believe the intent of the composer or the corrector may rather have been <foreign>etāṁś catur-avadhi-paryyantān kṣetrān</foreign>, even though <foreign>kṣetra</foreign> is expected to be neuter and was used as such in line 15 above.</note>
+        <rdg source="bib:Hultzsch1925-1926_05">Eta<choice><sic>ś</sic><corr>c</corr></choice>-catur-avadhi<lb n="22"/>-paryya<space type="binding-hole"/>ntaṁ kṣetr<choice><sic>ā</sic><corr>a</corr></choice>n</rdg>
+        <note>An initially engraved <foreign>ca</foreign> was corrected to <foreign>śca</foreign> by engraving <foreign>ś</foreign> on top, which Hultzsch does not mention. His interpretation and emendation are plausible, but I believe the intent of the composer or the corrector may rather have been <foreign>etāṁś catur-avadhi-paryyantān kṣetrān</foreign>, even though <foreign>kṣetra</foreign> is expected to be neuter and was used as such in line 15 above.</note>
       </app>
       <app loc="22">
         <lem>u<del rend="other">ka</del>daka-</lem>
         <note>The first <foreign>ka</foreign> is cancelled by a short horizontal stroke above it.</note>
       </app>
       <app loc="26">
-        <lem>pa<unclear>ran dānan</unclear><unclear>na bhūtan na</unclear> bha<lb/>viṣyati</lem>
+        <lem>pa<unclear>ran dānan</unclear><unclear>na bhūtan na</unclear> bha<lb n="27" break="no"/>viṣyati</lem>
         <note>Hultzsch prints all of this clear except for <foreign>ū</foreign>. The scanned rubbing is none too clear, but there is something strange going on here with character sizes and spacing: the preceding <foreign>nā</foreign> and <foreign>tpa</foreign> are very large and quite ornate, but the following characters are crowded together. <foreign>bhū</foreign> also seems to be quite large, but all other characters of this segment occupy very little space. The last three characters in the line are not discernible at all in the scan, and apparently occupy about as much space as the earlier <foreign>tpa</foreign> alone. It seems quite likely that a correction of an eyeskip omission was involved here, but I cannot ascertain any details.</note>
       </app>
       <app loc="28">
         <lem><del>re</del>hareta</lem>
-        <note>Hultzsch emends, but does not note the presence of original correction. I assume the extra <foreign>re</foreign> was deleted, but cannot be certain.</note>
+        <note>Hultzsch emends, but does not note the presence of original correction. I assume the extra <foreign>re</foreign> was deleted, but cannot be certain.</note>
       </app>
       
       
@@ -241,7 +241,7 @@ For the sake of increasing <supplied reason="subaudible">my</supplied> merit <su
 <p rend="stanza" n="1">There has never been and will never be a gift superior to the gift of land, nor has there ever been or will ever be a sin <supplied reason="subaudible">superior</supplied> to the seizing of the same.</p>
 <p rend="stanza" n="2">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
 <p rend="stanza" n="3">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
-<p n="30">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is Niravadya, the village headman of Sakalalokāśraya Śrī Pr̥thivī <supplied reason="subaudible" cert="low">Jayasiṁha II</supplied>.<note>As already pointed out by Hultzsch, <foreign>gāmuṇḍī</foreign> must be connected to <foreign>gāmuṇḍa</foreign>, meaning ‘village headman’ and probably derived from Sanskrit <foreign>grāma-kūṭa</foreign> (see also <bibl><ptr target="bib:Sircar1966_01"/></bibl> s.v.). The executor’s name may have been Sakalalokāśraya (compare the executor Sarvajanāśraya in the <ref target="DHARMA_INSVengiCalukya00008.xml">Niḍupaṟu Grant of Jayasiṁha I</ref>), but this epithet is applied to Jayasiṁha II in line 8 and is more likely to refer to him here. It may have been Pr̥thivī or Pr̥thivīgāmuṇḍī, but the honorific preceding Pr̥thivī rather implies that it is a title of the king (short for Pr̥thivīvallabha?), and <foreign>gāmuṇḍī</foreign> is probably a common noun. Hultzsch speaks of the entire string <foreign>niravadya-sakala-lokāśraya-śrī-pr̥thivī-gāmuṇḍin</foreign> as a name, yet he does recognise that most of this string refers to the king and assumes that the headman was named after his sovereign; as another possibility, he proposes that the executor may have been Gobaḍḍi, named in line 14. I find this unlikely and believe that the name was Niravadya, but I have not investigated whether he can be identical, or related, to Niravadya Dhavala.</note></p>
+<p n="30">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is Niravadya, the village headman of Sakalalokāśraya Śrī Pr̥thivī <supplied reason="subaudible" cert="low">Jayasiṁha II</supplied>.<note>As already pointed out by Hultzsch, <foreign>gāmuṇḍī</foreign> must be connected to <foreign>gāmuṇḍa</foreign>, meaning ‘village headman’ and probably derived from Sanskrit <foreign>grāma-kūṭa</foreign> (see also <bibl><ptr target="bib:Sircar1966_01"/></bibl> s.v.). The executor’s name may have been Sakalalokāśraya (compare the executor possibly named Sarvajanāśraya in the <ref target="DHARMA_INSVengiCalukya00008.xml">Niḍupaṟu Grant of Jayasiṁha I</ref>), but this epithet is applied to Jayasiṁha II in line 8 and is more likely to refer to him here. It may have been Pr̥thivī or Pr̥thivīgāmuṇḍī, but the honorific preceding Pr̥thivī rather implies that it is a title of the king (short for Pr̥thivīvallabha?), and <foreign>gāmuṇḍī</foreign> is probably a common noun. Hultzsch speaks of the entire string <foreign>niravadya-sakala-lokāśraya-śrī-pr̥thivī-gāmuṇḍin</foreign> as a name, yet he does recognise that most of this string refers to the king and assumes that the headman was named after his sovereign; as another possibility, he proposes that the executor may have been Gobaḍḍi, named in line 14. I find this unlikely and believe that the name was Niravadya, but I have not investigated whether he can be identical, or related, to Niravadya Dhavala.</note></p>
 <p rend="stanza" n="4">The seizers of a Brahmanic gift will be born as black snakes dwelling in dry holes in the waterless wilderness of the Vindhyas.</p>
   </div>  
 </div>
@@ -252,10 +252,10 @@ For the sake of increasing <supplied reason="subaudible">my</supplied> merit <su
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-12">Prospérité! le petit-fils de l’illustre grand roi Viṣṇuvardhana, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu honorés par tous les êtres, fils de Hārīti, protégés par les mères des sept mondes, qui vénèrent les pieds du seigneur Mahāsena, maîtres des cercles ennemis, soumis en un instant à la vue du signe de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps ont été purifiés par les bains purificatoires de l’<foreign>aśvamedha</foreign>,
+<p n="1-12">Prospérité ! le petit-fils de l’illustre grand roi Viṣṇuvardhana, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu honorés par tous les êtres, fils de Hārīti, protégés par les mères des sept mondes, qui vénèrent les pieds du seigneur Mahāsena, maîtres des cercles ennemis, soumis en un instant à la vue du signe de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps ont été purifiés par les bains purificatoires de l’<foreign>aśvamedha</foreign>,
 le fils de l’illustre grand roi Sarvalokāśraya,
-l’illustre grand roi, refuge de tous les hommes,<note>Le roi reprend le <foreign>biruda</foreign> <foreign>sarvalokāśraya</foreign> de son père.</note> Jayasiṁgha Vallabha, dont les deux pieds sont rougis par les fleurs que sont les rayons émis par les pierres précieuses serties sur l’orbe des diadèmes des nombreux rois inclinés devant la lame de son épée, plein de splendeur, qui a mis en lui les trois pouvoirs de façon limpide, très pieux, méditant aux pieds de sa mère et de son père, ordonne à tous ceci: qu’il soit connu de vous que, <supplied reason="subaudible">nous donnons</supplied> à l’illustre Eṟadroṇaśarman, habitant Vaṁgipaṟu, du gotra des Kauṇḍinya, de <supplied reason="subaudible">l’école des</supplied> Taittirīya, qui suit le <foreign>sūtra</foreign> d’Āpastaṁba, au petit-fils de Guṁjadevaśarman, fils de Devaśarman, qui pratique tous les sacrifices, <supplied reason="subaudible">à ce fils qui</supplied> connaît très bien les quatre Veda, versé dans tous les traités,</p>
-<p n="12-15"><note>anacoluthe.</note>- à tous les habitants résidant dans le <foreign>viṣaya</foreign> de Karmarāṣṭra <supplied reason="subaudible">le roi</supplied> ordonne ceci:- nous donnons lors <supplied reason="subaudible">du mois</supplied> Jyaiṣṭha, le jour de la pleine lune, à l’époque de Saṁkrānti, à l’occasion d’une donation de terre à la requête de Gobbaḍi, dans le village de Penukapaṟu dans le Karmarāṣṭra, un terrain au nord-est de ce village.</p>
+l’illustre grand roi, refuge de tous les hommes,<note>Le roi reprend le <foreign>biruda</foreign> <foreign>sarvalokāśraya</foreign> de son père.</note> Jayasiṁgha Vallabha, dont les deux pieds sont rougis par les fleurs que sont les rayons émis par les pierres précieuses serties sur l’orbe des diadèmes des nombreux rois inclinés devant la lame de son épée, plein de splendeur, qui a mis en lui les trois pouvoirs de façon limpide, très pieux, méditant aux pieds de sa mère et de son père, ordonne à tous ceci : qu’il soit connu de vous que, <supplied reason="subaudible">nous donnons</supplied> à l’illustre Eṟadroṇaśarman, habitant Vaṁgipaṟu, du gotra des Kauṇḍinya, de <supplied reason="subaudible">l’école des</supplied> Taittirīya, qui suit le <foreign>sūtra</foreign> d’Āpastaṁba, au petit-fils de Guṁjadevaśarman, fils de Devaśarman, qui pratique tous les sacrifices, <supplied reason="subaudible">à ce fils qui</supplied> connaît très bien les quatre Veda, versé dans tous les traités,</p>
+<p n="12-15"><note>anacoluthe.</note>- à tous les habitants résidant dans le <foreign>viṣaya</foreign> de Karmarāṣṭra <supplied reason="subaudible">le roi</supplied> ordonne ceci :- nous donnons lors <supplied reason="subaudible">du mois</supplied> Jyaiṣṭha, le jour de la pleine lune, à l’époque de Saṁkrānti, à l’occasion d’une donation de terre à la requête de Gobbaḍi, dans le village de Penukapaṟu dans le Karmarāṣṭra, un terrain au nord-est de ce village.</p>
 <p n="15-17">A l’est la limite de ce terrain est l’étang Niḍugaṭṭa.
 Au sud la limite est le bout du terrain de Pūsa-boḷa.
 A l’ouest la limite est le chemin <gap reason="illegible"/>.
@@ -268,20 +268,20 @@ A l’ouest et au nord la limite est le bout du terrain Jeḍḍa-boḷa.
 Ce terrain a deux réservoirs.
 Le premier réservoir <supplied reason="subaudible">est</supplied> un étang.</p>
 <p n="20-21">
-A l’est de l’étang de Tāla, dans la moitié sud, <supplied reason="subaudible">se trouve</supplied> un champ de riz de quatre <supplied reason="subaudible">nivartana</supplied>, finissant à l’est.<note>On rencontre l’expression <note>prāg-apavarggaṁ</note> dans l’<title>Āpastamba-sūtra</title> (N. D. E.).</note>
+A l’est de l’étang de Tāla, dans la moitié sud, <supplied reason="subaudible">se trouve</supplied> un champ de riz de quatre <supplied reason="subaudible">nivartana</supplied>, finissant à l’est.<note>On rencontre l’expression <foreign>prāg-apavarggaṁ</foreign> dans l’<title>Āpastamba-sūtra</title> (N. D. E.).</note>
 Au nord-est du village <supplied reason="subaudible">la limite est</supplied> un espace <supplied reason="subaudible">où se dresse</supplied> une colline.</p>
 <p n="21-26">J’ai donné<note>Cette formulation employant l’aoriste de <foreign>DĀ-</foreign>, est inusuelle. On rencontre habituellement le participe passé <foreign>dattam</foreign>.</note> le terrain, borné par ces quatre limites, pour l’accroissement du dharma et de la gloire, exempté de toute taxe, après avoir fait une libation d’eau, en qualité de <foreign>brahmadeya</foreign>.
 Celui qui impose une charge à ce terrain exempté de toute taxe, est lié au crime de mille brahmanes de Vāranasī. Celui qui transgresse notre édit est passible de la peine capitale et est lié au cinq grands crimes.
-Voici les vers:</p>
+Voici les vers :</p>
 <p rend="stanza" n="1">Il n’existe pas et n’existera pas de don égal à celui d’une terre,
 Il n’existe pas et n’existera pas de crime égal à celui de son vol.</p>
 <p rend="stanza" n="2">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre renaît ver de terre dans les excrément pendant soixante mille années.</p>
 <p rend="stanza" n="3">Beaucoup ont donné une terre, beaucoup l’on protégée,
 celui qui possède une terre en possède le fruit.</p>
-<p n="21-26">L’exécuteur est le chef de village<note>Le terme kannada <foreign>gāmuṇḍa</foreign> est un synonyme de <foreign>grāmakūṭa</foreign> ( D.C. Sircar, 1966, p. 109), <foreign>gāmuṇḍin</foreign> n’est pas attesté ailleurs, nous supposons qu’il est l’équivalent de <foreign>gāmuṇḍa</foreign>.</note> Niravadya Sakalalolāśraya Śrī Pr̥thivī.</p>
+<p n="21-26">L’exécuteur est le chef de village<note>Le terme kannada <foreign>gāmuṇḍa</foreign> est un synonyme de <foreign>grāmakūṭa</foreign> (D.C. Sircar, 1966, p. 109), <foreign>gāmuṇḍin</foreign> n’est pas attesté ailleurs, nous supposons qu’il est l’équivalent de <foreign>gāmuṇḍa</foreign>.</note> Niravadya Sakalalolāśraya Śrī Pr̥thivī.</p>
 <p rend="stanza" n="4">
 Habitants les grottes arides des rivages sauvages du Vindhya,
-ceux qui prennent un brahmadeya renaissent serpents noirs!<foreign>Il est rare de trouver un vers après la mention de l’exécuteur.</foreign>
+ceux qui prennent un brahmadeya renaissent serpents noirs !<foreign>Il est rare de trouver un vers après la mention de l’exécuteur.</foreign>
 </p>
   
   </div>
@@ -298,7 +298,7 @@ ceux qui prennent un brahmadeya renaissent serpents noirs!<foreign>Il est rare d
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1923-1924"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1923-1924</citedRange><citedRange unit="item">4</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1923-1924"/><citedRange>93</citedRange></bibl>. Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_05"/></bibl>) with a summary of contents, with estampages of the plates and photograph of the seal. The present edition by Dániel Balogh is based on a collation of Hultzsch’s text with his facsimiles.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1923-1924"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1923-1924</citedRange><citedRange unit="item">4</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1923-1924"/><citedRange>98</citedRange></bibl>. Edited from estampages by E. Hultzsch (<bibl rend="omitname"><ptr target="bib:Hultzsch1925-1926_05"/></bibl>) with a summary of contents, with estampages of the plates and photograph of the seal. The present edition by Dániel Balogh is based on a collation of Hultzsch’s text with his facsimiles.</p>
   <listBibl type="primary">
     <bibl n="EH"><ptr target="bib:Hultzsch1925-1926_05"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>

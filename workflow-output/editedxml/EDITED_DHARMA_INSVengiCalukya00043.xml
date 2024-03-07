@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -241,7 +241,7 @@ yasmi<orig>N</orig> śāsati nr̥p<choice><sic>e</sic><corr>a</corr></choice>tau
       </app>
       <app loc="33">
         <lem source="bib:Fleet1878_07">-girī<lb n="34" break="no"/>ndr<choice><sic>o</sic><corr>e</corr></choice> ravir</lem>
-        <note>Instead of emending here as Fleet does, it is also possible to emend to <foreign>girīndro ravim</foreign>, to obtain a variant of this stanza found e.g. in the <ref target="DHARMA_INSVengiCalukya00038.xml">Maliyapūṇḍi grant</ref>.<!--@@@CHECK which variant is more common, when I have more of the corpus.--></note>
+        <note>Instead of emending here as Fleet does, it is also possible to emend to <foreign>girīndro ravim</foreign>, to obtain a variant of this stanza found e.g. in the <ref target="DHARMA_INSVengiCalukya00038.xml">Maliyapūṇḍi grant</ref>.<!--@@@CHECK which variant is more common, when I have more of the corpus.--></note>
       </app>
       <app loc="35">
         <lem>-chāliḥ</lem>
@@ -298,11 +298,11 @@ yasmi<orig>N</orig> śāsati nr̥p<choice><sic>e</sic><corr>a</corr></choice>tau
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-17">Greetings. Satyāśraya Vallabhendra <supplied reason="explanation">Pulakeśin II</supplied> was eager to adorn the lineage of the majestic Cālukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārītī, who attained kingship by the grace of Kauśikī’s boon, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom enemy territories instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice. His brother Kubja Viṣṇuvardhana protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the country of Veṅgī for eighteen years. His son Jayasiṁha <supplied reason="explanation">I</supplied>, for thirty.<note>This may well be a scribal error for “thirty-three,” found in almost all parallel records. See the apparatus to line 7.</note> His younger brother Indrarāja’s <supplied reason="explanation">Indra Bhaṭṭāraka’s</supplied> son Viṣṇuvardhana <supplied reason="explanation">II</supplied>, for nine. His son Maṅgi Yuvarāja, for twenty-five. His son Jayasiṁha <supplied reason="explanation">II</supplied>, for thirteen. His <supplied reason="subaudible">brother</supplied> of inferior birth, Kokkili, for six months. After dethroning him, his eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen. His son Viṣṇuvardhana <supplied reason="explanation">IV</supplied>, for thirty-six. His son Vijayāditya <supplied reason="explanation">II</supplied> Narendramr̥garāja, for eight and forty. His son Kali-Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Vijayāditya <supplied reason="explanation">III</supplied> with the byname Guṇaga, for forty-four. The son of his younger brother the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied>  Prince <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> Vikramāditya, King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Cālukya-Bhīma, for thirty. His son Kollabigaṇḍa Vijayāditya <supplied reason="explanation">IV</supplied>, for six months. His son Ammarāja <supplied reason="explanation">I</supplied>, for seven years. After dethroning his son the child Vijayāditya <supplied reason="explanation">V</supplied>, Tālapa, for one month.</p>
+<p n="1-17">Greetings. Satyāśraya Vallabhendra <supplied reason="explanation">Pulakeśin II</supplied> was eager to adorn the lineage of the majestic Cālukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārīti, who attained kingship by the grace of Kauśikī’s boon, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom enemy territories instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice. His brother Kubja Viṣṇuvardhana protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the country of Veṅgī for eighteen years. His son Jayasiṁha <supplied reason="explanation">I</supplied>, for thirty.<note>This may well be a scribal error for “thirty-three,” found in almost all parallel records. See the apparatus to line 7.</note> His younger brother Indrarāja’s <supplied reason="explanation">Indra Bhaṭṭāraka’s</supplied> son Viṣṇuvardhana <supplied reason="explanation">II</supplied>, for nine. His son Maṅgi Yuvarāja, for twenty-five. His son Jayasiṁha <supplied reason="explanation">II</supplied>, for thirteen. His <supplied reason="subaudible">brother</supplied> of inferior birth, Kokkili, for six months. After dethroning him, his eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen. His son Viṣṇuvardhana <supplied reason="explanation">IV</supplied>, for thirty-six. His son Vijayāditya <supplied reason="explanation">II</supplied> Narendramr̥garāja, for eight and forty. His son Kali-Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Vijayāditya <supplied reason="explanation">III</supplied> with the byname Guṇaga, for forty-four. The son of his younger brother the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied>  Prince <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> Vikramāditya, King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Cālukya-Bhīma, for thirty. His son Kollabigaṇḍa Vijayāditya <supplied reason="explanation">IV</supplied>, for six months. His son Ammarāja <supplied reason="explanation">I</supplied>, for seven years. After dethroning his son the child Vijayāditya <supplied reason="explanation">V</supplied>, Tālapa, for one month.</p>
 <p rend="stanza" n="1">After defeating him in battle, King <supplied reason="explanation"><foreign>bhūmipati</foreign></supplied> Cālukya-Bhīma’s son, King <supplied reason="explanation"><foreign>bhūpa</foreign></supplied> Vikramāditya <supplied reason="explanation">II</supplied>, protected the earth for eleven months.</p>
 <p rend="stanza" n="2">Then, King <supplied reason="explanation"><foreign>rājan</foreign></supplied> Tālapa’s son King <supplied reason="explanation"><foreign>dharādhīśa</foreign></supplied> Yuddhamalla, a lord of kindly speech, protected the land for seven years.</p>
 <p rend="stanza" n="3">
-Having vanquished him and expelled him from the country, and having made <supplied reason="subaudible">other</supplied> haughty rivals <supplied reason="explanation"><foreign>dāyāda</foreign></supplied> resemble clusters of stars vanishing in the rays of the sun, the younger brother of King <supplied reason="explanation"><foreign>nr̥pati</foreign></supplied> Amma <supplied reason="explanation">I</supplied>—Bhīma <supplied reason="explanation">II</supplied> of fearsome <supplied reason="explanation"><foreign>bhīma</foreign></supplied> prowess, who resembled Arjuna—ruled <supplied reason="explanation"><foreign>bhuj-</foreign></supplied> the earth for twelve years, as the Thunderbolt-wielder <supplied reason="explanation">Indra</supplied> <supplied reason="subaudible">rules</supplied> the high heaven.</p>
+Having vanquished him and expelled him from the country, having made <supplied reason="subaudible">other</supplied> haughty rivals <supplied reason="explanation"><foreign>dāyāda</foreign></supplied> resemble clusters of stars vanishing in the rays of the sun, the younger brother of King <supplied reason="explanation"><foreign>nr̥pati</foreign></supplied> Amma <supplied reason="explanation">I</supplied>—Bhīma <supplied reason="explanation">II</supplied> of fearsome <supplied reason="explanation"><foreign>bhīma</foreign></supplied> prowess, who took after Arjuna—ruled <supplied reason="explanation"><foreign>bhuj-</foreign></supplied> the earth for twelve years, as the Thunderbolt-wielder <supplied reason="explanation">Indra</supplied> <supplied reason="subaudible">rules</supplied> the high heaven.</p>
 <p rend="stanza" n="4">
 To him <supplied reason="explanation">Bhīma II</supplied>, who was <supplied reason="subaudible">like</supplied> Maheśvara in form, a <supplied reason="subaudible">son</supplied> named Ammarāja <supplied reason="explanation">II</supplied>, who verily resembled Kumāra, was born from none other than <supplied reason="explanation">his queen</supplied> Lokamahādevī, who was like Umā in appearance.</p>
 <p rend="stanza" n="5">
@@ -336,25 +336,25 @@ The palms of his hands and the soles of his feet are marked with the omens of th
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-17">Prospérité! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, qui orne la dynastie des Cālukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, loués dans l’univers entier, fils de Hārīti, ayant reçu leur royaume par l’excellente faveur de Kauśikī, protégés par les Mères réunies, méditant aux pieds du seigneur Mahāsena, eux dont les cercles ennemis ont été soumis en un instant à la vue du signe de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, eux dont les corps ont été purifiés grâce aux bains consécutifs au sacrifice du cheval, a protégé la contrée de Veṅgī pendant dix huit années.
-Son fils Jayasiṁha pendant trente ans;
-Le fils d’Indrarāja, son frère cadet, Viṣṇuvardhana, pendant neuf ans;
-Le fils de celui-ci, Maṁgi, le prince héritier, pendant vingt-cinq ans;
-Son fils Jayasiṁha pendant treize ans;
-Le frère cadet de ce dernier, Kokkili, pendant six mois;
-Son frère aîné Viṣṇuvardhana, après l’avoir chassé, pendant trente-sept ans;
+<p n="1-17">Prospérité ! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, qui orne la dynastie des Cālukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, loués dans l’univers entier, fils de Hārīti, ayant reçu leur royaume par l’excellente faveur de Kauśikī, protégés par les Mères réunies, méditant aux pieds du seigneur Mahāsena, eux dont les cercles ennemis ont été soumis en un instant à la vue du signe de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, eux dont les corps ont été purifiés grâce aux bains consécutifs au sacrifice du cheval, a protégé la contrée de Veṅgī pendant dix huit années.
+Son fils Jayasiṁha pendant trente ans ;
+Le fils d’Indrarāja, son frère cadet, Viṣṇuvardhana, pendant neuf ans ;
+Le fils de celui-ci, Maṁgi, le prince héritier, pendant vingt-cinq ans ;
+Son fils Jayasiṁha pendant treize ans ;
+Le frère cadet de ce dernier, Kokkili, pendant six mois ;
+Son frère aîné Viṣṇuvardhana, après l’avoir chassé, pendant trente-sept ans ;
 Face IIa.
-Le fils de celui-ci, Vijayāditya, l’illustre seigneur, pendant dix-huit ans;
-Son fils Viṣṇuvardhana pendant trente-six ans;
-Son fils, le roi Vijayāditya Mr̥garāja pendant quarante-huit ans;
-Le fils de ce dernier, Kali Viṣṇuvardhana, pendant un an et demi;
-Son fils Guṇagāṁka Vijayāditya pendant quarante-quatre ans;
-Le fils du roi Vikramāditya, prince héritier, frère cadet de ce dernier,<note>de Guṇagāṁka</note> le roi Cālukya Bhīma pendant trente ans;
-Son fils Kollabhigaṇḍa Vijayāditya pendant six mois;
-Le fils de celui-ci, Ammarāja, pendant sept ans;
-Après avoir chassé son fils Vijayāditya, alors qu’il était enfant, Tālapa a protégé la terre pendant un mois;</p>
-<p rend="stanza" n="1">Après avoir vaincu ce dernier au combat, le fils du roi Cālukya Bhīma, le roi Vikramāditya a protégé la terre pendant onze mois;</p>
-<p rend="stanza" n="2">Ensuite le seigneur à la parole sincère, fils du roi Tālapa, le roi Yuddhamalla a protégé la terre pendant sept ans;</p>
+Le fils de celui-ci, Vijayāditya, l’illustre seigneur, pendant dix-huit ans ;
+Son fils Viṣṇuvardhana pendant trente-six ans ;
+Son fils, le roi Vijayāditya Mr̥garāja pendant quarante-huit ans ;
+Le fils de ce dernier, Kali Viṣṇuvardhana, pendant un an et demi ;
+Son fils Guṇagāṁka Vijayāditya pendant quarante-quatre ans ;
+Le fils du roi Vikramāditya, prince héritier, frère cadet de ce dernier,<note>de Guṇagāṁka</note> le roi Cālukya Bhīma pendant trente ans ;
+Son fils Kollabhigaṇḍa Vijayāditya pendant six mois ;
+Le fils de celui-ci, Ammarāja, pendant sept ans ;
+Après avoir chassé son fils Vijayāditya, alors qu’il était enfant, Tālapa a protégé la terre pendant un mois ;</p>
+<p rend="stanza" n="1">Après avoir vaincu ce dernier au combat, le fils du roi Cālukya Bhīma, le roi Vikramāditya a protégé la terre pendant onze mois ;</p>
+<p rend="stanza" n="2">Ensuite le seigneur à la parole sincère, fils du roi Tālapa, le roi Yuddhamalla a protégé la terre pendant sept ans ;</p>
 <p rend="stanza" n="3">après avoir vaincu et repoussé au combat ce dernier hors du royaume, pareil à Arjuna, ayant réduit les autres prétendants pleins d’orgueil à l’état de constellations noyées dans les rayons du soleil,
 comme le détenteur du Vajra sur le firmament puissant, le frère cadet d’Ammarāja, Bhīma, qui a la vaillance de Bhīma, a régné sur la terre pendant douze ans,</p>
 <p rend="stanza" n="4">de ce dernier, manifestation de Maheśvara, et de Lokamahādevī, dont l’aspect était semblable à celui d’Umā, pareil à Kumāra, naquit le nommé Ammarāja.</p>
@@ -375,8 +375,8 @@ il a revêtu la couronne par affection passionnée pour l’univers comme le sol
 Le pays est toujours pourvu de vaches à lait, exempt de crainte, de calamité, de maladie, les voleurs en sont chassés.</p>
 <p rend="stanza" n="11">Humiliant par sa beauté Manoja,<note>Kāma.</note> par sa puissance le grand Indra, le soleil par son vaste éclat,
 et Hara par le fait de brûler les forteresses ennemies, il resplendit, sa gloire répandue aux quatre points cardinaux et sur la terre.</p>
-<p n="38-41">Celui-ci, refuge de l’univers entier, l’illustre Vijayāditya, souverain suprême des grands rois, premier seigneur, illustre seigneur, très pieux, ayant convoqué tous les chefs de familles de la circonscription de Pennātavāḍi, les <foreign>raṣṭrakūṭa</foreign> en tête, ordonne ceci:</p>
-<p n="41">qu’il soit connu de vous que:</p>
+<p n="38-41">Celui-ci, refuge de l’univers entier, l’illustre Vijayāditya, souverain suprême des grands rois, premier seigneur, illustre seigneur, très pieux, ayant convoqué tous les chefs de familles de la circonscription de Pennātavāḍi, les <foreign>raṣṭrakūṭa</foreign> en tête, ordonne ceci :</p>
+<p n="41">qu’il soit connu de vous que :</p>
 <p rend="stanza" n="12">Dans le monde l’école des brahmanes de Vājasaneya<note>Maître de Yājñavalkya</note> est très reconnue,
 pratiquant le <foreign>dharma</foreign> inspiré par la Révélation,<note>Śruti, science révélée.</note> ayant pour rituel domestique celui de Yajñavalkya,<note>Maître du Yajurveda Blanc,il s’agit ici de ses Gr̥hyasūtra.</note> seigneur des excellents ascètes.</p>
 <p rend="stanza" n="13">Là était un homme du <foreign>gotra</foreign> de Bharadvāja,<note><foreign>r̥ṣi</foreign> auteur d’un <foreign>sūtra</foreign></note> d’une grande qualité, le meilleur des brahmanes,
@@ -384,18 +384,19 @@ qui habitait à Kalvatoṟṟu, du nom de Pāliyapeddiya.</p>
 <p rend="stanza" n="14">Son fils est Guṇḍaśarman, seigneur parfait, Doué de qualités, de compassion, de richesse, généreux, respecté et honoré par les hommes.</p>
 <p rend="stanza" n="15">Son fils portait le nom de Paṇḍiya, il doit être donné comme exemple aux gens de bien, son apparence était objet de louanges. Ce fils dont l’esprit est intrépide possède les trois moyens de purification,<note>C’est à dire les trois Veda.</note> il est adonné à une réflexion sur une bonne conduite.</p>
 <p n="48-52">Nous donnons à celui-ci, tout dévoué à rendre hommage à mes pieds, à cet homme chaste,<note>Il est étudiant brahmanique, il n’a pas encore le statut de maître de maison.</note> ascète pélerin, personne de distinction, le village nommé Paḍaṁkalūru, en qualité d’<foreign>agrahāra</foreign>, exempté de toute taxe, dans votre circonscription, à l’occasion d’une éclipse de lune, avec l’intention de l’affranchir de ses pélerinages.<note>Il aura désormais, gâce à la donation, un moyen de subsistance stable.</note></p>
-<p n="52-57">Les limites de celui-ci sont:
+<p n="52-57">Les limites de celui-ci sont :
 à l’est Maṟupaḍuva, la limite de ce village est la limite de la donation,
-au sud Eṇḍalūru, la limite de ce village est la limite de la donation ,
-à l’ouest Kāndrūru, la limite de ce village est la limite de la donation ,
+au sud Eṇḍalūru, la limite de ce village est la limite de la donation,
+à l’ouest Kāndrūru, la limite de ce village est la limite de la donation,
 au nord Alapūru et Dr̥iṇṭhamapūṇḍi,
-au nord-est Nandigāma, la limite de ce village est la limite de la donation. Aucune charge ne doit lui être imposée, celui qui en impose est lié aux cinq grands crimes.
-Le bienheureux Vyāsa a dit ceci:</p>
+au nord-est Nandigāma, la limite de ce village est la limite de la donation.
+Aucune charge ne doit lui être imposée, celui qui en impose est lié aux cinq grands crimes.
+Le bienheureux Vyāsa a dit ceci :</p>
 <p rend="stanza" n="16">beaucoup ont donné une terre, beaucoup l’ont protégée,
 celui qui possède une terre en possède le fruit.</p>
 <p rend="stanza" n="17">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre
 renaît ver de terre dans des excréments pendant soixante mille ans.</p>
-<p n="61">Un autre aussi dit:</p>
+<p n="61">Un autre aussi dit :</p>
 <p rend="stanza" n="18">Le don d’une terre et sa protection, l’une et l’autre de ces actions sont dites procurer du mérite religieux, ici chacun donne avec plaisir, c’est pourquoi la conservation d’une donation est plus grande que la donation.</p>
 <p n="63-64">L’exécuteur est le <foreign>kaṭakarāja</foreign>. Le poème est de Mādhavabhaṭṭa. Il a été gravé par Jontācārya.</p>
   
@@ -412,7 +413,7 @@ renaît ver de terre dans des excréments pendant soixante mille ans.</p>
 
 
 <div type="bibliography">
-  <p>Inked impressions of the first two pages were published prior to edition by Burnell (<bibl rend="omitname"><ptr target="bib:Burnell1878_01"/><citedRange unit="plate">27</citedRange></bibl>; not Plate 25 as cited by Fleet). Edited from the original and estampages by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1878_07"/></bibl>), with estampages and translation. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">50</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">22</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet’s edition with his rubbings and with and with inked rubbings in Sir Walter Elliot’s collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the the British Museum, item number BM 1969,0401,0.18a. These do not include an image of the seal, for which I rely on the excellent image (a drawing?) published by Fleet.</note>.
+  <p>Inked impressions of the first two pages were published prior to edition by Burnell (<bibl rend="omitname"><ptr target="bib:Burnell1878_01"/><citedRange unit="plate">27</citedRange></bibl>; not Plate 25 as cited by Fleet). Edited from the original and estampages by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1878_07"/></bibl>), with estampages and translation. Subsequently noticed in <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">50</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">22</citedRange></bibl>. The present edition by Dániel Balogh is based on a collation of Fleet’s edition with his rubbings and with and with inked rubbings in Sir Walter Elliot’s collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the the British Museum, item number BM 1969,0401,0.18a. These do not include an image of the seal, for which I rely on the excellent image (a drawing?) published by Fleet.</note>.
 
 
 </p>
@@ -423,6 +424,7 @@ renaît ver de terre dans des excréments pendant soixante mille ans.</p>
   <listBibl type="secondary">
     <bibl><ptr target="bib:Burnell1878_01"/><citedRange unit="plate">27</citedRange></bibl>
     <bibl><ptr target="bib:ARIE1962-1963"/><citedRange unit="page">50</citedRange><citedRange unit="appendix">A/1962-63</citedRange><citedRange unit="item">22</citedRange></bibl>
+    <bibl><ptr target="bib:Gaur1975_01"/><citedRange unit="page">5-6</citedRange><citedRange unit="item">Ind. Ch. 8</citedRange></bibl>
   </listBibl>
 </div>
 

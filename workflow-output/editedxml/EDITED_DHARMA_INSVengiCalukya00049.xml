@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -291,8 +291,8 @@
 <l n="d">-saujanya-rat<unclear reason="eccentric_ductus">n</unclear>ākara-nāmadheyaḥ<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="34" met="vasantatilakā">
-<l n="a">saptāṁgake nṛ<lb n="83" break="no"/>pa-pade prabhutā pradhānā</l>
-<l n="b">tādṛśy amātya-padavī khalu tad-<supplied reason="omitted">d</supplied>vitīy<choice><sic>a</sic><corr>ā</corr></choice><g type="dandaSerif">.</g></l>
+<l n="a">saptāṁgake nr̥<lb n="83" break="no"/>pa-pade prabhutā pradhānā</l>
+<l n="b">tādr̥śy amātya-padavī khalu tad-<supplied reason="omitted">d</supplied>vitīy<choice><sic>a</sic><corr>ā</corr></choice><g type="dandaSerif">.</g></l>
 <l n="c">śrīdvāra-piṁc<choice><sic>c</sic><corr>ch</corr></choice>a-karakātapa-vāraṇādis</l>
 <l n="d">tasyāṁ vi<lb n="84" break="no"/>śeṣa-mahimā mad alābhi yena<g type="dandaSerif">.</g></l>
 </lg>
@@ -308,7 +308,7 @@
 </lg>
 <lg n="36" met="anuṣṭubh">
 <l n="a"><unclear>sva</unclear>dattāṁ pa<unclear>ra-dattāṁ</unclear> v<choice><sic>a</sic><corr>ā</corr></choice></l>
-<l n="b">yo haretu! a vasundharāṁ</l>
+<l n="b">yo haretu!a vasundharāṁ</l>
 <l n="c">ṣaṣṭiṁ varṣ<choice><sic>ā</sic><corr>a</corr></choice>-saha<unclear>sr</unclear><choice><sic>a</sic><corr>ā</corr></choice><unclear>ṇi</unclear></l>
 <l n="d"><unclear>viṣṭhāyāṁ j</unclear><choice><sic><unclear>a</unclear></sic><corr>ā</corr></choice>yate kr<choice><orig>ri</orig><reg>r̥</reg></choice><pb n="5v" break="no"/><lb n="97" break="no"/>miḥ<g type="dandaSerif">.</g></l>
 </lg>
@@ -326,10 +326,12 @@
         
 <div type="apparatus">
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
    <listApp>
      <app loc="8">
        <lem>avic<choice><sic>c</sic><corr>ch</corr></choice>innaṁ <orig>nn</orig>ikhāya</lem>
-       <note>Consonants are frequently doubled after <foreign>anusvāra</foreign> in this inscription and the text thus needs no emendation. It is, however, possible that the composer’s intent was <foreign>avicchinnān nikhāya</foreign>, as found in the Kolāṟu grant of Vīra-Coḍa (<bibl><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">49-62</citedRange><citedRange unit="item">39</citedRange></bibl>, line 8). Line 10 of the Korumelli grant of Rājarāja II (<bibl><ptr target="bib:Fleet1885_01"/></bibl>), reads <foreign>avichchinnan nikhāya</foreign>, which Fleet emends to <foreign>avicchinnān nikhāya</foreign>.</note>
+       <note>Consonants are frequently doubled after <foreign>anusvāra</foreign> in this inscription and the text thus needs no emendation. It is, however, possible that the composer’s intent was <foreign>avicchinnān nikhāya</foreign>, as found in the Kolāṟu grant of Vīra-Coḍa (<bibl><ptr target="bib:Hultzsch1890_01"/><citedRange unit="page">49-62</citedRange><citedRange unit="item">39</citedRange></bibl>, line 8). Line 10 of the Korumelli grant of Rājarāja II (<bibl><ptr target="bib:Fleet1885_01"/></bibl>), reads <foreign>avichchinnan nikhāya</foreign>, which Fleet emends to <foreign>avicchinnān nikhāya</foreign>.</note>
      </app>
      <app loc="9">
        <lem>tathāśvamedh<unclear>ā</unclear>n</lem>
@@ -418,7 +420,7 @@
     </app>
     <app loc="45">
       <lem>-asir <choice><sic>ā</sic><corr>a</corr></choice>dhyāsita-</lem>
-      <note>An <foreign>akṣara</foreign> may have been omitted by the engraver after -<foreign>asirā°</foreign>. If so, then <foreign>rā</foreign> may be correct rather than erroneous for <foreign>ra</foreign>. Assuming an omitted long syllable here (e.g. <foreign>-asir agrādhyāsita</foreign> or <foreign>-asir ātmādhyāsita</foreign>) would restore the stanza to a metrically correct <foreign>āryāgīti</foreign>, which is the metre of both the preceding and the following stanza. It is also possible that two morae (a long syllable or two short ones) were omitted after <foreign>ādhyāsita</foreign>, but it is harder to think of a plausible restoration there. One or the other of these loci thus probably involves an omission, unless the spelling <foreign>śrīyo</foreign> is deliberate and used in conjunction with poetic licence by which the <foreign>a</foreign> preceding this word is scanned as a short syllable. In this latter case the stanza would be a <foreign>vallarī</foreign>.</note>
+      <note>An <foreign>akṣara</foreign> may have been omitted by the engraver after -<foreign>asirā°</foreign>. If so, then <foreign>rā</foreign> may be correct rather than erroneous for <foreign>ra</foreign>. Assuming an omitted long syllable here (e.g. <foreign>-asir agrādhyāsita</foreign> or <foreign>-asir ātmādhyāsita</foreign>) would restore the stanza to a metrically correct <foreign>āryāgīti</foreign>, which is the metre of both the preceding and the following stanza. It is also possible that two morae (a long syllable or two short ones) were omitted after <foreign>ādhyāsita</foreign>, but it is harder to think of a plausible restoration there. One or the other of these loci thus probably involves an omission, unless the spelling <foreign>śrīyo</foreign> is deliberate and used in conjunction with poetic licence by which the <foreign>a</foreign> preceding this word is scanned as a short syllable. In this latter case the stanza would be a <foreign>vallarī</foreign>.</note>
     </app>
     <app loc="45">
       <lem>-śr<choice><sic>ī</sic><corr>i</corr></choice>yo</lem>
@@ -447,7 +449,7 @@
     <app loc="64">
       <lem>mahat</lem>
       <rdg source="bib:Venkayya1900-1901_01"><choice><sic>n</sic><corr>m</corr></choice>ahat</rdg>
-      <note>The subscript component looks different from the typical subscript <foreign>m</foreign>, found e.g. in <foreign>tasmāl</foreign> later in this line, yet it does not look like an <foreign>n</foreign>, and is identical to the subscript <foreign>m</foreign> (also read as <foreign>m</foreign> by VV) in <foreign>hmā</foreign> earlier in this line.</note>
+      <note>The subscript component looks different from the typical subscript <foreign>m</foreign>, found e.g. in <foreign>tasmāl</foreign> later in this line, yet it does not look like an <foreign>n</foreign>, and is identical to the subscript <foreign>m</foreign> (also read as <foreign>m</foreign> by VV) in <foreign>hmā</foreign> earlier in this line.</note>
     </app>
     <app loc="67">
       <lem>-<unclear>vr̥</unclear>tta<supplied reason="omitted">ḥ</supplied> stutya-ya<seg met="+-+--"><gap reason="omitted" quantity="5" unit="character"/></seg>-matir</lem>
@@ -518,7 +520,7 @@
     <app loc="92">
       <lem>tāṁkaḻapolamu nāma <sic>llaṁghana</sic>-</lem>
       <rdg source="bib:Venkayya1900-1901_01"><foreign xml:lang="tel-Latn">tāṁkaḻapolamun</foreign> <sic>āmallaṁghana</sic>-</rdg>
-      <note>VV apparently interprets <foreign xml:lang="tel-Latn">tāṁkaḻapolamun</foreign> as a Telugu locative. See also the note to the translation. It seems more likely to me that we have the Sanskrit word <foreign>nāma</foreign> here, although I cannot interpret the word <foreign>llaṁghana</foreign>. It may need emendation to <foreign>nāmollaṁghana-</foreign>, but the meaning of this is still not clear (perhaps a non-contiguous field that is nonetheless part of the donation?). A more drastic emendation may be <foreign>lāṁgala</foreign>, which seems to make sense intuitively (a ploughfield), but the compound <foreign>lāṁgala-kṣetra</foreign> is not attested.</note>
+      <note>VV apparently interprets <foreign xml:lang="tel-Latn">tāṁkaḻapolamun</foreign> as a Telugu locative. See also the note to the translation. It seems more likely to me that we have the Sanskrit word <foreign>nāma</foreign> here, although I cannot interpret the word <foreign>llaṁghana</foreign>. It may need emendation to <foreign>nāmollaṁghana-</foreign>, but the meaning of this is still not clear (perhaps a non-contiguous field that is nonetheless part of the donation?). A more drastic emendation may be <foreign>lāṁgala</foreign>, which seems to make sense intuitively (a ploughfield), but the compound <foreign>lāṁgala-kṣetra</foreign> is not attested.</note>
     </app>
      
      
@@ -589,9 +591,8 @@ The son of this abode of honourable virtue and of the faithful Cīḍamambā is 
 <p n="94-95">Let no-one pose an obstacle <supplied reason="explanation">to the enjoyment of rights</supplied> over it. He who does so shall have the five great sins. So too has the reverend master Vyāsa spoken:</p>
 <p rend="stanza" n="35">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
 <p rend="stanza" n="36">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
-<p n="97">Of this decree issued in the course of the eight <supplied reason="explanation">regnal</supplied> year in the month Siṁha, the lord of Brahmins, with the title “His Honour the Commander of Law Enforcement <supplied reason="explanation"><foreign>daṇḍanāyaka</foreign></supplied>”—</p>
-<p rend="stanza" n="37"><supplied reason="explanation">namely</supplied> Nr̥pakāma Bhīmana Bhaṭṭa, the son of Rāciya Pedderi—is the executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied>.
-The author of these verses as well as the writer <supplied reason="explanation"><foreign>lekhaka</foreign></supplied> of the decree is Jontācārya.<note>I agree with VV that the prose in line 97 must be read in integral connection to the last stanza. The phrasing is, however, very awkward and it may be that the person mentioned in the prose is not identical to Nr̥pakāma. Nr̥pakāma in turn may or may not be same person as Bhīmana Bhaṭṭa, and it is not clear whether Nr̥pakāma is a title or a proper name. He is certainly different from the Nr̥pakāma mentioned in the <ref target="DHARMA_INSVengiCalukya00030.xml">Ārumbāka grant of Bādapa</ref>, who was already old when that grant was issued. Bhīmana Bhaṭṭa, the son of Rāciya Pedderi is also the executor of the <ref target="DHARMA_INSVengiCalukya00078.xml">Korumelli</ref> and <ref target="DHARMA_INSVengiCalukya00079.xml">Kalidiṇḍi</ref> grants of Rājarāja I, where his title is <foreign>kaṭakeśa</foreign> and the name or title Nr̥pakāma does not appear. Perhaps Nr̥pakāma is the Commander of Law Enforcement (emend to <foreign>dvijo’dhināyakaḥ</foreign> in line 97?) and different from the executor Bhīmana Bhaṭṭa.</note>
+<p n="97">Of this decree issued in the course of the eighth <supplied reason="explanation">regnal</supplied> year in the month Siṁha, <supplied reason="subaudible" cert="low">the recipient is</supplied> the lord of Brahmins, with the title “His Honour the Commander of Law Enforcement <supplied reason="explanation"><foreign>daṇḍanāyaka</foreign></supplied>”.</p>
+<p rend="stanza" n="37">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is Nr̥pakāma; Bhīmana Bhaṭṭa, the son of Rāciya Pedderi is the author of these verses; and the writer <supplied reason="explanation"><foreign>lekhaka</foreign></supplied> of the decree is Jontācārya.<note>VV reads the prose in line 97 with this stanza, taking the prose to be a description of Nr̥pakāma. This is possible, but it seems more likely to me that the prose passage is yet another description of Minister Vajra. Nr̥pakāma is certainly different from the Nr̥pakāma mentioned in the <ref target="DHARMA_INSVengiCalukya00030.xml">Ārumbāka grant of Bādapa</ref>, who was already old when that grant was issued. Bhīmana Bhaṭṭa, the son of Rāciya Pedderi is also the executor of the <ref target="DHARMA_INSVengiCalukya00078.xml">Korumelli</ref> and <ref target="DHARMA_INSVengiCalukya00079.xml">Kalidiṇḍi</ref> grants of Rājarāja I, where his title is <foreign>kaṭakeśa</foreign> and the name or title Nr̥pakāma does not appear. Nonetheless, the Nr̥pakāma mentioned here as executor may be the same person as Bhīmana Bhaṭṭa, in which case Jontācārya was both the composer and the writer. Finally, Jontācārya in turn is probably, but not certainly, different from the Jontācārya who was the writer of several grants of Amma II.</note>
 </p>
   </div>  
 </div>

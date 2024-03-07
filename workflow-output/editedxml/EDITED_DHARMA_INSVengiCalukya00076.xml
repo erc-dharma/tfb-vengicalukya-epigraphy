@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -90,6 +90,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:daba" when="2023-11-08" status="draft">Revision through collation with new photographs</change>
          <change who="part:daba" when="2021-11-10" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
@@ -98,46 +99,46 @@
       <body>
       
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
-<p part="F"><pb n="2r"/><lb n="1"/>siṁhas trayodaśa<g type="dandaSerif">.</g> tad-avarajaḥ kok<unclear>k</unclear>ili<unclear>ḥ</unclear> ṣaṇ mā<unclear>sāN<g type="dandaSerif">.</g> tasya</unclear> jy<unclear>e</unclear>ṣṭho bhrātā <unclear>vi</unclear>ṣṇu<unclear>va</unclear><lb n="2" break="no"/><unclear>rddhanas tam u</unclear>ccāṭya saptatriṁśataM<g type="dandaSerif">.</g> tat-putro vijayāditya bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g type="dandaSerif">.</g> tat-<unclear>su</unclear><lb n="3" break="no"/>to viṣṇu<unclear>varddha</unclear>naṣ ṣaṭtriṁśataM<g type="dandaSerif">.</g> tat-sūnur nnarendra-mr̥garā<unclear>jo</unclear> <supplied reason="subaudible">’</supplied>ṣṭacatvā<unclear>riṁśa</unclear>taM<g type="dandaSerif">.</g> tat-putra<unclear>ḥ</unclear> <lb n="4"/><unclear>kali</unclear>-vi<unclear>ṣṇuva</unclear><space type="binding-hole"/>rddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM<g type="dandaSerif">.</g> tat-suto gu<unclear>ṇakaina</unclear>lla-vijayādityaś catu<lb n="5" break="no"/><unclear>ścatvāriṁśa</unclear><space type="binding-hole"/>taM<g type="dandaSerif">.</g></p>
+<p part="F"><pb n="2r"/><lb n="1"/>siṁhas trayodaśa<g type="dandaSerif">.</g> tad-avarajaḥ kokkili<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN<g type="dandaSerif">.</g> tasya jyeṣṭho bhrātā viṣṇuva<lb n="2" break="no"/><unclear>rddhana</unclear>s tam uccāṭya saptatriṁśataM<g type="dandaSerif">.</g> tat-putro vijayāditya bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g type="dandaSerif">.</g> tat-su<lb n="3" break="no"/>t<unclear>o</unclear> viṣṇ<unclear>u</unclear>va<unclear>r</unclear>d<unclear>dh</unclear>a<unclear>naṣ ṣa</unclear>ṭtriṁśataM<g type="dandaSerif">.</g> tat-sūnur <choice><orig>ṇ</orig><reg>n</reg></choice>narendra-mr̥garājo <supplied reason="subaudible">’</supplied>ṣṭacatvāriṁśataM<g type="dandaSerif">.</g> tat-putraḥ <lb n="4"/><unclear>kali-vi</unclear>ṣ<unclear>ṇu</unclear>va<space type="binding-hole"/>rddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM<g type="dandaSerif">.</g> tat-suto guṇakkenalla-vijayādityaś catu<lb n="5" break="no"/><unclear>ścatvā</unclear>riṁśa<space type="binding-hole"/>taM<g type="dandaSerif">.</g></p>
 <lg n="1" met="anuṣṭubh">
 <l n="a" enjamb="yes">tad-bhrātur vvikramāditya</l>
-<l n="b">-bhūpates sa<unclear>c-cam</unclear><choice><sic><unclear>u</unclear></sic><corr><unclear>ū</unclear></corr></choice>pa<unclear>teḥ</unclear></l>
-<l n="c" enjamb="yes">vilasa<lb n="6" break="no"/><unclear>t-kaṇṭhikā</unclear>-dāma</l>
+<l n="b">-bhūpates sa<subst><del rend="corrected">mu</del><add place="overstrike">c-ca</add></subst>m<choice><sic>u</sic><corr><unclear>ū</unclear></corr></choice>pa<unclear>teḥ</unclear></l>
+<l n="c" enjamb="yes">vilasa<lb n="6" break="no"/>t-<unclear>kaṇṭhi</unclear>kā-dāma</l>
 <l n="d">-kaṇṭhasya tanayo nayī<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="2" met="sragdharā">
-<l n="a">dīnānāthāturāṇāṁ dvija-vara-sa<unclear>mi</unclear>t<unclear>e</unclear>r yy<unclear>ā</unclear><lb n="7" break="no"/><unclear>cakānāṁ</unclear> yatīnān</l>
+<l n="a">dīnānāthāturāṇāṁ dvija-vara-samiter yy<unclear>ā</unclear><lb n="7" break="no"/>cakānāṁ yatīnān</l>
 <l n="b">nānā-deśāgatānāṁ paṭu-vaṭu-naṭa-sad-gāyakānāṁ kavīnāM</l>
-<l n="c">ba<lb n="8" break="no"/><unclear>ndhūnā</unclear>m andhakānām abhilaṣita-phala-śrāṇanād rakṣaṇād y<unclear>o</unclear></l>
-<l n="d">māt<unclear>e</unclear>va tri<unclear>ṁśad ab</unclear>d<unclear>ān</unclear> bhu<pb n="2v" break="no"/><lb n="9" break="no"/><unclear>vam a</unclear>bhunag asau cār<unclear>u-cālukya-bhīmaḥ</unclear><g type="dandaSerif">.</g></l>
+<l n="c">ba<lb n="8" break="no"/>ndhūnām andhakānām abhilaṣita-phala-śrāṇanād rakṣaṇād yo</l>
+<l n="d">māteva triṁśad abdān bhu<pb n="2v" break="no"/><lb n="9" break="no"/><unclear>vam a</unclear>bhunag asau cāru-cā<unclear>lukya-bhīmaḥ<g type="ddandaSerif">.</g></unclear></l>
 </lg>
 <lg n="3" met="śārdūlavikrīḍita">
-<l n="a">ta<unclear>t-pu</unclear>t<unclear>r</unclear>aḥ s<unclear>v</unclear>a-bhu<unclear>jā</unclear>si-khaṇḍita-ripu-kṣm<unclear>ābhr̥</unclear><lb n="10" break="no"/><unclear>d balād vā</unclear>savīṁ</l>
-<l n="b">j<unclear>i</unclear>tvāśā<unclear>ṁ viraje</unclear> <unclear cert="low">pratiṣṭhita-jaya-staṁ</unclear><unclear>bhaḥ</unclear> p<supplied reason="omitted">r</supplied>a<unclear cert="low">th</unclear>i<unclear>ṣṭh</unclear>e ra<unclear>ṇe</unclear></l>
-<l n="c"><unclear>sva</unclear>rṇṇārū<choice><sic>d</sic><corr>ḍh</corr></choice>a-<unclear>tu</unclear><lb n="11" break="no"/><unclear>lo</unclear> <supplied reason="subaudible">’</supplied><unclear>tra</unclear> <unclear cert="low">bāḍha</unclear>m atulo <unclear cert="low">dhā</unclear>tr<unclear>ī-ta</unclear>l<unclear>e</unclear> kṣatriyai<unclear>r</unclear></l>
-<l n="d">mmitrā<unclear>bhaḫ pa</unclear>rirakṣati sma <unclear>vi</unclear>jayādi<lb n="12" break="no"/><unclear>tyas sa</unclear>mārddha<space type="binding-hole"/>n dharā<choice><sic>N</sic><corr>M</corr></choice><g type="dandaSerif">.</g></l>
+<l n="a">ta<unclear>t-pu</unclear>traḥ sva-bhujāsi-khaṇḍita-ripu-kṣm<unclear>ābh</unclear>r̥<lb n="10" break="no"/><unclear>d b</unclear><choice><sic><unclear cert="low">ā</unclear></sic><corr>a</corr></choice><unclear>lād vā</unclear>savīṁ</l>
+<l n="b">jitvāśā<unclear>ṁ viraje</unclear> <unclear>pratiṣṭhita-</unclear><supplied reason="lost">ja</supplied>ya-s<unclear>taṁ</unclear>bhaḥ paṭiṣṭho raṇe</l>
+<l n="c">svarṇṇārū<choice><unclear>ḍh</unclear><unclear>ḍ</unclear></choice>a-tu<lb n="11" break="no"/><unclear>lo</unclear> <supplied reason="subaudible">’</supplied><unclear>tra bā</unclear><choice><sic>d</sic><corr>ḍh</corr></choice>am atulo <unclear cert="low">dhā</unclear>tr<unclear>ī-tale</unclear> kṣatriyai<supplied reason="omitted">r</supplied></l>
+<l n="d">mmitrā<unclear>bha</unclear>ḫ parirakṣati sma vijayādi<lb n="12" break="no"/><unclear>tyas sa</unclear>mārd<unclear>dh</unclear>a<space type="binding-hole"/>n dharā<choice><sic>N</sic><corr>M</corr></choice><g type="dandaSerif">.</g></l>
 </lg>
 <lg n="4" met="vasantatilakā">
-<l n="a" enjamb="yes">tasyātma<unclear>jaḫ p</unclear>raṇata-vairi-śiro-vila<unclear>gna</unclear></l>
-<l n="b">-ratna-dvirepha-paric<unclear>u</unclear><lb n="13" break="no"/><unclear>mbita-pāda</unclear>-pa<space type="binding-hole"/>dmaḥ</l>
-<l n="c"><unclear>meruṁ</unclear> hasa<unclear>ṁs tulita-hāṭaka-rā</unclear>śi-<unclear>bhāsā</unclear></l>
-<l n="d"><unclear>varṣā</unclear>ṇi sapta sama<lb n="14" break="no"/><unclear>pād bhuva</unclear><supplied reason="omitted">m a</supplied>mmarā<unclear>jaḥ<g type="dandaSerif">.</g></unclear></l>
+<l n="a" enjamb="yes">tasyātmajaḫ praṇata-vairi-śiro-vilagna</l>
+<l n="b">-ratna-dvirepha-paricu<lb n="13" break="no"/><supplied reason="lost">mbi</supplied><unclear>ta-pāda</unclear>-pa<space type="binding-hole"/>dmaḥ</l>
+<l n="c">meruṁ hasaṁs tulita-hāṭaka-rāśi-bhāsā</l>
+<l n="d">varṣāṇi sapta sama<lb n="14" break="no"/><unclear>pād bhuva</unclear><supplied reason="omitted">m a</supplied>mmarā<unclear>jaḥ<g type="dandaSerif">.</g></unclear></l>
 </lg>
 <lg n="5" met="anuṣṭubh">
-<l n="a">tat-sutaṁ vi<unclear>ja</unclear>yā<unclear>dityaṁ</unclear></l>
-<l n="b"><unclear>bālam u</unclear>ccāṭya l<unclear>ī</unclear>layā<unclear><g type="dandaSerif">.</g></unclear></l>
-<l n="c">t<unclear>ālā</unclear>dhipati<unclear>r ā</unclear><lb n="15" break="no"/><unclear>kramya</unclear></l>
-<l n="d"><unclear>māsa</unclear>m e<unclear>kam apād bhuvaM<g type="dandaSerif">.</g></unclear></l>
+<l n="a">tat-suta<supplied reason="omitted">ṁ</supplied> vijayā<subst><del><unclear cert="low">tyaṁbā</unclear></del><add place="overstrike">dityaṁ</add></subst></l>
+<l n="b">bālam uccāṭya līlayā<g type="dandaSerif">.</g></l>
+<l n="c">tālādhipatir ā<lb n="15" break="no"/>kra<unclear>m</unclear>ya</l>
+<l n="d">māsam ekam apād bhuvaM<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="6" met="anuṣṭubh">
-<l n="a" enjamb="yes"><unclear>taṁ jit</unclear>v<unclear>ā yudhi</unclear> cāl<unclear>ukya</unclear></l>
-<l n="b">-bhīma-bhūmipa<unclear>te</unclear>s su<unclear>taḥ</unclear></l>
-<l n="c"><unclear>vi</unclear><lb n="16" break="no"/><unclear>kramā</unclear>ditya-bhūpo <supplied reason="subaudible">’</supplied>pān</l>
-<l n="d">māsā<unclear>n e</unclear>kādaśa <unclear>kṣ</unclear>iti<unclear>M<g type="dandaSerif">.</g></unclear></l>
+<l n="a" enjamb="yes"><unclear>taṁ jit</unclear>v<unclear>ā</unclear> yudhi cālukya</l>
+<l n="b">-bhīma-bhūmipates sutaḥ</l>
+<l n="c">vi<lb n="16" break="no"/><unclear>kramā</unclear>ditya-bhūpo <supplied reason="subaudible">’</supplied>pān</l>
+<l n="d">māsān ekādaśa kṣitiM<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="7" met="anuṣṭubh" part="I">
-<l n="a"><unclear>tata</unclear><unclear cert="low">stu</unclear>t a<unclear cert="low">mma bh</unclear>īm<unclear>ākh</unclear>ya<unclear cert="low">ḥ</unclear></l>
-<l n="b" part="I"><unclear>ha</unclear><unclear cert="low">tva pro</unclear></l>
+<l n="a">tatas tu tammu-<subst><del><unclear cert="low">rājā</unclear></del><add place="overstrike"><unclear>bh</unclear>īm<unclear>ā</unclear></add></subst>khya<add place="inline"><unclear>ḥ</unclear></add></l>
+<l n="b" part="I">hatvā pro</l>
 </lg>
 </div>
         
@@ -147,8 +148,17 @@
 <div type="apparatus">
 
     <listApp>
+      <app loc="1">
+        <lem>kokkili<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:SubbaRao1945-1946_01">kokili</rdg>
+      </app>
+      <app loc="4">
+        <lem>guṇakkenalla-</lem>
+        <rdg source="bib:SubbaRao1945-1946_01">guṇakainalla-</rdg>
+        <note>The <foreign>e</foreign> marker is attached at the bottom left of the (clearly double) <foreign>kk</foreign>. Above the character, there is only the descender of <foreign>ṣṭa</foreign>, but no vowel marker.</note>
+      </app>
       <app loc="5">
-        <lem>sa<unclear>c-cam</unclear><choice><sic><unclear>u</unclear></sic><corr><unclear>ū</unclear></corr></choice>pa<unclear>teḥ</unclear></lem>
+        <lem>sa<subst><del rend="corrected">mu</del><add place="overstrike">c-ca</add></subst>m<choice><sic>u</sic><corr><unclear>ū</unclear></corr></choice>pa<unclear>teḥ</unclear></lem>
         <rdg source="bib:SubbaRao1945-1946_01">samramupateḥ</rdg>
       </app>
       <app loc="6">
@@ -160,27 +170,27 @@
         <rdg source="bib:SubbaRao1945-1946_01">naye</rdg>
       </app>
       <app loc="7">
-        <lem>ba<lb n="8" break="no"/><unclear>ndhūnā</unclear>m</lem>
+        <lem>ba<lb n="8" break="no"/>ndhūnām</lem>
         <rdg source="bib:SubbaRao1945-1946_01">pa<lb n="8" break="no"/>nthvānām</rdg>
       </app>
       <app loc="9">
-        <lem>-kṣm<unclear>ābhr̥</unclear><lb n="10" break="no"/><unclear>d balād</unclear></lem>
+        <lem>-kṣm<unclear>ābh</unclear>r̥<lb n="10" break="no"/><unclear>d b</unclear><choice><sic><unclear cert="low">ā</unclear></sic><corr>a</corr></choice><unclear>lād</unclear></lem>
         <rdg source="bib:SubbaRao1945-1946_01">kṣmābhru<lb n="10" break="no"/>tulād</rdg>
       </app>
       <app loc="10">
-        <lem>j<unclear>i</unclear>tvāśā<unclear>ṁ viraje</unclear> <unclear cert="low">pratiṣṭhita-jaya-staṁ</unclear><unclear>bhaḥ</unclear> p<supplied reason="omitted">r</supplied>a<unclear cert="low">th</unclear>i<unclear>ṣṭh</unclear>e ra<unclear>ṇe</unclear></lem>
+        <lem>jitvāśā<unclear>ṁ viraje</unclear> <unclear>pratiṣṭhita-</unclear><supplied reason="lost">ja</supplied>ya-s<unclear>taṁ</unclear>bhaḥ paṭiṣṭho raṇe</lem>
         <rdg source="bib:SubbaRao1945-1946_01">jitvāśāviraya pratāpādhi yāsacapadipto raṇe</rdg>
       </app>
       <app loc="10">
-        <lem><unclear>sva</unclear>rṇṇārū<choice><sic>d</sic><corr>ḍh</corr></choice>a-<unclear>tu</unclear><lb n="11" break="no"/><unclear>lo</unclear> <supplied reason="subaudible">’</supplied><unclear>tra</unclear></lem>
+        <lem>svarṇṇārū<choice><unclear>ḍh</unclear><unclear>ḍ</unclear></choice>a-tu<lb n="11" break="no"/><unclear>lo</unclear> <supplied reason="subaudible">’</supplied><unclear>tra</unclear></lem>
         <rdg source="bib:SubbaRao1945-1946_01">svarṇna rūdatu<lb n="11" break="no"/>lātra</rdg>
       </app>
       <app loc="11">
-        <lem><unclear cert="low">bāḍha</unclear>m atulo <unclear cert="low">dhā</unclear>tr<unclear>ī-ta</unclear>l<unclear>e</unclear> kṣatriyai<unclear>r</unclear></lem>
+        <lem><unclear>bā</unclear><choice><sic>d</sic><corr>ḍh</corr></choice>am atulo <unclear cert="low">dhā</unclear>tr<unclear>ī-tale</unclear> kṣatriyai<supplied reason="omitted">r</supplied></lem>
         <rdg source="bib:SubbaRao1945-1946_01">jādamatu lokātratal akṣatriyair</rdg>
       </app>
       <app loc="11">
-        <lem>mmitrā<unclear>bhaḫ</unclear></lem>
+        <lem>mmitrā<unclear>bha</unclear>ḫ</lem>
         <rdg source="bib:SubbaRao1945-1946_01">mmitrābhaṟ</rdg>
       </app>
       <app loc="12">
@@ -188,16 +198,17 @@
         <rdg source="bib:SubbaRao1945-1946_01">varāN</rdg>
       </app>
       <app loc="12">
-        <lem>tasyātma<unclear>jaḫ</unclear></lem>
+        <lem>tasyātmajaḫ</lem>
         <rdg source="bib:SubbaRao1945-1946_01">tasyātmajaṟ</rdg>
       </app>
       <app loc="14">
         <lem><unclear>bhuva</unclear><supplied reason="omitted">m a</supplied>mmarā<unclear>jaḥ</unclear></lem>
         <rdg source="bib:SubbaRao1945-1946_01">bhūv ammarājaḥ</rdg>
       </app>
-      <app loc="14">
-        <lem source="bib:SubbaRao1945-1946_01"><unclear>tata</unclear><unclear cert="low">stu</unclear>t a<unclear cert="low">mma bh</unclear>īm<unclear>ākh</unclear>ya<unclear cert="low">ḥ</unclear> <unclear>ha</unclear><unclear cert="low">tva pro</unclear></lem>
-        <note>I give SR’s reading as printed in his edition, except that he shows all of this as clear, while I add my indications of unclear and tentative readings on the basis of the scanned estampage. See also the commentary.</note>
+      <app loc="16">
+        <lem>tatas tu tammu-<subst><del><unclear cert="low">rājā</unclear></del><add place="overstrike"><unclear>bh</unclear>īm<unclear>ā</unclear></add></subst>khya<add place="inline"><unclear>ḥ</unclear></add>hatvā pro</lem>
+        <rdg source="bib:SubbaRao1945-1946_01">tatastut amma bhīmākhyaḥ hatva pro</rdg>
+        <note>The characters <foreign>bhīmā</foreign> (or perhaps just <foreign>bhīma</foreign>) are engraved over some previous text that is mostly illegible; <foreign>rājā</foreign> is an educated guess based partly on what seems to be a vertically rising <foreign>ā</foreign> marker (which does not belong to <foreign>ma</foreign>) rising from the second. The <foreign>visarga</foreign>, if it is not accidental damage, is definitely a subsequent insertion: the dots are much shallower and smaller than they should be (compare <foreign>sutaḥ</foreign> in the previous line), and they are very wide apart, above headline and below baseline. See the commentary for discussion.</note>
       </app>
       
       
@@ -212,11 +223,11 @@
 <p n="1-5"><supplied reason="lost">His son Jaya</supplied>siṁha <supplied reason="explanation">II</supplied>, for thirteen. His <supplied reason="subaudible">brother</supplied> of inferior birth, Kokkili, for six months. After dethroning him, his eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen. His son Viṣṇuvardhana <supplied reason="explanation">IV</supplied>, for thirty-six. His son <supplied reason="explanation">Vijayāditya II</supplied> Narendramr̥garāja, for forty-eight. His son Kali-Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Guṇakainalla Vijayāditya <supplied reason="explanation">III</supplied>, for forty-four.</p>
 <p rend="stanza" n="1">His brother Prince <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> Vikramāditya, the good general of the army whose neck was garlanded with the flashing locket <supplied reason="explanation">of the heir-apparent</supplied>, had a judicious son:</p>
 <p rend="stanza" n="2">He, the dear Cālukya-Bhīma—who <supplied reason="subaudible">was</supplied> like a mother to the destitute, the helpless and the sick, to the congregation of excellent Brahmins, to supplicants, to ascetics, as well as to clever Brahmin pupils <supplied reason="explanation"><foreign>vaṭu</foreign></supplied>, actors, good singers and poets arriving from various lands, because he presented them with the objects of their desires and protected them—ruled <supplied reason="explanation"><foreign>bhuj-</foreign></supplied> fairly for thirty years.</p>
-<p rend="stanza" n="3">His son—who with the sword <supplied reason="subaudible">held in</supplied> his arm crushed enemy rulers; who, having forcibly conquered the eastern <supplied reason="explanation"><foreign>vāsavī</foreign></supplied> region, established a victory pillar in Viraja <seg cert="low">and on the occasion of a tremendous battle</seg> ascended a balance scale with gold; who is surely incomparable to <supplied reason="subaudible">any other</supplied> <foreign>kṣatriya</foreign>s on the surface of this earth—protected <supplied reason="explanation"><foreign>rakṣ-</foreign></supplied> the earth for half a year as Vijayāditya <supplied reason="explanation">IV, Kollabigaṇḍa</supplied>, brilliant as the sun <supplied reason="explanation"><foreign>mitra</foreign></supplied>.<note>Vijayāditya IV’s ascension of a balance scale is also mentioned in close proximity to his erection of a victory pillar in Viraja in stanza 32 of the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>. Nonetheless, the battle may be connected here only to the pillar, and the ascension balance scale may be an unrelated event. </note></p>
+<p rend="stanza" n="3">His son—who with the sword <supplied reason="subaudible">held in</supplied> his arm crushed enemy rulers; who, having forcibly conquered the eastern <supplied reason="explanation"><foreign>vāsavī</foreign></supplied> region, established a victory pillar in Viraja; the craftiest one in battle who ascended a balance scale with gold; who is surely incomparable to <supplied reason="subaudible">any other</supplied> <foreign>kṣatriya</foreign>s on the surface of this earth—protected <supplied reason="explanation"><foreign>rakṣ-</foreign></supplied> the earth for half a year as Vijayāditya <supplied reason="explanation">IV, Kollabigaṇḍa</supplied>, brilliant as the sun <supplied reason="explanation"><foreign>mitra</foreign></supplied>.<note>Vijayāditya IV’s ascension of a balance scale is also mentioned in close proximity to his erection of a victory pillar in Viraja in stanza 32 of the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>. Nonetheless, the battle may be connected here only to the pillar, and the ascension balance scale may be an unrelated event. </note></p>
 <p rend="stanza" n="4">His son—the lotus of whose feet was kissed all over by bees that were the jewels dangling from the heads of prostrate enemies, and who mocked <supplied reason="explanation">Mount</supplied> Meru with the brilliance of a heap of gold that was on a par <supplied reason="explanation">with Meru</supplied><note>Or perhaps: with the brilliance of the heap of gold that had been weighed (in the balance against him).</note>—protected <supplied reason="explanation"><foreign>pā-</foreign></supplied> the earth for seven years as Ammarāja <supplied reason="explanation">I</supplied>.</p>
 <p rend="stanza" n="5">After assaulting and effortlessly dethroning his son the child Vijayāditya <supplied reason="explanation">V</supplied>, Lord <supplied reason="explanation"><foreign>adhipati</foreign></supplied> Tāla protected <supplied reason="explanation"><foreign>pā-</foreign></supplied> the earth for one month.</p>
 <p rend="stanza" n="6">After defeating him in battle, King <supplied reason="explanation"><foreign>bhūmipati</foreign></supplied> Cālukya-Bhīma’s son, King <supplied reason="explanation"><foreign>bhūpa</foreign></supplied> Vikramāditya <supplied reason="explanation">II</supplied>, protected the earth for eleven months.</p>
-<p rend="stanza" n="7"><seg cert="low">His son Amma called Bhīma, having killed</seg> <gap reason="lost"/><note>I do not fully trust SR’s reading of this last bit; see the commentary.</note></p>
+<p rend="stanza" n="7">Then the one named Tammu-Bhīma, having defeated <gap reason="lost"/><note>See the commentary.</note></p>
     
 </div>
 
@@ -227,14 +238,15 @@
 
 <div type="commentary">
 <p>A single plate, an inner (probably the second) plate of a set, discovered in Bhimavaram, West Godavari District, “several years” before 1945.</p>
-<p>Subba Rao is certain that the last line of the extant text mentions Bhīma III (the son of Amma I) as the killer of Vikramāditya II. In fact, in his edition of the <ref target="DHARMA_INSVengiCalukya00077.xml">Varaṇavendī grant of Bhīma III(?)</ref> (<bibl><ptr target="bib:ARIE1961-1962"/><citedRange unit="page">35</citedRange><citedRange unit="appendix">A/1961-62</citedRange><citedRange unit="item">2</citedRange></bibl>), he strongly implies that the present plate was itself issued by Bhīma III. The estampage of the present plate (at least as scanned) is inconclusive with regard to this; SR’s reading cannot be ruled out, but since that reading is unintelligible, I am reluctant to accept it. However, with the scanned estampage to which I now have access, I cannot offer a better reading of the last passage (either the beginning of an <foreign>anuṣṭubh</foreign> stanza or prose). The only other Eastern Cālukya grant that allegedly refers to Bhīma III is the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>. There, the preceding text is prose, while Bhīma III is mentioned in <foreign>śārdūlavikrīḍita</foreign> verse: <foreign>tam bhitvā yudhi bhīma-sannibha-balo bhīmo mma-sūnur bbhaṭas san māsāṣṭakam āvad eva vasudhāṁ</foreign>.<note>In fact, the unemended text has <foreign>sūnor</foreign> instead of <foreign>sūnur</foreign>. There is, in my opinion, some reason to doubt that Bhīma III existed at all.</note> The last complete stanza (VI) of our text occurs in three other grants that I know of: the <ref target="DHARMA_INSVengiCalukya00043.xml">Paḷaṁkalūru grant of Amma II</ref>, the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> and the <ref target="DHARMA_INSVengiCalukya00071.xml">Kaṇḍyam plates of Dānārṇava</ref>. In all three, it is followed by the introduction of Tālapa in prose, <foreign>tatas tālapa-rājasya suto yuddhamallaḥ sapta varṣāṇi</foreign>.</p>
-<p>All stanzas extant in the present text are relatively rare in the corpus. The only other grants that include all six are the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> and the <ref target="DHARMA_INSVengiCalukya00071.xml">Kaṇḍyam plates of Dānārṇava</ref>. The <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00074.xml">Incomplete Masulipatam plates of Amma II</ref> contain our stanzas I and II; the the <ref target="DHARMA_INSVengiCalukya00043.xml">Paḷaṁkalūru grant of Amma II</ref> contains only stanza VI, and the <ref target="DHARMA_INSVengiCalukya00044.xml">Pāṁbaṟṟu grant of Amma II</ref> contains only stanza V. In my opinion this is a fairly strong indication that the present grant is not earlier than Amma II. The phrase <foreign>tad-avarajaḥ kokkiliḥ</foreign> also implies this, since it only occurs in the grants of Amma II, Dānārṇava, Bādapa, Vimalāditya and Śaktivarman; in earlier grants, Kokkili is always described as <foreign>dvaimāturānuja</foreign> or simply <foreign>anuja</foreign>. On the basis of the plate’s palaeography and its layout, I believe it is most likely from a grant of Amma II, but this is far from certain. If the issuer is not Amma II, then it is in all likelihood a later ruler. A possible indication of this is that in Amma II’s grants, Vijayāditya III’s cognomen occurs in the form Guṇaga (if at all). The form Guṇakkenalla (and variants) are used in the grants of Vijayāditya III himself, Amma I, Bhīma II (who also uses Guṇaga and Guṇaka), Tāḻa II and Dānārṇava. Another possible indication is that, as mentioned above, the complete set of stanzas does not occur in any known grant of Amma. At any rate, even if Bhīma III is indeed referred to at the end of the extant text, I deem it extremely unlikely that this plate is a grant of Bhīma III himself.</p>
+<p>Subba Rao is certain that the last line of the extant text mentions Bhīma III (the son of Amma I) as the killer of Vikramāditya II. Neither the text as received, nor the text SR prints in his edition can with any stretch mean what SR translates, viz. <q>After killing him, Amma’s son, Bhīma (III) ruled.</q> A Bhīma is, however, definitely mentioned here. The only other Eastern Cālukya grant that allegedly refers to Bhīma III is the <ref target="DHARMA_INSVengiCalukya00032.xml">Diggubaṟṟu grant of Bhīma II</ref>, where Fleet made an in my opinion unnecessary emendation. Without this emendation, the text refers to Bhīma II and there is no indication of a son of Amma named Bhīma.</p>
+<p>A fully preserved parallel to this partial stanza has now come to light in the <ref target="DHARMA_INSVengiCalukya00102.xml">Kōḻūru grant of Bhīma II</ref>. Although this does not clear all difficulties, it on the one hand establishes beyond doubt that the correct reading is <foreign>tammu-bhīma</foreign> (so there is no Amma and nothing resembling “son” here), and on the other hand makes it clear that Tammu-Bhīma is not credited with the killing of Vikramāditya II. Depending on the correct case ending of this name, Tammu-Bhīma may refer to Bhīma II (most likely, in my opinion), to Yuddhamalla II himself, or to someone (perhaps Vikramāditya II) whom Yuddhamalla defeated. I intend to discuss the existence of Bhīma III separately.</p>
+<p>All stanzas extant in the present text are relatively rare in the corpus. The only other grants that include all six are the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> and the <ref target="DHARMA_INSVengiCalukya00071.xml">Kaṇḍyam plates of Dānārṇava</ref>. The <ref target="DHARMA_INSVengiCalukya00041.xml">Nāgiyapūṇḍi grant of Amma II</ref> and the <ref target="DHARMA_INSVengiCalukya00074.xml">Incomplete Masulipatam plates of Amma II</ref> contain our stanzas I and II; the the <ref target="DHARMA_INSVengiCalukya00043.xml">Paḷaṁkalūru grant of Amma II</ref> contains only stanza VI, the <ref target="DHARMA_INSVengiCalukya00102.xml">Kōḻūru grant of Bhīma II</ref> only stanza VII, and the <ref target="DHARMA_INSVengiCalukya00044.xml">Pāṁbaṟṟu grant of Amma II</ref> contains only stanza V. In my opinion this is a fairly strong indication that the present grant is not earlier than Amma II. The phrase <foreign>tad-avarajaḥ kokkiliḥ</foreign> also implies this, since it only occurs in the grants of Amma II, Dānārṇava, Bādapa, Vimalāditya and Śaktivarman; in earlier grants, Kokkili is always described as <foreign>dvaimāturānuja</foreign> or simply <foreign>anuja</foreign>. Amma II’s grants, Vijayāditya III’s cognomen occurs in the form Guṇaga (if at all). The form Guṇakkenalla (and variants) are used in the grants of Vijayāditya III himself, Amma I, Bhīma II (who also uses Guṇaga and Guṇaka), Tāḻa II and Dānārṇava. Another possible indication is that, as mentioned above, the complete set of stanzas does not occur in any known grant of Amma. On the basis of the circumstantial evidence combined with the plate’s palaeography and its layout, I believe it is most likely from a grant of Amma II, but it may also belong to Bhīma II, Dānārṇava, or one of the latter’s successors.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>Reported and edited from the original, with facsimiles and abbreviated translation by R. Subba Rao (<bibl rend="omitname"><ptr target="bib:SubbaRao1945-1946_01"/></bibl>). The present edition by Dániel Balogh is based on a collation of Subba Rao’s edition with his facsimiles.<note>At present I only have poorly scanned facsimiles and can only verify the readings for the clearest parts. I indicate an unclear reading on the basis of the scan, some of which is wholly illegible.</note> Minor typographic mistakes and oversights in his edition are not shown in the apparatus here.</p>
+  <p>Reported and edited from the original, with facsimiles and abbreviated translation by R. Subba Rao (<bibl rend="omitname"><ptr target="bib:SubbaRao1945-1946_01"/></bibl>). The present edition by Dániel Balogh is based on photographs taken by Balogh at the Rallabandi Subba Rao Archaeological Museum, Rajahmundry in February 2023, collated with Subba Rao’s edition. Minor typographic mistakes and oversights in his edition are not shown in the apparatus here.</p>
   <listBibl type="primary">
     <bibl n="SR"><ptr target="bib:SubbaRao1945-1946_01"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->

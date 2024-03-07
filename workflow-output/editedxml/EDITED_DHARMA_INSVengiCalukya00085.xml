@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -136,7 +136,7 @@
       </app>
       <app loc="6">
         <lem>vvividh<choice><sic>ā</sic><corr>a</corr></choice>-yu<supplied reason="omitted">d</supplied>dh<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
-        <note>I second MDS’s emendation. A smaller emendation to <foreign>vividhāyudha-</foreign> also yields intelligible text, but compare <foreign>vividha-yuddha-labdha-vijaya-siddher</foreign> describing Maṅgi Yuvarāja in the <ref target="DHARMA_INSVengiCalukya00018.xml">Zulakallu plates of Vijayāditya I</ref> and the <ref target="DHARMA_INSVengiCalukya00020.xml">Eḍeru plates of Vijayāditya I</ref>.</note>
+        <note>I second MDS’s emendation. A smaller emendation to <foreign>vividhāyudha-</foreign> also yields intelligible text, but compare <foreign>vividha-yuddha-labdha-vijaya-siddher</foreign> describing Maṅgi Yuvarāja in the <ref target="DHARMA_INSVengiCalukya00018.xml">Zulakallu plates of Vijayāditya I</ref> and the <ref target="DHARMA_INSVengiCalukya00020.xml">Eḍeru plates of Vijayāditya I</ref>.</note>
       </app>
       <app loc="6">
         <lem>-ya<lb n="7" break="no"/>śa<supplied reason="omitted">saḥ</supplied></lem>
@@ -178,7 +178,7 @@
       <app loc="12">
         <lem>ḻūḷā</lem>
         <rdg source="bib:Sampath1996_01">lūḷā</rdg>
-        <note>MDS prints <foreign>lūḷā</foreign> here, in his title and in his discussion. However, the ARIE report gives the name as <foreign>ḻūḷā</foreign>, and I think it is much more likely that MDS’s typesetter omitted the diacritic than that the ARIE report misread an <foreign>l</foreign> as <foreign>ḻ</foreign> or misprinted the latter for the former.</note>
+        <note>MDS prints <foreign>lūḷā</foreign> here, in his title and in his discussion. However, the ARIE report gives the name as <foreign>ḻūḷā</foreign>, and I think it is much more likely that MDS’s typesetter omitted the diacritic than that the ARIE report misread an <foreign>l</foreign> as <foreign>ḻ</foreign> or misprinted the latter for the former.</note>
       </app>
       <app loc="15">
         <lem>ittha<surplus>M</surplus> mājñāpayati</lem>
@@ -228,7 +228,7 @@
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1946-1947"/><citedRange unit="page">6</citedRange><citedRange unit="appendix">A/1946-47</citedRange><citedRange unit="item">6</citedRange></bibl> with discussion at <bibl><ptr target="bib:ARIE1946-1947"/><citedRange>1</citedRange></bibl>. Reportedly (<bibl><ptr target="bib:Sampath1996_01"/><citedRange>170</citedRange></bibl>) published by Subramanyam (no other name available) in the <title>Journal of Andhra History and Culture</title>, Vol. II, No. 4, Jan 1945, pp. 109-105 (not traced). Edited, perhaps from the original, by M. D. Sampath (<bibl rend="omitname"><ptr target="bib:Sampath1996_01"/></bibl>), without facsimiles or translation. The present edition by Dániel Balogh thus follows Sampath unless otherwise noted in the apparatus, except for the silent correction of obvious typographic errors.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1946-1947"/><citedRange unit="page">6</citedRange><citedRange unit="appendix">A/1946-47</citedRange><citedRange unit="item">6</citedRange></bibl> with discussion at <bibl><ptr target="bib:ARIE1946-1947"/><citedRange>1</citedRange></bibl>. Reportedly (<bibl><ptr target="bib:Sampath1996_01"/><citedRange>170</citedRange></bibl>) published by Subramanyam (no other name available) in the <title>Journal of Andhra History and Culture</title>, Vol. II, No. 4, Jan 1945, pp. 109-105 (not traced). Edited, perhaps from the original, by M. D. Sampath (<bibl rend="omitname"><ptr target="bib:Sampath1996_01"/></bibl>), without facsimiles or translation. The present edition by Dániel Balogh thus follows Sampath unless otherwise noted in the apparatus, except for the silent correction of obvious typographic errors.</p>
   <listBibl type="primary">
     <bibl n="MDS"><ptr target="bib:Sampath1996_01"/></bibl>
   </listBibl>

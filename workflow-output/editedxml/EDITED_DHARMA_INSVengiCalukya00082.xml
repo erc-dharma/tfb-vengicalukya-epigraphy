@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -182,7 +182,7 @@
       <app loc="24">
         <lem>purusaṁbu</lem>
         <rdg source="bib:Sampath1977-1978_02">prusaṁbu</rdg>
-        <note>S uses Prusaṁbu in his discussion too, so this is not a typo in his edition. It may reflect a Telugu pronunciation.</note>
+        <note>S uses Prusaṁbu in his discussion too, so this is not a typo in his edition. It may reflect a Telugu pronunciation.</note>
       </app>
       <app loc="24">
         <lem>paścima<unclear>ta</unclear> <gap reason="illegible" quantity="4" unit="character" precision="low"/></lem>
@@ -228,7 +228,7 @@
 <p n="23-27">Its boundaries <supplied reason="subaudible">are as follows</supplied>. To the east, the river named Kaḷḷeṟu. To the south, the village named Purusaṁbu. To the west, the river named <gap reason="illegible" quantity="4" unit="character" precision="low"/>nī. To the north, the village named Majjuḷūru. It is located in the midst of these. Let no-one pose an obstacle <supplied reason="explanation">to the enjoyment of rights</supplied> over it. He who does so shall be conjoined with the five great sins. The reverend Vyāsa too has said:</p>
 <p rend="stanza" n="1">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
 <p rend="stanza" n="2">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
-<p rend="stanza" n="3">Over and over again, Rāmabhadra begs all future kings thus: “Each in your own time, you shall respect this framework of legality that is universally applicable to kings!”</p>
+<p rend="stanza" n="3">Over and over again, Rāmadeva<note>The name in this stanza is normally Rāmabhadra.</note> begs all future kings thus: “Each in your own time, you shall respect this framework of legality that is universally applicable to kings!”</p>
 <p rend="stanza" n="4">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of this ruling <supplied reason="explanation"><foreign>dharma</foreign></supplied> is Niravadya, who is erudite in the treatises on polity <supplied reason="explanation"><foreign>nīti-śāstra</foreign></supplied>, endowed with complete intelligence, and devoted to his lord.<note>See the apparatus to line 32 on my interpretation of the string <foreign>niravadyeśa-vatsalaḥ</foreign>.</note></p>
 <p n="32">Written <supplied reason="explanation"><foreign>ālikhita</foreign></supplied> by Akṣaralalitācārya.</p>
   </div>  

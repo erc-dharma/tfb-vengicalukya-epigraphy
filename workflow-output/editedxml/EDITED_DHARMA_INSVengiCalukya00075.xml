@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -252,7 +252,7 @@
       </app>
       <app loc="40">
         <lem>nij<unclear reason="eccentric_ductus">jh</unclear>ar<unclear>a</unclear>-nadī</lem>
-        <note>See the hand description about the component I read as <foreign>jh</foreign>. What I read as <foreign>ra</foreign> may be <foreign>ru</foreign>, but the possible vowel marker is a horizontal stroke (not a hook), it is short, and it contacts the following <foreign>na</foreign>, so it is either a random scratch or a subsequent correction. There is also a dot or circle above <foreign>na</foreign> that looks much like an <foreign>anusvāra</foreign>, but if it is one, then it is superfluous.</note>
+        <note>See the hand description about the component I read as <foreign>jh</foreign>. What I read as <foreign>ra</foreign> may be <foreign>ru</foreign>, but the possible vowel marker is a horizontal stroke (not a hook), it is short, and it contacts the following <foreign>na</foreign>, so it is either a random scratch or a subsequent correction. There is also a dot or circle above <foreign>na</foreign> that looks much like an <foreign>anusvāra</foreign>, but if it is one, then it is superfluous.</note>
       </app>
       <app loc="42">
         <lem>vā<unclear cert="low">ka</unclear>-</lem>
@@ -327,7 +327,7 @@
 
 
 <div type="bibliography">
-  <p>A “Paṇḍipāka grant," probably identical to the present one, is said to be published in <title>Journal of the Telugu Academy</title> vol. 11 pp. 256-257 (not traced), and to be described in <title>Mad. Govt. MSS. Library Catalogue</title> 15-6-36, pp. 185-91 (not traced). The present edition has been prepared for DHARMA by Dániel Balogh on the basis of inked rubbings in Sir Walter Elliot’s collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library and supplemented by Andrew Grout.</note> Elliot may have prepared an edition that never reached publication (see his note in the commentary).</p>
+  <p>A "Paṇḍipāka grant," probably identical to the present one, is said to be published in <title>Journal of the Telugu Academy</title> vol. 11 pp. 256-257 (not traced), and to be described in <title>Mad. Govt. MSS. Library Catalogue</title> 15-6-36, pp. 185-91 (not traced). The present edition has been prepared for DHARMA by Dániel Balogh on the basis of inked rubbings in Sir Walter Elliot’s collection.<note>Scans of these impressions were obtained by Emmanuel Francis from the Edinburgh University Library and supplemented by Andrew Grout.</note> Elliot may have prepared an edition that never reached publication (see his note in the commentary).</p>
   <listBibl type="primary">
     <bibl n="XX"/>
 <!-- one <bibl/> per item of primary bibliography -->

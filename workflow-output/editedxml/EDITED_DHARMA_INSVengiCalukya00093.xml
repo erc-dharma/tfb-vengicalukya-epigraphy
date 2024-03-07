@@ -1,0 +1,220 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Ariyeṟa grant of Viṣṇuvardhana III</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00093</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+                  <!--<altIdentifier type="PEM"><idno type="corpus">CalE25</idno></altIdentifier>-->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas. Final T (e.g. l1) is a reduced ta with a lengthened stem and no headmark. Final M (e.g. l10) is a reduced but unsimplified ma without a headmark.
+The plates are written in a very clumsy hand, and the lines are extremely uneven.
+                <!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2024-02-26" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-viṣamasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/><!--P1020968.JPG-->
+<p><pb n="1v"/><lb n="1"/><!--P1020966.JPG (also P1020965.JPG, P1020967.JPG)-->s<unclear>v</unclear>asti<supplied reason="subaudible">.</supplied> śr<unclear>ī</unclear>maT vijayav<unclear>ā</unclear>ṭa-v<unclear>ā</unclear>sakāt<supplied reason="subaudible">.</supplied> sakala-bhuva<unclear>na</unclear>-sa<unclear>ṁstū</unclear>yam<unclear>ā</unclear><supplied reason="omitted">na</supplied><lb n="2" break="no"/>-<unclear>mānavya-sago</unclear>tr<choice><sic>a</sic><corr>ā</corr></choice>ṇ<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">ṁ</supplied> h<choice><sic>a</sic><corr>ā</corr></choice>riti-putr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<supplied reason="omitted">ṁ</supplied> k<choice><sic>o</sic><corr>au</corr></choice>śik<choice><sic>i</sic><corr>ī</corr></choice>-prasāda-labdha-rājy<unclear>ā</unclear><supplied reason="omitted">ṇāṁ</supplied><lb n="3"/><unclear>calu</unclear><space type="binding-hole"/><unclear>kyā</unclear>nā<unclear>ṁ</unclear> kulam ala<unclear>ṁ</unclear>kariṣṇo<add place="above">s</add> sva-kara-dhr̥ta-niśita-nistri<supplied reason="omitted">ṁ</supplied>śa<lb n="4" break="no"/>-viji<space type="binding-hole"/>tāri-maṇḍala-śrī-sarvva-lokāśraya-mahārājasya <lb n="5"/><unclear>p</unclear>ri<unclear>ya-tanaya</unclear><supplied reason="omitted">ḥ</supplied> śrī-<add place="inline">sa</add>kala-lok<unclear>āśra</unclear>ya-<unclear>ja</unclear>ya<add place="below">si</add><choice><orig>ṅga</orig><reg>ṁha</reg></choice>-mah<choice><sic>a</sic><corr>ā</corr></choice>rājasya <lb n="6"/><unclear cert="low">priyānujaḥ</unclear> śrī sa<unclear>rvva-lokā</unclear>śra<unclear>ya</unclear>-vi<unclear>ṣṇu</unclear>varddh<unclear>ana-ma</unclear>h<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> <pb n="2r"/><lb n="7"/><!--P1020959.JPG to P1020961.JPG--><unclear cert="low">gārgyā</unclear><unclear>ya</unclear>ṇa-s<choice><sic>ā</sic><corr>a</corr></choice><unclear>gotrāya</unclear> <unclear cert="low">ve</unclear><supplied reason="lost" cert="low">da-ve</supplied><unclear cert="low">dāṁ</unclear>ga-<unclear>v</unclear>i<unclear>dođ</unclear> <unclear>bh</unclear><choice><sic>i</sic><corr>ī</corr></choice>maśa<unclear>r</unclear>mma<unclear>ṇa</unclear><supplied reason="subaudible">ḥ</supplied> p<unclear>au</unclear><lb n="8" break="no"/><unclear>trāya ha</unclear>stiśa<unclear>r</unclear>mmaṇa<supplied reason="subaudible">ḥ</supplied> putrā<unclear>ya ṣaṭ-ka</unclear>rmma-niratāya viṣṇuśarmma<lb n="9" break="no"/><unclear>ṇe</unclear> viṣ<unclear>a</unclear>y<unclear>e</unclear> Ari<add place="below"><unclear>ye</unclear></add>ṟa-grāme p<choice><sic>u</sic><corr>ū</corr></choice>rvvottara-di<unclear reason="eccentric_ductus">g-bhā</unclear>ge ni<lb n="10" break="no"/><gap reason="illegible" quantity="1" unit="character" precision="low"/><space type="binding-hole"/><gap reason="illegible" quantity="1" unit="character" precision="low"/>ya kṣetra<unclear cert="low">ṁ</unclear> dattaM<supplied reason="subaudible">.</supplied> Asyopari na kaiśc<choice><sic>a</sic><corr>i</corr></choice>d api <choice><sic>bhadha</sic><corr>bādhā</corr></choice> <lb n="11"/><unclear>kara</unclear><supplied reason="lost">ṇī</supplied>y<supplied reason="lost">ā</supplied><supplied reason="subaudible">.</supplied> yaẖ karoti sa <supplied reason="omitted">pa</supplied>ñcabhir mmah<unclear>ā</unclear>-p<choice><sic>a</sic><corr>ā</corr></choice>takair <choice><sic>mmukte</sic><corr>yyukto</corr></choice> bhavati</p>
+<p><lb n="12"/><unclear>A</unclear>sya <unclear>kṣetrasya</unclear> s<choice><sic>i</sic><corr>ī</corr></choice>m<choice><sic>aḥ</sic><corr>āni</corr></choice><supplied reason="subaudible">.</supplied> p<unclear>ū</unclear>rv<unclear>v</unclear>a-sī<unclear>ma</unclear> <pb n="2v"/><lb n="13"/><!--P1020962.JPG to P1020964.JPG-->grāma-<unclear cert="low">kṣetra</unclear><supplied reason="lost">ṁ</supplied><supplied reason="subaudible">.</supplied> <unclear>dakṣiṇa</unclear><unclear cert="low">to</unclear> <supplied reason="subaudible">’</supplied><unclear>pi</unclear> gr<unclear cert="low">āma</unclear>-bhūmi<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> pa<unclear>ści</unclear><lb n="14" break="no"/><unclear>ma</unclear><space type="binding-hole"/><unclear>to</unclear> <gap reason="illegible" quantity="2" unit="character"/> <unclear>Utta</unclear>ra<unclear>to</unclear> <supplied reason="subaudible">’</supplied>py <unclear cert="low">āda</unclear>ka-sthā<unclear>na</unclear><supplied reason="lost">ṁ</supplied> <unclear cert="low">Atra</unclear> <lb n="15"/>vy<unclear cert="low">ā</unclear><space type="binding-hole"/><supplied reason="lost">sa</supplied>-<unclear>gī</unclear><supplied reason="lost">tāḥ</supplied> <unclear>ślokāḥ</unclear></p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">ba<unclear>hu</unclear>bhir v<unclear>v</unclear>asudh<unclear>ā</unclear> datt<unclear>ā</unclear></l>
+<l n="b"><lb n="16"/><unclear>bahubhiś cānupālitā</unclear></l>
+<l n="c">yasya ya<unclear>sya yadā</unclear> <pb n="3r"/><lb n="17"/><!--P1020956.JPG to P1020958.JPG-->bh<unclear>ū</unclear>mi<unclear>s</unclear></l>
+<l n="d"><unclear>ta</unclear>sya <surplus><unclear>s</unclear></surplus>tasya <surplus>ta</surplus>dā phal<surplus>aM</surplus></l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">sva-d<unclear>a</unclear>tt<unclear cert="low">ā</unclear><lb n="18" break="no"/><unclear>M pa</unclear><surplus>ra</surplus>ra-datt<unclear cert="low">āṁ</unclear> v<choice><sic>a</sic><corr>ā</corr></choice></l>
+<l n="b">yo hareta va<unclear>s</unclear>u<supplied reason="omitted">ndharāṁ</supplied></l>
+<l n="c">ṣaṣṭi-va<unclear>rṣa</unclear><lb n="19" break="no"/>-sa<space type="binding-hole"/>hasr<unclear cert="low">ā</unclear>ṇi</l>
+<l n="d"><unclear cert="low">tāny e</unclear><unclear>va narake</unclear> vase<supplied reason="omitted">T</supplied></l>
+</lg>
+
+<p><unclear>Ā</unclear>jña<lb n="20" break="no"/>ptir asya <unclear cert="low">mamār</unclear>yya<unclear>va</unclear>rmma <unclear cert="low">va</unclear>armm<unclear cert="low">apa-viraci</unclear><unclear>taM</unclear></p>
+<pb n="3v"/><!--P1020955.JPG-->
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem>ala<unclear>ṁ</unclear>kariṣṇo<add place="above">s</add> sva-</lem>
+        <note>At the regular level of the line, the text is <foreign>ala<unclear>ṁ</unclear>kariṣṇosva</foreign>. A slightly smaller <foreign>sa</foreign>, without a headmark, is engraved above <foreign>sva</foreign>, where the previous line skips a space for a descender in the first line. I am not entirely certain this is a later addition; it may also be a way to economise on space and to avoid creating a very deep descender here.</note>
+      </app>
+      <app loc="7">
+        <lem><unclear cert="low">gārgyā</unclear><unclear>ya</unclear>ṇa-</lem>
+        <note>The inscribed word may instead be <foreign>gavyāyaṇa-</foreign>, and other readings are also conceivable.</note>
+      </app>
+      <app loc="7">
+        <lem><unclear cert="low">ve</unclear><supplied reason="lost" cert="low">da-ve</supplied><unclear cert="low">dāṁ</unclear>ga-<unclear>v</unclear>i<unclear>do</unclear></lem>
+        <note>The beginning segment is very uncertainly read; in particular, the characters I restore as <foreign>da-ve</foreign> are not recognisable and there may be only a single inscribed character here. The text is, however, definitely not <foreign>ṣaḍ-aṁga-vido</foreign>, which is the only other plausible restoration that I can think of in the context.</note>
+      </app>
+      <app loc="8">
+        <lem>viṣ<unclear>a</unclear>y<unclear>e</unclear></lem>
+        <note>The name of the <foreign>viṣaya</foreign> seems to have been omitted. The writing is badly effaced around the hole and the hole itself has dilated to some extent from its original size, so it is not entirely impossible that one or two characters were squeezed in at the edges of the hole and have become indiscernible. But if so, these must have been both small and out of line. The village Ariyeṟu in another grant of Viṣṇuvardhana III (see the next note) is located in the Attili <foreign>viṣaya</foreign>.</note>
+      </app>
+      <app loc="9">
+        <lem>Ari<add place="below"><unclear>ye</unclear></add>ṟa-</lem>
+        <note>It seems to me that one additional character, in all probability <foreign>ye</foreign>, has been inscribed below and to the left of <foreign>ṟa</foreign>, which is above and to the right of <foreign>M</foreign> in the next line. Another charter of Viṣṇuvardhana III, not published accessibly, is reported (<bibl><ptr target="bib:ARIE1924-1925"/><citedRange>7, 76-77</citedRange></bibl>) to grant land at the village of Ariyeṟu to a Brahmin named Nūriśarman. It seems likely that this grant is at the same village.</note>
+      </app>
+      <app loc="12">
+        <lem>p<unclear>ū</unclear>rv<unclear>v</unclear>a-sī<unclear>ma</unclear></lem>
+        <note>The last character is too small for a regular <foreign>ma</foreign> and seems to lack a headmark. This may be simply because this line (slanting downward and ending well before the right-hand edge of the plate) did not have sufficient space. It is also possible that <foreign>pūrvvasmiM</foreign> (intended for <foreign>pūrvvasmiN</foreign> or <foreign>pūrvvasyāM</foreign>) was inscribed here.</note>
+      </app>
+      <app loc="12">
+        <lem><unclear cert="low">āda</unclear>ka-</lem>
+        <note>The character read as <foreign>da</foreign> may also be <foreign>va</foreign> or <foreign>ḍa</foreign>, and a number of other readings are also conceivable.</note>
+      </app>
+      <app loc="19">
+        <lem><unclear cert="low">tāny e</unclear><unclear>va narake</unclear> vase<supplied reason="omitted">T</supplied></lem>
+        <note>There definitely seem to be two (or even more) overlapping texts in this section, see also the commentary. I am not entirely certain that what I read here, which is not the correct ending of this stanza, is the final inscribed text, but it is certainly the better discernible one. It is not impossible that <foreign>viṣṭhā</foreign> overlaps the first three characters of my reading, but I cannot discern anything resembling <foreign>yāṁ jāyate kr̥miḥ</foreign>. There also seem to be vestiges of <foreign>bda</foreign> (or perhaps <foreign>ṣṭa</foreign>) followed by <foreign>ṣṭha</foreign> where I read <foreign>ke va</foreign>.</note>
+      </app>
+      <app loc="19">
+        <lem><unclear cert="low">mamār</unclear>yya<unclear>va</unclear>rmma <unclear cert="low">va</unclear>armm<unclear cert="low">apa-viraci</unclear><unclear>taM</unclear></lem>
+        <note>The names are very tentatively read here.</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-11">Greetings! From the majestic residence at Vijayavāṭa. The dear son of His Majesty the Shelter of the Complete World <supplied reason="explanation"><foreign>sakala-lokāśraya</foreign></supplied>, King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Sarvalokāśraya <supplied reason="explanation">Maṅgi Yuvarāja</supplied>, who was eager to adorn the lineage of the majestic Calukyas—who are of the Mānavya gotra which is praised by the entire world, who are sons of Hāriti, and who attained kingship by the grace of Kauśikī—and who <supplied reason="explanation">Maṅgi Yuvarāja</supplied> defeated the territories of his enemies with the sharp sword held in his own hands; the dear younger brother of His Majesty the shelter of the complete world <supplied reason="explanation"><foreign>sakala-lokāśraya</foreign></supplied>, King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Jayasiṁha <supplied reason="explanation">II</supplied>; <supplied reason="subaudible">namely</supplied> His Majesty the shelter of all the world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>, King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">III</supplied>, has given <gap reason="illegible"/> field at the village Ariyeṟa in <gap reason="omitted"/> district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied>, in the northeastern direction <supplied reason="subaudible">of that village</supplied>, to Viṣṇuśarman of the <seg cert="low">Gārgyāyaṇa</seg> <foreign>gotra</foreign>, engaged in the the six duties <supplied reason="explanation">of a Brahmin</supplied>, the grandson of Bhīmaśarman learned in the Vedas and Vedāṅgas, and son of Hastiśarman. Let no-one pose an obstacle <supplied reason="explanation">to their enjoyment of rights</supplied> over it. He who does so shall be conjoined with the five great sins.</p>
+<p n="12-15">The borders of this field <supplied reason="subaudible">are as follows</supplied>. The eastern border is <seg cert="low">the field of</seg> the village. To the south, also the land of the village. To the west, <gap reason="illegible"/>. Also to the north, <gap reason="illegible"/> place. In this connection <supplied reason="subaudible">the following</supplied> verses were sung by Vyāsa:</p>
+<p rend="stanza" n="1">Many <supplied reason="subaudible">kings</supplied> have granted land, and many have preserved it <supplied reason="subaudible">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="subaudible">accrued of granting it</supplied> belongs to him at that time.</p>
+<p rend="stanza" n="2">He who would seize land, whether given by himself or by another, shall reside in hell for just as many: for sixty thousand years.<note>The last line of this stanza has been replaced by the last line of another stanza often cited at this point. The end result is not completely coherent.</note></p>
+<p n="19-20">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of this <supplied reason="subaudible">grant</supplied> <seg cert="low">of mine is Āryavarman. Composed by Varmapa.</seg> <note>The end of the inscription is not quite legible, and both the names and the connecting words may be wrong here. No first person pronoun occurs in the colophon of any related grant, so the segment read as <foreign>mama</foreign> may instead be part of the following name.</note></p>
+  
+  </div>
+</div>
+
+
+
+
+<div type="commentary">
+<p>The recto of plate 3 may well be a palimpsest. The writing is awkward and poorly preserved, but in many places on this page, there seem to be two overlapping characters. This is especially noticeable in the latter part of lines 18-20. It is impossible to read the earlier writing; in fact, it is often impossible to tell whether a recognisable character component belongs to the earlier or the later text.</p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Not reported in ARIE.<note>This is not the Ariyēṟu grant of Viṣṇuvardhana III reported in <bibl><ptr target="bib:ARIE1924-1925"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1924-25</citedRange><citedRange unit="item">3</citedRange></bibl>.</note> No previous edition known. The present edition by Dániel Balogh is based on photographs taken by myself in February 2023 at the Telangana State Archaeology Museum, Hyderabad.</p>
+  <listBibl type="primary">
+    <bibl/>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl/>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>

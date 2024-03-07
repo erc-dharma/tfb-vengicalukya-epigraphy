@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -126,7 +126,7 @@
 <l n="c" enjamb="yes">tan dagdhvā<lb n="15"/><seg met="--+-+---"><gap reason="lost" quantity="8" unit="character"/></seg> śrīmad-vikramāditya-bhū</l>
 <l n="d">pālas tālapam eṣa paṭṭam avahac cū<lb n="16" break="no"/><seg met="+-++-="><gap reason="lost" quantity="6" unit="character"/></seg></l>
 </lg>
-<ab>viśālāvakāśam imaṁ <gap reason="lost" extent="unknown" unit="character"/> kṣiti-payo-rāśiṣu kūla-śālī<pb n="3r"/><lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>t prabhur adhipater yyasya saroruhāsanaḥ||</ab>
+<ab>viśālāvakāśam imaṁ <gap reason="lost" extent="unknown" unit="character"/> kṣiti-payo-rāśiṣu kūla-śālī<pb n="3r"/><lb n="17"/><gap reason="lost" extent="unknown" unit="character"/>t prabhur adhipater yyasya saroruhāsanaḥ<g type="ddanda">.</g></ab>
 <lg n="5" met="hariṇī">
 <l n="a">yad-asi<lb n="18" break="no"/>-<seg met="--++"><gap reason="lost" quantity="4" unit="character"/></seg>tvāgādham mahad ripur ambugair</l>
 <l n="b">vviśati vimukho vārāṁ rāśiṁ sphurad-raṇa-raṁgataḥ|</l>
@@ -136,8 +136,8 @@
 <lg n="6" met="anuṣṭubh">
 <l n="a">vikramaika-sahāyo <supplied reason="subaudible">’</supplied>ṣṭau</l>
 <l n="b">yu<supplied reason="omitted">d</supplied>dhvā yuddha-śataṁ samā<unclear>ḥ</unclear></l>
-<l n="c">yuddhe labdha<lb n="21 " break="no"/>-<seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg> rājyaṁ</l>
-<l n="d">yaḥ kīrttyā samam agrahīT||</l>
+<l n="c">yuddhe labdha<lb n="21" break="no"/>-<seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg> rājyaṁ</l>
+<l n="d">yaḥ kīrttyā samam agrahīT<g type="ddanda">.</g></l>
 </lg>
 <lg n="7" met="indravajrā">
 <l n="a">yat-kānti-vikrānti-kr̥tābhibhūtī</l>
@@ -149,7 +149,7 @@
 <l n="a"><unclear>A</unclear>panudati pareṣāṁ rāga-mo<unclear>hau ya</unclear>dīyo</l>
 <l n="b"><unclear>di</unclear>śati ca karavāla<lb n="24" break="no"/>-<seg met="+-++-++"><gap reason="illegible" quantity="7" unit="character"/></seg>|</l>
 <l n="c" real="-----+++-++-++">cirayati samagraṁ bhūri-sāṁsāra-mohan</l>
-<l n="d">nara Iva <lb n="25"/><unclear cert="low">bhu</unclear>vi siddho loka-vikhyāta-kīrttiḥ||</l>
+<l n="d">nara Iva <lb n="25"/><unclear cert="low">bhu</unclear>vi siddho loka-vikhyāta-kīrttiḥ<g type="ddanda">.</g></l>
 </lg>
 <p>sa samasta-bhuvanāśraya-śrī<lb n="26" break="no"/>-<unclear>vi</unclear>kramāditya-mahārājādhirāja-parameśvara-parama-bhaṭṭāra<lb n="27" break="no"/><unclear>ka-pa</unclear>rama-brahmaṇyaḥ kaṇḍervvāḍi-viṣaya-nivāsino rāṣṭrakūṭa-pramukhā<lb n="28" break="no"/><unclear>n kuṭimbinas sa</unclear>rvvān ittham ājñāpayati</p>
 <p part="I">viditam astu <gap reason="illegible" extent="unknown" unit="character"/> mādityā <gap reason="illegible" extent="unknown" unit="character"/></p>
@@ -216,7 +216,7 @@
       </app>      
       <app loc="13">
         <lem source="bib:LakshminarayanRao1939-1940_01">drutam āyata-</lem>
-        <note>I accept NLR’s reading with hesitation. If the reading <foreign>m āya</foreign> is correct, then there is at least one extra stroke (resembling a punctuation mark) to the right of <foreign>mā</foreign>.</note>
+        <note>I accept NLR’s reading with hesitation. If the reading <foreign>m āya</foreign> is correct, then there is at least one extra stroke (resembling a punctuation mark) to the right of <foreign>mā</foreign>.</note>
       </app>      
       <app loc="14">
         <lem source="bib:LakshminarayanRao1939-1940_01">-rudhirā<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>-</lem>
@@ -227,11 +227,11 @@
         <note>Again, this reading seems doubtful, but I cannot improve it.</note>
       </app>      
       <app loc="16">
-        <lem source="bib:LakshminarayanRao1939-1940_01">viśālāvakāśam <gap reason="ellipsis"/> <pb n="3r"/><lb n="17"/> <gap reason="ellipsis"/> saroruhāsanaḥ||</lem>
+        <lem source="bib:LakshminarayanRao1939-1940_01">viśālāvakāśam <gap reason="ellipsis"/> <pb n="3r"/><lb n="17"/> <gap reason="ellipsis"/> saroruhāsanaḥ<g type="ddanda">.</g></lem>
         <note>The reading is highly doubtful. This was almost certainly a stanza in the original. NLR suggests that its metre may have been <foreign>āryā</foreign>, but if his reading is largely correct, then this is prosodically impossible. Given the lengths of adjacent lines (29 characters each in lines 14 and 15; 31 in line 18), the total length of the stanza would have been about 40 characters, with about 2 in the first lacuna and about 13 in the second. It may perhaps have been in <foreign>viyoginī</foreign> (42 characters total), but this too is only possible if NLR’s reading is substantially incorrect.</note>
       </app>      
       <app loc="20">
-        <lem source="bib:LakshminarayanRao1939-1940_01">labdha<lb n="21 " break="no"/>-<seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg></lem>
+        <lem source="bib:LakshminarayanRao1939-1940_01">labdha<lb n="21" break="no"/>-<seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg></lem>
         <note>Perhaps restore <foreign>labdha-jayo</foreign>?</note>
       </app>      
       <app loc="21">
@@ -240,7 +240,7 @@
       </app>      
       <app loc="21">
         <lem source="bib:LakshminarayanRao1939-1940_01">-vr̥<choice><sic>rtī</sic><corr>ttī</corr></choice></lem>
-        <note>I adopt NLR’s reading as printed, but there may be a typo in his intended emendation. In the photo, all I can see is an unclear <foreign>t</foreign> with a possible <foreign>i</foreign> on top.</note>
+        <note>I adopt NLR’s reading as printed, but there may be a typo in his intended emendation. In the photo, all I can see is an unclear <foreign>t</foreign> with a possible <foreign>i</foreign> on top.</note>
       </app>      
       <app loc="24">
         <lem source="bib:LakshminarayanRao1939-1940_01">samagraṁ</lem>
@@ -297,7 +297,7 @@
 
 
 <div type="bibliography">
-  <p>Edited from the original by N. Lakshminarayan Rao (<bibl rend="omitname"><ptr target="bib:LakshminarayanRao1939-1940_01"/><citedRange unit="item">A</citedRange></bibl>), with photographs of 2v and 3r,<note>There are no images of 2r and 3v (at least in the reprinted Epigraphia Indica volume). Plate 1 and the plate(s) subsequent to 3 are lost.</note> without translation. The present edition by Dániel Balogh is based on a collation of Lakshminarayan Rao’s edition with his visual aids where available. The photos are rather poor, wholly illegible in the areas overwritten by the later grant and barely or not at all legible outside the palimpsest. I thus follow Lakshminarayan Rao unless otherwise noted, and I adopt NLR’s indications of unclear text rather than marking up as unclear everything that is not clearly legible in the printed photos.</p>
+  <p>Edited from the original by N. Lakshminarayan Rao (<bibl rend="omitname"><ptr target="bib:LakshminarayanRao1939-1940_01"/><citedRange unit="item">A</citedRange></bibl>), with photographs of 2v and 3r,<note>There are no images of 2r and 3v (at least in the reprinted Epigraphia Indica volume). Plate 1 and the plate(s) subsequent to 3 are lost.</note> without translation. The present edition by Dániel Balogh is based on a collation of Lakshminarayan Rao’s edition with his visual aids where available. The photos are rather poor, wholly illegible in the areas overwritten by the later grant and barely or not at all legible outside the palimpsest. I thus follow Lakshminarayan Rao unless otherwise noted, and I adopt NLR’s indications of unclear text rather than marking up as unclear everything that is not clearly legible in the printed photos.</p>
   <listBibl type="primary">
     <bibl n="NLR"><ptr target="bib:LakshminarayanRao1939-1940_01"/><citedRange unit="item">A</citedRange></bibl>
   </listBibl>

@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -158,8 +158,8 @@
         <note>The charater <foreign>ra</foreign> may be a subsequent insertion, as it is spaced very closely and it touches the subscript <foreign>r</foreign> of the following character.</note>
       </app>
       <app loc="10">
-        <lem>-brahma<lb/>ṇya<supplied reason="omitted">ḥ</supplied></lem>
-        <rdg source="bib:Gai1965-1966_01"><lb/>-brahmaṇya<supplied reason="omitted">ḥ</supplied></rdg>
+        <lem>-brahma<lb n="11" break="no"/>ṇya<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Gai1965-1966_01"><lb n="11" break="no"/>-brahmaṇya<supplied reason="omitted">ḥ</supplied></rdg>
       </app>
       <app loc="15">
         <lem>pautrāya pitu<add place="overstrike">s samā</add>na-</lem>
@@ -179,7 +179,7 @@
       </app>
       <app loc="28">
         <lem><sic>itīyasi</sic></lem>
-        <note>Gai tentatively emends to <foreign>likhitam</foreign>. While the ultimate intent here may have been to record the name of the scribe, I feel certain that <foreign>iti</foreign> should not be disregarded. Gai further emends <foreign>putra</foreign> to <foreign>putreṇa</foreign>, and prints <foreign>°varmmaṇā</foreign> as clear, though the final <foreign>ā</foreign> is not visible at all in the scanned rubbing. We cannot exclude the possibility that <foreign>Arjunasya putra Īśānavarmmaṇa</foreign> was meant for a nominative. It may be the name of the scribe (restore e.g. <foreign>ity asya lekhakaḥ</foreign>), or it may be the true name of the executor whose popular name is Eṟayavarmma (restore e.g. <foreign>iti yasya nāma</foreign>). Compare e.g. the <ref target="DHARMA_INSVengiCalukya00062.xml">Ciṁbulūru plates of Vijayāditya III</ref>, where the name of the executor is stated after a similar stanza describing him.</note>
+        <note>Gai tentatively emends to <foreign>likhitam</foreign>. While the ultimate intent here may have been to record the name of the scribe, I feel certain that <foreign>iti</foreign> should not be disregarded. Gai further emends <foreign>putra</foreign> to <foreign>putreṇa</foreign>, and prints <foreign>°varmmaṇā</foreign> as clear, though the final <foreign>ā</foreign> is not visible at all in the scanned rubbing. We cannot exclude the possibility that <foreign>Arjunasya putra Īśānavarmmaṇa</foreign> was meant for a nominative. It may be the name of the scribe (restore e.g. <foreign>ity asya lekhakaḥ</foreign>), or it may be the true name of the executor whose popular name is Eṟayavarmma (restore e.g. <foreign>iti yasya nāma</foreign>). Compare e.g. the <ref target="DHARMA_INSVengiCalukya00062.xml">Ciṁbulūru plates of Vijayāditya III</ref>, where the name of the executor is stated after a similar stanza describing him.</note>
       </app>
       
       
@@ -211,16 +211,17 @@
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-13">Prospérité! le petit-fils de l’illustre Vijayasiddhi<note>Autre <foreign>biruda</foreign> de Maṁgi Yuvāraja, alias Sarvalokāśraya.</note> Maṁgi Yuvarāja, dont la gloire s’étend jusqu’aux quatre océans, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés par tout l’univers, fils de Hārīti, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśiki, dont les cercles ennemis furent soumis en un instant à la vue du signe du sanglier illustre, faveur octroyée par le bienheureux Nārāyaṇa, qui accomplirent l’<foreign>aśvamedha</foreign>, le cher fils du grand roi illustre Viṣṇuvardhana, refuge de tous les hommes, vainqueur,
-<supplied reason="subaudible">fils</supplied> dont la vaillance subjuga l’armée ennemie par la lame acérée d’une épée <supplied reason="subaudible">que tenait</supplied> son propre bras,<supplied reason="subaudible">ce fils</supplied> doté d’un immense royaume qu’il acquit grâce à sa puissance, qui causa la mort des rois qui mènent une politique néfaste comme Kaunteya causa la mort de Duḥśāsana, tel Kārtikeya, à qui nul ne conteste le titre de seigneur, paré des trois pouvoirs, très pieux, excellent dévôt de Maheśvara, méditant aux pieds de sa mère et de son père, refuge de l’univers entier, l’illustre Vijayāditya, roi suprême des grands rois, illustre seigneur, <supplied reason="subaudible">ordonne</supplied>:</p>
-<p n="13-20">qu’il soit connu de vous que, nous donnons au petit-fils de Devaśarman, habitant à Kārāñceḍu, adepte du sūtra Āpastambha, qui connaît le sens véritable des Veda,Vedāṁga, Itihāsa, Purāṇa et Upaniṣad, du <foreign>gotra</foreign> de Hārita, au fils de l’illustre Kumāraśarman dont les vertus égalent celles de son père, à lui qui accomplit constamment les cinq grands sacrifices, qui se consacre constamment à l’exécution des rites d’hospitalité, noble seigneur, à Devaśarman, dans le viṣaya de Viḷānāṇḍu, pendant l’ascension du soleil vers le Nord,<note>Cette expression désigne la « remontée » du soleil vers le Nord entre le solstice d’hiver et celui de l’été.</note> à l’occasion de l’éclipse de lune, en vue de l’accroissement de notre <supplied reason="subaudible">durée de</supplied> vie et de notre santé, exempté de toute charge, le village nommé Śañcaraṁbum.</p>
-<p n="20-22">A l’est la limite de celui-ci est la frontière de Kāvurī, au sud la limite est la frontière de Goṭṭimuka, à l’ouest la limite est la frontière de Sannavṟoli, au nord la limite est la frontière de Iṁṭuri. Aucune charge ne doit lui être imposée, celui qui en impose est lié aux cinq grands crimes. Voici deux stances chantées par Vyāsa:</p>
+<p n="1-13">Prospérité ! le petit-fils de l’illustre Vijayasiddhi<note>Autre <foreign>biruda</foreign> de Maṁgi Yuvāraja, alias Sarvalokāśraya.</note> Maṁgi Yuvarāja, dont la gloire s’étend jusqu’aux quatre océans, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés par tout l’univers, fils de Hārīti, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśiki, dont les cercles ennemis furent soumis en un instant à la vue du signe du sanglier illustre, faveur octroyée par le bienheureux Nārāyaṇa, qui accomplirent l’<foreign>aśvamedha</foreign>, le cher fils du grand roi illustre Viṣṇuvardhana, refuge de tous les hommes, vainqueur,
+<supplied reason="subaudible">fils</supplied> dont la vaillance subjuga l’armée ennemie par la lame acérée d’une épée <supplied reason="subaudible">que tenait</supplied> son propre bras,<supplied reason="subaudible">ce fils</supplied> doté d’un immense royaume qu’il acquit grâce à sa puissance, qui causa la mort des rois qui mènent une politique néfaste comme Kaunteya causa la mort de Duḥśāsana, tel Kārtikeya, à qui nul ne conteste le titre de seigneur, paré des trois pouvoirs, très pieux, excellent dévôt de Maheśvara, méditant aux pieds de sa mère et de son père, refuge de l’univers entier, l’illustre Vijayāditya, roi suprême des grands rois, illustre seigneur, <supplied reason="subaudible">ordonne</supplied> :</p>
+<p n="13-20">qu’il soit connu de vous que, nous donnons au petit-fils de Devaśarman, habitant à Kārāñceḍu, adepte du sūtra Āpastambha, qui connaît le sens véritable des Veda,Vedāṁga, Itihāsa, Purāṇa et Upaniṣad, du <foreign>gotra</foreign> de Hārita, au fils de l’illustre Kumāraśarman dont les vertus égalent celles de son père, à lui qui accomplit constamment les cinq grands sacrifices, qui se consacre constamment à l’exécution des rites d’hospitalité, noble seigneur, à Devaśarman, dans le viṣaya de Viḷānāṇḍu, pendant l’ascension du soleil vers le Nord,<note>Cette expression désigne la « remontée » du soleil vers le Nord entre le solstice d’hiver et celui de l’été.</note> à l’occasion de l’éclipse de lune, en vue de l’accroissement de notre <supplied reason="subaudible">durée de</supplied> vie et de notre santé, exempté de toute charge, le village nommé Śañcaraṁbum.</p>
+<p n="20-22">A l’est la limite de celui-ci est la frontière de Kāvurī, au sud la limite est la frontière de Goṭṭimuka, à l’ouest la limite est la frontière de Sannavṟoli, au nord la limite est la frontière de Iṁṭuri. Aucune charge ne doit lui être imposée, celui qui en impose est lié aux cinq grands crimes. Voici deux stances chantées par Vyāsa :</p>
 <p rend="stanya" n="1">beaucoup ont donné une terre, beaucoup l’ont protégée,
 celui qui possède la terre en possède le fruit.</p>
 <p rend="stanya" n="2">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre boit le crime du meutrier de cent mille vaches.</p>
 <p rend="stanya" n="3">L’exécuteur de cette donation, immaculé, trésor du <foreign>dharma</foreign>, est le nommé Eṟayavarman, à l’esprit élevé, sagace.</p>
 <p n="28">
-<supplied reason="subaudible">Celle-ci</supplied> a été gravée par le fils d’Arjuna, Iśānavarman. </p>
+<supplied reason="subaudible">Celle-ci</supplied> a été gravée par le fils d’Arjuna, Iśānavarman.
+</p>
   
   </div>
 </div>

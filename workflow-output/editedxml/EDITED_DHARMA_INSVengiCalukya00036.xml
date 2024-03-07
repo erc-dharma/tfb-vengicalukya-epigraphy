@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -108,7 +108,7 @@
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb n="1r"/>
-<p><pb n="1v"/><lb n="1"/><unclear><g type="floretQuatrefoil"/></unclear>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrā<lb n="2" break="no"/>ṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānām mātr̥-gaṇa-pa<lb n="3" break="no"/>ripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-pra<lb n="4" break="no"/>sāda-samā<space type="binding-hole"/>sādita-vara-varāha-lāñ<orig>cch</orig>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍa<lb n="5" break="no"/>lānām a<space type="binding-hole"/>śvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ calukyānāṁ kulam a<lb n="6" break="no"/>laṁkariṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣāṇi<supplied reason="omitted">|</supplied> <lb n="7"/>tad-ātmajo jayasiṁhas trayastriṁśata<surplus>ṁ</surplus>M|| tad-anujendrarāja-nandano viṣṇuvarddha<lb n="8" break="no"/>no nava| tat-sūnu<supplied reason="omitted">r</supplied> mmaṁg<choice><sic>ī</sic><corr>i</corr></choice>-yuvarājaḥ paṁcaviṁśati<unclear>M|</unclear> tat-putro jayasiṁha<pb n="2r" break="no"/><lb n="9" break="no"/>s trayodaśa| tad-avarajaḥ kokkili<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN| tasya jyeṣṭho bhrātā viṣṇuvarddhanas tam u<lb n="10" break="no"/>ccāṭya saptatriṁśataM| tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-suto viṣṇu<lb n="11" break="no"/>varddhanaḥ ṣaṭtriṁśataM| tat-suto vijayāditya-narendra-mr̥garājas sāṣṭa-catvāriṁśataṁ<supplied reason="omitted">|</supplied> <lb n="12"/>tat-sutaḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM| tat-suto guṇaga-vijayādityaś ca<lb n="13" break="no"/>tuścatvāriṁ<space type="binding-hole"/>śataM|</p>
+<p><pb n="1v"/><lb n="1"/><unclear><g type="floretQuatrefoil"/></unclear>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrā<lb n="2" break="no"/>ṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānām mātr̥-gaṇa-pa<lb n="3" break="no"/>ripālitānāṁ svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-pra<lb n="4" break="no"/>sāda-samā<space type="binding-hole"/>sādita-vara-varāha-lāñ<orig>cch</orig>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍa<lb n="5" break="no"/>lānām a<space type="binding-hole"/>śvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ calukyānāṁ kulam a<lb n="6" break="no"/>laṁkariṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣāṇi<supplied reason="omitted">|</supplied> <lb n="7"/>tad-ātmajo jayasiṁhas trayastriṁśata<surplus>ṁ</surplus>M<g type="ddanda">.</g> tad-anujendrarāja-nandano viṣṇuvarddha<lb n="8" break="no"/>no nava| tat-sūnu<supplied reason="omitted">r</supplied> mmaṁg<choice><sic>ī</sic><corr>i</corr></choice>-yuvarājaḥ paṁcaviṁśati<unclear>M|</unclear> tat-putro jayasiṁha<pb n="2r" break="no"/><lb n="9" break="no"/>s trayodaśa| tad-avarajaḥ kokkili<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN| tasya jyeṣṭho bhrātā viṣṇuvarddhanas tam u<lb n="10" break="no"/>ccāṭya saptatriṁśataM| tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa| tat-suto viṣṇu<lb n="11" break="no"/>varddhanaḥ ṣaṭtriṁśataM| tat-suto vijayāditya-narendra-mr̥garājas sāṣṭa-catvāriṁśataṁ<supplied reason="omitted">|</supplied> <lb n="12"/>tat-sutaḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM| tat-suto guṇaga-vijayādityaś ca<lb n="13" break="no"/>tuścatvāriṁ<space type="binding-hole"/>śataM|</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">tad-bhrātur yyuvarājasya</l>
 <l n="b">vikramāditya-bhūbhuja<supplied reason="omitted">ḥ</supplied></l>
@@ -151,12 +151,12 @@
 <l n="c">ṣaṣṭi-varṣa-sahasrāṇi</l>
 <l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>āyāṁ jāyate kr̥miḥ</l>
 </lg>
-<p><pb n="3v" break="no"/><lb n="35"/>Ājñ<orig>ā</orig>ptiḥ kaṭaka-rājaḥ| Etasya rakṣakā<supplied reason="omitted">ḥ</supplied> syur u<supplied reason="omitted">ru</supplied>-hasty-ubhaya-gaṇa-sahasra-dvitaye| kalvapākṣī<lb n="36" break="no"/>vumācepu-patayaḥ balāka-piṁccha-cchatra-velā-bhaṭ<choice><sic>a</sic><corr>ā</corr></choice>ḥ|| mādhavabhaṭṭasya kāvyaM|</p>
+<p><pb n="3v" break="no"/><lb n="35"/>Ājñ<orig>ā</orig>ptiḥ kaṭaka-rājaḥ| Etasya rakṣakā<supplied reason="omitted">ḥ</supplied> syur u<supplied reason="omitted">ru</supplied>-hasty-ubhaya-gaṇa-sahasra-dvitaye| kalvapākṣī<lb n="36" break="no"/>vumācepu-patayaḥ balāka-piṁccha-cchatra-velā-bhaṭ<choice><sic>a</sic><corr>ā</corr></choice>ḥ<g type="ddanda">.</g> mādhavabhaṭṭasya kāvyaM|</p>
 <lg n="8" met="anuṣṭubh">
 <l n="a"><choice><orig>dattan drāja</orig><reg>dattaṁ rāja</reg></choice>-ma<lb n="37" break="no"/>hendrasya</l>
 <l n="b">viśvaka<unclear>r</unclear>mmopamena ca</l>
 <l n="c">koṇḍācāryyeṇa <sic>nāmnātaṁ</sic></l>
-<l n="d">likhitaṁ śāsanaṁ śubhaṁ||</l>
+<l n="d">likhitaṁ śāsanaṁ śubhaṁ<g type="ddanda">.</g></l>
 </lg>
 </div>
 </div>
@@ -176,7 +176,7 @@
       </app>
       <app loc="8">
         <lem>°viṁśati<unclear>M|</unclear></lem>
-        <rdg source="bib:Fleet1884_03">°viṁśati<supplied reason="omitted">M</supplied>||</rdg>
+        <rdg source="bib:Fleet1884_03">°viṁśati<supplied reason="omitted">M</supplied><g type="ddanda">.</g></rdg>
       </app>
       <app loc="13">
         <lem>-nanda<add place="inline">na</add><lb n="14" break="no"/>ś</lem>
@@ -232,7 +232,7 @@
       </app>
       <app loc="35">
         <lem>-dvitaye|</lem>
-        <note>The first two characters of this word are wholly indiscernible in my scan. I wonder if it is possible to read <foreign>-patayo</foreign> instead. However, with <foreign>-dvitaye</foreign> and with Fleet’s emendation of the preceding text, we actually have an <foreign>āryā</foreign> hemistich here, which would be spoiled by reading <foreign>-patayo</foreign>.</note>
+        <note>The first two characters of this word are wholly indiscernible in my scan. I wonder if it is possible to read <foreign>-patayo</foreign> instead. However, with <foreign>-dvitaye</foreign> and with Fleet’s emendation of the preceding text, we actually have an <foreign>āryā</foreign> hemistich here, which would be spoiled by reading <foreign>-patayo</foreign>.</note>
       </app>
       <app loc="35">
         <lem>kalvapākṣī°</lem>
@@ -285,39 +285,39 @@ Substantiated as a <supplied reason="explanation">copperplate</supplied> charter
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-13">Om! Prospérité! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, qui orne la dynastie des Cālukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, loués dans l’univers entier, fils de Hārīti, ayant reçu leur royaume par l’excellente faveur de Kauśikī, protégés par les Mères réunies, méditant aux pieds du seigneur Mahāsena, eux dont les cercles ennemis ont été soumis en un instant à la vue du signe de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, eux dont les corps ont été purifiés grâce aux bains consécutifs au sacrifice du cheval, pendant dix huit années.
-Son fils Jayasiṁha pendant trente-trois ans;
-Le fils d’Indrarāja, son frère cadet, Viṣṇuvardhana, pendant neuf ans;
-Le fils de celui-ci, Maṁgi, le prince héritier, pendant vingt-cinq ans;
-Son fils Jayasiṁha pendant treize ans;
-Le frère cadet de ce dernier, Kokkili, pendant six mois;
-Son frère aîné Viṣṇuvardhana, après l’avoir chassé, pendant trente-sept ans;
-Le fils de celui-ci, Vijayāditya, l’illustre seigneur, pendant dix-huit ans;
-Son fils Viṣṇuvardhana pendant trente-six ans;
-Son fils, le roi Vijayāditya Mr̥garāja pendant quarante-huit ans;
-Le fils de ce dernier, Kali Viṣṇuvardhana, pendant un an et demi;
-Son fils Guṇaga Vijayāditya pendant quarante-quatre ans;
+<p n="1-13">Om ! Prospérité ! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, qui orne la dynastie des Cālukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, loués dans l’univers entier, fils de Hārīti, ayant reçu leur royaume par l’excellente faveur de Kauśikī, protégés par les Mères réunies, méditant aux pieds du seigneur Mahāsena, eux dont les cercles ennemis ont été soumis en un instant à la vue du signe de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, eux dont les corps ont été purifiés grâce aux bains consécutifs au sacrifice du cheval, pendant dix huit années.
+Son fils Jayasiṁha pendant trente-trois ans ;
+Le fils d’Indrarāja, son frère cadet, Viṣṇuvardhana, pendant neuf ans ;
+Le fils de celui-ci, Maṁgi, le prince héritier, pendant vingt-cinq ans ;
+Son fils Jayasiṁha pendant treize ans ;
+Le frère cadet de ce dernier, Kokkili, pendant six mois ;
+Son frère aîné Viṣṇuvardhana, après l’avoir chassé, pendant trente-sept ans ;
+Le fils de celui-ci, Vijayāditya, l’illustre seigneur, pendant dix-huit ans ;
+Son fils Viṣṇuvardhana pendant trente-six ans ;
+Son fils, le roi Vijayāditya Mr̥garāja pendant quarante-huit ans ;
+Le fils de ce dernier, Kali Viṣṇuvardhana, pendant un an et demi ;
+Son fils Guṇaga Vijayāditya pendant quarante-quatre ans ;
 </p>
-<p rend="stanza" n="1">Le fils du roi Vikramāditya, prince héritier, frère de ce dernier,<note>Frère de Guṇagāṁka</note> le pur Kandarpa, le roi Bhīma pendant trente ans;</p>
-<p n="14-17">Son fils Kollabhigaṇḍa Bhāskara pendant six mois;
-Le fils aîné de celui-ci, Ammarāja, pendant sept ans;
-Son fils aîné Vijayāditya, qui était enfant, quinze jours;
-Après l’avoir vaincu et mis en prison, le fils de Yuddhamalla, oncle de Cālukya Bhīma, le roi Tāla, pendant un mois;
-Puis Vikramāditya pendant un an;</p>
-<p rend="stanza" n="2">Le fils de Kollabhigaṇḍa, Bhīma fut nommé Kaṟayilla, il fut le seigneur de Veṅgī pendant douze ans, après avoir repoussé les ténèbres qu’étaient les armées ennemies de ses prétendants;</p>
-<p rend="stanza" n="3">un fils naquit de celui-ci et de Lokamahādevī: Ammarāja;
-quant à la vaillance, il était pareil à Arjuna, quant au dharma à Dharmarāja;</p>
-<p n="20-22">Celui-ci, refuge de l’univers entier, l’illustre Vijayāditya, souverain suprême des grands rois, premier seigneur, illustre seigneur, très pieux, ayant convoqué tous les chefs de familles de la circonscription de Veṅgī, les <foreign>rāṣṭrakūṭa</foreign> en tête, ordonne ceci:</p>
-<p rend="stanza" n="4">Lieu de naissance de la vérité, vénéré par son peuple, splendide seigneur, séjour de l’unique vertu qu’est le courage, le roi Kāma, qui révère les lotus que sont les pieds d’Īśa ,</p>
+<p rend="stanza" n="1">Le fils du roi Vikramāditya, prince héritier, frère de ce dernier,<note>Frère de Guṇagāṁka</note> le pur Kandarpa, le roi Bhīma pendant trente ans ;</p>
+<p n="14-17">Son fils Kollabhigaṇḍa Bhāskara pendant six mois ;
+Le fils aîné de celui-ci, Ammarāja, pendant sept ans ;
+Son fils aîné Vijayāditya, qui était enfant, quinze jours ;
+Après l’avoir vaincu et mis en prison, le fils de Yuddhamalla, oncle de Cālukya Bhīma, le roi Tāla, pendant un mois ;
+Puis Vikramāditya pendant un an ;</p>
+<p rend="stanza" n="2">Le fils de Kollabhigaṇḍa, Bhīma fut nommé Kaṟayilla, il fut le seigneur de Veṅgī pendant douze ans, après avoir repoussé les ténèbres qu’étaient les armées ennemies de ses prétendants ;</p>
+<p rend="stanza" n="3">un fils naquit de celui-ci et de Lokamahādevī : Ammarāja ;
+quant à la vaillance, il était pareil à Arjuna, quant au dharma à Dharmarāja ;</p>
+<p n="20-22">Celui-ci, refuge de l’univers entier, l’illustre Vijayāditya, souverain suprême des grands rois, premier seigneur, illustre seigneur, très pieux, ayant convoqué tous les chefs de familles de la circonscription de Veṅgī, les <foreign>rāṣṭrakūṭa</foreign> en tête, ordonne ceci :</p>
+<p rend="stanza" n="4">Lieu de naissance de la vérité, vénéré par son peuple, splendide seigneur, séjour de l’unique vertu qu’est le courage, le roi Kāma, qui révère les lotus que sont les pieds d’Īśa,</p>
 <p rend="stanza" n="5">et celle qui possède la beauté, le charme, la splendeur et la franchise, dévouée au bien, Nāyāṁbā et la cour de ce dernier, elle dont l’éclat du regard augmente la splendeur,</p>
-<p n="25-29">il nous a été demandé par notre beau-père et notre belle-mère de donner à Vāmanaśārman, petit-fils de Vājasaneya Vāmanabhaṭṭa, du gotra de Bhāradvāja, qui habitait le village de Kallūru, fils de Śivvanabhaṭṭa, un terrain dont les semences et les graines de kodrava rapportent douze khaṇḍika,<note><foreign>khaṇḍika</foreign>: mesure de capacité, cf. D. C. Sircar, 1966, p. 156.</note> à l’est du village nommé Guṇḍugolanu, à l’occasion du solstice d’hiver, après l’aspersion rituelle. Que ceci soit connu de vous! L’édit prescrit que cette donation est exempte de toutes taxes.</p>
-<p n="29-32">Les limites de ce terrain sont:
+<p n="25-29">il nous a été demandé par notre beau-père et notre belle-mère de donner à Vāmanaśārman, petit-fils de Vājasaneya Vāmanabhaṭṭa, du gotra de Bhāradvāja, qui habitait le village de Kallūru, fils de Śivvanabhaṭṭa, un terrain dont les semences et les graines de kodrava rapportent douze khaṇḍika,<note><foreign>khaṇḍika</foreign> : mesure de capacité, cf. D. C. Sircar, 1966, p. 156.</note> à l’est du village nommé Guṇḍugolanu, à l’occasion du solstice d’hiver, après l’aspersion rituelle. Que ceci soit connu de vous ! L’édit prescrit que cette donation est exempte de toutes taxes.</p>
+<p n="29-32">Les limites de ce terrain sont :
 à l’est Tepalamupariya,
-au sud Punnīsvaramma-nagaruvu ,
+au sud Punnīsvaramma-nagaruvu,
 à l’ouest le <foreign>pannasa</foreign> de Bhaṭāri,
 au nord Guṇḍiyabhaṭlaveṟuvu,
 Aucune charge ne doit lui être imposée, celui qui en impose est lié aux cinq grands crimes.
-Ainsi a parlé le bienheureux Vyāsa:</p>
+Ainsi a parlé le bienheureux Vyāsa :</p>
 <p rend="stanza" n="6">beaucoup ont donné une terre, beaucoup l’ont protégée,
 celui qui possède la terre en possède le fruit.</p>
 <p rend="stanza" n="7">Qu’elle soit donnée par lui ou par un autre, celui qui prend une terre
@@ -340,13 +340,13 @@ renaît ver de terre dans des excréments pendant soixante mille ans.</p>
 
 
 <div type="bibliography">
-  <p>Edited from the original by Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1884_03"/></bibl>), with facsimiles but without a translation. The present edition by Dániel Balogh is based on a collation of Fleet’s edition with his published facsimiles.<note>My scan of IA13 is quite poor. I follow Fleet wherever the scan is illegible. This edition will need to be reCHECKed when photos of Ind. Ch. 10 are available from the BL.</note></p>
+  <p>Edited from the original by Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1884_03"/></bibl>), with facsimiles but without a translation. The present edition by Dániel Balogh is based on a collation of Fleet’s edition with his published facsimiles.<note>My scan of IA13 is quite poor. I follow Fleet wherever the scan is illegible. This edition will need to be reCHECKed when photos of Ind. Ch. 10 are available from the BL.</note></p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1884_03"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl/>
+    <bibl><ptr target="bib:Gaur1975_01"/><citedRange unit="page">6-7</citedRange><citedRange unit="item">Ind. Ch. 10</citedRange></bibl>
   </listBibl>
 </div>
 

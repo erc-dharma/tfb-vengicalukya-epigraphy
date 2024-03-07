@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -114,7 +114,7 @@ tad-<choice><sic>āgrā</sic><corr>agra</corr></choice>jo viṣṇurājas saptat
 <l n="a">kāliṁga-gaṁga-r<unclear>ūpyād</unclear>i</l>
 <l n="b"><lb n="14"/><unclear>kośa</unclear>le<choice><sic>ṣ</sic><corr>ś</corr></choice><unclear>a</unclear>-dvipādi <subst><del rend="corrected"><unclear>ja</unclear></del><add place="overstrike">ca</add></subst></l>
 <l n="c">pāṇḍya-pallava-hemādi</l>
-<l n="d">balā<supplied reason="omitted">t</supplied> tyā<unclear>gārt</unclear>th<unclear>am ā</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>haraT<unclear>||</unclear></l>
+<l n="d">balā<supplied reason="omitted">t</supplied> tyā<unclear>gārt</unclear>th<unclear>am ā</unclear><pb n="2v" break="no"/><lb n="15" break="no"/>haraT<unclear><g type="ddanda">.</g></unclear></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
 <l n="a" enjamb="yes">ga<unclear>ṁ</unclear>gān āropayad gaṁga</l>
@@ -140,7 +140,7 @@ tad-<choice><sic>āgrā</sic><corr>agra</corr></choice>jo viṣṇurājas saptat
 <l n="a">mattāditya-prasāda-dvirada-vara-guru-skandham ā<lb n="24" break="no"/>ruhya kopā<space type="binding-hole"/>T</l>
 <l n="b">cāpād unmukta-bāṇair udaya-girim ito bhānur u<lb n="25" break="no"/>srais tamisraṁ<space type="binding-hole"/></l>
 <l n="c">yadvat <supplied reason="omitted">t</supplied>advan nir<choice><sic>a</sic><corr>ā</corr></choice>sthad dhr̥ta-sakala-bhuvo yas tu goḷā<lb n="26" break="no"/>-taṭa-sthāN</l>
-<l n="d">karṇṇāṭān durddurūṭā<orig>n</orig> jhaṭiti paṭu-naṭad-ghoṭakān lāṭa<lb n="27" break="no"/>kāṁś ca||
+<l n="d">karṇṇāṭān durddurūṭā<orig>n</orig> jhaṭiti paṭu-naṭad-ghoṭakān lāṭa<lb n="27" break="no"/>kāṁś ca<g type="ddanda">.</g>
 </l></lg>
 <p>sa sarvva-lokāśraya-śrī-vi<add place="overstrike">ṣṇuvarddhana-cālukya</add>-bhīma-mahārā<lb n="28" break="no"/>jādhirāja-parameśvaraḥ parama-māheśvaraḥ varavara-rāṣṭra<surplus>kū</surplus><pb n="3v" break="no"/><lb n="29" break="no"/>-<unclear>ni</unclear>vāsino rāṣṭrakūṭa-pramukhān kuṭumbina Ittham ājñāpayati|</p>
 <lg n="6" met="anuṣṭubh">
@@ -355,7 +355,7 @@ vāyavyataḥ ca<unclear>rmma</unclear><lb n="52" break="no"/>ṇḍ<unclear>i</
        <lem>kr̥<supplied reason="omitted">ta</supplied><unclear>vā</unclear><unclear cert="low">n loka</unclear><lb n="46" break="no"/><unclear cert="low">sā</unclear>t kr̥t<unclear>ī</unclear></lem>
        <rdg source="bib:Sankaranarayanan1973_01">k<choice><sic>ri</sic><corr>r̥</corr></choice><supplied reason="lost" cert="low">tavān loka</supplied><lb n="46" break="no"/>-<supplied reason="lost" cert="low">sa</supplied>t-kr̥tiṁ</rdg>
        <rdg source="bib:Venkataramanayya1974_05">kr̥cchra<lb n="46" break="no"/>vat-kr̥tī</rdg>
-       <note>SS’s <foreign>kri</foreign> is probably a typo for <foreign>kr̥</foreign>, since this character is clear. The next character is almost certainly <foreign>vā</foreign>, definitely without an intervening <foreign>ta</foreign>, so SS probably intended to supply an omitted <foreign>ta</foreign> here. After this point, the plate is badly effaced, with only vestiges visible in the rubbing and less than that in the photo. Nonetheless, these vestiges give some confirmation for most of SS’s reading, which he offers as a tentative restoration. After <foreign>vā</foreign>, <foreign>nlo</foreign> (especially a subscript <foreign>l</foreign> and the vocalisation <foreign>o</foreign>, the whole character being lowered because of the overhanging subscript y) is very plausible. Conversely, NV’s <foreign>kr̥cchra</foreign> is impossible; what he apparently saw as the subscript part of <foreign>cchra</foreign> is in fact the vowel marker of <foreign>rvvo</foreign> in the following line (which he misreads as <foreign>rvva</foreign>, see the apparatus there). NV’s reading is, moreover, hypometrical. Since there are probably only two characters after <foreign>vā</foreign> (though a very narrow additional character right after <foreign>vā</foreign> cannot be ruled out), I agree that one more syllable needs to be supplied and accept SS’s restoration with minor changes. I endorse NV’s reading of <foreign>kr̥tī</foreign> at the end of this segment. I construe the text very differently from how SS must have understood it, since I feel certain of the reading <foreign>yāṁ</foreign> earlier in the stanza, and to obtain a coherent sentence, read <foreign>lokasāt</foreign> instead of <foreign>loka-sat</foreign>. I remain far from certain in this reconstruction and my interpretation of the stanza. A scrutiny of the original may be helpful here.</note>
+       <note>SS’s <foreign>kri</foreign> is probably a typo for <foreign>kr̥</foreign>, since this character is clear. The next character is almost certainly <foreign>vā</foreign>, definitely without an intervening <foreign>ta</foreign>, so SS probably intended to supply an omitted <foreign>ta</foreign> here. After this point, the plate is badly effaced, with only vestiges visible in the rubbing and less than that in the photo. Nonetheless, these vestiges give some confirmation for most of SS’s reading, which he offers as a tentative restoration. After <foreign>vā</foreign>, <foreign>nlo</foreign> (especially a subscript <foreign>l</foreign> and the vocalisation <foreign>o</foreign>, the whole character being lowered because of the overhanging subscript y) is very plausible. Conversely, NV’s <foreign>kr̥cchra</foreign> is impossible; what he apparently saw as the subscript part of <foreign>cchra</foreign> is in fact the vowel marker of <foreign>rvvo</foreign> in the following line (which he misreads as <foreign>rvva</foreign>, see the apparatus there). NV’s reading is, moreover, hypometrical. Since there are probably only two characters after <foreign>vā</foreign> (though a very narrow additional character right after <foreign>vā</foreign> cannot be ruled out), I agree that one more syllable needs to be supplied and accept SS’s restoration with minor changes. I endorse NV’s reading of <foreign>kr̥tī</foreign> at the end of this segment. I construe the text very differently from how SS must have understood it, since I feel certain of the reading <foreign>yāṁ</foreign> earlier in the stanza, and to obtain a coherent sentence, read <foreign>lokasāt</foreign> instead of <foreign>loka-sat</foreign>. I remain far from certain in this reconstruction and my interpretation of the stanza. A scrutiny of the original may be helpful here.</note>
      </app>
      <app loc="46">
        <lem source="bib:Venkataramanayya1974_05">ta<space type="binding-hole"/><unclear>s</unclear>yai <unclear cert="low">śrī</unclear>-</lem>
@@ -447,10 +447,10 @@ vāyavyataḥ ca<unclear>rmma</unclear><lb n="52" break="no"/>ṇḍ<unclear>i</
 <p rend="stanza" n="4">ascended the throne, pulverised his foes, held the earth in his fetters, <seg cert="low">protected</seg> his subjects, displayed his glory, duly worshipped Brahmins, honoured the worthy, bore garlands of virtue;</p>
 <p rend="stanza" n="5">the one who, wrathfully mounting the heavy shoulder of his excellent elephant the raging Ādityaprasāda, with the arrows released from his bow at once dispersed—just as the sun ascending Mount Sunrise <supplied reason="subaudible">disperses</supplied> the darkness with its rays—the dastardly Karṇāṭas stationed on the bank of the Godā, who had occupied the entire earth, and the Lāṭakas with their smartly prancing horses—</p>
 <p n="27-29">that shelter of all the world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>, His Majesty Viṣṇuvardhana Cālukya-Bhīma <supplied reason="explanation">I</supplied>, Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>mahārājādhirāja</foreign></supplied> and supreme devotee of Maheśvara, commands all householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—who reside in Varavara district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> as follows:</p>
-<p rend="stanza" n="6">The foremost vassal <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> Sarvarāja of renowned valour had a daughter named Tailāmbā, as the Himalaya had <supplied reason="subaudible">the daughter</supplied> Umā.</p>
-<p rend="stanza" n="7">Yuddhamalla of the boar ensign, son of the vassal prince named His Highness Baladakayya, married her as Śambhu <supplied reason="subaudible">married Umā</supplied>.</p>
+<p rend="stanza" n="6">The foremost baron <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> Sarvarāja of renowned valour had a daughter named Tailāmbā, as the Himalaya had <supplied reason="subaudible">the daughter</supplied> Umā.</p>
+<p rend="stanza" n="7">Yuddhamalla of the boar ensign, son of the foremost baron <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> named His Highness Baladakayya, married her as Śambhu <supplied reason="subaudible">married Umā</supplied>.</p>
 <p rend="stanza" n="8-9">Their resplendent daughter Śrī-Mahādevī was slender but bent with <supplied reason="subaudible">the weight of</supplied> her plump and firm breasts; her eyes were bright and wide, her fingers, toes, soles and palms resembled tender <foreign>aśoka</foreign> sprigs, her navel was recessed and her hips<note>The word <foreign>kṣitā</foreign> or <foreign>kṣita</foreign> is not known from other sources, but must mean hips or buttocks here.</note> heavy, her lips were like a ripe <foreign>bimba</foreign> fruit, and her complexion was like heated gold.</p>
-<p rend="stanza" n="10"><supplied reason="explanation">Vijayāditya was</supplied> the son of Niravadya Dhavala, grandson of the vassal <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> lord His Highness Pāṇḍarāṅga and one whose head was wrapped in the impeccable turban duly inherited in the celebrated lineage of castellans <supplied reason="explanation"><foreign>kaṭaka-rāja</foreign></supplied>,</p>
+<p rend="stanza" n="10"><supplied reason="explanation">Vijayāditya was</supplied> the son of Niravadya Dhavala, grandson of the lordly baron <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> His Highness Pāṇḍarāṅga and one whose head was wrapped in the impeccable turban duly inherited in the celebrated lineage of castellans <supplied reason="explanation"><foreign>kaṭaka-rāja</foreign></supplied>,</p>
 <p n="38">and who—</p>
 <p rend="stanza" n="11">appeared like Manu in his considerate speech, like Hari in his majesty <seg rend="pun">with Lakṣmī</seg>, like Death in his valour, like Love in his physical beauty, like Guru <supplied reason="explanation">Br̥haspati</supplied> in his intellect, like a wish-fulfilling tree in his generosity;</p>
 <p n="40">moreover,</p>
@@ -470,20 +470,20 @@ vāyavyataḥ ca<unclear>rmma</unclear><lb n="52" break="no"/>ṇḍ<unclear>i</
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-13">Prospérité! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés dans l’univers entier, fils de Hāritī, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśikī, protégés par la troupes des Mères, méditant aux pieds du seigneur Mahāsena, dont le cercle des ennemis fut soumis en un instant à la vue du signe illustre de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps furent purifiés par le bain purificatoire de l’<foreign>aśvamedha</foreign>, <supplied reason="subaudible">régna</supplied> pendant dix-huit années; son fils, Jayasiṁha, pendant trente-trois <supplied reason="subaudible">années</supplied>; 
-le cher fils de son frère cadet Indrarāja, Viṣṇuvardhana, pendant neuf <supplied reason="subaudible">années</supplied>;
-le fils de celui-ci, Maṁgi-Yuvarāja, pendant vingt-cinq <supplied reason="subaudible">années</supplied>;
-son fils, Jayasiṁha, pendant treize <supplied reason="subaudible">année</supplied>;
-son frère cadet, Kokkili, pendant six mois;
-le frère de celui-ci, Viṣṇurāja, pendant trente-sept <supplied reason="subaudible">années</supplied>;
-son fils Vijayāditya pendant dix-neuf <supplied reason="subaudible">années</supplied>;<note>Toutes les autres inscriptions de notre corpus attestent une durée de règne de 18 années.</note>
-le fils de celui-ci, Viṣṇurāja, pendant trente-six <supplied reason="subaudible">années</supplied>;
+<p n="1-13">Prospérité ! Kubja Viṣṇuvardhana, frère de Satyāśraya Vallabhendra, ornement de la lignée des Calukya, illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés dans l’univers entier, fils de Hāritī, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśikī, protégés par la troupes des Mères, méditant aux pieds du seigneur Mahāsena, dont le cercle des ennemis fut soumis en un instant à la vue du signe illustre de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps furent purifiés par le bain purificatoire de l’<foreign>aśvamedha</foreign>, <supplied reason="subaudible">régna</supplied> pendant dix-huit années ; son fils, Jayasiṁha, pendant trente-trois <supplied reason="subaudible">années</supplied> ; 
+le cher fils de son frère cadet Indrarāja, Viṣṇuvardhana, pendant neuf <supplied reason="subaudible">années</supplied> ;
+le fils de celui-ci, Maṁgi-Yuvarāja, pendant vingt-cinq <supplied reason="subaudible">années</supplied> ;
+son fils, Jayasiṁha, pendant treize <supplied reason="subaudible">année</supplied> ;
+son frère cadet, Kokkili, pendant six mois ;
+le frère de celui-ci, Viṣṇurāja, pendant trente-sept <supplied reason="subaudible">années</supplied> ;
+son fils Vijayāditya pendant dix-neuf <supplied reason="subaudible">années</supplied> ;<note>Toutes les autres inscriptions de notre corpus attestent une durée de règne de 18 années.</note>
+le fils de celui-ci, Viṣṇurāja, pendant trente-six <supplied reason="subaudible">années</supplied> ;
 son fils Vijayāditya pendant quarante <supplied reason="subaudible">années</supplied>,
-le fils de ce dernier, Kali-Viṣṇuvarddhana, une année et demi;
+le fils de ce dernier, Kali-Viṣṇuvarddhana, une année et demi ;
 Le prince de cette lignée,</p>
-<p rend="stanza" n="1">qui, rapporta, par la force, l’argent des Kāliṁga et des Gaṁga, etc., les éléphants des Kośala, etc., maître de l’or des Pāṇḍya et des Pallava , etc., dans le but de les donner;</p>
-<p rend="stanza" n="2">contraignit les Gaṁga à monter sur le Gaṁgakūṭa, coupa la tête de Maṁgi,<note>Il est aussi question de ce personnage dans les insc. nos 32, str.5; 37, str. 10, 41.</note>
-vainquit au combat Kr̥ṣṇa, - qui pourrait décrire les exploits que produisit sa fougue?-</p>
+<p rend="stanza" n="1">qui, rapporta, par la force, l’argent des Kāliṁga et des Gaṁga, etc., les éléphants des Kośala, etc., maître de l’or des Pāṇḍya et des Pallava, etc., dans le but de les donner ;</p>
+<p rend="stanza" n="2">contraignit les Gaṁga à monter sur le Gaṁgakūṭa, coupa la tête de Maṁgi,<note>Il est aussi question de ce personnage dans les insc. nos 32, str.5 ; 37, str. 10, 41.</note>
+vainquit au combat Kr̥ṣṇa, - qui pourrait décrire les exploits que produisit sa fougue ?-</p>
 <p n="16-17">Lui, Vijayāditya, fit prospérer à chaque saison le royaume de Veṅgī, pendant quarante-quatre années.</p>
 <p rend="stanza" n="3">Lorsque les deux Jayasiṁha, les cinq Viṣṇuvardhana avec Maṁgi, Kokkili, les trois Vijayāditya, s’en furent allés,</p>
 <p n="19-20">le fils aîné du roi Vikramāditya, dont la vaillance avait conquis toute la surface de la terre, le frère de ce dernier Vijayāditya.</p>
@@ -496,35 +496,35 @@ des flèches décochées de son arc - tel le soleil parvenu Mont du Levant, chas
 il délogea les Karṇaṭa qui, tenant la terre entière, occupaient les rives de la Godā<supplied reason="subaudible">varī</supplied>,
 ainsi que, soudainement, les Laṭaka mécréants, dont les chevaux dansaient avec adresse.</p>
 <p n="27-29">Lui, refuge du monde entier, l’illustre Viṣṇuvardhana Cālukya Bhīma, roi suprême des grands rois, seigneur suprême, dévôt de Māheśvara,
-ordonne ceci aux chefs de familles, habitant le rāṣṭra de Varavara, rāṣṭrakūṭa en tête:</p>
+ordonne ceci aux chefs de familles, habitant le rāṣṭra de Varavara, rāṣṭrakūṭa en tête :</p>
 <p rend="stanza" n="6">Ce roi universel, éminent feudataire, au tejas renommé,
 telle Umā <supplied reason="subaudible">née</supplied> d’Himalaya, avait une fille nommée Tailāmbā.</p>
 <p rend="stanza" n="7">Le fils du seigneur des feudataires, - illustre, nommé Baladakayya -,
-l’épousa, comme Śaṁbhu, Yuddhamalla, porteur de la marque du sanglier;<note>La strophe 7 poursuit peut-être la comparaison diagrammatique entre la lignée divine śivaïte et la lignée du héros. La relation <foreign>bimba-pratibimba</foreign> est fondée sur l’analogie entre la relation filiale de Tailāṁbā et Sarvarāja et celle d’Umā et Himālaya. La comparaison de Baladakayya à Śaṁbhu incite à penser que cette figure se poursuit sur la strophe 7: la relation conjugale de ce dernier et Tailāṁbā correspondant à celle de Śiva et Umā. Mais le composé <foreign>sūkara-lāṁchanaḥ</foreign>, « porteur de la marque du sanglier », dans le pāda d, ne peut désigner que Viṣṇu, lui aussi qualifié souvent de « Śaṁbhu ». Cette expression est une allusion au sceau des Cālukya de Veṅgī.</note></p>
+l’épousa, comme Śaṁbhu, Yuddhamalla, porteur de la marque du sanglier ;<note>La strophe 7 poursuit peut-être la comparaison diagrammatique entre la lignée divine śivaïte et la lignée du héros. La relation <foreign>bimba-pratibimba</foreign> est fondée sur l’analogie entre la relation filiale de Tailāṁbā et Sarvarāja et celle d’Umā et Himālaya. La comparaison de Baladakayya à Śaṁbhu incite à penser que cette figure se poursuit sur la strophe 7 : la relation conjugale de ce dernier et Tailāṁbā correspondant à celle de Śiva et Umā. Mais le composé <foreign>sūkara-lāṁchanaḥ</foreign>, « porteur de la marque du sanglier », dans le pāda d, ne peut désigner que Viṣṇu, lui aussi qualifié souvent de « Śaṁbhu ». Cette expression est une allusion au sceau des Cālukya de Veṅgī.</note></p>
 <p rend="stanza" n="8">sa fille <supplied reason="subaudible">fut</supplied> l’illustre Mahādevī, aux resplendissants yeux en amande,
 dont la peau des doigts des mains et des pieds étaient un massif de bourgeons d’<foreign>aśoka</foreign>,</p>
 <p rend="stanza" n="9">qui ployait sous le poids de ses seins charnus et proéminents, au nombril profond, à la démarche grave,
 aux lèvres couleur du bimba mûr, menue, éclatante comme l’or en fusion, resplendissante.</p>
-<p rend="stanza" n="10">Le seigneur des feudataires, l’illustre Pāṇḍarāṁga, eut un descendant exempt de blâme et splendide, dont le front s’ornait du bandeau irréprochable hérité du lignage célèbre des <foreign>kaṭakarāja</foreign>;</p>
+<p rend="stanza" n="10">Le seigneur des feudataires, l’illustre Pāṇḍarāṁga, eut un descendant exempt de blâme et splendide, dont le front s’ornait du bandeau irréprochable hérité du lignage célèbre des <foreign>kaṭakarāja</foreign> ;</p>
 <p n="38">et,</p>
-<p rend="stanza" n="11">il ressemble à Manu par ses paroles réfléchies, à Hari par sa Fortune, à Kr̥tānta par sa vaillance, à Smara par sa beauté, par son intelligence, au <foreign>guru</foreign>,<note>Br̥haspati.</note> par sa libéralité à l’arbre à vœux .</p>
+<p rend="stanza" n="11">il ressemble à Manu par ses paroles réfléchies, à Hari par sa Fortune, à Kr̥tānta par sa vaillance, à Smara par sa beauté, par son intelligence, au <foreign>guru</foreign>,<note>Br̥haspati.</note> par sa libéralité à l’arbre à vœux.</p>
 <p n="40">Et,</p>
 <p rend="stanza" n="12"><supplied reason="subaudible">Il possédait</supplied> une vaillance invincible, une beauté resplendissante, un esprit naturellement éminent, toujours sincère, exempt de méchanceté, <supplied reason="subaudible">il possédait</supplied> une gloire à la forme éclatante <supplied reason="subaudible">telle</supplied> un dais de ses victoires, la puissance, une conduite charmante <supplied reason="subaudible">fondée</supplied> sur une abondante réflexion, <supplied reason="subaudible">lui dont</supplied> les dons étaient loués par les nécessiteux, doué d’une sagesse estimée par les sages sur terre, <supplied reason="subaudible">lui</supplied> Vijayāditya.</p>
 <p rend="stanza" n="13">L’illustre Vijayāditya, aux paroles sincères, destructeur des ennemis,
 atteignit la réalisation du <foreign>dharma</foreign>, du <foreign>kāma</foreign> et de l’<foreign>artha</foreign>,<note>Il manque cinq syllabes. On attend, après l’énumération des trois buts, l’évocation du quatrième but, mokṣa. Le fait que le roi fasse un don de village à Mahādevī corrobore l’hypothèse que ce personnage soit mort.</note></p>
 <p n="46-48"><supplied reason="subaudible">Vijayāditya</supplied>, qui éprouvait de la reconnaissance au souvenir des services rendus par l’époux de celle-ci, donne à cette Mahādevī le village nommé Moga, exempté de toute taxe, à l’occasion d’une annonce portée à la connaissance <supplied reason="subaudible">de tous</supplied>,</p>
-<p n="48-54">Les limites de ce dernier <supplied reason="subaudible">sont</supplied>:
+<p n="48-54">Les limites de ce dernier <supplied reason="subaudible">sont</supplied> :
 à l’est le rivage nommé Puliyeṟu,
 au sud-est l’étang de Muṇṭha-Rāvula,
 au sud le terrain de Narendreśvara, Ceṁbaṟu,
 au sud-ouest tout le terrain de Taila,
 à l’ouest Devulaceṟuva,
-au nord-ouest un étang à l’ouest Carmmaṇḍi ,
+au nord-ouest un étang à l’ouest Carmmaṇḍi,
 au nord Peddapūṇḍi-Cariya,
 au nord-est Ṟeṇṭhamrākulu.
 Aucune charge ne doit lui être imposée.
-Ainsi Vyāsa a-t-il dit:</p>
-<p rend="stanza" n="14">le donateur d’une terre se réjouit pendant soixante mille années dans le ciel;
+Ainsi Vyāsa a-t-il dit :</p>
+<p rend="stanza" n="14">le donateur d’une terre se réjouit pendant soixante mille années dans le ciel ;
 celui qui abroge <supplied reason="subaudible">cette donation</supplied> ou l’approuve réside tout aussi longtemps en enfer.</p>
 <p n="55-56">L’exécuteur de <supplied reason="subaudible">ce don</supplied> est précisément le <foreign>kaḍeyarāja</foreign>. Cet <supplied reason="subaudible">édit</supplied> a été composé par Bhaṭṭavāmana <supplied reason="subaudible">et </supplied> gravé par Koṇḍacārya.</p>
   </div>
@@ -550,7 +550,7 @@ celui qui abroge <supplied reason="subaudible">cette donation</supplied> ou l’
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">2</citedRange></bibl>
-    <bibl><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange>&gt;</bibl>
+    <bibl><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange></bibl>
   </listBibl>
 </div>
 

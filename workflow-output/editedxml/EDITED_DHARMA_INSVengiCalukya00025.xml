@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
    <teiHeader>
       <fileDesc>
@@ -329,7 +329,7 @@ kāśyapa-vā<lb n="63" break="no"/>manāya trayo bhāgā<supplied reason="omitt
 tad-gotra-viddamaśarmmaṇe catvāro bhāgāḥ<unclear>|</unclear>
 harita-gotra-kandeya-krama<lb n="64" break="no"/>vide arddha-bhāg<choice><sic>ā</sic><corr>a</corr></choice>ḥ|
 kāśyapa-gotra-bhīmaśarmmaṇe dvau bhāgau|
-vatsa-gotra-potamaśarmmaṇe dvau bhā<lb n="65" break="no"/>gau||
+vatsa-gotra-potamaśarmmaṇe dvau bhā<lb n="65" break="no"/>gau<g type="ddanda">.</g>
 kāśyapa-siddha<space type="binding-hole"/>śarmmaṇe 
 ca<choice><orig><subst><del rend="corrected"><unclear cert="low">tvāro|</unclear></del><add place="overstrike">tu-bhāga</add></subst></orig><reg>catur-bhāgāḥ|</reg></choice>
 vatsa-gotra-vikramaśarmmaṇe dvau bhāgau|
@@ -429,7 +429,7 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
       <app loc="27">
         <lem source="bib:Sankaranarayanan1973_01">tasyāṁ <supplied reason="omitted">ca</supplied></lem>
         <rdg source="bib:Venkataramanayya1974_04">tasyāṁ</rdg>
-        <note>I adopt Sankaranarayanan’s emendation (which he prints as <foreign>cā</foreign>, clearly a typo) of the otherwise hypometrical line. This is a straightforward and plausible correction, though not necessarily the intent of the composer, which may have been e.g. <foreign>tasyāṁ tu</foreign>, <foreign>tasyāṁ vai</foreign> or <foreign>etasyāṁ</foreign>.</note>
+        <note>I adopt Sankaranarayanan’s emendation (which he prints as <foreign>cā</foreign>, clearly a typo) of the otherwise hypometrical line. This is a straightforward and plausible correction, though not necessarily the intent of the composer, which may have been e.g. <foreign>tasyāṁ tu</foreign>, <foreign>tasyāṁ vai</foreign> or <foreign>etasyāṁ</foreign>.</note>
       </app>
       <app loc="27">
         <lem source="bib:Sankaranarayanan1973_01">-bhūpateḥ</lem>
@@ -449,7 +449,7 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
         <lem>ka<unclear cert="low">ḍe</unclear><unclear>yaśreṣṭhi</unclear></lem>
         <rdg source="bib:Sankaranarayanan1973_01">ka<unclear>di</unclear>yaśreṣṭhi</rdg>
         <rdg source="bib:Venkataramanayya1974_04">kundeyaśreṣṭhī</rdg>
-        <note>My conjectural reading is informed by a supposition that the first component of the name is identical to <foreign>kaḍeya</foreign> (found in this form e.g. in the <ref target="DHARMA_INSVengiCalukya00024.xml">Bezvāḍa plates of Bhīma I</ref>), equivalent to Sanskrit <foreign>kaṭaka</foreign>. I cannot exclude either of the previously suggested readings, but it seems to me that the vowel of the problematic character, especially in the estampage, is <foreign>e</foreign> rather than <foreign>i</foreign>. The consonant part of this character does not appear to be a conjunct, but rather a <foreign>ḍ</foreign> (or possibly <foreign>d</foreign>) that is lowered in order to make room for its vowel marker. The curved stroke next to the preceding <foreign>k</foreign> seems to be noise rather than an <foreign>u</foreign> marker.</note>
+        <note>My conjectural reading is informed by a supposition that the first component of the name is identical to <foreign>kaḍeya</foreign> (found in this form e.g. in the <ref target="DHARMA_INSVengiCalukya00024.xml">Bezvāḍa plates of Bhīma I</ref>), equivalent to Sanskrit <foreign>kaṭaka</foreign>. I cannot exclude either of the previously suggested readings, but it seems to me that the vowel of the problematic character, especially in the estampage, is <foreign>e</foreign> rather than <foreign>i</foreign>. The consonant part of this character does not appear to be a conjunct, but rather a <foreign>ḍ</foreign> (or possibly <foreign>d</foreign>) that is lowered in order to make room for its vowel marker. The curved stroke next to the preceding <foreign>k</foreign> seems to be noise rather than an <foreign>u</foreign> marker.</note>
       </app>
       <app loc="38">
         <lem>Ā<choice><sic>ḍ</sic><corr>ḍh</corr></choice>yatvena</lem>
@@ -486,7 +486,7 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
         <lem>-pravibhā<unclear>ga</unclear>t<unclear>v</unclear>e<unclear cert="low">na dvau</unclear> bh<unclear>āg</unclear><unclear cert="low">au</unclear></lem>
         <rdg source="bib:Sankaranarayanan1973_01">-pravibhāgatvena <unclear>dvau</unclear> bhāgau</rdg>
         <rdg source="bib:Venkataramanayya1974_04">-pravibhāgatvena <unclear>cārddhan</unclear> bhāgan</rdg>
-        <note>This segment is all but illegible in the published photo and barely better in the estampage. I indicate unclear readings as printed by Sankaranarayanan. NV’s reading may perhaps be a typo for <foreign>cārddhau bhāgau</foreign>, but the least legible area is unlikely to hide two characters. SS’s reading makes good sense in the context and is plausible from the vestiges. It seems likewise possible that the correct reading is <foreign>pravibhāgatvenārddhau bhāgau</foreign></note>
+        <note>This segment is all but illegible in the published photo and barely better in the estampage. I indicate unclear readings as printed by Sankaranarayanan. NV’s reading may perhaps be a typo for <foreign>cārddhau bhāgau</foreign>, but the least legible area is unlikely to hide two characters. SS’s reading makes good sense in the context and is plausible from the vestiges. It seems likewise possible that the correct reading is <foreign>pravibhāgatvenārddhau bhāgau</foreign></note>
       </app>
       <app loc="47">
         <lem source="bib:Venkataramanayya1974_04"><choice><sic><unclear>ā</unclear></sic><corr>e</corr></choice><unclear>kam</unclear></lem>
@@ -579,7 +579,7 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
       <app loc="75">
         <lem source="bib:Sankaranarayanan1973_01">-beṇayaḍi°</lem>
         <rdg source="bib:Venkataramanayya1974_04">-beṇayadi°</rdg>
-        <note>In the script of the plates, <foreign>ḍ</foreign> and <foreign>d</foreign> are usually indistinguishable (see e.g. <foreign>ṣaḍaṁga-vedavide</foreign> at the beginning of this line). I would normally expect the end of <foreign>d</foreign> not to curl upward as it does in the present character, so I prefer to read <foreign>ḍ</foreign>.</note>
+        <note>In the script of the plates, <foreign>ḍ</foreign> and <foreign>d</foreign> are usually indistinguishable (see e.g. <foreign>ṣaḍaṁga-vedavide</foreign> at the beginning of this line). I would normally expect the end of <foreign>d</foreign> not to curl upward as it does in the present character, so I prefer to read <foreign>ḍ</foreign>.</note>
       </app>
       <app loc="77">
         <lem source="bib:Sankaranarayanan1973_01">ku<unclear>ṇḍi</unclear>°</lem>
@@ -642,7 +642,7 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
 <p rend="stanza" n="16">To him too was born a son: the famous king <supplied reason="explanation"><foreign>mahīśa</foreign></supplied> named Vijayāditya <supplied reason="explanation">III</supplied> the Peerless <supplied reason="explanation"><foreign>nirupama</foreign></supplied><note>In the word <foreign>nirupama</foreign> Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange>88-89</citedRange></bibl>) sees an implication that Vijayāditya’s maternal grandfather (known to be a Rāṣṭrakūṭa, but not identified precisely) was Nirupama Dhruva of Mānyakheṭa. Again, this is definitely possible, but must be taken with a pinch of salt, as <foreign>nirupama</foreign> may be simply another empty superlative. The occurrence of the same word in stanza 26, applied to Cālukya-Bhīma, appears even more likely to be innocuous, though Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange>83</citedRange></bibl>) does raise the possibility that it may mean he took after his grandfather. Cālukya-Bhīma is also called <foreign>nirupama</foreign> in line 15 of the <ref target="DHARMA_INSVengiCalukya00029.xml">Drujjūru grant of Amma I</ref>, where it may well be a fixed epithet.</note> Bynamed “jewel-mine of truthfulness” <supplied reason="explanation"><foreign>satya-ratnākara</foreign></supplied>, he was an abode of extensive virtues and his reputation, glowing brightly like an autumnal moon, pervaded the circle of the compass. The lotus of his two feet stood on, and was not lower than, the majestic and elevated crowns of foreign kings arriving from various other continents.</p>
 <p rend="stanza" n="17">Having protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the earth justly for forty years and then four more, he went to the palace <supplied reason="explanation"><foreign>pura</foreign></supplied> of Purandara <supplied reason="explanation">Indra</supplied>.</p>
 <p rend="stanza" n="18">His mighty and famous younger brother was called Vikramāditya <supplied reason="explanation">I</supplied>, whose footsteps were adorned by a string of the crowns of enemy kings bowed down in fear.</p>
-<p rend="stanza" n="19">Now from King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Nissanna<note>This name is not otherwise known and probably belongs to a vassal of the Cālukya kings. He may, perhaps, be a descendant of the executor of some of Maṅgi Yuvarāja’s grants, whose name was read as /nissarami<unclear cert="low">ji</unclear>/ by Fleet in the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu grant</ref> and as /nissa<unclear>ra</unclear><choice><unclear>bh</unclear><unclear>n</unclear></choice>i<unclear cert="low">nt</unclear>i/ by me in the <ref target="DHARMA_INSVengiCalukya00048.xml">London Plates of Maṅgi Yuvarāja</ref>.</note> there arose a daughter Gāmakāmbā, as Lakṣmī from the great ocean, as Pārvatī from the Himalaya.</p>
+<p rend="stanza" n="19">Now from King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Nissanna<note>This name is not otherwise known and probably belongs to an underlord of the Cālukya kings. He may, perhaps, be a descendant of the executor of some of Maṅgi Yuvarāja’s grants, whose name was read as /nissarami<unclear cert="low">ji</unclear>/ by Fleet in the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu grant</ref> and as /nissa<unclear>ra</unclear><choice><unclear>bh</unclear><unclear>n</unclear></choice>i<unclear cert="low">nt</unclear>i/ by me in the <ref target="DHARMA_INSVengiCalukya00048.xml">London Plates of Maṅgi Yuvarāja</ref>.</note> there arose a daughter Gāmakāmbā, as Lakṣmī from the great ocean, as Pārvatī from the Himalaya.</p>
 <p rend="stanza" n="20">From that Gāmakāmbā was born the son of King <supplied reason="explanation"><foreign>bhūpati</foreign></supplied> Vikramāditya, as Guha <supplied reason="explanation">Kārttikeya</supplied> <supplied reason="subaudible">the son</supplied> of <supplied reason="explanation">Śiva</supplied> the Enemy of Andhaka <supplied reason="subaudible">was born</supplied> from Pārvatī.</p>
 <p rend="stanza" n="21">Distinguished by the name Cālukya-Bhīma <supplied reason="explanation">I</supplied>, this uplifter of the Cālukya lineage was honoured by the people with coronation to kingship over the earth even while unborn.</p>
 <p rend="stanza" n="22">By his mere birth righteousness <supplied reason="explanation"><foreign>dharma</foreign></supplied> came to stability in this <supplied reason="subaudible">world</supplied>, the Vedas to utter dignity, and truthfulness became established among the people.</p>
@@ -689,12 +689,12 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
 <item>to the Dvivedin of the <foreign>gotra</foreign>,</item>
 <item>to the Dvivedin of the <foreign>gotra</foreign>,</item>
 <item>—to each of these Dvivedins, one share per person.</item>
-<item>To the Kramavid<note>I.e. a Brahmin learned in the recitation method called <foreign>krama</foreign>.</note> Kannama of the Bhāradvāja<foreign>gotra</foreign>, one share.</item>
+<item>To the Kramavid<note>I.e. a Brahmin learned in the recitation method called <foreign>krama</foreign>.</note> Kannama of the Bhāradvāja <foreign>gotra</foreign>, one share.</item>
 <item>To Vennamaśarman of the Kāśyapa <foreign>gotra</foreign>, two shares.</item>
 <item>To his son Kuṇḍiśarman, one share.</item>
 <item>To Vāmana the Kāśyapa, three shares.</item>
 <item>To Viddamaśarman of the same <foreign>gotra</foreign>, four shares.</item>
-<item>To the <foreign>kramavid</foreign> Kandeya of the Harite <foreign>gotra</foreign>, half a share.</item>
+<item>To the <foreign>kramavid</foreign> Kandeya of the Harita <foreign>gotra</foreign>, half a share.</item>
 <item>To Bhīmaśarman of the Kāśyapa<foreign>gotra</foreign>, two shares.</item>
 <item>To Potamaśarman of the Vatsa <foreign>gotra</foreign>, two shares.</item>
 <item>To Siddhaśarman the Kāśyapa, four shares.</item>
@@ -761,9 +761,9 @@ suva<unclear>rṇṇa</unclear>kāra-bhīmanāya A<lb n="91" break="no"/>kkasāl
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1">Om! Hommage à Nārāyaṇa!</p>
-<p rend="stanza" n="1">Que soit victorieux le souverain unique, immaculé, qui subjuga le cercle de la terre entière par son épée, le souverain Cālukya Bhīma, aux pieds ornés par les diadèmes des souverains ennemis, ployant sous la crainte!</p>
-<p n="2-6">Prospérité! <supplied reason="subaudible">Ils étaient</supplied> illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés dans l’univers entier, fils de Hāritī, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśikī, protégés par la troupes des Mères, méditant aux pieds du seigneur Mahāsena, dont le cercle des ennemis fut soumis en un instant à la vue du signe illustre de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps furent purifiés par le bain purificatoire de l’<foreign>aśvamedha</foreign>:<note>Les composés de ce paragraphe sont au génitif pluriel et qualifient les Cālukya.</note></p>
+<p n="1">Om ! Hommage à Nārāyaṇa !</p>
+<p rend="stanza" n="1">Que soit victorieux le souverain unique, immaculé, qui subjuga le cercle de la terre entière par son épée, le souverain Cālukya Bhīma, aux pieds ornés par les diadèmes des souverains ennemis, ployant sous la crainte !</p>
+<p n="2-6">Prospérité ! <supplied reason="subaudible">Ils étaient</supplied> illustres, du même <foreign>gotra</foreign> que les descendants de Manu, honorés dans l’univers entier, fils de Hāritī, qui obtinrent leur royaume grâce à l’excellente faveur de Kauśikī, protégés par la troupes des Mères, méditant aux pieds du seigneur Mahāsena, dont le cercle des ennemis fut soumis en un instant à la vue du signe illustre de l’excellent sanglier, faveur octroyée par le bienheureux Nārāyaṇa, dont les corps furent purifiés par le bain purificatoire de l’<foreign>aśvamedha</foreign> :<note>Les composés de ce paragraphe sont au génitif pluriel et qualifient les Cālukya.</note></p>
 <p rend="stanza" n="2">Dans la lignée des Cālukya naquit Vijayāditya Vallabha
 célébré sur terre également sous le nom de Satyaśraya,</p>
 <p rend="stanza" n="3">Le frère cadet de celui-ci, célèbre roi, connu <supplied reason="subaudible">sous le nom de</supplied> Viṣṇuvardhana,
@@ -776,7 +776,7 @@ gouverna la terre jusqu’aux quatre océans pendant trente-trois années.</p>
 gouverna la terre pendant neuf années avec facilité.</p>
 <p rend="stanza" n="7">Puis le fils de ce dernier, le roi nommé Maṁgi Yuvarāja,
 gouverna la terre avec justice pendant vingt-cinq années.</p>
-<p rend="stanza" n="8">Naquit de celui-ci un fils: l’illustre roi Jayasiṁha,
+<p rend="stanza" n="8">Naquit de celui-ci un fils : l’illustre roi Jayasiṁha,
 le meilleur roi sur terre, qui régna pendant treize années.</p>
 <p rend="stanza" n="9">Son demi-frère, connu sous le nom de Kokkili
 ayant protégé la terre pendant seulement six mois, renonça.</p>
@@ -784,7 +784,7 @@ ayant protégé la terre pendant seulement six mois, renonça.</p>
 gouverna cette terre toute entière pendant trente-sept années.</p>
 <p rend="stanza" n="11">Son fils, le roi nommé Vijayāditya,
 protégea aussi la terre pendant dix-huit années.</p>
-<p rend="stanza" n="12">Ensuite naquit le roi Viṣṇu, qui, comme Viṣṇu fut le meurtrier de Bali, il fut le destructeur des puissants, comme celui des impôts,<note><foreign>śleṣopama</foreign>, l’un des comparé ayant lui-même deux sens: bali désigne à la fois l’ennemi de Viṣṇu, les « puissants » et les « impôts ».</note>
+<p rend="stanza" n="12">Ensuite naquit le roi Viṣṇu, qui, comme Viṣṇu fut le meurtrier de Bali, il fut le destructeur des puissants, comme celui des impôts,<note><foreign>śleṣopama</foreign>, l’un des comparé ayant lui-même deux sens : bali désigne à la fois l’ennemi de Viṣṇu, les « puissants » et les « impôts ».</note>
 après qu’il eut protégé la terre pendant trente-six années, il gagna le ciel.</p>
 <p rend="stanza" n="13">Son fils fut connu comme le sage Vijayāditya,
 grandit par les victoires remportées dans cent huit célèbres batailles.</p>
@@ -800,8 +800,8 @@ Les deux lotus qu’étaient ses grands pieds reposaient sur les lumineux et hau
 après avoir protégé la terre avec justice, il gagna la ville de Purandara.<note>Cité des dieux gouvernée par Indra.</note></p>
 <p rend="stanza" n="18">Son frère cadet <supplied reason="subaudible">fut</supplied> un roi célèbre, connu sous le nom de Vikramāditya,
 dont les diadèmes des rois ennemis, ployés par la terreur, <supplied reason="subaudible">formaient</supplied> une guirlande qui ornait les pas.</p>
-<p rend="stanza" n="19">Alors naquit du roi Nissanna une fille: Gāmakāṁbā, telle Lakṣmī <supplied reason="subaudible">qui naquit </supplied> du grand océan<note>Lakṣmī est née de l’ocean de lait. (V. Mani, 2003, p. 449)</note> et Pārvatī du Mont Himavant.</p>
-<p rend="stanza" n="20">De cette Gāmakāṁbā et du roi Vikramāditya naquit un fils comme Guha <supplied reason="subaudible">né</supplied> de Pārvvatī et Andhakārāti .</p>
+<p rend="stanza" n="19">Alors naquit du roi Nissanna une fille : Gāmakāṁbā, telle Lakṣmī <supplied reason="subaudible">qui naquit </supplied> du grand océan<note>Lakṣmī est née de l’ocean de lait. (V. Mani, 2003, p. 449)</note> et Pārvatī du Mont Himavant.</p>
+<p rend="stanza" n="20">De cette Gāmakāṁbā et du roi Vikramāditya naquit un fils comme Guha <supplied reason="subaudible">né</supplied> de Pārvvatī et Andhakārāti.</p>
 <p rend="stanza" n="21">Marqué du nom de Cālukya Bhīma, celui qui fit prospérer la lignée des Cālukya,
 alors qu’il était encore dans le ventre <supplied reason="subaudible">de sa mère</supplied>, <supplied reason="subaudible">fut</supplied> honoré du bandeau de la royauté sur la terre par le peuple.</p>
 <p rend="stanza" n="22">Sa seule naissance fit que le dharma devint constant en ce monde,
@@ -821,20 +821,20 @@ naquit le nommé Divākara dans la lignée appelée Mahāsārtha,
 habitant le village d’Oṟeyūr, dont le caractère était enclin au <foreign>dharma</foreign>, doué de compassion.</p>
 <p rend="stanza" n="28">De celui-ci naquit un excellent fils nommé Kadiyaśreṣṭhin,<note>Le terme <foreign>śreṣṭhin</foreign> indique que ce personnage appartient à une famille de chef de marchands.</note>
 qui par sa prééminence et sa grandeur surpassa Kubera.</p>
-<p rend="stanza" n="29">De ce dernier et de Ponnakāṁbā naquit un fils, chef des marchands,<note>Nous fondons notre traduction sur les expressions comprenant le même terme relevées in D. C. Sircar, 1966, p. 360.</note>
+<p rend="stanza" n="29">De ce dernier et de Ponnakāṁbā naquit un fils, chef des marchands,<note>Nous fondons notre traduction sur les expressions comprenant le même terme relevées in D. C. Sircar, 1966, p. 360.</note>
 connu sous le nom de Polayana, doué d’une parole sincère, sans reproche, pur.</p>
 <p rend="stanza" n="30">L’eau avec laquelle on lavait les pieds des brahmanes rendait boueuse, aux yeux de tous, la vaste cour de sa demeure,
 <supplied reason="subaudible">lui</supplied> qui éleva de façon exceptionnelle sa propre lignée,
 et qui, ayant fait ériger un temple de Śiva, sur les rivages de la Surasarit,<note>Gaṁgā.</note> à Prayāga donna
-comme donation pieuse le temple <supplied reason="subaudible">nommé</supplied> Cālukya Bhīma pour<note>L’emploi du datif  <foreign>bhūmi-pataye</foreign> indique que le roi est le bénéficiaire, « <foreign>yajamāna</foreign> », en tant qu’ordonnateur de la donation, plus que le destinataire de celle-ci.</note> l’excellent souverain Bhīma.</p>
+comme donation pieuse le temple <supplied reason="subaudible">nommé</supplied> Cālukya Bhīma pour<note>L’emploi du datif  <foreign>bhūmi-pataye</foreign> indique que le roi est le bénéficiaire, « <foreign>yajamāna</foreign> », en tant qu’ordonnateur de la donation, plus que le destinataire de celle-ci.</note> l’excellent souverain Bhīma.</p>
 <p n="42-44">A ce chef des marchands, précisément nommé Poleyana, aux vertus éminentes, le roi, seigneur Cālukya Bhīma, donna le village nommé Kākamrānu pour que celui-ci le donnât aux brahmanes en qualité d’<foreign>agrahāra</foreign>.<note>Poleyana est le <foreign>vijnãpti</foreign> de la donation.</note>
-Et, après avoir fait cette donation, après avoir rassemblé les chefs de familles, rāṣṭrakūṭa en tête, ce même roi ordonne ceci:</p>
+Et, après avoir fait cette donation, après avoir rassemblé les chefs de familles, rāṣṭrakūṭa en tête, ce même roi ordonne ceci :</p>
 <p n="44-47">qu’il soit connu de vous que nous donnons le village nommé Kākamrāṇu, exempté de toute taxe, dans le viṣaya de Omger-Mārga, à Poleyanaśreṣṭhin pour que celui-ci le donne aux brahmanes. Et c’est alors que ce Poleyanaśreṣṭhin a donné ce village aux brahmanes.</p>
 <p n="47-49">Alors, ayant fait de la totalité du village deux lots égaux, il accorda une moitié aux deux maîtres précédents,<foreign>Ces deux brahmanes ne sont pas mentionnés nommément. L’éditeur suggère qu’il s’agit des deux propriétaires originaux du terrain.</foreign> et chercha d’autres brahmanes vertueux,
 voués aux six devoirs, se consacrant à la Śruti et aux śāstra, pour leur <supplied reason="subaudible">accorder</supplied> l’autre moitié.
-Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra</foreign>, d’après l’importance de la part reçue, un par un:</p>
+Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra</foreign>, d’après l’importance de la part reçue, un par un :</p>
 <p n="49-91"><list>
-<item>à Cāmyanabhaṭṭa, du <foreign>gotra</foreign> de Kauśika, dix parts dans ce village avec <supplied reason="subaudible">le droit de percevoir</supplied> les taxes pour la fête d’Eṟuvāka, <supplied reason="subaudible">marquant le</supplied> premier coup de charrue, et les taxes mūkapaṭalaka pour la fête de Vināyaka;<note>Le sens du composé <foreign>eṟvvākotsava-prathamahala-dhāvana-vināyakotsava-mūkapaṭalaka-śulka-sahitā</foreign> est obscur. Les termes <foreign>mūkapaṭalaka-śulka</foreign> semblent désigner un type de taxes, mais ils n’apparaissent dans aucun index qui permette une étude comparative. Nous reprenons dans la traduction les explications données par l’éditeur de l’inscription p. 86.</note></item>
+<item>à Cāmyanabhaṭṭa, du <foreign>gotra</foreign> de Kauśika, dix parts dans ce village avec <supplied reason="subaudible">le droit de percevoir</supplied> les taxes pour la fête d’Eṟuvāka, <supplied reason="subaudible">marquant le</supplied> premier coup de charrue, et les taxes mūkapaṭalaka pour la fête de Vināyaka ;<note>Le sens du composé <foreign>eṟvvākotsava-prathamahala-dhāvana-vināyakotsava-mūkapaṭalaka-śulka-sahitā</foreign> est obscur. Les termes <foreign>mūkapaṭalaka-śulka</foreign> semblent désigner un type de taxes, mais ils n’apparaissent dans aucun index qui permette une étude comparative. Nous reprenons dans la traduction les explications données par l’éditeur de l’inscription p. 86.</note></item>
 <item>deux parts à Bhāskarabhatta du <foreign>gotra</foreign> de Kauṇḍinya,</item>
 <item>à Jannayabhaṭṭa du <foreign>gotra</foreign> de Kāśyapa,</item>
 <item>à Viṭṭeyabhaṭṭa du <foreign>gotra</foreign> de Harita,</item>
@@ -843,10 +843,10 @@ Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra
 <item>à Vennamabhaṭṭa du <foreign>gotra</foreign> de Harita,</item>
 <item>à Govarddhanabhaṭṭa du <foreign>gotra</foreign> de Kauṇḍinya,</item>
 <item>à Kāmadeva, qui maîtrise les trois Veda, du <foreign>gotra</foreign> de Bhāradvāja,</item>
-<item>à Vennamabhaṭṭa du <foreign>gotra</foreign> du précédent ,</item>
+<item>à Vennamabhaṭṭa du <foreign>gotra</foreign> du précédent,</item>
 <item>à Komareyabhaṭṭa du <foreign>gotra</foreign> d’Ātreya,</item>
 <item>à Vennamabhaṭṭa <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Bhāradvāja,</item>
-<item>à Nandamabhaṭṭa du <foreign>gotra</foreign> de Kata ,</item>
+<item>à Nandamabhaṭṭa du <foreign>gotra</foreign> de Kata,</item>
 <item>à Vīṟamabhaṭṭa du <foreign>gotra</foreign> de Kapi,</item>
 <item>à ceux-ci une part chacun,</item>
 <item>deux parts à Tūrkamabhaṭṭa du <foreign>gotra</foreign> de Gārgya,</item>
@@ -877,7 +877,7 @@ Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra
 <item>deux parts à Mereyaśarman,</item>
 <item>à Śubhākaraśarman du <foreign>gotra</foreign> de Mūlaghatika,</item>
 <item>à Mayindamaśarman du <foreign>gotra</foreign> de Kauṇḍinya,</item>
-<item>à Koṇḍamaśarman du <foreign>gotra</foreign> du précédent ,</item>
+<item>à Koṇḍamaśarman du <foreign>gotra</foreign> du précédent,</item>
 <item>à Divākaraśarman du <foreign>gotra</foreign> de Kauśika,</item>
 <item>à Mādhavaśarman du <foreign>gotra</foreign> du précédent,</item>
 <item>à Divākara Peddeyaśarman du <foreign>gotra</foreign> du précédent,</item>
@@ -888,7 +888,7 @@ Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra
 <item>à Droṇaśarman <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Harita,</item>
 <item>à nārayaṇaśarman,</item>
 <item>à Sarvadevaśarman du <foreign>gotra</foreign> de Vatsa,</item>
-<item>à ceux-ci, une part chacun;</item>
+<item>à ceux-ci, une part chacun ;</item>
 <item>deux parts à Bhavasvāmibhaṭṭa du <foreign>gotra</foreign> de Kāśyapa,</item>
 <item>une part à Mahākālabhaṭṭa du <foreign>gotra</foreign> du précédent,</item>
 <item>douze parts à Vikramayyaśarman du <foreign>gotra</foreign> de Vājasaneyin Kāśyapa,</item>
@@ -908,15 +908,15 @@ Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra
 <item>une part et demi au récitant <foreign>kramavid</foreign> Cāmyana du <foreign>gotra</foreign> du précédent,</item>
 <item>une part au récitant <foreign>kramavid</foreign> Goleya <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Kauṇḍinya,</item>
 <item>une part au récitant <foreign>kramavid</foreign> Vennama du <foreign>gotra</foreign> de Harita,</item>
-<item>une part et demi à chacun des suivants: au récitant <foreign>kramavid</foreign> Sarvadeva du <foreign>gotra</foreign> de Bhāradvāja, à Keśava <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Kāśyapa, qui maîtrise les deux Veda, au récitant <foreign>kramavid</foreign> Keśava <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Kauṇḍinya, au récitant <foreign>kramavid</foreign> Śrīdhara <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Lohita;</item>
+<item>une part et demi à chacun des suivants : au récitant <foreign>kramavid</foreign> Sarvadeva du <foreign>gotra</foreign> de Bhāradvāja, à Keśava <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Kāśyapa, qui maîtrise les deux Veda, au récitant <foreign>kramavid</foreign> Keśava <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Kauṇḍinya, au récitant <foreign>kramavid</foreign> Śrīdhara <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Lohita ;</item>
 <item>trois khaṇḍika au récitant <foreign>kramavid</foreign> Śrīdhara <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Kauśika,</item>
 <item>une part à Nandiśarman <supplied reason="subaudible">du <foreign>gotra</foreign></supplied> de Bhāradvāja,</item>
 <item>une part à Bavvaṇaśarman du <foreign>gotra</foreign> de Śrīvatsa,</item>
-<item>deux parts à Mācyaṇabhaṭṭa du <foreign>gotra</foreign> du précédent ,</item>
+<item>deux parts à Mācyaṇabhaṭṭa du <foreign>gotra</foreign> du précédent,</item>
 <item>une part à Tāḻamaśarman du <foreign>gotra</foreign> de Bhāradvāja,</item>
 <item>deux part à Kautamabhaṭṭa du <foreign>gotra</foreign> de Kauśika,</item>
 <item>une part au récitant <foreign>kramavid</foreign> Vennama du <foreign>gotra</foreign> de Harita,</item>
-<item><supplied reason="subaudible">il</supplied> donne à Bhīmana, l’orfèvre, un terrain rapportant en semence trois khaṇḍika de kodrava auquel s’ajoute un atelier pour frapper monnaie.<note>ou les revenus d’une taxe sur la frappe de la monnaie, D. C. Sircar, 1966, p. 14.</note></item>
+<item><supplied reason="subaudible">il</supplied> donne à Bhīmana, l’orfèvre, un terrain rapportant en semence trois khaṇḍika de kodrava auquel s’ajoute un atelier pour frapper monnaie.<note>ou les revenus d’une taxe sur la frappe de la monnaie, D. C. Sircar, 1966, p. 14.</note></item>
 </list>
 </p>
   </div>
@@ -935,14 +935,14 @@ Et ces brahmanes sont énumérés au moyen de leur nom et de leur <foreign>gotra
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">1</citedRange></bibl> with discussion at <bibl rend="ibid"><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange>&gt;</bibl>. Edited (from photos, impressions and the original) by S. Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">81-95</citedRange><citedRange unit="item">1</citedRange></bibl>), with photographs of the plates and seal (no translation). Also edited by N. Venkataramanayya (<bibl rend="omitname"><ptr target="bib:Venkataramanayya1974_04"/></bibl>) with photo of the seal and inked rubbings of the plates (no translation). The present edition by Dániel Balogh is based on a collation of the previous editions and the visual aids published with them. Both editions contain plenty of typographic mistakes; only significant ones are shown in the apparatus here and others are silently assumed to have been correctly read by the original editors.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">1</citedRange></bibl> with discussion at <bibl rend="ibid"><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange></bibl>. Edited (from photos, impressions and the original) by S. Sankaranarayanan (<bibl rend="omitname"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">81-95</citedRange><citedRange unit="item">1</citedRange></bibl>), with photographs of the plates and seal (no translation). Also edited by N. Venkataramanayya (<bibl rend="omitname"><ptr target="bib:Venkataramanayya1974_04"/></bibl>) with photo of the seal and inked rubbings of the plates (no translation). The present edition by Dániel Balogh is based on a collation of the previous editions and the visual aids published with them. Both editions contain plenty of typographic mistakes; only significant ones are shown in the apparatus here and others are silently assumed to have been correctly read by the original editors.</p>
   <listBibl type="primary">
     <bibl n="NV"><ptr target="bib:Venkataramanayya1974_04"/></bibl>
     <bibl n="SS"><ptr target="bib:Sankaranarayanan1973_01"/><citedRange unit="page">81-95</citedRange><citedRange unit="item">1</citedRange></bibl>
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:ARIE1960-1961"/><citedRange unit="page">38</citedRange><citedRange unit="appendix">A/1960-61</citedRange><citedRange unit="item">1</citedRange></bibl>
-    <bibl><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange>&gt;</bibl>
+    <bibl><ptr target="bib:ARIE1960-1961"/><citedRange>13</citedRange></bibl>
   </listBibl>
 </div>
 
