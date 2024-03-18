@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Senavurabu grant of Viṣṇuvardhana IV</title>
+            <!--ALT title: Sēnāvuramu grant of Viṣṇuvardhana-->
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00094</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Halantas do not occur.</p>
+                     <p>Original punctuation does not occur, except for the opening symbol which is a slightly misshapen concentric circle looking rather like a @ sign.</p>
+                     <p>Other palaeographic observations. Anusvāra is normally above the character to which it belongs, but occasionally to the right of it at head height, and sometimes (e.g. l17 goṁbaṟṟu, but also in Sanskrit, e.g. l18 vedaṁga) it is over the next character.
+                      <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union’s Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2024-03-18" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-viṣamasiddhi</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<pb n="1r"/>
+<p>
+<pb n="1v"/>
+<lb n="1"/><!--P1000916.JPG--><g type="circleConcentric"/> svasti<supplied reason="subaudible">.</supplied> śrīmatā<supplied reason="omitted">ṁ</supplied> sakala-bhuvana-sa<supplied reason="omitted">ṁ</supplied>stūyamāna-mānavya-sagotrāṇā<supplied reason="omitted">ṁ</supplied> hāriti<lb n="2" break="no"/>putrāṇā<supplied reason="omitted">ṁ</supplied> kauśikī-vara-prasāda-labdha-rājy<choice><sic>a</sic><corr>ā</corr></choice>nā<unclear>ṁ</unclear> mā<seg type="aksara">tr̥<surplus>i</surplus></seg>-gaṇa-paripālit<choice><sic>a</sic><corr>ā</corr></choice><choice><sic>ṇa</sic><corr>nā</corr></choice><supplied reason="omitted">ṁ</supplied> <lb n="3"/>svāmi-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādi<lb n="4" break="no"/>ta-vara-va<space type="binding-hole"/>rāh<choice><sic>ā</sic><corr>a</corr></choice>-lāñ<orig>chch</orig>anekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍal<choice><sic>a</sic><corr>ā</corr></choice>nā<supplied reason="omitted">ṁ</supplied> Aśvame<lb n="5" break="no"/>dh<choice><sic>a</sic><corr>ā</corr></choice>vabhr̥tha-sn<choice><sic>a</sic><corr>ā</corr></choice>na-pavitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥t<choice><sic>ā</sic><corr>a</corr></choice>-vapuṣāṁ cālukyānā<supplied reason="omitted">ṁ</supplied> kulam ala<supplied reason="omitted">ṁ</supplied>kar<choice><sic>i</sic><corr>a</corr></choice>ṣṇoḥ naya<lb n="6" break="no"/>vinaya-vikramopā<supplied reason="omitted">r</supplied>jjita-cāru-bhūri-kīrtteḥ śrī-<add place="overstrike">vi</add>ṣṇuva<unclear>r</unclear>ddhana-mahārājasya pau<lb n="7" break="no"/>traḥ Aneka-tulā-dhr̥ta-sva<supplied reason="omitted">r</supplied>ṇṇa-<sic>dānāṁvatāmpatteḥ</sic> śrī-vijayāditya-mahārājasya <pb n="2r"/><lb n="8"/><!--P1000922.JPG-->priya-tanayaḥ sva-pratāpāv<choice><sic>ā</sic><corr>a</corr></choice>nata-samasta-s<choice><sic>a</sic><corr>ā</corr></choice>manta-cakraś cakrava<supplied reason="omitted">r</supplied>ti-lakṣa<choice><sic>n</sic><corr>ṇ</corr></choice>o<lb n="9" break="no"/>p<choice><sic>a</sic><corr>e</corr></choice>taḥ śā<choice><sic>jgi</sic><corr>rṅgā</corr></choice>yudha I+va lakṣm<choice><sic>i</sic><corr>ī</corr></choice>-vallabhaḥ nr̥ga-<supplied reason="omitted">na</supplied>huṣa-m<choice><sic>a</sic><corr>ā</corr></choice>ndhāt<choice><sic>rā</sic><corr>r̥</corr></choice>-pratimo <supplied reason="subaudible">’</supplied>pratih<choice><sic>ā</sic><corr>a</corr></choice>ta-śa<lb n="10" break="no"/>k<unclear>t</unclear>i<supplied reason="omitted">ḥ</supplied> śakti<surplus>ḥ</surplus>-trayopetaḥ sva-bhuja-balākrānta-samasta-bhuvana-talaḥ parama-bra<lb n="11" break="no"/>hmaṇyaḥ <space type="binding-hole"/> parama-māheśvaraḥ mātā-pi<seg type="aksara">tr̥<surplus>i</surplus></seg>-pādānudhy<choice><sic>a</sic><corr>ā</corr></choice>taḥ catur-ud<choice><sic>ā</sic><corr>a</corr></choice><lb n="12" break="no"/>dhi-velā-v<choice><sic>i</sic><corr>a</corr></choice>layita-viśada-yaśās sakala-kalā-kalāpa-jña<supplied reason="omitted">ḥ</supplied> meru<supplied reason="omitted">r</supplied> iva kalyāṇa<lb n="13" break="no"/>-prakr̥tiḥ dha<supplied reason="omitted">r</supplied>mmaja Ivā<supplied reason="omitted">r</supplied>juna-pratāpa-va<supplied reason="omitted">r</supplied>ddhanaḥ ravir ivāhita-tamo-nikara-nirā<lb n="14" break="no"/>kariṣṇuḥ samasta-sāmanta-makuṭa-ghaṭṭita-caraṇa<surplus>ṁḥ</surplus>s sarvva-lokāśraya-śrī-viṣṇu<pb n="2v"/><lb n="15" break="no"/><!--P1000932.JPG-->va<supplied reason="omitted">r</supplied>ddhana-mahār<choice><sic>a</sic><corr>ā</corr></choice>j<choice><sic>a</sic><corr>ā</corr></choice>dhirāja-parameśvara-bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rakaḥ paḷḷi-rāṣṭra-viṣaye sena<lb n="16" break="no"/>vurabu nāma grāme rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pramukhā<supplied reason="omitted">n</supplied> kuṭu<supplied reason="omitted">ṁ</supplied>bin<choice><sic>ā</sic><corr>a</corr></choice><supplied reason="omitted">ḥ</supplied> sa<supplied reason="omitted">r</supplied>vv<choice><sic>a</sic><corr>ā</corr></choice>n ittham ā<choice><orig>ña</orig><reg>jñā</reg></choice>payati</p>
+<p>vi<lb n="17" break="no"/>ditam astu vo <supplied reason="subaudible">’</supplied>smābhiḥ dveda-goṁbaṟṟu v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <choice><sic>A</sic><corr>Ā</corr></choice>treya-gotrāya Āpastambha<lb n="18" break="no"/>-sūtrāya <space type="binding-hole"/> viṣṇubhaṭṭa-pautrā<supplied reason="omitted">ya</supplied> veda-ved<choice><sic>a</sic><corr>ā</corr></choice>ṁga-pārag<choice><sic>a</sic><corr>ā</corr></choice>ya Eṟukamma-tredi-bhaṭṭa<lb n="19" break="no"/>-putrāya <supplied reason="omitted">ya</supplied>jan<choice><sic>ā</sic><corr>a</corr></choice>-y<choice><sic>a</sic><corr>ā</corr></choice>jan<choice><sic>a</sic><corr>ā</corr></choice>dhy<choice><sic>ā</sic><corr>a</corr></choice><supplied reason="omitted">ya</supplied>n<choice><sic>a</sic><corr>ā</corr></choice>dhyāpana-ṣaṭka<supplied reason="omitted">r</supplied>mma-nirat<choice><sic>a</sic><corr>ā</corr></choice>ya yajñamāṇḍa-tredi<lb n="20" break="no"/>-bhaṭṭa-śa<supplied reason="omitted">r</supplied>mma<choice><sic>nā</sic><corr>ṇe</corr></choice> sū<supplied reason="omitted">r</supplied>yy<choice><sic>ā</sic><corr>a</corr></choice>-graha<choice><sic>nā</sic><corr>ṇa</corr></choice>-nimitte Udaka-p<choice><sic>u</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>vva<supplied reason="omitted">ṁ</supplied> dat<supplied reason="omitted">t</supplied>a<supplied reason="omitted">ṁ</supplied> sa<supplied reason="omitted">r</supplied>vva-k<choice><sic>ā</sic><corr>a</corr></choice>ra-parihāra<unclear>ṁ</unclear> kr̥<lb n="21" break="no"/>tvā<supplied reason="subaudible">.</supplied> pū<supplied reason="omitted">r</supplied>vvataḥ ceṁgalavaḥ<supplied reason="subaudible">.</supplied> dakṣiṇataḥ pañjiṇiḥ<supplied reason="subaudible">.</supplied> paścimataḥ vedrukalkaḥ<supplied reason="subaudible">.</supplied> Utta<pb n="3r"/><lb n="22" break="no"/><!--P1000937.JPG-->rataḥ bodanaṁbuḥ<supplied reason="subaudible">.</supplied> Eteṣā<supplied reason="omitted">ṁ</supplied> madhya-pariva<supplied reason="omitted">r</supplied>ttiḥ</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">Asya <subst><del rend="corrected">mma</del><add place="overstrike">dha</add></subst>mmasya guṇavā<choice><sic>ṇṇ</sic><corr>n</corr></choice></l>
+<l n="b"><choice><sic>a</sic><corr>ā</corr></choice><lb n="23"/>jñapti<supplied reason="omitted">r</supplied> vinayā<supplied reason="omitted">n</supplied>vitaḥ</l>
+<l n="c"> jay<choice><sic>ā</sic><corr>a</corr></choice>r<choice><sic>u</sic><corr>ū</corr></choice>pa Iti khyāto</l>
+<l n="d">loke <supplied reason="subaudible">’</supplied>smi<supplied reason="omitted">n</supplied> dha<supplied reason="omitted">r</supplied>mma-va<lb n="24" break="no"/><supplied reason="omitted">t</supplied>salaḥ</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">bahubhi<supplied reason="omitted">r</supplied> vvasu<choice><sic>da</sic><corr>dhā</corr></choice> d<choice><sic>ā</sic><corr>a</corr></choice>t<supplied reason="omitted">t</supplied>ā</l>
+<l n="b">bahu<supplied reason="omitted">bhi</supplied>ś c<choice><sic>a</sic><corr>ā</corr></choice>nupālit<choice><sic>a</sic><corr>ā</corr></choice></l>
+<l n="c">yasya yasya ya<choice><sic>ta</sic><corr>dā</corr></choice> <lb n="25"/>bh<choice><sic>u</sic><corr>ū</corr></choice>mi<supplied reason="omitted">s</supplied></l>
+<l n="d">ta<space type="binding-hole"/>sya tasya tad<choice><sic>a</sic><corr>ā</corr></choice> <choice><sic>pālaḥ</sic><corr>phalaṁ</corr></choice></l>
+</lg>
+<lg n="3" met="anuṣṭubh">
+<l n="a">bhūmi-dānā<surplus>ṁ</surplus>t para<supplied reason="omitted">ṁ</supplied> dāna<supplied reason="omitted">ṁ</supplied></l>
+<l n="b">na bh<choice><sic>u</sic><corr>ū</corr></choice>t<choice><sic>o</sic><corr>aṁ</corr></choice> na bhavi<lb n="26" break="no"/>ṣyati</l>
+<l n="c">ta<choice><sic>yyo</sic><corr>syai</corr></choice>va hara<choice><sic>na</sic><corr>ṇā</corr></choice>t p<choice><sic>a</sic><corr>ā</corr></choice>paṁ</l>
+<l n="d">na bh<choice><sic>u</sic><corr>ū</corr></choice>t<choice><sic>o</sic><corr>aṁ</corr></choice> na <choice><sic>b</sic><corr>bh</corr></choice>aviṣyati<surplus>ḥ</surplus></l>
+</lg>
+<lg n="4" met="anuṣṭubh">
+<l n="a">sva-dat<supplied reason="omitted">t</supplied>āṁ para-da<choice><sic>d</sic><corr>tt</corr></choice>āṁ v<choice><sic>a</sic><corr>ā</corr></choice></l>
+<l n="b"><lb n="27"/>yo hare<choice><sic>stu</sic><corr>ta</corr></choice> vasu<supplied reason="omitted">n</supplied>dhar<choice><sic>a</sic><corr>ā</corr></choice>ṁ</l>
+<l n="c">ṣaṣṭ<choice><sic>a</sic><corr>i</corr></choice>-va<choice><orig>ruṣa</orig><reg>rṣa</reg></choice>-<choice><sic>ś</sic><corr>s</corr></choice>aha<choice><sic>ś</sic><corr>s</corr></choice>rā<choice><sic>n</sic><corr>ṇ</corr></choice>i</l>
+<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice><choice><sic>a</sic><corr>ā</corr></choice>yā<supplied reason="omitted">ṁ</supplied> j<choice><sic>a</sic><corr>ā</corr></choice>yate kr̥miḥ</l>
+</lg>
+
+<pb n="3v"/>
+</div>
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+    <listApp>
+      <app loc="5">
+        <lem>kulam ala<supplied reason="omitted">ṁ</supplied>kar<choice><sic>i</sic><corr>a</corr></choice>ṣṇoḥ</lem>
+        <note>There is a dot at the bottom left corner of <foreign>ma</foreign> here, but no evidence of correction. Compare the similar dots further on.</note>
+      </app>
+      <app loc="6">
+        <lem>-<add place="overstrike">vi</add>ṣṇuva<unclear>r</unclear>ddhana-</lem>
+        <note>Here, <foreign>vi</foreign> is a correction, probably written over <foreign>ṣa</foreign>, implying that the scribe first omitted <foreign>vi</foreign> and began inscribing <foreign>ṣṇu</foreign>, but noticed the error before completing that character. The following (post-correction) <foreign>ṣṇu</foreign> overlaps the right-hand edge of the pre-correction <foreign>ṣa</foreign>.</note>
+      </app>
+      <app loc="6">
+        <lem>-mahārājasya</lem>
+        <note>There is a dot at the bottom left corner of <foreign>ma</foreign>, but no evidence of correction. Compare the similar dots further on.</note>
+      </app>
+      <app loc="7">
+        <lem>-<sic>dānāṁvatāmpatteḥ</sic></lem>
+        <note>The intent may have been <foreign>-dāna-varddhitāvadāta-kīrtteḥ</foreign> as in the <ref target="DHARMA_INSVengiCalukya00066.xml">Nemmaḷūru</ref> and <ref target="DHARMA_INSVengiCalukya00067.xml">Dinakādu</ref> grants of Vijayāditya I (both preceded by <foreign>Aneka-tulā-dhr̥ta-suvarṇa-</foreign>). The word <foreign>sampatteḥ</foreign> may also have been intended, but I know of no exact parallel for this; the <ref target="DHARMA_INSVengiCalukya00082.xml">Tāṇḍivāḍa grant of Vijayāditya II</ref> has <foreign>°āneka-tulā-dhr̥ta-śrātakumbha-viśrāṇanāvadāta-śarīra-sampado</foreign>. The only other charter with <ref>Aneka-tulā-dhr̥ta-suvarṇa-</ref> is the <ref target="DHARMA_INSVengiCalukya00069.xml">Sātalūru plates of Vijayāditya III</ref>, which continue with <foreign>-dāna-dhārā-santarppaṇāni kurmmaḥ</foreign> (em. <foreign>kurvan</foreign>?).</note>
+      </app>
+      <app loc="9">
+        <lem>śā<choice><sic>jgi</sic><corr>rṅgā</corr></choice>yudha</lem>
+        <note>Compare  <foreign>śārggāyudha</foreign> in the same phrase in the <ref target="DHARMA_INSVengiCalukya00083.xml">Peravali plates of Viṣṇuvardhana IV or V</ref>.</note>
+      </app>
+      <app loc="13">
+        <lem>ghaṭṭita</lem>
+        <note>The word is contextually appropriate, but as far as I know, this is the only occurrence of <foreign>ghaṭṭita</foreign> in variations of this vignette, while <foreign>ghaṭita</foreign> (said of gems in the crowns of subordinates) is common.</note>
+      </app>
+      <app loc="15">
+        <lem>paḷḷi-rāṣṭra-</lem>
+        <note>The ARIE reads <foreign>pañji-rāṣṭra</foreign>, but <foreign>paḷḷi-rāṣṭra</foreign> is certain and attested in the <ref target="DHARMA_INSVengiCalukya00013.xml">Koṇeki grant of Viṣṇuvardhana II</ref>. Compare <foreign>ñji</foreign> in line 21.</note>
+      </app>
+      <app loc="15">
+        <lem>sena<lb n="16" break="no"/>vurabu</lem>
+        <note>The ARIE reads <foreign>senāvuramu</foreign>, which seems to be a silent emendation.</note>
+      </app>
+      <app loc="18">
+        <lem>-ved<choice><sic>a</sic><corr>ā</corr></choice>ṁga-pārag<choice><sic>a</sic><corr>ā</corr></choice>ya Eṟukamma-tredi-</lem>
+        <note>There is a dot below the <foreign>da</foreign> of <foreign>vedaṁga</foreign>, which is probably a proofreader’s mark that the character needs correction. There is an identical dot below the second next character, <foreign>pā</foreign>, which may well have been corrected from <foreign>pa</foreign> by adding a vowel marker (which is rather compressed), and a third below the <foreign>di</foreign> of <foreign>tredi</foreign> near the end of this line, where there is no indication of correction, but the vowel marker may perhaps be a subsequent addition.</note>
+      </app>
+      <app loc="19">
+        <lem>-y<choice><sic>a</sic><corr>ā</corr></choice>jan<choice><sic>a</sic><corr>ā</corr></choice>dhy<choice><sic>ā</sic><corr>a</corr></choice><supplied reason="omitted">ya</supplied>n<choice><sic>a</sic><corr>ā</corr></choice>dhyāpana-</lem>
+        <note>compare <foreign>yajanayajanādhyānadhyāpayanā</foreign> (as corrected by the scribe) in the <ref target="DHARMA_INSVengiCalukya00084.xml">Permmañcili grant of Viṣṇuvardhana IV or V</ref>.</note>
+      </app>
+      <app loc="20">
+        <lem>Udaka-p<choice><sic>u</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>vva<supplied reason="omitted">ṁ</supplied> dat<supplied reason="omitted">t</supplied>a<supplied reason="omitted">ṁ</supplied> sa<supplied reason="omitted">r</supplied>vva-</lem>
+        <note>There are correction dots below <foreign>U</foreign>, <foreign>vva</foreign>, <foreign>da</foreign>, and the second <foreign>vva</foreign>. Of these, <foreign>U</foreign> may be a subsequent inline addition in the space after <foreign>tte</foreign>, and this space may have been widened by re-engraving the body of the following <foreign>da</foreign> in a narrower form. The other dotted characters have not been corrected.</note>
+      </app>
+      <app loc="21">
+        <lem>pū<supplied reason="omitted">r</supplied>vvataḥ</lem>
+        <note>There is a dot to the right of <foreign>vva</foreign>, which may be a mark that this needs correction to <foreign>rvva</foreign>.</note>
+      </app>
+      
+      
+      
+    </listApp>
+    
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+<p n="1-16">Greetings. The grandson of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">III or IV</supplied> who earned his great good reputation by his political acumen <supplied reason="explanation"><foreign>naya</foreign></supplied>, discipline <supplied reason="explanation"><foreign>vinaya</foreign></supplied> and valour and who was eager to adorn the lineage of the majestic Cālukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hāriti, who attained kingship by the grace of Kauśikī’s boon, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom the realms of adversaries instantaneously submit at the mere sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice—; the dear son of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Vijayāditya <supplied reason="explanation">I or II</supplied>, <seg cert="low">whose resplendent fame was heightened by</seg><note>The text is corrupt here; see the apparatus to line 7.  I translate the phrase found in the in the <ref target="DHARMA_INSVengiCalukya00066.xml">Nemmaḷūru</ref> and <ref target="DHARMA_INSVengiCalukya00067.xml">Dinakādu</ref> grants of Vijayāditya I.</note> gifts of gold weighed in many a balance <supplied reason="explanation">against his body</supplied>: <supplied reason="subaudible">namely</supplied> His Majesty the the supremely pious Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>mahārājādhirāja</foreign></supplied> and Sovereign <supplied reason="explanation"><foreign>bhaṭṭāraka</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">IV or V</supplied>, shelter of all the world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>, the supreme devotee of Maheśvara—who was deliberately appointed <supplied reason="subaudible">as heir</supplied> by his mother and father, who has the complete circle of peripheral rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> bowed down through his own prowess, who possesses the bodily marks of a universal sovereign <supplied reason="explanation"><foreign>cakravartin</foreign></supplied>, who is the beloved of Royal Fortune <supplied reason="explanation"><foreign>lakṣmī</foreign></supplied> as <supplied reason="explanation">Viṣṇu</supplied> the Wielder of the Śārṅga <supplied reason="explanation">bow</supplied> <seg rend="pun">is the beloved of Lakṣmī</seg>, who is a likeness of <supplied reason="explanation">the ancient kings</supplied> Nr̥ga, Naḥuṣa and Māndhātr̥, whose power is irresistible, who is equipped with the three powers <supplied reason="explanation"><foreign>śakti-traya</foreign></supplied>, who has conquered the the entire universe’s <supplied reason="explanation"><foreign>samasta-bhuvana</foreign></supplied> area by the strength of his own arms, whose bright fame is bounded <supplied reason="subaudible">only</supplied> by the shores of the four oceans, who is versed in the whole bundle of practical arts <supplied reason="explanation"><foreign>kalā</foreign></supplied>, who has a generous disposition like <supplied reason="explanation">Mount</supplied> Meru <seg rend="pun">which is of auspicious nature</seg>, who thrives through bright valour as <supplied reason="explanation">Yudhiṣṭhira</supplied> the son of Dharma <seg rend="pun">who prospered thanks to the valour of Arjuna</seg>, who is fit to dispel the darkness of enemies like the sun <seg rend="pun">which is fit to dispel unpleasant darkness</seg>, whose feet are rubbed by the crowns of all peripheral rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied>—commands all householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—who reside in the village named Senavurabu in Paḷḷi-rāṣṭra district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> as follows.</p>
+<p n="16-22">Let it be known to you that on the occasion of an eclipse of the sun we have given <supplied reason="subaudible" cert="low">this village</supplied>,<note>The object being granted is not specified in the text.</note> rendered exempt from all taxes and sanctified by <supplied reason="explanation">a libation of</supplied> water, to the grandson of Viṣṇu-bhaṭṭa and son of Eṟukamma-tredi-bhaṭṭa, <supplied reason="subaudible">namely</supplied> Yajñamāṇḍa-tredi-bhaṭṭa-śarman, resident of Dveda-Goṁbaṟṟu, of the Ātreya <foreign>gotra</foreign> and the Āpastambha <foreign>sūtra</foreign>, who has completely mastered the Vedas and Vedāṅgas<note>This qualification follows the name of the donee’s father and may have been meant to describe him, but it is in the dative case, so I translate it as describing the donee.</note> and who is engaged in the six duties <supplied reason="explanation">of a Brahmin</supplied> <supplied reason="subaudible">such as</supplied> sacrificing and being commissioned to perform sacrifices, learning and teaching. To the east is Ceṁgalava. To the south is Pañjini. To the west is Vedrukalka. To the north is Bodanaṁbu. It is located in the midst of these.</p>
+<p rend="stanza" n="1">The virtuous and disciplined executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> of this ruling <supplied reason="explanation"><foreign>dharma</foreign></supplied> is known in this world as Jayarūpa and is fond of lawfulness <supplied reason="explanation"><foreign>dharma</foreign></supplied>.</p>
+<p rend="stanza" n="2">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
+<p rend="stanza" n="3">There has never been and will never be a gift superior to the gift of land, nor has there ever been or will ever be a sin <supplied reason="subaudible">superior</supplied> to the seizing of the same.</p>
+<p rend="stanza" n="4">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty <supplied reason="subaudible">thousand</supplied> years.</p>
+  </div>  
+</div>
+
+
+
+
+
+<div type="commentary">
+   <p/>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1990-1991"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1990-91</citedRange><citedRange unit="item">10</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1990-1991"/><citedRange>5-6</citedRange></bibl>. No previous editions known. The present edition was created for DHARMA by Dániel Balogh, on the basis of photographs taken by myself in February 2023 at the ASI Archaeological Museum, Amaravati.</p>
+  <listBibl type="primary">
+    <bibl/>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:ARIE1990-1991"/><citedRange unit="page">24</citedRange><citedRange unit="appendix">A/1990-91</citedRange><citedRange unit="item">10</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1990-1991"/><citedRange>5-6</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
