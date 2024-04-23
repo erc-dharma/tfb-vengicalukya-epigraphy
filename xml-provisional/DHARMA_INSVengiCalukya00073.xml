@@ -245,13 +245,13 @@ n="3v"/>
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">8</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">82</citedRange><citedRange unit="item">41</citedRange></bibl>. Edited from the original (before the ARIE report) by R. Subba Rao (<bibl rend="omitname"><ptr target="bib:SubbaRao1927-1928_02"/></bibl>), with a translation and estampages. The present edition by Dániel Balogh is based on Subba Rao's edition, but silently corrects for inconsequential, presumably typographic mistakes.<note>Subba Rao explicitly emends some mistakes, which are thus certainly original. But the number of spelling irregularities without emendation is far higher in his edition. To avoid cluttering my apparatus with low-interest detail, I have silently emended most of the latter, but some of these may well be in fact erroneous in the original.</note> CHECK REVISION NEEDED: I did not have the estampages when encoding this, but have them now, need to collate.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">8</citedRange></bibl> with description at <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">82</citedRange><citedRange unit="section">41</citedRange></bibl>. Edited from the original (before the ARIE report) by R. Subba Rao (<bibl rend="omitname"><ptr target="bib:SubbaRao1927-1928_02"/></bibl>), with a translation and estampages. The present edition by Dániel Balogh is based on Subba Rao's edition, but silently corrects for inconsequential, presumably typographic mistakes.<note>Subba Rao explicitly emends some mistakes, which are thus certainly original. But the number of spelling irregularities without emendation is far higher in his edition. To avoid cluttering my apparatus with low-interest detail, I have silently emended most of the latter, but some of these may well be in fact erroneous in the original.</note> CHECK REVISION NEEDED: I did not have the estampages when encoding this, but have them now, need to collate.</p>
   <listBibl type="primary">
     <bibl n="SR"><ptr target="bib:SubbaRao1927-1928_02"/></bibl>
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1937-38</citedRange><citedRange unit="item">8</citedRange></bibl>
-    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">82</citedRange><citedRange unit="item">41</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1937-1938"/><citedRange unit="page">82</citedRange><citedRange unit="section">41</citedRange></bibl>
   </listBibl>
 </div>
 

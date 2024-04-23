@@ -731,14 +731,14 @@ It may also be relevant that flags of one sort or another feature almost univers
 
 
 <div type="bibliography">
-  <p>First reported by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1884_02"/><citedRange unit="page">13</citedRange><citedRange unit="item">84</citedRange></bibl>). Also reported in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">8</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">108</citedRange><citedRange unit="item">60</citedRange></bibl>. Edited from inked impressions and photos by B. V. Krishna Rao (<bibl rend="omitname"><ptr target="bib:KrishnaRao1937-1938_01"/></bibl>), with photographs of 2v, 4v and the seal, and estampages of 3r, 3v and 4r. The present edition by Dániel Balogh is based on a collation of KR's edition with the published images.<note>As there is no image of 1v, 2r and 5r, my edition follows Krishna Rao precisely for these pages unless otherwise noted, and the position of the binding hole is not indicated on these pages.</note></p>
+  <p>First reported by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1884_02"/><citedRange unit="page">13</citedRange><citedRange unit="item">84</citedRange></bibl>). Also reported in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">8</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">108</citedRange><citedRange unit="section">60</citedRange></bibl>. Edited from inked impressions and photos by B. V. Krishna Rao (<bibl rend="omitname"><ptr target="bib:KrishnaRao1937-1938_01"/></bibl>), with photographs of 2v, 4v and the seal, and estampages of 3r, 3v and 4r. The present edition by Dániel Balogh is based on a collation of KR's edition with the published images.<note>As there is no image of 1v, 2r and 5r, my edition follows Krishna Rao precisely for these pages unless otherwise noted, and the position of the binding hole is not indicated on these pages.</note></p>
   <listBibl type="primary">
     <bibl n="KR"><ptr target="bib:KrishnaRao1937-1938_01"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
     <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">8</citedRange></bibl>
-    <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">108</citedRange><citedRange unit="item">60</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">108</citedRange><citedRange unit="section">60</citedRange></bibl>
     <bibl rend="omitname"><ptr target="bib:Sewell1884_02"/><citedRange unit="page">13</citedRange><citedRange unit="item">84</citedRange></bibl>
   </listBibl>
 </div>
