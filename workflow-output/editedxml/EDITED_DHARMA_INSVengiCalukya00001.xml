@@ -22,10 +22,6 @@
                   <forename>John Faithfull</forename>
                   <surname>Fleet</surname>
                </persName>
-               <!--DB 20200316. CHECK This is a preliminary encoding based only on PEM's etext. I do not at the moment have access to the published edition. In addition to checking readings, the following need attention:
-            lb elements 
-            there is probably a seal attached to this one, so textparts will need to be created
-            -->
             </respStmt>
          </titleStmt>
          <publicationStmt>
@@ -54,9 +50,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>Halantas. Final N (l8) resembles a regular na with a detached horizontal line in place of a headmark; final T (l14) resembles a regular ta with an attached horizontal line in place of a headmark. Final M (l17) is a slightly reduced ma with the left arm bent to the right to form a horizontal line.
-<!--Original punctuation.  -->
-                       Other palaeographic observations. Anusvāra is normally above the centre or right-hand side of the character to which it belongs. Long ī is unusual, with a vertical line crossing the circular mark. La occurs both in a northern form with a regular-sized vertical stem and a headmark, and a southern form with a long backward-curling tail. The opening symbol resembles the numeral 1, but as Fleet observes, it is not a pagination mark, since there are no corresponding marks elsewhere. It resembles an Arabic figure 3 rotated 90 degrees counterclockwise. 
+                     <p>Halantas. Final N (l8) resembles a regular na with a detached horizontal line in place of a headmark; final T (l14) resembles a regular ta with an attached horizontal line in place of a headmark. Final M (l17) is a slightly reduced ma with the left arm bent to the right to form a horizontal line. Original punctuation consists of single and occasionally double plain vertical bars. Other palaeographic observations. Anusvāra is normally above the centre or right-hand side of the character to which it belongs. Long ī is unusual, with a vertical line crossing the circular mark. La occurs both in a northern form with a regular-sized vertical stem and a headmark, and a southern form with a long backward-curling tail. The opening symbol resembles the numeral 1, but as Fleet observes, it is not a pagination mark, since there are no corresponding marks elsewhere. It resembles an Arabic figure 3 rotated 90 degrees counterclockwise. 
 
 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -102,11 +96,14 @@
    </teiHeader>
    <text xml:space="preserve">
       <body>
-         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213"><!--CHECK there is probably a seal, with the text biṭṭarasa. Textparts need to be set up for that.-->
-<pb n="1r"/>
+         <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  <ab><lb n="1"/>śrī-biṭṭarasa</ab>
+</div>
+<div type="textpart" n="B"><head xml:lang="eng">Plates</head><pb n="1r"/>
 <p><pb n="1v"/><lb n="1"/><g type="dashDoubleconvex"/> svasti<supplied reason="subaudible">.</supplied> svāmi-mahāsena-pādānuddhyātānāṁ mānavya-sagotrāṇāṁ h<unclear>ā</unclear><lb n="2" break="no"/>rītī-putrāṇāṁ māt<choice><orig>ri</orig><reg>r̥</reg></choice>-gaṇa-prasāda-parirakṣita-bhujārggalānāṁ kṣīroda<lb n="3" break="no"/>dhi-śayana-suptotthita-prasāda-parilabdha-varāha-lāñchanānāṁ <orig>cali</orig>kyā<lb n="4" break="no"/>nāṁ vaṁśe saṁbhūtaḥ śakti-traya-saṁpannaḥ</p>
 <lg n="1" met="āryā">
-   <l n="ab">jayati raṇavikrama-n<choice><orig>ri</orig><reg>r̥</reg></choice>po ni<lb n="5" break="no"/><space type="binding-hole"/>rasta-ripu-n<choice><orig>ri</orig><reg>r̥</reg></choice>pati-śaurrya-mada-rāgaḥ</l>
+   <l n="ab">jayati raṇavikrama-n<choice><orig>ri</orig><reg>r̥</reg></choice>po ni<lb n="5" break="no"/><space type="binding-hole"/>rasta-ripu-n<choice><orig>ri</orig><reg>r̥</reg></choice>pati-śauryya-mada-rāgaḥ</l>
    <l n="cd">kaliyuga-khala-nirmathanai<supplied reason="omitted">ḥ</supplied> sa<lb n="6" break="no"/>tyāśraya-bhāvitaś caritaiḥ</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
@@ -133,49 +130,48 @@
    <l n="a">ṣaṣṭiṁ varṣa-saha<lb n="26" break="no"/>srāṇi|</l>
    <l n="b">svargge tiṣṭhati bhūmi-daḥ</l>
    <l n="c">Ācchettā cānumantā ca|</l>
-   <l n="d">tāny eva narake va<pb n="3r" break="no"/><lb n="27" break="no"/>@@@se<supplied reason="omitted">T</supplied></l>
+   <l n="d">tāny eva narake va<pb n="3r" break="no"/><lb n="27" break="no"/>se<supplied reason="omitted">T</supplied></l>
 </lg>
 <lg n="6" met="anuṣṭubh">
    <l n="a">bahubhir vvasudhā bhuktā</l>
    <l n="b">rājabhis sagarādibhi<supplied reason="omitted">ḥ</supplied></l>
-   <l n="c">yasya yasya yadā bhūm<choice><sic>a</sic><corr>is</corr></choice></l>
-   <l n="d">tasya tasya tadā phalaM<!--CHECK --></l>
+   <l n="c">yasya yasya yadā <lb n="28"/>bhūm<choice><orig>i|</orig><reg>is</reg></choice></l>
+   <l n="d"><choice><orig>st</orig><reg>st</reg></choice>asya tasya tadā phalaM</l>
 </lg>
 <lg n="7" met="anuṣṭubh">
    <l n="a" met="na-vipulā" real="++++---+">tād<choice><orig>ri</orig><reg>r̥</reg></choice>k puṇyaṁ na dadatāṁ</l>
    <l n="b">jāyate no dharābhujāṁ</l>
-   <l n="c">bhuvam anya-pratiṣṭhān tu</l>
-   <l n="d">yād<choice><orig>ri</orig><reg>r̥</reg></choice>g bhavati rakṣatāṁ</l>
+   <l n="c"><lb n="29"/>bhuvam anya-pratiṣṭhān tu</l>
+   <l n="d">yād<choice><orig>ri</orig><reg>r̥</reg></choice>g bhavati rakṣatāṁ|</l>
 </lg>
 <lg n="8" met="anuṣṭubh">
-   <l n="a">pūrvva-dattāṁ dvijātibhyo</l>
-   <l n="b">yatnād rakṣa yudhiṣṭhira<surplus>ḥ</surplus></l>
-   <l n="c">mahīm<!--CHECK --> mah<orig>i<!--CHECK --></orig>matāṁ śreṣṭha</l>
-   <l n="d">dānā<supplied reason="omitted">c</supplied> chreyo <supplied reason="subaudible">’</supplied>nupālanaM<!--CHECK --></l>
+   <l n="a">pūrvva-dattāṁ dvijātibhyo|</l>
+   <l n="b">yatnād rakṣa <lb n="30"/>yudhiṣṭhira<surplus>ḥ</surplus></l>
+   <l n="c">mahīṁ mah<orig>i</orig>matāṁ śreṣṭha|</l>
+   <l n="d">dān<choice><orig>ā ś</orig><reg>āc ch</reg></choice>reyo <supplied reason="subaudible">’</supplied>nupālanaM</l>
 </lg>
 <lg n="9" met="anuṣṭubh">
-   <l n="a">brahma-sve mā mat<orig>ī<!--CHECK --></orig>ṁ kuryyā<supplied reason="omitted">ḥ</supplied></l>
-   <l n="b">prānaiḥ kaṇṭha-gatair api</l>
-   <l n="c">agni-dagdhāni rohanti</l>
-   <l n="d">brahma-dagdhaṁ na rohati</l>
+   <l n="a">bra<lb n="31" break="no"/><space type="binding-hole"/>hma-sve mā matiṁ kuryy<choice><orig>ā</orig><reg>āT</reg></choice>|</l>
+   <l n="b">prānaiḥ kaṇṭha-gatair api|</l>
+   <l n="c">agni-dagdhāni roha<lb n="32" break="no"/>nti|</l>
+   <l n="d">brahma-dagdhaṁ na rohati||</l>
 </lg>
 <lg n="10" met="anuṣṭubh">
-   <l n="a">sva-dattāṁ para-dattāṁ vā</l>
-   <l n="b">yo hareta vasundharāṁ</l>
-   <l n="c">ṣaṣṭiṁ varṣa-saharāṇi</l>
-   <l n="d">kumbhīpākeṣu pacyate</l>
+   <l n="a">sva-dattāṁ para-dattāṁ vā|</l>
+   <l n="b">yo hareta vasundharāM</l>
+   <l n="c"><lb n="33"/>ṣaṣṭiṁ varṣa-saharāṇi|</l>
+   <l n="d">kumbhīpākeṣu pacyate||</l>
 </lg>
 <lg n="11" met="anuṣṭubh">
    <l n="a">viṁddhyāṭavīṣv atoyāsu</l>
-   <l n="b">śuṣka-koṭara-vāsinaḥ</l>
-   <l n="c">kr̥<!--CHECK is this ri like everywhere else?-->ṣṇāhayo <supplied reason="subaudible">’</supplied>bhijāyante</l>
-   <l n="d">bhūmidānāpahāriṇaḥ</l>
+   <l n="b"><lb n="34"/>śuṣka-koṭara-vāsinaḥ|</l>
+   <l n="c">kr̥ṣṇāhayo <supplied reason="subaudible">’</supplied>bhijāyante|</l>
+   <l n="d">bhūmidānāpahāri<lb n="35" break="no"/>ṇaḥ</l>
 </lg>
-<p>śrī-mahārājasya pravarddhamānaka-saṁvatsare aṣṭame śāsanaṁ likhitam iti<supplied reason="subaudible">.</supplied>
-</p>
+<p>śrī-mahārājasya pravarddhamānaka-saṁvatsare Aṣṭame śāsanaṁ likhitam iti</p>
 <pb n="3v"/>
          </div>
-
+     </div>
 
 
 
@@ -248,11 +244,35 @@
     <app loc="24">
        <lem source="bib:Fleet1890_03">vānumode<supplied reason="omitted">ta</supplied></lem>
        <rdg source="bib:Shastree1844_01">vānumodet</rdg>
-      <note>I suspect that this is a non-standard ending rather than a scribal mistake.</note>
+      <note>I suspect that this is a non-standard ending rather than a scribal mistake. Compare <foreign>vase</foreign> in ll. 26-27.</note>
     </app>
     <app loc="25">
        <lem source="bib:Fleet1890_03">ṣaṣṭiṁ</lem>
        <rdg source="bib:Shastree1844_01">ṣaṣṭir</rdg>
+    </app>
+    <app loc="26">
+       <lem source="bib:Fleet1890_03">va<pb n="3r" break="no"/><lb n="27" break="no"/>se<supplied reason="omitted">T</supplied></lem>
+       <rdg source="bib:Shastree1844_01">vaset</rdg>
+      <note>I suspect that this is a non-standard ending rather than a scribal mistake. Compare <foreign>vānumode</foreign> in l. 25.</note>
+    </app>
+    <app loc="28">
+       <lem source="bib:Fleet1890_03">dadatāṁ</lem>
+       <rdg source="bib:Shastree1844_01">dātaraṁ</rdg>
+    </app>
+    <app loc="29">
+       <lem source="bib:Fleet1890_03">-pratiṣṭhān tu</lem>
+       <rdg source="bib:Shastree1844_01">-pratiṣṭhā<choice><sic>t</sic><corr>p</corr></choice>ya</rdg>
+    </app>
+    <app loc="30">
+       <lem source="bib:Fleet1890_03">dān<choice><orig>ā ś</orig><reg>āc ch</reg></choice>reyo</lem>
+       <rdg source="bib:Shastree1844_01">dānāt śreyo</rdg>
+      <note>Another non-standard ablative ending, compare <foreign>samakālā</foreign> in l. 16.</note>
+    </app>
+    <app loc="31">
+       <lem>kuryy<choice><orig>ā</orig><reg>āT</reg></choice></lem>
+       <rdg source="bib:Fleet1890_03">dān<choice><orig>ā ś</orig><reg>āc ch</reg></choice>reyo</rdg>
+       <rdg source="bib:Shastree1844_01">kuryyāT</rdg>
+      <note>Fleet’s emendation cannot be excluded, but compare the non-standard third-person optatives in lines 25 and 26.</note>
     </app>
     
     
@@ -261,14 +281,27 @@
          
          
          
-<div type="translation" source="bib:Fleet1890_03"><!--CHECK -->
-<p n="1">
-</p>
+<div type="translation" resp="part:daba">
+<p n="1-4">Greetings! In the lineage of the Calikyas—who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, who are of the Mānavya <foreign>gotra</foreign>, who are the sons of Hārītī, the shafts of whose arms are guarded by the grace of the band of Mothers, who have acquired the Boar emblem through the grace of <supplied reason="explanation">Viṣṇu</supplied> who rises from sleep reclining on the Milk Ocean—arose, endowed with the three powers <supplied reason="explanation"><foreign>śakti-traya</foreign></supplied>—</p>
+<p rend="stanza" n="1">Victorious is he, King <supplied reason="explanation"><foreign>nr̥pa</foreign></supplied> Raṇavikrama, who cast down the prowess, pride and passion of enemy kings <supplied reason="subaudible">and who was</supplied> known as Satyāśraya <seg rend="pun">recognised as one who has truthfulness as his foundation</seg> through his actions that smash the evils of the Kali age.</p>
+<p rend="stanza" n="2">He had a son, Kīrtivarman of true fame <supplied reason="explanation"><foreign>kīrti</foreign></supplied>, steadfast in <supplied reason="subaudible">maintaining</supplied> stability, with good deeds as his foundation, a lord of the earth who fulfilled his duties.</p>
+<p rend="stanza" n="3">His son of great splendour is like Kandarpa <supplied reason="explanation">Kāma</supplied> embodied, familiar with moral duty <supplied reason="explanation"><foreign>dharma</foreign></supplied> and mindful of what has been done <supplied reason="subaudible">for him</supplied>, comparable to Pr̥thā’s son <supplied reason="explanation">Arjuna</supplied> in bravery.</p>
+<p rend="stanza" n="4">It is as though he—and, indeed, Bībhatsu <supplied reason="explanation">Arjuna</supplied>—had been placed in the world by the Creator in order to tear up the arrogance of men who make a living by their weapons.</p>
+<p n="10-19">He, the Favourite of Fortune and the Earth <supplied reason="explanation"><foreign>śrī-pr̥thivī-vallabha</foreign></supplied> Crown Prince <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Viṣṇuvardhana Viṣamasiddhi, whose lotus feet are rubbed by the crest jewels on the bowed diadems of numerous subordinates <supplied reason="explanation"><foreign>sāmanta</foreign></supplied> and who is an ornament of the entire circle of the earth, has—on the full-moon day of Kārttika, while stationed at Kurumarathyā,<note>Or on the road to Kuruma?</note>, in order to acquire merit for his mother and father as well as for himself—granted, with <supplied reason="subaudible">due</supplied> ceremony accompanied by <supplied reason="subaudible">a libation of</supplied> water, the village named Alandatīrtha, <supplied reason="explanation">located</supplied> in the Śrīnilaya territory <supplied reason="explanation"><foreign>bhoga</foreign></supplied> to the north of the Aṇopalya Brahmanical holding <supplied reason="explanation"><foreign>agrāhāra</foreign></supplied> and on the southern bank of the <supplied reason="explanation">river</supplied> Bhīmarathī to <supplied reason="subaudible">Brahmins</supplied> familiar with the Vedas and Vedāṅgas: Acalasvāmin, Vedasvāmin and Devasvāmin—who are the sons of Lakṣmaṇasvāmin and are of the Ghr̥ta-Kauśika <foreign>gotra</foreign> <seg cert="low">with Viśvāmitra <supplied reason="subaudible">as their <foreign>pravara</foreign></supplied></seg><note>I follow Fleet in interpreting the text to mean that Viśvāmitra was the (principal) <foreign>pravara</foreign> of the donees, or at least of the first three.  On the basis of syntax, the text should mean “who, like Viśvāmitra, were the sons of Lakṣmaṇasvāmin,” which does not make sense. The intent may also have been say that Lakṣmaṇasvāmin was like Viśvāmitra, but I am again not sure that this controversial character is a desirable comparison. </note>—together with Ādityasvāmin and Nāgakumāra,<note>The structure of the text implies that the parentage and <foreign>gotra</foreign> given above applies only to the first three donees, but it may have been meant to apply to the last two as well.</note> to be the inalienable property of their sons, grandsons and so on as long as the moon, sun and earth remain, for the offering of the five great sacrifices, <supplied reason="subaudible">viz.</supplied> Bali, Caru, Vaiśvadeva, Agnihotra and Havana.</p>
+<p n="19-25">Let <supplied reason="subaudible">this</supplied> be known to all governors of the marches <supplied reason="explanation"><foreign>paryanta-viṣayapati</foreign></supplied>, subordinate rulers <supplied reason="explanation"><foreign>sāmanta</foreign></supplied>, landlords <supplied reason="explanation"><foreign>grāmabhogika</foreign></supplied>, headmen <supplied reason="explanation"><foreign>mahattara</foreign></supplied> and others: understanding <supplied reason="subaudible">this village</supplied> to be barred from constables <supplied reason="explanation"><foreign>cāṭa</foreign></supplied>, men-at-arms <supplied reason="explanation"><foreign>bhaṭa</foreign></supplied>, <seg cert="low">collectors</seg> <supplied reason="explanation"><foreign>kusīda</foreign></supplied> and the like and to be exempt <supplied reason="explanation"><foreign>viśuddha</foreign></supplied> from all revenue-taking <supplied reason="explanation"><foreign>ādāna</foreign></supplied>, and bearing in mind that the world of the living is as volatile as the waves on the water of an ocean whipped by a fickle wind, therefore no transgression <supplied reason="subaudible">of this property</supplied> should be made. But, if someone with a mind obscured by the shroud of the darkness of <supplied reason="explanation">spiritual</supplied> ignorance should seize it or condone its being seized, the five great sins shall be visited upon him. So too did the reverend Vyāsa, the redactor <supplied reason="explanation"><foreign>vyāsa</foreign></supplied> of the Vedas speak:</p>
+<p rend="stanza" n="5">A donor of land stays in heaven for sixty millennia, <supplied reason="subaudible">while</supplied> a seizer <supplied reason="subaudible">of granted land</supplied> and a condoner <supplied reason="subaudible">of such seizure</supplied> shall reside in hell for just as many.</p>
+<p rend="stanza" n="6">Many kings, beginning with Sagara, have enjoyed the bountiful land. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
+<p rend="stanza" n="7">No such merit is generated for us kings when we give land, as that which occurs when we protect the foundation of another.</p>
+<p rend="stanza" n="8">O Yudhiṣṭhira, diligently preserve land that has been previously donated to the twice-born. O best of land-possessors, preserving <supplied reason="subaudible">a grant</supplied> is superior to making a grant.</p>
+<p rend="stanza" n="9">One must not, even at death’s door, set his mind on the property of a Brahmin! What fire has burnt, grows <supplied reason="subaudible">again, but</supplied> what the <foreign>brahman</foreign> has burnt will not grow.</p>
+<p rend="stanza" n="10">He who would seize land, whether given by himself or by another, shall be cooked in the Pot-Stewing <supplied reason="explanation"><foreign>kumbhīpāka</foreign></supplied> Hells for sixty thousand years.</p>
+<p rend="stanza" n="11">The seizers of a land grant will be born as black snakes dwelling in dry holes in the waterless wilderness of the Vindhyas.</p>
+<p n="36">The above decree <supplied reason="explanation"><foreign>śāsana</foreign></supplied> was written in the eighth ongoing year of His Majesty the King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied>.</p>
 </div>
          
          
 <div type="translation" xml:lang="fra" source="bib:Estienne-Monod2008_01">
-<p n="1"><!--CHECK give numbers to all paras-->Om ! Prospérité ! A celui qui a acquis les trois pouvoirs,<note>Les trois pouvoirs constitutifs de la royauté : <foreign>utsāha</foreign>, l’audace, <foreign>prabhu</foreign>, la puissance, <foreign>mantra</foreign>, les conseils, cf. <title>Arthaśāstra</title>, 6, 2, 33.</note> né dans la lignée des Calukya, qui méditent aux pieds du seigneur Mahāsena, du même gotra que les descendants de Manu, fils de Hārītī, dont les bras sont des barres de portes, protégés par la faveur de la troupe des Mères, qui ont gagné de porter la marque du sanglier par la faveur <supplied reason="subaudible">du dieu</supplied> qui dort, allongé sur l’océan de lait,</p>
+<p n="1-4">Om ! Prospérité ! A celui qui a acquis les trois pouvoirs,<note>Les trois pouvoirs constitutifs de la royauté : <foreign>utsāha</foreign>, l’audace, <foreign>prabhu</foreign>, la puissance, <foreign>mantra</foreign>, les conseils, cf. <title>Arthaśāstra</title>, 6, 2, 33.</note> né dans la lignée des Calukya, qui méditent aux pieds du seigneur Mahāsena, du même gotra que les descendants de Manu, fils de Hārītī, dont les bras sont des barres de portes, protégés par la faveur de la troupe des Mères, qui ont gagné de porter la marque du sanglier par la faveur <supplied reason="subaudible">du dieu</supplied> qui dort, allongé sur l’océan de lait,</p>
 <p rend="stanza" n="1">Victoire au roi Raṇavikrama, dont la vaillance, l’enthousiasme et la fougue anéantirent les rois ennemis, lui qui devint Satyāśraya en accomplissant le barattement des méchants du Kaliyuga !</p>
 <p rend="stanza" n="2">Son fils, pourvu de gloire, fut Kīrtivarman, riche d’une ferme constance,
 réceptacle de nobles actions, qui accomplit son devoir, souverain de la terre.</p>
@@ -276,8 +309,8 @@ réceptacle de nobles actions, qui accomplit son devoir, souverain de la terre.<
 lui qui connaissait autant le dharma que les bienfaits, avait un courage comparable à celui de Pārtha.</p>
 <p rend="stanza" n="4">Comme pour éradiquer l’orgueil des hommes qui vivent des armes,
 lui, Bībhatsu, fut placé dans le monde par le créateur.</p>
-<p>Celui-ci, dont les pieds de lotus sont frottés par les maîtres joyaux des diadèmes des nombreux feudataires inclinés, devenu l’ornement du cercle entier de la terre, le prince héritier illustre Pr̥thivī Vallabha Viṣṇuvardhana, <supplied reason="subaudible">alias</supplied> Viṣamasiddhi, résidant à Kurumarathī<!--CHECK surely Kuruma-rathyā?-->, afin d’acquérir des mérites pour sa mère, son père et lui-même, lors de la pleine lune du mois de Kārtika, donne à Acalasvami, Vedasvāmi et Devasvāmi, ainsi qu’à Ādityasvāmi et Nāgakumāra, qui sont les fils de Lakṣmaṇasvāmi, - appartenant aux Viśvāmitra, qui connaissent l’ensemble des Veda et Vedāṅga, du <foreign>gotra</foreign> de Ghr̥takauśika, - et à leurs fils et petit-fils, aussi longtemps que dureront la lune, le soleil, la terre, afin d’accomplir les cinq grands sacrifices que sont le bali, le caru, le vaiśvadeva, l’agnihotra<note>Sur ces sacrifices, cf. insc. n°2. Le <foreign>bali</foreign>, le <foreign>caru</foreign> et le <foreign>vaiśvadeva</foreign> sont aussi mentionnés in insc. nos 2 et 7. Sur l’<foreign>agnihotra</foreign> cf. insc. n° 7.</note> et le havana,<note>Sur ce sacrifice, cf. ŚBr. KātyŚr., références données in Monier-Williams.</note> dans le <foreign>bhoga</foreign> de Śrīnilaya, au nord de l’<foreign>agrahāra</foreign> d’Aṇopalya, sur la rive sud de la Bhīmarathī, le village nommé Alandatīrttha, après avoir fait une libation d’eau qui convient.</p>
-<p>Que ceci soit connu de tous les chefs de <foreign>viṣaya</foreign> voisins, les feudataires, les chefs de villages, les chefs de familles,<note>D. C. Sircar, 1966, p. 191 : chef de village, famille, communauté.</note> etc. ; l’entrée <supplied reason="subaudible">de ce village</supplied> est interdite aux troupes régulières et irrégulières ainsi qu’aux usuriers, etc., <supplied reason="subaudible">ayant déclaré</supplied> qu’il était libre de tout impôt, ayant compris que le monde vivant est instable comme les vagues de l’océan, agité par un vent instable,<note>Même idée in insc. n°7.</note> et veillant à ce qu’aucune transgression ne soit effectuée.
+<p n="10-19">Celui-ci, dont les pieds de lotus sont frottés par les maîtres joyaux des diadèmes des nombreux feudataires inclinés, devenu l’ornement du cercle entier de la terre, le prince héritier illustre Pr̥thivī Vallabha Viṣṇuvardhana, <supplied reason="subaudible">alias</supplied> Viṣamasiddhi, résidant à Kurumarathī, afin d’acquérir des mérites pour sa mère, son père et lui-même, lors de la pleine lune du mois de Kārtika, donne à Acalasvami, Vedasvāmi et Devasvāmi, ainsi qu’à Ādityasvāmi et Nāgakumāra, qui sont les fils de Lakṣmaṇasvāmi, - appartenant aux Viśvāmitra, qui connaissent l’ensemble des Veda et Vedāṅga, du <foreign>gotra</foreign> de Ghr̥takauśika, - et à leurs fils et petit-fils, aussi longtemps que dureront la lune, le soleil, la terre, afin d’accomplir les cinq grands sacrifices que sont le bali, le caru, le vaiśvadeva, l’agnihotra<note>Sur ces sacrifices, cf. insc. n°2. Le <foreign>bali</foreign>, le <foreign>caru</foreign> et le <foreign>vaiśvadeva</foreign> sont aussi mentionnés in insc. nos 2 et 7. Sur l’<foreign>agnihotra</foreign> cf. insc. n° 7.</note> et le havana,<note>Sur ce sacrifice, cf. ŚBr. KātyŚr., références données in Monier-Williams.</note> dans le <foreign>bhoga</foreign> de Śrīnilaya, au nord de l’<foreign>agrahāra</foreign> d’Aṇopalya, sur la rive sud de la Bhīmarathī, le village nommé Alandatīrttha, après avoir fait une libation d’eau qui convient.</p>
+<p n="19-25">Que ceci soit connu de tous les chefs de <foreign>viṣaya</foreign> voisins, les feudataires, les chefs de villages, les chefs de familles,<note>D. C. Sircar, 1966, p. 191 : chef de village, famille, communauté.</note> etc. ; l’entrée <supplied reason="subaudible">de ce village</supplied> est interdite aux troupes régulières et irrégulières ainsi qu’aux usuriers, etc., <supplied reason="subaudible">ayant déclaré</supplied> qu’il était libre de tout impôt, ayant compris que le monde vivant est instable comme les vagues de l’océan, agité par un vent instable,<note>Même idée in insc. n°7.</note> et veillant à ce qu’aucune transgression ne soit effectuée.
 Le bienheureux Vyāsa, compilateur des Veda, a dit :
 Que celui qui, l’esprit obscurci par le voile ténébreux de l’ignorance, transgresse (cet édit), ou approuve qu’il soit transgressé, soit lié aux cinq grands crimes !<!--PEM probably says this after Vyasa because she thinks the iti goes with the uktam, but surely that is not the case. --></p>
 <p rend="stanza" n="5">Le donateur de la terre séjourne soixante mille ans dans le ciel,
@@ -294,7 +327,7 @@ ce que le feu a brûlé croît, ce qu’un brahmane a brûlé ne croît plus.</p
 cuit en enfer pendant soixante mille ans.</p>
 <p rend="stanza" n="11">Habitant des grottes arides dans les forêts sauvages du Vindhya,
 ceux qui s’emparent d’une donation de terre renaissent comme serpents noirs.</p>
-<p>Cet édit a été gravé pendant la huitième auguste année <supplied reason="subaudible">de règne</supplied> de l’illustre grand roi.</p>
+<p n="35">Cet édit a été gravé pendant la huitième auguste année <supplied reason="subaudible">de règne</supplied> de l’illustre grand roi.</p>
 </div>
 
 
