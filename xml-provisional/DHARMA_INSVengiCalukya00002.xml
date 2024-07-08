@@ -90,9 +90,10 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
-         <change who="part:daba" when="2020-03-16" status="draft">Initial encoding of the file</change>
-         <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+        <change who="part:daba" when="2024-07-08" status="draft">Added new translation</change>
+        <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
+        <change who="part:daba" when="2020-08-14" status="draft">Updated to template v2, encoded bibliography and commentary</change>
+        <change who="part:daba" when="2020-03-16" status="draft">Initial encoding of the file</change>
       </revisionDesc>
    </teiHeader>
    <text xml:space="preserve">
@@ -106,7 +107,7 @@ n="1r"/>
 
 n="1v"/>
 <lb 
-n="1"/>svasti<surplus>ḥ</surplus> śrīma<orig><unclear>T</unclear></orig>-caluky<choice><sic>ā</sic><corr>a</corr></choice>-kula-jalanidhi-samudito nr̥pati-niśākaraḥ sva<lb 
+n="1"/>svasti<surplus>ḥ</surplus><supplied reason="subaudible">.</supplied> śrīma<orig><unclear>T</unclear></orig>-caluky<choice><sic>ā</sic><corr>a</corr></choice>-kula-jalanidhi-samudito nr̥pati-niśākaraḥ sva<lb 
 n="2" break="no"/>-bhrūlatā-bhaṅga-namita-r<choice><sic>a</sic><corr>i</corr></choice>pu-nr̥pati-makuṭa-maṇi-prabhā-vicchurita-caraṇāravinda<lb 
 n="3" break="no"/>-dvayaḥ<space type="binding-hole"/> satyāśraya-śrī-vallabha-mahārājaḥ<supplied reason="subaudible">.</supplied> tasya priyānujaḥ sthala-jala<lb 
 n="4" break="no"/>-vana-giri-viṣama-durggeṣu labdha-siddhitvād viṣamasiddhiḥ d<unclear>ī</unclear>nānātha-dvija-vasu-vr̥ṣṭi<lb 
@@ -129,14 +130,13 @@ n="14" break="no"/>-grāmam a<space type="binding-hole"/>dhivasat<orig>aḥ</ori
 n="15" break="no"/>ṇ<choice><sic>a</sic><corr>ā</corr></choice>grahārī-kr̥tya sva-puṇyāyur-ārogya-yaśo-<supplied reason="subaudible">’</supplied>bhivr̥ddhaye grāmo <supplied reason="subaudible">’</supplied>yaṁ dattaḥ<supplied reason="subaudible">.</supplied> Asya <pb 
 
 n="3r"/><lb 
-n="16"/>kaiścid api na bādhā karaṇīyā,</p>
-<p>Atra vyāsa-g<unclear>ī</unclear>tau<supplied reason="subaudible">.</supplied></p>
+n="16"/>kaiścid api na bādhā karaṇīyā<g type="comma">.</g> Atra vyāsa-g<unclear>ī</unclear>tau<supplied reason="subaudible">.</supplied></p>
 <lg n="1" met="anuṣṭubh">
    <l n="a">bahubhir vvasudhā dattā</l>
    <l n="b">bahu<lb 
 n="17"/>bhiś cānupālitā</l>
    <l n="c">yasya yasya yadā bhūmiḥ</l>
-   <l n="d">tasya tasya tadā phalaṁ,</l>
+   <l n="d">tasya tasya tadā phalaṁ<g type="comma">.</g></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
    <l n="a">ṣaṣṭiṁ varṣa<lb 
@@ -190,7 +190,7 @@ n="3v"/>
                      </app>
                   <app loc="14">
                      <lem>a<space type="binding-hole"/>dhivasat<orig>aḥ</orig></lem>
-                     <note>As Fleet notes, the intent must have been <foreign>adhivasatā (mayā)</foreign> or <foreign>adhivasadbhiḥ (asmābhiḥ)</foreign>.</note>
+                     <note>In a footnote, Fleet suggests emending to <foreign>adhivasatā (mayā)</foreign> or <foreign>adhivasadbhiḥ (asmābhiḥ)</foreign> and translates accordingly. I prefer to assume that this word was intended to apply to the donees (<foreign>adhivasadbhyām</foreign>), since <foreign>adhi-vas</foreign> seems to be the standard term for domicile (compare line 9).</note>
                   </app>
                      <app loc="19">
                         <lem source="bib:Fleet1891_01">ma<unclear cert="low">tsya-ku</unclear>le</lem>
@@ -208,7 +208,13 @@ n="20"/>r</rdg>
                </listApp>
          </div>
          
-         
+<div type="translation" resp="part:daba">
+<p n="1-10">From the ocean that is the majestic Calukya lineage there arose a moon of a king whose pair of lotus feet is strewn with the light of gems on the diadems of enemy kings bowed down by the <supplied reason="subaudible">mere</supplied> frown of his elegant brows: King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Satyāśraya <supplied reason="explanation">Pulakeśin II</supplied>, the Favourite of Fortune <supplied reason="explanation"><foreign>śrī-vallabha</foreign></supplied>. His dear younger brother His Majesty the supremely pious King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana—who is <supplied reason="subaudible">known as</supplied> Viṣamasiddhi because he prevails even over forts in adverse <supplied reason="explanation"><foreign>viṣama</foreign></supplied> <supplied reason="subaudible">conditions</supplied> on land, water, woodland and hills; who is a cow of plenty <supplied reason="explanation"><foreign>kāma-dhenu</foreign></supplied> through his showering of rains of goods on the destitute, the helpless and the twice-born; who is Makaradhvaja <supplied reason="explanation">Kāma</supplied> thanks to his beautiful body which appears to young women like Madana <supplied reason="explanation">Kāma</supplied> <supplied reason="subaudible">himself</supplied>; who has drowned the power of the Kali <supplied reason="subaudible">age</supplied> in the oceans of his gift-giving; who embellishes the entire circle of directions with the mark of his spotless fame arising from victory in many a battle; as versed in discipline <supplied reason="explanation"><foreign>vinaya</foreign></supplied> as Manu, as widely <supplied reason="explanation"><foreign>pr̥thu</foreign></supplied> reputed as Pr̥thu, as intelligent as <supplied reason="explanation">Br̥haspati</supplied> the Guru—instructs the gathered householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied> inhabiting the village Kālvakoṇḍa in Dimila district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> of the following matter.</p>
+<p n="10-16">To wit: to the two grandsons of Brahmaśarman, who had studied and understood the Vedas and Vedāṅgas, the sons of Durgaśarman, who had mastered the injunctions of his own school <supplied reason="explanation"><foreign>śākhā</foreign></supplied> and was engaged in performing his ritual duties, <supplied reason="subaudible">namely</supplied> to Viṣṇuśarman and Mādhavaśarman of the Gautama <foreign>gotra</foreign> and the Taittirīya school <supplied reason="explanation"><foreign>caraṇa</foreign></supplied>, who know the essence of many <supplied reason="explanation">texts of</supplied> lore <supplied reason="explanation"><foreign>āgama</foreign></supplied> such as the Vedas, Vedāṅgas, Itihāsas, Purāṇas, treatises of law <supplied reason="explanation"><foreign>dharma-śāstra</foreign></supplied> and so on, and who are residents of the village Ceṟupūra in Pḻaki district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied>, on the occasion of an eclipse of the moon in the Śrāvaṇa month I have given this village, converted to a rent-free holding <supplied reason="explanation"><foreign>agrahāra</foreign></supplied> by a remission of all taxes in order to augment my own merit, vitality, health and glory. Let no-one pose an obstacle to this <supplied reason="explanation">ruling</supplied>. In this connection, <supplied reason="subaudible">these</supplied> two <supplied reason="subaudible">verses</supplied> were sung by Vyāsa.</p>
+<p rend="stanza" n="1">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward</seg> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
+<p rend="stanza" n="2">A donor of land rejoices in heaven for sixty millennia, <supplied reason="subaudible">while</supplied> a seizer <supplied reason="subaudible">of granted land</supplied> and a condoner <supplied reason="subaudible">of such seizure</supplied> shall reside in hell for just as many.</p>
+<p n="19-20">The executor <supplied reason="explanation"><foreign>ājñapti</foreign></supplied> is Aṭavidurjaya, born in the majestic Matsya family, who has bowed down his enemies by the strength and valour of his own arms. Year 18, month 4, day 15.</p>
+</div>         
          
 <div type="translation" source="bib:Foulkes1870_01">
 <p n="1-3">Prosperity. The royal moon risen above the ocean of the glorious Chalakya race, whose two lotus-like feet glitter with the radiance of the gems of the crown of rival kings bowing down before him like creeping plants, defeated by his frowns, is the illustrious Satyashraya Vallabha Majaraja.</p>
