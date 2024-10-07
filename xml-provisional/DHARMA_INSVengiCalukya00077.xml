@@ -138,7 +138,7 @@ n="9"/>sapta dinān <choice><sic>ā</sic><corr>a</corr></choice>bhūT<g type="dd
 <lg n="3" met="anuṣṭubh">
 <l n="a">navābdān viṣṇurājeto</l>
 <l n="b" real="+++---++">jajñe maṁgi-yuvarājaḥ|</l>
-<l n="c" real="+-+---++">paṁcaviṁ<pb 
+<l n="c" met="sa-vipulā" real="+-+---++">paṁcaviṁ<pb 
 
 n="2r" break="no"/><lb 
 n="10" break="no"/>śatim ato <supplied reason="subaudible">’</supplied>bhūj</l>
@@ -152,10 +152,11 @@ n="11" break="no"/>n kokkiliḥ prabhuḥ</l>
 <l n="d">tad-bhrātā viṣṇuvarddhanaḥ<g type="ddanda">.</g></l>
 </lg>
 <lg n="5" met="anuṣṭubh">
-<l n="a" real="--++--+++">tat<choice><sic>ā</sic><corr>a</corr></choice> Ās<choice><sic>i</sic><corr>ī</corr></choice>d vija<lb n="12" break="no"/>yādity<choice><sic>ā</sic><corr>o</corr></choice></l>
+<l n="a" real="--++--+++">tat<choice><sic>ā</sic><corr>a</corr></choice> Ās<choice><sic>i</sic><corr>ī</corr></choice>d vija<lb 
+n="12" break="no"/>yādity<choice><sic>ā</sic><corr>o</corr></choice></l>
 <l n="b">rājāṣṭādaśa vatsarāN|</l>
 <l n="c" enjamb="yes">tato <supplied reason="subaudible">’</supplied>bhūd viṣṇurājaḥ ṣaṭ</l>
-<l n="d" real="+----+-+">triṁśata<unclear reason="eccentric_ductus" cert="low">m a</unclear><supplied reason="omitted">khi</supplied>le<lb 
+<l n="d" met="sa-vipulā" real="+----+-+">triṁśatam <choice><sic>i</sic><corr>a</corr></choice><supplied reason="omitted">khi</supplied>le<lb 
 n="13" break="no"/>śvaraḥ<g type="ddanda">.</g></l>
 </lg>
 <lg n="6" met="anuṣṭubh">
@@ -168,7 +169,7 @@ n="14" break="no"/>tam aṣṭau ca <space type="binding-hole"/></l>
 <lg n="7" met="anuṣṭubh">
 <l n="a">gaṁga-raṭṭa-balābhyāṁ yo</l>
 <l n="b">yu<lb n="15" break="no"/>d<unclear cert="low">dh</unclear><supplied reason="omitted">v</supplied>ā tad-yuddha-saṁkhyayā</l>
-<l n="c">śivālayān aṣṭaśataṁ</l>
+<l n="c" met="bha-vipulā" real="-+-++--+">śivālayān aṣṭaśataṁ</l>
 <l n="d">kr̥tavān pāpa-nutta<lb 
 n="16" break="no"/>ye<g type="ddanda">.</g></l>
 </lg>
@@ -191,7 +192,7 @@ n="18" break="no"/>ḥ</l>
 
 n="2v" break="no"/><lb 
 n="19" break="no"/>rājād vikramāditya-nāmnaḥ</l>
-<l n="b">prabhur abhavad arāti-vrāta-tūlān<choice><sic>i</sic><corr>a</corr></choice>laughaḥ</l>
+<l n="b">prabhur abhavad arāti-vrāta-tūlānilaughaḥ</l>
 <l n="c"><lb 
 n="20"/>nirupama-nr̥pa-bhīmaḥ triṁśataṁ vatsarāṇān</l>
 <l n="d">nija-guṇa-gaṇa-kīrtti-vyāpta-dik-ca<lb 
@@ -359,17 +360,16 @@ n="5v"/>
         <note>The reading is unmetrical even after my emendation, but this must have been what the composer intended.</note>
       </app>
       <app loc="12">
-        <lem>triṁśata<unclear reason="eccentric_ductus" cert="low">m a</unclear><supplied reason="omitted">khi</supplied>le<lb 
-n="13" break="no"/>śvaraḥ</lem>
-        <note>The character I read as <foreign>ma</foreign> is strangely executed: instead of a headmark, its left arm ends in a bend to the left and then down, giving an appearance similar to the way <foreign>vi</foreign> is written when there is no room for its vowel marker above the headline. However, the right arm of <foreign>ma</foreign> is clearly present, so I cannot think of any other plausible reading. Whatever the value of this character is, the quarter stanza is short one syllable. The emendation I propose is still unmetrical in spite of having the correct number of syllables, but it assumes only one simple omitted character. Alternatively, the text might be emended to <foreign>triṁśataṁ maṇḍaleśvaraḥ</foreign>, which is metrically correct, but requires the restoration of <foreign>anusvāra</foreign> before <foreign>ma</foreign> and a conjunct character after it. Neither <foreign>akhileśvara</foreign>, nor <foreign>maṇḍaleśvara</foreign> are attested in Veṅgī Cālukya genealogies, but <foreign>veṁgī-maṇḍala</foreign> is often spoken of.</note>
+        <lem>triṁśatam <choice><sic>i</sic><corr>a</corr></choice><supplied reason="omitted">khi</supplied>le<lb n="13" break="no"/>śvaraḥ</lem>
+        <note>For the cursively written <foreign>mi</foreign>, compare <foreign>bhaimi</foreign> in line 27. The quarter stanza as received is short one syllable. The stanza, with the same anomaly, has an exact parallel in the <ref target="DHARMA_INSVengiCalukya00101.xml">Penuṁbulugu grant of Amma I</ref>. The emendation I propose is still unmetrical in spite of having the correct number of syllables, unless the composer considered a <foreign>sa-vipulā</foreign> to be legitimate, as implied by stanza 3. The alternative emendation <foreign>triṁśataṁ maṇḍaleśvaraḥ</foreign> would be metrically correct, but is much more invasive. Conversely, <foreign>triṁśataṁ tamileśvaraḥ</foreign> would be hardly invasive at all, but unlikely in meaning. None of these terms ending in <foreign>°eśvara</foreign> are attested in Veṅgī Cālukya genealogies.</note>
       </app>
       <app loc="16">
         <lem>-saṁvatsaraṁ</lem>
         <note>Both <foreign>anusvāra</foreign>s may have been corrected from <foreign>visarga</foreign>s.</note>
       </app>
-      <app loc="16">
-        <lem>-tūlān<choice><sic>i</sic><corr>a</corr></choice>laughaḥ</lem>
-        <note>The received reading is intelligible as it is, although perhaps fire (as emended) is a more likely image than wind (as in the unemended text). The only other witness of this stanza is the <ref target="DHARMA_INSVengiCalukya00029.xml">Drujjūru grant of Amma I</ref> where according to its editor (Kielhorn), an originally inscribed <foreign>i</foreign> was struck out in the plate to correct to <foreign>a</foreign>. This tips the balance in favour of emendation here.</note>
+      <app loc="19">
+        <lem>-tūlānilaughaḥ</lem>
+        <note>The composer's intent may have been <foreign>-tūlānalaughaḥ</foreign>. The received reading is paralleled in the <ref target="DHARMA_INSVengiCalukya00101.xml">Penuṁbulugu grant of Amma I</ref>, while in the <ref target="DHARMA_INSVengiCalukya00029.xml">Drujjūru grant of Amma I</ref>, according to its editor (Kielhorn), an originally inscribed <foreign>i</foreign> was struck out in the plate to correct to <foreign>a</foreign>.</note>
       </app>
       <app loc="35">
         <lem>-lok<choice><sic>a</sic><corr>ā</corr></choice>ḥ</lem>
@@ -533,7 +533,7 @@ n="13" break="no"/>śvaraḥ</lem>
 <p rend="stanza" n="7">Who, having fought against the armies of the Gaṅgas and the Rāṣṭrakūṭas <supplied reason="explanation"><foreign>raṭṭa</foreign></supplied>, had a hundred and eight Śiva temples built, according to the number of those battles, for the expulsion of the <supplied reason="explanation">accrued</supplied> sin.<note>We learn from the <ref target="DHARMA_INSVengiCalukya00095.xml">Uṟuvuṭūru grant of Vijayāditya III</ref> and the <ref target="DHARMA_INSVengiCalukya00097.xml">Pulgoṭlapaṁbuluru grant of Vijayāditya III</ref> that this is specifically about the sin ensuing from his battles.</note></p>
 <p rend="stanza" n="8">His son of prominent valour, Kali Viṣṇuvardhana, with a face like a lotus, <supplied reason="subaudible">was</supplied> king for a year and a half.</p>
 <p rend="stanza" n="9">His son Vijayāditya <supplied reason="explanation">III</supplied>, resembling a sun of triumph <supplied reason="explanation"><foreign>vijayāditya</foreign></supplied>, ruled the earth for forty years and four.</p>
-<p rend="stanza" n="10"><supplied reason="subaudible">Born</supplied> from his younger brother the prince <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> named Vikramāditya, the peerless <supplied reason="explanation"><foreign>nirupama</foreign></supplied> King <supplied reason="explanation"><foreign>nr̥pa</foreign></supplied> Bhīma—a wildfire for whom enemy hosts were but fluff—became for thirty years the ruler, the fame of the host of whose innate virtues pervaded the circle of the compass.</p>
+<p rend="stanza" n="10"><supplied reason="subaudible">Born</supplied> from his younger brother the prince <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> named Vikramāditya, the peerless <supplied reason="explanation"><foreign>nirupama</foreign></supplied> King <supplied reason="explanation"><foreign>nr̥pa</foreign></supplied> Bhīma—a torrential gale to whom enemy hosts were but fluff—became for thirty years the ruler, the fame of the host of whose innate virtues pervaded the circle of the compass.</p>
 <p rend="stanza" n="11">After him his son Vijayāditya <supplied reason="explanation">IV</supplied> was king for six months, defeating in battle with <supplied reason="subaudible">just</supplied> one elephant of his own the overlords of Kaliṅga mounted on hosts of elephants, generously ascending the beam of a balance scale furnished with bright gold,<note>That is, donating his own weight in gold.</note> and commissioning a victory pillar representing his reputation in Viraja.</p>
 <p rend="stanza" n="12">His son Ammarāja <supplied reason="explanation">I</supplied> was in turn king for seven years, he who ascended the balance scale of gold that gladdens the populace.<note>The second hemistich is rather awkward and I am not sure that my interpretation matches the intent of the composer. I construe <foreign>hema-tulā</foreign> to be the subject (logical object) of the passive participle <foreign>ārūḍhā</foreign> and to be qualified by <foreign>-abhinandanī</foreign>.</note></p>
 <p rend="stanza" n="13">His son Vijayāditya <supplied reason="explanation">V</supplied> became the ruler for a fortnight. Then King Tāḻapa of enviable valour <supplied reason="subaudible">reigned</supplied> in turn for a month.</p>
