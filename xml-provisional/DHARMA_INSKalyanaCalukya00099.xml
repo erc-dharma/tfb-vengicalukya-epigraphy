@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-           <title>Maṟutuṟu grant of Satyāśraya</title>
+           <title>Maṟutuṟupalli grant of Satyāśraya</title>
             <respStmt>
                <resp>EpiDoc Encoding</resp>
                <persName ref="part:daba">
@@ -54,7 +54,7 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                    <p>The plates are written in the "early Telugu-Kannada" script employed in the late grants of the Eastern Cālukyas, unlike all other known Kalyāṇa plates, which are in Nagari.</p>
+                    <p>The plates are written in the "early Telugu-Kannada" script employed in the late grants of the Eastern Cālukyas, unlike all other known Kalyāṇa plates, which are in Nagari. The retroflex ḷ is very frequently (but without apparent consistency) used in place of the regular Sanskrit l. In the edition, the spelling has been normalised for confidently read Sanskrit words, but left unchanged for uncertain readings and names. Upadhmānīya and jihvāmūlīya are frequently used.</p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
           <summary><p><p/></summary>
           <handNote xml:id="Pallava00001_hand1"></handNote>
@@ -102,12 +102,12 @@ n="1r"/>
 <p><pb 
 
 n="1v"/><lb 
-n="1"/><!--P1030574; first line P1030573; right-hand side P1030572--><g type="floret"/>On namo mah<choice><sic>i</sic><corr>ī</corr></choice>dharāya||</p>
+n="1"/><!--P1030574; first line P1030573; right-hand side P1030572--><g type="floret"/> On namo mah<choice><sic>i</sic><corr>ī</corr></choice>dharāya||</p>
 <lg n="1" met="upajāti">
 <l n="a">śriyaṁ <choice><orig>vv</orig><reg>v</reg></choice>idhattāṁ vibhur ādi-devo</l>
 <l n="b">vāmā-śar<choice><sic>i</sic><corr>ī</corr></choice>rā<lb 
 n="2" break="no"/>rddha-haro harākhyaḥ</l>
-<l n="c" real="++-+---+-++">Udbaddha-jūṭa-gata-candra-rekhā|</l>
+<l n="c" real="++-+---+-++">Udbaddha-<orig>jūṭā</orig>-gata-candra-rekhā|</l>
 <l n="d">sandigdha-sat-ketaki-patra-bhaṁgaḥ|</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
@@ -115,7 +115,7 @@ n="2" break="no"/>rddha-haro harākhyaḥ</l>
 <lb n="3" break="no"/>-saṁkrānta-kānto <supplied reason="subaudible">’</supplied>pi|</l>
 <l n="b">vairāgyasyaikam āspadaM|</l>
 <l n="c">Aṣṭa-mūrttiś ca viśvātmā|</l>
-<l n="d">kṣmāṁm imām a<lb 
+<l n="d">kṣmā<surplus>ṁ</surplus>m imām a<lb 
 n="4" break="no"/>vatāc chivaḥ|</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
@@ -164,7 +164,7 @@ n="17"/><space type="binding-hole"/> tad-vaṁśyāṣ <unclear>ṣ</unclear>o�
 n="18"/>ce<space type="binding-hole"/>ra-coḷādīn</l>
 <l n="d">rarakṣur ddakṣiṇāpathaṁ||</l>
 </lg>
-<p>Atha niśā-samaye sahasrāṁśāv ivāva| ki<lb 
+<p>Atha niśā-samaye sahasrāṁśāv iva| ki<lb 
 n="19" break="no"/>yantam a<choice><sic>ba</sic><corr>pi</corr></choice> kā<choice><orig>ḷ</orig><reg>l</reg></choice>am antarita-rājya-tejasi vaṁśe| tata Eva ca ku<choice><orig>ḷ</orig><reg>l</reg></choice>āca<choice><orig>ḷ</orig><reg>l</reg></choice>āT|</p>
 <lg n="8" met="śārdūlavikrīḍita">
 <l n="a" enjamb="yes">mādyad-vairi-ka<lb 
@@ -210,11 +210,11 @@ n="28" break="no"/><space type="binding-hole"/>tā</l>
 <l n="d"><lb 
 n="29"/><space type="binding-hole"/> ka<choice><orig>ḷ</orig><reg>l</reg></choice>e<unclear>ḫ pra</unclear>h<choice><sic>ā</sic><corr>a</corr></choice><unclear>rttā</unclear> guruṣu pra<unclear>śā</unclear><unclear cert="low">nta</unclear>ḥ|</l>
 </lg>
-<ab>tas<unclear>mā</unclear> × × <unclear>|</unclear></ab>
+<ab>tas<unclear>mā</unclear><unclear cert="low">t puna</unclear><supplied reason="omitted">ḥ</supplied><unclear>|</unclear></ab>
 <lg n="14" met="mālinī">
-<l n="a"><unclear cert="low">dhavaḷa</unclear><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg>-<unclear>nivās</unclear><supplied reason="lost" cert="low">ī</supplied> <unclear>mau</unclear><lb 
+<l n="a"><unclear cert="low">dhava</unclear><unclear>ḷa</unclear><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg>-<unclear>nivās</unclear><supplied reason="lost" cert="low">ī</supplied> <unclear>mau</unclear><lb 
 n="30" break="no"/>ryya-vaṁ<unclear>ś</unclear><unclear cert="low">āṁ</unclear><supplied reason="lost" cert="low">ta</supplied>-<unclear>kāḷa</unclear><unclear>ḥ|</unclear></l>
-<l n="b"><unclear cert="low">pra</unclear><supplied reason="lost" cert="low">ba</supplied><unclear cert="low">ḷa</unclear>tara-ka<unclear>da</unclear>ṁbā<unclear cert="low">krāma</unclear><seg met="++"><gap reason="illegible" quantity="2" unit="character"/></seg><unclear>-prasiddhaḥ|</unclear></l>
+<l n="b"><unclear cert="low">pra</unclear><supplied reason="lost" cert="low">ba</supplied><unclear>ḷa</unclear>tara-ka<unclear>da</unclear>ṁbā<unclear cert="low">krāma</unclear><seg met="++"><gap reason="illegible" quantity="2" unit="character"/></seg><unclear>-prasiddhaḥ|</unclear></l>
 <l n="c"><unclear>saka</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>a</unclear>-bhuvana<unclear cert="low">-bhāro</unclear><seg met="+-"><gap reason="illegible" quantity="2" unit="character"/></seg><lb 
 n="31" break="no"/><unclear>n</unclear>o yas<seg met="-+"><gap reason="illegible" quantity="2" unit="character"/></seg><unclear cert="low">ho</unclear><unclear>|</unclear></l>
 <l n="d"><seg met="------++"><gap reason="illegible" quantity="8" unit="character"/></seg><unclear cert="low">ḥ</unclear> <supplied reason="lost">kīrtti</supplied><unclear>varmmā</unclear> babhūva|</l>
@@ -305,134 +305,152 @@ n="50" break="no"/><space type="binding-hole"/>ẖ karaṁ jagrāha|</p>
 <l n="b">rājā vina<unclear>ya-bh</unclear>ūṣaṇaḥ|</l>
 <l n="c">kra<unclear>mā</unclear><lb 
 n="53" break="no"/>gataṁ bh<unclear>uvo bhā</unclear>raṁ</l>
-<l n="d"><unclear>babhā</unclear>ra hari-vik<unclear>ramaḥ|</unclear></l>
+<l n="d"><unclear>babhā</unclear>ra hari-vik<unclear>ramaḥ||</unclear></l>
 </lg>
-<p>@@@
-× × × × <unclear cert="low">marṇṇadhime</unclear> × × × × <unclear>dhī</unclear>-ma<unclear>hi</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ā</unclear>
-<lb n="54" break="no"/><unclear>yā</unclear><unclear cert="low">m aṇā</unclear> × <unclear>ka</unclear>ṁ <unclear cert="low">janaka</unclear> [ca. 21] <unclear>ti-la</unclear>
-<lb n="55" break="no"/><unclear>kṣmī</unclear>m āta [ca. 20]  <unclear cert="low">vi</unclear><unclear>kramonnata</unclear>-<unclear cert="low">śau</unclear>ryya
-The section of @the standard roughly corresponding to the illegible passage comprises the latter part of an anuṣṭubh about Bhīma, the son of Vikramāditya III.
-4r 564-568
-<pb n="4r" break="no"/><lb n="56" break="no"/>P1030565, right P1030566, P1030567, P1030568
-<unclear cert="low">nirjji</unclear>[ta] × × × × <unclear cert="low">jana</unclear> × × × <unclear cert="low">hāritam atra ma</unclear> × × × × × × <unclear cert="low">ma</unclear><unclear>yya</unclear><unclear cert="low">sutas ta</unclear><unclear>sya</unclear> vi
-<lb n="57" break="no"/>× × × × × × × <unclear cert="low">yasya</unclear> tā<unclear cert="low">pena codi dhaniṣṭha</unclear> × × × <unclear cert="low">yā</unclear> × <unclear cert="low">tā</unclear>M| <unclear cert="low">lā</unclear> × × <unclear cert="low">r</unclear>yyama
-<lb n="58" break="no"/> × × ma × × <unclear cert="low">ṇavaṣa</unclear> × × × × <unclear cert="low">rā</unclear><unclear>ja</unclear><unclear cert="low">sutāyām u</unclear> × × × <unclear cert="low">n</unclear>i<unclear cert="low">ja</unclear>na × × <unclear>ḥ|</unclear> 
-The corresponding part of @the standard is an anuṣṭubh about Vikramāditya III’s son Ayyaṇa, who married the daughter of Kr̥ṣṇa.
-anuṣṭubh
-sa Eṣa <unclear>vi</unclear>
-<lb n="59" break="no"/><unclear>kramādity</unclear>o 
-vikramaika-<unclear>raso</unclear> nr̥paḥ
- ced<unclear>i-vaṁ</unclear>śābdhi-sa<unclear>ṁ</unclear>bhūtāṁ 
-bonthāla<unclear>kṣ</unclear>m<unclear>īm avāpa</unclear> yaḥ| 
-@the standard introduces Vikramāditya IV in an āryā, naming his wife Vonthādevī and adding that she was the daughter of the Cedi king Lakṣmaṇa.
-gīti
-<unclear>ta</unclear>
-<lb n="60" break="no"/><unclear>s</unclear>ya harer i<unclear>va</unclear> kāmaḥ kāṁtyā kāma-dviṣaẖ kumāra Iva| 
-Indrasyeva jayantaḥ putro go<unclear>trā</unclear>
-<lb n="61" break="no"/><space type="binding-hole"/>bhi<unclear>vr̥</unclear>ddhay<unclear>e</unclear> jātaḥ|
-The corresponding stanza in @the standard is a mālinī about the birth of Taila II (named in that stanza) from Bonthādevī and Vikramāditya IV, also involving divine comparisons.
-āryā
-<unclear>A</unclear>ri-nr̥pati-k<unclear>u</unclear>ṁ<unclear>bh</unclear>i-<unclear>kuṁ</unclear>bha-stha<choice><orig>ḷ</orig><reg>l</reg></choice>a-da<choice><orig>ḷ</orig><reg>l</reg></choice>ana<unclear cert="low">ṁ</unclear> yasya sahaja-guṇa
-<lb n="62" break="no"/><space type="binding-hole"/>-y<unclear cert="low">o</unclear><unclear>gā</unclear>T| 
-Abhava<unclear>d b</unclear><unclear cert="low">ā</unclear><choice><orig><unclear cert="low">ḷ</unclear></orig><reg>l</reg></choice><unclear cert="low">a</unclear>-kr<unclear>ī</unclear>ḍā siṁhasya <unclear>śiś</unclear>or ivābālyāT| 
-@the standard has an āryā stanza similar in many details, stating that the splitting of the globes of enemy elephants was child’s play to Taila, as it is to a lion, which possesses innate strength. The latter is expressed with the word hari, which Fleet capitalises, probably on the assumption that Viṣṇu is meant here. This assumption can be rejected on the basis of this stanza.
-vasantatilakā
-yo <supplied reason="subaudible">’</supplied><unclear>th</unclear>āṁga-ra<unclear>kṣa</unclear>-ba
-<lb n="63" break="no"/><choice><orig>ḷ</orig><reg>l</reg></choice>am <unclear>unna</unclear>ta<unclear>m udbha</unclear>ṭa!āḍ!ḍhyam
-atyuddhataṁ sva-nr̥pater aba!jayad viruddha<unclear cert="low">ṁ</unclear> 
-<unclear cert="low">ta</unclear>smi+n bhakāra-bahuko<unclear cert="low">pada</unclear>vāna
-<lb n="64" break="no"/>÷<unclear cert="low">enīṁ</unclear>
-<unclear cert="low">rakṣ</unclear>āṁ vidhāya ca ripūn abhibhūya rāj<unclear>ñ</unclear>aḥ| 
-sa Eṣa ra[ṇa]-raṁga-bhīmaḥ bhīma-parākramā
-<lb n="65" break="no"/><unclear>kr</unclear>[ānta]-mahī-maṇḍa<choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>o ma</unclear>hī-<unclear>maṇḍa</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>a-ka</unclear><unclear cert="low">raṇḍa</unclear>-kān<unclear>t</unclear>a-ramita-kīrttiḥ| 
-anuṣṭubh?
-kīrttis sarasvatī<unclear cert="low">ṁ</unclear> vaktre 
-la
-<lb n="66" break="no"/><unclear cert="low">kṣmīm a</unclear><unclear>pi</unclear> ca vakṣasi 
-dr̥ṣṭve+r<unclear>ṣya</unclear>yā × <unclear cert="low">tīveṣā</unclear>
-<unclear>yasya</unclear> <unclear cert="low">dvīpānta</unclear>rāṇ<unclear>y</unclear> api| 
-Api ca| 
-<unclear>ci</unclear><unclear cert="low">rātīta</unclear>
-4v 560-563
-<pb n="4v" break="no"/><lb n="67" break="no"/>P1030560, P1030562, P1030563
--<unclear cert="low">sva</unclear><unclear>vaṁ</unclear>śād yo 
-rāṣ<unclear>ṭr</unclear>akū<unclear>ṭa-mahodadh</unclear>eḥ| 
-Uj<unclear>j</unclear>ahāra mahā-bāho [em. -bāhū?]
-rājya-ratnam arindamaḥ| 
-kiṁ ca|
-śārdūlavikrīḍita
-<lb n="68"/>sa<unclear>d-vaṁ</unclear>śa-prabhavasya tuṁgima-<unclear cert="low">nidher</unclear> <unclear>bbhāsvat-pra</unclear>tisparddhinaḥ| 
-pādair āpta-payodhi-mekha<choice><orig>ḷ</orig><reg>l</reg></choice>a-bhuvaḥ
-<lb n="69"/><unclear>khyātasya loka</unclear>-traye|
-ca<unclear>ṁca</unclear>c-cāmara-vījitasya parito na svalpam apy antaraṁ|
-paśyāmy asya
-<lb n="70"/>ca <unclear>ta</unclear>sya <unclear>ca kṣi</unclear>ti-bhr̥<unclear>to</unclear> <unclear cert="low">viṁdhya</unclear>sya taiḷasya ca|
-Corresponding to the above stanzas and prose, @the standard has two stanzas, the first announcing Taila’s defeat of the Rāṣṭrakūṭa Karkara, and the second his imprisonment of an Utpala who had previously defeated or intimidated Hūṇas, Māravas and Caidyas.
-anuṣṭubh
-tasya harer iva lakṣmīr [unmetrical on several counts, perhaps meant for sa-vipulā]
-vvedhasā!o vāg-vadhūr iva|
-rati
-<lb n="71" break="no"/>r yyathā ma<unclear cert="low">noja</unclear><unclear>sya</unclear>
-<unclear>śaṁ</unclear>bho <unclear>r</unclear>ggiri-sutā yathā| 
+<ab><unclear cert="low">śi</unclear> <gap reason="illegible" quantity="4" unit="character"/> <unclear cert="low">marṇṇadhime</unclear> <gap reason="illegible" quantity="2" unit="character"/> <unclear cert="low">ya</unclear> <gap reason="illegible" quantity="1" unit="character"/> <unclear>dhī</unclear>-ma<unclear>hiḷā</unclear><lb 
+n="54" break="no"/><unclear>yā</unclear><unclear cert="low">ṁ manonu</unclear><unclear>ka</unclear>ṁ <unclear cert="low">janaka</unclear> <gap reason="illegible" quantity="21" unit="character" precision="low"/> <unclear>ti-la</unclear><lb 
+n="55" break="no"/><unclear>kṣmī</unclear>-mā<unclear>tā</unclear><unclear cert="low">tiva</unclear> <gap reason="illegible" quantity="17" unit="character" precision="low"/>  <unclear cert="low">bhūmiṁ</unclear> <unclear>vikramonnataḥ</unclear> <unclear>śau</unclear>ryya<pb 
 
-sarvva-lakṣaṇa-saṁpūrṇṇā| 
-pati-vrata-guṇair yyu
-<lb n="72" break="no"/><space type="binding-hole"/>tā
-ra<unclear>ṭṭa-bhā</unclear>maha bhūpasya 
-<unclear cert="low">sutā</unclear> tasyābhavat priyā| 
+n="4r" break="no"/><lb 
+n="56" break="no"/><!--P1030565, right P1030566, P1030567, P1030568-->-<unclear>nirjji</unclear><supplied reason="lost">ta</supplied><gap reason="illegible" quantity="1" unit="character"/><unclear>r</unclear><unclear cert="low">o</unclear><gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">rājaka śauryya hārita mahīma</unclear> <gap reason="illegible" quantity="6" unit="character" precision="low"/> <unclear cert="low">yyam a</unclear><unclear>yya</unclear> <gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">tas ta</unclear><unclear>sya</unclear> vi<lb 
+n="57" break="no"/><gap reason="illegible" quantity="7" unit="character" precision="low"/> <unclear cert="low">yasya</unclear> <unclear>tā</unclear><unclear cert="low">pānaḷo dīpto niṣṭha</unclear> <gap reason="illegible" quantity="3" unit="character" precision="low"/> <unclear cert="low">yā</unclear> <gap reason="illegible" quantity="1" unit="character" precision="low"/> <unclear cert="low">tā</unclear>M| 
+</ab>
+<lg n="25" met="anuṣṭubh">
+<l n="a"><unclear cert="low">lo</unclear> <gap reason="illegible" quantity="2" unit="character" precision="low"/> <unclear cert="low">nā</unclear>ryyama<lb 
+n="58" break="no"/><seg met="+="><gap reason="illegible" quantity="2" unit="character"/></seg></l>
+<l n="b">ma<unclear cert="low">heśe</unclear><unclear>neva ṣaṇmukhaḥ</unclear></l>
+<l n="c"><unclear cert="low">kr̥ṣṇa-rā</unclear><unclear>ja</unclear><unclear cert="low">sutāyān tu</unclear></l>
+<l n="d"><unclear cert="low">su</unclear><supplied reason="lost" cert="low">to</supplied> <supplied reason="subaudible">’</supplied><unclear cert="low">ja</unclear><unclear>n</unclear>i <unclear cert="low">ja</unclear>n<unclear cert="low">a</unclear>-<unclear>s</unclear><unclear cert="low">t</unclear><unclear>utaḥ|</unclear></l>
+</lg>
+<lg n="26" met="anuṣṭubh">
+<l n="a">sa Eṣa <unclear>vi</unclear><lb 
+n="59" break="no"/><unclear>kramā</unclear>dityo</l>
+<l n="b">vikramaika-<unclear>raso</unclear> nr̥paḥ</l>
+<l n="c">ced<unclear>i-vaṁ</unclear>śābdhi-sa<unclear>ṁ</unclear>bhūtāṁ</l>
+<l n="d">bonthāla<unclear>kṣ</unclear>m<unclear>īm avāpa</unclear> yaḥ|</l>
+</lg>
+<lg n="27" met="gīti">
+<l n="ab"><unclear>ta</unclear><lb 
+n="60" break="no"/>sya harer i<unclear>va</unclear> kāmaḥ kāṁtyā kāma-dviṣaẖ kumāra Iva|</l>
+<l n="cd">Indrasyeva jayantaḥ putro go<unclear>trā</unclear><lb 
+n="61" break="no"/><space type="binding-hole"/>bhivr̥ddhay<unclear cert="low">e</unclear> jātaḥ|</l>
+</lg>
+<lg n="28" met="āryā">
+<l n="ab">Ari-nr̥pati-kuṁ<unclear>bh</unclear>i-kuṁbha-stha<choice><orig>ḷ</orig><reg>l</reg></choice>a-da<choice><orig>ḷ</orig><reg>l</reg></choice>ana<unclear cert="low">ṁ</unclear> yasya sahaja-guṇa<lb 
+n="62" break="no"/><space type="binding-hole"/>-yog<unclear>ā</unclear>T|</l>
+<l n="cd">Abhava<unclear>d bā</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>a</unclear>-kr<unclear>ī</unclear>ḍā siṁhasya <unclear>ś</unclear>iśor ivābālyāT|</l>
+</lg>
+<lg n="29" met="vasantatilakā">
+<l n="a">yo dhāṁga-ra<unclear>kṣa</unclear>-ba<lb 
+n="63" break="no"/><choice><orig>ḷ</orig><reg>l</reg></choice>am <unclear>unna</unclear>ta<unclear>m udbha</unclear>ṭ<choice><sic>a</sic><corr>ā</corr></choice><choice><sic>ḍ</sic><corr>ḍh</corr></choice>yam</l>
+<l n="b">atyuddhataṁ sva-nr̥pater a<choice><sic>b</sic><corr>j</corr></choice>ayad viruddha<unclear cert="low">ṁ</unclear></l>
+<l n="c"> <unclear>bha</unclear>smī<unclear>c</unclear>akāra-bahu-ko<unclear>pa-da</unclear>vāna<lb 
+n="64" break="no"/><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>ena|</unclear></l>
+<l n="d"><unclear>rakṣ</unclear>āṁ vidhāya ca ripūn abhibhūya rāj<unclear>ñ</unclear>aḥ|</l>
+</lg>
+<ab>sa Eṣa <unclear>ra</unclear><supplied reason="lost">ṇa</supplied>-raṁga-bhīmaḥ bhīma-parākramā<lb 
+n="65" break="no"/><unclear>kr</unclear><supplied reason="lost">ānta</supplied>-mahī-maṇḍa<choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>o</unclear> mahī-ma<unclear>ṇḍa</unclear><choice><orig>ḷ</orig><reg>l</reg></choice><unclear>a-karaṇḍa</unclear>kān<unclear>t</unclear>a-ramita-kīrttiḥ|</ab>
+<lg n="30" met="anuṣṭubh">
+<l n="a">kīrttis sarasvatīṁ vaktre</l>
+<l n="b">la<lb 
+n="66" break="no"/><unclear>kṣmīm api</unclear> ca vakṣasi</l>
+<l n="c"> dr̥ṣṭve<supplied reason="omitted">r</supplied><unclear>ṣya</unclear>yā<unclear cert="low">ṭatīve</unclear><unclear>ṣā</unclear></l>
+<l n="d"><unclear>yasya dvīpānta</unclear>rāṇ<unclear>y</unclear> api|</l>
+</lg>
+<ab>Api ca|</ab>
+<lg n="31" met="anuṣṭubh">
+<l n="a"><unclear>ci</unclear><unclear cert="low">rātīta</unclear><pb 
 
-prāṇebhyo <supplied reason="subaudible">’</supplied>bhyadhikā kāntā 
-<lb n="73"/><space type="binding-hole"/> j<unclear cert="low">ā</unclear>kabeti bhuvi śrutā<unclear>|</unclear>
-su<unclear>vr̥</unclear>ttā nirmma<choice><orig>ḷ</orig><reg>l</reg></choice>āṁgī ca 
-muktā-hāra-latā yathā|
-Here, @the standard has an āryā stanza and an upajāti relating Taila’s marriage to Jākavvā, daughter of the Rāṣṭrakūṭa Bhammaha.
-tasyāṁ 
-<lb n="74"/>śrī-tai<unclear>ḷa-bhūpe</unclear>na
-suto <supplied reason="subaudible">’</supplied>jani <unclear>jayo</unclear>tta<unclear>raḥ</unclear> 
-<unclear>sa</unclear>tyāśrayābhidhānaṁ tad 
-yasya sārttha<unclear cert="low">ka</unclear>tāṁ gata<unclear>M</unclear>
-@the standard also narrates the birth of Satyāśraya in an anuṣṭubh, then continues along its own lines with his younger brother Yaśovarman.
-<lb n="75"/>varṇṇyā <unclear>gu</unclear><unclear cert="low">ṇāẖ ka</unclear>than tsya 
-satya-tyāga-parākramāḥ 
-Eko<unclear>t</unclear>tarāẖ kr̥ta-<unclear>s</unclear>parddhāḥ 
-yasya va<unclear cert="low">ś</unclear>yās sadā 
-<lb n="76"/>Ime| 
+n="4v" break="no"/><lb 
+n="67" break="no"/><!--P1030560, P1030562, P1030563-->
+-<unclear>sva-vaṁ</unclear>śād yo</l>
+<l n="b">rā<unclear>ṣṭrakūṭa-mahoda</unclear>dheḥ|</l>
+<l n="c">Ujjahāra mahā-bāh<choice><sic>ū</sic><corr>ū</corr></choice></l>
+<l n="d">rājya-ratnam arindamaḥ|</l>
+</lg>
+<ab>kiṁ ca|</ab>
+<lg n="32" met="śārdūlavikrīḍita">
+<l n="a"><lb 
+n="68"/>sa<unclear>d-vaṁ</unclear>śa-<unclear>p</unclear>rabhavasya tuṁgima-<unclear>nidher bbhāsva</unclear>t-pratisparddhinaḥ|</l>
+<l n="b">pādair āpta-payodhi-mekha<choice><orig>ḷ</orig><reg>l</reg></choice>a-bhuvaḥ <lb 
+n="69"/><unclear>khyātasya loka</unclear>-traye|</l>
+<l n="c">caṁ<unclear>ca</unclear>c-cāmara-vījitasya parito na svalpam apy antaraṁ|</l>
+<l n="d">paśyāmy asya <lb 
+n="70"/>ca <unclear>ta</unclear>sya <unclear>ca kṣi</unclear>ti-bhr̥<unclear>to</unclear> <unclear>viṁdhya</unclear>sya taiḷasya ca|</l>
+</lg>
+<lg n="33" met="anuṣṭubh">
+<l n="a" met="sa-vipulā" real="+--+--++">tasya harer iva lakṣmīr</l>
+<l n="b">vvedhas<choice><sic>ā</sic><corr>o</corr></choice> vāg-vadhūr iva|</l>
+<l n="c">rati<lb 
+n="71" break="no"/>r yyathā ma<unclear cert="low">noja</unclear><unclear>sya</unclear></l>
+<l n="d"><unclear>śaṁ</unclear>bho <unclear>r</unclear>ggiri-sutā yathā|</l>
+</lg>
+<lg n="34" met="anuṣṭubh">
+<l n="a">sarvva-lakṣaṇa-saṁpūrṇṇā|</l>
+<l n="b">pati-vrata-guṇair yyu<lb 
+n="72" break="no"/><space type="binding-hole"/>tā</l>
+<l n="c">ra<unclear>ṭṭa-bhā</unclear>maha bhūpasya</l>
+<l n="d"><unclear>sutā</unclear> tasyābhavat priyā|</l>
+</lg>
+<lg n="35" met="anuṣṭubh">
+<l n="a">prāṇebhyo <supplied reason="subaudible">’</supplied>bhyadhikā kāntā</l>
+<l n="b"><lb 
+n="73"/><space type="binding-hole"/> j<unclear cert="low">ā</unclear>kabeti bhuvi śrutā|</l>
+<l n="c">su<unclear>vr̥</unclear>ttā nirmma<choice><orig>ḷ</orig><reg>l</reg></choice>āṁgī ca</l>
+<l n="d">muktā-hāra-latā yathā|</l>
+</lg>
+<lg n="36" met="anuṣṭubh">
+<l n="a">tasyāṁ <lb 
+n="74"/>śrī-tai<unclear>ḷa-bhūpe</unclear>na</l>
+<l n="b">suto <supplied reason="subaudible">’</supplied>jani <unclear>jayo</unclear>tta<unclear>raḥ</unclear></l>
+<l n="c">satyāśrayābhidhānaṁ tad</l>
+<l n="d">yasya sārttha<choice><sic>g</sic><corr>k</corr></choice>atāṁ gata<unclear>M</unclear></l>
+</lg>
+<lg n="37" met="anuṣṭubh">
+<l n="a"><lb 
+n="75"/>varṇṇyā gu<unclear>ṇāẖ ka</unclear>than tasya</l>
+<l n="b">satya-tyāga-parākramāḥ</l>
+<l n="c">Eko<unclear>t</unclear>tarāẖ kr̥ta-<unclear>s</unclear>parddhāḥ</l>
+<l n="d">yasya va<unclear>ś</unclear>yās sadā <lb 
+n="76"/>Ime|</l>
+</lg>
+<p>svasti<supplied reason="subaudible">.</supplied> samasta-bhu<unclear>va</unclear>nāśraya śrī-pr̥<unclear>thv</unclear>ī-va<unclear>llabha-mahā</unclear>rājādhirāja-parameśvara-parama-bha<lb 
+n="77" break="no"/>ṭṭāraka<supplied reason="omitted">ḥ</supplied> cāḷu<unclear>k</unclear>yābharaṇa<supplied reason="omitted">ḥ</supplied> śrīmad-āhavamalla-deva-pāda-paṁkaja-bhramara<supplied reason="omitted">ḥ</supplied> śrīmat-satyā<unclear>śra</unclear>ya-devaḥ <lb n="78"/>I<unclear>ṟi</unclear>vabeḍeṁgāpara-nāmā| kuśa<choice><orig>ḷ</orig><reg>l</reg></choice>ī| sarvvā<unclear>n e</unclear>va yathā-saṁbadhyamānakān niyuktādhikār<unclear>i</unclear>ṇas samā<lb 
+n="79" break="no"/>diśati|</p>
+<p>Astu vas saṁviditaṁ yathā mayā sū<unclear>r</unclear>yy<unclear>o</unclear>parāga-<unclear>n</unclear>imit<unclear>t</unclear>e ko<unclear cert="low">ṭ</unclear>itī<unclear>r</unclear>t<unclear>the</unclear> k<unclear cert="low">r̥</unclear>ta-<unclear>majjanena mā</unclear><pb 
 
-svasti<supplied reason="subaudible">.</supplied> samasta-bhu<unclear>va</unclear>nāśraya śrī-pr̥<unclear>thv</unclear>ī-va<unclear>llabha-mahārā</unclear>jādhirāja-parameśvara-parama-bha
-<lb n="77" break="no"/>ṭṭāraka+ḥ cāḷu<unclear>ky</unclear>ābharaṇa+ḥ śrīmad-āhavamalla-deva-pāda-paṁkaja-bhramara+ḥ śrīmat-satyā<unclear>śra</unclear>ya-devaḥ
-<lb n="78"/>I<unclear>ṟi</unclear>vabeḍe<unclear>ṁgā</unclear>para-nāmā| kuśa<choice><orig>ḷ</orig><reg>l</reg></choice>ī| sarvvā<unclear>n e</unclear>va yathā-saṁbadhyamānakān niyuktādhikār<unclear>i</unclear>ṇas samā
-<lb n="79" break="no"/>diśati| 
-Astu vas saṁviditaṁ yathā mayā sū<unclear>r</unclear>yy<unclear>o</unclear>parāga-<unclear>n</unclear>imit<unclear>t</unclear>e ko<unclear cert="low">ṭ</unclear>itī<unclear cert="low">rtthe</unclear> k<unclear cert="low">r̥</unclear>ta-<unclear cert="low">majjanena mā</unclear>
-5r 537-541
-<pb n="5r" break="no"/><lb n="80" break="no"/>P1030538, P1030539; right P1030541
-<unclear cert="low">tā-pit</unclear>+r<unclear cert="low">o</unclear><unclear>r ātmanaś cai</unclear>hi<unclear>kām</unclear>utrika-puṇya-yaśo-bhiv<unclear>r̥ddhaye</unclear> pitror āj<unclear>ñ</unclear>ay<unclear>ā</unclear> <unclear cert="low">krov</unclear>e<unclear cert="low">ll</unclear>i-<unclear>v</unclear>āstavyā
-<lb n="81" break="no"/><unclear>ya kau</unclear>ṇḍinya-gotrāya| {<unclear cert="low">c</unclear>}<unclear cert="low">chandoga</unclear>-sabrahmacāri<unclear>ṇe</unclear> bhaṭṭa-<unclear cert="low">deva</unclear>naśa<unclear>rmma-pau</unclear>trāya × × ma-bhaṭṭa-s<unclear>ū</unclear>
-<lb n="82" break="no"/><unclear cert="low">nave</unclear> <unclear>de</unclear>va<unclear>nabha</unclear>ṭṭ<unclear>āya ca</unclear>tu<unclear>r-vvi</unclear>dyā-nivāsāyā<unclear>ne</unclear>ka-guṇa-<unclear>gaṇābhi</unclear>rāmāya śrī-teramya *
-<lb n="83" break="no"/><unclear cert="low">ra</unclear>-<unclear>bhūta</unclear>-pārameśvara-pā<unclear>da-pras</unclear>ādāvāpta-gurud<unclear>ā</unclear>sāpara-nām<unclear>n</unclear>e kollipāka-viṣaye| Ā * *
-<lb n="84" break="no"/> × × [ca]<unclear cert="low">tv</unclear>āriṁśad-grāma-madhye| yasyopā<unclear>nta</unclear>-grāmāḥ| pūrvvata<unclear>ẖ k</unclear><unclear cert="low">ola</unclear>nūruḥ<supplied reason="subaudible">.</supplied> dakṣiṇataḥ ma * *
-<lb n="85" break="no"/>r<unclear cert="low">uḥ paścima</unclear><unclear>ta</unclear>ḥ Āle<unclear cert="low">ṟu</unclear>ḥ<supplied reason="subaudible">.</supplied> Uttarataḥ taṁg<unclear>o</unclear>ṭūruḥ<supplied reason="subaudible">.</supplied> Evam ayaṁ <unclear>tyaktāś</unclear>eṣa-da<unclear>ṇḍa</unclear>-daśāparādha[?ḥ A-cā]
-<lb n="86" break="no"/> <unclear cert="low">ṭa-bha</unclear> <space type="binding-hole"/> <unclear cert="low">ṭa-prave</unclear>[?śyaḥ]<unclear cert="low">|</unclear> <unclear>par</unclear>ih<unclear>r̥</unclear>ta-sarvva-kara-bādhaḥ| <unclear cert="low">maṟutuṟu</unclear><unclear>palli-nāmā</unclear> grāmo datta[ḥ] * *
-<lb n="87" break="no"/><space type="binding-hole"/> <unclear cert="low">Asya sī</unclear><unclear>mā</unclear>ni| pūrvvataḥ bha<unclear>gava</unclear>t<unclear>ī-pāṣāṇaḥ</unclear><supplied reason="subaudible">.</supplied> <unclear>dakṣiṇata</unclear>[ḥ] <unclear cert="low">bikk</unclear>eṟuḥ<supplied reason="subaudible">.</supplied> paści<unclear>ma</unclear>[taḥ] *
-<lb n="88" break="no"/><space type="binding-hole"/> <unclear cert="low">sa</unclear>mu<unclear cert="low">dra</unclear><unclear>ḫ p</unclear>āṣā<unclear>ṇa</unclear>ḥ<supplied reason="subaudible">.</supplied> Ut<unclear>t</unclear>ara<unclear>ta</unclear>ḥ daivataṁ<supplied reason="subaudible">.</supplied> trīṇi × × <unclear cert="low">mame</unclear> × <unclear cert="low">rttha</unclear>m adhikr̥tya [?bhavi]
-<lb n="89" break="no"/><unclear cert="low">ṣyad-rāja</unclear> × × × <unclear cert="low">pa</unclear>yati <unclear>yathāsmā</unclear>bhi<unclear>r</unclear> ddharmma-yaśobhi<unclear>v</unclear>r̥<unclear>ddha</unclear>y<unclear>e</unclear> dattaḥ ta<unclear>thā</unclear> bhavadbhir a[?pi sva]
-<lb n="90" break="no"/>-<unclear cert="low">da</unclear><unclear>tta-ni</unclear><unclear cert="low">rvviśeṣaiḥ prati</unclear>pā<choice><orig><unclear cert="low">ḷ</unclear></orig><reg>l</reg></choice><unclear cert="low">an</unclear><unclear>ī</unclear>yaḥ<unclear>|</unclear> yaś c<unclear>ā</unclear>sya bā<unclear>dhā</unclear>ṁ <unclear>jana</unclear>ye<unclear>t sa</unclear> pa<unclear>ṁcabhir mmahā</unclear>-pātakai<unclear>s sa</unclear>[ṁyu]
-<lb n="91" break="no"/><unclear>jyati| yaś ca pā</unclear><choice><orig><unclear cert="low">ḷ</unclear></orig><reg>l</reg></choice><unclear cert="low">a</unclear>ya<unclear cert="low">ti so</unclear> <supplied reason="subaudible">’</supplied>śvamedha-<unclear>pha</unclear>la<unclear>m āpno</unclear>ti| bhagava<unclear>tāpy uktaṁ|</unclear>
-anuṣṭubh
-sva-<unclear>dattāṁ para</unclear>-da<unclear>tt</unclear>[āṁ vā]
-<lb n="92" break="no"/><unclear>yo hareta va</unclear>sundharā<unclear>ṁ|</unclear>
-ṣ<unclear>aṣṭi-varṣa</unclear>-[saha]<unclear>srāṇi</unclear>
-<unclear>viṣṭhāyāṁ jāyate k</unclear><unclear>ri</unclear>!r̥<unclear>mi</unclear>ḥ<unclear>|</unclear>
-<unclear cert="low">pā</unclear><choice><orig><unclear cert="low">ḷ</unclear></orig><reg>l</reg></choice><unclear cert="low">e</unclear>n<unclear cert="low">āp</unclear>y u<unclear cert="low">kta</unclear> * *
-<lb n="93" break="no"/>× × <unclear>na?</unclear><unclear>|</unclear> 
-anuṣṭubh
-<unclear>bahubh</unclear>i<unclear>r</unclear> vvasudhā dattā<unclear>|</unclear>
-<unclear>ba</unclear>hubhiś cānupā<choice><orig>ḷ</orig><reg>l</reg></choice>itā| 
-yasya yasya <unclear>yadā bhūmis</unclear> 
-<unclear>tasya</unclear> [tasya]
-<lb n="94" break="no"/>[tadā] <unclear>pha</unclear>lam iti| 
-maṁ<unclear>ga</unclear><choice><orig>ḷ</orig><reg>l</reg></choice>aṁ śrī|
-
-</p>
+n="5r" break="no"/><lb 
+n="80" break="no"/><!--P1030538, P1030539; right P1030541--><unclear cert="low">tuḫ pitu</unclear><unclear>r ātmanaś cai</unclear>hi<unclear>kā</unclear>mutrika-puṇya-yaś<unclear>o</unclear>-<supplied reason="subaudible">’</supplied>bhi<unclear>vr̥ddhaye|</unclear> pitror ājñay<unclear>ā</unclear> <unclear cert="low">krov</unclear>e<unclear>lli-v</unclear>āstavyā<lb 
+n="81" break="no"/><unclear>ya kau</unclear>ṇḍinya-gotrāya| <surplus><unclear>c</unclear></surplus><unclear>chandoga</unclear>-sabrahmacāri<unclear>ṇe|</unclear> bhaṭṭa-<unclear cert="low">deva</unclear>naśa<unclear>rmma-pau</unclear>trāya <unclear cert="low">naggi</unclear>ma-bhaṭṭa-s<unclear>ū</unclear><lb 
+n="82" break="no"/><unclear>na</unclear>ve devana-<unclear>bha</unclear>ṭṭ<unclear>āya| ca</unclear>tu<unclear>r-vvi</unclear>dyā-nivāsāyā<unclear>ne</unclear>ka-guṇa-<unclear>gaṇābhi</unclear>rāmāya śrī-teramya<gap reason="lost" quantity="1" unit="character" precision="low"/><lb 
+n="83" break="no"/><unclear cert="low">nu</unclear><unclear>bhūta</unclear>-pārameśvara-pā<unclear>da-pras</unclear>ādāvāpta-gurud<unclear>ā</unclear>sāpara-nāmne kollipāka-viṣaye| Ā<gap reason="lost" quantity="2" unit="character" precision="low"/><lb 
+n="84" break="no"/><gap reason="illegible" quantity="2" unit="character"/>-<supplied reason="lost">ca</supplied><unclear cert="low">tv</unclear>āriṁśad-grāma-madhye| yasyopānta-grāmāḥ| pūrvvata<unclear>ẖ k</unclear><unclear cert="low">ola</unclear>nūruḥ<supplied reason="subaudible">.</supplied> dakṣiṇataḥ ma<gap reason="lost" quantity="2" unit="character" precision="low"/><lb 
+n="85" break="no"/>r<unclear cert="low">uḥ</unclear><supplied reason="subaudible">.</supplied> <unclear>paścimata</unclear>ḥ Āle<unclear>ṟu</unclear>ḥ<supplied reason="subaudible">.</supplied> Uttarataḥ taṁgoṭūruḥ<supplied reason="subaudible">.</supplied> Evam ayaṁ <unclear>tyaktāś</unclear>eṣa-da<unclear>ṇḍa</unclear>-daśāparādha<unclear>ḥ</unclear> <supplied reason="lost">A-cā</supplied><lb 
+n="86" break="no"/> <unclear>ṭa-bha</unclear><space type="binding-hole"/><unclear>ṭa-praveśya</unclear><unclear cert="low">ḥ|</unclear> <unclear>par</unclear>ih<unclear>r̥</unclear>ta-sarvva-kara-bādhaḥ| <unclear cert="low">maṟutuṟu</unclear><unclear>palli-nāmā</unclear> grāmo datta<unclear cert="low">ḥ</unclear> <gap reason="lost" quantity="2" unit="character" precision="low"/></p>
+<p><lb n="87" break="no"/><space type="binding-hole"/> <unclear>Asya sī</unclear><unclear>mā</unclear>ni| pūrvvataḥ bha<unclear>gavatī-pāṣāṇaḥ</unclear><supplied reason="subaudible">.</supplied> <unclear>dakṣiṇata</unclear><supplied reason="lost">ḥ</supplied> <unclear cert="low">bi</unclear>k<unclear cert="low">k</unclear>eṟuḥ<supplied reason="subaudible">.</supplied> paści<unclear>ma</unclear><supplied reason="lost">taḥ</supplied> <gap reason="lost" quantity="1" unit="character" precision="low"/><lb 
+n="88" break="no"/><space type="binding-hole"/> <unclear>samudraḫ p</unclear>āṣā<unclear>ṇā</unclear>ḥ<supplied reason="subaudible">.</supplied> Uttara<unclear>ta</unclear>ḥ <unclear>dai</unclear>vataṁ</p>
+<p>trīṇi <unclear cert="low">kā</unclear><gap reason="illegible" quantity="1" unit="character"/>  <unclear>mame</unclear><gap reason="illegible" quantity="1" unit="character"/> <unclear>rttha</unclear>m adhikr̥tya <supplied reason="lost" cert="low">bhavi</supplied>
+<lb n="89" break="no"/><unclear>ṣyad-rāja</unclear><gap reason="illegible" quantity="2" unit="character"/> <unclear cert="low">bodha</unclear>yati <unclear>yathāsmā</unclear>bhi<unclear>r</unclear> ddharmma-yaśobhi<unclear>v</unclear>r̥<unclear>ddha</unclear>y<unclear>e</unclear> dattaḥ ta<unclear>thā</unclear> bhavadbhir a<supplied reason="lost" cert="low">pi sva</supplied><lb 
+n="90" break="no"/>-<unclear>da</unclear>tta-ni<unclear cert="low">rvviśeṣaiḥ</unclear> <unclear>prat</unclear><unclear cert="low">ipāḷan</unclear><unclear>ī</unclear>yaḥ| yaś cāsya bā<unclear>dhā</unclear>ṁ janaye<unclear>t sa</unclear> paṁ<unclear>cabhir mmahā</unclear>-pātakai<unclear>s sa</unclear><supplied reason="lost">ṁyu</supplied><lb 
+n="91" break="no"/><unclear>jyati| yaś ca pā</unclear><choice><orig><unclear>ḷ</unclear></orig><reg>l</reg></choice><unclear>a</unclear>ya<unclear>ti</unclear>
+<unclear cert="low">so</unclear> <supplied reason="subaudible">’</supplied>ś<unclear>v</unclear>ame<unclear>dha-pha</unclear>la<unclear>m āpno</unclear>ti| bhagavatā<unclear>py ukta</unclear><unclear cert="low">M|</unclear></p>
+<lg n="38" met="anuṣṭubh">
+<l n="a"><unclear>sva-dattāṁ para</unclear>-datt<supplied reason="lost">āṁ vā</supplied></l>
+<l n="b"><lb 
+n="92"/><unclear>yo hareta va</unclear>sundharā<unclear>ṁ|</unclear></l>
+<l n="c"><unclear>ṣaṣṭi-varṣa</unclear>-<supplied reason="lost">saha</supplied><unclear>srāṇi</unclear></l>
+<l n="d"><unclear>viṣṭhāyāṁ jā</unclear>yate <unclear>k</unclear><choice><sic><unclear>ri</unclear></sic><corr>r̥</corr></choice><unclear>mi</unclear>ḥ<unclear>|</unclear></l>
+</lg>
+<p><unclear cert="low">p</unclear><unclear>āḷ</unclear><unclear cert="low">e</unclear><unclear>n</unclear><unclear cert="low">ā</unclear>py u<unclear>kta</unclear><gap reason="lost" quantity="2" unit="character" precision="low"/> <lb 
+n="93"/><gap reason="illegible" quantity="1" unit="character"/> <unclear cert="low">thinyā</unclear><unclear>|</unclear></p>
+<lg n="39" met="anuṣṭubh">
+<l n="a"><unclear>bahubh</unclear>i<unclear>r</unclear> vvasudhā dattā<unclear>|</unclear></l>
+<l n="b"><unclear>ba</unclear>hubhiś cānupā<choice><orig>ḷ</orig><reg>l</reg></choice>itā|</l>
+<l n="c">yasya yasya <unclear>yadā bhūmis</unclear></l>
+<l n="d"><unclear>tasya</unclear> <supplied reason="lost">tasya</supplied> <lb 
+n="94"/><supplied reason="lost">tadā</supplied> <unclear>pha</unclear>lam</l>
+</lg>
+<p>iti| maṁ<unclear>ga</unclear><choice><orig>ḷ</orig><reg>l</reg></choice>aṁ śrī|</p>
 <pb 
 
 n="5v"/>
@@ -450,8 +468,8 @@ n="5v"/>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
       <app loc="2">
-        <lem>-jūṭa-</lem>
-        <note>The second syllable of this word ought to be long. The composer's pronunciation may have been <foreign>jūṭā</foreign>, perhaps due to conflation with <foreign>jaṭā</foreign>.</note>
+        <lem>-<orig>jūṭā</orig>-</lem>
+        <note>This word is correctly <foreign>jūṭa</foreign>, but the second syllable has been lengthened for the sake of the metre, possibly influenced by <foreign>jaṭā</foreign>. In a pinch, construing <foreign>jūṭa+āgata</foreign> is also possible, but <foreign>gata</foreign> is far more appropriate.</note>
       </app>
       <app loc="21">
         <lem>khyāta<supplied reason="omitted">ḥ</supplied></lem>
@@ -459,15 +477,15 @@ n="5v"/>
       </app>
       <app loc="29">
         <lem>pra<unclear>śā</unclear><unclear cert="low">nta</unclear>ḥ</lem>
-        <note>Dezső tentatively read this word as <foreign>praśāstā</foreign>. The badly effaced last <foreign>akṣara</foreign>'s subscript part is definitely <foreign>t</foreign>; the body is quite illegible, but in my opinion too narrow to be <foreign>s</foreign>. It is also quite certain that this <foreign>akṣara</foreign> lacks an <foreign>ā</foreign> and is followed by a <foreign>visarga</foreign>. Neither <foreign>praśāstā</foreign>, nor <foreign>praśāntaḥ</foreign> fit the context perfectly, but both can be interpreted.</note>
+        <note>Dezső tentatively read this word as <foreign>praśāstā</foreign>. The badly effaced last <foreign>akṣara</foreign>'s subscript part is definitely <foreign>t</foreign>; the body is quite illegible, but in my opinion too narrow to be <foreign>s</foreign>. Given the rest of the stanza, an agentive would indeed be expected. However, it is quite certain that the last <foreign>akṣara</foreign> lacks an <foreign>ā</foreign> and it is definitely followed by a <foreign>visarga</foreign>. Neither <foreign>praśāstā</foreign>, nor <foreign>praśāntaḥ</foreign> fit the context perfectly, but both can be interpreted.</note>
       </app>
       <app loc="29">
         <lem>tas<unclear>mā</unclear> × × <unclear>|</unclear></lem>
         <note>Possibly restore <foreign>tasmāt punaḥ</foreign>. The connecting text in the standard eulogy is <foreign>tat-tanayaḥ</foreign>.</note>
       </app>
       <app loc="29">
-        <lem><unclear cert="low">dhavaḷa</unclear><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg>-<unclear>nivās</unclear><supplied reason="lost" cert="low">ī</supplied></lem>
-        <note>Even the partial reading is tentative, but perhaps restore <foreign>dhavaḷagiri-nivāsī</foreign>?</note>
+        <lem><unclear cert="low">dhava</unclear><unclear>ḷa</unclear><seg met="--"><gap reason="illegible" quantity="2" unit="character"/></seg>-<unclear>nivās</unclear><supplied reason="lost" cert="low">ī</supplied></lem>
+        <note>Even the partial reading is tentative (<foreign>dramiḷa</foreign> being also quite plausible), but perhaps restore <foreign>dhavaḷagiri-nivāsī</foreign>?</note>
       </app>
       <app loc="30">
         <lem><unclear cert="low">pra</unclear><supplied reason="lost" cert="low">ba</supplied><unclear cert="low">ḷa</unclear>tara-</lem>
@@ -514,6 +532,27 @@ n="31" break="no"/><unclear>n</unclear>o yas<seg met="-+"><gap reason="illegible
         <lem><unclear>guṇa-gaṇ</unclear><unclear cert="low">āśī</unclear>-</lem>
         <note>The character I read as <foreign>śī</foreign> looks rather like <foreign>lī</foreign>.</note>
       </app>
+      <app loc="67">
+        <lem>-bāh<choice><sic>ū</sic><corr>ū</corr></choice></lem>
+        <note>The received text may be accepted without emendation assuming that the word <foreign>bāha</foreign>, rather than <foreign>bāhu</foreign>, is involved. However, <foreign>mahā-bāhu</foreign> is such a common formulation that <foreign>mahā-bāha</foreign> can be excluded; conversely, its vocative <foreign>mahā-bāho</foreign> occurs very frequently as an <foreign>anuṣṭubh</foreign> cadence and may have influenced the scribe or the composer here.</note>
+      </app>
+      <app loc="82">
+        <lem>śrī-teramya<gap reason="lost" quantity="1" unit="character" precision="low"/><lb 
+n="83" break="no"/><unclear cert="low">nu</unclear><unclear>bhūta</unclear>-</lem>
+        <note>Perhaps restore <foreign>śrī-teramyām anubhūta</foreign>? I am not aware of a holy place named <foreign>teramī</foreign>.</note>
+      </app>
+      <app loc="88">
+        <lem>trīṇi <unclear cert="low">kā</unclear><gap reason="illegible" quantity="1" unit="character"/></lem>
+        <note>There is definitely not enough room on the plate for <foreign>trīṇi kālāni</foreign> to have been inscribed here.</note>
+      </app>
+      <app loc="88">
+        <lem><unclear>mame</unclear><gap reason="illegible" quantity="1" unit="character"/> <unclear>rttha</unclear>m</lem>
+        <note>It is very likely that something along the lines of <foreign>mamemam arttham</foreign> had been intended, but again, there is not enough room for an additional character. Haplography on account of the repeated <foreign>m</foreign>-s is possible.</note>
+      </app>
+      <app loc="92">
+        <lem><unclear cert="low">p</unclear><unclear>āḷ</unclear><unclear cert="low">e</unclear><unclear>n</unclear><unclear cert="low">ā</unclear>°</lem>
+        <note>The attribution is opaque to me. Reading <foreign>hāḷenā°</foreign> is not out of the question, and the initial consonant might also be <foreign>ḍ</foreign> or <foreign>b</foreign>.</note>
+      </app>
       
       
     </listApp>
@@ -559,6 +598,14 @@ n="31" break="no"/><unclear>n</unclear>o yas<seg met="-+"><gap reason="illegible
 <p>Analogously to the prose in lines 48 to 50, the standard describes Kīrtivarman II’s loss of the realm in the rest of the <foreign>anuṣṭubh</foreign> that commenced with the introduction of Vikramāditya. Another <foreign>anuṣṭubh</foreign> stanza then begins with the mention of the nameless brother, who is there too described as (or named?) <foreign>bhīma-parākrama</foreign>.</p>
 <p rend="stanza" n="23">In the standard, Kīrtivarman III is introduced in the second half of the stanza that recounts the nameless brother, while Taila I gets the first quarter of the next <foreign>anuṣṭubh</foreign>.</p>
 <p rend="stanza" n="24">The standard dedicates little over an <foreign>anuṣṭubh</foreign> quarter to Vikramāditya III.</p>
+<p>The badly effaced passage in lines 53 to 57 certainly contained, or even consisted solely of, verse. Many of the tentatively read fragments suggest <foreign>anuṣṭubh</foreign>, including the full odd quarter <foreign>yasya tāpānaḷo dīpto</foreign>.  The corresponding part of the standard comprises the latter part of an <foreign>anuṣṭubh</foreign> about Bhīma, the son of Vikramāditya III, followed by another <foreign>anuṣṭubh</foreign> about Vikramāditya III’s son Ayyaṇa, who married the daughter of Kr̥ṣṇa.</p>
+<p rend="stanza" n="25">The standard introduces Vikramāditya IV, the son of Ayyaṇa and the Rāṣṭrakūṭa princess, in an <foreign>āryā</foreign> stanza.</p>
+<p rend="stanza" n="26">In the standard, the marriage of Vikramāditya IV to Vonthādevī, daughter of the Cedi king Lakṣmaṇa, is narrated in a <foreign>sugīti</foreign> stanza. (Fleet was not able to identify this rare metre involving 32 morae in the first hemistich and 27 in the second, which does, however, occur in the Veṅgī Cālukya corpus.)</p>
+<p rend="stanza" n="27">The corresponding stanza in the standard is a <foreign>mālinī</foreign> about the birth of Taila II (named in that stanza) from Bonthādevī and Vikramāditya IV, also involving divine comparisons.</p>
+<p rend="stanza" n="28">The standard has an <foreign>āryā</foreign> stanza similar in many details, stating that the splitting of the globes of enemy elephants was child’s play to Taila, as it is to a lion, which possesses innate strength. The latter is expressed with the word <foreign>hari</foreign>, and some of the capabilities ascribed to Taila there seem to pun on that word, being probably associated with Viṣṇu.</p>
+<p rend="stanza" n="29-32">The standard dedicates two <foreign>śārdūlavikrīḍita</foreign> stanzas to the praise of Taila, the first announcing his victory over the Rāṣṭrakūṭa Karkara, and the second his imprisonment of an Utpala who had previously defeated or intimidated Hūṇas, Māravas and Caidyas.</p>
+<p rend="stanza" n="33-35">The standard has an <foreign>āryā</foreign> stanza and an <foreign>upajāti</foreign> relating Taila’s marriage to Jākavvā, daughter of the Rāṣṭrakūṭa Bhammaha.</p>
+<p rend="stanza" n="36">The standard also narrates the birth of Satyāśraya in an <foreign>anuṣṭubh</foreign>, then continues along its own lines with his younger brother Yaśovarman.</p>
 </div>
 
 
