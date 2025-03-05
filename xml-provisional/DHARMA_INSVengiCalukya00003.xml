@@ -271,8 +271,7 @@ n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">
     <bibl n="EH"><ptr target="bib:Hultzsch1907-1908_07"/></bibl><!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
    <listBibl type="secondary">
-      <bibl><ptr target="bib:ARIE1907-1908"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1907-1908</citedRange><citedRange unit="item">2</citedRange></bibl>
-      <bibl><ptr target="bib:ARIE1907-1908"/><citedRange>48-49</citedRange></bibl>
+      <bibl><ptr target="bib:ARIE1907-1908"/></bibl>
       <bibl><ptr target="bib:ARIE1956-1957"/><citedRange unit="page">33</citedRange><citedRange unit="appendix">A/1956-57</citedRange><citedRange unit="item">60</citedRange></bibl>
 <!-- one <bibl/> per item of secondary bibliography -->
    </listBibl>

@@ -261,8 +261,7 @@ n="3v"/>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">11</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">9</citedRange></bibl>
-    <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">85</citedRange><citedRange unit="section">8</citedRange></bibl>
+    <bibl><ptr target="bib:ARIE1913-1914"/></bibl>
   </listBibl>
 </div>
 
