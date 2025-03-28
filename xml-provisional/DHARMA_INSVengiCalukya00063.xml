@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-           <title>Velaṁbaṟṟu grant of Amma I</title>
+           <title>Velaṁbaṟṟu (spurious?) grant of Amma I</title>
             <respStmt>
                <resp>Encoding</resp>
                <persName ref="part:daba">
@@ -54,9 +54,9 @@
                <physDesc>
                   <handDesc>
 
-                    <p>Halantas. Final M (e.g. l3, l8) is a small circle with a hook on top (a stylised, reduced ma) with a slightly sinuous vertical tail. Final N (e.g. l9) is a reduced na with a slightly sinuous tail on the right-hand side of the stem. Final T (e.g. l17) is likewise a reduced ta with a tail attached on the right.</p>
+                    <p>Halantas. Final M (e.g. l3, l8) is a stylised, reduced ma with a slightly sinuous vertical tail. Final N (e.g. l9) is a reduced na with a slightly sinuous tail on the right-hand side of the stem. Final T (e.g. l17) is likewise a reduced ta with a tail attached on the right.</p>
                     <p>Original punctuation marks are plain verticals.</p>
-                    <p>Other palaeographic observations. Anusvāra is normally at head height after the character to which it belongs; occasionally atop the next character, e.g. l19 aṁbhodhi; l28 velaṁbaṟṟu. Initial O occurs in line 1; initial Ī in l31.
+                    <p>Other palaeographic observations. Anusvāra is normally at head height after the character to which it belongs; occasionally atop the next character, e.g. l19 aṁbhodhi; l28 velaṁbaṟṟu. Initial O occurs in line 1; initial Ī in l30 and l31.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
 
 <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -94,6 +94,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:daba" when="2025-03-28" status="draft">Collation with photographs</change>
          <change who="part:daba" when="2021-05-21" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
@@ -106,12 +107,12 @@
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
-n="1"/>śrī-tribhuvan<unclear>ā</unclear>ṁk<unclear>u</unclear>śa</ab>
+n="1"/>śrī-tribhuvan<unclear>ā</unclear>ṁkuśa</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb 
 
-n="1r"/><p><pb 
+n="1r"/><p><!--P1030242.JPG; below ring: P1030244.JPG--><pb 
 
 n="1v"/><lb 
 n="1"/>On namo nārāyaṇāya| svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sa<lb 
@@ -122,15 +123,15 @@ n="5" break="no"/>śvamedhā<space type="binding-hole"/>vabhr̥tha-snāna-pavitr
 n="6" break="no"/>kariṣṇoḥ sa<space type="binding-hole"/>tyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣṭādaśa varṣā<lb 
 n="7" break="no"/>ṇi| tat-putro jayasiṁha-vallabhas trayastriṁśataṁ| tad-anujendrarāja-nandano vi<lb 
 n="8" break="no"/>ṣṇuvarddhano nava| tad-ātmajo maṁgi-yuvarājaḥ paṁcaviṁśatiM| tat-putro jaya<lb 
-n="9" break="no"/>siṁhas trayodaśa| tasya dvaimāturānujaḥ kokkiliṣ ṣaṇ māsāN| taj-<supplied reason="omitted">j</supplied>yeṣṭh<unclear>o</unclear><pb 
+n="9" break="no"/>siṁhas trayodaśa| tasya dvaimāturānujaḥ kokkiliṣ ṣaṇ māsāN| taj-<supplied reason="omitted">j</supplied>yeṣṭh<unclear>o</unclear> <!--P1030232.JPG; below ring: P1030234.JPG--><pb 
 
 n="2r"/><lb 
-n="10"/><supplied reason="subaudible">’</supplied>nujam uccāṭya viṣṇuvarddhanas saptatriṁśataM| tat-putro vijayāditya-bhaṭṭārakaḥ<lb 
+n="10"/><supplied reason="subaudible">’</supplied>nujam uccāṭya viṣṇuvarddhanas saptatriṁśataM| tat-putro vijay<unclear>ā</unclear>ditya-bhaṭṭārakaḥ <lb 
 n="11"/>Aṣṭādaśa<unclear>|</unclear> tat-suto viṣṇuvarddhanaṣ ṣaṭtriṁśataM| tat-sūnur aṣṭottara-śata-narendreśva<lb 
 n="12" break="no"/>rāyatanānāṁ sva-yuddha-jaya-saṁkhyānāṁ karttā vijayādityo <supplied reason="subaudible">’</supplied>ṣṭacatvāriṁśata<unclear>M</unclear><supplied reason="omitted">|</supplied><lb 
-n="13"/>tad-ātmajaḥ <space type="binding-hole"/> kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ddhyardha-varṣaM| tat-putro vijayāditya-mahārā<lb 
+n="13"/>tad-ātmajaḥ <space type="binding-hole"/> kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ddhyarddha-varṣaM| tat-putro vijayāditya-mahārā<lb 
 n="14" break="no"/>jaś catu<space type="binding-hole"/>ścatvāriṁśataM| tad-anuja-yuvarāja-vikramāditya-sūnu<lb 
-n="15" break="no"/>ś cālukya-bhī<space type="binding-hole"/>ma-bhūpālas triṁśataṁ varṣāṇi| tat-putro vijayāditya mahā<lb 
+n="15" break="no"/>ś cālukya-bhī<space type="binding-hole"/>ma-bhūpālas triṁśataṁ varṣāṇi| tat-putro vijayāditya-mahā<lb 
 n="16" break="no"/>rājaṣ ṣaṇ māsān veṁgī-deśam anupālya nāka-lokālayaṁ yayau|</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">tasmāl lo<lb 
@@ -138,42 +139,42 @@ n="17" break="no"/>kamahādevyāṁ</l>
 <l n="b">gauryyāṁ guha iveśvarāT|</l>
 <l n="c">Ammarāja Iti khyātas</l>
 <l n="d">suto jā<lb 
-n="18" break="no"/>tas sat<choice><sic>om</sic><corr>āṁ</corr></choice> mataḥ|</l>
+n="18" break="no"/>tas sat<choice><sic>o</sic><corr>ā</corr></choice>m mataḥ|</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
 <l n="a">sarvva-lakṣaṇa-sampannas</l>
 <l n="b">sarvva-loka-manoharaḥ</l>
 <l n="c">śukla-pakṣa-<unclear>śa</unclear><pb 
 
-n="2v" break="no"/><lb 
+n="2v" break="no"/><!--P1030237.JPG; below ring: P1030240.JPG, P1030239.JPG--><lb 
 n="19" break="no"/>śīvāsau</l>
 <l n="d">prāptavān sakalāḥ kalāḥ|</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
 <l n="a" enjamb="yes">catur-aṁbhodhi-mālā-san</l>
-<l n="b">-me<unclear>kha</unclear>l<unclear>ā</unclear>laṁkr̥tā<lb 
+<l n="b">-me<unclear>kha</unclear>lālaṁkr̥tā<lb 
 n="20" break="no"/>vaniṁ</l>
 <l n="c" met="na-vipulā" real="++-+---+">saṁrakṣituṁ sa dhr̥tavāN</l>
 <l n="d">paṭṭam ā-candra-tārakaM|</l>
 </lg>
 <p>yaś ca Indur iva mr̥du-ka<lb 
 n="21" break="no"/>rānandita-kuvalayo dinakara Iva sad-vr̥tta-maṇḍalo vainateya Iva vinatāna<lb 
-n="22" break="no"/>nda-janako guha ivāpratihata-śaktis sa sarvva-lokāśraya-śrī-viṣṇuvarddhana-mahā<lb 
+n="22" break="no"/>nda-janano guha ivāpratihata-śaktis sa sarvva-lokāśraya-śrī-viṣṇuvarddhana-mahā<lb 
 n="23" break="no"/>rājādhirā<space type="binding-hole"/>ja-parameśvaraḥ parama-brahmaṇyo velanāṇṭi-palliya-viṣaya<lb 
 n="24" break="no"/>-nivāsino <space type="binding-hole"/> rāṣṭrakūṭa-pramukhān kuṭuṁbinas sarvvān ittham ājñāpayati</p>
 <p>vi<lb 
 n="25" break="no"/>ditam astu vaḥ kauśika-gotrāya vemūru-vāstavyāya mādhavaśarmmaṇaḥ pautrā<lb 
 n="26" break="no"/>ya viṣṇuśarmmaṇaḥ putrāya ṣaṭ-karmma-niratāya veda-vedā<choice><sic>gaṁ</sic><corr>ṁga</corr></choice>-pāragāya taitti<lb 
-n="27" break="no"/>rīya-sabrahmacāriṇe koḍaliśarmmaṇe karppaḍam mocayitvā da<unclear>kṣ</unclear>iṇāyana-ni<pb 
+n="27" break="no"/>rīya-sabrahmacāriṇe koḍaliśarmmaṇe karppaṭam mocayitvā dakṣiṇāyana-ni<!--P1030227.JPG; below ring: P1030229.JPG--><pb 
 
 n="3r" break="no"/><lb 
 n="28" break="no"/>mitte sodaka-pūrvvaṁ sarvva-kara-parihāram agrāhārī-kr̥tya| velaṁbaṟṟu nāma grā<lb 
 n="29" break="no"/>mo <supplied reason="subaudible">’</supplied>smābhis saṁpradatta Iti</p>
 <p>Asyāvadhi-grāmāḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ krāpa| dakṣiṇataḥ tūrkkave<lb 
-n="30" break="no"/>lli| paścimataḥ kuccaripaṟṟu| Uttarataḥ Iṁpaṟṟu| kṣetrāvadhayaḥ<supplied reason="subaudible">.</supplied> Āgneyato<lb 
+n="30" break="no"/>lli| paścimataḥ kuccaripaṟṟu| Uttarataḥ Īṁpaṟṟu| kṣetrāvadhayaḥ<supplied reason="subaudible">.</supplied> Āgneyato<lb 
 n="31"/>nairr̥tyāṁ vāyavyataḥ Īśānataś ca| <foreign xml:lang="tel-Latn">muyyali-kuṭla</foreign>| Asyopari na kenacid bādhā <lb 
 n="32"/>karttavyā<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> yaḥ karoti sa pañca-mahāpātaka-saṁyukto narakaṁ gamiṣyati<supplied reason="subaudible">.</supplied> <lb 
-n="33"/>tathā co<space type="binding-hole"/>kta<unclear>M</unclear>|</p>
+n="33"/>tathā co<space type="binding-hole"/>ktaṁ|</p>
 <lg n="4" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā</l>
 <l n="b">bahubhiś cānupālitā</l>
@@ -186,7 +187,7 @@ n="34"/>yadā bhūmis</l>
 <l n="b">yo hareta vasundha<lb 
 n="35" break="no"/>rāṁ</l>
 <l n="c">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
-<l n="d">viṣṭhāyāṁ jāyate kr̥miḥ|</l>
+<l n="d">viṣṭhāyāṁ jāyate k<choice><orig>ri</orig><reg>r̥</reg></choice>miḥ|</l>
 </lg>
 <lg n="6" met="anuṣṭubh">
 <l n="a">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
@@ -214,7 +215,7 @@ n="37" break="no"/>jaḥ</p>
       <app loc="9">
         <lem>taj-<supplied reason="omitted">j</supplied>yeṣṭh<unclear>o</unclear><pb n="2r"/><lb n="10"/><supplied reason="subaudible">’</supplied>nujam</lem>
         <rdg source="bib:Venkataramanayya1974_06">taṁ| jyeṣṭho <pb n="2r"/><lb n="10"/>’nujam</rdg>
-        <note>I see neither an <foreign>anusvāra</foreign> nor a punctuation mark here; the dot beyond the top right corner of <foreign>ta</foreign> appears to be damage. The <foreign>o</foreign> in <foreign>jyeṣṭho</foreign> is uncertain; only the right-hand stroke for <foreign>ā</foreign> is clear. If what seems to be a second stroke attached to the body on the left is only damage, I would still emend to <foreign>o</foreign>. For the first word, NV's <foreign>taṁ</foreign> would also be acceptable, but unless this can be confirmed as the actual reading, I prefer to assume that <foreign>jy</foreign> was written instead of <foreign>jjy</foreign> rather than to supply an <foreign>anusvāra</foreign>, because while <foreign>taj-jyeṣṭha</foreign> clearly implies an elder brother, mere <foreign>jyeṣṭha</foreign> is never used in such a sense in any related grant that I am aware of. In principle, emending to <foreign>tajjyeṣṭhānujas tam</foreign> or <foreign>tasya jyeṣṭhānujas tam</foreign> would also be possible, but there seems to be a quarter <foreign>anuṣṭubh</foreign> here; see also the commentary. Finally, assuming that the <foreign>m</foreign> in <foreign>anujam</foreign> is a result of non-standard sandhi, emending to <foreign>taṁ jyeṣṭho ’nuja</foreign> or <foreign>taṁ jyeṣṭhānuja</foreign> would also be possible, but slightly inferior to the emendation proposed here.</note>
+        <note>There is neither an <foreign>anusvāra</foreign> nor a punctuation mark here. NV's <foreign>taṁ</foreign> is in principle an acceptable emendation, but I prefer to assume that <foreign>jy</foreign> was written instead of <foreign>jjy</foreign>. There seems to be a quarter <foreign>anuṣṭubh</foreign> here; see also the commentary.</note>
       </app>
       <app loc="11">
         <lem>viṣṇuvarddhanaṣ ṣaṭtriṁśataM</lem>
@@ -223,7 +224,10 @@ n="37" break="no"/>jaḥ</p>
       <app loc="16">
         <lem>nāka-</lem>
         <rdg source="bib:Venkataramanayya1974_06">nā<surplus>ṁ</surplus>ka-</rdg>
-        <note>There is a dot above the top left corner of <foreign>ka</foreign>, but I do not think it is a superfluous <foreign>anusvāra</foreign>, since that is normally a circle and is located lower down, between character heads.</note>
+      </app>
+      <app loc="22">
+        <lem>-janano</lem>
+        <rdg source="bib:Venkataramanayya1974_06">-janako</rdg>
       </app>
       <app loc="22">
         <lem>-śaktis sa sarvva-</lem>
@@ -232,7 +236,20 @@ n="37" break="no"/>jaḥ</p>
       <app loc="26">
         <lem>-vedā<choice><sic>gaṁ</sic><corr>ṁga</corr></choice>-</lem>
         <rdg source="bib:Venkataramanayya1974_06">-vedāṁga-</rdg>
-        <note>The <foreign>anusvāra</foreign> is to the right of <foreign>ga</foreign>.</note>
+        <note>The <foreign>anusvāra</foreign> is to the right of <foreign>ga</foreign> at head level.</note>
+      </app>
+      <app loc="27">
+        <lem>karppaṭam</lem>
+        <rdg source="bib:Venkataramanayya1974_06">karppaḍam</rdg>
+        <note>Compare <foreign>ṭa</foreign> in l26 <foreign>ṣaṭ-karmma</foreign> and <foreign>ḍa</foreign> in l27 <foreign>koḍali</foreign>.</note>
+      </app>
+      <app loc="30">
+        <lem>Īṁpaṟṟu</lem>
+        <rdg source="bib:Venkataramanayya1974_06">Iṁpaṟṟu</rdg>
+      </app>
+      <app loc="33">
+        <lem>co<space type="binding-hole"/>ktaṁ</lem>
+        <rdg source="bib:Venkataramanayya1974_06">coktaM</rdg>
       </app>
       
 <!--
@@ -257,8 +274,8 @@ n="37" break="no"/>jaḥ</p>
 <p rend="stanza" n="2">Endowed with all <supplied reason="subaudible">good</supplied> omens and captivating the minds of all people, he grew to perfection in all arts, like the moon of the bright fortnight <seg rend="pun">which grows to completeness in all its digits</seg>.</p>
 <p rend="stanza" n="3">He donned the the eternal <supplied reason="explanation"><foreign>ā-candra-tāra</foreign></supplied> turban <supplied reason="subaudible">of sovereignty</supplied> in order to protect the earth, decorated by the beautiful garland of the four oceans.</p>
 <p n="20-24">He—who moreover gladdens the orb of the earth <supplied reason="explanation"><foreign>ku-valaya</foreign></supplied> by lenient taxes like the moon <seg rend="pun">which gladdens night waterlilies with gentle beams</seg>; who has a well-behaved country like the sun <seg rend="pun">which has a perfectly round disc</seg>; who engenders joy in those who bow <supplied reason="subaudible">to him</supplied> like Vainateya <supplied reason="explanation">Garuḍa</supplied> <seg rend="pun">who engenders joy in Vinatā</seg>; and whose power is as irresistible as <seg rend="pun">the spear</seg> of Kārttikeya—His Majesty the supremely pious Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>mahārājādhirāja</foreign></supplied>, Viṣṇuvardhana <supplied reason="explanation" cert="low">Amma I</supplied>, shelter of all the world <supplied reason="explanation"><foreign>sarva-lokāśraya</foreign></supplied>, commands all householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—who reside in Velanāṇṭi Palliya district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> as follows:</p>
-<p n="24-29">Let it be known to you <supplied reason="subaudible">that</supplied> on the occasion of the summer solstice we have granted the village named Velaṁbaṟṟu, converted into a rent-free holding <supplied reason="explanation"><foreign>agrahāra</foreign></supplied> by a remission of all taxes, <supplied reason="subaudible">the donation being</supplied> sanctified by <supplied reason="explanation">a libation of</supplied> water, to Koḍaliśarman of the Kauśika <foreign>gotra</foreign> and the Taittirīya school, a resident of Vemūru, grandson of Mādhavaśarman and som of Viṣṇuśarman, who <supplied reason="explanation">Koḍaliśarman</supplied> is engaged in the six duties <supplied reason="explanation">of a brahmin</supplied> and is thoroughly learned in the Vedas and Vedāṅgas, <supplied reason="subaudible">thereby</supplied> releasing him from <supplied reason="subaudible">his vow of wearing</supplied> rags <supplied reason="explanation"><foreign>karpaḍa</foreign></supplied>.</p>
-<p n="29-33">Its bordering villages <supplied reason="subaudible">are as follows</supplied>. To the east, Krāpa. To the south, Tūrkkavelli. To the west, Kuccaripaṟṟu. Tot he north, Iṁpaṟṟu. The boundaries of <supplied reason="subaudible">its</supplied> fields <supplied reason="subaudible">are as follows</supplied>. To the southeast, in the southwest, to the northwest and to the northeast: the triple boundary junctures. Let no-one pose an obstacle <supplied reason="explanation">to his enjoyment of his rights</supplied> over it. He who does so shall go to hell, conjoined with the five great sins. It is said moreover:</p>
+<p n="24-29">Let it be known to you <supplied reason="subaudible">that</supplied> on the occasion of the summer solstice we have granted the village named Velaṁbaṟṟu, converted into a rent-free holding <supplied reason="explanation"><foreign>agrahāra</foreign></supplied> by a remission of all taxes, <supplied reason="subaudible">the donation being</supplied> sanctified by <supplied reason="explanation">a libation of</supplied> water, to Koḍaliśarman of the Kauśika <foreign>gotra</foreign> and the Taittirīya school, a resident of Vemūru, grandson of Mādhavaśarman and som of Viṣṇuśarman, who <supplied reason="explanation">Koḍaliśarman</supplied> is engaged in the six duties <supplied reason="explanation">of a brahmin</supplied> and is thoroughly learned in the Vedas and Vedāṅgas, <supplied reason="subaudible">thereby</supplied> releasing him from <supplied reason="subaudible">his vow of wearing</supplied> rags <supplied reason="explanation"><foreign>karpaṭa</foreign></supplied>.</p>
+<p n="29-33">Its bordering villages <supplied reason="subaudible">are as follows</supplied>. To the east, Krāpa. To the south, Tūrkkavelli. To the west, Kuccaripaṟṟu. Tot he north, Īṁpaṟṟu. The boundaries of <supplied reason="subaudible">its</supplied> fields <supplied reason="subaudible">are as follows</supplied>. To the southeast, in the southwest, to the northwest and to the northeast: the triple boundary junctures. Let no-one pose an obstacle <supplied reason="explanation">to his enjoyment of his rights</supplied> over it. He who does so shall go to hell, conjoined with the five great sins. It is said moreover:</p>
 <p rend="stanza" n="4">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
 <p rend="stanza" n="5">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
 <p rend="stanza" n="6">A donor of land stays in heaven for sixty millennia, <supplied reason="subaudible">while</supplied> a seizer <supplied reason="subaudible">of granted land</supplied> and a condoner <supplied reason="subaudible">of such seizure</supplied> shall reside in hell for just as many.</p>
@@ -272,14 +289,15 @@ n="37" break="no"/>jaḥ</p>
 
 
 <div type="commentary">
-<p>The genealogy seems to contain several <foreign>anuṣṭubh</foreign> fragments. Since these are phrases that deviate from the usual form of the prose genealogy, I do not think they are accidental; rather, they were probably lifted verbatim from a version of the genealogy composed fully in <foreign>anuṣṭubh</foreign>. Such fragments include <foreign>taj-jyeṣṭho ’nujam uccāṭya</foreign> (l9-10; see also the apparatus); <foreign>sva-yuddha-jaya-saṁkhyānāṁ</foreign> (l12); <foreign>nāka-lokālayaṁ yayau</foreign> (l16).</p>
-<p>Although according to NV, the grant <q>does not mention anything of historical interest not known from other sources,</q> stanza 1 says Amma’s mother was Lokamahādevī. This is the name of Amma II’s mother, but I am not aware of Amma I’s mother having the same name. Either this is new historical information, or perhaps the grant in fact belongs to Amma II and omits by mistake the kings from Amma I to Bhīma II. The <ref target="DHARMA_INSVengiCalukya00087.xml">Pulivaṟṟu (spurious?) grant of Amma I</ref> records Amma I’s mother’s name as Pallava Mahādevī, but the authenticity of that grant is questionable, and even if the information is authentic, she may have been Lokamahādevī of the Pallava dynasty.</p>
+<p>The genealogy seems to contain several <foreign>anuṣṭubh</foreign> fragments. Since these are phrases that deviate from the usual form of the prose genealogy, I do not think they are accidental; rather, they were probably lifted verbatim from a version of the genealogy composed fully in <foreign>anuṣṭubh</foreign>. Such fragments include <foreign>taj-jyeṣṭho ’nujam uccāṭya</foreign> (l9-10; see also the apparatus); <foreign>tat-putro vijayāditya-</foreign> (l10, l15); <foreign>sva-yuddha-jaya-saṁkhyānāṁ</foreign> (l12); <foreign>nāka-lokālayaṁ yayau</foreign> (l16).</p>
+<p>Although according to NV, the grant <q>does not mention anything of historical interest not known from other sources,</q> stanza 1 says Amma’s mother was Lokamahādevī. This is the name of Amma II’s mother, but I am not aware of Amma I’s mother having the same name. Either this is new historical information, or the grant in fact belongs to a later time and has been inaccurately written to appear as a grant of Amma I. This cannot be a genuine grant of Amma II (omitting by mistake the kings from Amma I to Bhīma II), since the issuing ruler's cognomen is Sarvalokāśraya Viṣṇuvarddhana, while that of Amma II is Samastabhuvanāśraya Vijayāditya. The <ref target="DHARMA_INSVengiCalukya00087.xml">Pulivaṟṟu (spurious?) grant of Amma I</ref> records Amma I’s mother’s name as Pallava Mahādevī, but the authenticity of that grant is also questionable (see the commentary there), and even if the information is authentic, she may have been Lokamahādevī of the Pallava dynasty. The term <foreign>kṣetrāvadhayaḥ</foreign>, found in the boundary close of the present charter, otherwise occurs only in grants of the time of Amma II and later. The granted land is only 15 km from that given in the Pulivaṟṟu grant, which may be a link between these two possibly spurious (antedated) grants.</p>
+<p>The last plate has been recycled. Traces of earlier writing, rubbed or beaten out, are discernible in several places, e.g. <foreign>yāditya</foreign> near the end of line 28; <foreign>ṣ<unclear cert="low">ṭ</unclear>ot<unclear cert="low">ta</unclear></foreign> in the line below that (preceded by the upper parts of many other characters); two dependent <unclear>i</unclear> markers in lines 32 and 33 close to the right side of the ring hole, and <foreign><unclear>r̥</unclear>tya</foreign> beneath <foreign>vaseT</foreign> in line 36. There is no earlier writing on the outer side of this plate, and none discernible on the other plates.</p>
 </div>
 
 
 
 <div type="bibliography">
-  <p>Edited by N. Venkataramanayya (<bibl rend="omitname"><ptr target="bib:Venkataramanayya1974_06"/></bibl>), perhaps from the original, with a photograph of the set and seal estampages of the plates; without translation. The present edition by Dániel Balogh is based on a collation of Venkataramanayya's edition with his visual aids. Only significant typographic mistakes are shown in the apparatus here, and others are silently assumed to have been correctly read by the original editor.</p>
+  <p>Edited by N. Venkataramanayya (<bibl rend="omitname"><ptr target="bib:Venkataramanayya1974_06"/></bibl>), perhaps from the original, with a photograph of the set and seal estampages of the plates; without translation. The present edition by Dániel Balogh is based on photographs taken by myself in 2023 at the Telangana State Archaeology Museum, Hyderabad, collated with the above edition. Only significant typographic mistakes are shown in the apparatus here, and others are silently assumed to have been correctly read by the original editor.</p>
   <listBibl type="primary">
     <bibl n="NV"><ptr target="bib:Venkataramanayya1974_06"/></bibl>
   </listBibl>
