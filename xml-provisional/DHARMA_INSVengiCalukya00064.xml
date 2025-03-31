@@ -94,6 +94,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:daba" when="2025-03-31" status="draft">Collation with ASI photos</change>
          <change who="part:daba" when="2021-05-21" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
@@ -123,24 +124,26 @@ n="7" break="no"/><seg met="+-="><gap reason="lost" quantity="3" unit="character
 <lb n="8" break="no"/><supplied reason="lost">-samāṁ| tat-suto</supplied> vijayāditya<unclear>ḥ</unclear> catuścatvāriṁśad varṣāṇi| tad-bhrātur yuvarājasya vi<pb 
 
 n="2v" break="no"/><lb 
-n="9" break="no"/><supplied reason="lost">kramādityasya</supplied> tanayaḥ cālukya-bhīmas triṁśad varṣ<surplus>v</surplus>āṇi<subst><del rend="corrected">va</del><add place="overstrike">|</add></subst> tat-suto vijayādi<lb 
-n="10" break="no"/><supplied reason="lost">tyaḥ ṣaṇ māsā</supplied>N|</p>
+n="9" break="no"/><supplied reason="lost">kramādityasya</supplied> <supplied reason="lost" evidence="previouseditor">tanayaḥ cā</supplied><unclear>lukya-bhīmas triṁśad v</unclear>arṣ<surplus>v</surplus>ā<subst><del><unclear cert="low">ṣa</unclear>ṇa</del><add place="overstrike">ṇi|</add></subst></p>
 <lg n="2" met="anuṣṭubh">
-<l n="a">sapta saṁvatsarā<choice><orig>n</orig><reg>ṁs</reg></choice> tasya</l>
-<l n="b">sūnur amma-mahīpatiḥ</l>
+<l n="a"><add place="overstrike">ta</add>t-<unclear>su</unclear>to vijayādi<lb 
+n="10" break="no"/><supplied reason="lost">tyaḥ</supplied>|</l>
+<l n="b"><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></l>
+<l n="c"><supplied reason="lost" evidence="previouseditor">sapta saṁvatsarā</supplied><choice><orig><supplied reason="lost" evidence="previouseditor">n</supplied></orig><reg>ṁs</reg></choice> <supplied reason="lost" evidence="previouseditor">tasya</supplied></l>
+<l n="d"><supplied reason="lost" evidence="previouseditor">sū</supplied><unclear>nur amma</unclear>-mahīpatiḥ</l>
 </lg>
 <lg n="3" met="śārdūlavikrīḍita">
-<l n="a">yāte gaṇḍaragaṇḍa-bhū<unclear>bhu</unclear><lb 
-n="11" break="no"/><supplied reason="lost" cert="low">ji</supplied> <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg> prāptābhiṣekas ta<unclear>ta</unclear>s</l>
-<l n="b">sūnuṁ <seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg> vaśāt sa <seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg> vijayādityaṁ punas tālapa<unclear>ḥ</unclear></l>
+<l n="a">yāte ga<unclear>ṇḍaragaṇḍa-bhūbhu</unclear><lb 
+n="11" break="no"/><supplied reason="lost" cert="low">ji</supplied> <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg> <unclear>prāptābhi</unclear><supplied reason="lost" evidence="previouseditor">ṣekas tatas</supplied></l>
+<l n="b"><supplied reason="lost" evidence="previouseditor">sūnuṁ</supplied> <seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg> <unclear>vaśāt</unclear> sa <unclear>tasya</unclear> vijayā<unclear>di</unclear>tya<unclear>ṁ</unclear> punas tālapa<unclear>ḥ</unclear></l>
 <l n="c"><lb 
-n="12"/><seg met="+++"><gap reason="lost" quantity="3" unit="character"/></seg>ru-gataṁ vidhāya ba <seg met="-++"><gap reason="lost" quantity="3" unit="character"/></seg><unclear>bhūya</unclear> bhūmīśva<unclear>ro</unclear></l>
-<l n="d">bhūmiṁ pālayati <lb 
-n="13"/><supplied reason="lost" cert="low">sma</supplied> <seg met="+---"><gap reason="lost" quantity="4" unit="character"/></seg>taṁ śrutvā vaco <seg met="+-="><gap reason="lost" quantity="3" unit="character"/></seg></l>
+n="12"/><seg met="+++"><gap reason="lost" quantity="3" unit="character"/></seg><unclear cert="low">ra</unclear><space type="binding-hole"/>-<supplied reason="lost" evidence="previouseditor">gataṁ vidhāya ba</supplied> <seg met="-++"><gap reason="lost" quantity="3" unit="character"/></seg><supplied reason="lost" evidence="previouseditor" cert="low">bhū</supplied><unclear>ya bhū</unclear>mī<unclear>śvaro</unclear></l>
+<l n="d">bhūmi<unclear>ṁ</unclear> pālayati <lb 
+n="13"/><supplied reason="lost" cert="low">sma</supplied> <seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg>la<space type="binding-hole"/><seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg><supplied reason="lost" evidence="previouseditor">taṁ śrutvā vaco</supplied> <seg met="+-="><gap reason="lost" quantity="3" unit="character"/></seg></l>
 </lg>
 <lg n="4" met="śārdūlavikrīḍita">
-<l n="a">Āgatya drutam āyata-pratimukha<lb 
-n="14" break="no"/><seg met="++-+"><gap reason="lost" quantity="4" unit="character"/></seg>n uddhatān</l>
+<l n="a"><supplied reason="lost" evidence="previouseditor">Āgat</supplied><unclear>ya</unclear> <unclear cert="low">dru</unclear>ta<unclear cert="low">m ā</unclear>yato <supplied reason="subaudible">’</supplied>pratimukha<lb 
+n="14" break="no"/>@@@<seg met="++-+"><gap reason="lost" quantity="4" unit="character"/></seg>n uddhatān</l>
 <l n="b">hatvā tad-rudhirā<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>-bhīma-ba<unclear>la</unclear><seg met="+"><gap reason="lost" quantity="1" unit="character"/></seg>-nistriṁśa-bhāsvad-bhuja<unclear>ḥ</unclear></l>
 <l n="c" enjamb="yes">tan dagdhvā<lb 
 n="15"/><seg met="--+-+---"><gap reason="lost" quantity="8" unit="character"/></seg> śrīmad-vikramāditya-bhū</l>
@@ -212,48 +215,57 @@ n="28" break="no"/><unclear>n kuṭimbinas sa</unclear>rvvān ittham ājñāpaya
         <lem source="bib:LakshminarayanRao1939-1940_01"><supplied reason="lost">-samāṁ| tat-suto</supplied></lem>
         <note>The meaning of the lost text was certainly as restored by NLR, but the words may have been different. The <ref target="DHARMA_INSVengiCalukya00024.xml">Bezvāḍa plates of Bhīma I</ref> have <foreign>samaḥ tan-nandano</foreign> here.</note>
       </app>
-      <app loc="9">
-        <lem>varṣ<surplus>v</surplus>āṇi</lem>
-        <rdg source="bib:LakshminarayanRao1939-1940_01">varṣāṇi</rdg>
-        <note><foreign>rṣvā</foreign> is the first legible character in this line after the palimpsest area, and it definitely has a subscript component, possibly <foreign>ṭh</foreign> but probably <foreign>v</foreign>.</note>
-      </app>
-      <app loc="9">
-        <lem source="bib:LakshminarayanRao1939-1940_01"><subst><del rend="corrected">va</del><add place="overstrike">|</add></subst></lem>
-        <note>I accept NLR's note on this correction, but cannot confirm it from the photo, where I see strokes that resemble a <foreign>daṇḍa</foreign> followed by <foreign>ga</foreign>.</note>
-      </app>
       <app loc="8">
         <lem source="bib:LakshminarayanRao1939-1940_01">vi<pb n="2v" break="no"/><lb n="9" break="no"/><supplied reason="lost">kramādityasya</supplied></lem>
-        <note>I assume that NLR could read the text he prints as clear and could estimate the number of lost characters with some precision, in which case his restoration is perfectly plausible. But if he was guessing where he admits no doubt, then the text could have run somewhat differently. The <ref target="DHARMA_INSVengiCalukya00024.xml">Bezvāḍa plates of Bhīma I</ref> read <foreign>tad-bhrātur yyuvarājasya vikramāditya-bhūpateḥ putro bhīmaḥ</foreign>.</note>
+        <note>I assume that NLR could read the text he prints as clear and could estimate the number of lost characters with some precision, in which case his restoration is perfectly plausible. But if he was guessing where he admits no doubt, then the text could have run somewhat differently. The <ref target="DHARMA_INSVengiCalukya00024.xml">Bezvāḍa plates of Bhīma I</ref> read <foreign>tad-bhrātur yyuvarājasya vikramāditya-bhūpateḥ putro bhīmaḥ</foreign>. The phrase <foreign>tad-bhrātur yyuvarājasya</foreign> may also be the beginning of an <foreign>anuṣṭubh</foreign> stanza.</note>
       </app>
       <app loc="9">
-        <lem source="bib:LakshminarayanRao1939-1940_01">vijayādi<lb n="10" break="no"/><supplied reason="lost">tyaḥ ṣaṇ māsā</supplied>N|</lem>
-        <note>Again, I accept NLR's reading and restoration but wonder if there was an <foreign>anuṣṭubh</foreign> hemistich here, to complete the following half stanza.</note>
+        <lem><unclear>triṁśad v</unclear>arṣ<surplus>v</surplus>ā<subst><del><unclear cert="low">ṣa</unclear>ṇa</del><add place="overstrike">ṇi|</add></subst></lem>
+        <rdg source="bib:LakshminarayanRao1939-1940_01">triṁśad varṣāṇi<subst><del>ṇa</del><add place="overstrike">|</add></subst></rdg>
+        <note>The scope of correction may be somewhat larger; possibly, <foreign>triṁśataṁ vvarṣāṇi</foreign> was first engraved, then <foreign>taṁ</foreign> was overwritten with <foreign>dva</foreign> and the subsequent characters corrected accordingly. I am quite certain that the following <foreign>ta</foreign> is also the result of correction, but cannot establish the pre-correction character.</note>
+      </app>
+      <app loc="9">
+        <lem><add place="overstrike">ta</add>t-<unclear>su</unclear>to vijayādi<lb 
+n="10" break="no"/><supplied reason="lost">tyaḥ</supplied></lem>
+        <note>I feel quite certain that an <foreign>anuṣṭubh</foreign> stanza must have begun here, since we subsequently have a partly extant half-stanza followed by a different metre. NLR shows this passage as prose.</note>
       </app>
       <app loc="10">
-        <lem>-bhū<unclear>bhu</unclear><lb n="11" break="no"/><supplied reason="lost" cert="low">ji</supplied> <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg></lem>
+        <lem><seg met="====-+-="><gap reason="lost" quantity="8" unit="character"/></seg></lem>
+        <rdg source="bib:LakshminarayanRao1939-1940_01"><supplied reason="lost">ṣaṇ māsā</supplied>N</rdg>
+        <note>NLR shows this passage as prose. I am far from sure that a full quarter stanza could have fit in the lacuna here, but compare the previous note.</note>
+      </app>
+      <app loc="10">
+        <lem><unclear>-bhūbhu</unclear><lb n="11" break="no"/><supplied reason="lost" cert="low">ji</supplied> <seg met="-+"><gap reason="lost" quantity="2" unit="character"/></seg></lem>
         <rdg source="bib:LakshminarayanRao1939-1940_01">-bhū<unclear>bhu</unclear><lb 
 n="11" break="no"/><seg met="--+"><gap reason="lost" quantity="3" unit="character"/></seg></rdg>
         <note>At the end of line 10 I see nothing recognisable beyond <foreign>bhū</foreign>, but I assume that NLR's <foreign>bhu</foreign> is based on vestiges. He does not make the restoration I suggest, but surely had the same in mind. Unless the vestigial <foreign>bhu</foreign> is quite clear in the original, <foreign>bhūbhr̥ti</foreign> is also possible.</note>
       </app>
       <app loc="11">
         <lem source="bib:LakshminarayanRao1939-1940_01">prāptābhiṣekas</lem>
-        <note>I would expect this word to be in the accusative but must accept NLR's reading because nothing is legible in the published photo.</note>
+        <note>I would expect this word to be in the accusative but must accept NLR's reading because nothing is legible in the visuals available to me.</note>
       </app>      
       <app loc="11">
-        <lem source="bib:LakshminarayanRao1939-1940_01"><seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg> vaśāt</lem>
-        <note>Perhaps restore <foreign>kāla-vaśāt</foreign>?</note>
+        <lem source="bib:LakshminarayanRao1939-1940_01"><seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg> <unclear>vaśāt</unclear></lem>
+        <note>Perhaps restore <foreign>kāla-vaśāt</foreign> or <foreign>daiva-vaśāt</foreign>.</note>
       </app>      
       <app loc="11">
-        <lem source="bib:LakshminarayanRao1939-1940_01"><seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg> vijayādityaṁ</lem>
-        <note>Perhaps restore <foreign>bheka</foreign> or <foreign>beta</foreign>?</note>
+        <lem><unclear>tasya</unclear></lem>
+        <rdg source="bib:LakshminarayanRao1939-1940_01"><seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg></rdg>
+        <note>I do not understand why NLR did not read this word, which is quite visible even in the ASI photo.</note>
       </app>      
       <app loc="12">
-        <lem><supplied reason="lost" cert="low">sma</supplied> <seg met="+---"><gap reason="lost" quantity="4" unit="character"/></seg>taṁ</lem>
+        <lem><seg met="+++"><gap reason="lost" quantity="3" unit="character"/></seg><unclear cert="low">ra</unclear><space type="binding-hole"/>-<supplied reason="lost" evidence="previouseditor">gataṁ</supplied></lem>
+        <rdg source="bib:LakshminarayanRao1939-1940_01"><seg met="+++"><gap reason="lost" quantity="3" unit="character"/></seg>ru-gataṁ</rdg>
+        <note>Very tentatively, I suggest restoring <foreign>kārāgāra-gataṁ</foreign>.</note>
+      </app>      
+      <app loc="12">
+        <lem><supplied reason="lost" cert="low">sma</supplied> <seg met="+-"><gap reason="lost" quantity="2" unit="character"/></seg>la<space type="binding-hole"/><seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg><supplied reason="lost" evidence="previouseditor">taṁ</supplied></lem>
         <rdg source="bib:LakshminarayanRao1939-1940_01"><seg met="-+---"><gap reason="lost" quantity="5" unit="character"/></seg>taṁ</rdg>
       </app>      
       <app loc="13">
-        <lem source="bib:LakshminarayanRao1939-1940_01">drutam āyata-</lem>
-        <note>I accept NLR's reading with hesitation. If the reading <foreign>m āya</foreign> is correct, then there is at least one extra stroke (resembling a punctuation mark) to the right of <foreign>mā</foreign>.</note>
+        <lem><unclear cert="low">dru</unclear>ta<unclear cert="low">m ā</unclear>yato <supplied reason="subaudible">’</supplied>pratimukha</lem>
+        <rdg source="bib:LakshminarayanRao1939-1940_01">drutam āyata-pratimukha</rdg>
+        <note>I hesitantly accept NLR's reading for the first part of this segment, because I have nothing better to offer. I see no vowel marker in <foreign>dru</foreign>, and the character may also be <foreign>pra</foreign>, since its bottom seems to be joined to the vertical stroke NLR reads as the tail of the following <foreign>ta</foreign>. The body of <foreign>mā</foreign> is partly obliterated but it is certainly wider than expected, with an extra stroke that looks like a greater-than sign between the body and the vowel marker. At the end of this segment, <foreign>to</foreign> seems quite certain, so an <foreign>avagraha</foreign> probably needs to be supplied after it.</note>
       </app>      
       <app loc="14">
         <lem source="bib:LakshminarayanRao1939-1940_01">-rudhirā<seg met="-"><gap reason="lost" quantity="1" unit="character"/></seg>-</lem>
@@ -308,9 +320,9 @@ n="11" break="no"/><seg met="--+"><gap reason="lost" quantity="3" unit="characte
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="1-6">His son Jayasiṁha Vallabha <supplied reason="explanation">I</supplied>, for thirty-three years. His younger brother Indrarāja’s <supplied reason="explanation">Indra Bhaṭṭāraka’s</supplied> dear son Viṣṇuvardhana <supplied reason="explanation">II</supplied>, for nine years. His son Maṅgi Yuvarāja, for twenty-five. His son Jayasiṁha <supplied reason="explanation">II</supplied>, for thirteen years. His younger brother by a different mother, Kokkili, for six months. After dethroning his younger brother in battle, his eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven <supplied reason="subaudible">years</supplied>. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen years. His son Viṣṇurāja <supplied reason="explanation">Viṣṇuvardhana IV</supplied>, for thirty-six years.</p>
 <p rend="stanza" n="1">His son Vijayāditya <supplied reason="explanation">II</supplied>, who erected a hundred and eight majestic Narendreśvara <supplied reason="subaudible">temples</supplied>, for forty <gap reason="lost"/><note>The short lost segment was probably just “years,” but it is also possible that it was a number (e.g. eight) to be added to 40.</note></p>
-<p n="7-10">His son Kali Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Vijayāditya <supplied reason="explanation">III</supplied>, for forty-four years. The son of his brother the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Vikramāditya, Cālukya-Bhīma <supplied reason="explanation">I</supplied>, for thirty years. His son Vijayāditya <supplied reason="explanation">IV</supplied>, for six months.</p>
-<p rend="stanza" n="2">His son King Amma <supplied reason="explanation">I</supplied>, for seven years.</p>
-<p rend="stanza" n="3">When King Gaṇḍaragaṇḍa <supplied reason="explanation">Amma I</supplied> had gone <supplied reason="lost">to heaven</supplied>, then through the power of <supplied reason="subaudible" cert="low">fate</supplied> Tālapa made <supplied reason="lost">prisoner</supplied> his <supplied reason="explanation">Amma I’s</supplied> son <supplied reason="lost" cert="low">Beta</supplied> Vijayāditya, who had been anointed <supplied reason="explanation">as king</supplied>.  <supplied reason="subaudible">Tālapa</supplied> protected the earth as king, having heard the voice <gap reason="lost"/><note>My translation follows the suggestions I make in the apparatus for line 11. The second hemistich is more problematic and may have a quite different meaning.</note></p>
+<p n="7-10">His son Kali Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Vijayāditya <supplied reason="explanation">III</supplied>, for forty-four years. The son of his brother the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Vikramāditya, Cālukya-Bhīma <supplied reason="explanation">I</supplied>, for thirty years.</p>
+<p rend="stanza" n="2">His son Vijayāditya <supplied reason="explanation">IV</supplied> <supplied reason="lost">reigned for six months</supplied>. His son King Amma <supplied reason="explanation">I</supplied>, for seven years.</p>
+<p rend="stanza" n="3">When King Gaṇḍaragaṇḍa <supplied reason="explanation">Amma I</supplied> had gone <supplied reason="lost">to heaven</supplied>, then through the power of <supplied reason="subaudible" cert="low">fate</supplied> Tālapa made <supplied reason="lost">prisoner</supplied> his <supplied reason="explanation">Amma I’s</supplied> son Vijayāditya, who had been anointed <supplied reason="explanation">as king</supplied>.  <supplied reason="subaudible">Tālapa</supplied> protected the earth as king, having heard the voice <gap reason="lost"/><note>My translation follows the suggestions I make in the apparatus for lines 11 and 12. The second hemistich is more problematic and may have a quite different meaning.</note></p>
 <p rend="stanza" n="4">Arriving in haste, <gap reason="ellipsis"/> killing haughty <supplied reason="subaudible" cert="low">enemies</supplied>, his arms glowing with a sword of fearsome might which was <supplied reason="subaudible" cert="low">smeared</supplied> with the blood of that <supplied reason="subaudible">enemy</supplied>, scorching that <gap reason="lost"/> Tālapa, His Majesty, this King Vikramāditya <supplied reason="explanation">II</supplied> took up the <gap reason="lost"/> turban <supplied reason="explanation">of royalty</supplied>.</p>
 <p n="16-17"><gap reason="lost"/> <seg cert="low">this great opportunity</seg> <gap reason="lost"/> <seg cert="low">endowed with banks among masses of land and water</seg> <gap reason="lost"/> <seg cert="low">the overlord <supplied reason="explanation"><foreign>adhipati</foreign></supplied> whose Lord is the Lotus-throned <supplied reason="explanation">Brahmā</supplied></seg><note>This stretch of text, probably a stanza, is badly preserved and may have been incorrectly read even where extant; I cannot grasp a coherent idea that would connect the available fragments.</note></p>
 <p rend="stanza" n="5"><seg cert="low">From the flashing theatre of battle</seg> <supplied reason="subaudible" cert="low">he</supplied> enters, <seg cert="low">with face averted</seg>, the great mass of waters, unfathomable <supplied reason="subaudible">even</supplied> to water creatures <gap reason="lost"/> sword <gap reason="lost"/> his body sprinkled with water from the eyes of the women <supplied reason="lost" cert="low">of his enemies</supplied> <gap reason="lost"/> the entire <gap reason="lost"/> <seg cert="low">was born repeatedly</seg><note>Here too, the preserved segments are not sufficient to make a coherent whole, and some of the readings are suspect. The stanza, or at least the first hemistich, may have been a simile likening a battle to an ocean.</note></p>
@@ -334,7 +346,7 @@ n="11" break="no"/><seg met="--+"><gap reason="lost" quantity="3" unit="characte
 
 
 <div type="bibliography">
-  <p>Edited from the original by N. Lakshminarayan Rao (<bibl rend="omitname"><ptr target="bib:LakshminarayanRao1939-1940_01"/><citedRange unit="item">A</citedRange></bibl>), with photographs of 2v and 3r,<note>There are no images of 2r and 3v (at least in the reprinted Epigraphia Indica volume). Plate 1 and the plate(s) subsequent to 3 are lost.</note> without translation. The present edition by Dániel Balogh is based on a collation of Lakshminarayan Rao's edition with his visual aids where available. The photos are rather poor, wholly illegible in the areas overwritten by the later grant and barely or not at all legible outside the palimpsest. I thus follow Lakshminarayan Rao unless otherwise noted, and I adopt NLR's indications of unclear text rather than marking up as unclear everything that is not clearly legible in the printed photos.</p>
+  <p>Edited from the original by N. Lakshminarayan Rao (<bibl rend="omitname"><ptr target="bib:LakshminarayanRao1939-1940_01"/><citedRange unit="item">A</citedRange></bibl>), with photographs of 2v and 3r, without translation. The present edition by Dániel Balogh is based on a collation of Lakshminarayan Rao's edition with photographs kept at the ASI (Mysore). The set of ASI photos likewise records only 2v and 3r, but they are somewhat better legible than the published ones. I assume that Lakshminarayan Rao was able to make out more from the original than I can from the photos, and thus accept his readings unless counterindicated. For the parts without visual documentation, I follow his edition verbatim unless otherwise noted.</p>
   <listBibl type="primary">
     <bibl n="NLR"><ptr target="bib:LakshminarayanRao1939-1940_01"/><citedRange unit="item">A</citedRange></bibl>
   </listBibl>
