@@ -56,7 +56,7 @@
                   <handDesc>
                      <p>Halantas. Final T is s full-sized stylised ta (a spiral without a headmark) plus a curling tail on top like an inverted cedilla, e.g. l7 apālayaT. It may also be smaller in size and raised, as in l37 āsīT. Final N is a simplified but full-size character somewhat resembling na without a headmark, and the curled tail, e.g. l11 sāN.</p>
                      <p>Original punctuation marks are straight verticals with a small hook or a wedge-like headmark at the top. The opening symbol is a flower comprised of a circle, four petals in the cardinal directions, and four spikes in the intercardinals, all detached from the centre.</p>
-                     <p>Other palaeographic observations. Anusvāra is normally written inline at headline height. It may be separated from the preceding consonant as in l16-17 tri/ṁśataṁ, but this is not visible in my scanned facsimile. Dependent o is normally written with two separate strokes. Cursive o (marked in the text with an XML comment but not encoded) is rare, occurring in l10 kokkili (which may have been intended for kaukkili) and l52 Aho.              
+                     <p>Other palaeographic observations. Anusvāra is normally written inline at headline height. It may be separated from the preceding consonant as in l16-17 tri/ṁśataṁ, but this is not visible in my scanned facsimile. Dependent o is normally written with two separate strokes. Cursive (one-stroke) o is rare, occurring in e.g. l10 kokkili (which may have been intended for kaukkili), l38-39 samūho, and l52 Aho and tko.              
                 <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
@@ -93,6 +93,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:daba" when="2025-04-11" status="draft">Re-collation with good scans of the estampages</change>
          <change who="part:axja" when="2020-11-03" status="draft">Updating toward the encoding template v03</change>
          <change who="part:daba" when="2020-10-28" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
@@ -104,7 +105,7 @@
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
-n="1"/>śrī-tribhuvanāṁkuśa</ab>
+n="1"/>śrī-tribhuvanāṁ<unclear>kuśa</unclear></ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb 
@@ -124,18 +125,18 @@ n="6" break="no"/>bja-viṣṇuvarddhano <supplied reason="subaudible">’</supp
 n="2r" break="no"/><lb 
 n="8" break="no"/>jo jayasiṁhas trayastriṁśataṁ<g type="dandaSerif">.</g> tad-anujendrarāja-nandano viṣṇuva<lb 
 n="9" break="no"/>rddhano nava<g type="dandaSerif">.</g> tat-sūnur mm<choice><sic>ā</sic><corr>a</corr></choice>ṁgi-yuvarājaḥ paṁcaviṁśatiṁ<g type="dandaSerif">.</g> tat-putro <lb 
-n="10"/>jayasiṁ<space type="binding-hole"/>has trayodaśa<g type="dandaSerif">.</g> tad-avarajaḥ ko<!--cursive o-->kkiliḥ ṣaṇ mā<lb 
+n="10"/>jayasiṁ<space type="binding-hole"/>has trayodaśa<g type="dandaSerif">.</g> tad-avarajaḥ kokkiliḥ ṣaṇ mā<lb 
 n="11" break="no"/>sāN<g type="dandaSerif">.</g> ta<space type="binding-hole"/>sya jyeṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya sapta<lb 
 n="12" break="no"/>triṁśataṁ<g type="dandaSerif">.</g> <space type="binding-hole"/> tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g type="dandaSerif">.</g> tat-su<lb 
 n="13" break="no"/>to viṣṇuvarddh<choice><sic>ā</sic><corr>a</corr></choice>naḥ ṣaṭtriṁśataṁ<g type="dandaSerif">.</g> tat-suto vijayāditya-narendra-mr̥ga<lb 
 n="14" break="no"/>rājaś cāṣṭacatvāriṁśataṁ<g type="dandaSerif">.</g> tat-sutaḥ kali-<supplied reason="omitted">viṣṇu</supplied>varddhano <supplied reason="subaudible">’</supplied><orig>ddh</orig>yarddha-varṣ<choice><sic>ā</sic><corr>a</corr></choice>ṁ<g type="dandaSerif">.</g> <pb 
 
 n="2v"/><lb 
-n="15"/>tat-suto guṇagā<supplied reason="omitted">ṁ</supplied>ka-vijayādityaś catuścatvāriṁśataṁ<g type="dandaSerif">.</g> tad-anu<lb 
+n="15"/>tat-suto guṇagāṁka-vijayādityaś catuścatvāriṁśataṁ<g type="dandaSerif">.</g> tad-anu<lb 
 n="16" break="no"/>ja-vikramāditya-bhūp<choice><sic>ā</sic><corr>a</corr></choice>teḥ sūnuś cālukya-bhīma-bhūpālas tri<lb 
 n="17" break="no"/>ṁśataṁ<g type="dandaSerif">.</g> <space type="binding-hole"/> tat-putraḥ kollabigaṇḍa-vijayādityaḥ ṣa<lb 
-n="18" break="no"/>ṇ māsāN<supplied reason="omitted"><g type="dandaSerif">.</g></supplied> <space type="binding-hole"/> tat-sūnur ammarājaḥ sapta varṣ<choice><sic>a</sic><corr>ā</corr></choice>ni<g type="dandaSerif">.</g> tat-sutaṁ <lb 
-n="19"/>vijayā<space type="binding-hole"/>dityaṁ b<choice><sic>a</sic><corr>ā</corr></choice>lam uccāṭya tālapo mās<choice><sic>ā</sic><corr>a</corr></choice>m ekaM<supplied reason="omitted"><g type="dandaSerif">.</g></supplied> <lb 
+n="18" break="no"/>ṇ māsāN<supplied reason="omitted"><g type="dandaSerif">.</g></supplied> <space type="binding-hole"/> tat-sūnur ammarājaḥ sapta varṣ<choice><sic>a</sic><corr>ā</corr></choice>ni<g type="dandaSerif">.</g> tat-suta<unclear>ṁ</unclear> <lb 
+n="19"/>vijayā<space type="binding-hole"/>dityaṁ b<choice><sic>a</sic><corr>ā</corr></choice>lam uccāṭya tālapo mās<choice><sic>ā</sic><corr>a</corr></choice>m ekaṁ<supplied reason="omitted"><g type="dandaSerif">.</g></supplied> <lb 
 n="20"/>taṁ jitvā <surplus>ś</surplus>c<orig>a</orig>lukya-bh<choice><sic>i</sic><corr>ī</corr></choice>ma-tanayo vikramāditya Ekādaśa mā<lb 
 n="21" break="no"/>sāN<g type="dandaSerif">.</g> tatas tālapa-rājasya suto yuddhamallaḥ sapta varṣ<choice><sic>a</sic><corr>ā</corr></choice><pb 
 
@@ -168,7 +169,7 @@ n="31" break="no"/>-gaṇa-madhu<space type="binding-hole"/>kara-nikara-paricu�
 n="32"/><supplied reason="subaudible">’</supplied>yuga-lo<space type="binding-hole"/>cana-pada-kamala-vilasad-dvire<choice><sic>p</sic><corr>ph</corr></choice>āyamāno mānonna<lb 
 n="33" break="no"/>to natoddha<space type="binding-hole"/>ta-samasta-lokaḥ samasta-bhuvanāśraya-śrī-vijayā<lb 
 n="34" break="no"/>ditya-mahār<choice><sic>a</sic><corr>ā</corr></choice>jādhir<choice><sic>a</sic><corr>ā</corr></choice>jaḥ parameśvaraḥ parama-bhaṭṭārakaḥ parama-brahmaṇyaḥ vela<lb 
-n="35" break="no"/>nāṇḍu-viṣaya-nivāsino rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-pramukhān kuṭuṁbina<supplied reason="omitted">ḥ</supplied> samāhūyettham ājñāpaya<pb 
+n="35" break="no"/>nāṇḍu-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān kuṭuṁbina<supplied reason="omitted">ḥ</supplied> samāhūyettham ājñāpaya<pb 
 
 n="4r" break="no"/><lb 
 n="36" break="no"/>ti<g type="ddandaSerif">.</g></p>
@@ -183,17 +184,17 @@ n="37" break="no"/><supplied reason="omitted">r</supplied> nniyama-svadhāma</l>
 <l n="a" enjamb="yes">tatra bhūsura-yathoci<lb 
 n="38" break="no"/>ta-vidyā</l>
 <l n="b">-ka<space type="binding-hole"/>rmma-ṣaṭka-vidhi-nirmmala-dehaḥ</l>
-<l n="c">veda-vid vidita-śāstra-sam<choice><sic>u</sic><corr>ū</corr></choice><lb 
+<l n="c">veda-vid vidita-śāstra-sam<unclear reason="eccentric_ductus">ū</unclear><lb 
 n="39" break="no"/>ho</l>
-<l n="d">viddama<space type="binding-hole"/>yya Iti viśruta-kī<unclear>r</unclear>ttiḥ<g type="ddandaSerif">.</g></l>
+<l n="d">viddama<space type="binding-hole"/>yya Iti viśruta-kīrttiḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="6" met="indravajrā">
-<l n="a">bhūdeva-vamśā<supplied reason="omitted">ṁ</supplied>budhi-śītara<choice><sic>s</sic><corr>ś</corr></choice>mi<lb 
+<l n="a">bhūdeva-vamśā<supplied reason="omitted">ṁ</supplied>bu<choice><sic>v</sic><corr>dh</corr></choice>i-śītara<choice><sic>s</sic><corr>ś</corr></choice>mi<lb 
 n="40" break="no"/><supplied reason="omitted">r</supplied></l>
 <l n="b">vvidvat-saro<space type="binding-hole"/>j<choice><sic>a</sic><corr>ā</corr></choice>kara-bhānu-bhānuḥ</l>
 <l n="c">tat-sūnur aṁbhojabhavopamāno</l>
 <l n="d"><lb 
-n="41"/>vidyāmayo viddamiya<unclear>ḥ</unclear> prasiddhaḥ<g type="ddandaSerif">.</g></l>
+n="41"/>vidyāmayo viddamiyaḥ prasiddhaḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="7" met="anuṣṭubh">
 <l n="a">Arundhatyā viśiṣṭasya</l>
@@ -203,7 +204,7 @@ n="42" break="no"/>yāT</l>
 <l n="d">-patnyā yaś cānamavvayā<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="8" met="upendravajrā">
-<l n="a">kula-kramāyātam udāra-bh<unclear>ā</unclear><pb 
+<l n="a">kula-kramāyātam udāra-bhā<pb 
 
 n="4v" break="no"/><lb 
 n="43" break="no"/>vam</l>
@@ -214,7 +215,7 @@ n="44" break="no"/>bhidhānaḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="9" met="gīti">
 <l n="ab">śrī-lokamahādevyā samavarddhyata yo <supplied reason="subaudible">’</supplied>smad-aṁbayā prītyā</l>
-<l n="cd">cāturrya-nāgara<lb 
+<l n="cd">cāturyya-nāgara<lb 
 n="45" break="no"/>kayor āvāsa-sthānam iti manoharayoḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="10" met="gīti">
@@ -224,7 +225,7 @@ n="46" break="no"/>tā mahā-catu<space type="binding-hole"/>re</l>
 n="47"/>satataṁ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="11" met="āryā">
-<l n="ab">U<space type="binding-hole"/>tpadyate prasaṁgāt sujanatayā cātma-sahajayā yasya<g type="dandaSerif">.</g></l>
+<l n="ab">U<space type="binding-hole"/>tpadyate prasaṁgāt sujanatayā cātma-sahajayā yasya<unclear><g type="ddandaSerif">.</g></unclear></l>
 <l n="cd"><lb 
 n="48"/>vibhavaḥ pati-prasaṁ<supplied reason="omitted">ga</supplied>ś citram idaṁ sādhu-vāda Iti<g type="dandaSerif">.</g></l>
 </lg>
@@ -245,8 +246,8 @@ n="51" break="no"/>ruṣa Ity upapannaṁ<g type="dandaSerif">.</g></l>
 <l n="a">Anāgata-jñ<choice><sic>a</sic><corr>ā</corr></choice>na-vivekinī dhīr</l>
 <l n="b">anindya-cāritra-parā hi ceṣṭā</l>
 <l n="c">A-śeṣa-bho<lb 
-n="52" break="no"/>gopanata<orig>m</orig> manaś ca</l>
-<l n="d">Aho<!--cursive o--> mahat koramiyasya puṇyaṁ<g type="ddandaSerif">.</g></l>
+n="52" break="no"/>gopanatam manaś ca</l>
+<l n="d">Aho mahat koramiyasya puṇyaṁ<g type="ddandaSerif">.</g></l>
 </lg>
 <p>tasmai koramiya-nāmne suvarṇṇa<lb 
 n="53" break="no"/>-bhāṇḍāgāra-śrīkaraṇa-mukhyāya Elavaṟṟu nāma grāmas sarvva-kara-parihāreṇāgrahārī<lb 
@@ -268,8 +269,8 @@ n="58"/>bhir vvasudhā dattā</l>
 n="5v" break="no"/><lb 
 n="59" break="no"/>ttāṁ para-dattāṁ vā</l>
 <l n="b">yo hareta vasundharāṁ</l>
-<l n="c">ṣaṣṭi-varṣa-sahasrāṇi</l>
-<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>āyā<supplied reason="omitted">ṁ</supplied> j<choice><sic>a</sic><corr>ā</corr></choice>yate kr̥miḥ<g type="ddandaSerif">.</g></l>
+<l n="c">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
+<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>āyā<supplied reason="omitted">ṁ</supplied> j<choice><sic>a</sic><corr>ā</corr></choice>ya<unclear>te</unclear> kr̥miḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <p><lb 
 n="60"/>Ājñaptiḥ kaṭaka-rājaḥ<supplied reason="subaudible">.</supplied> potanabhaṭṭa-kāvyaṁ<supplied reason="subaudible">.</supplied> jontācāryya-likhitaṁ<g type="ddandaSerif">.</g></p>
@@ -284,29 +285,25 @@ n="60"/>Ājñaptiḥ kaṭaka-rājaḥ<supplied reason="subaudible">.</supplied>
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-    <listApp>
-      <app loc="1">
-        <lem>-tribhuvanāṁkuśa</lem>
-        <rdg source="bib:Fleet1883_08">-tribhuvanāṅkuśa</rdg>
-        <note>My scanned facsimile of the seal is not clear, but the spelling seems to be with <foreign>anusvāra</foreign>, as usual in related plates.</note>
-      </app>
-    </listApp>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
+      <app loc="1">
+        <lem>śrīmatāṁ</lem>
+        <note>The <foreign>ī</foreign> is not visible in the estampage, but Fleet affirms that it is there in the original.</note>
+      </app>
       <app loc="15">
-        <lem>guṇagā<supplied reason="omitted">ṁ</supplied>ka-</lem>
-        <rdg source="bib:Fleet1883_08">guṇagāṁka-</rdg>
+        <lem>guṇagāṁka-</lem>
+        <note>The <foreign>anusvāra</foreign> is not visible in the estampage, but Fleet affirms that it is there in the original.</note>
       </app>
       <app loc="16">
-        <lem>tri<lb 
-n="17" break="no"/>ṁśataṁ</lem>
-        <note>I accept Fleet's reading here, but the <foreign>anusvāra</foreign> is not visible in the scanned estampage and may have been omitted.</note>
+        <lem>tri<lb n="17" break="no"/>ṁśataṁ</lem>
+        <note>The first <foreign>anusvāra</foreign> is not visible in the estampage, but Fleet affirms that it is there in the original at the beginning of line 1.</note>
       </app>
       <app loc="17">
         <lem>kollabigaṇḍa-</lem>
         <rdg source="bib:Fleet1883_08">kollabhigaṇḍa-</rdg>
-        <note>Definitely a typo or oversight in Fleet's edition; the estampage clearly has <foreign>b</foreign>.</note>
+        <note>Definitely a typo or oversight in Fleet's edition.</note>
       </app>
       <app loc="22">
         <lem><choice><sic>tat-putraḥ</sic><corr>taṁ jitvā</corr></choice></lem>
@@ -315,7 +312,7 @@ n="17" break="no"/>ṁśataṁ</lem>
       <app loc="22">
         <lem>kollabigaṇḍa-</lem>
         <rdg source="bib:Fleet1883_08">kollabhigaṇḍa-</rdg>
-        <note>Definitely a typo or oversight in Fleet's edition; the estampage clearly has <foreign>b</foreign>.</note>
+        <note>As above, this is a typo or oversight in Fleet's edition.</note>
       </app>
       <app loc="32">
         <lem>mānonna<lb n="33" break="no"/>to natoddha<space type="binding-hole"/>ta</lem>
@@ -326,14 +323,18 @@ n="17" break="no"/>ṁśataṁ</lem>
         <lem>-mahār<choice><sic>a</sic><corr>ā</corr></choice>jādhir<choice><sic>a</sic><corr>ā</corr></choice>jaḥ</lem>
         <rdg source="bib:Fleet1883_08">-mahārājādhir<choice><sic>a</sic><corr>ā</corr></choice>jaḥ</rdg>
       </app>
+      <app loc="35">
+        <lem> rāṣṭrakūṭa-</lem>
+        <rdg source="bib:Fleet1883_08"> rāṣṭrak<choice><sic>u</sic><corr>ū</corr></choice>ṭa-</rdg>
+      </app>
       <app loc="36">
         <lem>dha<supplied reason="omitted">r</supplied>mmiṣṭha-</lem>
         <rdg source="bib:Fleet1883_08">dharmmiṣṭha-</rdg>
       </app>
       <app loc="38">
-        <lem source="bib:Fleet1883_08">-sam<choice><sic>u</sic><corr>ū</corr></choice><lb 
-n="39" break="no"/>ho</lem>
-        <note>I accept Fleet's reading since together with the emendation it does not seem to be an oversight. However, the facsimile seems to have the expected <foreign>ū</foreign>.</note>
+        <lem>-sam<unclear reason="eccentric_ductus">ū</unclear><lb n="39" break="no"/>ho</lem>
+        <rdg source="bib:Fleet1883_08">-sam<choice><sic>u</sic><corr>ū</corr></choice><lb 
+n="39" break="no"/>ho</rdg>
       </app>
       <app loc="39">
         <lem>viśruta-</lem>
@@ -341,13 +342,11 @@ n="39" break="no"/>ho</lem>
         <note>Definitely a typo in Fleet's edition.</note>
       </app>
       <app loc="39">
-        <lem>śītara<choice><sic>s</sic><corr>ś</corr></choice>mi<lb 
-n="40" break="no"/><supplied reason="omitted">r</supplied></lem>
-        <rdg source="bib:Fleet1883_08">śītaraśmi<lb 
-n="40" break="no"/><supplied reason="omitted">r</supplied></rdg>
+        <lem>śītara<choice><sic>s</sic><corr>ś</corr></choice>mi<lb n="40" break="no"/><supplied reason="omitted">r</supplied></lem>
+        <rdg source="bib:Fleet1883_08">śītaraśmi<lb n="40" break="no"/><supplied reason="omitted">r</supplied></rdg>
       </app>
       <app loc="41">
-        <lem>viddamiya<unclear>ḥ</unclear></lem>
+        <lem>viddamiyaḥ</lem>
         <rdg source="bib:Fleet1883_08">viddamiya-</rdg>
       </app>
       <app loc="41">
@@ -368,29 +367,37 @@ n="40" break="no"/><supplied reason="omitted">r</supplied></rdg>
         <rdg source="bib:Fleet1883_08">-<choice><sic>varā</sic><corr>dhārā</corr></choice></rdg>
         <note>I am not confident in my own emendation but find it more likely than that proposed by Fleet. The text as received is unmetrical (lacking a mora in the second foot), but as emended (either as Fleet does or as I do), the prosody is still unusual in that the caesura is after the first short syllable of the fourth foot, rather than after the third foot (a <foreign>vipulā</foreign> or "old <foreign>āryā</foreign>"). See also the note to the translation.</note>
       </app>
+      <app loc="47">
+        <lem>yasya<unclear><g type="ddandaSerif">.</g></unclear></lem>
+        <note>The last character in the line looks rather like <foreign>syāḥ</foreign>, but the apparent <foreign>ā</foreign> marker is certainly a punctuation mark, as it extends to the bottom line and has a serif on top (compare <foreign>syā</foreign> in line 54). The last sign that looks like a <foreign>visarga</foreign> is probably an unclear second <foreign>daṇḍa</foreign>, but may also be merely a space filler.</note>
+      </app>
       <app loc="48">
         <lem>-prasaṁ<supplied reason="omitted">ga</supplied>ś</lem>
         <rdg source="bib:Fleet1883_08">-pra<choice><sic>s</sic><corr>ś</corr></choice>aṁ<supplied reason="omitted">śya</supplied>ś</rdg>
-        <note>In Fleet's emendation, <foreign>śya</foreign> is clearly a typo; his intent must have been <foreign>sya</foreign>. I am far from certain of my own emendation and interpretation, but I prefer my less invasive emendation to Fleet's, and disagree with his interpretation (for which see the note to the translation).An autopsy of the original or a good facsimile may be useful here.</note>
+        <note>In Fleet's emendation, <foreign>śya</foreign> is clearly a typo; his intent must have been <foreign>praśaṁsyaś</foreign>. I am far from certain of my own emendation and interpretation, but I prefer my less invasive intervention to Fleet's, and disagree with his interpretation (for which see the note to the translation).</note>
       </app>
       <app loc="50">
         <lem>-hr̥daya<supplied reason="omitted">ḥ</supplied></lem>
         <rdg source="bib:Fleet1883_08">-hr̥daya-</rdg>
-        <note>I emend tentatively. I am thoroughly dissatisfied with Fleet's interpretation but quite uncertain of my own; see the note to the translation. Nothing of this stanza on page 4 verso is legible in my scans, but the presence of an original <foreign>visarga</foreign> seems possible.</note>
+        <note>I emend tentatively. I am thoroughly dissatisfied with Fleet's interpretation but quite uncertain of my own; see the note to the translation.</note>
       </app>
       <app loc="50">
-        <lem>vastu-</lem>
-        <note>Nothing of this stanza on page 4 verso is legible in my scans, but I wonder if the reading is in fact <foreign>vāstu-</foreign>. See the note to the translation.</note>
+        <lem>muktāphala-</lem>
+        <note>The <foreign>pha</foreign> looks like <foreign>pa</foreign> in the estampage, but Fleet affirms that it is correct in the original.</note>
       </app>
       <app loc="54">
         <lem>-pū<space type="binding-hole"/><unclear reason="eccentric_ductus">rvva</unclear>m</lem>
         <rdg source="bib:Fleet1883_08">-pū<choice><sic>vvā</sic><corr>rvva</corr></choice>m</rdg>
-        <note>The marker attached to <foreign>vv</foreign> does look like <foreign>ā</foreign> (of the form that starts toward the right and bends downward), but was probably intended as an alternative <foreign>repha</foreign>, since the descender of <foreign>khyā</foreign> above does not permit a regular <foreign>repha</foreign> here, and the stroke in question is curved in a way reminiscent of a <foreign>repha</foreign>.</note>
+        <note>The marker attached to <foreign>vv</foreign> does look like <foreign>ā</foreign> (of the form that starts toward the right and bends downward), but was in my opinion intended as an alternative <foreign>repha</foreign>, since the descender of <foreign>khyā</foreign> above does not permit a regular <foreign>repha</foreign> here, and the stroke in question is curved in a way reminiscent of a <foreign>repha</foreign>.</note>
       </app>
       <app loc="55">
         <lem>pū<space type="binding-hole"/><unclear reason="eccentric_ductus">rvva</unclear>taḥ</lem>
         <rdg source="bib:Fleet1883_08">pū<choice><sic>vvā</sic><corr>rvva</corr></choice>taḥ</rdg>
         <note>The marker here is even more like <foreign>ā</foreign> than in the previous instance (lacking the curve present in that one), but again, the descender of <foreign>tyo</foreign> above fully occupies the space over <foreign>vv</foreign>, so I prefer to see it as an unusually written <foreign>repha</foreign>.</note>
+      </app>
+      <app loc="58">
+        <lem>phalaṁ</lem>
+        <note>The <foreign>pha</foreign> looks like <foreign>pa</foreign> in the estampage, but Fleet affirms that it is correct in the original.</note>
       </app>
       <app loc="59">
         <lem>°yate kr̥miḥ<g type="ddandaSerif">.</g></lem>
@@ -419,7 +426,7 @@ n="40" break="no"/><supplied reason="omitted">r</supplied></rdg>
 <p rend="stanza" n="5">In that <supplied reason="explanation">lineage</supplied> was <supplied reason="subaudible">born a man</supplied> of famous reputation by the name Viddamayya, whose body was pure thanks to learning befitting gods-on-earth <supplied reason="explanation">Brahmins</supplied> and to the performance of the six duties <supplied reason="explanation">of a Brahmin</supplied>, a knower of the Veda educated in the aggregate of treatises <supplied reason="explanation"><foreign>śāstra</foreign></supplied>.</p>
 <p rend="stanza" n="6">His son, a cool-rayed <supplied reason="subaudible">moon</supplied> to the ocean that is the lineage of gods-on-earth <supplied reason="explanation">Brahmins</supplied> and a ray of the sun to the stand of lotuses that are the learned, was comparable to <supplied reason="explanation">Brahmā</supplied> born of the lotus. Being saturated with knowledge <supplied reason="explanation"><foreign>vidyāmaya</foreign></supplied>, he was known as Viddamiya.</p>
 <p rend="stanza" n="7">With his lawful wife Cānamavvā<note>Fleet sees the name as Anamavvā, noting that it may also be Ānamavvā. He does not consider Cānamavvā an option, but since Cānamāmbā is an attested name (of a different person) in the <ref target="DHARMA_INSVengiCalukya00086.xml">Kāṭlapaṟṟu grant of Vijayāditya III</ref>, I prefer this.</note> of faithful nature, he became comparable to <supplied reason="explanation">the sage</supplied> Vasiṣṭha who was made all the more distinctive by <supplied reason="explanation">his wife</supplied> Arundhatī.</p>
-<p rend="stanza" n="8">Their son, named Koramiya, was like the earth <supplied reason="explanation">in forbearance</supplied>. He was endowed with a magnificent nature that came to him as his family inheritance, and a beauty of form never seen or heard of before, which was a support to the earth.<note>This is the best I can make of the text, which I find rather awkward. Fleet translates along similar lines, except that he seems to construe the compound with <foreign>-rūpam</foreign> as qualifying <foreign>-bhāvam</foreign>, which I find unlikely since <foreign>bhāva</foreign> is masculine, but with the adjective <foreign>dhārā-dhāri</foreign> we need <foreign>-rūpam</foreign> to be neuter. The text may have a better sense that escapes both Fleet and me, but it is well within the range of possibility that the composer was carried away from sense by his effort to produce the sound effect of the third <foreign>pāda</foreign>.  Could the correct reading be, or should it be emended to, <foreign>dadhad dharā-vāridharopamānaḥ</foreign>, implying that Koramiya is comparable to the earth (in forbearance) and to a raincloud (in selfless distribution of riches)?</note></p>
+<p rend="stanza" n="8">Their son, named Koramiya, was like the earth <supplied reason="explanation">in forbearance</supplied>. He was endowed with a magnificent nature that came to him as his family inheritance, and a beauty of form never seen or heard of before, which was a support to the earth.<note>This is the best I can make of the text, which I find rather awkward. Fleet translates along similar lines, except that he seems to construe the compound with <foreign>-rūpam</foreign> as qualifying <foreign>-bhāvam</foreign>, which I find unlikely since <foreign>bhāva</foreign> is masculine, but with the adjective <foreign>dhārā-dhāri</foreign> we need <foreign>-rūpam</foreign> to be neuter. The text may have a better sense that escapes both Fleet and me, but it is well within the range of possibility that the composer was carried away from sense by his effort to produce the sound effect of the third <foreign>pāda</foreign>.  Could the the intent of the composer have been <foreign>dadhad dharā-vāridharopamānaḥ</foreign>, implying that Koramiya is comparable to the earth (in forbearance) and to a raincloud (in selfless distribution of riches)?</note></p>
 <p rend="stanza" n="9">Being an abode of delightful quick wit and sophistication, he was lovingly nurtured by our <supplied reason="explanation">Amma II’s</supplied> mother, Her Majesty Lokamahādevī.</p>
 <p rend="stanza" n="10">The eloquence that resides in this extremely witty man ever ridicules that <seg cert="low">harlot</seg> of reprobates: that Lady Speech who is the mistress of <seg cert="low">the socialites Jalajabhava and Bahumukha</seg>. <note>I am not entirely confident in my interpretation of this stanza, partly because of an engraving error and partly because of the opacity of the phrase <foreign>nāgaraka-jalajabhava-bahumukha-priyāṁ</foreign>. Fleet emends the error differently (see the apparatus to line 46) and translates, <q>The eloquence which abides in him, the most clever one (and) which is (like) the sharp edge of a sword to wicked people, always laughs to scorn the woman Vāc who is dear to polished people and to Jalajabhava and to Bahumukha,</q> noting that Jalajabhava is Brahmā (born in a lotus) and Bahumukha may be Viṣṇu (as Sahasrānana). I find Fleet’s emendation unlikely, because while <foreign>dhārā</foreign> does mean “edge,” there is no sword in the context here. I also do not think Koramiya would be praised for scorning the goddess of speech who is dear to gods, nor do I see how Viṣṇu would fit that picture. It is marginally possible that the poet’s intent was to say that Koramiya’s eloquence “scorns,” i.e. surpasses the real speech goddess, and that Bahumukha is a further qualification of Brahmā, who does fit the picture. But what is in my opinion more likely is that Jalajabhava and Bahumukha are living contemporary poets and/or courtiers whom Amma II finds disagreeable, e.g. for criticising him or praising his rivals. The image in this stanza would thus be that although these men do have a gift with words, it is only a courtesanly <supplied reason="explanation"><foreign>vāra</foreign></supplied> Lady Speech who favours them, while Koramiya’s genuine gift is turned to ridiculing them.</note></p>
 <p rend="stanza" n="11">How strange it is that <supplied reason="subaudible">such</supplied> acclaim should <supplied reason="subaudible">have to</supplied> be occasioned by his lord for one whose prodigy has come into being thanks to <supplied reason="subaudible">natural</supplied> incidence and his own inborn good nature!<note>Here too, Fleet emends and interprets the text differently. He translates, <q>Good people say how wonderful it is that, through his innate excellence, there is produced a power that is worthy to be praised by <supplied reason="explanation">his</supplied> lord.</q> His emendation, though more invasive than mine (see the apparatus to line 48), is not implausible and his translation is also possible. However, I feel that the terms <foreign>citram</foreign> and <foreign>sādhu-vāda</foreign> are more likely to have been used in their common specialised senses (viz., “strange” and “congratulation, acclaim”) than in the blander senses of “wonderful” and “speech of good people.” Given this intuition, I believe the intent of the composer was to say that acclaim should come as a matter of course to such an eminent person, and it is indeed strange that his king should need to commission his laudation.</note></p>
@@ -518,7 +525,7 @@ A different grant, in characters of the same period as the present one, but less
 
 
 <div type="bibliography">
-  <p>Edited from the original by Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1883_08"/></bibl>), with a translation and with facsimiles. The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published facsimiles.<note>All my scans of IA12 are quite poor. Though Fleet says the plates are in perfect preservation, my scans of 3r and 4v are illegible in many places (where I simply adopt Fleet's reading), and the other plates far from perfect. Checking a printed Indian Antiquary 12 may help.<!--In particular: l45 after vāgmitā; l46 from nāgaraka onward; l47 after prasaṁgāt; all of l48 to l50--></note></p>
+  <p>Edited from the original by Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1883_08"/></bibl>), with a translation and with facsimiles. The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published facsimiles.</p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1883_08"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
