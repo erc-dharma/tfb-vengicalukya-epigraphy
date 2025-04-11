@@ -103,7 +103,7 @@ Fleet discusses at some length the form of initial I in this inscription. He say
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
 n="1"/>śrī-tribhuvan<choice><sic>a</sic><corr>ā</corr></choice>ṁku<lb 
-n="2"/><unclear>śa</unclear>ḥ</ab>
+n="2"/><unclear>śa</unclear><space type="feature"/>ḥ</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb 
@@ -329,6 +329,12 @@ n="74" break="no"/>ṭṭadevanik arahanandi-bhaṭār<choice><sic>a</sic><corr>
         
 <div type="apparatus">
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+    <listApp>
+      <app loc="2">
+        <lem>°<unclear>śa</unclear><space type="feature"/>ḥ</lem>
+        <note>These characters are on the left and right side of the boar depicted on the seal.</note>
+      </app>
+  </listApp>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -613,7 +619,7 @@ renaît ver de terre dans les excréments pendant soixante mille ans ».</p>
 
 
 <div type="bibliography">
-  <p>Edited from the original by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1902-1903_01"/></bibl>), with a translation and with partial photographs, probably of plaster casts rather than the actual plates.<note>The 1981 reprint of <title>Epigraphia Indica</title> only includes photos of pages 1v, 3v, 4r and 5r.</note> The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published photographs.<note>For pages of which I have no photo, I follow Fleet absolutely unless otherwise noted and do not show spaces for the binding hole. Even where available, the scanned photos are very hard to read in many places, so in these I generally accept Fleet's indication of what is unclear and what is clear, and only add my own unclear markup where the photo is completely illegible. If new photos of Ind. Ch. 24 can be obtained from the BL, then collation will be very advantageous.</note></p>
+  <p>Stanza 8 was cited by J. F. Fleet (<bibl rend="omitname"><ptr target="bib:Fleet1883_03"/><citedRange unit="page">249</citedRange></bibl>), who later referred to the text as Grant U (<bibl><ptr target="bib:Fleet1891_05"/></bibl>), and finally edited it the original (<bibl><ptr target="bib:Fleet1902-1903_01"/></bibl>), with a translation and with partial photographs, probably of plaster casts rather than the actual plates.<note>The 1981 reprint of <title>Epigraphia Indica</title> only includes photos of pages 1v, 3v, 4r and 5r.</note> The present edition by Dániel Balogh is based on a collation of Fleet's edition with his published photographs.<note>For pages of which I have no photo, I follow Fleet absolutely unless otherwise noted and do not show spaces for the binding hole. Even where available, the scanned photos are very hard to read in many places, so in these I generally accept Fleet's indication of what is unclear and what is clear, and only add my own unclear markup where the photo is completely illegible. If new photos of Ind. Ch. 24 can be obtained from the BL, then collation will be very advantageous.</note></p>
   <listBibl type="primary">
     <bibl n="JFF"><ptr target="bib:Fleet1902-1903_01"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
