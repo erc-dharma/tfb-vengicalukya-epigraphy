@@ -57,7 +57,7 @@
                   <handDesc>
                      <p>Halantas. T is written with ta and a virāma according to KR, while a special sign is used for N (l9, l15, l17).</p>
                      <p>Original punctuation marks. Single punctuation marks are straight verticals with a serif on top; I assume the case is the same in the plates for which no facsimiles are available.</p>
-                     <p>Other palaeographic observations. Anusvāra is normally to the right of the character to which it belongs, but in the Telugu boundary descriptions it seems to be on top of the next character (however, none of these are clear). ḍ and d are often indistinguishable; in the Telugu words I blindly follow KR's choice between these two, except for the name of the granted village where I disagree with them (see the apparatus to lines 56 and 61).
+                    <p>Other palaeographic observations. Anusvāra is normally to the right of the character to which it belongs, but in the Telugu boundary descriptions it seems to be on top of the next character (however, none of these are clear). In l1 śāṁrgga, it is to the right of śā at headline level, not above the next character. ḍ and d are often indistinguishable; in the Telugu words I blindly follow KR's choice between these two, except for the name of the granted village where I disagree with him (see the apparatus to lines 56 and 61).
               <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
           <summary><p><p/></summary>
@@ -91,6 +91,7 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
+         <change who="part:daba" when="2025-07-01" status="draft">Collation with photos</change>
          <change who="part:daba" when="2020-11-27" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
@@ -111,80 +112,80 @@ n="1r"/>
 <l n="a"><pb 
 
 n="1v"/><lb 
-n="1"/>vyākr̥ṣṭa-ratna-<choice><sic>k</sic><corr>kh</corr></choice>acitāyata-śā<choice><orig>ṁrgga</orig><reg>rṇga</reg></choice>-cāpo</l>
+n="1"/><!--P1000560, right-hand side P1000562-->vyākr̥ṣṭa-ratna-<choice><sic>k</sic><corr>kh</corr></choice>acitāyata-śā<choice><orig>ṁrgga</orig><reg>rṇga</reg></choice>-cāpo</l>
 <l n="b">yas sendrakārmmuka-vinīla-payoda-<choice><sic>b</sic><corr>v</corr></choice>r̥ndaM<g type="dandaSerif">.</g></l>
-<l n="c">nirbbhar<choice><orig>cch</orig><reg>ts</reg></choice>ayann iva vibhā<lb 
+<l n="c">nirbbhar<choice><sic>cc</sic><corr>ts</corr></choice>ayann iva vibhā<lb 
 n="2" break="no"/>ti sa kr̥ṣṇa-kānti<supplied reason="omitted">r</supplied></l>
 <l n="d">vviṣṇuś śivan diśatu vo <supplied reason="subaudible">’</supplied>vadhr̥ta-trilokaḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <p>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mā<lb 
 n="3" break="no"/>navya-sagotrāṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha-rājyānām mātr̥-gaṇa-paripālitānāṁ svāmi<lb 
-n="4" break="no"/>-mahāsena-pādānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāṁchanekṣa<lb 
-n="5" break="no"/>ṇa-<unclear>kṣa</unclear>ṇa-vaśīkr̥tārāti-maṇḍalāṇām aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāṁ cālukyānāṁ ku<lb 
-n="6" break="no"/>lam alaṁkariṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhana-nr̥patir aṣṭādaśa varṣāṇi <lb 
+n="4" break="no"/>-mahāsena-pā<space type="binding-hole"/>dānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāṁcchanekṣa<lb 
+n="5" break="no"/>ṇa-<unclear>kṣa</unclear>ṇa-vaśī<space type="binding-hole"/>kr̥tārāti-maṇḍalāṇām aśvamedhāvabhr̥tha-snāna-pavitrīkr̥ta-vapuṣāṁ cālukyānāṁ ku<lb 
+n="6" break="no"/>lam alaṁkari<space type="binding-hole"/>ṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhana-nr̥patir aṣṭādaśa varṣāṇi <lb 
 n="7"/>veṁgī-deśam apālayaT<g type="dandaSerif">.</g> tad-ātmajo jayasiṁhas trayastrimśataM<g type="dandaSerif">.</g> tad-anujendrarāja-nandano viṣṇuvarddhano na<lb 
 n="8" break="no"/>va<g type="dandaSerif">.</g> tat-sūnur mmaṁgi-yuvarājaḥ paṁcaviṁśatiM<g type="dandaSerif">.</g> tat-putro jayasiṁhas trayodaśa<g type="dandaSerif">.</g> tad-avara<lb 
-n="9" break="no"/>jaḥ ko<orig>k</orig>ili<orig>ṣ</orig> ṣaṇ māsān<g type="dandaSerif">.</g> tasya jyeṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya saptatriṁśataM<g type="dandaSerif">.</g> tat-putro vi<pb 
+n="9" break="no"/>jaḥ kokkili<orig>ṣ</orig> ṣaṇ māsān<g type="dandaSerif">.</g> tasya jyeṣṭho bhrātā viṣṇuvarddhanas tam uccāṭya saptatriṁśataM<g type="dandaSerif">.</g> tat-putro vi<pb 
 
-n="2r" break="no"/><lb 
+n="2r" break="no"/><!--P1000567, P1000570, near hole P1000569, P1000568--><lb 
 n="10" break="no"/>jayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g type="dandaSerif">.</g> tat-suto viṣṇuvarddhanaṣ ṣattriṁśataM<g type="dandaSerif">.</g>
 </p>
 <lg n="2" met="anuṣṭubh">
-<l n="a">narendra-mr̥garājā<unclear>khyo</unclear></l>
+<l n="a">narendra-mr̥garājākhy<unclear>o</unclear></l>
 <l n="b">mr̥<lb 
-n="11" break="no"/>garāja-<unclear>parākramaḥ<g type="dandaSerif">.</g></unclear></l>
-<l n="c">vijayāditya-<unclear>bhūpālaḥ</unclear></l>
-<l n="d">catvāriṁ<unclear>śat samā</unclear><seg met="-="><gap reason="omitted" quantity="2" unit="character"/></seg><g type="ddandaSerif">.</g></l></lg>
+n="11" break="no"/>garāja-parākramaḥ<g type="dandaSerif">.</g></l>
+<l n="c">vijayāditya-bhūpālaḥ</l>
+<l n="d">catvāriṁśat samā<seg met="-="><gap reason="omitted" quantity="2" unit="character"/></seg><g type="ddandaSerif">.</g></l></lg>
 <p>tat-putraẖ kali-viṣṇuvarddha<lb 
 n="12" break="no"/>no <supplied reason="subaudible">’</supplied><unclear>dhyarddha-varṣaM<g type="dandaSerif">.</g> tat-su</unclear>to guṇaga-vijayādityaś catuścatvāriṁśataM<g type="dandaSerif">.</g>
 </p>
 <lg n="3" met="sragdharā">
-<l n="a">tad-bhrātur yyauvarājyonnata-mahi<lb 
-n="13" break="no"/><unclear>ma-bhr̥to</unclear> vikramāditya-bhūpāj</l>
-<l n="b">jātaś cālukya-bhīmas sakala-nr̥pa-<unclear>guṇotkr̥</unclear>ṣṭa-cāritra-pātraḥ<g type="dandaSerif">.</g></l>
+<l n="a">tad-bhrātur yy<choice><sic>o</sic><corr>au</corr></choice>varājyonnata-mahi<lb 
+n="13" break="no"/>ma-bhr̥to vikramā<space type="binding-hole"/>ditya-bhūpāj</l>
+<l n="b">jātaś cālukya-bhīmas sakala-nr̥pa-gu<unclear>ṇo</unclear>tk<unclear>r̥</unclear>ṣṭa-cāritra-pātraḥ<g type="dandaSerif">.</g></l>
 <l n="c">dānī <lb 
-n="14"/><seg met="++-++---"><gap reason="illegible" quantity="8" unit="character"/></seg>rasa-karaḥ sārvvabhauma-pratāpo<g type="dandaSerif">.</g></l>
-<l n="d">rājyaṁ kr̥tvā pra<unclear>yā</unclear>taḥ tridaśa-pati-padaṁ <lb 
-n="15"/><unclear>triṁśad-abda-pramā</unclear>ṇa<unclear>ṁ</unclear><g type="ddandaSerif">.</g></l></lg>
+n="14"/>kānīna-dāna<subst><del rend="corrected">t</del><add place="overstrike">s</add></subst>thi<space type="binding-hole"/>ti-virasa-karaḥ sārvvabhauma-pratāpo<g type="dandaSerif">.</g></l>
+<l n="d">rājyaṁ kr̥tvā prayātaḥ tridaśa-pati-padaṁ <lb 
+n="15"/>triṁśad-abda-pramā<space type="binding-hole"/>ṇa<unclear>ṁ</unclear><g type="ddandaSerif">.</g></l></lg>
 <p>tat-putraḥ kaliyattigaṇḍa-vijayādityaṣ ṣaṇ māsāN<g type="dandaSerif">.</g> tat-sūnur ammarājas sa<lb 
-n="16" break="no"/><unclear>pta</unclear>-varṣāṇi<g type="dandaSerif">.</g> tat-sutaṁ vijayādityaṁ kaṇṭhikā-kramāyāta-paṭṭābhiṣekaṁ bālam uccāṭya<surplus><g type="dandaSerif">.</g></surplus> tāla-rājo rājyam māsa<lb 
-n="17" break="no"/><unclear>m e</unclear>kaṁ<g type="dandaSerif">.</g> cālukya-bhīma-suto vikramādityas taṁ hatvā ekādaśa māsāN<g type="dandaSerif">.</g></p>
+n="16" break="no"/>pta-varṣ<unclear>ā</unclear>ṇ<unclear>i</unclear><g type="dandaSerif">.</g> tat-sutaṁ vijayādityaṁ kaṇṭhikā-kram<choice><sic>a</sic><corr>ā</corr></choice>yāta-paṭṭābhiṣekaṁ bālam uccāṭya<surplus><g type="dandaSerif">.</g></surplus> tāla-rājo rājyam māsa<lb 
+n="17" break="no"/><unclear>m e</unclear>kaṁ<supplied reason="subaudible">.</supplied> cālukya-bhīma-suto vikramādityas taṁ hatvā Ekādaśa māsāN<g type="dandaSerif">.</g></p>
 <lg n="4" met="āryāgīti">
-<l n="ab">vijayādityo veṁgī-nāthaẖ kaliyatti<lb 
-n="18" break="no"/>gaṇḍa-nāmā dhīmā<choice><orig><g type="dandaSerif">.</g>n</orig><reg>n<g type="dandaSerif">.</g></reg></choice></l>
-<l n="cd">tasya sat<choice><sic>i</sic><corr>ī</corr></choice> meḻāṁbā<g type="dandaSerif">.</g> taj-ja-śrī-rāja-bhīma-nr̥patir ajeyaḥ<g type="ddandaSerif">.</g></l>
+<l n="ab">vijayādityo veṁgī-nātha<surplus><g type="dandaSerif">.</g></surplus>ẖ kaliyatti<lb 
+n="18" break="no"/>gaṇḍa-nāmā dhīmā<choice><orig><g type="dandaSerif">.</g>n</orig><reg>N<g type="dandaSerif">.</g></reg></choice></l>
+<l n="cd">tasya sat<choice><sic>i</sic><corr>ī</corr></choice> me<unclear>ḻā</unclear>ṁbā<g type="dandaSerif">.</g> taj-ja<supplied reason="omitted">ḥ</supplied> śrī-rāja-bhīma-nr̥patir aj<choice><sic>a</sic><corr>e</corr></choice>yaḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="5" met="sragdharā">
 <l n="a">satya-tyāgābhimānādy-akhi<pb 
 
-n="2v" break="no"/><lb 
-n="19" break="no"/>la-guṇayuto rājamārttaṇḍam ājau<g type="dandaSerif">.</g></l>
-<l n="b">jitvogram mallapākhyaṁ sa-sutam a<choice><sic>dh</sic><corr>t</corr></choice>ibalaṁ drohiṇo <supplied reason="subaudible">’</supplied>py antakābh<orig>o</orig><g type="dandaSerif">.</g></l>
+n="2v" break="no"/><!--P1000574; left P1000575, right P1000573--><lb 
+n="19" break="no"/>la-guṇa-yuto rājamārttaṇḍam ājau<g type="dandaSerif">.</g></l>
+<l n="b">jitvogram mallapākhyaṁ sa-sutam a<choice><sic>dh</sic><corr>t</corr></choice>ibalaṁ dr<unclear>o</unclear>hiṇ<unclear>o</unclear> <supplied reason="subaudible">’</supplied>py antakābh<orig>o</orig><g type="dandaSerif">.</g></l>
 <l n="c">dviḍ-bhīmo rāṣṭra<lb 
 n="20" break="no"/>kūṭa-prabala-bala-tamas-saṁharo dvādaśābdaṁ</l>
-<l n="d">rājyaṁ kr̥tvāgama<orig>t saḥ<g type="dandaSerif">.</g></orig> pranịhita-su-<unclear>ya</unclear>śo dharmma-santāna-varggaḥ<g type="ddandaSerif">.</g></l>
+<l n="d">rājyaṁ kr̥tvāgamat s<supplied reason="omitted">v</supplied>aḥ<orig><g type="dandaSerif">.</g></orig> pranịhita-su-yaśo-dharmma-santāna-varggaḥ<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="6" met="sragdharā">
 <l n="a">vi<lb 
-n="21" break="no"/>ṣṇoḥ padmeva śaṁbhor iva giri-tanayā yasya devī sa-paṭṭā<g type="dandaSerif">.</g></l>
-<l n="b">saṁśuddhā <unclear>haiha</unclear>yānān nija-kula-<unclear>v</unclear>iṣaye puṇya-lā<unclear>va</unclear><lb 
+n="21" break="no"/>ṣṇoḥ pa<unclear>dme</unclear>va śa<unclear>ṁ</unclear>bhor iva giri-tanayā yasya devī sa-paṭṭā<g type="dandaSerif">.</g></l>
+<l n="b">saṁ<unclear>śuddhā</unclear> <unclear cert="low">haiha</unclear>yānān nija-kula-viṣaye puṇya-<unclear>lā</unclear>va<lb 
 n="22" break="no"/>ṇya-gaṇyā<g type="dandaSerif">.</g></l>
-<l n="c">lokā<space type="binding-hole"/>ṁbā tat-suto <supplied reason="subaudible">’</supplied>bhūd vijita-para-balo veṁg<choice><sic>ī</sic><corr>i</corr></choice>-nātho <supplied reason="subaudible">’</supplied>mmarāj<unclear>o</unclear><g type="dandaSerif">.</g></l>
-<l n="d">rājad-rājādhirāj<unclear cert="low">aḫ pa</unclear><unclear>ra</unclear>-nr̥pa-ma<lb 
-n="23" break="no"/>ku<unclear reason="eccentric_ductus">ṭodgh</unclear>r̥ṣṭa-pādā<space type="binding-hole"/>ravindaḥ<g type="dandaSerif">.</g></l>
+<l n="c">lokā<space type="binding-hole"/>ṁbā tat-suto <supplied reason="subaudible">’</supplied>bhūd vijita-para-balo veṁg<unclear>i</unclear>-nātho <supplied reason="subaudible">’</supplied><unclear>mma</unclear>rāj<unclear>o</unclear><g type="dandaSerif">.</g></l>
+<l n="d">rājad-rājādhir<unclear>ā</unclear>jaḫ para-nr̥pa-ma<lb 
+n="23" break="no"/>kuṭ<unclear>o</unclear>dghr̥ṣṭa-pādā<space type="binding-hole"/>ravindaḥ<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="7" met="sragdharā">
 <l n="a">veṁgī-rājyābhi<unclear>ṣ</unclear>i<unclear>kt</unclear>o nija-ripu-vijayādityam udyat-samartthaṁ<g type="dandaSerif">.</g></l>
 <l n="b">jitvānekāji-raṁga<lb 
-n="24" break="no"/>-prajita-para-bala<space type="binding-hole"/>ṁ kaṇṭhikā-<unclear>dā</unclear>ma-<unclear>kaṇṭha</unclear><choice><orig><g type="dandaSerif">.</g> n</orig><reg>n<g type="dandaSerif">.</g> </reg></choice></l>
-<l n="c">dā<unclear>y</unclear>āda-drohi-<unclear>va</unclear>rggān api <unclear>sa</unclear>-kara-balaḥ kṣattriyāditya-de<lb 
+n="24" break="no"/>-prajita-para-bala<space type="binding-hole"/>ṁ kaṇṭhikā-<unclear>dā</unclear>ma-<unclear>kaṇṭha</unclear><choice><orig><unclear><g type="dandaSerif">.</g> n</unclear></orig><reg>n<g type="dandaSerif">.</g> </reg></choice></l>
+<l n="c"><unclear>dāyā</unclear>da-drohi-<unclear>va</unclear>rg<unclear>g</unclear>ān api <unclear>sa</unclear> kara-balaḥ kṣattriyāditya-de<lb 
 n="25" break="no"/>v<orig>o<g type="dandaSerif">.</g></orig></l>
 <l n="d">dhvastāri-dhvānta-rāśi<unclear>r v</unclear>vilasita-kamalas sa-pratāp<unclear>o</unclear> vi<unclear>bh</unclear>āti<g type="ddandaSerif">.</g></l>
 </lg>
 <lg n="8" met="sragdharā">
 <l n="a">yan nirmmātun nimittaṁ kr̥tam idam akhilaṁ viṣṭapam hi <lb 
 n="26"/>tri-m<unclear>ū</unclear><supplied reason="omitted">r</supplied>tte<choice><orig><g type="dandaSerif">.</g>r</orig><reg>r<g type="dandaSerif">.</g></reg></choice></l>
-<l n="b">ātmānaṁ cātmanāsmād iha sakala-guṇ<unclear>ai</unclear> <unclear>rāja-bhīmo</unclear>dvah<unclear>o</unclear> <supplied reason="subaudible">’</supplied>bhū<choice><orig><g type="dandaSerif">.</g>t</orig><reg>t<g type="dandaSerif">.</g></reg></choice></l>
+<l n="b">ātmānaṁ cātmanāsmād iha sakala-guṇ<unclear>ai rā</unclear><unclear cert="low">ja-bhīmo</unclear>dva<unclear>ho</unclear> <supplied reason="subaudible">’</supplied>bhū<choice><orig><g type="dandaSerif">.</g>t</orig><reg>t<g type="dandaSerif">.</g></reg></choice></l>
 <l n="c">tejorāśiḥ prajānāṁ patir adhika-ba<lb 
 n="27" break="no"/><unclear>la</unclear>s sa-pratāpo <supplied reason="subaudible">’</supplied>ṣṭa-mūrtti<choice><orig><g type="dandaSerif">.</g>s</orig><reg>s<g type="dandaSerif">.</g></reg></choice></l>
 <l n="d">so <supplied reason="subaudible">’</supplied>yan devo <supplied reason="subaudible">’</supplied>mmarājo jana-guṇa-janako <supplied reason="subaudible">’</supplied>nan<choice><sic>u</sic><corr>ya</corr></choice>-rājāgra-cihnaḥ<g type="dandaSerif">.</g></l>
@@ -193,7 +194,7 @@ n="27" break="no"/><unclear>la</unclear>s sa-pratāpo <supplied reason="subaudib
 <l n="a">svar-yyātāḥ pūrvva<pb 
 
 n="3r" break="no"/><lb 
-n="28" break="no"/>-nāthā nala-nahuṣa-hariścandra-rāmādayo <supplied reason="subaudible">’</supplied>pi<g type="dandaSerif">.</g></l>
+n="28" break="no"/><!--P1000599-->@@@-nāthā nala-nahuṣa-hariścandra-rāmādayo <supplied reason="subaudible">’</supplied>pi<g type="dandaSerif">.</g></l>
 <l n="b">pratyakṣās te yaśobhir gguṇa-vapur acalā-s<unclear>thai</unclear>r idān<unclear>ī</unclear><lb 
 n="29" break="no"/>m adr̥ṣṭāḥ<g type="dandaSerif">.</g></l>
 <l n="c">yasyo<unclear>ccai</unclear>ḥ-<unclear>kī</unclear><supplied reason="omitted">r</supplied><unclear>tt</unclear>i-<unclear>rā</unclear><unclear cert="low">śir bha</unclear>-<unclear>ga</unclear>ṇa Iva jagaty advitīyoday<unclear>o</unclear> <supplied reason="subaudible">’</supplied>smiN|</l>
@@ -340,44 +341,66 @@ n="5v"/>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
+      <app loc="1">
+        <lem>nirbbhar<choice><sic>cc</sic><corr>ts</corr></choice>ayann</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">nirbbhar<choice><sic>cch</sic><corr>ts</corr></choice>ayann</rdg>
+      </app>
+      <app loc="9">
+        <lem>kokkili<orig>ṣ</orig></lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">kokili<orig>ṣ</orig></rdg>
+      </app>
       <app loc="11">
         <lem source="bib:KrishnaRao1937-1938_01"><unclear>samā</unclear><seg met="-="><gap reason="omitted" quantity="2" unit="character"/></seg></lem>
-        <note>According to KR's note, the scribe <q>apparently left out the last two syllables of the fourth quarter</q>. The date of Narendra-Mr̥garāja's reign is variously given in related grants as 40, 44 or 48 years, of which 44 is the rarest and 48 is the most common. Variants of this stanza exist with the endings <foreign>catvāriṁśat samāṣṭabhiḥ</foreign>, <foreign>catvāriṁśat samās samaḥ</foreign> and <foreign>sa-catvāriṁśad aṣṭakam</foreign>, each of which is attested once that I know of. Given the predominance of 48 in the prose versions of the genealogy and the fact that the existence of variants in this stanza may be explained by an effort to eliminate the non-standard sandhi in the presumable original <foreign>catvāriṁśat samāṣṭabhiḥ</foreign>, I am tempted to restore this text here. The <ref target="DHARMA_INSVengiCalukya00045.xml">Tāṇḍikoṇḍa grant of Amma II</ref> records the length of his reign in a different metre and unambiguously as <foreign>aṣṭa-yuktāś catvāriṁśat samāḥ</foreign>. Scholars disagree about the length of Narendra-Mr̥garāja's reign, and Krishna Rao (<bibl><ptr target="bib:KrishnaRao1937-1938_01"/><citedRange>269-270</citedRange></bibl>; <bibl><ptr target="bib:KrishnaRao1934-1935_01"/><citedRange>27-28</citedRange></bibl>) argues vehemently for 40. He apparently accepts this record as another piece of evidence for 40 years, which is definitely not admissible, since the omitted characters could have corresponded to any of the versions cited here. I thus prefer not to restore anything here. Since no image of this page is available, it is also possible that the text shown by KR as unclear is wholly illegible, and the allegedly omitted characters are actually present, perhaps compressed or added between the lines.</note>
+        <note>Two syllables have been omitted here. Variants of this stanza exist with the endings <foreign>catvāriṁśat samāṣṭabhiḥ</foreign> (<ref target="DHARMA_INSVengiCalukya00038.xml">Maliyapūṇḍi grant of Amma II</ref>, <ref target="DHARMA_INSVengiCalukya00047.xml">Vemalūrpāḍu plates of Amma II</ref> AC), <foreign>catvāriṁśat-samo ’ṣṭabhiḥ</foreign> (<ref target="DHARMA_INSVengiCalukya00070.xml">Īnteṟu grant of Bādapa</ref>), <foreign>catvāriṁśat samās samaḥ</foreign> (<ref target="DHARMA_INSVengiCalukya00042.xml">Nammūru grant of Amma II</ref>, <ref target="DHARMA_INSVengiCalukya00102.xml">Koḻūru (spurious?) grant of Bhīma II</ref>) and <foreign>sa-catvāriṁśad aṣṭakam</foreign> (<ref target="DHARMA_INSVengiCalukya00047.xml">Vemalūrpāḍu plates of Amma II</ref> PC). The prose versions of the genealogy predominantly assign 48 years to Narendra-Mr̥garāja, and the variants of this stanza may be explained by an effort to eliminate the non-standard sandhi in the presumable original <foreign>catvāriṁśat samāṣṭabhiḥ</foreign>, I am tempted to restore this text here. The <ref target="DHARMA_INSVengiCalukya00045.xml">Tāṇḍikoṇḍa grant of Amma II</ref> records the length of his reign in a different metre and unambiguously as <foreign>aṣṭa-yuktāś catvāriṁśat samāḥ</foreign>. Scholars disagree about the length of Narendra-Mr̥garāja's reign, and Krishna Rao (<bibl><ptr target="bib:KrishnaRao1937-1938_01"/><citedRange>269-270</citedRange></bibl>; <bibl><ptr target="bib:KrishnaRao1934-1935_01"/><citedRange>27-28</citedRange></bibl>) argues vehemently for 40. He apparently accepts this record as another piece of evidence for 40 years, which is definitely not admissible, since the omitted characters could have corresponded to any of the versions cited here. I thus prefer not to restore anything here.</note>
+      </app>
+      <app loc="12">
+        <lem>yy<choice><sic>o</sic><corr>au</corr></choice>varājyo°</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">yyauvarājyo°</rdg>
+      </app>
+      <app loc="14">
+        <lem>kānīna-dāna<subst><del rend="corrected">t</del><add place="overstrike">s</add></subst>thi<space type="binding-hole"/>ti-virasa-karaḥ</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01"><seg met="++-++---"><gap reason="illegible" quantity="8" unit="character"/></seg>rasa-karaḥ</rdg>
+        <note>The reading is reasonably clear in my photographs, but not quite intelligible. I believe that <foreign>stuti</foreign> may have been intended where <foreign>tthiti</foreign> has been corrected to <foreign>sthiti</foreign>. The characters <foreign>nīnadāna</foreign> are all quite narrow and may have been written over slightly shorter erased text, but there is no clear evidence of erasure.</note>
       </app>
       <app loc="15">
-        <lem><unclear>triṁśad-abda-pramā</unclear>ṇa<unclear>ṁ</unclear></lem>
+        <lem>triṁśad-abda-pramā<space type="binding-hole"/>ṇa<unclear>ṁ</unclear></lem>
         <rdg source="bib:KrishnaRao1937-1938_01"><unclear>triṁśad-abdā</unclear><unclear cert="low">krameṇa</unclear></rdg>
-        <note>The reading adopted here was offered, with full confidence, by an editorial footnote to KR's edition. KR's original restoration does not look very intelligible to me; they may have meant to restore <foreign>triṁśad abdān krameṇa</foreign>.</note>
+        <note>The correct reading, confirmed by my photographs, is given in an editorial footnote to KR's edition.</note>
       </app>
       <app loc="16">
-        <lem>uccāṭya<surplus><g type="dandaSerif">.</g></surplus></lem>
-        <note>KR's edition shows no punctuation here, but has a footnote saying, <q>Mark of punctuation is not necessary here.</q> I assume that a mark is present in the original, but the footnote anchor may also be a typo (the same anchor is used several times on this page next to punctuation marks present in the text that KR consider superfluous).</note>
+        <lem>-kram<choice><sic>a</sic><corr>ā</corr></choice>yāta-</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">-kramāyāta-</rdg>
       </app>
       <app loc="18">
-        <lem>taj-ja-</lem>
-        <note>Though the verse is intelligible as read by KR, I would prefer to emend to <foreign>taj-jaḥ</foreign> here, or to read this if the plate permits.</note>
+        <lem>taj-jaḥ</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">taj-ja-</rdg>
+        <note>Though the verse is intelligible as received, I consider my emendation warranted.</note>
       </app>
-      <app loc="19">
-        <lem>sa-sutam</lem>
-        <note>Below the left-hand side of <foreign>su</foreign>, there are some lines resembling a figure 3. These may belong to an aborted subscript character.</note>
+      <app loc="18">
+        <lem>aj<choice><sic>a</sic><corr>e</corr></choice>yaḥ</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">ajeyaḥ</rdg>
       </app>
       <app loc="19">
         <lem>a<choice><sic>dh</sic><corr>t</corr></choice>ibalaṁ</lem>
         <rdg source="bib:KrishnaRao1937-1938_01">adhibalaṁ</rdg>
         <note>Since <foreign>adhibala</foreign> seems to be attested only as a technical term in drama, I prefer to emend.</note>
       </app>
-      <app loc="22">
-        <lem>veṁg<choice><sic>ī</sic><corr>i</corr></choice>-</lem>
-        <rdg source="bib:KrishnaRao1937-1938_01">veṁgī-</rdg>
-        <note>The metre requires a short vowel here.</note>
+      <app loc="20">
+        <lem>s<supplied reason="omitted">v</supplied>aḥ</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">saḥ</rdg>
       </app>
       <app loc="22">
-        <lem>-rājādhirāj<unclear cert="low">aḫ pa</unclear><unclear>ra</unclear>-nr̥pa-</lem>
+        <lem>veṁg<unclear>i</unclear>-</lem>
+        <rdg source="bib:KrishnaRao1937-1938_01">veṁgī-</rdg>
+        <note>The metre requires a short vowel here. The plate is too corroded to tell definitively whether the actually inscribed vowel was long or short.</note>
+      </app>
+      <app loc="22">
+        <lem>-rājādhir<unclear>ā</unclear>jaḫ para-nr̥pa-</lem>
         <rdg source="bib:KrishnaRao1937-1938_01">-rājādhirājo <unclear>jita-ripu</unclear>-</rdg>
-        <note>The reading adopted here is shown (as clear) in a footnote signed <q>N. L. R.</q> in KR's edition. I do not know who its author may be. In the published photo, <foreign>nr̥pa</foreign> is clear, <foreign>aḫ pa</foreign> is at least more plausible than <foreign>jita</foreign>, and <foreign>ra</foreign> is almost clear.</note>
+        <note>The correct reading (confirmed by the photos) is indicated (as clear) in a footnote signed <q>N. L. R.</q> in KR's edition.</note>
       </app>
       <app loc="24">
-        <lem>-<unclear>kaṇṭha</unclear><choice><orig><g type="dandaSerif">.</g> n</orig><reg><g type="dandaSerif">.</g> n</reg></choice></lem>
+        <lem>-<unclear>kaṇṭha</unclear><choice><orig><unclear><g type="dandaSerif">.</g> n</unclear></orig><reg><g type="dandaSerif">.</g> n</reg></choice></lem>
         <rdg source="bib:KrishnaRao1937-1938_01">-<unclear>kaṇṭhaṁ</unclear><g type="dandaSerif">.</g> <surplus>n</surplus></rdg>
         <note>The dot that KR reads as an <foreign>anusvāra</foreign> is above <foreign>ṇṭha</foreign>, so it is probably damage, and the punctuation mark was placed before the conjunct as in line 18 above and several times below.</note>
       </app>
@@ -583,12 +606,12 @@ n="51"/><seg met="---"><gap reason="illegible" quantity="3" unit="character"/></
 <p n="2-10">Greetings. Satyāśraya Vallabhendra <supplied reason="explanation">Pulakeśin II</supplied> was eager to adorn the lineage of the majestic Cālukyas—who are of the Mānavya <foreign>gotra</foreign> which is praised by the entire world, who are sons of Hārītī, who attained kingship by the grace of Kauśikī’s boon, who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom enemy territories instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation"><foreign>avabhr̥tha</foreign></supplied> of the Aśvamedha sacrifice. His brother King <supplied reason="explanation"><foreign>nr̥pati</foreign></supplied> Kubja Viṣṇuvardhana protected <supplied reason="explanation"><foreign>pāl-</foreign></supplied> the country of Veṅgī for eighteen years. His son Jayasiṁha <supplied reason="explanation">I</supplied>, for thirty-three. His younger brother Indrarāja’s <supplied reason="explanation">Indra Bhaṭṭāraka’s</supplied> son Viṣṇuvardhana <supplied reason="explanation">II</supplied>, for nine. His son Maṅgi Yuvarāja, for twenty-five. His son Jayasiṁha <supplied reason="explanation">II</supplied>, for thirteen. His <supplied reason="subaudible">brother</supplied> of inferior birth, Kokkili, for six months. After dethroning him, his eldest brother Viṣṇuvardhana <supplied reason="explanation">III</supplied>, for thirty-seven. His son Vijayāditya <supplied reason="explanation">I</supplied> Bhaṭṭāraka, for eighteen. His son Viṣṇuvardhana <supplied reason="explanation">IV</supplied>, for thirty-six.</p>
 <p rend="stanza" n="2">King <supplied reason="explanation"><foreign>bhūpāla</foreign></supplied> Vijayāditya <supplied reason="explanation">II</supplied> who was called Narendramr̥garāja and who had the courage of a lion <supplied reason="explanation"><foreign>mr̥garāja</foreign></supplied>, <supplied reason="subaudible">reigned</supplied> for forty years <gap reason="omitted" quantity="2" unit="character"/>.<note>The characters omitted here may have meant “plus eight” or something else. See the apparatus to line 11.</note></p>
 <p rend="stanza" n="11-12">His son Kali-Viṣṇuvardhana <supplied reason="explanation">V</supplied>, for a year and a half. His son Guṇaga Vijayāditya <supplied reason="explanation">III</supplied>, for forty-four.</p>
-<p rend="stanza" n="3">From his brother Prince <supplied reason="explanation"><foreign>bhūpa</foreign></supplied> Vikramāditya, who bore the exalted distinction of being the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied>, was born Cālukya-Bhīma, a vessel of eminent conduct thanks to <supplied reason="subaudible">his possession of</supplied> all royal virtues. Generous, <gap reason="illegible" quantity="8" unit="character"/> …, whose valour was <supplied reason="subaudible">known</supplied> all over the earth, he reigned to the measure of thirty years, whereupon he departed to the presence of <supplied reason="explanation">Indra</supplied> the lord of the thirty <supplied reason="subaudible">gods</supplied>.</p>
+<p rend="stanza" n="3">From his brother Prince <supplied reason="explanation"><foreign>bhūpa</foreign></supplied> Vikramāditya, who bore the exalted distinction of being the heir-apparent <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied>, was born Cālukya-Bhīma, a vessel of eminent conduct thanks to <supplied reason="subaudible">his possession of</supplied> all royal virtues. Generous <supplied reason="subaudible">enough</supplied> to make <seg cert="low">praise</seg><note>See the apparatus to line 14.</note> for the generosity of the Maid’s Son <supplied reason="explanation">Karṇa</supplied> pale <supplied reason="subaudible">in comparison</supplied>, his valour <supplied reason="subaudible">known</supplied> all over the earth, he reigned to the measure of thirty years, whereupon he departed to the presence of <supplied reason="explanation">Indra</supplied> the lord of the thirty <supplied reason="subaudible">gods</supplied>.</p>
 <p n="15-17">His son Kaliyattigaṇḍa Vijayāditya <supplied reason="explanation">IV</supplied>, for six months. His son Ammarāja <supplied reason="explanation">I</supplied>, for seven years. After dethroning his son Vijayāditya <supplied reason="explanation">V</supplied>, who had been consecrated for kingship with the locket <supplied reason="explanation"><foreign>kaṇṭhikā</foreign></supplied> and the hereditary turban <supplied reason="explanation"><foreign>paṭṭa</foreign></supplied>, King Tāla, for one month. After slaying him, Cālukya-Bhīma’s son Vikramāditya <supplied reason="explanation">II</supplied>, for eleven months.</p>
 <p rend="stanza" n="4">Clever Vijayāditya <supplied reason="explanation">IV</supplied> was the Lord of Veṅgī by the name Kaliyattigaṇḍa. His loyal wife was Meḻāmbā. From them was born the invincible king <supplied reason="explanation"><foreign>nr̥pati</foreign></supplied>, His Majesty King <supplied reason="explanation"><foreign>rājan</foreign></supplied> Bhīma <supplied reason="explanation">II</supplied>.</p>
-<p rend="stanza" n="5">Endowed with all virtues such as truthfulness, liberality and self-confidence, he, resembling Death, vanquished in battle Rājamārtaṇḍa <supplied reason="subaudible">and</supplied> the fierce and very powerful one named Mallapa <supplied reason="explanation">Yuddhamalla II</supplied> along with his son <supplied reason="explanation">Bādapa</supplied>, as well as <supplied reason="subaudible">other</supplied> ill-wishers. A <supplied reason="subaudible">veritable</supplied> Bhīma to his enemies and the dispeller of the mightily powerful darkness consisting of <seg rend="pun">the powerful armies of</seg> the Rāṣṭrakūṭas, he reigned for twelve years, whereupon he departed with the intention of <supplied reason="explanation">winning supramundane</supplied> great glory, having <supplied reason="subaudible">endowed</supplied> a host <supplied reason="subaudible">of institutions</supplied> for the propagation of piety <supplied reason="explanation"><foreign>dharma</foreign></supplied>.<note>I am not certain in my interpretation of the last quarter of this stanza.</note></p>
+<p rend="stanza" n="5">Endowed with all virtues such as truthfulness, liberality and self-confidence, he, resembling Death, vanquished in battle Rājamārtaṇḍa <supplied reason="subaudible">and</supplied> the fierce and very powerful one named Mallapa <supplied reason="explanation">Yuddhamalla II</supplied> along with his sons, as well as <supplied reason="subaudible">other</supplied> ill-wishers. A <supplied reason="subaudible">veritable</supplied> Bhīma to his enemies and the dispeller of the mightily powerful darkness consisting of <seg rend="pun">the powerful armies of</seg> the Rāṣṭrakūṭas, he reigned for twelve years, whereupon, having accomplished a host of <supplied reason="subaudible">deeds of</supplied> great glory and <supplied reason="subaudible">foundations for</supplied> the propagation of piety <supplied reason="explanation"><foreign>dharma</foreign></supplied>.</p>
 <p rend="stanza" n="6">His queen <supplied reason="explanation">crowned</supplied> with the turban—as Padmā <supplied reason="explanation">Lakṣmī</supplied> to Viṣṇu, as <supplied reason="explanation">Pārvatī</supplied> the daughter of the Mountain to Śambhu <supplied reason="explanation">Śiva</supplied>—was the chaste Lokāmbā, noted for her virtue and beauty in the country of her own family, that of the Haihayas. Their son is Ammarāja <supplied reason="explanation">II</supplied>, the Lord of Veṅgī who defeats the forces of his enemies, the resplendent emperor <supplied reason="explanation"><foreign>rājādhirāja</foreign></supplied> whose lotus foot is rubbed by the crests of enemy kings.</p>
-<p rend="stanza" n="7">Anointed for the kingship of Veṅgī, he has vanquished his kinsman-enemy—Vijayāditya <supplied reason="explanation">V</supplied>, who, with his power on the rise, had triumphed over the forces of his own enemies on the field of many a battle and whose neck was wreathed with the locket <supplied reason="explanation"><foreign>kaṇṭhikā</foreign></supplied>—as well as hosts of rivals and ill-wishers. Having dispelled the enveloping darkness of enemies with the power of his rays <seg rend="pun">strength of his arms</seg>, he shines like a divine Sun among <foreign>kṣatriya</foreign>s, full of resplendence <seg rend="pun">valour</seg> and illuminating the lotuses <seg rend="pun">delighting Kamalā <supplied reason="explanation">Royal Fortune</supplied></seg>.</p>
+<p rend="stanza" n="7">Anointed for the kingship of Veṅgī, he has vanquished his kinsman-enemy—Vijayāditya <supplied reason="explanation">V</supplied>, who, with his power on the rise, had triumphed over the forces of his own enemies on the field of many a battle and whose neck was wreathed with the locket <supplied reason="explanation"><foreign>kaṇṭhikā</foreign></supplied>—as well as hosts of rivals and ill-wishers. Having dispelled the enveloping darkness of enemies, he of strong arms <seg rend="pun">powerful rays</seg> shines like a divine Sun among <foreign>kṣatriya</foreign>s, full of resplendence <seg rend="pun">valour</seg> and illuminating the lotuses <seg rend="pun">delighting Kamalā <supplied reason="explanation">Royal Fortune</supplied></seg>.</p>
 <p rend="stanza" n="8">The Triple Divinity <supplied reason="explanation"><foreign>trimūrti</foreign></supplied> created this entire world <supplied reason="explanation">only</supplied> to become His efficient cause of bringing this man into existence, and <supplied reason="subaudible">thus of re-creating</supplied> Himself through Himself. Hence, the offspring of King Bhīma became <supplied reason="subaudible">endowed</supplied> with all virtues in this world: a blaze of glory, a lord of creatures <seg rend="pun">subjects</seg>, greatly powerful, valiant, possessing eight forms. This is he: the divine Ammarāja, inciter of virtue in his people, who possesses the outstanding hallmarks of an unequalled king.<note>I am not certain of the exact interpretation of this stanza. The general purport is probably close to what I translate here, but some details may have been intended differently by the composer. There are probably some metaphysical allusions or double entendres on top of the primary meaning. At least some of the epithets in <foreign>pāda</foreign> c, most notably <foreign>aṣṭa-mūrti</foreign>, suggest Śiva, who may thus be signified by <foreign>trimūrti</foreign> in <foreign>pāda</foreign> a. In the second quarter, <foreign>sakala-guṇaiḥ</foreign> may mean “<supplied reason="subaudible">fashioned</supplied> out of all <foreign>guṇa</foreign>s” in addition to “<supplied reason="subaudible">endowed</supplied> with all virtues”, and <foreign>guṇa</foreign> in <foreign>pāda</foreign> d may have the same double meaning, so that Ammarāja is said to have both a human being and the <foreign>guṇa</foreign>s themselves as his generator, in addition to being an inciter of virtue in people.</note></p>
 <p rend="stanza" n="9">Although kings of yore such as Nala, Nahuṣa, Hariścandra and Rāma, now gone to heaven, are distinctly perceivable thanks to their reputations, to those staying on earth they are <supplied reason="subaudible">nonetheless</supplied> invisible as regards their qualities and physical form. Victorious is the divine Vijayāditya <supplied reason="explanation">VI</supplied>, the resplendent emperor <supplied reason="explanation"><foreign>rājādhirāja</foreign></supplied> Ammarāja <supplied reason="explanation">II</supplied>: he whose blaze of high reputation rises unparalleled in this world like a constellation.</p>
 <p n="30"><supplied reason="subaudible">What follows is</supplied> prose.</p>
@@ -731,7 +754,7 @@ It may also be relevant that flags of one sort or another feature almost univers
 
 
 <div type="bibliography">
-  <p>First reported by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1884_02"/><citedRange unit="page">13</citedRange><citedRange unit="item">84</citedRange></bibl>). Also reported in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">8</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">108</citedRange><citedRange unit="section">60</citedRange></bibl>. Edited from inked impressions and photos by B. V. Krishna Rao (<bibl rend="omitname"><ptr target="bib:KrishnaRao1937-1938_01"/></bibl>), with photographs of 2v, 4v and the seal, and estampages of 3r, 3v and 4r. The present edition by Dániel Balogh is based on a collation of KR's edition with the published images.<note>As there is no image of 1v, 2r and 5r, my edition follows Krishna Rao precisely for these pages unless otherwise noted, and the position of the binding hole is not indicated on these pages.</note></p>
+  <p>First reported by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1884_02"/><citedRange unit="page">13</citedRange><citedRange unit="item">84</citedRange></bibl>). Also reported in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">8</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">108</citedRange><citedRange unit="section">60</citedRange></bibl>. Edited from inked impressions and photos by B. V. Krishna Rao (<bibl rend="omitname"><ptr target="bib:KrishnaRao1937-1938_01"/></bibl>), with photographs of 2v, 4v and the seal, and estampages of 3r, 3v and 4r. The present edition by Dániel Balogh is based on photographs taken by myself in February 2023 at the Government Museum, Chennai, collated with KR's edition and his visual documentation where available. In some loci, KR's visuals are clearer than the new photos, apparently because the cleaning of the plates in the interim has resulted in some loss of detail</p>
   <listBibl type="primary">
     <bibl n="KR"><ptr target="bib:KrishnaRao1937-1938_01"/></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
