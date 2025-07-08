@@ -90,7 +90,8 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:daba" when="2021-01-28" status="draft">Initial encoding of the file</change>
+         <change who="part:daba" when="2025-07-08" status="draft">Collation with photos and Kielhorn edition</change>
+         <change who="part:daba" when="2021-01-28" status="draft">Initial encoding of the file from Sewell's edition</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
    </teiHeader>
@@ -100,7 +101,7 @@
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
-n="1"/>śrī-tribhuvanāṁkuśa</ab>
+n="1"/>śrī-tri<unclear>bh</unclear>uvanāṁkuśa</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb 
@@ -108,75 +109,74 @@ n="1"/>śrī-tribhuvanāṁkuśa</ab>
 n="1r"/>
 <p><pb 
 
-n="1v"/><lb 
-n="1"/>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrā<lb 
-n="2" break="no"/>ṇāṁ k<choice><sic>o</sic><corr>au</corr></choice>śikī-vara-prasāda-labdha-rājyānāṁ mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pā<lb 
-n="3" break="no"/>dānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāha-lāñchanekṣa<supplied reason="lost">ṇa-kṣa</supplied><lb 
-n="4" break="no"/>ṇa-vaśīkr̥tārāti-maṇḍalānām aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-vapuṣāṁ <unclear>cālu</unclear>kyā<lb 
-n="5" break="no"/>nāṁ kulam alaṁkariṣṇoḥ satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣtādaśa <unclear>varṣāṇi</unclear> <lb 
-n="6"/>veṁgī-deśam apālayaT. tad-ātmajo jayasiṁhas trayastriṁśataṁ. tad-anujendrarāja-nandano vi<lb 
-n="7" break="no"/>ṣṇuvarddhano nava. tat-sūnur mmaṁgi-yuvarājaḥ paṁcaviṁśatiṁ. tat-putro jayasiṁhas trayo<lb 
-n="8" break="no"/>daśa. tad-avarajaḥ kokkiliḥ ṣaṇ māsāN. tasya jyeṣṭho bhrātā viṣṇuvardhanas tam uccāṭya saptatriṁ<unclear>śataṁ</unclear> <pb 
+n="1v"/><!--P1000094; top left P1000092--><lb 
+n="1"/>svasti śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sagotrāṇāṁ hār<unclear>i</unclear>t<unclear>ī</unclear>-putrā<lb 
+n="2" break="no"/>ṇāṁ kauśikī-vara-prasāda-labdha-rājyā<unclear>nāṁ</unclear> mātr̥-gaṇa-paripālitānāṁ svāmi-mahāsena-pā<lb 
+n="3" break="no"/>dānudhyātānāṁ bhagavan-nārāyaṇa-prasāda-samāsādita-vara-varāh<choice><sic>ā</sic><corr>a</corr></choice>-lā<unclear>ñchanekṣaṇa-kṣa</unclear><lb 
+n="4" break="no"/>ṇa-vaśīkr̥tā<space type="binding-hole"/>rāti-maṇḍalānām aśvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-snāna-pavitrīkr̥ta-<unclear>vapuṣāṁ cālukyā</unclear><lb 
+n="5" break="no"/>nāṁ kulam alaṁ<space type="binding-hole"/>kariṣṇoḥ satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>ṣtādaśa <unclear>varṣāṇi</unclear> <lb 
+n="6"/>veṁgī-deśam apālayaT<g type="dandaSerif">.</g> tad-ātmajo jayasiṁhas trayastriṁśataṁ<g type="dandaSerif">.</g> tad-anujendrarāja-nandan<unclear>o vi</unclear><lb 
+n="7" break="no"/>ṣṇuvarddhano nava<g type="dandaSerif">.</g> tat-sūnur mmaṁgi-yuvarāja<unclear>ḥ</unclear> paṁcaviṁśatiṁ<g type="dandaSerif">.</g> tat-putro jayasi<unclear>ṁhas tra</unclear>yo<lb 
+n="8" break="no"/>daśa<g type="dandaSerif">.</g> tad-avarajaḥ kokkiliḥ <unclear>ṣa</unclear>ṇ <unclear>m</unclear>āsāN<g type="dandaSerif">.</g> tasya jyeṣṭho bhrātā viṣṇuvardhanas tam uccāṭya<surplus><g type="dandaSerif">.</g></surplus> saptatri<unclear>ṁ</unclear><supplied reason="lost">śataṁ</supplied> <pb 
 
-n="2r"/><lb 
-n="9"/>tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa. tat-suto viṣṇuvarddhana<orig>ṣ</orig> ṣaṭtriṁśataṁ. tat-suto <lb 
-n="10"/>vijayāditya-narendra-mr̥garājaś cāṣṭ<choice><sic>ā</sic><corr>a</corr></choice>catvāriṁśataṁ. tat-sutaḥ kali-viṣṇuvarddhano <supplied reason="subaudible">’</supplied>dhya<lb 
-n="11" break="no"/>rddha-varṣaṁ. tat-putro guṇagāṁka-vijayādityaś catuścatvāriṁśataṁ. tad-bhrātu<lb 
-n="12" break="no"/><supplied reason="omitted">r</supplied> vvikramāditya-bhūpates sūnuś cālukya-<unclear>bhī</unclear>ma-bhūpālas triṁśataṁ. tat-sutaḥ <lb 
-n="13"/>kollabigaṇḍa-vijayādityaḥ ṣaṇ māsāN. tat-sūnur ammarā<unclear>ja</unclear>ḥ sapta varṣāṇi.</p>
+n="2r"/><!--P1000102;˙top left P1000103; right P1000104--><lb 
+n="9"/>tat-putro vijayāditya-bhaṭṭārako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g type="dandaSerif">.</g> tat-suto viṣṇuvarddhana<orig>ṣ</orig> ṣaṭtriṁśataṁ<g type="dandaSerif">.</g> tat-sut<unclear>o</unclear> <lb 
+n="10"/>vijayāditya-narendra-mr̥garājaś <unclear>c</unclear>āṣṭ<choice><sic>ā</sic><corr>a</corr></choice>catvāriṁśataṁ<unclear><g type="dandaSerif">.</g></unclear> tat-sutaḥ kali-viṣṇuva<unclear>rd</unclear>dhano <supplied reason="subaudible">’</supplied><unclear>dh</unclear>ya<lb 
+n="11" break="no"/>rddha-varṣaṁ<g type="dandaSerif">.</g> ta<space type="binding-hole"/>t-putro <unclear>guṇagāṁ</unclear>ka-vi<unclear>jayād</unclear>ityaś catuścatvāriṁśataṁ<g type="dandaSerif">.</g> <unclear>ta</unclear>d-bhrāt<unclear>u</unclear><lb 
+n="12" break="no"/>r vvikramādi<space type="binding-hole"/>tya-bh<unclear>ūpates s</unclear>ūnuś cālukya-<unclear>bhī</unclear>ma-bhū<unclear>p</unclear>ā<unclear>l</unclear>as triṁśata<unclear>ṁ</unclear><g type="dandaSerif">.</g> tat-sutaḥ <lb 
+n="13"/>kollabiga<space type="binding-hole"/>ṇḍa-<unclear>vijayādi</unclear>tya<orig>ṣ</orig> ṣaṇ māsā<unclear>N</unclear><g type="dandaSerif">.</g> tat-sūn<unclear>u</unclear>r ammarā<supplied reason="omitted">ja</supplied>s sapta varṣā<unclear>ṇi</unclear><g type="dandaSerif">.</g></p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">tat-su<lb 
 n="14" break="no"/>taṁ vijayādityaṁ</l>
-<l n="b">bālam uccāṭya līlayā</l>
+<l n="b">bā<unclear>lam</unclear> uccāṭya l<unclear>ī</unclear>layā</l>
 <l n="c">tālādhipatir ākramya</l>
 <l n="d">māsam ekam apā<lb 
-n="15" break="no"/>d bhuvaṁ.</l></lg>
-<p>taṁ jitvā cālukya-bhīma-tanayo vikramāditya Ekādaśa māsāN. tatas tālādhipa<unclear>ti</unclear><lb 
-n="16" break="no"/>-sūnu<supplied reason="omitted">r</supplied> yyuddhamalla<supplied reason="omitted">ḥ</supplied> sapta varṣāni.</p>
+n="15" break="no"/>d bhuvaṁ<g type="dandaSerif">.</g></l></lg>
+<p>taṁ jitvā cālukya-bh<unclear>ī</unclear>ma-tanay<unclear>o</unclear> vikramāditya Ekādaśa māsāN<g type="dandaSerif">.</g> tatas tālādhipa<lb 
+n="16" break="no"/>-sūnu<supplied reason="omitted">r</supplied> yyuddhamalla<supplied reason="omitted">ḥ</supplied> sapta <unclear>varṣāni<g type="dandaSerif">.</g></unclear></p>
 <lg n="2" met="śārdūlavikrīdita">
-<l n="a">nirjjityārjuna-sannibho janapadāt taṁ nirggamayyoddhatān</l>
+<l n="a"><unclear>nirjjit</unclear>yārjuna-sannibh<unclear>o</unclear> janapadāt taṁ nirggamayy<unclear>o</unclear>ddhatāN</l>
 <l n="b">dāyā<pb 
 
-n="2v" break="no"/><lb 
-n="17" break="no"/>dān ina-bhānu-līna-bha-gaṇākārān vidhāyetarān</l>
-<l n="c">vajrīvorjjita-nākam amma-nr̥pater bhrātā kanīyān bhu<lb 
+n="2v" break="no"/><!--P1000096, P1000098; bottom right: P1000100--><lb 
+n="17" break="no"/>dān ina-bhānu-līna-bha-gaṇākārān vidhāyetarā<supplied reason="omitted">N</supplied></l>
+<l n="c">vajrīvo<supplied reason="omitted">r</supplied>jjita-nākam amma-nr̥pater bhrātā kanīyān bhu<lb 
 n="18" break="no"/>vaṁ</l>
-<l n="d">bhīmo bhīma-parākramas samabhunak saṁvatsarān dvādaśa.</l>
+<l n="d">bhīmo bhīma-parākramas samabhunak saṁvatsarā<choice><sic>d</sic><corr>n</corr></choice> dvādaśa<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="3" met="āryā">
-<l n="ab">tasya maheśvara-mūrtter umā-samānākr̥teḥ <lb 
+<l n="ab">tasya maheśvara-mūrtter umā-samānākr̥<unclear>teḥ</unclear> <lb 
 n="19"/>kumārābhaḥ</l>
-<l n="cd">lokamahādevyāḥ khalu yas samabhavad ammarājākhyaḥ.</l>
+<l n="cd">lokamahādevyāḥ khalu yas samabhavad ammarājākhyaḥ<g type="dandaSerif">.</g></l>
 </lg>
 <lg n="4" met="lalitā">
 <l n="ab">kavi-gāyaka-kalpataru<supplied reason="omitted">r</supplied> ddvija-muni<lb 
-n="20" break="no"/>-dīnāndha-bandhu-jana-surabhiḥ.</l>
-<l n="cd">yācaka-jana-cintāmaṇir avanīśa-maṇir mmahogra-mahasā dyumaṇiḥ</l>
+n="20" break="no"/>-dīnāndha-bandhu-ja<space type="binding-hole"/>na-surabhiḥ<g type="dandaSerif">.</g></l>
+<l n="cd">yācaka-jana-cintāmaṇir avanīśa-maṇir mmahogra-mahasā dyumaṇi<unclear>ḥ</unclear></l>
 </lg>
 <p><lb 
-n="21"/>sa samasta-bhuvan<choice><sic>a</sic><corr>ā</corr></choice>śraya-śrī-vijayāditya-mahārājo rājādhirāja-param<choice><sic>a</sic><corr>e</corr></choice>śvaraḥ parama-bha<lb 
-n="22" break="no"/>ṭṭārakaḥ gudrāvāra-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān kuṭuṁbinas sarvvān ittham ājñāpayati.</p>
-<p><unclear cert="low">Asya</unclear> <lb 
-n="23"/>tasyāḥ paṭṭavarddhinyāḥ pammavākhyāyāḥ sutāya yuvarāja-ballaladeva-velā-bhaṭāya <lb 
-n="24"/>boddiya-nāmne <choice><unclear>p</unclear><unclear>d</unclear></choice>āṁbaṟṟu nāma grāmasya dakṣinasyān diśi <unclear cert="low">nemes-kṣe</unclear>tra-pū<gap reason="illegible" quantity="8" unit="character" precision="low"/> <pb 
+n="21"/>sa samasta-bhu<space type="binding-hole"/>van<choice><sic>a</sic><corr>ā</corr></choice>śraya-śrī-vijayāditya-mahārājo rājādhirāja-param<choice><sic>a</sic><corr>e</corr></choice>śvaraḥ parama-bha<lb 
+n="22" break="no"/>ṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rakaḥ gudrāvār<choice><sic>ā</sic><corr>a</corr></choice>-viṣaya-nivāsino rāṣṭrakūṭa-pramukhān k<choice><sic>ū</sic><corr>u</corr></choice>ṭuṁbinas sarvv<choice><sic>a</sic><corr>ā</corr></choice>n ittham ājñāpayati<g type="dandaSerif">.</g></p>
+<p>Atha <lb 
+n="23"/>tasyāḥ paṭṭavarddhinyāḥ pammavākhyāyā<choice><sic>ṁ</sic><corr>ḥ</corr></choice> sutāya yuvarāja-ballaladeva-velā-bhaṭ<unclear>ā</unclear>ya <lb 
+n="24"/>boddiya-nāmn<choice><sic>o</sic><corr>e</corr></choice> <choice><unclear>p</unclear><unclear>d</unclear></choice>āṁbaṟṟu nāma grāmasya dakṣinasyān diśi nomi-kṣe<unclear>tra</unclear>ṁ pū<supplied reason="omitted">rvva</supplied>taś <unclear cert="low">c</unclear>a <unclear cert="low">bhar</unclear>i<unclear cert="low">ya</unclear><pb 
 
-n="3r"/><lb 
-n="25"/>kṣetram ammarājo rājamahendro dattavān</p>
-<p>Asya kṣe<supplied reason="omitted">tra</supplied>-dvayasyāvadhayaḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ <gap reason="illegible" quantity="3" unit="character" precision="low"/><lb 
-n="26" break="no"/>-<foreign xml:lang="tel-Latn">ceṟuvu</foreign>. dakṣiṇataḥ <foreign xml:lang="tel-Latn">raṭṭedi-cenu</foreign>. paścimataḥ <foreign xml:lang="tel-Latn">su<unclear cert="low">gu</unclear>mma-cenu-garusu</foreign>. Uttarataḥ <foreign xml:lang="tel-Latn">velpūr-jenu<lb 
-n="27" break="no"/>-turpūna-pannasa</foreign>. pūrvvataḥ <foreign xml:lang="tel-Latn">dāmadiya-pannasa</foreign>. dakṣiṇataḥ <foreign xml:lang="tel-Latn">pedda-trova</foreign>. paścimataḥ <foreign xml:lang="tel-Latn">ye<lb 
-n="28" break="no"/>ṟu</foreign>. Uttarataḥ <foreign xml:lang="tel-Latn">gaṇṭhaśālaya<unclear cert="low">yappanā</unclear>yyari-pannasa</foreign>. gr̥ha-kṣetram ca.
-pūrvvataḥ <foreign xml:lang="tel-Latn">badirā<lb 
-n="29" break="no"/>la-majjaya-paṭu</foreign>. dakṣiṇataḥ <foreign xml:lang="tel-Latn">teṇ<gap reason="illegible" quantity="3" unit="character" precision="low"/>ṭama paṭu</foreign>. paścimataḥ <foreign xml:lang="tel-Latn">jiṁvarakṣa-paṭu</foreign>. <lb 
-n="30"/>Uttarataḥ racca.</p>
-<p>Asyopari na kenacid bādhā karttavyā<supplied reason="subaudible">.</supplied> yaḥ karoti sa<orig>ḥ</orig> paṁca-mahāpātaka-yu<lb 
-n="31" break="no"/>kto bhavati. tathā coktaṁ vyāsena.</p>
+n="3r"/><!--P1000107, P1000108;˙right: P1000111; crack P1000112--><lb 
+n="25"/>-kṣetraṁ Ammarājo rājamahendro dattavāN</p>
+<p>Asya kṣe<supplied reason="omitted">tra</supplied>-dvayasyāvadhayaḥ<supplied reason="subaudible"><g type="dandaSerif">.</g></supplied> pūrvvataḥ I<unclear>n</unclear>da<unclear cert="low">nī</unclear><lb 
+n="26" break="no"/>-<foreign xml:lang="tel-Latn">ceṟuvu</foreign><g type="dandaSerif">.</g> dakṣiṇataḥ <foreign xml:lang="tel-Latn">raṭṭ<unclear reason="eccentric_ductus">o</unclear>ḍi-cenu</foreign><g type="dandaSerif">.</g> paścimataḥ <foreign xml:lang="tel-Latn">su<unclear cert="low">ggamu</unclear>-cena-garusu</foreign><g type="dandaSerif">.</g> Uttarataḥ <foreign xml:lang="tel-Latn">velpu-jenu<lb 
+n="27" break="no"/>-turpūna-pannasa</foreign><g type="dandaSerif">.</g> pūrvvataḥ <foreign xml:lang="tel-Latn">dāmapiya-pannasa</foreign><g type="dandaSerif">.</g> <unclear>dakṣi</unclear>ṇataḥ <foreign xml:lang="tel-Latn">pedda-trova</foreign><g type="dandaSerif">.</g> paścimataḥ <foreign xml:lang="tel-Latn">ye<lb 
+n="28" break="no"/>ṟu</foreign><g type="dandaSerif">.</g> Uttarataḥ <space type="binding-hole"/> <foreign xml:lang="tel-Latn">gaṇṭhaśāla-yappanayyari-pannasa</foreign><g type="dandaSerif">.</g> gr̥ha-kṣetraṁ ca<g type="dandaSerif">.</g> pūrvvataḥ <foreign xml:lang="tel-Latn">badirā<lb 
+n="29" break="no"/>la-ma<unclear cert="low">jja</unclear>ya<space type="binding-hole"/>-paṭu</foreign><g type="dandaSerif">.</g> dakṣiṇataḥ <foreign xml:lang="tel-Latn">tiṇ<unclear cert="low">ṭhl</unclear>aṟ<unclear cert="low">ṟu</unclear>ṭama-paṭu</foreign><g type="dandaSerif">.</g> paścimataḥ <foreign xml:lang="tel-Latn">jivarakṣa-paṭu</foreign><g type="dandaSerif">.</g> <lb 
+n="30"/>Uttarataḥ racca<g type="dandaSerif">.</g></p>
+<p>Asyopari na kenacid bādhā karttavyā<supplied reason="subaudible"><g type="dandaSerif">.</g></supplied> yaḥ karoti sa<surplus>ṁ</surplus> paṁca-mahāpātaka-yu<lb 
+n="31" break="no"/>kto bhavati<g type="dandaSerif">.</g> tathā coktaṁ vyāsena<g type="dandaSerif">.</g></p>
 <lg n="5" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā</l>
 <l n="b">bahubhiś cānup<choice><sic>a</sic><corr>ā</corr></choice>litā</l>
 <l n="c">yasya ya<lb 
 n="32" break="no"/>sya yadā bhūmis</l>
-<l n="d">tasya tasya tadā <choice><sic>p</sic><corr>ph</corr></choice>alaṁ.</l>
+<l n="d">tasya tasya tadā <choice><sic>p</sic><corr>ph</corr></choice>alaṁ<g type="dandaSerif">.</g></l>
 </lg>
 
 <pb 
@@ -196,46 +196,181 @@ n="3v"/>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
+      <app loc="1">
+        <lem source="bib:Kielhorn1898-1899_01">hār<unclear>i</unclear>t<unclear>ī</unclear>-</lem>
+        <rdg source="bib:Sewell1879_01">hārīti-</rdg>
+      </app>
+      <app loc="2">
+        <lem source="bib:Kielhorn1898-1899_01">kauśikī-</lem>
+        <rdg source="bib:Sewell1879_01">k<choice><sic>o</sic><corr>au</corr></choice>śikī-</rdg>
+      </app>
+      <app loc="2">
+        <lem>-rājyānāṁ</lem>
+        <note>The engraver may have written <foreign>ra</foreign> and part of <foreign>j</foreign>, then corrected to <foreign>rā</foreign> and re-engraved <foreign>j</foreign> further to the right.</note>
+      </app>
       <app loc="3">
-        <lem>-lāñchanekṣa<supplied reason="lost">ṇa-kṣa</supplied><lb 
-n="4" break="no"/>ṇa-</lem>
-        <note>According to Sewell's note attached here, the characters he encloses in square brackets are illegible in the original. I assume that this note refers only to this particular locus, and where he uses square brackets elsewhere, I encode their contents as unclear.</note>
+        <lem source="bib:Kielhorn1898-1899_01">-varāh<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
+        <rdg source="bib:Sewell1879_01">-varāha-</rdg>
       </app>
       <app loc="4">
-        <lem>āvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-</lem>
-        <note>Sewell does not emend here. I cannot ascertain whether <foreign>t</foreign> is a typo in his edition or a scribal mistake he saw no necessity to correct.</note>
+        <lem source="bib:Kielhorn1898-1899_01">āvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-</lem>
+        <rdg source="bib:Sewell1879_01">āvabhr̥ta-</rdg>
+      </app>
+      <app loc="8">
+        <lem>uccāṭya<surplus><g type="dandaSerif">.</g></surplus></lem>
+        <rdg source="bib:Sewell1879_01 bib:Kielhorn1898-1899_01">uccāṭya</rdg>
       </app>
       <app loc="10">
-        <lem>cāṣṭācatvāriṁśataṁ</lem>
-        <note>Sewell does not emend here. I cannot ascertain whether <foreign>ā</foreign> is a typo in his edition or a scribal mistake he saw no necessity to correct.</note>
+        <lem source="bib:Kielhorn1898-1899_01"><unclear>c</unclear>āṣṭ<choice><sic>ā</sic><corr>a</corr></choice>catvāriṁśataṁ</lem>
+        <rdg source="bib:Sewell1879_01">cāṣṭācatvāriṁśataṁ</rdg>
       </app>
-      <app loc="14">
-        <lem>tālādhipatir</lem>
-        <note>In available parallels of this stanza, the spelling of the name is <ref>tāḻā°</ref> in the <ref target="DHARMA_INSVengiCalukya00052.xml">Andhra Sahitya Parishad plates of Śaktivarman</ref> and reportedly (but unverifiably) <ref>tālā°</ref> in the <ref target="DHARMA_INSVengiCalukya00071.xml">Kaṇḍyam plates of Dānārṇava</ref>.</note>
+      <app loc="11">
+        <lem>ta<space type="binding-hole"/>t-</lem>
+        <note>There is an additional headmark and a stub of a stem after <foreign>ta</foreign>. Kielhorn notes that another <foreign>akṣara</foreign> must have been engraved here, but I am certain that the engraver must have started <foreign>tpu</foreign> here, then decided not to try to squeeze it in above the hole and restarted that character further onward. The copper surface is pristine around the extra headmark, without any indication of a lost character.</note>
+      </app>
+      <app loc="11">
+        <lem source="bib:Kielhorn1898-1899_01">-bhrāt<unclear>u</unclear><lb n="12" break="no"/>r vvikramāditya-</lem>
+        <rdg source="bib:Sewell1879_01">-bhrātu<lb n="12" break="no"/><supplied reason="omitted">r</supplied> vvikramāditya-</rdg>
+        <note>The superscript <foreign>r</foreign> is combined with the <foreign>i</foreign>, appearing as a notch in the right-hand side of the vowel marker.</note>
       </app>
       <app loc="22">
         <lem><unclear cert="low">Asya</unclear></lem>
         <note>Sewell's edition prints a question mark in parentheses after this word. I assume that it refers to his uncertainty in reading the whole of this word. If so, then the correct reading may be <foreign>yathā</foreign>.</note>
       </app>
+      <app loc="15">
+        <lem source="bib:Kielhorn1898-1899_01">tālādhipa</lem>
+        <rdg source="bib:Sewell1879_01">tālādhipa<unclear>ti</unclear></rdg>
+      </app>
+      <app loc="16">
+        <lem source="bib:Kielhorn1898-1899_01">°<unclear>o</unclear>ddhatāN</lem>
+        <rdg source="bib:Sewell1879_01">°oddhatān</rdg>
+      </app>
+      <app loc="17">
+        <lem source="bib:Kielhorn1898-1899_01">vidhāyetarā<supplied reason="omitted">N</supplied></lem>
+        <rdg source="bib:Sewell1879_01">vidhāyetarān</rdg>
+      </app>
+      <app loc="17">
+        <lem source="bib:Kielhorn1898-1899_01">vajrīvo<supplied reason="omitted">r</supplied>jjita-</lem>
+        <rdg source="bib:Sewell1879_01">vajrīvorjjita-</rdg>
+      </app>
+      <app loc="17">
+        <lem source="bib:Kielhorn1898-1899_01">saṁvatsarā<choice><sic>d</sic><corr>n</corr></choice></lem>
+        <rdg source="bib:Sewell1879_01">saṁvatsarān</rdg>
+      </app>
+      <app loc="21">
+        <lem source="bib:Kielhorn1898-1899_01">-bha<lb n="22" break="no"/>ṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rakaḥ</lem>
+        <rdg source="bib:Sewell1879_01">-bha<lb n="22" break="no"/>ṭṭārakaḥ</rdg>
+      </app>
+      <app loc="21">
+        <lem>gudrāvār<choice><sic>ā</sic><corr>a</corr></choice>-</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">gudrāvār<subst><del>ā</del><add place="overstrike">a</add></subst>-</rdg>
+        <rdg source="bib:Sewell1879_01">gudrāvāra-</rdg>
+        <note>Kielhorn notes that the superfluous <foreign>ā</foreign> has been struck out, but I see no indication of this in the plate. The vowel of <foreign>vā</foreign> may perhaps be a subsequent addition, since it is above the consonant, resembling a superscript <foreign>repha</foreign>. This, however, appears to be an optional allograph; compare <foreign>°rājo rāja°</foreign> in line 25, with the two kinds of <foreign>ā</foreign> marker side by side.</note>
+      </app>
+      <app loc="22">
+        <lem source="bib:Kielhorn1898-1899_01">k<choice><sic>ū</sic><corr>u</corr></choice>ṭuṁbinas</lem>
+        <rdg source="bib:Sewell1879_01">kuṭuṁbinas</rdg>
+      </app>
+      <app loc="22">
+        <lem source="bib:Kielhorn1898-1899_01">sarvv<choice><sic>a</sic><corr>ā</corr></choice>n</lem>
+        <rdg source="bib:Sewell1879_01">sarvvān</rdg>
+      </app>
+      <app loc="22">
+        <lem source="bib:Kielhorn1898-1899_01">Atha</lem>
+        <rdg source="bib:Sewell1879_01">A<unclear cert="low">sya</unclear></rdg>
+      </app>
       <app loc="23">
-        <lem>-ballaladeva-</lem>
-        <note>I would rather expect this name to be <foreign>ballāladeva</foreign>.</note>
+        <lem>paṭṭavarddhinyāḥ</lem>
+        <note>The subscript <foreign>dh</foreign> was first engraved normally, then re-engraved in a flatter shape in order to make room for the vowel marker of <foreign>mno</foreign> below.</note>
+      </app>
+      <app loc="23">
+        <lem source="bib:Kielhorn1898-1899_01">pammavākhyāyā<choice><sic>ṁ</sic><corr>ḥ</corr></choice></lem>
+        <rdg source="bib:Sewell1879_01">pammavākhyāyāḥ</rdg>
       </app>
       <app loc="24">
         <lem><unclear cert="low">nemes-kṣe</unclear>tra-pū<gap reason="illegible" quantity="8" unit="character" precision="low"/></lem>
         <note>Sewell prints a question mark in parentheses after <foreign>kṣe</foreign>, but the uncertainty of his reading probably includes the uninterpretable string <foreign>nemes</foreign>. His comment on the lacuna is only <q>Several letters undecipherable.</q> My estimate of its length at 8 characters is based on the fact that we have 24 surviving characters in this line, and 32 seems to be a fair guess at the total on the basis of adjacent non-lacunose lines (33 characters in l21; 36 in l22; 29 in l23; 32 in l26). The beginning of this lacuna might be restored as <foreign>-pūrvvataḥ</foreign> or a similar phrase, but since the donation seems to involve three separate plots, the name or specification of the first is perhaps more likely here than a more accurate description of its location.</note>
       </app>
+      <app loc="24">
+        <lem source="bib:Kielhorn1898-1899_01">pāṁbaṟṟu</lem>
+        <rdg source="bib:Sewell1879_01"><choice><unclear>p</unclear><unclear>d</unclear></choice>āṁbaṟṟu</rdg>
+      </app>
+      <app loc="24">
+        <lem>-nāmn<choice><sic>o</sic><corr>e</corr></choice></lem>
+        <rdg source="bib:Sewell1879_01 bib:Kielhorn1898-1899_01">-nāmne</rdg>
+        <note>I am positive that <foreign>mno</foreign> was engraved here. The additional hump at the right-hand end of the vowel marker is not accidental and not part of the character above, and inscribing <foreign>e</foreign> would not have required an alteration of the character above (see the note to line 22).</note>
+      </app>
+      <app loc="24">
+        <lem>nomi-kṣe<unclear>tra</unclear>ṁ pū<supplied reason="omitted">rvva</supplied>taś <unclear cert="low">c</unclear>a <unclear cert="low">bhar</unclear>i<unclear cert="low">ya</unclear>-</lem>
+        <rdg source="bib:Sewell1879_01"><unclear cert="low">nemes-kṣe</unclear>tra-pū<gap reason="illegible" quantity="4" unit="character" precision="low"/></rdg>
+        <rdg source="bib:Kielhorn1898-1899_01">nomi-kṣetraṁ pūtaśa<unclear>pa</unclear>ri<unclear cert="low">ya</unclear>-</rdg>
+        <note>I am far from certain about reading <foreign>śca</foreign>, and Kielhorn may be right that there is no subscript consonant here at all. However, I do see some faint lines that may belong to a <foreign>c</foreign>, and the damage is certainly extensive enough here to have all but obliterated a subscript graph. My emendation to <foreign>pūrvvataś ca</foreign> is likewise very tentative, but fits the context well, and incidentally eliminates Kielhorn's concern noted for <foreign>kṣetraṁ</foreign> in the next line, that an expected <foreign>ca</foreign> is missing.</note>
+      </app>
       <app loc="25">
-        <lem><gap reason="illegible" quantity="3" unit="character" precision="low"/></lem>
-        <note>Sewell describes the lacuna as two or three characters in size.</note>
+        <lem source="bib:Kielhorn1898-1899_01">I<unclear>n</unclear>da<unclear cert="low">nī</unclear></lem>
+        <rdg source="bib:Sewell1879_01"><gap reason="illegible" quantity="3" unit="character" precision="low"/></rdg>
+      </app>
+      <app loc="26">
+        <lem>-ceṟuvu</lem>
+        <note>All of line 26 seems to be a correction written over earlier text that has been erased quite efficiently, so none of the pre-correction text is legible. There may be <foreign>he</foreign> beneath <foreign>vu</foreign>; <foreign>pa</foreign> or <foreign>pi</foreign> beneath <foreign>da</foreign>; something involving an <foreign>u</foreign> beneath <foreign>ṇa</foreign>; again something involving an <foreign>u</foreign> beneath <foreign>pa</foreign>; and possibly <foreign>yu</foreign> beneath <foreign>lpuje</foreign> near the end of the line.</note>
+      </app>
+      <app loc="26">
+        <lem source="bib:Kielhorn1898-1899_01">raṭṭ<unclear reason="eccentric_ductus">o</unclear>ḍi</lem>
+        <rdg source="bib:Sewell1879_01">raṭṭedi</rdg>
+        <note>Kielhorn notes that the reading may be <foreign>raṭṭeḍi</foreign>. I agree that <foreign>raṭṭoḍi</foreign> was probably intended, with the upper element of the vowel marker attached to the right of the upright stem of <foreign>ṭ</foreign> next to the following <foreign>i</foreign> marker. That upward stem in turn may be a superscript <foreign>repha</foreign> from the pre-correction character inscribed here.</note>
+      </app>
+      <app loc="26">
+        <lem>su<unclear cert="low">ggamu</unclear>-</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">su<unclear cert="low">gu</unclear>mm<unclear>ū</unclear></rdg>
+        <rdg source="bib:Sewell1879_01">su<unclear cert="low">gu</unclear>mma</rdg>
+        <note>In addition to the deleted and overwritten text, legibility is badly compromised here by a hole and a crack that penetrate the plate. I am fairly confident that a double <foreign>mm</foreign> is not present, and certain that <foreign>mmu</foreign> is not present.</note>
+      </app>
+      <app loc="26">
+        <lem>-cena-</lem>
+        <rdg source="bib:Sewell1879_01">cenu-</rdg>
+        <rdg source="bib:Kielhorn1898-1899_01">-cen<choice><sic>a</sic><corr>i</corr></choice></rdg>
+        <note>I assume that Kielhorn's emendation makes the word genitive, but believe that a compound is also acceptable.</note>
+      </app>
+      <app loc="26">
+        <lem source="bib:Kielhorn1898-1899_01">velpu-</lem>
+        <rdg source="bib:Sewell1879_01">velpūr-</rdg>
+      </app>
+      <app loc="26">
+        <lem source="bib:Sewell1879_01">-jenu-</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">-jen<choice><sic>u</sic><corr>i</corr></choice></rdg>
+      </app>
+      <app loc="27">
+        <lem source="bib:Kielhorn1898-1899_01">dāmapiya</lem>
+        <rdg source="bib:Sewell1879_01">dāmadiya</rdg>
       </app>
       <app loc="28">
-        <lem>gaṇṭhaśālaya<unclear cert="low">yappanā</unclear>yyari-</lem>
-        <note>According to Sewell, two or three characters are illegible here, and the text looks like <foreign>yappanāyyari</foreign> to him; it is not clear whether this tentative reading includes the preceding <foreign>ya</foreign>, which he prints as clear.</note>
+        <lem>-yappanayyari-</lem>
+        <rdg source="bib:Sewell1879_01">-yappanāyyari-</rdg>
+        <rdg source="bib:Kielhorn1898-1899_01">-yappavayyari-</rdg>
+      </app>
+      <app loc="28">
+        <lem source="bib:Sewell1879_01">-pannasa</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">-pann<choice><sic>ā</sic><corr>a</corr></choice>sa</rdg>
+        <note>What Kielhorn reads as an <foreign>ā</foreign> marker is probably not attached to the <foreign>n</foreign>, and is rather a vestige of the pre-correction text or damage.</note>
       </app>
       <app loc="29">
-        <lem>teṇ<gap reason="illegible" quantity="3" unit="character" precision="low"/>ṭama</lem>
-        <note>Sewell: <q>Two or three letters defaced.</q></note>
+        <lem source="bib:Sewell1879_01">-ma<unclear cert="low">jja</unclear>ya-</lem>
+        <rdg source="bib:Kielhorn1898-1899_01">-ma<unclear cert="low">jji</unclear>ya-</rdg>
+      </app>
+      <app loc="29">
+        <lem>tiṇ<unclear cert="low">ṭhl</unclear>aṟ<unclear cert="low">ṟu</unclear>ṭama-</lem>
+        <rdg source="bib:Sewell1879_01">teṇ<gap reason="illegible" quantity="3" unit="character" precision="low"/>ṭama-</rdg>
+        <rdg source="bib:Kielhorn1898-1899_01">tiṇṭhūṟṟ<unclear>o</unclear>ṭama-</rdg>
+        <note>The subscript part of <foreign>ṟ</foreign> might be either another <foreign>ṟ</foreign> with a probable <foreign>u</foreign>, or <foreign>e</foreign> (possibly part of <foreign>o</foreign>), but it is not possible to read both a double <foreign>ṟṟ</foreign> and an <foreign>o</foreign>.</note>
+      </app>
+      <app loc="29">
+        <lem source="bib:Kielhorn1898-1899_01">jivarakṣa-paṭu</lem>
+        <rdg source="bib:Sewell1879_01">jiṁvarakṣa-paṭu</rdg>
+        <note>The character <foreign>pa</foreign> involves correction, perhaps from an incompletely written <foreign>ṭa</foreign>.</note>
+      </app>
+      <app loc="30">
+        <lem>sa<surplus>ṁ</surplus></lem>
+        <rdg source="bib:Sewell1879_01 bib:Kielhorn1898-1899_01">saḥ</rdg>
       </app>
       <app loc="31">
         <lem>cānup<choice><sic>a</sic><corr>ā</corr></choice>litā</lem>
@@ -262,8 +397,8 @@ n="4" break="no"/>ṇa-</lem>
 <p rend="stanza" n="3">To him <supplied reason="explanation">Bhīma II</supplied>, who was <supplied reason="subaudible">like</supplied> Maheśvara in form, a <supplied reason="subaudible">son</supplied> named Ammarāja <supplied reason="explanation">II</supplied>, who verily resembled Kumāra, was born from none other than <supplied reason="explanation">his queen</supplied> Lokamahādevī, who was like Umā in appearance.</p>
 <p rend="stanza" n="4"><supplied reason="subaudible">He is</supplied> a wish-granting tree to poets and singers, a cow of plenty <supplied reason="explanation"><foreign>surabhi</foreign></supplied> to Brahmins <supplied reason="explanation"><foreign>dvija</foreign></supplied>, ascetics <supplied reason="explanation"><foreign>muni</foreign></supplied>, the afflicted, the blind and his kinsfolk, a wish-fulfilling jewel to supplicants, a jewel among kings, and the jewel of the sky <supplied reason="explanation">the sun</supplied> by his great and fierce glory.</p>
 <p n="21-22">That shelter of the entire universe <supplied reason="explanation"><foreign>samasta-bhuvanāśraya</foreign></supplied>, His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Vijayāditya <supplied reason="explanation">Amma II</supplied> the Supreme Lord <supplied reason="explanation"><foreign>parameśvara</foreign></supplied> of Emperors <supplied reason="explanation"><foreign>rājādhirāja</foreign></supplied> and Supreme Sovereign <supplied reason="explanation"><foreign>parama-bhaṭṭāraka</foreign></supplied>, commands all householders <supplied reason="explanation"><foreign>kuṭumbin</foreign></supplied>—including foremost the territorial overseers <supplied reason="explanation"><foreign>rāṣṭrakūṭa</foreign></supplied>—who reside in Gudrāvāra district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied> as follows:</p>
-<p n="22-25"><seg cert="low">To wit:</seg><note>I translate my conjecture here; see the apparatus to line 22.</note> Ammarāja <supplied reason="explanation">II</supplied> Rājamahendra has given a <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>nemes</foreign></supplied> field <gap reason="illegible"/> field <supplied reason="subaudible">located</supplied> to the south of the village named Pāṁbaṟṟu to a <seg cert="low">borderland soldier</seg> <supplied reason="explanation"><foreign>velā-bhaṭa</foreign></supplied><note><foreign>Velā-bhaṭa</foreign>s, probably meaning soldiers of the borderland, are also mentioned in the <ref target="DHARMA_INSVengiCalukya00036.xml">Guṇḍugolanu grant of Amma II</ref>.</note> of Prince <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Ballaladeva, Boddiya by name, the son of <supplied reason="subaudible">the lady</supplied> called Pammavā <supplied reason="subaudible">of the</supplied> Paṭṭavardhinī <supplied reason="subaudible">family</supplied>.</p>
-<p n="25-30">The boundaries of these two fields <supplied reason="subaudible">are as follows</supplied>.<note>Throughout this section I translate on the basis of Sewell’s translation of the Telugu phrases, augmented with some items of vocabulary gleaned from related inscriptions. The phrase <foreign>cenu-garusu</foreign> seems to be synonymous to <foreign>pola-garusu</foreign>. The Raṭṭedi field may perhaps be read as or emended to <foreign>raṭṭoḍi</foreign>, “the overseer’s field.”</note> To the east, <gap reason="illegible"/> tank <supplied reason="explanation"><foreign>ceṟuvu</foreign></supplied>. To the south, the Raṭṭedi field. To the west, the verge of the fields of Sugumma. To the north, the eastern <foreign>pannasa</foreign><note><foreign>Pannasa</foreign> is an obscure term that may mean land held in some sort of tenure. See <bibl><ptr target="bib:Sircar1966_01"/><citedRange unit="entry">pannasa</citedRange></bibl>.</note> of the Velpūr field. To the east,<note>Here, probably, begin the boundaries of the second field granted, the domicile plot being in addition to the two cultivable fields.</note> the <foreign>pannasa</foreign> of Dāmadiya. To the south, the great road. To the west, the river. To the north, the <gap reason="ellipsis"/> <foreign>pannasa</foreign> of Gaṇṭhaśāla. And <supplied reason="subaudible">the boundaries of</supplied> the domicile plot <supplied reason="subaudible">are as follows</supplied>. To the east, the <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>majjaya-paṭu</foreign></supplied> of Badirāla. To the south, <gap reason="ellipsis"/>. To the west, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>jiṁvarakṣa-paṭu</foreign></supplied>. To the north, the village assembly ground <supplied reason="explanation"><foreign>racca</foreign></supplied>.
+<p n="22-25">Hereby Ammarāja <supplied reason="explanation">II</supplied> Rājamahendra has given to a <seg cert="low">borderland soldier</seg> <supplied reason="explanation"><foreign>velā-bhaṭa</foreign></supplied><note><foreign>Velā-bhaṭa</foreign>s, perhaps meaning soldiers of the borderland, are also mentioned in the <ref target="DHARMA_INSVengiCalukya00036.xml">Guṇḍugolanu grant of Amma II</ref>.</note> of Prince <supplied reason="explanation"><foreign>yuvarāja</foreign></supplied> Ballaladeva, Boddiya by name,<note>Or perhaps Ballaladeva is also called Boddiya, and is a <foreign>velā-bhaṭa</foreign>.</note> the son of <supplied reason="subaudible">the lady</supplied> called Pammavā <supplied reason="subaudible">of the</supplied> Paṭṭavardhinī <supplied reason="subaudible">family</supplied>, the Nomi field <supplied reason="subaudible">located</supplied> to the south of the village named Pāṁbaṟṟu, <seg cert="low">and the Bhariya</seg> field <seg cert="low">to the east</seg> <supplied reason="subaudible">of the village</supplied>.</p>
+<p n="25-30">The boundaries of these two fields <supplied reason="subaudible">are as follows</supplied>.<note>For the Telugu, I rely on Sewell’s and Kielhorn’s translations augmented with some items of vocabulary gleaned from related inscriptions. The phrase cenu-garusu seems to be synonymous to pola-garusu. </note> To the east, the <seg cert="low">Indanī</seg> tank <supplied reason="explanation"><foreign>ceṟuvu</foreign></supplied>. To the south, the field of the headman <supplied reason="explanation"><foreign>raṭṭoḍi</foreign></supplied>. To the west, the verge of the fields of <seg cert="low">Suggamu</seg>. To the north, the eastern <foreign>pannasa</foreign> <note><foreign>Pannasa</foreign> is an obscure term that may mean land held in some sort of tenure. See <bibl><ptr target="bib:Sircar1966_01"/><citedRange unit="entry">pannasa</citedRange></bibl>.</note> of the Velpu field. To the east,<note>Here, probably, begin the boundaries of the second field granted, the domicile plot being in addition to the two cultivable fields.</note> the pannasa of Dāmapiya. To the south, the great road. To the west, the river. To the north, the <gap reason="ellipsis"/> pannasa of Gaṇṭhaśāla. And <supplied reason="subaudible">the boundaries of</supplied> the domicile plot <supplied reason="subaudible">are as follows</supplied>. To the east, the <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>majjaya-paṭu</foreign></supplied> of Badirāla. To the south, <gap reason="ellipsis"/>. To the west, <gap reason="ellipsis"/> <supplied reason="explanation"><foreign>jivarakṣa-paṭu</foreign></supplied>. To the north, the village assembly ground <supplied reason="explanation"><foreign>racca</foreign></supplied>.
 </p>
 <p n="30-31">Let no-one pose an obstacle <supplied reason="explanation">to his enjoyment of his rights</supplied> over it. He who does so shall be conjoined with the five great sins. So too Vyāsa has said:</p>
 <p rend="stanza" n="5">Many <supplied reason="explanation">kings</supplied> have granted land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <foreign>reward</foreign> <supplied reason="explanation">accrued of granting it</supplied> belongs to him at that time.</p>
@@ -322,9 +457,10 @@ celui qui possède une terre en possède le fruit.</p>
 
 
 <div type="bibliography">
-  <p>Edited, probably from the original plates, by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">73-76</citedRange><citedRange unit="item">1</citedRange></bibl>), with a translation, without facsimile. The present edition encoded by Dániel Balogh follows Sewell in all diplomatic particulars, since no facsimile of the inscription is forthcoming, but deviates from it in editorial practice, namely in supplying <foreign>avagraha</foreign>s and some punctuation.</p>
+  <p>Edited, probably from the original plates, by Robert Sewell (<bibl rend="omitname"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">73-76</citedRange><citedRange unit="item">1</citedRange></bibl>), with a translation, without facsimile. Re-edited from estampages (provided by Fleet) by Franz Kielhorn (<bibl rend="omitname"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">139-142</citedRange><citedRange unit="item">F</citedRange></bibl>), with a partial translation and partial estampages (1v and 2r only). The present edition by Dániel Balogh is based on photographs taken by myself in February 2023 at the Government Museum, Chennai, collated with these two editions and with Kielhorn's estampages.</p>
   <listBibl type="primary">
     <bibl n="RS"><ptr target="bib:Sewell1879_01"/><citedRange unit="page">73-76</citedRange><citedRange unit="item">1</citedRange></bibl>
+    <bibl n="FK"><ptr target="bib:Kielhorn1898-1899_01"/><citedRange unit="page">139-142</citedRange><citedRange unit="item">F</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
