@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Ariyeṟu grant of Viṣṇuvardhana III</title><!--ALT title: Gaṇapavaram plates of Viṣṇuvardhana III-->
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00105</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+                  <!--<altIdentifier type="PEM"><idno type="corpus">CalE25</idno></altIdentifier>-->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+                     <p>Anusvāra is usually a small dot at headline level, sometimes a small circle at median level. Short and long dependent ī are barely distinguishable, the latter being open at the bottom left, the former being normally closed into a circle. Final M is a reduced and simplified old-style ma. The plates are written in a very clumsy hand. The last line, squeezed into insufficient vertical space, begins with an indent of about 3 characters and skips many spots where there are descenders from the penultimate line.
+                <!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+        <change who="part:daba" when="2025-09-29" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<pb 
+
+n="1r"/>
+<p><pb 
+
+n="1v"/><lb 
+n="1"/>svasti+. śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sago
+<lb n="2" break="no"/>trā(ṇā)ṁ hāriti-putrāṇāṁ kauśī!iki!ī-vara-prasāda-labdha-r(ā)bdha/jyānā+ṁ
+<lb n="3"/>mātr̥HOLE-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānu
+<lb n="4" break="no"/>ddhyāHOLEtānā+ṁ bhagavan-nārāyanā!ṇa-prasāda-samāsādī!ita-vara-va
+<lb n="5" break="no"/>rāha-lā+ṁchanekṣaṇa-kṣaṇa-vaśīkr̥tārātī!i-maṇḍalāṇa!nāṁ Aśva
+<pb n="2r"/><lb n="6" break="no"/>(medhā)vabhr̥tha-snāna-pavitri!īkr̥ta-vapu(ṣ)āṁ caḷukyāṇa!nāṁ kula[OM or LOST?m a]
+<lb n="7" break="no"/>la(ṁ)kariṣṇor vvividha-yu[+d]dha-labdha-yaśa+saḥ śrī-viṣṇuvarddhana-mahārājasya
+<lb n="8"/>(pau)HOLEtraḥ para-nr̥pati-makuṭa-taṭa-ghaṭitāneka-maṇi-kiraṇa
+<lb n="9" break="no"/>-rāga-raHOLEñjī!ita-caraṇa-yugaḷaḥ!sya Aneka-tulā-dhr̥ta-[+ka]ḷadhau
+<lb n="10" break="no"/>ta-dāna-s!pūta-śarīraḥ!sya samasta-bhuvanāśraya-(ś)rī(v)ijayādi
+<pb n="2v"/><lb n="11" break="no"/>(śrī)-ma(ṁgi)-yuvarājasya putraḥ samatiśai!ayita-pitr̥-guṇa-śakti-sampannaḥ samyak-(pra)
+<lb n="12" break="no"/>jā-pālana-paraḫ parama-brahmaṇya+ḥ mātā-pitr̥-pādānudhya!ātaḥ samasta-bhuvanāśra
+<lb n="13" break="no"/>ya-śrī-(vi)HOLE(ṣṇu)varddhana-mahārājādhirāja-parameśvara-bhaṭṭa!ārakaḥ (A)ttili-viṣaye
+<lb n="14"/>AriyeHOLEṟu nāma grāme rāṣp!ṭrakūṭa-pramukhāN sva-viṣaya-vā(si)naḥ kuṭu+ṁbinaḥ sarvvā(n ittha)
+<lb n="15" break="no"/>m ājṇāpayati viditam astu vo +’smābhiḥ padminy-agrahāra-vāstavyāya pātā!añjala-sa(go)
+<lb n="16" break="no"/>trāya Akhilātharvva-veda-vidāya!e sūkiśarmmaṇaḫ p(au)trāya (?vi)nyiśarmmaṇaḫ putra!āya (?bh)ūriśarmma(?ṇe) 
+<lb n="17"/>(divya-s)āmpadādi-karmma-vidāya!e (sūryya-gra)haḥa-ni+mit(t)e nivarttana-dvayaṁ kṣetram u[lost:daka]
+<pb n="3r"/><lb n="18" break="no"/>-pūrd!vvan y!datta(M)+. Āvāsa-nikaṭa-sahitaM+. Asya (kṣe)trasya s(o)!īmantāḥ pūrvvataḥ tā
+<lb n="19" break="no"/>mararvvā+. dakṣiṇata+ḥ duttiśa+rmmaṇaḥ kṣetraM+. paścimata+ḥ grāma-kṣetra+M+. Uttarataḥ ṣamṇig(?v)o
+<lb n="20" break="no"/>rāvi+. AHOLEs(y)opari na kenacid (b)ādhā karttavyā+. yaẖ karoti sa pañcabhir mmahā-pātakai
+<lb n="21" break="no"/>s saṁyuHOLEkto bhavati+. tathā vyāsenāpy uktaM+. 
+anuṣṭubh
+bahubhi+r vvasudhā dattā
+bahubhi
+<lb n="22" break="no"/>ś cānupālitā(||)
+yasya yasya yadā bhūmis
+tasya tasya tadā phalaM||
+sva-dat(t)ā
+<lb n="23" break="no"/>m para-dattā(ṁ) vā
+yo hak!reta vasundharā+ṁ
+ṣaṣṭh!ṭi-va+rṣṣa-sahasrāṇi 
+viṣṭhāyā+ṁ jā(ya)
+<lb n="24" break="no"/>te kr̥miḥ|| 
+Ājñaptir asya dha+rmmasya nissaramiṇyi</p>
+<pb 
+
+n="3v"/>
+
+</div>
+        
+        
+        
+        
+        
+<div type="apparatus">
+  <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
+    <listApp>
+      <app loc="3">
+        <lem>x</lem>
+        <note>x</note>
+      </app>
+      
+      
+    </listApp>
+  </div>  
+  
+</div>
+
+
+
+
+<div type="translation" resp="part:daba">
+<p n="1-11"></p>
+  
+  
+</div>
+
+
+
+
+<div type="commentary">
+<p></p>
+</div>
+
+
+
+<div type="bibliography">
+  <p>Reported in <bibl><ptr target="bib:ARIE1924-1925"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1924-25</citedRange><citedRange unit="item">3</citedRange></bibl>.<note>This is not the <ref target="DHARMA_INSVengiCalukya00093.xml">Ariyēṟa grant of Viṣṇuvardhana III</ref> which has not been reported in ARIE.</note> Published in Telugu by Mallampalli Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1924_01"/></bibl>) with facsimiles. Edited in English by M. D. Sampath (<bibl rend="omitname"><ptr target="bib:Sampath2016_01"/><citedRange unit="item">2</citedRange></bibl>) without facsimiles and without translation. The present edition by Dániel Balogh is based on estampages preserved at the ASI, Mysore, collated with Sampath's edition. The numerous (presumed) typos and minor errors of Sampath's edition are not shown in the apparatus.</p>
+  <listBibl type="primary">
+    <bibl></bibl>
+<!-- one <bibl/> per item of primary bibliography -->
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
