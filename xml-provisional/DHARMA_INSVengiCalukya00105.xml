@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-           <title>Ariyeṟu grant of Viṣṇuvardhana III</title><!--ALT title: Gaṇapavaram plates of Viṣṇuvardhana III-->
+           <title>Gaṇapavaram plates attributed to Viṣṇuvardhana III</title><!--ALT title: Ariyeṟu grant of Viṣṇuvardhana III-->
             <respStmt>
                <resp>Encoding</resp>
                <persName ref="part:daba">
@@ -54,13 +54,16 @@
                </msContents>
                <physDesc>
                   <handDesc>
-                     <p>Anusvāra is usually a small dot at headline level, sometimes a small circle at median level. Short and long dependent ī are barely distinguishable, the latter being open at the bottom left, the former being normally closed into a circle. Final M is a reduced and simplified old-style ma. The plates are written in a very clumsy hand. The last line, squeezed into insufficient vertical space, begins with an indent of about 3 characters and skips many spots where there are descenders from the penultimate line.
-                <!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <summary><p>Anusvāra is usually a small dot at headline level, sometimes a small circle at median level. Short and long dependent ī are barely distinguishable, the latter being open at the bottom left, the former being normally closed into a circle. Final M is a reduced and simplified old-style ma. The plates are written in a very clumsy hand. The last line, squeezed into insufficient vertical space, begins with an indent of about 3 characters and skips many spots where there are descenders from the penultimate line.
+                <!--Other palaeographic observations.  --><!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p></summary>
                      <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
                 <summary><p><p/></summary>
                 <handNote xml:id="Pallava00001_hand1"></handNote>
                 <handNote xml:id="Pallava00001_hand2"></handNote>
               -->
+                    <handNote xml:id="DHARMA_INSVengiCalukya00105_hand1">A rather clumsy hand as described in the summary. The bottoms of rounded character bodies (particularly ma; also va and dha) are notched.</handNote>
+                    <handNote xml:id="DHARMA_INSVengiCalukya00105_hand2">A very similar hand, possibly the same scribe in more haste. Character formation and ductus are similar, but the writing is much more compressed and the bottoms of rounded character bodies are not notched.</handNote>
+                    
                   </handDesc>
                </physDesc>
             </msDesc>
@@ -105,40 +108,51 @@ n="1r"/>
 <p><pb 
 
 n="1v"/><lb 
-n="1"/>svasti+. śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sago
-<lb n="2" break="no"/>trā(ṇā)ṁ hāriti-putrāṇāṁ kauśī!iki!ī-vara-prasāda-labdha-r(ā)bdha/jyānā+ṁ
-<lb n="3"/>mātr̥HOLE-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānu
-<lb n="4" break="no"/>ddhyāHOLEtānā+ṁ bhagavan-nārāyanā!ṇa-prasāda-samāsādī!ita-vara-va
-<lb n="5" break="no"/>rāha-lā+ṁchanekṣaṇa-kṣaṇa-vaśīkr̥tārātī!i-maṇḍalāṇa!nāṁ Aśva
-<pb n="2r"/><lb n="6" break="no"/>(medhā)vabhr̥tha-snāna-pavitri!īkr̥ta-vapu(ṣ)āṁ caḷukyāṇa!nāṁ kula[OM or LOST?m a]
-<lb n="7" break="no"/>la(ṁ)kariṣṇor vvividha-yu[+d]dha-labdha-yaśa+saḥ śrī-viṣṇuvarddhana-mahārājasya
-<lb n="8"/>(pau)HOLEtraḥ para-nr̥pati-makuṭa-taṭa-ghaṭitāneka-maṇi-kiraṇa
-<lb n="9" break="no"/>-rāga-raHOLEñjī!ita-caraṇa-yugaḷaḥ!sya Aneka-tulā-dhr̥ta-[+ka]ḷadhau
-<lb n="10" break="no"/>ta-dāna-s!pūta-śarīraḥ!sya samasta-bhuvanāśraya-(ś)rī(v)ijayādi
-<pb n="2v"/><lb n="11" break="no"/>(śrī)-ma(ṁgi)-yuvarājasya putraḥ samatiśai!ayita-pitr̥-guṇa-śakti-sampannaḥ samyak-(pra)
-<lb n="12" break="no"/>jā-pālana-paraḫ parama-brahmaṇya+ḥ mātā-pitr̥-pādānudhya!ātaḥ samasta-bhuvanāśra
-<lb n="13" break="no"/>ya-śrī-(vi)HOLE(ṣṇu)varddhana-mahārājādhirāja-parameśvara-bhaṭṭa!ārakaḥ (A)ttili-viṣaye
-<lb n="14"/>AriyeHOLEṟu nāma grāme rāṣp!ṭrakūṭa-pramukhāN sva-viṣaya-vā(si)naḥ kuṭu+ṁbinaḥ sarvvā(n ittha)
-<lb n="15" break="no"/>m ājṇāpayati viditam astu vo +’smābhiḥ padminy-agrahāra-vāstavyāya pātā!añjala-sa(go)
-<lb n="16" break="no"/>trāya Akhilātharvva-veda-vidāya!e sūkiśarmmaṇaḫ p(au)trāya (?vi)nyiśarmmaṇaḫ putra!āya (?bh)ūriśarmma(?ṇe) 
-<lb n="17"/>(divya-s)āmpadādi-karmma-vidāya!e (sūryya-gra)haḥa-ni+mit(t)e nivarttana-dvayaṁ kṣetram u[lost:daka]
-<pb n="3r"/><lb n="18" break="no"/>-pūrd!vvan y!datta(M)+. Āvāsa-nikaṭa-sahitaM+. Asya (kṣe)trasya s(o)!īmantāḥ pūrvvataḥ tā
-<lb n="19" break="no"/>mararvvā+. dakṣiṇata+ḥ duttiśa+rmmaṇaḥ kṣetraM+. paścimata+ḥ grāma-kṣetra+M+. Uttarataḥ ṣamṇig(?v)o
-<lb n="20" break="no"/>rāvi+. AHOLEs(y)opari na kenacid (b)ādhā karttavyā+. yaẖ karoti sa pañcabhir mmahā-pātakai
-<lb n="21" break="no"/>s saṁyuHOLEkto bhavati+. tathā vyāsenāpy uktaM+. 
-anuṣṭubh
-bahubhi+r vvasudhā dattā
-bahubhi
-<lb n="22" break="no"/>ś cānupālitā(||)
-yasya yasya yadā bhūmis
-tasya tasya tadā phalaM||
-sva-dat(t)ā
-<lb n="23" break="no"/>m para-dattā(ṁ) vā
-yo hak!reta vasundharā+ṁ
-ṣaṣṭh!ṭi-va+rṣṣa-sahasrāṇi 
-viṣṭhāyā+ṁ jā(ya)
-<lb n="24" break="no"/>te kr̥miḥ|| 
-Ājñaptir asya dha+rmmasya nissaramiṇyi</p>
+n="1"/><handShift new="#DHARMA_INSVengiCalukya00105_hand1"/>svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuvana-saṁstūyamāna-mānavya-sago<lb 
+n="2" break="no"/>trā<unclear>ṇā</unclear>ṁ hāriti-putrāṇāṁ kauś<choice><sic>ī</sic><corr>i</corr></choice>k<choice><sic>i</sic><corr>ī</corr></choice>-vara-prasāda-labdha-r<unclear>ā</unclear><choice><sic>bdha</sic><corr>jyā</corr></choice>nā<supplied reason="omitted">ṁ</supplied> <lb 
+n="3"/>mātr̥<space type="binding-hole"/>-gaṇa-paripālitānāṁ svāmi-mahāsena-pādānu<lb 
+n="4" break="no"/>ddhyā<space type="binding-hole"/>tānā<supplied reason="omitted">ṁ</supplied> bhagavan-nārāya<choice><sic>nā</sic><corr>ṇa</corr></choice>-prasāda-samāsād<choice><sic>ī</sic><corr>i</corr></choice>ta-vara-va<lb 
+n="5" break="no"/>rāha-lā<supplied reason="omitted">ṁ</supplied>chanekṣaṇa-kṣaṇa-vaśīkr̥tārāt<choice><sic>ī</sic><corr>i</corr></choice>-maṇḍalā<choice><sic>ṇa</sic><corr>nā</corr></choice>ṁ Aśva<pb 
+
+n="2r" break="no"/><lb 
+n="6" break="no"/><unclear>medhā</unclear>vabhr̥tha-snāna-pavitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-vapu<choice><sic>p</sic><corr>ṣ</corr></choice>āṁ caḷukyā<choice><sic>ṇa</sic><corr>nā</corr></choice>ṁ kula<supplied reason="omitted">m a</supplied><lb 
+n="7" break="no"/>la<unclear>ṁ</unclear>kariṣṇor vvividha-yu<supplied reason="omitted">d</supplied>dha-labdha-yaśa<supplied reason="omitted">saḥ</supplied> śrī-viṣṇuvarddhana-mahārājasya <lb 
+n="8"/><unclear>pau</unclear><space type="binding-hole"/>traḥ para-nr̥pati-makuṭa-taṭa-ghaṭitāneka-maṇi-kiraṇa<lb 
+n="9" break="no"/>-rāga-ra<space type="binding-hole"/>ñj<choice><sic>ī</sic><corr>i</corr></choice>ta-caraṇa-yuga<choice><orig>ḷ</orig><reg>l</reg></choice>a<choice><sic>ḥ</sic><corr>sya</corr></choice> Aneka-tulā-dhr̥ta-<supplied reason="omitted">ka</supplied><choice><orig>ḷ</orig><reg>l</reg></choice>adhau<lb 
+n="10" break="no"/>ta-dāna-<choice><sic>s</sic><corr>p</corr></choice>ūta-śarīra<choice><sic>ḥ</sic><corr>sya</corr></choice> samasta-bhuvanāśraya-<unclear>ś</unclear>rī-<unclear>v</unclear>ijayādi<supplied reason="omitted">tya</supplied><pb 
+
+n="2v" break="no"/><lb 
+n="11" break="no"/><handShift new="#DHARMA_INSVengiCalukya00105_hand2"/>-<unclear>śrī</unclear>-ma<unclear>ṁgi</unclear>-yuvarājasya putraḥ samatiś<choice><orig>ai</orig><reg>ayi</reg></choice>ta-pitr̥-guṇa-śakti-sampannaḥ samyak-<unclear>pra</unclear><lb 
+n="12" break="no"/>jā-pālana-paraḫ parama-brahmaṇya<supplied reason="omitted">ḥ</supplied> mātā-pitr̥-pādānudhy<choice><sic>a</sic><corr>ā</corr></choice>taḥ samasta-bhuvanāśra<lb 
+n="13" break="no"/>ya-śrī-<unclear>vi</unclear><space type="binding-hole"/><unclear>ṣṇu</unclear>varddhana-mahārājādhirāja-parameśvara-bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rakaḥ <unclear>A</unclear>ttili-viṣaye <lb 
+n="14"/>Ariye<space type="binding-hole"/>ṟu nāma grāme rāṣ<choice><sic>p</sic><corr>ṭ</corr></choice>rakūṭa-pramukhāN sva-viṣaya-vā<unclear>si</unclear>naḥ kuṭu<supplied reason="omitted">ṁ</supplied>binaḥ sarvvā<unclear>n ittha</unclear><lb 
+n="15" break="no"/>m ājṇāpayati</p>
+<p>viditam astu vo <supplied reason="subaudible">’</supplied>smābhiḥ padminy-agrahāra-vāstavyāya pāt<choice><orig>ā</orig><reg>a</reg></choice>ñjala-sa<unclear>go</unclear><lb 
+n="16" break="no"/>trāya Akhilātharvva-veda-vid<choice><orig>āya</orig><reg>e</reg></choice> sūkiśarmmaṇaḫ pautrāya <unclear cert="low">vi</unclear>nyiśarmmaṇaḫ putr<choice><sic>a</sic><corr>ā</corr></choice>ya <unclear reason="eccentric_ductus">n</unclear>ūriśarmma<unclear cert="low">ṇe</unclear> <lb 
+n="17"/><unclear>divya-s</unclear>āmpadādi-karmma-vid<choice><orig>āya</orig><reg>e</reg></choice> <unclear>sūryya-gra</unclear>haṇa-ni<supplied reason="omitted">mi</supplied>t<supplied reason="omitted">t</supplied>e nivarttana-dvayaṁ kṣetram u<supplied reason="lost">daka</supplied><pb 
+
+n="3r" break="no"/><lb 
+n="18" break="no"/>-pūr<choice><sic>ddh</sic><corr>vv</corr></choice>van <choice><sic>y</sic><corr>d</corr></choice>atta<unclear>M</unclear> Āvāsa-nikaṭa-sahitaM</p>
+<p>Asya <unclear>kṣe</unclear>trasya s<choice><sic><unclear>o</unclear></sic><corr>ī</corr></choice>mantāḥ<supplied reason="subaudible">.</supplied> pūrvvataḥ tā<lb 
+n="19" break="no"/>mararvvā<supplied reason="subaudible">.</supplied> dakṣiṇata<supplied reason="omitted">ḥ</supplied> duttiśa<supplied reason="omitted">r</supplied>mmaṇaḥ kṣetraM<supplied reason="subaudible">.</supplied> paścimata<supplied reason="omitted">ḥ</supplied> grāma-kṣetra<supplied reason="omitted">M</supplied><supplied reason="subaudible">.</supplied> Uttarataḥ pambi<unclear reason="eccentric_ductus" cert="low">kh</unclear>o<lb 
+n="20" break="no"/>rāvi<supplied reason="subaudible">.</supplied> A<space type="binding-hole"/>s<unclear>y</unclear>opari na kenacid <unclear>b</unclear>ādhā karttavyā<supplied reason="subaudible">.</supplied> yaẖ karoti sa pañcabhir mmahā-pātakai<lb 
+n="21" break="no"/>s saṁyu<space type="binding-hole"/>kto bhavati<supplied reason="subaudible">.</supplied> tathā vyāsenāpy uktaM</p>
+<lg n="1" met="anuṣṭubh">
+<l n="a">bahubhi<supplied reason="omitted">r</supplied> vvasudhā dattā</l>
+<l n="b">bahubhi<lb 
+n="22" break="no"/>ś cānupālitā<unclear>||</unclear></l>
+<l n="c">yasya yasya yadā bhūmis</l>
+<l n="d">tasya tasya tadā phalaM||</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">sva-dat<unclear>t</unclear>ā<lb 
+n="23" break="no"/>m para-dattā<unclear>ṁ</unclear> vā</l>
+<l n="b">yo ha<choice><sic>k</sic><corr>r</corr></choice>eta vasundharā<supplied reason="omitted">ṁ</supplied></l>
+<l n="c">ṣaṣ<choice><sic>ṭh</sic><corr>ṭ</corr></choice>i-va<supplied reason="omitted">r</supplied>ṣṣa-sahasrāṇi</l>
+<l n="d">viṣṭhāyā<supplied reason="omitted">ṁ</supplied> jā<unclear>ya</unclear><lb 
+n="24" break="no"/>te kr̥miḥ||</l>
+</lg>
+<p>Ājñaptir asya dha<supplied reason="omitted">r</supplied>mmasya nissaramiṇyi</p>
 <pb 
 
 n="3v"/>
@@ -154,9 +168,101 @@ n="3v"/>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
-      <app loc="3">
-        <lem>x</lem>
-        <note>x</note>
+      <app loc="2">
+        <lem>r<unclear>ā</unclear><choice><sic>bdha</sic><corr>jyā</corr></choice>nā<supplied reason="omitted">ṁ</supplied></lem>
+        <rdg source="bib:Sampath2016_01">rā<unclear>jyā</unclear>nāṁ</rdg>
+      </app>
+      <app loc="6">
+        <lem>vapu<choice><sic>p</sic><corr>ṣ</corr></choice>āṁ</lem>
+        <rdg source="bib:Sampath2016_01">vapuṣāṁ</rdg>
+      </app>
+      <app loc="6">
+        <lem>kula<supplied reason="omitted">m a</supplied> <lb n="7" break="no"/>la<unclear>ṁ</unclear>kariṣṇor</lem>
+        <rdg source="bib:Sampath2016_01">kulam ā<lb n="7" break="no"/><unclear>laṁ</unclear>kariṣṇor</rdg>
+        <note>The top right corner of the plate is broken off. The blurred marks near the corner may perhaps be remnants of <foreign>ma</foreign> (or <foreign>mā</foreign> as per MDS), but if a character had ever been present here, it must have been very small. Scribal omission is more likely.</note>
+      </app>
+      <app loc="7">
+        <lem>yaśa<supplied reason="omitted">saḥ</supplied> śrī-</lem>
+        <rdg source="bib:Sampath2016_01">yaśaś śrī-</rdg>
+      </app>
+      <app loc="10">
+        <lem>-<choice><sic>s</sic><corr>p</corr></choice>ūta-</lem>
+        <rdg source="bib:Sampath2016_01">-pūta-</rdg>
+      </app>
+      <app loc="10">
+        <lem>-<unclear>v</unclear>ijayādi<supplied reason="omitted">tya</supplied>-</lem>
+        <note>This epithet is not applied to Maṅgi Yuvarāja anywhere else. See the commentary.</note>
+      </app>
+      <app loc="11">
+        <lem>samyak-<unclear>pra</unclear><lb n="12" break="no"/>jā-pālana-paraḫ parama-</lem>
+        <rdg source="bib:Sampath2016_01"><gap reason="illegible" quantity="2" unit="character"/><lb n="12" break="no"/>jāpāla<gap reason="illegible" quantity="3" unit="character"/>ṟparama-</rdg>
+      </app>
+      <app loc="13">
+        <lem>-śrī-<unclear>vi</unclear><space type="binding-hole"/><unclear>ṣṇu</unclear>varddhana-</lem>
+        <rdg source="bib:Sampath2016_01">-viṣṇuvarddhana-</rdg>
+      </app>
+      <app loc="14">
+        <lem>Ariye<space type="binding-hole"/>ṟu</lem>
+        <rdg source="bib:SomasekharaSarma1924_01 bib:Sampath2016_01">Ariyeḍu</rdg>
+      </app>
+      <app loc="14">
+        <lem>rāṣ<choice><sic>p</sic><corr>ṭ</corr></choice>rakūṭa-</lem>
+        <rdg source="bib:Sampath2016_01">rāṣṭrakūṭa-</rdg>
+      </app>
+      <app loc="16">
+        <lem>sūkiśarmmaṇaḫ</lem>
+        <rdg source="bib:SomasekharaSarma1924_01 bib:Sampath2016_01">sūriśarmmaṇaḫ</rdg>
+        <note>The intended name may have been Sūriśarman, but the <foreign>k</foreign> is certain in the estampage. Cf. <foreign>haketa</foreign> in line 23 and the grandson's name later in this line.</note>
+      </app>
+      <app loc="16">
+        <lem>pautrāya <unclear cert="low">vi</unclear>nyiśarmmaṇaḫ</lem>
+        <rdg source="bib:SomasekharaSarma1924_01"><unclear>pautrāya na</unclear>nyiśarmmaṇaḫ</rdg>
+        <rdg source="bib:Sampath2016_01">pautrāyan-Angiśarmmaṇaḥ</rdg>
+        <note>The character I tentatively read as <foreign>vi</foreign> may well be <foreign>na</foreign>, as well as a number of other things. The next character is beyond doubt <foreign>nyi</foreign>. I am unable to guess the exact reading MDS had in mind and cite his transliteration to the letter.</note>
+      </app>
+      <app loc="16">
+        <lem><unclear reason="eccentric_ductus">n</unclear>ūriśarmma<unclear cert="low">ṇe</unclear></lem>
+        <rdg source="bib:SomasekharaSarma1924_01 bib:Sampath2016_01">sūriśarmmaṇe</rdg>
+        <note>The intended name may have been Sūriśarman, but the consonant looks like <foreign>n</foreign>. Cf. the grandfather's name earlier in this line.</note>
+      </app>
+      <app loc="17">
+        <lem><unclear>divya-s</unclear>āmpadādi-karmma-</lem>
+        <rdg source="bib:SomasekharaSarma1924_01">divya-sāṁpradāyādi-karmma-</rdg>
+        <rdg source="bib:Sampath2016_01"><unclear>divya</unclear>-sārmmadādi-karmma-</rdg>
+        <note>The reading is reasonably clear for the first two characters and certain for the rest, but I cannot confidently interpret it. I wonder if <foreign>divya-sāmpādika-karmma</foreign> may have been intended.</note>
+      </app>
+      <app loc="17">
+        <lem>-ni<supplied reason="omitted">mi</supplied>t<supplied reason="omitted">t</supplied>e</lem>
+        <rdg source="bib:Sampath2016_01">nimitte</rdg>
+      </app>
+      <app loc="17">
+        <lem>u<supplied reason="lost">daka</supplied>-</lem>
+        <rdg source="bib:Sampath2016_01">udaka-</rdg>
+        <note>The broken-off corner of the plate is too small to have accommodated two lost characters comfortably. Either they were very small, or only one was inscribed and the other omitted by the scribe. MDS is unlikely to have seen those characters, since SS also shows them as lost and supplied.</note>
+      </app>
+      <app loc="18">
+        <lem>-pūr<choice><sic>ddh</sic><corr>vv</corr></choice>van <choice><sic>y</sic><corr>d</corr></choice>atta<unclear>M</unclear></lem>
+        <rdg source="bib:Sampath2016_01">-pūrvvvam dattaM</rdg>
+      </app>
+      <app loc="18">
+        <lem>s<choice><sic><unclear>o</unclear></sic><corr>ī</corr></choice>mantāḥ</lem>
+        <rdg source="bib:Sampath2016_01">sīmāntāḥ</rdg>
+      </app>
+      <app loc="18">
+        <lem>tā<lb n="19" break="no"/>mararvvā</lem>
+        <rdg source="bib:SomasekharaSarma1924_01">tā<lb n="19" break="no"/>maravvā<supplied reason="omitted">ḍa</supplied></rdg>
+        <rdg source="bib:Sampath2016_01">tā<lb n="19" break="no"/>maravvāḍa</rdg>
+        <note>I assume that the (silent) emendation by the Telugu-speaking previous scholars is meaningful.</note>
+      </app>
+      <app loc="19">
+        <lem source="bib:SomasekharaSarma1924_01">pambi<unclear reason="eccentric_ductus" cert="low">kh</unclear>o<lb n="20" break="no"/>rāvi</lem>
+        <rdg source="bib:Sampath2016_01">tā<lb n="19" break="no"/>sannidhi-ko<lb n="20" break="no"/>rāvi</rdg>
+        <note>The initial <foreign>pa</foreign> might be read <foreign>ṣa</foreign>, but this is likewise true of other <foreign>pa</foreign>-s on the page. SS is probably correct in reading <foreign>kh</foreign> for the last consonant in line 19; a similar glyph for <foreign>kh</foreign> is attested in some early plates of the dynasty, but was here probably misinterpreted by the engraver as <foreign>g</foreign> with a subscript <foreign>v</foreign> or <foreign>dh</foreign>.</note>
+      </app>
+      <app loc="20">
+        <lem><unclear>b</unclear>ādhā karttavyā<supplied reason="subaudible">.</supplied> yaẖ karoti sa pañcabhir mmahā-pātakai<lb n="21" break="no"/>s saṁyu<space type="binding-hole"/>kto bhavati</lem>
+        <rdg source="bib:Sampath2016_01">bādhaḥ-karttavyāyaḥ-kāriti sa pañcabhir mmahā-pātakam<lb 
+n="21" break="no"/>s saṁyukto rbbavati</rdg>
       </app>
       
       
@@ -184,13 +290,14 @@ n="3v"/>
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1924-1925"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1924-25</citedRange><citedRange unit="item">3</citedRange></bibl>.<note>This is not the <ref target="DHARMA_INSVengiCalukya00093.xml">Ariyēṟa grant of Viṣṇuvardhana III</ref> which has not been reported in ARIE.</note> Published in Telugu by Mallampalli Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1924_01"/></bibl>) with facsimiles. Edited in English by M. D. Sampath (<bibl rend="omitname"><ptr target="bib:Sampath2016_01"/><citedRange unit="item">2</citedRange></bibl>) without facsimiles and without translation. The present edition by Dániel Balogh is based on estampages preserved at the ASI, Mysore, collated with Sampath's edition. The numerous (presumed) typos and minor errors of Sampath's edition are not shown in the apparatus.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1924-1925"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1924-25</citedRange><citedRange unit="item">3</citedRange></bibl>.<note>This is not the <ref target="DHARMA_INSVengiCalukya00093.xml">Ariyēṟa grant of Viṣṇuvardhana III</ref> which has not been reported in ARIE.</note> Published in Telugu by Mallampalli Somasekhara Sarma (<bibl rend="omitname"><ptr target="bib:SomasekharaSarma1924_01"/></bibl>) with facsimiles. Edited in English by M. D. Sampath (<bibl rend="omitname"><ptr target="bib:Sampath2016_01"/><citedRange unit="item">2</citedRange></bibl>) without facsimiles and without translation. The present edition by Dániel Balogh is based on estampages preserved at the ASI, Mysore, collated with Sampath's edition.<note>Sampath's edition has numerous (presumed) typos and minor errors, which are not shown in the apparatus here. Where I do show his readings, I arbitrarily interpret his inconsistent bracket-based markup as he presumably intended.</note> Readings by Somasekhara Sarma are only shown for problematic loci.</p>
   <listBibl type="primary">
-    <bibl></bibl>
+    <bibl n="SS"><ptr target="bib:SomasekharaSarma1924_01"/></bibl>
+    <bibl n="MDS"><ptr target="bib:Sampath2016_01"/><citedRange unit="item">2</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl>
+    <bibl><ptr target="bib:ARIE1924-1925"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1924-25</citedRange><citedRange unit="item">3</citedRange></bibl>
   </listBibl>
 </div>
 
