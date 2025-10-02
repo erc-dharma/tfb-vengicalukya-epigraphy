@@ -8,7 +8,7 @@
    <teiHeader>
       <fileDesc>
          <titleStmt>
-           <title>Koṇḍakaṟipḻola grant of Viṣṇuvardhana III</title>
+           <title>Koṇḍakaḻipḻola grant of Viṣṇuvardhana III</title>
             <respStmt>
                <resp>Encoding</resp>
                <persName ref="part:daba">
@@ -54,9 +54,9 @@
                <physDesc>
                   <handDesc>
 
-                    <p>Halantas. </p>
+                    <p>Halantas. Final M is reduced in size and simplified to a tick mark.</p>
                     <p>Original punctuation marks. </p>
-                    <p>Other palaeographic observations. Anusvāra 
+                    <p>Other palaeographic observations. Short and long dependent i are barely distinguished (the long vowel is open at the bottom left) and have been read with the benefit of doubt where applicable.
                       <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
 
 <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
@@ -94,7 +94,8 @@
          </listPrefixDef>
       </encodingDesc>
       <revisionDesc>
-         <change who="part:daba" when="2021-05-28" status="draft">Initial encoding of the file</change>
+        <change who="part:daba" when="2025-10-02" status="draft">Collation of ASI estampages</change>
+        <change who="part:daba" when="2021-05-28" status="draft">Initial encoding of the file</change>
          <!-- Add a <change> entry for each significant change to the file. -->
       </revisionDesc>
    </teiHeader>
@@ -115,59 +116,59 @@ n="1r"/><p><pb
 
 n="1v"/><lb 
 n="1"/>svasti<supplied reason="subaudible">.</supplied> śrīm<choice><sic>ā</sic><corr>a</corr></choice>tā<supplied reason="omitted">ṁ</supplied> sakala-bhuvana-saṁst<choice><sic>u</sic><corr>ū</corr></choice>yamāna-mānavya-sagotr<choice><sic>a</sic><corr>ā</corr></choice><lb 
-n="2" break="no"/>ṇāṁ <orig>hariti</orig>-putr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<supplied reason="omitted">ṁ</supplied> māt<choice><orig>ri</orig><reg>r̥</reg></choice>-gaṇa-paripālit<choice><sic>aṇa</sic><corr>ānā</corr></choice>M sv<choice><sic>a</sic><corr>ā</corr></choice>mi-ma<lb 
-n="3" break="no"/>h<choice><sic>a</sic><corr>ā</corr></choice>sena-p<choice><sic>a</sic><corr>ā</corr></choice>d<choice><sic>a</sic><corr>ā</corr></choice>nudhy<choice><sic>a</sic><corr>ā</corr></choice>tānāM bhagavan-n<choice><sic>a</sic><corr>ā</corr></choice>r<choice><sic>a</sic><corr>ā</corr></choice>ya<unclear>ṇa</unclear>-prasāda-samāsādita<lb 
-n="4" break="no"/>-vara-<supplied reason="omitted">varāha</supplied>-lāñchanekṣaṇa-kṣaṇa-vaśīkr̥t<orig>aṇaM śeṣa</orig>-maṇḍa<lb 
-n="5" break="no"/>lānāM <choice><sic>ma</sic><corr>A</corr></choice>śvamedhāvabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-sn<choice><sic>a</sic><corr>ā</corr></choice>na-pavitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-vapuṣā<lb 
-n="6" break="no"/>M caḷukyān<choice><sic>a</sic><corr>ā</corr></choice>M kulam alaṁkariṣṇo<supplied reason="omitted">ḥ</supplied> śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rāj<surplus>y</surplus>asya A<lb 
-n="7" break="no"/>nanya-nr̥pati-sā<choice><sic>ya</sic><corr>dhā</corr></choice>raṇa-guṇa-traya-sampādi<supplied reason="omitted">ta</supplied>-<choice><sic>samr̥</sic><corr>sāmrā</corr></choice>jya<pb 
+n="2" break="no"/>ṇā<supplied reason="omitted">ṁ</supplied> hāriti-putr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<supplied reason="omitted">ṁ</supplied> māt<choice><orig>ri</orig><reg>r̥</reg></choice>-gaṇa-paripālit<choice><sic>a</sic><corr>ā</corr></choice><choice><sic>ṇa</sic><corr>nā</corr></choice>M sv<choice><sic>a</sic><corr>ā</corr></choice>mi-ma<lb 
+n="3" break="no"/>h<choice><sic>a</sic><corr>ā</corr></choice>sena-p<choice><sic>a</sic><corr>ā</corr></choice>d<choice><sic>a</sic><corr>ā</corr></choice>nuddhy<choice><sic>a</sic><corr>ā</corr></choice>tānāM bhagavan-nār<choice><sic>a</sic><corr>ā</corr></choice>ya<supplied reason="omitted">ṇa</supplied>-prasāda-samāsādita<lb 
+n="4" break="no"/><space type="binding-hole"/>-vara-<supplied reason="omitted">varāha</supplied>-l<choice><sic>a</sic><corr>ā</corr></choice>ñchanekṣaṇa-kṣaṇa-vaśīkr̥t<orig>aṇaM śeṣa</orig>-maṇḍa<lb 
+n="5" break="no"/>lānāM <choice><sic>ma</sic><corr>A</corr></choice>śvamedh<choice><sic>a</sic><corr>ā</corr></choice>vabhr̥<choice><sic>t</sic><corr>th</corr></choice>a-sn<choice><sic>a</sic><corr>ā</corr></choice>na-pavitr<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-vapuṣā<lb 
+n="6" break="no"/>M caḷukyān<choice><sic>a</sic><corr>ā</corr></choice>M kulam ala<supplied reason="omitted">ṁ</supplied>kariṣṇo<supplied reason="omitted">ḥ</supplied> śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rāj<surplus>y</surplus>asya A<lb 
+n="7" break="no"/>nanya-nr̥pati-sā<choice><sic>th</sic><corr>dh</corr></choice><choice><sic>a</sic><corr>ā</corr></choice>raṇa-guṇa-traya-sampādi<supplied reason="omitted">ta</supplied>-s<choice><sic>a</sic><corr>ā</corr></choice>m<choice><sic>r̥</sic><corr>rā</corr></choice>jya<pb 
 
 n="2r" break="no"/><lb 
-n="8" break="no"/>sya pautr<choice><sic>āya</sic><corr>aḥ</corr></choice> tad-anuśapita-pitr̥guṇavva sampannasya śrī-sa<lb 
-n="9" break="no"/>rvva-lokāśraya-mah<choice><sic>a</sic><corr>ā</corr></choice>r<choice><sic>a</sic><corr>ā</corr></choice>jasya putra<supplied reason="omitted">ḥ</supplied> ya<supplied reason="omitted">ḥ</supplied> śakra Iv<choice><sic>a</sic><corr>ā</corr></choice>pratihata-śā<lb 
-n="10" break="no"/>sano ravir iva tejasv<choice><sic>i</sic><corr>ī</corr></choice> mataya Iva mano-nandana-kara<supplied reason="omitted">ḥ</supplied> nārāyaṇa<lb 
-n="11"/>Iva śrīm<choice><sic>a</sic><corr>ā</corr></choice>N śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> parama<lb 
-n="12" break="no"/>-brahmaṇya<supplied reason="omitted">ḥ</supplied> <supplied reason="omitted">ājñāpayati</supplied></p>
-<p>ya<choice><sic>dhe</sic><corr>thā</corr></choice> viditam astu vo <supplied reason="subaudible">’</supplied>smābhi<supplied reason="omitted">ḥ</supplied> vaṁgīpura-v<choice><sic>a</sic><corr>ā</corr></choice><lb 
-n="13" break="no"/>stavy<choice><sic>a</sic><corr>ā</corr></choice>ya <choice><orig>khaṇva</orig><reg>kāṇva</reg></choice>-<choice><sic>dh</sic><corr>g</corr></choice>otr<choice><sic>a</sic><corr>ā</corr></choice>ya <choice><orig>tahitriya</orig><reg>taittirīyāya</reg></choice> nandiśarmmaṇa<supplied reason="omitted">ḥ</supplied> putr<choice><sic>a</sic><corr>ā</corr></choice>ya <unclear>du</unclear><lb 
-n="14" break="no"/><gap reason="undefined" quantity="4" unit="character"/>ṇa<supplied reason="omitted">ḥ</supplied> <choice><orig>pauvutrāya</orig><reg>pautrāya</reg></choice> nandi<choice><sic>s</sic><corr>ś</corr></choice>a<supplied reason="omitted">r</supplied>mmaṇ<choice><sic>a</sic><corr>e</corr></choice> <supplied reason="subaudible">’</supplied>sm<choice><sic>a</sic><corr>ā</corr></choice>bh<choice><sic>e</sic><corr>i</corr></choice><supplied reason="omitted">r</supplied> nn<choice><sic>a</sic><corr>ā</corr></choice>tav<choice><sic>a</sic><corr>ā</corr></choice>
+n="8" break="no"/>sya pautra<choice><sic>ya</sic><corr>ḥ</corr></choice> tad-anuśayita-<sic>pitr̥guṇavva-sampannasya</sic> śrī-sa<lb 
+n="9" break="no"/>rvva-lokāśraya-mah<choice><sic>a</sic><corr>ā</corr></choice>r<choice><sic>a</sic><corr>ā</corr></choice>jasya putra<choice><sic>ya</sic><corr>ḥ</corr></choice> śakra Iv<choice><sic>a</sic><corr>ā</corr></choice>pratihata-śā<lb 
+n="10" break="no"/>san<unclear>o</unclear> ravir iva tejasv<choice><sic>i</sic><corr>ī</corr></choice> <sic>ma<unclear reason="eccentric_ductus">thapa</unclear></sic> Iva man<choice><sic>e</sic><corr>o</corr></choice>-nandana-ka<unclear>ra</unclear><supplied reason="omitted">ḥ</supplied> <unclear>nārā</unclear>yaṇa<lb 
+n="11"/><space type="binding-hole"/>Iva śrīm<choice><sic>a</sic><corr>ā</corr></choice>N śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> parama<lb 
+n="12" break="no"/>-brah<choice><sic>v</sic><corr>m</corr></choice>aṇya<supplied reason="omitted">ḥ</supplied> <supplied reason="omitted">ājñāpayati</supplied></p>
+<p>yath<choice><sic>a</sic><corr>ā</corr></choice> viditam astu vo <supplied reason="subaudible">’</supplied>smā<unclear>bh</unclear>i<supplied reason="omitted">ḥ</supplied> vaṁgipura-va<lb 
+n="13" break="no"/>stavy<choice><orig>a</orig><reg>āya</reg></choice> <choice><orig>khaṇva</orig><reg>kāṇva</reg></choice>-<choice><sic>gh</sic><corr>g</corr></choice>otr<choice><sic>a</sic><corr>ā</corr></choice>ya <choice><orig>tahitri<subst><del><unclear cert="low">na</unclear></del><add place="overstrike">ya</add></subst></orig><reg>taittirīyāya</reg></choice> <subst><del><unclear>ndiśa</unclear></del><add place="overstrike">na<choice><sic>ṇḍ</sic><corr>nd</corr></choice>iśa</add></subst><unclear>r</unclear>mma<unclear cert="low">ṇa</unclear><supplied reason="omitted">ḥ</supplied> <unclear>putr</unclear><choice><sic><unclear>a</unclear></sic><corr>ā</corr></choice>ya <unclear>d</unclear>u<lb 
+n="14" break="no"/><unclear cert="low">rgganandisarmma</unclear>ṇa<supplied reason="omitted">ḥ</supplied> <choice><orig>pauvutraya</orig><reg>pautrāya</reg></choice> nandi<choice><sic>s</sic><corr>ś</corr></choice>a<supplied reason="omitted">r</supplied>mmaṇ<choice><sic>a</sic><corr>e</corr></choice> <supplied reason="subaudible">’</supplied>sm<choice><sic>a</sic><corr>ā</corr></choice>bh<choice><sic>e</sic><corr>i</corr></choice><supplied reason="omitted">r</supplied> nn<choice><sic>a</sic><corr>ā</corr></choice>tav<choice><sic>a</sic><corr>ā</corr></choice>
 <pb 
 
 n="2v" break="no"/><lb 
 
-n="15" break="no"/><choice><sic>ḍh</sic><corr>ḍ</corr></choice>hi-viṣaye koṇḍakaṟipḻola n<choice><sic>a</sic><corr>ā</corr></choice>ma <surplus>ma</surplus> grāma<gap reason="undefined" quantity="3" unit="character"/><lb 
-n="16"/><choice><sic>Akneyantisi</sic><corr>Āgneyyān</corr></choice> diśi p<choice><sic>u</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>vva<choice><sic>d</sic><corr>t</corr></choice>a<supplied reason="omitted">ḥ</supplied> <foreign xml:lang="tel-Latn">kṟokiyūru kaṟāru <unclear>panta</unclear></foreign> s<choice><sic>i</sic><corr>ī</corr></choice><lb 
-n="17" break="no"/>m<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> dakṣiṇata<supplied reason="subaudible">ḥ</supplied> <choice><sic>sila</sic><corr>śilā</corr></choice> sīm<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> pa<choice><sic>c</sic><corr>ś</corr></choice>c<choice><sic>a</sic><corr>i</corr></choice>mata<supplied reason="subaudible">ḥ</supplied> <choice><sic>sila</sic><corr>śilā</corr></choice> sīm<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> Ut<supplied reason="omitted">t</supplied>arata<supplied reason="subaudible">ḥ</supplied><lb 
-n="18" break="no"/><foreign xml:lang="tel-Latn">koṇḍakaṟipḻola padakaṁkūru panta</foreign> sīm<choice><sic>aḥ</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> Ete<lb 
-n="19" break="no"/>ṣ<choice><sic>a</sic><corr>ā</corr></choice>ṁ madhye <choice><sic>tva</sic><corr>dvā</corr></choice>daśa-kodrava-khaṇḍik<choice><sic>a</sic><corr>ā</corr></choice>v<choice><sic>a</sic><corr>ā</corr></choice>pa-kṣetra<supplied reason="omitted">ḥ</supplied> pravarddhamā<lb 
-n="20" break="no"/>na-vijaya-rājya-saṁvatsare pañca varṣe prava<unclear>rddhamā</unclear><lb 
-n="21" break="no"/>ne candra-grahaṇa-nimitte sodaka-pūrvvaṁ <unclear>mātā-pitro</unclear><pb 
+n="15" break="no"/>ḍi-viṣaye koṇḍakaḻipḻo<unclear reason="eccentric_ductus">la</unclear> <add place="inline">n<unclear cert="low">ā</unclear></add>ma<surplus>ma</surplus> grām<unclear>e grāmasya</unclear> <lb 
+n="16"/><choice><sic>Akneyantisi</sic><corr>Āgneyyān diśi</corr></choice> p<choice><sic>u</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>vva<choice><sic>d</sic><corr>t</corr></choice>a<supplied reason="omitted">ḥ</supplied> <foreign xml:lang="tel-Latn">kuṟikiyuru kaṟuru panta</foreign> s<choice><sic>i</sic><corr>ī</corr></choice><lb 
+n="17" break="no"/>m<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> dakṣiṇata<supplied reason="subaudible">ḥ</supplied> <choice><orig>sila</orig><reg>śilā</reg></choice> s<choice><sic>i</sic><corr>ī</corr></choice>m<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> pa<choice><sic>c</sic><corr>ś</corr></choice>cimata<supplied reason="subaudible">ḥ</supplied> <choice><sic>sila</sic><corr>śilā</corr></choice> s<choice><sic>i</sic><corr>ī</corr></choice>m<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> Ut<supplied reason="omitted">t</supplied>arata<supplied reason="subaudible">ḥ</supplied> <lb 
+n="18" break="no"/><space type="binding-hole"/> <foreign xml:lang="tel-Latn">koṇḍakaḻipḻo<unclear reason="eccentric_ductus">la</unclear> pa<add place="below">ḍa</add>kaṁ<unclear reason="eccentric_ductus">ḷu</unclear>ru panta</foreign> s<choice><sic>i</sic><corr>ī</corr></choice>m<choice><sic>aḥ</sic><corr>ā</corr></choice><supplied reason="subaudible">.</supplied> Et<unclear>e</unclear><lb 
+n="19" break="no"/>ṣ<choice><sic>a</sic><corr>āṁ</corr></choice> madhye <choice><sic>tva</sic><corr>dvā</corr></choice>daśa-kodrava-khaṇḍik<choice><sic>a</sic><corr>ā</corr></choice>v<choice><sic>a</sic><corr>ā</corr></choice>pa-kṣetra<supplied reason="omitted">ṁ</supplied> prava<unclear>r</unclear>ddhamā<lb 
+n="20" break="no"/>na-vijaya-rājya-saṁvatsare pañca <choice><orig>varuṣe</orig><reg>varṣe</reg></choice> <unclear>pra</unclear><unclear cert="low">varttamā</unclear><lb 
+n="21" break="no"/>ne candra-grahaṇa-nimitte s<choice><sic>e</sic><corr>o</corr></choice><supplied reason="lost" evidence="previouseditor">da</supplied><unclear cert="low">ka-pū</unclear><supplied reason="lost" evidence="previouseditor">rvvaṁ mātā-pi</supplied>tr<unclear>o</unclear><pb 
 
 n="3r" break="no"/><lb 
-n="22" break="no"/>r ātmanaś ca <choice><sic>ś</sic><corr>s</corr></choice>va-puṇy<choice><sic>a</sic><corr>ā</corr></choice>v<choice><sic>a</sic><corr>ā</corr></choice>ptaye <surplus>ta</surplus> datta<choice><orig>ḥ</orig><reg>ṁ</reg></choice><supplied reason="subaudible">.</supplied> Uktañ ca bhagavatā vyāse<lb 
+n="22" break="no"/>r ā<unclear reason="eccentric_ductus">t</unclear>manaś ca <choice><sic>ś</sic><corr>s</corr></choice>va-puṇy<choice><sic>a</sic><corr>ā</corr></choice>v<choice><sic>a</sic><corr>ā</corr></choice>ptaye <surplus>ta</surplus> datta<choice><orig>ḥ</orig><reg>ṁ</reg></choice><supplied reason="subaudible">.</supplied> Uktañ ca bhaga<supplied reason="omitted">va</supplied>tā vy<unclear>ā</unclear>s<unclear>e</unclear><lb 
 n="23" break="no"/>na
 </p>
 <lg n="1" met="anuṣṭubh">
-<l n="a">bahubhir vvasudhā bhuktā</l>
+<l n="a">bahubhir vvasudhā bhukt<choice><sic>a</sic><corr>ā</corr></choice></l>
 <l n="b">bahubhiś cānupālitā</l>
 <l n="c">yasya yasya<lb 
-n="24"/>yadā bhūmi<supplied reason="omitted">ḥ</supplied></l>
-<l n="d">tasya <supplied reason="omitted">tasya</supplied> tadā phalaM</l>
+n="24"/>yad<choice><sic>a</sic><corr>ā</corr></choice> bhūmi<supplied reason="omitted">ḥ</supplied></l>
+<l n="d">tasya <supplied reason="omitted">tasya</supplied> tadā <choice><sic>p</sic><corr>ph</corr></choice>alaM</l>
 </lg>
 <lg n="2" met="anuṣṭubh">
 <l n="a">sva-dattāṁ <supplied reason="omitted">para-dattāṁ</supplied> v<choice><sic>a</sic><corr>ā</corr></choice></l>
 <l n="b">yo haret<choice><sic>i</sic><corr>a</corr></choice> vasundharā<supplied reason="omitted">ṁ</supplied></l>
 <l n="c"><lb 
-n="25"/>ṣaṣṭi-va<choice><orig>ruṣ</orig><reg>rṣ</reg></choice>a-sahasrāṇi</l>
-<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>āyāṁ jāyate kr̥miḥ</l>
+n="25"/><space type="binding-hole"/>ṣaṣṭi-va<choice><sic>ruṣ</sic><corr>rṣ</corr></choice>a-sahasrāṇi</l>
+<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>āyā<supplied reason="omitted">ṁ</supplied> jā<supplied reason="omitted">ya</supplied>te kr̥miḥ</l>
 </lg>
 <lg n="3" met="anuṣṭubh">
 <l n="a"><lb 
-n="26"/>sva<supplied reason="omitted">ṁ</supplied> <choice><sic>dandā</sic><corr>dātuṁ</corr></choice> sumaha<choice><orig><supplied reason="omitted">T</supplied> śa</orig><reg>c cha</reg></choice>kyaṁ</l>
+n="26"/>sva<choice><sic>dandā</sic><corr>n dātuṁ</corr></choice> sumaha<choice><orig><supplied reason="omitted">T</supplied> śa</orig><reg>c cha</reg></choice><choice><sic>kh</sic><corr>k</corr></choice>yaṁ</l>
 <l n="b">duḥ<choice><sic>k</sic><corr>kh</corr></choice>am anyasya pālana<supplied reason="omitted">ṁ</supplied></l>
 <l n="c">d<choice><sic>a</sic><corr>ā</corr></choice>naṁ vā pāla<lb 
 n="27" break="no"/>na<supplied reason="omitted">ṁ</supplied> veti</l>
-<l n="d">d<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">nā</supplied><choice><orig><supplied reason="omitted">T</supplied> śr</orig><reg>c chr</reg></choice>eyo <supplied reason="subaudible">’</supplied>n<choice><sic>a</sic><corr>u</corr></choice>p<choice><sic>a</sic><corr>ā</corr></choice>la<supplied reason="omitted">na</supplied>M</l>
+<l n="d">d<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">nā</supplied><choice><orig>chre</orig><reg>c chre</reg></choice>yo <supplied reason="subaudible">’</supplied>n<choice><sic>a</sic><corr>u</corr></choice>p<choice><sic>a</sic><corr>ā</corr></choice>la<supplied reason="omitted">na</supplied>M</l>
 </lg>
 <pb n="3v"/>
 
@@ -185,24 +186,30 @@ n="27" break="no"/>na<supplied reason="omitted">ṁ</supplied> veti</l>
     <listApp>
       <app loc="4">
         <lem>-vaśīkr̥t<orig>aṇaM śeṣa</orig>-maṇḍa<lb n="5" break="no"/>lānāM</lem>
-        <note>NR suggests the emendation <foreign>-vaśīkr̥tāśeṣārāti-maṇḍalānām</foreign>. However, this form does not seem to occur in related grants. In later grants of the dynasty, <foreign>-vaśīkr̥tārāti-maṇḍalānām</foreign> is standard, while several grants issued by the first few generations of rulers have <foreign>-vaśīkr̥tāśeṣa-mahībhr̥tām</foreign> or <foreign>-vaśīkr̥tāśeṣa-mahīkṣitām</foreign>. I suspect that one of these had been intended here, and though scribal error may well be present, I believe that at least some characters must have been misread by NR. If the word <foreign>maṇḍalānām</foreign> is indeed present, then NR's restoration is plausible.</note>
+        <note>NR suggests the emendation <foreign>-vaśīkr̥tāśeṣārāti-maṇḍalānām</foreign>. However, this form does not seem to occur in related grants. In later grants of the dynasty, <foreign>-vaśīkr̥tārāti-maṇḍalānām</foreign> is standard, while several grants issued by the first few generations of rulers have <foreign>-vaśīkr̥tāśeṣa-mahībhr̥tām</foreign> or <foreign>-vaśīkr̥tāśeṣa-mahīkṣitām</foreign>. The two phrases seem to be confounded here.</note>
+      </app>
+      <app loc="7">
+        <lem>-sāth<choice><sic>a</sic><corr>ā</corr></choice>raṇa-</lem>
+        <rdg source="bib:Ramesan1988_01">-sā<choice><sic>ya</sic><corr>dhā</corr></choice>raṇa-</rdg>
+        <note>This must be an error of the Devanagari typesetter in NR's edition.</note>
       </app>
       <app loc="7">
         <lem>guṇa-traya</lem>
         <note>It may be better to emend this to <foreign>guṇasya śakti-traya</foreign>; see note to the translation.</note>
       </app>
-      <app loc="7">
-        <lem>-sā<choice><sic>ya</sic><corr>dhā</corr></choice>raṇa-</lem>
-        <note>I wonder if <foreign>ya</foreign> is a typo in the Devanagari edition and the received reading is in fact <foreign>dha</foreign>.</note>
-      </app>
       <app loc="8">
-        <lem>pautr<choice><sic>āya</sic><corr>aḥ</corr></choice></lem>
+        <lem>pautra<choice><sic>ya</sic><corr>aḥ</corr></choice></lem>
         <rdg source="bib:Ramesan1988_01">pautrāya</rdg>
-        <note>I cannot tell what combination of scribal error, editorial misreading and typographic error we have here. I emend to the form I expect here, but compare the note on <foreign>putraya</foreign> in the next line.</note>
       </app>
       <app loc="8">
-        <lem>tad-anuśapita-pitr̥guṇavva sampannasya</lem>
-        <note>Again, I cannot guess the levels of scribal error, editorial misreading and typographic error here. NR tentatively emends to <foreign>pitr̥guṇaiṣca</foreign> (sic), but makes no other alteration. <foreign>anuśapita</foreign> is probably a Devanagari typo for <foreign>anuśayita</foreign>. Several grants (e.g. the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu grant</ref> and <ref target="DHARMA_INSVengiCalukya00048.xml">London plates</ref> of Maṁgi Yuvarāja) describe Maṁgi with the words <foreign>samatiśayita-pitr̥-guṇa-śakti-sampanna</foreign> (where I prefer to emend to <foreign>-guṇaḥ</foreign>, separating this phrase from the next). It is very likely that something much the same was intended here, and I believe that the received reading is in fact closer to this expected phrase than NR's edition.</note>
+        <lem>-anuśapita-</lem>
+        <rdg source="bib:Ramesan1988_01">-anuśapita-</rdg>
+        <note>A Devanagari typesetting error.</note>
+      </app>
+      <app loc="8">
+        <lem><sic>pitr̥guṇavva-sampannasya</sic></lem>
+        <rdg source="bib:Ramesan1988_01">pitr̥guṇ<choice><sic>avva</sic><corr>aiś ca</corr></choice> sampannasya</rdg>
+        <note>NR's emendation (in fact <foreign>pitr̥guṇaiṣca</foreign>, clearly a typographic mistake) renders the text intelligible, but has no parallel in related grants. Several of these (e.g. the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu grant</ref> and <ref target="DHARMA_INSVengiCalukya00048.xml">London plates</ref> of Maṁgi Yuvarāja) describe Maṁgi with the words <foreign>samatiśayita-pitr̥-guṇa-śakti-sampanna</foreign>, where I prefer to emend to <foreign>-guṇaḥ</foreign>, separating this phrase from the next. It is very likely that something much the same was intended here.</note>
       </app>
       <app loc="9">
         <lem>putra<supplied reason="omitted">ḥ</supplied> ya<supplied reason="omitted">ḥ</supplied></lem>
@@ -210,74 +217,105 @@ n="27" break="no"/>na<supplied reason="omitted">ṁ</supplied> veti</l>
         <note>I do not find <foreign>ya</foreign> superfluous; assuming that <foreign>yaḥ</foreign> was intended, this is a perfectly normal way to connect to the subsequent string of qualifiers for the reigning king. However, if the received reading is indeed <foreign>pautraya</foreign> in the previous line, then it is also possible that the dative forms <foreign>pautrāya</foreign> and <foreign>putrāya</foreign> had been intended here, incorrectly, to describe the king.</note>
       </app>
       <app loc="10">
-        <lem>mataya</lem>
-        <note>NR tentatively emends to <foreign>manmadha</foreign> (sic, probably intended as <foreign>manmatha</foreign>). I believe that a word meaning "moon" must have been intended here; compare <foreign>śaśalāñchanasyeva sakala-jagan-mano-nayanānandana-karasya</foreign> (of Viṣṇuvardhana I in the <ref target="DHARMA_INSVengiCalukya00008.xml">Niḍupaṟu grant of Jayasiṁha I</ref>) and <foreign>candra Iva sarvva-jana-mano-nayana-nandanaḥ</foreign> (of Jayasiṁha II in the <ref target="DHARMA_INSVengiCalukya00060.xml">Cendaṟa grant of Jayasiṁha II</ref>). Being immediately subsequent to a comparison to the sun also makes the moon likely here, and the word <foreign>kara</foreign> could well have been used punningly if the object of the comparison were indeed the moon. I am, however, unable to suggest a plausible word with this meaning.</note>
+        <lem><sic>ma<unclear reason="eccentric_ductus">thapa</unclear></sic></lem>
+        <rdg source="bib:Ramesan1988_01"><choice><sic>mataya</sic><corr>manmatha</corr></choice></rdg>
+        <note>NR's tentative emendation (printed <foreign>manmadha</foreign>, a Devanagari typo) does not seem satisfactory. In the received text, the second character may be <foreign>ta</foreign> but looks more like <foreign>tha</foreign>. The third character is definitely not <foreign>ya</foreign>; in addition to a misshapen <foreign>pa</foreign>, it could be a misshapen <foreign>ca</foreign>. Related grants sometimes compare the king to the moon in similar phrase, compare <foreign>śaśalāñchanasyeva sakala-jagan-mano-nayanānandana-karasya</foreign> (of Viṣṇuvardhana I in the <ref target="DHARMA_INSVengiCalukya00008.xml">Niḍupaṟu grant of Jayasiṁha I</ref>) and <foreign>candra Iva sarvva-jana-mano-nayana-nandanaḥ</foreign> (of Jayasiṁha II in the <ref target="DHARMA_INSVengiCalukya00060.xml">Cendaṟa grant of Jayasiṁha II</ref>). Being immediately subsequent to a comparison to the sun (as in the second parallel cited here) also makes the moon likely here, and the word <foreign>kara</foreign> could well have been used punningly if the object of the comparison were indeed the moon. My best guess at the composer's intent is therefore <foreign>mr̥gāṅka</foreign>, but since this presumes an egregious scribal mistake, I do not make the emendation in the text. Emending to <foreign>mādhava</foreign> would be less invasive, but inferior in the context.</note>
       </app>
       <app loc="12">
         <lem><supplied reason="omitted">ājñāpayati</supplied></lem>
         <note>The text omitted here may well have been longer. NR only notes that <q>some portion seems to be missing</q> at this point.</note>
       </app>
+      <app loc="12">
+        <lem>yath<choice><sic>a</sic><corr>ā</corr></choice></lem>
+        <rdg source="bib:Ramesan1988_01">ya<choice><sic>dhe</sic><corr>thā</corr></choice></rdg>
+      </app>
       <app loc="13">
         <lem><choice><orig>khaṇva</orig><reg>kāṇva</reg></choice>-</lem>
-        <note>The ARIE reporter reads the <foreign>gotra</foreign> as <foreign>khaṇḍi</foreign> and emends to <foreign>kauṇḍinya</foreign>.</note>
+        <note>The ARIE reporter reads the <foreign>gotra</foreign> as <foreign>khaṇḍi</foreign> and emends to <foreign>kauṇḍinya</foreign>. I concur with NR that it is <foreign>khaṇva</foreign>.</note>
       </app>
       <app loc="13">
-        <lem>putr<choice><sic>a</sic><corr>ā</corr></choice>ya</lem>
-        <note>I wonder if in fact <foreign>pautrāya</foreign> was intended here. This would result in a more typical formulation of the donee's descent, and would also eliminate the strangeness of father and son bearing the same name.</note>
+        <lem><choice><orig>tahitri<subst><del><unclear cert="low">na</unclear></del><add place="overstrike">ya</add></subst></orig><reg>taittirīyāya</reg></choice> <subst><del><unclear>ndiśa</unclear></del><add place="overstrike">na<choice><sic>ṇḍ</sic><corr>nd</corr></choice>iśa</add></subst><unclear>r</unclear>mma<unclear cert="low">ṇa</unclear><supplied reason="omitted">ḥ</supplied> <unclear>putr</unclear><choice><sic><unclear>a</unclear></sic><corr>ā</corr></choice>ya</lem>
+        <rdg source="bib:Ramesan1988_01"><choice><sic>tahitriya</sic><corr>taittirīya</corr></choice>-naṇḍiśarmmaṇa<supplied reason="omitted">ḥ</supplied> putr<choice><sic>a</sic><corr>ā</corr></choice>ya</rdg>
+        <note>In addition to the anomalies, this locus is confusing because of the descenders of <foreign>stu</foreign> and <foreign>smā</foreign> in the line above, the presence of scribal correction, and the faintness of the estampage. I am fairly certain that originally, <foreign>tahitri</foreign> was followed by <foreign>nandi</foreign> and a now illegible character that may have been <foreign>śa</foreign>, but also <foreign>ṣa</foreign> or <foreign>ma</foreign>. The first two of these were probably beaten out and replaced, lower down, by <foreign>yana</foreign>. The third, at the same height (and extending above and below the pre-correction character) was replaced by <foreign>ṇḍi</foreign> instead of the expected <foreign>ndi</foreign>. The <foreign>śa</foreign> after this is very faint and may also have been deleted or re-inscribed shallowly. After that, <foreign>mma</foreign> is positioned higher. Of the following <foreign>ṇa</foreign>, only the faintest trace is discernible in the estampage, and most of <foreign>pu</foreign> is also indistinct.</note>
       </app>
       <app loc="13">
-        <lem><unclear>du</unclear><lb n="14" break="no"/><gap reason="undefined" quantity="4" unit="character"/>ṇa<supplied reason="omitted">ḥ</supplied></lem>
-        <note>NR prints four dashes for the lacuna, which I suppose indicates four <foreign>akṣara</foreign>s. See also the translation and the commentary.</note>
+        <lem><unclear>d</unclear>u<lb 
+n="14" break="no"/><unclear cert="low">rgganandisarmma</unclear>ṇa<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:Ramesan1988_01"><unclear>du</unclear><lb n="14" break="no"/><gap reason="undefined" quantity="4" unit="character"/>ṇa<supplied reason="omitted">ḥ</supplied></rdg>
+        <note>My reading of the name is extremely tentative and partly conjectural, see also the commentary. The name may have been deleted in the original. Of the first character in line 14, only a headmark and part of an arc from the top of the body remain. These are consistent with reading g, and since the headmark is raised, a subscript consonant is likely. Of the following character, the headmark is distinct and the vestiges of the body imply <foreign>na</foreign>. Next, part of a headmark and a dependent <foreign>i</foreign> remain, but nothing of the body. Of the following character, there is again a largely discernible headmark and some vestiges of the body, from which sa is slightly more likely than <foreign>śa</foreign> (cf. the spelling of the next name in the line), but many other readings could be possible. The vestiges of the next character strongly suggest <foreign>rm</foreign>, and in any case, <foreign>śarmma</foreign> or <foreign>sarmma</foreign> is certainly expected here in the context. The following <foreign>ṇa</foreign> is pristine.</note>
       </app>
       <app loc="14">
-        <lem><choice><orig>pauvutrāya</orig><reg>pautrāya</reg></choice></lem>
-        <note>I wonder if <foreign>putrāya</foreign> was in fact intended here; see the note to <foreign>putraya</foreign> in the previous line.</note>
+        <lem><choice><orig>pauvutraya</orig><reg>pautrāya</reg></choice></lem>
+        <note>I wonder if <foreign>putrāya</foreign> was in fact intended here and <foreign>pautrāya</foreign> in the previous line. In that case, the sequence of grandfather and father would be more standard, and we would have (partly) identical names for the grandfather and grandson rather than, unusually, for the father and son.</note>
       </app>
       <app loc="14">
-        <lem><supplied reason="subaudible">’</supplied>sm<choice><sic>a</sic><corr>ā</corr></choice>bh<choice><sic>e</sic><corr>i</corr></choice><supplied reason="omitted">r</supplied> nn<choice><sic>a</sic><corr>ā</corr></choice>tav<choice><sic>a</sic><corr>ā</corr></choice><pb n="2v" break="no"/><lb n="15" break="no"/><choice><sic>ḍh</sic><corr>ḍ</corr></choice>hi-</lem>
-        <rdg source="bib:Ramesan1988_01"><supplied reason="subaudible">’</supplied>sm<choice><sic>a</sic><corr>ai</corr></choice> <choice><sic>bh</sic><corr>p</corr></choice>enn<choice><sic>a</sic><corr>ā</corr></choice>tav<choice><sic>a</sic><corr>ā</corr></choice>
-<pb n="2v" break="no"/><lb n="15" break="no"/><choice><sic>ḍh</sic><corr>ḍ</corr></choice>i-</rdg>
-        <note>The ARIE reporter gives the name of the district as <foreign><unclear>penn</unclear>atavāḍi</foreign>. Although my emendation results in two iterations of <foreign>asmābhiḥ</foreign> in the sentence, given the typical formulation of related grants I am certain that NR's emendation is inappropriate. The district names Nātavāḍi and Pennātavāḍi are both mentioned in several related grants; NR claims that they are identical, but I do not know whether this has been established.</note>
+        <lem><supplied reason="subaudible">’</supplied>sm<choice><sic>a</sic><corr>ā</corr></choice>bh<choice><sic>e</sic><corr>i</corr></choice><supplied reason="omitted">r</supplied> nn<choice><sic>a</sic><corr>ā</corr></choice>tav<choice><sic>a</sic><corr>ā</corr></choice><pb n="2v" break="no"/><lb n="15" break="no"/>ḍi-</lem>
+        <rdg source="bib:Ramesan1988_01"><supplied reason="subaudible">’</supplied>sm<choice><sic>a</sic><corr>ai</corr></choice> <choice><sic>bh</sic><corr>p</corr></choice>enn<choice><sic>a</sic><corr>ā</corr></choice>tav<choice><sic>a</sic><corr>ā</corr></choice><pb n="2v" break="no"/><lb n="15" break="no"/><choice><sic>ḍh</sic><corr>ḍ</corr></choice>i-</rdg>
+        <note>The ARIE reporter gives the name of the district as <foreign><unclear>penn</unclear>atavāḍi</foreign>. Although my emendation results in two iterations of <foreign>asmābhiḥ</foreign> in the sentence, given the typical formulation of related grants I am certain that NR's emendation is inappropriate. No related charters use <foreign>asmai</foreign> in such a context, while many put <foreign>asmābhiḥ</foreign> here. The district names Nātavāḍi and Pennātavāḍi are both attested and may be identical or the latter may be an extension of the former.</note>
       </app>
       <app loc="15">
-        <lem>koṇḍakaṟipḻola</lem>
-        <note>I am unsure of this village name. NR's accompanying text uses <q>Koṇḍakariplola</q> in transliteration, while his edition in a mixture of Devanagari and Telugu script may have <q>कोण्डक ఱిपो ೞल</q>; in fact I am uncertain in identifying the second Telugu character in this string, as it looks similar (but not identical) to ೞ in this line, but seems to be టి in line 18. I assume that his transliterated text is correct apart from the lack of diacritics.</note>
+        <lem>koṇḍakaḻipḻola</lem>
+        <note>NR's accompanying text uses <q>Koṇḍakariplola</q> in transliteration, while his edition in a mixture of Devanagari and Telugu script shows <q>कोण्डक ఱిपो లుल</q>, which I take to be a typographic approximation of <foreign>koṇḍakaṟipḻola</foreign>. See also the second instance of the name in line 18. The actual reading begins beyond doubt with <foreign>koṇḍakaḻipḻo</foreign>. The last character's body is shaped like that of <foreign>la</foreign>, but it completely lacks the tail curving back and down above the body. The tail is present in all instances of <foreign>la</foreign> except for the two occurrences of this name here and in line 18 below. As it is, the received character could be read as <foreign>ba</foreign> in related inscriptions of a slightly later time, but again, all instances of <foreign>ba</foreign> in the present inscription differ from it in that they have a closed box for a body.</note>
       </app>
       <app loc="15">
-        <lem source="bib:Ramesan1988_01"><surplus>ma</surplus></lem>
-        <note>This <foreign>ma</foreign> may well be superfluous, as judged by NR. It also seems possible that <foreign>mahā-</foreign> had been intended.</note>
+        <lem><add place="inline">n<unclear cert="low">ā</unclear></add>ma<surplus>ma</surplus></lem>
+        <rdg source="bib:Ramesan1988_01">n<choice><sic>a</sic><corr>ā</corr></choice>ma<surplus>ma</surplus></rdg>
+        <note>The narrow <foreign>nā</foreign> (or perhaps <foreign>na</foreign>) is almost certainly a subsequent insertion; if the vowel marker is present, it is close to the stem and faint. The second <foreign>ma</foreign> may have been deleted in the original or redundant as judged by NR. It also seems possible that <foreign>mahā-</foreign> had been intended.</note>
+      </app>
+      <app loc="15">
+        <lem>grām<unclear>e grāmasya</unclear></lem>
+        <rdg source="bib:Ramesan1988_01">grāma<gap reason="undefined" quantity="3" unit="character"/></rdg>
+        <note>The locus is damaged, but my reading is reasonably confident.</note>
       </app>
       <app loc="16">
         <lem>p<choice><sic>u</sic><corr>ū</corr></choice><supplied reason="omitted">r</supplied>vva<choice><sic>d</sic><corr>t</corr></choice>a<supplied reason="omitted">ḥ</supplied></lem>
-        <note>While the intended word is straightforward, I am not sure of the received reading here. NR's edition prints literally <q>पु(पू)व्व‘द’(पूर्व्वतः?)</q>; I cannot interpret the apostrophes.</note>
+        <note>In the character <foreign>da</foreign>, there are two dots placed to the left and right of the stem, just above the body. They may be a scribal mark indicating an error (though why this one error out of dozens?), or possibly a very strange manner of inserting a <foreign>visarga</foreign> subsequently.</note>
       </app>
       <app loc="16">
-        <lem>kṟokiyūru</lem>
-        <note>Again, I cannot determine the original spelling of this word. NR's article uses <q>Krokiyuru</q>, while his edition has <q>कु ఱి कियूरु</q>. I assume that the transliteration in the edition is more reliable except for the diacritical marks.</note>
+        <lem>kuṟikiyuru</lem>
+        <rdg source="bib:Ramesan1988_01">kuṟikiyūru</rdg>
+        <note>NR's article uses <q>Krokiyuru</q>, but his edition's text is correct.</note>
       </app>
       <app loc="16">
-        <lem>kaṟāru</lem>
-        <note>This name or word is even less certain than the previous one. NR's article uses <q>Karuru</q>, while his edition has <q>कఱాरु</q>. In this case I prefer to assume that the edition is correct.</note>
-      </app>
-      <app loc="17">
-        <lem source="bib:Ramesan1988_01"><choice><sic>sila</sic><corr>śilā</corr></choice></lem>
-        <note>I endorse NR's emendation but the composer's intent may have been something else.</note>
+        <lem>kaṟuru</lem>
+        <rdg source="bib:Ramesan1988_01">kaṟūru</rdg>
       </app>
       <app loc="18">
-        <lem>koṇḍakaṟipḻola</lem>
-        <note>See the note on this word in line 15 above.</note>
+        <lem>koṇḍakaḻipḻola</lem>
+        <note>See the note on this word in line 15 above. For this instance, NR's mixture of Devanagari and Telugu characters seems to read <foreign>koṇḍakaṟipoṭila</foreign>.</note>
+      </app>
+      <app loc="18">
+        <lem>pa<add place="below">ḍa</add>kaṁ<unclear reason="eccentric_ductus">ḷu</unclear>ru</lem>
+        <rdg source="bib:Ramesan1988_01">padakaṁkūru</rdg>
+        <note>The last character is rather awkward, but I am fairly confident of its reading. Compare also the village Paḷaṁkalūru granted in the <ref target="DHARMA_INSVengiCalukya00043.xml">Paḷaṁkalūru grant of Amma II</ref> and located near Nandigāma, the findspot of the present plates.</note>
       </app>
       <app loc="20">
-        <lem>prava<unclear>rddhamā</unclear><lb n="21" break="no"/>ne</lem>
-        <note>I strongly doubt that this word was correctly read by NR. Perhaps <foreign>pravarttamāne</foreign> would be more appropriate, but I do not think this would have been used in conjunction with <foreign>pravarddhamāne</foreign>. Could the month have been specified here, for instance <foreign>śrāvaṇa-māse</foreign> or <foreign>kārttika-māse</foreign>?</note>
+        <lem><unclear>pra</unclear><unclear cert="low">varttamā</unclear><lb 
+n="21" break="no"/>ne</lem>
+        <rdg source="bib:Ramesan1988_01">prava<unclear>rddhamā</unclear><lb n="21" break="no"/>ne</rdg>
+        <note>I am very unhappy with this word and guess tentatively. Interestingly, the previous (and expected) instance of <foreign>pravarddhamāna</foreign> is right above this one. After the unclear but fairly certain <foreign>pra</foreign> (below and slightly to the right of the <foreign>pra</foreign> above), we have a plausible <foreign>va</foreign> (alternatively: <foreign>ca</foreign>, <foreign>bha</foreign>, below and a hair to the left of the <foreign>rddha</foreign> of the previous line), and at the end, a very likely <foreign>ma</foreign> (though probably not <foreign>mā</foreign>, below and a hair to the right of the <foreign>mā</foreign> above). There is nothing discernible between the possible <foreign>va</foreign> and the possible <foreign>ma</foreign>, and NR's <foreign>rddha</foreign> would have to have been much compressed to fit here. My alternative <foreign>rtta</foreign> would also have to have been compressed, but a faint stroke to the left of <foreign>tro</foreign> in the next line may be the remnant of a subscript <foreign>t</foreign>. Reading <foreign>pravarttamāne</foreign> would also eliminate the redundancy with the earlier <foreign>pravarddhamāna</foreign>, but the usage is strange.</note>
       </app>
       <app loc="21">
-        <lem>bhuktā</lem>
+        <lem>s<choice><sic>e</sic><corr>o</corr></choice><supplied reason="lost" evidence="previouseditor">da</supplied><unclear cert="low">ka-pū</unclear><supplied reason="lost" evidence="previouseditor">rvvaṁ mātā-pi</supplied>tr<unclear>o</unclear>°</lem>
+        <rdg source="bib:Ramesan1988_01">sodaka-pūrvvaṁ <unclear>mātā-pitro</unclear>°</rdg>
+        <note>The characters marked here as lost and supplied are completely invisible in the estampage.</note>
+      </app>
+      <app loc="22">
+        <lem>bhaga<supplied reason="omitted">va</supplied>tā</lem>
+        <rdg source="bib:Ramesan1988_01">bhagavatā</rdg>
+      </app>
+      <app loc="23">
+        <lem>bhukt<choice><sic>a</sic><corr>ā</corr></choice></lem>
         <note>Although this word occurs in grants of Pulakeśin II, all Eastern Cālukya grants except the pre-royal <ref target="DHARMA_INSVengiCalukya00001.xml">Sātārā plates of Viṣṇuvardhana I</ref> use this stanza with <foreign>dattā</foreign>.</note>
       </app>
+      <app loc="25">
+        <lem>jā<supplied reason="omitted">ya</supplied>te</lem>
+        <rdg source="bib:Ramesan1988_01">jāyate</rdg>
+      </app>
       <app loc="27">
-        <lem>d<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">nā</supplied><choice><orig><supplied reason="omitted">T</supplied> śr</orig><reg>c chr</reg></choice>eyo</lem>
-        <note>I believe that the inscribed text may have been <foreign>daśreyo</foreign> as a scribal error for <foreign>dānāT śreyo</foreign>, which I normalise to <foreign>dānāc chreyo</foreign>. Compare <foreign>sumaha śakyaṁ</foreign> in line 26 above. However, the received text may be something else here. NR's edition literally reads, <q>द(दानात्)ध्के यो</q>, where I assume that <foreign>ध्के</foreign> is a typographic error for <foreign>श्रे</foreign>.</note>
+        <lem>d<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">nā</supplied><choice><orig>chre</orig><reg>c chre</reg></choice>yo</lem>
+        <rdg source="bib:Ramesan1988_01"><choice><sic>da</sic><corr>dānāT</corr></choice>dhke yo</rdg>
+        <note>I assume that <foreign>dhke</foreign> in NR's edition must be a typo for <foreign>cchre</foreign> or <foreign>chre</foreign>.</note>
       </app>
       
 <!--
@@ -297,9 +335,9 @@ n="27" break="no"/>na<supplied reason="omitted">ṁ</supplied> veti</l>
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<p n="1-12">The grandson of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">II</supplied>, who attained sovereignty through his triad of virtues in which he was quite beyond other kings<note>I do not know what triad of virtues <supplied reason="explanation"><foreign>guṇa-traya</foreign></supplied> may have been intended here. Finding no similar phrase in related grants, I suspect that this may be a scribal omission (see the apparatus to line 7). With the emendation I suggest there, the meaning would be “whose virtues were quite beyond other kings and who attained sovereignty through the triad of his powers.”</note> and who was eager to adorn the lineage of the majestic Caḷukyas—who are of the Mānavya gotra which is praised by the entire world, who are sons of Hariti,<note>The phrase “who attained kingship by the grace of Kauśikī’s boon” is practically universal at this point and was probably omitted here out of neglect.</note> who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom <supplied reason="omitted">all kings</supplied><note>See the apparatus to line 4 for the tentative restoration that I translate here.</note> instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation">avabhr̥tha</supplied> of the Aśvamedha sacrifice; the son of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Vijayasiddhi <supplied reason="explanation">Maṅgi Yuvarāja</supplied>, <seg cert="low">who surpasses the virtues of his father, and who is endowed with <supplied reason="subaudible">the three</supplied> power<supplied reason="subaudible">s</supplied></seg>:<note>See the apparatus to line 8 for the tentative restoration that I translate here.</note> His Majesty the supremely pious King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">III</supplied>—whose command is as incontrovertible as that of Śakra, who blazes like the sun, who gladdens the mind like <seg cert="low">the moon</seg><note>See the apparatus to line 10.</note> and who is as majestic as Nārāyaṇa <seg rend="pun">possesses Śrī</seg>—<supplied reason="omitted">commands as follows</supplied></p>
+<p n="1-12">The grandson of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">II</supplied>, who attained sovereignty through his triad of virtues in which he was quite beyond other kings<note>I do not know what triad of virtues <supplied reason="explanation"><foreign>guṇa-traya</foreign></supplied> may have been intended here. Finding no similar phrase in related grants, I suspect that this may be a scribal omission (see the apparatus to line 7). With the emendation I suggest there, the meaning would be “whose virtues were quite beyond other kings and who attained sovereignty through the triad of his powers.”</note> and who was eager to adorn the lineage of the majestic Caḷukyas—who are of the Mānavya gotra which is praised by the entire world, who are sons of Hāriti,<note>The phrase “who attained kingship by the grace of Kauśikī’s boon” is practically universal at this point and was probably omitted here out of neglect.</note> who are protected by the band of Mothers, who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, to whom <supplied reason="omitted">all kings</supplied><note>See the apparatus to line 4 for the tentative restoration that I translate here.</note> instantaneously submit at the <supplied reason="subaudible">mere</supplied> sight of the superior Boar emblem they have acquired by the grace of the divine Nārāyaṇa, and whose bodies have been hallowed through washing in the purificatory ablutions <supplied reason="explanation">avabhr̥tha</supplied> of the Aśvamedha sacrifice; the son of His Majesty King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Vijayasiddhi <supplied reason="explanation">Maṅgi Yuvarāja</supplied>, <seg cert="low">who surpasses the virtues of his father, and who is endowed with <supplied reason="subaudible">the three</supplied> power<supplied reason="subaudible">s</supplied></seg>:<note>See the apparatus to line 8 for the tentative restoration that I translate here.</note> His Majesty the supremely pious King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied> Viṣṇuvardhana <supplied reason="explanation">III</supplied>—whose command is as incontrovertible as that of Śakra, who blazes like the sun, who gladdens the mind like <seg cert="low">the moon <seg rend="pun">with its rays</seg></seg><note>See the apparatus to line 10.</note> and who is as majestic as Nārāyaṇa <seg rend="pun">possesses Śrī</seg>—<supplied reason="omitted">commands as follows</supplied></p>
 <p n="12-23">To wit: let it be known to you that 
-to Nandiśarman, a resident of Vaṁgīpura of the <seg cert="low">Kāṇva</seg><note>See the apparatus to line 13.</note> <foreign>gotra</foreign> and the Taittirīya <supplied reason="subaudible">school</supplied>, son of Nandiśarman and grandson of Du<gap reason="lost"/>n,<note>The name partly lost here may have been Durganandiśarman, and father and grandfather may have been mixed up by the scribe. See also the commentary and the apparatus to lines 13 and 14.</note> we have given <supplied reason="lost" cert="low">in</supplied> the southeastern direction <supplied reason="lost" cert="low">of</supplied> the village named Koṇḍakaṟipḻola in Nātavāḍi district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied>—To the east, the border is <seg cert="low">the road between</seg> Kṟokiyūru and Kaṟāru.<note>Here and below in connection to Koṇḍakaṟipḻola and Padakaṁkūru, I assume without complete confidence that <foreign>panta</foreign> is a form of Sanskrit <foreign>patha</foreign> or <foreign>pathin</foreign>. The same form occurs in the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu grant of Maṅgi Yuvarāja</ref> in association of a (probable) village name. The form <foreign>panthaḥ</foreign> is used with a village name (explicitly specified as a village) in the <ref target="DHARMA_INSVengiCalukya00089.xml">Pamiḍimukkala plates (set 2) of Viṣṇuvardhana II</ref> and the <ref target="DHARMA_INSVengiCalukya00096.xml">Peddāpurappāḍu plates (set 3) of Viṣṇuvardhana II</ref>, where it is distinguished from a <foreign>rathyā-mārgaḥ</foreign>.</note> To the south, the border is <seg cert="low">a cliff</seg>. To the west, the border is <seg cert="low">a cliff</seg>. To the north, the border is <seg cert="low">the road between</seg> Koṇḍakaṟipḻola and Padakaṁkūru—in the midst of these <supplied reason="subaudible">boundaries</supplied>, a field <supplied reason="explanation">sufficient</supplied> for sowing twelve <foreign>khaṇḍikā</foreign>s of <foreign>kodrava</foreign> seed in order to acquire merit <supplied reason="explanation"><foreign>puṇya</foreign></supplied> for our mother and father and ourselves, in the year that is the fifth year of our progressive victorious reign, on the occasion of an eclipse of the moon <seg cert="low">being in progress</seg>,<note>See the apparatus to line 20 for my doubts concerning the reading of this phrase.</note> <supplied reason="subaudible">the donation being</supplied> sanctified by <supplied reason="explanation">a libation of</supplied> water. The reverend Vyāsa too has said:</p>
+to Nandiśarman, a resident of Vaṁgipura of the <seg cert="low">Kāṇva</seg><note>See the apparatus to line 13.</note> <foreign>gotra</foreign> and the Taittirīya <supplied reason="subaudible">school</supplied>, son of Nandiśarman and grandson of Du<seg cert="low">rganandiśarma</seg>n,<note>The name is mostly lost. The father and grandfather may have been mixed up by the scribe. See also the commentary and the apparatus to lines 13 and 14.</note> we have given, at the village named Koṇḍakaḻipḻola in Nātavāḍi district <supplied reason="explanation"><foreign>viṣaya</foreign></supplied>, in the southeastern direction of the village—To the east, the border is <seg cert="low">the road between</seg> Kuṟikiyuru and Kaṟuru.<note>Here and below in connection to Koṇḍakaḻipḻola and Padakaṁkūru, I assume without complete confidence that <foreign>panta</foreign> is a form of Sanskrit <foreign>patha</foreign> or <foreign>pathin</foreign>. The same form occurs in the <ref target="DHARMA_INSVengiCalukya00014.xml">Nutulapaṟu grant of Maṅgi Yuvarāja</ref> in association of a (probable) village name. The form <foreign>panthaḥ</foreign> is used with a village name (explicitly specified as a village) in the <ref target="DHARMA_INSVengiCalukya00089.xml">Pamiḍimukkala plates (set 2) of Viṣṇuvardhana II</ref> and the <ref target="DHARMA_INSVengiCalukya00096.xml">Peddāpurappāḍu plates (set 3) of Viṣṇuvardhana II</ref>, where it is distinguished from a <foreign>rathyā-mārgaḥ</foreign>.</note> To the south, the border is <seg cert="low">a <supplied reason="explanation">demarcation</supplied> stone</seg>. To the west, the border is <seg cert="low">a <supplied reason="explanation">demarcation</supplied> stone</seg>. To the north, the border is <seg cert="low">the road between</seg> Koṇḍakaḻipḻola and Padakaṁkūru—in the midst of these <supplied reason="subaudible">boundaries</supplied>, a field <supplied reason="explanation">sufficient</supplied> for sowing twelve <foreign>khaṇḍikā</foreign>s of <foreign>kodrava</foreign> seed in order to acquire merit <supplied reason="explanation"><foreign>puṇya</foreign></supplied> for our mother and father and ourselves, in <seg cert="low">the course of</seg><note>See the apparatus to line 20 for my doubts concerning the reading of this phrase.</note> the year that is the fifth year of our progressive victorious reign, on the occasion of an eclipse of the moon  <supplied reason="subaudible">the donation being</supplied> sanctified by <supplied reason="explanation">a libation of</supplied> water. The reverend Vyāsa too has said:</p>
 <p rend="stanza" n="1">Many <supplied reason="explanation">kings</supplied> have enjoyed the land, and many have preserved it <supplied reason="explanation">as formerly granted</supplied>. Whosoever at any time owns the land, the fruit <seg rend="pun">reward <supplied reason="explanation">accrued of granting it</supplied></seg> belongs to him at that time.</p>
 <p rend="stanza" n="2">He who would seize land, whether given by himself or by another, shall be born as a worm in faeces for sixty thousand years.</p>
 <p rend="stanza" n="3">It is possible <supplied reason="explanation">i.e. easy</supplied> to give away what is yours, <supplied reason="subaudible">even if it is</supplied> a great thing; <supplied reason="subaudible">but</supplied> it is hard to preserve that <supplied reason="subaudible">given away</supplied> by another. <supplied reason="subaudible">When it comes to</supplied> the question, “donation or preservation <supplied reason="subaudible">of previous grants</supplied>?”—<supplied reason="subaudible">the answer is that</supplied> preservation is superior to donation.
@@ -319,7 +357,7 @@ to Nandiśarman, a resident of Vaṁgīpura of the <seg cert="low">Kāṇva</seg
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1997-1998"/><citedRange unit="page">18</citedRange><citedRange unit="appendix">A/1997-98</citedRange><citedRange unit="item">4</citedRange></bibl> without discussion of details. Edited from the original plates by N. Ramesan (<bibl rend="omitname"><ptr target="bib:Ramesan1988_01"/><citedRange unit="item">C</citedRange></bibl>), without facsimiles and without translation. The present edition by Dániel Balogh thus follows the published edition, silently correcting only obvious typos and offering suggestions for improvement in the apparatus.</p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1997-1998"/><citedRange unit="page">18</citedRange><citedRange unit="appendix">A/1997-98</citedRange><citedRange unit="item">4</citedRange></bibl> without discussion of details. Edited from the original plates by N. Ramesan (<bibl rend="omitname"><ptr target="bib:Ramesan1988_01"/><citedRange unit="item">C</citedRange></bibl>), without facsimiles and without translation. The present edition by Dániel Balogh is based on estampages preserved at the ASI, Mysore, collated with Ramesan's edition. Minor errors in the printed edition are not shown in the apparatus.</p>
   <listBibl type="primary">
     <bibl n="NR"><ptr target="bib:Ramesan1988_01"/></bibl>
   </listBibl>
