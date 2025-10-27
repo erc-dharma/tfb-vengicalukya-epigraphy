@@ -107,7 +107,7 @@
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
-n="1"/>tribhuvanāṁkuśa</ab>
+n="1"/>śrī-tribhuvanāṁkuśa</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <pb 
@@ -176,8 +176,9 @@ n="23" break="no"/><unclear>raṇā</unclear><supplied reason="omitted">t</suppl
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
     <listApp>
       <app loc="1">
-        <lem source="bib:Venkataramanayya1974_02">tribhuvanāṁkuśa</lem>
-        <note>This is how NV reports the seal legend, but I expect that it begins with <foreign>śrī-</foreign> as in related grants. The only available photo is NV's "general view of the plates" where the seal is out of focus and at an angle to the lens; <foreign>tribhu</foreign> is more or less recognisable there, but nothing else. The seal is also atypical in lacking the boar emblem, so perhaps <foreign>śrī-</foreign> is also missing.</note>
+        <lem>śrī-tribhuvanāṁkuśa</lem>
+        <rdg source="bib:Venkataramanayya1974_02">tribhuvanāṁkuśa</rdg>
+        <note>The ASI cover sheet reports the legend with <foreign>śrī-</foreign>. The only available photo is NV's "general view of the plates" where the seal is out of focus and at an angle to the lens; <foreign>tribhu</foreign> is more or less recognisable there, but nothing else. The prefix <foreign>śrī-</foreign> is present in all known seals with the <foreign>tribhuvanāṁkuśa</foreign> legend except for the <ref target="DHARMA_INSVengiCalukya00092.xml">Pasapubaṟṟu grant of Viṣṇuvardhana III</ref>, which may be the earliest specimen of this legend.</note>
       </app>
     </listApp>
   </div>
