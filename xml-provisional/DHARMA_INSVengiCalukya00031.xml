@@ -107,6 +107,9 @@
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
   <ab><lb 
+n="1"/>śrī-tri<unclear>bhu</unclear><unclear cert="low">vanāṁ</unclear><unclear>ku</unclear><lb 
+n="2" break="no"/><unclear>śa</unclear></ab>
+  <ab><lb 
 n="1"/>śrī-tribhuvanasī<unclear>ha</unclear></ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
@@ -195,6 +198,14 @@ n="5v"/>
         
 <div type="apparatus">
   <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+    <listApp>
+      <app loc="1">
+        <lem>śrī-tri<unclear>bhu</unclear><unclear cert="low">vanāṁ</unclear><unclear>ku</unclear><lb 
+n="2" break="no"/><unclear>śa</unclear></lem>
+        <rdg source="bib:LakshmanaRao1927-1928_02">śrī-tribhuvanasīha</rdg>
+        <note>The legend reported by LR would be unique in the corpus. He does not mention that the legend ends in a second line. The published photograph of the seal is indistinct, but it seems almost certain that the seal is identical in all details to that of the <ref target="DHARMA_INSVengiCalukya00030.xml">Āruṁbāka grant of Bādapa</ref>. The <foreign>śa</foreign> behind the boar's hindquarters is quite distinct. However, LR's description of the seal devices does not agree with what is visible in the plate. There is thus a chance that his description (and presumably the legend reported by him) is correct, and the plate, by mistake, shows the seal of the <ref target="DHARMA_INSVengiCalukya00030.xml">Āruṁbāka grant</ref>.</note>
+      </app>
+    </listApp>
   </div>
   <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
     <listApp>
@@ -326,7 +337,7 @@ renaît ver de terre dans des excréments pendant soixante mille ans.</p>
 
 
 <div type="bibliography">
-  <p>Reported in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">5</citedRange></bibl> with discussion in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange>104, 108-109</citedRange></bibl>.<note>The plates were also copied (rubbings?) and catalogued much earlier (about 1800) for the Mackenzie Collection of Manuscripts, record numbers Bk. No. (15-5-30), pp 179-182; Bk. No. (5-6-21), pp 136-138; Bk. No. 15-5-35, pp 41-43. According to Lakshmana Rao this catalogue is preserved in the Oriental MSS. Library, Madras. Also said to be reported by V. Rangacharya (<bibl rend="omitname"><ptr target="bib:Rangacharya1919_01"/></bibl>) As Ms. 165 (which I could not trace), and two of the Mackenzie copies reported by him, not aware that they are the same document, as Gt. 589 (<bibl><ptr target="bib:Rangacharya1919_01"/><citedRange>820</citedRange></bibl>) and as Gt. 607 (<bibl><ptr target="bib:Rangacharya1919_01"/><citedRange>822</citedRange></bibl>)</note>  Edited (probably from inked rubbings) by K. V. Lakshmana Rao (<bibl rend="omitname"><ptr target="bib:LakshmanaRao1927-1928_02"/><citedRange unit="page">148-154</citedRange><citedRange unit="item">2</citedRange></bibl>), with translation and facsimile (and photo of the seal). The present edition by Dániel Balogh is based on a collation of Lakshmana Rao's edition with his facsimiles.<note>The scanned facsimiles I work from are quite clear, but nothing is discernible in the photograph of the seal.</note></p>
+  <p>Reported in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange unit="page">10</citedRange><citedRange unit="appendix">A/1908-1909</citedRange><citedRange unit="item">5</citedRange></bibl> with discussion in <bibl><ptr target="bib:ARIE1908-1909"/><citedRange>104, 108-109</citedRange></bibl>.<note>The plates were also copied (rubbings?) and catalogued much earlier (about 1800) for the Mackenzie Collection of Manuscripts, record numbers Bk. No. (15-5-30), pp 179-182; Bk. No. (5-6-21), pp 136-138; Bk. No. 15-5-35, pp 41-43. According to Lakshmana Rao this catalogue is preserved in the Oriental MSS. Library, Madras. Also said to be reported by V. Rangacharya (<bibl rend="omitname"><ptr target="bib:Rangacharya1919_01"/></bibl>) As Ms. 165 (which I could not trace), and two of the Mackenzie copies reported by him, not aware that they are the same document, as Gt. 589 (<bibl><ptr target="bib:Rangacharya1919_01"/><citedRange>820</citedRange></bibl>) and as Gt. 607 (<bibl><ptr target="bib:Rangacharya1919_01"/><citedRange>822</citedRange></bibl>)</note>  Edited (probably from inked rubbings) by K. V. Lakshmana Rao (<bibl rend="omitname"><ptr target="bib:LakshmanaRao1927-1928_02"/><citedRange unit="page">148-154</citedRange><citedRange unit="item">2</citedRange></bibl>), with translation and facsimile (and photo of the seal). The present edition by Dániel Balogh is based on a collation of Lakshmana Rao's edition with his facsimiles.</p>
   <listBibl type="primary">
     <bibl n="LR"><ptr target="bib:LakshmanaRao1927-1928_02"/><citedRange unit="page">148-154</citedRange><citedRange unit="item">2</citedRange></bibl>
 <!-- one <bibl/> per item of primary bibliography -->
