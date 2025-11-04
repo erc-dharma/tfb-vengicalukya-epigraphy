@@ -254,9 +254,9 @@ n="52" break="no"/>d amala-ratna-ruci-cchalena</l>
 <l n="c">pāti sma sapta sa samās sakalān dharitrīṁ</l>
 <l n="d">bhīma-pratāpa-mahito birudaṁka-bhīmaḥ|</l>
 </lg>
-<lg n="14" met="gīti">
+<lg n="14" met="vallarī">
 <l n="ab"><lb 
-n="53"/>tasm<choice><sic>a</sic><corr>ā</corr></choice>d vimalādityād ravi-kula-lakṣmyāś ca <choice><sic>kuṁdava-mahadeyyāḥ</sic><corr>kuṁdavā-devyāḥ</corr></choice></l>
+n="53"/>tasm<choice><sic>a</sic><corr>ā</corr></choice>d vimalādityād ravi-kula-lakṣmyāś ca kuṁdava-mah<choice><sic>a</sic><corr>ā</corr></choice>de<choice><sic>y</sic><corr>v</corr></choice>yāḥ</l>
 <l n="cd">nija-guṇa-vaśīkr̥tākhila-rājanyo rājarāja-vibhur a
 <lb n="54" break="no"/>jani||</l>
 </lg>
@@ -489,10 +489,10 @@ n="5v"/>
         <rdg source="bib:RamayyaPantulu1912_01">birudāṁka-</rdg>
       </app>
       <app loc="53">
-        <lem><choice><sic>kuṁdava-mahadeyyāḥ</sic><corr>kuṁdavā-devyāḥ</corr></choice></lem>
-        <rdg source="bib:Kielhorn1896-1897_04">birud<choice><sic>a</sic><corr>ā</corr></choice>ṁka-</rdg>
+        <lem>kuṁdava-mah<choice><sic>a</sic><corr>ā</corr></choice>de<choice><sic>y</sic><corr>v</corr></choice>yāḥ</lem>
+        <rdg source="bib:Kielhorn1896-1897_04"><choice><sic>kuṁdava-mahadeyyāḥ</sic><corr>kuṁdavā-devyāḥ</corr></choice></rdg>
         <rdg source="bib:RamayyaPantulu1912_01"><choice><sic>kuṁdava-mahādeyyāḥ</sic><corr>kuṁdavā-devyāḥ</corr></choice></rdg>
-        <note>I provisionally accept K's and RP's emendation. The name of Rājarāja's mother is Kuṁdavā in the <ref target="DHARMA_INSVengiCalukya00078.xml">Korumelli grant of Rājarāja I Narendra</ref> and Kuṁdāṁbikā in his <ref target="DHARMA_INSVengiCalukya00079.xml">Kalidiṇḍi grant</ref>. However, emending only to <foreign>kuṁdavā-mahadevyāḥ</foreign> or <foreign>kuṁdava-mahādevyāḥ</foreign>, while resulting in non-standard language, would yield correct prosody, changing the stanza to a <foreign>vallarī</foreign>. This gaṇa-based metre is rare, but does occur in earlier grants of the dynasty.</note>
+        <note>K and RP emend to obtain a stanza in the <foreign>gīti</foreign> metre. A much less invasive emendation, however, results in <foreign>vallarī</foreign>, a <foreign>gaṇa</foreign>-based metre that is rare, but does occur in earlier grants of the dynasty. This emendation, involving the not-quite-standard shortening of the name's final <foreign>ā</foreign> in compound, is confirmed by the parallel stanza in the <ref target="DHARMA_INSVengiCalukya00106.xml">Maṇḍa grant of Rājarāja I Narendra</ref>.</note>
       </app>
       <app loc="55">
         <lem>t<choice><sic>ā</sic><corr>a</corr></choice>tho<unclear>r</unclear>vvīṁ</lem>
@@ -500,7 +500,7 @@ n="5v"/>
       </app>
       <app loc="57">
         <lem>yena</lem>
-        <note>As K observes, the intent here was probably <foreign>yatra</foreign> (for <foreign>yasmin</foreign>), as in the very similar stanza 23 of the <ref target="DHARMA_INSVengiCalukya00078.xml">Korumelli grant</ref>.</note>
+        <note>As K observes, the intent here was probably <foreign>yatra</foreign> (for <foreign>yasmin</foreign>), as in the very similar stanza 23 of the <ref target="DHARMA_INSVengiCalukya00078.xml">Korumelli grant</ref>. The conjecture is confirmed by the otherwise identical stanza in the <ref target="DHARMA_INSVengiCalukya00106.xml">Maṇḍa grant</ref>.</note>
       </app>
       <app loc="57">
         <lem>prītāḥ</lem>
