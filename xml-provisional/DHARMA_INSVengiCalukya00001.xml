@@ -223,7 +223,10 @@ n="3v"/>
 
 
 <div type="apparatus">
- <listApp>
+<div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+</div>
+<div type="textpart" n="B"> 
+<listApp>
     <app loc="1">
        <lem><g type="dashDoubleconvex"/> svasti</lem>
        <rdg source="bib:Shastree1844_01">svasti</rdg>
@@ -321,14 +324,16 @@ n="3v"/>
        <rdg source="bib:Shastree1844_01">kuryyāT</rdg>
       <note>Fleet's emendation cannot be excluded, but compare the non-standard third-person optatives in lines 25 and 26.</note>
     </app>
-    
-    
  </listApp>
+</div>
 </div>
          
          
          
 <div type="translation" resp="part:daba">
+ <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="1-4">Greetings! In the lineage of the Calikyas—who were deliberately appointed <supplied reason="explanation">to kingship</supplied> by Lord Mahāsena, who are of the Mānavya <foreign>gotra</foreign>, who are the sons of Hārītī, the shafts of whose arms are guarded by the grace of the band of Mothers, who have acquired the Boar emblem through the grace of <supplied reason="explanation">Viṣṇu</supplied> who rises from sleep reclining on the Milk Ocean—arose, endowed with the three powers <supplied reason="explanation"><foreign>śakti-traya</foreign></supplied>—</p>
 <p rend="stanza" n="1">Victorious is he, King <supplied reason="explanation"><foreign>nr̥pa</foreign></supplied> Raṇavikrama, who cast down the prowess, pride and passion of enemy kings <supplied reason="subaudible">and who was</supplied> known as Satyāśraya <seg rend="pun">recognised as one who has truthfulness as his foundation</seg> through his actions that smash the evils of the Kali age.</p>
 <p rend="stanza" n="2">He had a son, Kīrtivarman of true fame <supplied reason="explanation"><foreign>kīrti</foreign></supplied>, steadfast in <supplied reason="subaudible">maintaining</supplied> stability, with good deeds as his foundation, a lord of the earth who fulfilled his duties.</p>
@@ -345,9 +350,12 @@ n="3v"/>
 <p rend="stanza" n="11">The seizers of a land grant will be born as black adders dwelling in dry holes in the waterless wilderness of the Vindhyas.</p>
 <p n="36">The above decree <supplied reason="explanation"><foreign>śāsana</foreign></supplied> was written in the eighth ongoing year of His Majesty the King <supplied reason="explanation"><foreign>mahārāja</foreign></supplied>.</p>
 </div>
-         
+</div>         
          
 <div type="translation" xml:lang="fra" source="bib:EstienneMonod2008_01">
+ <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
+  </div>
+  <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
 <p n="1-4">Om ! Prospérité ! A celui qui a acquis les trois pouvoirs,<note>Les trois pouvoirs constitutifs de la royauté : <foreign>utsāha</foreign>, l’audace, <foreign>prabhu</foreign>, la puissance, <foreign>mantra</foreign>, les conseils, cf. <title>Arthaśāstra</title>, 6, 2, 33.</note> né dans la lignée des Calukya, qui méditent aux pieds du seigneur Mahāsena, du même gotra que les descendants de Manu, fils de Hārītī, dont les bras sont des barres de portes, protégés par la faveur de la troupe des Mères, qui ont gagné de porter la marque du sanglier par la faveur <supplied reason="subaudible">du dieu</supplied> qui dort, allongé sur l’océan de lait,</p>
 <p rend="stanza" n="1">Victoire au roi Raṇavikrama, dont la vaillance, l’enthousiasme et la fougue anéantirent les rois ennemis, lui qui devint Satyāśraya en accomplissant le barattement des méchants du Kaliyuga !</p>
 <p rend="stanza" n="2">Son fils, pourvu de gloire, fut Kīrtivarman, riche d’une ferme constance,
@@ -376,7 +384,7 @@ cuit en enfer pendant soixante mille ans.</p>
 ceux qui s’emparent d’une donation de terre renaissent comme serpents noirs.</p>
 <p n="35">Cet édit a été gravé pendant la huitième auguste année <supplied reason="subaudible">de règne</supplied> de l’illustre grand roi.</p>
 </div>
-
+</div>
 
 
 
