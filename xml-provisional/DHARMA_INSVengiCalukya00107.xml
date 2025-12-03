@@ -1,0 +1,402 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+           <title>Pāmulavāka plates of Vijayāditya VII</title>
+            <respStmt>
+               <resp>Encoding</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+            <respStmt>
+               <resp>intellectual authorship of edition</resp>
+               <persName ref="part:daba">
+                  <forename>Dániel</forename>
+                  <surname>Balogh</surname>
+               </persName>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <authority>DHARMA</authority>
+            <pubPlace>Berlin</pubPlace>
+            <idno type="filename">DHARMA_INSVengiCalukya00107</idno>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">
+                  <p>This work is licensed under the Creative Commons Attribution 4.0 Unported
+              Licence. To view a copy of the licence, visit
+              https://creativecommons.org/licenses/by/4.0/ or send a letter to
+              Creative Commons, 444 Castro Street, Suite 900, Mountain View,
+              California, 94041, USA.</p>
+                  <p>Copyright (c) 2019-2025 by Dániel Balogh.</p>
+               </licence>
+            </availability>
+            <date from="2019" to="2025">2019-2025</date>
+         </publicationStmt>
+         <sourceDesc><!-- only the handDesc can be filled in at this stage -->
+            <msDesc><!-- //// NB: the msIdentifier had to be added for validation purposes ///. It will be edited later with the metadata spreadsheet -->
+               <msIdentifier>
+                  <repository>DHARMAbase</repository>
+                  <idno/>
+                  <!-- don't modify this -->
+               </msIdentifier>
+               <msContents><!-- describe the intellectual content of an inscription -->
+                  <summary><!-- //// NOT MANDATORY  ////--></summary>
+                  <!-- offers the possibility to give a summary of the inscription's content -->
+               </msContents>
+               <physDesc>
+                  <handDesc>
+  <p>Anusvāras are small dots usually at median height after the character to which they belong.
+Original punctuation marks are straight verticals with a small serif at the top.
+Rare initial Ai occurs in line 7 and would not be distinguishable from ṣo if deprived of context. When a superscript repha is combined with a dependent ā, this often differs only very slightly or not at all from the superscript repha without ā, and has been read with the benefit of doubt unless very clearly incorrect. When a superscript repha is combined with a dependent i, the repha is occasionally added on the right of the vowel marker, but more commonly integrated into it as a  slight jaggedness to the lower right portion. In this latter form it is not always clearly perceptible and has, again, been read with benefit of the doubt where expected.
+                        <!-- The script name(s) will be inserted here at a later stage from the metadata spreasheet. At this stage, you can mention here in a free-text paragraph any characteristics of the writing observed more than once in this inscription that seem unusual/uncommon or otherwise noteworthy given the general characteristics of the script in question. See EG 11.2. --></p>
+                     <!-- If you need to identify individual hands (EG §7.5/) in addition to one or more paragraphs of general palaeographic description, wrap <summary> around the <p> or <p>s above, and, outside <summary>, create <handNote> elements for each hand as follows:
+                <summary><p><p/></summary>
+                <handNote xml:id="Pallava00001_hand1"></handNote>
+                <handNote xml:id="Pallava00001_hand2"></handNote>
+              -->
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>The project DHARMA has received funding from the European Research Council (ERC)
+                        under the European Union's Horizon 2020 research and innovation programme (grant
+                        agreement no 809994).</p>
+         </projectDesc>
+         <schemaRef type="guide"
+                    key="EGDv01"
+                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([a-zA-Z0-9\-\_]+)"
+                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+               <p>Public URIs with the prefix bib to point to a Zotero Group Library named
+                            ERC-DHARMA whose data are open to the public.</p>
+            </prefixDef>
+            <prefixDef ident="part"
+                       matchPattern="([a-z]+)"
+                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+               <p>Internal URIs using the part prefix to point to person elements in the
+                            <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc>
+         <change who="part:daba" when="2025-12-03" status="draft">Initial encoding of the file</change>
+         <!-- Add a <change> entry for each significant change to the file. -->
+      </revisionDesc>
+   </teiHeader>
+   <text xml:space="preserve">
+    <body>
+      
+      
+      
+<div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
+<pb 
+
+n="1r"/>
+<ab><g type="floretComplex"/></ab>
+<lg n="1" met="śārdūlavikrīḍita">
+<l n="a"><pb 
+
+n="1v"/><lb 
+n="1"/><!--P1020115-->śrī-dhāmnaḥ puruṣottamasya mahato nārāyaṇasya prabhor</l>
+<l n="b">nnābhī-paṁkaruhād ba<lb 
+n="2" break="no"/>bhūva jagatas sraṣṭā svayaṁbhūs tataḥ|</l>
+<l n="c">jajñe mānasa-sūnur atrir iti yas tasmān muner atri<lb 
+n="3" break="no"/>tas</l>
+<l n="d">somo vaṁśa-karas sudhāṁ<choice><sic>s</sic><corr>ś</corr></choice>ur udita<supplied reason="omitted">ḥ</supplied> śrīkaṁṭha-cūḍāmaṇiḥ|</l>
+</lg>
+<lg n="2" met="anuṣṭubh">
+<l n="a">tasmād āsīt sudhā-sū<supplied reason="omitted">ter</supplied></l>
+<l n="b">bbu<lb 
+n="4" break="no"/>dho budha-nutas tataḥ</l>
+<l n="c">j<choice><sic>a</sic><corr>ā</corr></choice>taḥ purūravā nāma</l>
+<l n="d">cakravarttī sa-vikramaḥ|</l>
+</lg>
+<p>tasmād āyur<supplied reason="subaudible">.</supplied> Āyuṣo <lb 
+n="5"/>nahuṣaḥ| nahu<space type="binding-hole"/>ṣād yayātiś cakravartti-vaṁśa-karttā| tataḥ prācīśaḥ<supplied reason="subaudible">.</supplied> pr<choice><sic>a</sic><corr>ā</corr></choice>cī<lb 
+n="6" break="no"/>śāt <unclear reason="eccentric_ductus" cert="low">sai</unclear>nyayā<space type="binding-hole"/>ti<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> sai<add place="below">n<supplied reason="omitted">y</supplied>a</add>yāter hayapatiḥ| hayapates sā<supplied reason="omitted">r</supplied>vvabhaumaḥ<supplied reason="subaudible">.</supplied> sārvvabhau<lb 
+n="7" break="no"/>māj jayasenaḥ<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> jayas<choice><sic>a</sic><corr>e</corr></choice>nān mahābhaumaḥ<supplied reason="subaudible">.</supplied> mahābhaumād aiśānakaḥ| Aiśāna<lb 
+n="8" break="no"/>kāt krodhānanaḥ<supplied reason="subaudible">.</supplied> krodhānanād devakiḥ|<choice><orig>devake| ricukaḥ</orig><reg>devaker r̥bhukaḥ</reg></choice><supplied reason="subaudible">.</supplied> <choice><orig>ricukād</orig><reg>r̥bhukād</reg></choice> r̥kṣakaḥ| <choice><sic>ri</sic><corr>r̥</corr></choice>kṣakān ma<lb 
+n="9" break="no"/>ti<choice><sic>n</sic><corr>v</corr></choice>araḥ satra-yāga-yājī sarasvatī-nadī-nāthaḥ| tataḥ kā<surplus>r</surplus>tyāyanaḥ| kā<surplus>r</surplus>tyā<lb 
+n="10" break="no"/>yanān nīlaḥ<supplied reason="subaudible">.</supplied> nīlād duṣyantaḥ<supplied reason="subaudible">.</supplied> tat-sutaḥ|</p>
+<ab>Āryyā|</ab>
+<lg n="3" met="āryagiti">
+<l n="ab">gaṁg<choice><sic>o</sic><corr>ā</corr></choice>-y<choice><sic>u</sic><corr>a</corr></choice>munā-t<choice><sic>i</sic><corr>ī</corr></choice>re ya<pb 
+
+n="2r" break="no"/><lb 
+n="11" break="no"/><!--P1020139-->@@@
+d avicchi{ṁ}nnaṁ nikhāya yūpān kramaśaḥ|
+SR emends unnecessarily to nidhāya
+kr̥tvā tadh!thāśvamedhān nāma mahā-karmma-bharata I
+<lb n="12" break="no"/>ti yo +’labhata{ḥ}
+SR tadāśvamedhān
+tato bharatād bhūmanyuḥ| bhūmanyos suhotraḥ<supplied reason="subaudible">.</supplied> suhotrād dhastī<supplied reason="subaudible">.</supplied> hasti
+<lb n="13" break="no"/>no virocanaḥ| vi[+ro]canād ajamīlaḥ<supplied reason="subaudible">.</supplied> Ajamīlā{|}t saṁvaraṇaḥ| saṁvaraṇasya tapana-su
+<lb n="14" break="no"/>tāyās tapa{na}<space type="binding-hole"/>tyāś ca sudhanvā| sudhanvanaḥ{|} parikṣiT<supplied reason="subaudible">.</supplied> parikṣito bhīmasenaḥ<supplied reason="subaudible">.</supplied> 
+<lb n="15"/>bhīmasenāt pra<space type="binding-hole"/>dīpanaḥ<supplied reason="subaudible">.</supplied> pradīpanā¿ś c?⟨c ch⟩aṁtanuḥ<supplied reason="subaudible">.</supplied> śaṁtano<supplied reason="omitted">r</supplied> vvicitravīryyaḥ| vvicitra
+<lb n="16" break="no"/>vīryyāt pāṇḍu<space type="binding-hole"/>-rājaḥ|
+Āryyā|
+upagīti 
+putrās tasya ca dharmmaja-bhīmārjjuna-nakula
+<lb n="17" break="no"/>-sahadevāḥ
+paṁcendriyavaT paṁca syu<supplied reason="omitted">r</supplied> vviṣaya-grāhiṇas tatra|
+vr̥ttaṁ|
+śārdūlavikrīḍita 
+yenād<choice><sic>a</sic><corr>ā</corr></choice>hi viji
+<lb n="18" break="no"/>tya k!khāṇḍavam atho gāṇḍīvinā vajriṇaḥ!ṁ
+yuddhe pāśupatāstram aṁdhaka-ripoś cālābhi dai
+<lb n="19" break="no"/>tyān bahūn
+indrārddhāsanam adhyarohi jayinā| yat kālikeyādikān
+hatvā svairam akāri 
+
+<pb n="2v"/><lb n="20"/>P1020132 vaṁśa-vipina-(c)chedaḥ kurūṇāṁ vibhoḥ| 
+tato +’rjjunād abhimanyuḥ| [+Abhima]nyoḥ parikṣiT| parikṣito 
+SR: -vipinaś chedaḥ
+<lb n="21"/>janamejayaḥ| janamejayāt kṣemukaḥ<supplied reason="subaudible">.</supplied> kṣemukān naravāhanaḥ| naravāhanā[ś c!c ch]atānīkaḥ<supplied reason="subaudible">.</supplied> 
+<lb n="22"/>śatānīkād udayaṇ!naḥ| tataḥ paraṁ tat-prabhr̥ti¿s?⟨ṣ⟩v avicchinna-santāneṣv ayodhyā-siṁhāsanāsī
+<lb n="23" break="no"/>neṣv ekānna-ṣaṣṭi<space type="binding-hole"/>-cakrava(r)ttiṣu gateṣu tad-vaṁśyo vijayādityo [AC?bhī/PCnā]ma rāj<choice><sic>a</sic><corr>ā</corr></choice> vi
+<lb n="24" break="no"/>jigīṣayā da<space type="binding-hole"/>kṣiṇāpathaṁ gatvā trilocana-pallavam adhikṣipya daiva-durīhā!a
+<lb n="25" break="no"/>yā lokāntara<space type="binding-hole"/>m a(ga)maT|
+tasmin saṁkule purohitena sārddham antarvvatnī tasya 
+<lb n="26"/>mahādevī muḍivemu nāmāgrahāraṁ upagamya tad-vāstavyena viṣṇubhaṭṭa-somayājinā duhi
+<lb n="27" break="no"/>t[ta!r̥]-ni<supplied reason="omitted">r</supplied>vviśeṣam abhirakṣitā satī nandana+ṁ viṣṇuvarddhanan nāma prasūya| tasya ca kumārakasya m<choice><sic>a</sic><corr>ā</corr></choice>
+<lb n="28" break="no"/>navya-sagotra-hārīti-putra-dvipakṣa-gotra-kramocitāni karmmāṇi kārayitvā tam avarddhaya
+<lb n="29" break="no"/>T<supplied reason="subaudible">.</supplied> sa ca mātrā vidita-vr̥ttāntas san nirggatya calukya-girau nandāṁ bhagavatīṁ gaurīm ārādhya ku
+
+<pb n="3r" break="no"/><lb n="30" break="no"/>P1020126 māra-nārāyaṇa-mātr̥-gaṇān saṁtt!tarppya śvetātapatraika-śaṁkha-paṁca-mahāśabda-pā
+<lb n="31" break="no"/>li-k<choice><sic>a</sic><corr>e</corr></choice>tana-pratiḍ!ḍhakkā-varāha-lāṁc!chana-piṁc!cha-kunta-siṁhāsana-makara-toraṇa-kanaka-da
+<lb n="32" break="no"/>ṇḍa-gaṁgā-yamunādīni sva-kula-kramāgatāni [+ni]kṣiptānīva tat-sāṁb!mrājya-cihnāni sa
+<lb n="33" break="no"/>mādāya kaḍaṁba-gaṁgādi-bhūmipān ni<supplied reason="omitted">r</supplied>jitya setu-narmmadā-madhyaṁ sārddha-sapta-lakṣā!aṁ 
+<lb n="34"/>dakṣiṇāpathaṁ <space type="binding-hole"/> pālayām āsa|
+ślokaṁ|
+anuṣṭubh 
+tasyāsīd vijayādityo
+viṣṇuvi!a
+<lb n="35" break="no"/>rddhana-bhūpateḥ <space type="binding-hole"/>
+pallavānvaya-jātāyā
+mahādevyāś ca nandanaḥ|
+tat-sutaḥ po
+<lb n="36" break="no"/>lakeśi-vallabhaḥ| tat-putraḥ kī(r)ttivarmmā<supplied reason="subaudible">.</supplied> tasya tanayaḥ|
+svasti<supplied reason="subaudible">.</supplied> śrīmatāṁ sakala-bhuva
+<lb n="37" break="no"/>na-saṁstūyamāna-mānavya-sagotrāṇāṁ hārīti-putrāṇāṁ kauśikī-vara-prasāda-labdha
+<lb n="38" break="no"/>-rājyānāṁ mātr̥-gaṇa-paripālitānā+ṁ sv<choice><sic>a</sic><corr>ā</corr></choice>mi-[ADD BELOW WITH ÷ MARK ABOVE ma]hāsena-pādānudhyātānāṁ bhagavan-nārā
+<lb n="39" break="no"/>yaṇa-prasāda-samās<choice><sic>a</sic><corr>ā</corr></choice>dita-vara-vā!arāha-lāṁc!chanekṣaṇa-kṣaṇa-vaśīkr̥tārāti-maṇḍa
+
+<pb n="3v" break="no"/><lb n="40" break="no"/>P1020121 lānām aśvamedhāvabhr̥t!tha-snāna-pavitrī[ADD BELOWkr̥]ta-vapuṣāṁ cālukyānāṁ kulam alaṁka
+<lb n="41" break="no"/>[+ri]ṣṇos satyāśraya-vallabhendrasya bhrātā kubja-viṣṇuvarddhano +’ṣṭādaśa varṣāṇi veṁgi-deśam a
+<lb n="42" break="no"/>pālayaT| tad-ātmajo jayasiṁgh!ha-vallabhaḥ trayastriṁśataṁ| tad-anujendrarājas sa
+<lb n="43" break="no"/>pta dināni| tat-suto viṣṇuvarddhano v!nava| tat-sū[+nu]r mmaṁgi-yuvarājaḥ paṁcavi+ṁśatiṁ| tat-putro 
+<lb n="44"/>jayasiṁgh!ha<space type="binding-hole"/>-vallabhas trayodaśa| tad-avarajaḥ kokkiliṣ v!ṣan!ṇ māsāN| tasya jyeṣṭho 
+<lb n="45"/>bhrātā viṣṇuva<space type="binding-hole"/>rddhanas tam uccāṭya saptatriṁśataṁ| tat-putro vijayāditya-bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>
+<lb n="46" break="no"/>rako +’ṣṭ<choice><sic>a</sic><corr>ā</corr></choice>daśa| ta[d-a!t-ta]nujo viṣṇuvarddhanaṣ (ṣ)a[+ṭ]triṁśataṁ| tat-sūnur vvijayāditya-narendra-mr̥garāja
+<lb n="47" break="no"/>ś cāṣṭacatvāriṁśataṁ| tat-sutaḥ kali-viṣṇuvarddhano +’<surplus>r</surplus>ddhya<supplied reason="omitted">r</supplied>ddha-varṣaṁ| tat-suto guṇaga-vijayādityaś catu
+<lb n="48" break="no"/>ścatvāriṁśataṁ| tad-bhrātur vvikramāditya-bhūpates tanayaś cālukya-bhīmas triṁśataṁ| tat-sutaḥ 
+<lb n="49"/>koll!!ebigaṇḍa-vijayāditya<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN<supplied reason="subaudible">.</supplied> tat-sūnur ammarājas sapta varṣāṇi| tat-sutaṁ vija
+
+<pb n="4r" break="no"/><lb n="50" break="no"/>P1020158 yādityaṁ bālam uccāṭya tāḍapo māsam ekaṁ| taṁ jitvā yudhi cālukya-bhīma-tana
+SR at end of 50: tamna em tana; probably intended for taṁna, reading a dot (which I deem to be random) as an anusvāra
+<lb n="51" break="no"/>yo vikramāditya Ekādaśa māsāN| tat-tāḍapa-rāja-suto yuddhamalla{ḥ}s sapta varṣāṇi
+indravajrā 
+<lb n="52"/>taṁ Yuddhamalla+ṁ pa{ṁ}rihr̥tya deśāt
+piṣṭvetareṣām api śātravān!ṇāṁ
+kṣmām ammarājānuja-rā
+<lb n="53" break="no"/>ja-bhīmo
+bhīmas samā dvādaśa rakṣati sma|
+anuṣṭubh 
+ti!at-sūnu<supplied reason="omitted">r</supplied> vvinatārātir
+ammarājo nr̥pāgraṇīḥ
+<lb n="54"/>paṁcaviṁśati <space type="binding-hole"/> varṣāṇi
+veṁgī-bhuvam apālayaT|
+gīti 
+dvaimāturo 3’mma-nr̥pater ddā
+<lb n="55" break="no"/>na-nr̥po rāja<space type="binding-hole"/>-bhīma-nr̥pa-tanayaḥ
+vidyā-kalāpa-caturaḥ ca[+tu]ranta-dharām a
+caturaḥ SR bhaturaḥ em. caturaḥ
+ca[+tu]ranta-dharām SE carantadarām
+<lb n="56" break="no"/>pāt samās tisraḥ|
+anuṣṭubh 
+Anu dānārnn!ṇṇavād āsī+d
+daiva-duśceṣṭayā tataḥ
+saptaviṁśati varṣā
+<lb n="57" break="no"/>ṇi
+veṁg!!i-mahir anāyi!akā|
+indravajrā 
+Atrāntare dāna-narendra-sūnu<supplied reason="omitted">ḥ</supplied>
+śrī-śaktivarmmā sura-rāṭ-sadharmm<choice><sic>a</sic><corr>ā</corr></choice>
+<lb n="58"/>yaś śauryya-śaktyā vinihatya śatrūn
+sa dvādaśābdān samarakṣad urvvīM|
+upendravajrā
+tasyānujanmā [+ji]ta-śa
+<lb n="59" break="no"/>trur urvvīṁ 
+SR taśa/tr̥rurvvīṁ em. talasa, can’t interpret
+saṁvatsarān pālayati sma sapta
+nirasta-sapta-vyasanaḥ pratāpī
+bhūpā 
+
+<pb n="4v" break="no"/><lb n="60" break="no"/>P1020162 graṇ(īr) mmummadi-bhīma-bhūpa<supplied reason="omitted">ḥ</supplied>|
+anuṣṭubh
+tasya mummadi-bhīmasya
+sutaḥ kr̥ta-matir mmahā|!N|
+<lb n="61"/>rājarājāhvayo rājā
+SR: rājād, with a footnote number without an accompanying note
+dv<choice><sic>a</sic><corr>ā</corr></choice>daśābdān dhā!arām apāT|
+āryāgīti
+taṁ rājarāja{ṁ}-d!nr̥patiṁ nirddhāṭya
+<lb n="62"/>bhuvaḥ prasahya vijayādityaḥ|
+vimalāditya-+tanūja<supplied reason="omitted">ḥ</supplied> [ADD BELOW WITH OBELOS MARK ABOVEta]sya dvaimāturo +’grahīd ya!o rājyaṁ
+vimalāditya-+tanūja<supplied reason="omitted">ḥ</supplied> tasya … yo rājyaṁ My emendation results in a metrically correct 32-mora hemistich, making the stanza an āryāgīti. SR’s footnote suggests reading the inserted ta after vimalāditya (instead of supplying another ta there), so his emended text is vimalāditya-tanūjasya dvaimāturo, which is prosodically inappropriate. He further emends grahīd ya rājyaṁ to grahīd rājyaṁ. Suppressing yo in combination with my earlier emendation would result in a prosodically correct 30-mora line (and thus the rare but attested vallarī metre), but I find that emendation too invasive, since it involves reading a single akṣara, drā, instead of two inscribed akṣaras, dyo rā. I am thus confident that my emendations reflect the composer’s intent. In addition to that noted in the edition, there are two further signs of possible scribal correction here. First, the top of the subscript y in tya is extended to the right, which may be a subsequent correction to tyā. (Although the ā marker would be expected to bend downward, as for instance in l64 nyā, the absence of the downward component could be explained here by the proximity of the already engraved following character.) If this is indeed scribal correction and not just a slip of the chisel, then one redactor had probably wanted vimalādityānuja rather than vimalāditya-tanūja here. This, however, would be a correction to make things worse, since on the one hand no younger brother of Vimalāditya is known, and on the other hand it would render the text unmetrical. Second, there is a slightly sinuous horizontal line below the left-hand side of nū (this was apparently misinterpreted by SR as part of an ī marker on rkka in the next line). It is possible that this is a second kākapada signifying that the interlinear ta should be inserted here as well as at the point where it is engraved, although it is below the locus and is not crossed by a vertical stroke. Alternatively, it may be a mark of secondary correction intended to cancel the earlier correction of tya to tyā.
+sragdharā
+<lb n="63"/>śrīmān śake samaughe dr̥g-iṣu-nidhi-mite karkki!a-ge karkkaśāṁśau
+SR karkige * karkīśaṁ sau
+śuddhātmā śuddha-paṁcamy-aditi
+<lb n="64" break="no"/>-suta-dine sū<space type="binding-hole"/>ryya-bhe śauryya-śālī|
+SR paṁcamyāditisuta dinersūryyābhe
+SR’s paraphrase of the date: Saka 952 (a.D. 1030) on Sunday, Kārtika Suddha paṁchami (fifth tithi in Nov.), in Kanyalagna. Could he be right about Kārtika? I think it’s impossible, it’s the sun in Cancer, so perhaps Bhādrapada?
+kanya-lagne +’ti-[AC¿nya?PCdha]ny<choice><sic>a</sic><corr>e</corr></choice> śaśi-kula-tilako rā
+<lb n="65" break="no"/>ja-m<choice><sic>a</sic><corr>ā</corr></choice>rttaṇḍa-sū<space type="binding-hole"/>nur 
+vveṁgī-sā[ṁb!!m]rājya-paṭṭaṁ sma vahati vijayāditya-bhūpaḥ pratā
+<lb n="66" break="no"/>pī|
+praharṣiṇī – – – : ⏑ ⏑ ⏑ ⏑ – ⏑ – ⏑ – ⏓
+putrīya<space type="binding-hole"/>nn api śaraṇā[tti!rtthi]naṁ jighāṁsuM
+SR: jighāṁsur
+jñātiryyan!jñātrīyan bhaṭa-vibh!budhāṁś ca sat-kr̥!riyā
+<lb n="67" break="no"/>bhiḥ|
+SR: jñātiryyān check, what is the correct formation? jñātr̥̄yan? jñātrīyan? MW lists mātrīya- (but not jñātrīya-)
+mātkr̥yan!mātrīyan para-yuvatīr ajihma-vr̥ttir 
+SR: mātkrayan
+yyo dhātrīm avati n{d}r̥po yathā sva-dharmmaM|
+SR: yodhā trīmavatin drupo
+SR’s paraphrase: He treated the refugees as his sons, relatives and servants with discipline, the wise with care and regard, other females as mothers, etc.
+The relevant sūtra is Aṣṭādhyāyī 3.1.10, on the use of the affix kyac (3.1.8) in denoting behaviour in the sense of comparability to something.
+upajāti
+vilaṁghaya
+<lb n="68" break="no"/>yantī himavantam uccair
+umerāṁga(~M) dviṣatī vicitraM|
+umeśvarāṁgam
+umetarāṁgam
+umendirāṁgam
+
+gaurīti siddhāpi vibhāti kīrttiś 
+cālukya[ACrā PCbhī]ma
+SR also AC rā PC bhī, but could possibly be the other way around; none of the strokes have been visibly erased. I assume that the limb of bha was attached to the left side of an already inscribed ra, so that the left side of the original ra now forms the slightly misshapen stem of bha. 
+<lb n="69" break="no"/>kṣitipasya yasya|
+sa śrī-sarvva-lokāśraya-śrī-viṣṇuvarddhana-mahārājo rājādhirājaḥ 
+<lb n="70" break="no"/>śrī-vijayāditya-devo rāṣṭrakūṭa-pramukhān kuṭi!!uṁbinas sarvvān sam[AC?va PCā]hūya samasta-pradhā
+SR is probably right to assume that mva has been corrected to mā; if so, then the body of the subscript v has been joined to the subsequently added ā marker to become its ornamental extension. Alternatively, the originally inscribed character may perhaps have been mya.
+
+<pb n="5r" break="no"/><lb n="71" break="no"/>P1020168 na-samakṣam ittham ā[+jñā]payati|
+upajāti
+nihatya vairi-kṣitipān ar!śeṣāN
+śvīkārayān[svīkārayan?] bhūpatinā dhara!i
+<lb n="72" break="no"/>trīṁ
+kucamma-rājena nijeśvareṇa
+SR wants to emend to śrī-camma-rājena
+labdha-prasādo bhavati sma tasmāta!T|
+SR: bharata/śca
+śrī-cāme-rājasya bhart(u)
+<lb n="73" break="no"/>ś ca
+kāmāṁbikāyāś ca pati-vratāyāḥ
+yo bhīma-bhūp[ACo PCa]s tanayo +’janiṣṭa|
+SR reads the o as present, but it is much fainter than surrounding strokes and has probably been beaten out.
+tasmai dīnā(r)tt!thi-dvija
+<lb n="74" break="no"/>-bandhu-budha-surabhūruhāyamānāya| nā[ADD BELOWga]-kula-bhūṣan!ṇāya| meghagiri-nātha-melpa-kandarppa
+<lb n="75" break="no"/>malaya-bhāska<space type="binding-hole"/>rāya| sama!upārjjita-dharmma-ka<supplied reason="omitted">r</supplied>mmaṇe bra!r̥haspati-kalpāmātya-śrīya
+<lb n="76" break="no"/>pa-cāmena-be<space type="binding-hole"/>nnaya-budh!ddhi-pau[rṣa!ruṣa]-samupā(r)jjita-rājya-mahimne{ṁ}| kr̥ta-kleśī!a-ni
+SR: bannaya. should this be emended to bennāya? or something at the beginning, and then naya in cpd with the following?
+<lb n="77" break="no"/>mitte koṁpo<space type="binding-hole"/>loṁgu nāma grāmo dvādaśa-grāmaś ca śāsanīkr̥tya dhārā-pū
+<lb n="78" break="no"/>rvvakaṁ mayā <space type="binding-hole"/> datta Iti viditam astu vaḥ| Asyopari na kenacid bādhā kartta
+<lb n="79" break="no"/>vyā<supplied reason="subaudible">.</supplied> yaḥ karoti sa paṁca-mahāpātako bhavati<supplied reason="subaudible">.</supplied> 
+anuṣṭubh
+bahubhir vvasudhā dattā 
+bahubhiś cānupā
+<lb n="80" break="no"/>litā
+yasya yasya yadā bhūmis
+tasya tasya tadā phalaṁ|
+sva-dattāṁ para-dattāṁ vā
+yo hare
+<lb n="81" break="no"/>t<choice><sic>u</sic><corr>a</corr></choice> vasundharāṁ
+ṣaṣṭi-varṣa-saharāṇi
+viṣṭhāyāṁ jā<choice><sic>a</sic><corr>ā</corr></choice>yate kri!!r̥miḥ|
+Asya dvitī[ADD BELOWya]-varṣa-varddha
+<lb n="82" break="no"/>ne dattasyā!a ś<choice><sic>a</sic><corr>ā</corr></choice>sanasya Ājñapti<supplied reason="omitted">ḥ</supplied> kaṭakādhīśaḥ<supplied reason="subaudible">.</supplied> ś(ā)sana-lek!khakaś ca gokācāryyaḥ floretComplex
+
+</l></lg>
+<p>
+</p>
+
+<pb n="5v" break="no"/>
+</div>
+        
+        
+      
+        
+<div type="apparatus">
+
+    <listApp>
+      <app loc="3">
+        <lem>sudhā-sū<supplied reason="omitted">ter</supplied> bbu<lb n="4" break="no"/>dho</lem>
+        <rdg source="bib:SubbaRao1927-1928_03">sudhāṁ<choice><sic>sū</sic><corr>śo</corr></choice> <choice><sic>bh</sic><corr>bb</corr></choice>u<lb n="4" break="no"/>dho</rdg>
+        <note>I assume that <foreign>bhu</foreign> in SR's edition is a typo and that his intended emendation was <foreign>sudhāṁśor</foreign>, but this is unmetrical and does not correspond to other attestations of this stanza.</note>
+      </app>
+      <app loc="4">
+        <lem>cakravartti-vaṁśa-karttā</lem>
+        <note>Other attestations of this stanza read <foreign>cakravarttī vaṁśa-karttā</foreign>, which may have been intended here too, but the text is intelligible and appropriate as received.</note>
+      </app>
+      <app loc="4">
+        <lem>°t <unclear reason="eccentric_ductus" cert="low">sai</unclear>nyayā<space type="binding-hole"/>ti<supplied reason="omitted">ḥ</supplied></lem>
+        <rdg source="bib:SubbaRao1927-1928_03">°t syinyayati</rdg>
+        <note>The problematic character read here as <foreign>tsyai</foreign> has been corrected rather awkwardly, and it is not evident which strokes are earlier and which later. SR's reading was probably meant to be <foreign>°t syainyayāti</foreign>. In fact the character, as received, best matches the shape expected for <foreign>tsyo</foreign>, but I am willing to believe that the corrector's intent had been <foreign>tsai</foreign>. The pre-correction character may have been <foreign>tsya</foreign>, <foreign>tsyā</foreign>, <foreign>tsye</foreign>, <foreign>tsyo</foreign>, <foreign>tsu </foreign>or <foreign>tsū</foreign>.</note>
+      </app>
+      
+    </listApp>
+    
+  
+</div>
+
+
+
+<div type="translation" resp="part:daba">
+<p rend="stanza" n="1"></p>
+    
+</div>
+
+
+
+
+
+
+<div type="commentary">
+  <p>The editor Subba Rao did not provide a complete and correct reading of Vijayāditya IV’s coronation date in these plates. B. V. Krishna Rao (<bibl rend="omitname"><ptr target="bib:KrishnaRao1930-1931_01"/><citedRange unit="page">84</citedRange></bibl>) provided an improved reading and equated it to Thursday, 9 July, 1030 CE. A more convincing calculation was made by K. G. Shankar at the request of N. Venkataramanayya (<bibl rend="omitname"><ptr target="bib:Venkataramanayya1951-1952_01"/><citedRange unit="page">61</citedRange><citedRange unit="note">4</citedRange></bibl>). According to this, the equivalent date is Sunday, 27 June 1031 CE. This results in the correct weekday in addition to the Sun being in Cancer and the correct /tithi/ at sunrise. According to Shankar as cited by Venkataramanayya, the /kanyā lagna/ lasted from 10 to 12 AM on that day. At this time, the /nakṣatra/ was Uttara-Phālgunī, while later on (with the same /tithi/ still current) it was Pūrva-Phālgunī. The presiding deities of these /nakṣatra/s are Bhaga and Aryaman respectively. Since both are Ādityas, /sūryya-bhe/ (if not an inconsequential word meaning ‘sunlit’) might conceivably refer to either.</p>
+</div>
+
+
+
+
+<div type="bibliography">
+  <p>Not reported in ARIE. Edited with estampages and a summary of the contents by R. Subba Rao (<bibl rend="omitname"><ptr target="bib:SubbaRao1927-1928_03"/></bibl>). The present edition by Dániel Balogh is based on photographs taken by myself at the Rallabandi Subba Rao Archaeological Museum (Rajahmundry) in February 2023, collated with Subba Rao's estampages and edition. The numerous typographic mistakes and confused diacritics in the printed edition are not shown in the apparatus here.</p>
+  <listBibl type="primary">
+    <bibl n="SR"><ptr target="bib:SubbaRao1927-1928_03"/></bibl>
+  </listBibl>
+  <listBibl type="secondary">
+    <bibl><ptr target="bib:KrishnaRao1930-1931_01"/><citedRange unit="page">84</citedRange></bibl>
+    <bibl><ptr target="bib:Venkataramanayya1951-1952_01"/><citedRange unit="page">61</citedRange><citedRange unit="note">4</citedRange></bibl>
+  </listBibl>
+</div>
+
+      
+      
+    </body>
+  </text>
+</TEI>
