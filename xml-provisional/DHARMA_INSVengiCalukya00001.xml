@@ -237,21 +237,21 @@ n="35" break="no"/>ṇaḥ</l>
 <p>no mapping, no name: show content, ignore type- 
 &lt;g type=&quot;ideogram&quot;&gt;%&lt;/g&gt; - 
 <g type="ideogram">%</g></p>
-<p>no mapping, no name, no content: show value of type or default placeholder based on type - 
+<p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;symbol&quot;&gt;&lt;/g&gt; - 
 <g type="symbol"></g></p>
-<p>no mapping, no name, no content: show value of type or default placeholder based on type - 
+<p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g&gt;.&lt;/g&gt; - 
 <g></g></p>
-<p>no mapping, no name, no content: show value of type or default placeholder based on type - 
+<p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;ideogram&quot;&gt;&lt;/g&gt; - 
-<g type="ideogram"></g></p>
-<p>no mapping, no name, no content: show value of type or default placeholder based on type - 
+<g type="ideogram"></g> <hi rend="check">desired: @</hi></p>
+<p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;punctuation&quot;&gt;&lt;/g&gt; - 
-<g type="punctuation"></g></p>
-<p>no mapping, no name, no content: show value of type or default placeholder based on type - 
+<g type="punctuation"></g> <hi rend="check">desired: .</hi></p>
+<p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;connector&quot;&gt;&lt;/g&gt; - 
-<g type="connector"></g></p>
+<g type="connector"></g> <hi rend="check">desired: §</hi></p>
 
 
 <pb 
