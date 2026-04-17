@@ -225,18 +225,18 @@ n="35" break="no"/>ṇaḥ</l>
 <p>ref present, no mapping: display the name, ignore content  - 
 &lt;g ref=&quot;sym:san-srivatsa&quot;&gt;|&lt;/g&gt; - 
 <g ref="sym:san-srivatsa">|</g></p>
-<p>ref present, no mapping: display the name , ignore content and type - 
+<p>ref present, no mapping: display the name, ignore content and type - 
 &lt;g type=&quot;punctuation&quot; ref=&quot;sym:san-srivatsa&quot;&gt;|&lt;/g&gt; - 
 <g type="punctuation" ref="sym:san-srivatsa">|</g></p>
 <p>no mapping, no name: show content - 
 &lt;g&gt;%&lt;/g&gt; - 
-<g>%</g></p>
+<g>%</g> <hi rend="check">desired: %</hi></p>
 <p>no mapping, no name: show content, ignore type - 
 &lt;g type=&quot;punctuation&quot;&gt;%&lt;/g&gt; - 
-<g type="punctuation">%</g></p>
+<g type="punctuation">%</g> <hi rend="check">desired: %</hi></p>
 <p>no mapping, no name: show content, ignore type- 
 &lt;g type=&quot;ideogram&quot;&gt;%&lt;/g&gt; - 
-<g type="ideogram">%</g></p>
+<g type="ideogram">%</g> <hi rend="check">desired: %</hi></p>
 <p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;symbol&quot;&gt;&lt;/g&gt; - 
 <g type="symbol"></g></p>
