@@ -218,16 +218,16 @@ n="35" break="no"/>ṇaḥ</l>
 <p>TEMPORARY SYMBOL TESTING</p>
 <p>ref present and token has mapping: display the mapping, ignore content - 
 &lt;g ref=&quot;sym:doubleBar&quot;&gt;.&lt;/g&gt; - 
-<g ref="sym:doubleBar">.</g></p>
+<g ref="sym:doubleBar">.</g> - desired: ∥</p>
 <p>ref present and token has mapping: display the mapping, ignore content and type - 
 &lt;g type=&quot;connector&quot; ref=&quot;sym:doubleBar&quot;&gt;|&lt;/g&gt; - 
-<g type="connector" ref="sym:doubleBar">|</g></p>
+<g type="connector" ref="sym:doubleBar">|</g> - desired : ∥</p>
 <p>ref present, no mapping: display the name, ignore content  - 
 &lt;g ref=&quot;sym:san-srivatsa&quot;&gt;|&lt;/g&gt; - 
-<g ref="sym:san-srivatsa">|</g></p>
+<g ref="sym:san-srivatsa">|</g> - desired: śrīvatsa</p>
 <p>ref present, no mapping: display the name, ignore content and type - 
 &lt;g type=&quot;punctuation&quot; ref=&quot;sym:san-srivatsa&quot;&gt;|&lt;/g&gt; - 
-<g type="punctuation" ref="sym:san-srivatsa">|</g></p>
+<g type="punctuation" ref="sym:san-srivatsa">|</g> - desired: śrīvatsa </p>
 <p>no mapping, no name: show content - 
 &lt;g&gt;%&lt;/g&gt; - 
 <g>%</g> <hi rend="check">desired: %</hi></p>
@@ -239,10 +239,10 @@ n="35" break="no"/>ṇaḥ</l>
 <g type="ideogram">%</g> <hi rend="check">desired: %</hi></p>
 <p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;symbol&quot;&gt;&lt;/g&gt; - 
-<g type="symbol"></g></p>
+<g type="symbol"></g> - desired: *</p>
 <p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g&gt;.&lt;/g&gt; - 
-<g></g></p>
+<g></g> - desired: * </p>
 <p>no mapping, no name, no content: show default placeholder based on type - 
 &lt;g type=&quot;ideogram&quot;&gt;&lt;/g&gt; - 
 <g type="ideogram"></g> <hi rend="check">desired: @</hi></p>
