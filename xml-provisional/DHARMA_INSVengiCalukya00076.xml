@@ -72,19 +72,13 @@
          <projectDesc>
             <p>The project DHARMA has received funding from the European Research Council (ERC) under the European Union's Horizon 2020 research and innovation programme (grant agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <!-- UPDATE the link once the release is made official -->
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
             </prefixDef>
          </listPrefixDef>
@@ -99,62 +93,42 @@
       <body>
       
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
-<p part="F"><pb 
-
-n="2r"/><lb 
-n="1"/>siṁhas trayodaśa<g type="dandaSerif">.</g> tad-avarajaḥ kokkili<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN<g type="dandaSerif">.</g> tasya jyeṣṭho bhrātā viṣṇuva<lb 
-n="2" break="no"/><unclear>rddhana</unclear>s tam uccāṭya saptatriṁśataM<g type="dandaSerif">.</g> tat-putro vijayāditya bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g type="dandaSerif">.</g> tat-su<lb 
-n="3" break="no"/>t<unclear>o</unclear> viṣṇ<unclear>u</unclear>va<unclear>r</unclear>d<unclear>dh</unclear>a<unclear>naṣ ṣa</unclear>ṭtriṁśataM<g type="dandaSerif">.</g> tat-sūnur <choice><orig>ṇ</orig><reg>n</reg></choice>narendra-mr̥garājo <supplied reason="subaudible">’</supplied>ṣṭacatvāriṁśataM<g type="dandaSerif">.</g> tat-putraḥ <lb 
-n="4"/><unclear>kali-vi</unclear>ṣ<unclear>ṇu</unclear>va<space type="binding-hole"/>rddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM<g type="dandaSerif">.</g> tat-suto guṇakkenalla-vijayādityaś catu<lb 
-n="5" break="no"/><unclear>ścatvā</unclear>riṁśa<space type="binding-hole"/>taM<g type="dandaSerif">.</g></p>
+<p part="F"><pb n="2r"/><lb n="1"/>siṁhas trayodaśa<g ref="sym:bar-serifed" type="punctuation">.</g> tad-avarajaḥ kokkili<supplied reason="omitted">ḥ</supplied> ṣaṇ māsāN<g ref="sym:bar-serifed" type="punctuation">.</g> tasya jyeṣṭho bhrātā viṣṇuva<lb n="2" break="no"/><unclear>rddhana</unclear>s tam uccāṭya saptatriṁśataM<g ref="sym:bar-serifed" type="punctuation">.</g> tat-putro vijayāditya bhaṭṭ<choice><sic>a</sic><corr>ā</corr></choice>rako <supplied reason="subaudible">’</supplied>ṣṭādaśa<g ref="sym:bar-serifed" type="punctuation">.</g> tat-su<lb n="3" break="no"/>t<unclear>o</unclear> viṣṇ<unclear>u</unclear>va<unclear>r</unclear>d<unclear>dh</unclear>a<unclear>naṣ ṣa</unclear>ṭtriṁśataM<g ref="sym:bar-serifed" type="punctuation">.</g> tat-sūnur <choice><orig>ṇ</orig><reg>n</reg></choice>narendra-mr̥garājo <supplied reason="subaudible">’</supplied>ṣṭacatvāriṁśataM<g ref="sym:bar-serifed" type="punctuation">.</g> tat-putraḥ <lb n="4"/><unclear>kali-vi</unclear>ṣ<unclear>ṇu</unclear>va<space type="binding-hole"/>rddhano <supplied reason="subaudible">’</supplied>dhyarddha-varṣaM<g ref="sym:bar-serifed" type="punctuation">.</g> tat-suto guṇakkenalla-vijayādityaś catu<lb n="5" break="no"/><unclear>ścatvā</unclear>riṁśa<space type="binding-hole"/>taM<g ref="sym:bar-serifed" type="punctuation">.</g></p>
 <lg n="1" met="anuṣṭubh">
 <l n="a" enjamb="yes">tad-bhrātur vvikramāditya</l>
 <l n="b">-bhūpates sa<subst><del rend="corrected">mu</del><add place="overstrike">c-ca</add></subst>m<choice><sic>u</sic><corr><unclear>ū</unclear></corr></choice>pa<unclear>teḥ</unclear></l>
-<l n="c" enjamb="yes">vilasa<lb 
-n="6" break="no"/>t-<unclear>kaṇṭhi</unclear>kā-dāma</l>
-<l n="d">-kaṇṭhasya tanayo nayī<g type="dandaSerif">.</g></l>
+<l n="c" enjamb="yes">vilasa<lb n="6" break="no"/>t-<unclear>kaṇṭhi</unclear>kā-dāma</l>
+<l n="d">-kaṇṭhasya tanayo nayī<g ref="sym:bar-serifed" type="punctuation">.</g></l>
 </lg>
 <lg n="2" met="sragdharā">
-<l n="a">dīnānāthāturāṇāṁ dvija-vara-samiter yy<unclear>ā</unclear><lb 
-n="7" break="no"/>cakānāṁ yatīnān</l>
+<l n="a">dīnānāthāturāṇāṁ dvija-vara-samiter yy<unclear>ā</unclear><lb n="7" break="no"/>cakānāṁ yatīnān</l>
 <l n="b">nānā-deśāgatānāṁ paṭu-vaṭu-naṭa-sad-gāyakānāṁ kavīnāM</l>
-<l n="c">ba<lb 
-n="8" break="no"/>ndhūnām andhakānām abhilaṣita-phala-śrāṇanād rakṣaṇād yo</l>
-<l n="d">māteva triṁśad abdān bhu<pb 
-
-n="2v" break="no"/><lb 
-n="9" break="no"/><unclear>vam a</unclear>bhunag asau cāru-cā<unclear>lukya-bhīmaḥ<g type="ddandaSerif">.</g></unclear></l>
+<l n="c">ba<lb n="8" break="no"/>ndhūnām andhakānām abhilaṣita-phala-śrāṇanād rakṣaṇād yo</l>
+<l n="d">māteva triṁśad abdān bhu<pb n="2v" break="no"/><lb n="9" break="no"/><unclear>vam a</unclear>bhunag asau cāru-cā<unclear>lukya-bhīmaḥ<g ref="sym:doubleBar-serifed" type="punctuation">.</g></unclear></l>
 </lg>
 <lg n="3" met="śārdūlavikrīḍita">
-<l n="a">ta<unclear>t-pu</unclear>traḥ sva-bhujāsi-khaṇḍita-ripu-kṣm<unclear>ābh</unclear>r̥<lb 
-n="10" break="no"/><unclear>d b</unclear><choice><sic><unclear cert="low">ā</unclear></sic><corr>a</corr></choice><unclear>lād vā</unclear>savīṁ</l>
+<l n="a">ta<unclear>t-pu</unclear>traḥ sva-bhujāsi-khaṇḍita-ripu-kṣm<unclear>ābh</unclear>r̥<lb n="10" break="no"/><unclear>d b</unclear><choice><sic><unclear cert="low">ā</unclear></sic><corr>a</corr></choice><unclear>lād vā</unclear>savīṁ</l>
 <l n="b">jitvāśā<unclear>ṁ viraje</unclear> <unclear>pratiṣṭhita-</unclear><supplied reason="lost">ja</supplied>ya-s<unclear>taṁ</unclear>bhaḥ paṭiṣṭho raṇe</l>
-<l n="c">svarṇṇārū<choice><unclear>ḍh</unclear><unclear>ḍ</unclear></choice>a-tu<lb 
-n="11" break="no"/><unclear>lo</unclear> <supplied reason="subaudible">’</supplied><unclear>tra bā</unclear><choice><sic>d</sic><corr>ḍh</corr></choice>am atulo <unclear cert="low">dhā</unclear>tr<unclear>ī-tale</unclear> kṣatriyai<supplied reason="omitted">r</supplied></l>
-<l n="d">mmitrā<unclear>bha</unclear>ḫ parirakṣati sma vijayādi<lb 
-n="12" break="no"/><unclear>tyas sa</unclear>mārd<unclear>dh</unclear>a<space type="binding-hole"/>n dharā<choice><sic>N</sic><corr>M</corr></choice><g type="dandaSerif">.</g></l>
+<l n="c">svarṇṇārū<choice><unclear>ḍh</unclear><unclear>ḍ</unclear></choice>a-tu<lb n="11" break="no"/><unclear>lo</unclear> <supplied reason="subaudible">’</supplied><unclear>tra bā</unclear><choice><sic>d</sic><corr>ḍh</corr></choice>am atulo <unclear cert="low">dhā</unclear>tr<unclear>ī-tale</unclear> kṣatriyai<supplied reason="omitted">r</supplied></l>
+<l n="d">mmitrā<unclear>bha</unclear>ḫ parirakṣati sma vijayādi<lb n="12" break="no"/><unclear>tyas sa</unclear>mārd<unclear>dh</unclear>a<space type="binding-hole"/>n dharā<choice><sic>N</sic><corr>M</corr></choice><g ref="sym:bar-serifed" type="punctuation">.</g></l>
 </lg>
 <lg n="4" met="vasantatilakā">
 <l n="a" enjamb="yes">tasyātmajaḫ praṇata-vairi-śiro-vilagna</l>
-<l n="b">-ratna-dvirepha-paricu<lb 
-n="13" break="no"/><supplied reason="lost">mbi</supplied><unclear>ta-pāda</unclear>-pa<space type="binding-hole"/>dmaḥ</l>
+<l n="b">-ratna-dvirepha-paricu<lb n="13" break="no"/><supplied reason="lost">mbi</supplied><unclear>ta-pāda</unclear>-pa<space type="binding-hole"/>dmaḥ</l>
 <l n="c">meruṁ hasaṁs tulita-hāṭaka-rāśi-bhāsā</l>
-<l n="d">varṣāṇi sapta sama<lb 
-n="14" break="no"/><unclear>pād bhuva</unclear><supplied reason="omitted">m a</supplied>mmarā<unclear>jaḥ<g type="dandaSerif">.</g></unclear></l>
+<l n="d">varṣāṇi sapta sama<lb n="14" break="no"/><unclear>pād bhuva</unclear><supplied reason="omitted">m a</supplied>mmarā<unclear>jaḥ<g ref="sym:bar-serifed" type="punctuation">.</g></unclear></l>
 </lg>
 <lg n="5" met="anuṣṭubh">
 <l n="a">tat-suta<supplied reason="omitted">ṁ</supplied> vijayā<subst><del><unclear cert="low">tyaṁbā</unclear></del><add place="overstrike">dityaṁ</add></subst></l>
-<l n="b">bālam uccāṭya līlayā<g type="dandaSerif">.</g></l>
-<l n="c">tālādhipatir ā<lb 
-n="15" break="no"/>kra<unclear>m</unclear>ya</l>
-<l n="d">māsam ekam apād bhuvaM<g type="dandaSerif">.</g></l>
+<l n="b">bālam uccāṭya līlayā<g ref="sym:bar-serifed" type="punctuation">.</g></l>
+<l n="c">tālādhipatir ā<lb n="15" break="no"/>kra<unclear>m</unclear>ya</l>
+<l n="d">māsam ekam apād bhuvaM<g ref="sym:bar-serifed" type="punctuation">.</g></l>
 </lg>
 <lg n="6" met="anuṣṭubh">
 <l n="a" enjamb="yes"><unclear>taṁ jit</unclear>v<unclear>ā</unclear> yudhi cālukya</l>
 <l n="b">-bhīma-bhūmipates sutaḥ</l>
-<l n="c">vi<lb 
-n="16" break="no"/><unclear>kramā</unclear>ditya-bhūpo <supplied reason="subaudible">’</supplied>pān</l>
-<l n="d">māsān ekādaśa kṣitiM<g type="dandaSerif">.</g></l>
+<l n="c">vi<lb n="16" break="no"/><unclear>kramā</unclear>ditya-bhūpo <supplied reason="subaudible">’</supplied>pān</l>
+<l n="d">māsān ekādaśa kṣitiM<g ref="sym:bar-serifed" type="punctuation">.</g></l>
 </lg>
 <lg n="7" met="anuṣṭubh" part="I">
 <l n="a">tatas tu tammu-<subst><del><unclear cert="low">rājā</unclear></del><add place="overstrike"><unclear>bh</unclear>īm<unclear>ā</unclear></add></subst>khya<add place="inline"><unclear>ḥ</unclear></add></l>

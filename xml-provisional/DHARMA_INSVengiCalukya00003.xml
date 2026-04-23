@@ -72,19 +72,13 @@
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named
                             ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the
                             <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
             </prefixDef>
@@ -105,42 +99,14 @@
 
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/><unclear>śrī-viṣa</unclear>masiddhiḥ</ab>
+  <ab><lb n="1"/><unclear>śrī-viṣa</unclear>masiddhiḥ</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<pb 
-
-n="1r"/>
-<ab rend="tall"><pb 
-
-n="1v"/><lb 
-n="0"/>svasti<g type="dashHook">.</g></ab><p><lb 
-n="1"/><!--PHOTO: left P1000473.JPG; right: P1000477.JPG-->śr<unclear>ī</unclear>mat-piṣṭapura<surplus><add place="above">T</add></surplus>-vāsakā<add place="above">T</add><supplied reason="subaudible">.</supplied> sva-bhuja-vijita-danu-tanaya-m<choice><sic>ā</sic><corr>a</corr></choice>hā-senena m<choice><sic>ā</sic><corr>a</corr></choice>hā<lb 
-n="2" break="no"/>senenābhivarddhitānān tribhuvana-mātr̥bhi<subst><del rend="corrected">r abhira</del><add place="overstrike">r mmātr̥bhi</add></subst>r abhirakṣitānāṁ mānavya-sago<lb 
-n="3" break="no"/>trāṇāṁ <unclear>hā</unclear><space type="binding-hole"/>riti-putrāṇāṁ ca<supplied reason="omitted">lu</supplied>kyānāṁ anvayam unnamayitum asakr̥d anubh<choice><sic><unclear>u</unclear></sic><corr>ū</corr></choice><lb 
-n="4" break="no"/>ta-ra<space type="binding-hole"/>ṇa-rāgasya raṇarāga<subst><del rend="corrected"><unclear>na</unclear>ptā</del><add place="overstrike">sya na</add></subst>ptāsahya-vikramasya raṇavikramasya pautr<unclear>o</unclear> <lb 
-n="5"/>vipula-kīrtteḥ kīrttivarmaṇaḫ priya-sutaḥ śakti-traya-vaś<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-sakala-mahī-ma<lb 
-n="6" break="no"/>ṇḍalasya saty<choice><sic>a</sic><corr>ā</corr></choice>śraya-vallabha-mahārājasya priyānujaḥ svāsidhā<add place="overstrike">r<choice><sic>a</sic><corr>ā</corr></choice>-n<choice><sic>ā</sic><corr>a</corr></choice></add>mita-<unclear>sa</unclear><pb 
-
-n="2r" break="no"/><lb 
-n="7" break="no"/><!--PHOTO: left P1000479.JPG; centre: P1000480.JPG; right P1000483.JPG-->masta-sāmanta-maṇḍalaḥ sva-rūpa-guṇa-yauvana-śr<choice><sic>ī</sic><corr>i</corr></choice>yā dūram atiśay<unclear>ita</unclear><lb 
-n="8" break="no"/>-makara-dhvajaḥ sthala-jalādi-durgga-viṣameṣv api labdha-siddhitvād viṣamasiddhir a<unclear>rtthi</unclear><lb 
-n="9" break="no"/>-jana<surplus>ḥ</surplus><space type="binding-hole"/>-<add place="overstrike"><unclear>ni</unclear></add>tya-prasnuta-kāmadhenuḥ lokātiśaya-vikramatayā nara-loka-v<unclear>i</unclear><lb 
-n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">kra</add></subst>ma<supplied reason="omitted">ḥ</supplied> parama-bhāgavataḥ parama-brahmaṇyo mātā-pitr̥-pādānuddhy<choice><sic>a</sic><corr>ā</corr></choice>taḥ śrī-viṣṇuvarddha<unclear>na</unclear><lb 
-n="11" break="no"/>-m<choice><sic>ā</sic><corr>a</corr></choice>hārājaḥ|||</p>
-<p>paḻaki-viṣaye<add place="inline"><unclear><g type="commaHigh">.</g></unclear></add> kumūlūra nāma grāme pūrva-<choice><orig>diśe</orig><reg>diśi</reg></choice> kṣetre ca<lb 
-n="12" break="no"/>t<supplied reason="omitted">v</supplied><unclear>ā</unclear>ri-sahasra-nivartanāni chedaṁ kr̥tvā<g type="commaHigh">.</g> po<unclear>gganūra</unclear>-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāy<choice><sic>ā</sic><corr>a</corr></choice> catt<choice><sic>a</sic><corr>ā</corr></choice>līsa<pb 
-
-n="2v" break="no"/><lb 
-n="13" break="no"/><!--PHOTO: P1000485.JPG-->brāhmaṇaḥ nānā-g<choice><sic>a</sic><corr>o</corr></choice>tra-chandoga-sabrahmacāriṇe yama-niyama-pāragāya ṣaṭ-ka<unclear>rmma</unclear><lb 
-n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-pāragāya dattaḥ</p>
-<pb 
-
-n="3r"/>
-<pb 
-
-n="3v"/>
+<pb n="1r"/>
+<ab rend="tall"><pb n="1v"/><lb n="0"/>svasti<g ref="sym:dash-hooked" type="punctuation">.</g></ab><p><lb n="1"/><!--PHOTO: left P1000473.JPG; right: P1000477.JPG-->śr<unclear>ī</unclear>mat-piṣṭapura<surplus><add place="above">T</add></surplus>-vāsakā<add place="above">T</add><supplied reason="subaudible">.</supplied> sva-bhuja-vijita-danu-tanaya-m<choice><sic>ā</sic><corr>a</corr></choice>hā-senena m<choice><sic>ā</sic><corr>a</corr></choice>hā<lb n="2" break="no"/>senenābhivarddhitānān tribhuvana-mātr̥bhi<subst><del rend="corrected">r abhira</del><add place="overstrike">r mmātr̥bhi</add></subst>r abhirakṣitānāṁ mānavya-sago<lb n="3" break="no"/>trāṇāṁ <unclear>hā</unclear><space type="binding-hole"/>riti-putrāṇāṁ ca<supplied reason="omitted">lu</supplied>kyānāṁ anvayam unnamayitum asakr̥d anubh<choice><sic><unclear>u</unclear></sic><corr>ū</corr></choice><lb n="4" break="no"/>ta-ra<space type="binding-hole"/>ṇa-rāgasya raṇarāga<subst><del rend="corrected"><unclear>na</unclear>ptā</del><add place="overstrike">sya na</add></subst>ptāsahya-vikramasya raṇavikramasya pautr<unclear>o</unclear> <lb n="5"/>vipula-kīrtteḥ kīrttivarmaṇaḫ priya-sutaḥ śakti-traya-vaś<choice><sic>i</sic><corr>ī</corr></choice>kr̥ta-sakala-mahī-ma<lb n="6" break="no"/>ṇḍalasya saty<choice><sic>a</sic><corr>ā</corr></choice>śraya-vallabha-mahārājasya priyānujaḥ svāsidhā<add place="overstrike">r<choice><sic>a</sic><corr>ā</corr></choice>-n<choice><sic>ā</sic><corr>a</corr></choice></add>mita-<unclear>sa</unclear><pb n="2r" break="no"/><lb n="7" break="no"/><!--PHOTO: left P1000479.JPG; centre: P1000480.JPG; right P1000483.JPG-->masta-sāmanta-maṇḍalaḥ sva-rūpa-guṇa-yauvana-śr<choice><sic>ī</sic><corr>i</corr></choice>yā dūram atiśay<unclear>ita</unclear><lb n="8" break="no"/>-makara-dhvajaḥ sthala-jalādi-durgga-viṣameṣv api labdha-siddhitvād viṣamasiddhir a<unclear>rtthi</unclear><lb n="9" break="no"/>-jana<surplus>ḥ</surplus><space type="binding-hole"/>-<add place="overstrike"><unclear>ni</unclear></add>tya-prasnuta-kāmadhenuḥ lokātiśaya-vikramatayā nara-loka-v<unclear>i</unclear><lb n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">kra</add></subst>ma<supplied reason="omitted">ḥ</supplied> parama-bhāgavataḥ parama-brahmaṇyo mātā-pitr̥-pādānuddhy<choice><sic>a</sic><corr>ā</corr></choice>taḥ śrī-viṣṇuvarddha<unclear>na</unclear><lb n="11" break="no"/>-m<choice><sic>ā</sic><corr>a</corr></choice>hārājaḥ|||</p>
+<p>paḻaki-viṣaye<add place="inline"><unclear><g ref="sym:shortBar-high" type="punctuation">.</g></unclear></add> kumūlūra nāma grāme pūrva-<choice><orig>diśe</orig><reg>diśi</reg></choice> kṣetre ca<lb n="12" break="no"/>t<supplied reason="omitted">v</supplied><unclear>ā</unclear>ri-sahasra-nivartanāni chedaṁ kr̥tvā<g ref="sym:shortBar-high" type="punctuation">.</g> po<unclear>gganūra</unclear>-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāy<choice><sic>ā</sic><corr>a</corr></choice> catt<choice><sic>a</sic><corr>ā</corr></choice>līsa<pb n="2v" break="no"/><lb n="13" break="no"/><!--PHOTO: P1000485.JPG-->brāhmaṇaḥ nānā-g<choice><sic>a</sic><corr>o</corr></choice>tra-chandoga-sabrahmacāriṇe yama-niyama-pāragāya ṣaṭ-ka<unclear>rmma</unclear><lb n="14" break="no"/>-niratāy<choice><sic>ā</sic><corr>a</corr></choice> veda-pāragāya dattaḥ</p>
+<pb n="3r"/>
+<pb n="3v"/>
 </div>
 </div>
         
@@ -189,12 +155,11 @@ n="3v"/>
         <note>The character <foreign>ni</foreign> was probably struck over something else, possibly <foreign>ma</foreign> or <foreign>vā</foreign>.</note>
       </app>
       <app loc="9">
-        <lem>v<unclear>i</unclear><lb 
-n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">kra</add></subst>ma<supplied reason="omitted">ḥ</supplied></lem>
+        <lem>v<unclear>i</unclear><lb n="10" break="no"/><subst><del rend="corrected">ma</del><add place="overstrike">kra</add></subst>ma<supplied reason="omitted">ḥ</supplied></lem>
         <note>As Hultzsch notes, the composer's intent may have been <foreign>trivikramaḥ</foreign>. This proposed emendation is not connected to the premodern correction present here.</note>
       </app>
       <app loc="11">
-        <lem>-viṣaye<add place="inline"><unclear><g type="commaHigh">.</g></unclear></add> kumūlūra</lem>
+        <lem>-viṣaye<add place="inline"><unclear><g ref="sym:shortBar-high" type="punctuation">.</g></unclear></add> kumūlūra</lem>
         <note>If this is a punctuation mark, as read by Hultzsch, then it must have been inserted subsequently into the space between <foreign>ye</foreign> and the following character. In spite of its tiny size it has a serif on top, which the earlier <foreign>daṇḍa</foreign>s in the line lack, so perhaps the intent was something else; perhaps correction of <foreign>ku</foreign> into <foreign>ke</foreign>?</note>
       </app>
       <app loc="11">

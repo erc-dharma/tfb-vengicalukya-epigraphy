@@ -73,19 +73,13 @@
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named
                             ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the
                             <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
             </prefixDef>
@@ -104,54 +98,18 @@
       
       
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
-<pb 
-
-n="1r"/>
-<p><pb 
-
-n="1v"/><fw n="1v" place="left"><num value="1">1</num></fw><lb 
-n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="subaudible">.</supplied> mātr̥-gaṇa-parirakṣitānāṁ mānavya-sagotrāṇ<unclear>ā</unclear>ṁ <lb 
-n="2"/>hāritī-putrāṇāM Aśvamedha-yājināṁ calukyānāṁ kula-jalanidhi<lb 
-n="3" break="no"/>-samu<space type="binding-hole"/>tpa<choice><sic>t</sic><corr>n</corr></choice>na-rāja-ratnasya sakala-bhuvana<surplus>ṁ</surplus>-maṇḍala-maṇḍita-kīrtt<choice><sic>i</sic><corr>e</corr></choice>ḥ śrī<lb 
-n="4" break="no"/>-kīrtti<space type="binding-hole"/>varmmaṇaḥ pautraḥ Aneka-samara-saṁghaṭṭa-vijayinaḥ pa<unclear>ra</unclear>-nara<lb 
-n="5" break="no"/>pati-makuṭa-maṇi-mayūkhāvadāta-caraṇa-yugalasya śrī-viṣṇuvarddhana<lb 
-n="6" break="no"/>-mahārājasya priya-tanayaḥ pravarddhamāna-pratāpopanata-samasta<pb 
-
-n="2r" break="no"/><lb 
-n="7" break="no"/>-sāmanta-maṇḍalaḥ sva-bāhu-bala-parākkramopārjjita-sa<unclear>kala</unclear>-yaśo<lb 
-n="8" break="no"/>-vibhāsita-digantaraḥ sva-śakti-traya-triśūlāvabhinna-para-<unclear>na</unclear>rapati<lb 
-n="9" break="no"/>-saka<space type="binding-hole"/>la-bala-cetanaḥ br̥haspatir iva naya-jño manur iva vinaya<lb 
-n="10" break="no"/>-jñaḥ <space type="binding-hole"/> yudhiṣṭhira Iva dharmma-parāyaṇaḥ Arjunavad apara-nara<lb 
-n="11" break="no"/>patibhir anabhilaṁghita-pauruṣyaḥ Aneka-śāstrārttha-tatva-jñaḥ para<lb 
-n="12" break="no"/>ma-brahmaṇy<choice><sic>ā</sic><corr>o</corr></choice> mātā-pitr̥-pādānudhyātaḥ śrī-<orig>prithivī</orig>-jayasi<orig>ṅgha</orig>-va<pb 
-
-n="2v" break="no"/><fw n="2v" place="left"><num value="2"><unclear>2</unclear></num></fw><lb 
-n="13"/>llabha-mahārājaḥ guddavādi-viṣay<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst> viṣaya-mahat<unclear>t</unclear>a<unclear>rān a</unclear><supplied reason="lost">dh</supplied><unclear>i</unclear>kāra-pu<lb 
-n="14" break="no"/>ruṣāṁś ca Imam arttham ājñāpayaty <surplus>asti</surplus></p>
-<p>viditam astu vo ya<unclear>thās</unclear>mābhiḥ <lb 
-n="15"/>gudda<space type="binding-hole"/>vādi-viṣaye puloṁbūran nāma-grāmaḥ veda-vedāṁga<lb 
-n="16" break="no"/>-vido <space type="binding-hole"/>dāmaśarmmaṇaḥ pautrāya sva-pitur adhika-guṇa-gaṇādhi<lb 
-n="17" break="no"/>vāsasya śivaśarmmaṇaḥ putrāya taittirika-sabrahmacāriṇe veda<lb 
-n="18" break="no"/>-dvayālaṁkr̥ta-śar<choice><sic>i</sic><corr>ī</corr></choice>rāya gautama-sagotrāya sva-karmmān<unclear>uṣṭh</unclear>āna<pb 
-
-n="3r" break="no"/><lb 
-n="19" break="no"/>-parāya pūrvvāgrahārika-rudraśarmmaṇe Asanapura-sthāna-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <lb 
-n="20"/>śrī-sarvvasiddhi-da<orig>t</orig>yā sarvva-kara-parihāreṇāgrahārī-kr̥tya samprattaḥ</p>
-<p><lb 
-n="21"/>tathā <space type="binding-hole"/> bhavadbhir a<choice><sic>ṇ</sic><corr>n</corr></choice>yaiś ca dharmmādhi<choice><sic>ś</sic><corr>g</corr></choice>ata-buddhibhiḥ paripālanīyaḥ<supplied reason="subaudible">.</supplied> <lb 
-n="22"/>na kai<space type="binding-hole"/>ścid bādhā karaṇīyā<supplied reason="subaudible">.</supplied> Ājñaptir atra hastikośa-vīrakoś<choice><sic>a</sic><corr>au</corr></choice><supplied reason="subaudible">.</supplied> <subst><del rend="corrected"><unclear>yo</unclear></del><add place="overstrike"><unclear>vyā</unclear></add></subst><lb 
-n="23" break="no"/>sa-gītāḥ</p>
+<pb n="1r"/>
+<p><pb n="1v"/><fw n="1v" place="left"><num value="1">1</num></fw><lb n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="subaudible">.</supplied> mātr̥-gaṇa-parirakṣitānāṁ mānavya-sagotrāṇ<unclear>ā</unclear>ṁ <lb n="2"/>hāritī-putrāṇāM Aśvamedha-yājināṁ calukyānāṁ kula-jalanidhi<lb n="3" break="no"/>-samu<space type="binding-hole"/>tpa<choice><sic>t</sic><corr>n</corr></choice>na-rāja-ratnasya sakala-bhuvana<surplus>ṁ</surplus>-maṇḍala-maṇḍita-kīrtt<choice><sic>i</sic><corr>e</corr></choice>ḥ śrī<lb n="4" break="no"/>-kīrtti<space type="binding-hole"/>varmmaṇaḥ pautraḥ Aneka-samara-saṁghaṭṭa-vijayinaḥ pa<unclear>ra</unclear>-nara<lb n="5" break="no"/>pati-makuṭa-maṇi-mayūkhāvadāta-caraṇa-yugalasya śrī-viṣṇuvarddhana<lb n="6" break="no"/>-mahārājasya priya-tanayaḥ pravarddhamāna-pratāpopanata-samasta<pb n="2r" break="no"/><lb n="7" break="no"/>-sāmanta-maṇḍalaḥ sva-bāhu-bala-parākkramopārjjita-sa<unclear>kala</unclear>-yaśo<lb n="8" break="no"/>-vibhāsita-digantaraḥ sva-śakti-traya-triśūlāvabhinna-para-<unclear>na</unclear>rapati<lb n="9" break="no"/>-saka<space type="binding-hole"/>la-bala-cetanaḥ br̥haspatir iva naya-jño manur iva vinaya<lb n="10" break="no"/>-jñaḥ <space type="binding-hole"/> yudhiṣṭhira Iva dharmma-parāyaṇaḥ Arjunavad apara-nara<lb n="11" break="no"/>patibhir anabhilaṁghita-pauruṣyaḥ Aneka-śāstrārttha-tatva-jñaḥ para<lb n="12" break="no"/>ma-brahmaṇy<choice><sic>ā</sic><corr>o</corr></choice> mātā-pitr̥-pādānudhyātaḥ śrī-<orig>prithivī</orig>-jayasi<orig>ṅgha</orig>-va<pb n="2v" break="no"/><fw n="2v" place="left"><num value="2"><unclear>2</unclear></num></fw><lb n="13"/>llabha-mahārājaḥ guddavādi-viṣay<subst><del rend="corrected">i</del><add place="overstrike">e</add></subst> viṣaya-mahat<unclear>t</unclear>a<unclear>rān a</unclear><supplied reason="lost">dh</supplied><unclear>i</unclear>kāra-pu<lb n="14" break="no"/>ruṣāṁś ca Imam arttham ājñāpayaty <surplus>asti</surplus></p>
+<p>viditam astu vo ya<unclear>thās</unclear>mābhiḥ <lb n="15"/>gudda<space type="binding-hole"/>vādi-viṣaye puloṁbūran nāma-grāmaḥ veda-vedāṁga<lb n="16" break="no"/>-vido <space type="binding-hole"/>dāmaśarmmaṇaḥ pautrāya sva-pitur adhika-guṇa-gaṇādhi<lb n="17" break="no"/>vāsasya śivaśarmmaṇaḥ putrāya taittirika-sabrahmacāriṇe veda<lb n="18" break="no"/>-dvayālaṁkr̥ta-śar<choice><sic>i</sic><corr>ī</corr></choice>rāya gautama-sagotrāya sva-karmmān<unclear>uṣṭh</unclear>āna<pb n="3r" break="no"/><lb n="19" break="no"/>-parāya pūrvvāgrahārika-rudraśarmmaṇe Asanapura-sthāna-v<choice><sic>a</sic><corr>ā</corr></choice>stavyāya <lb n="20"/>śrī-sarvvasiddhi-da<orig>t</orig>yā sarvva-kara-parihāreṇāgrahārī-kr̥tya samprattaḥ</p>
+<p><lb n="21"/>tathā <space type="binding-hole"/> bhavadbhir a<choice><sic>ṇ</sic><corr>n</corr></choice>yaiś ca dharmmādhi<choice><sic>ś</sic><corr>g</corr></choice>ata-buddhibhiḥ paripālanīyaḥ<supplied reason="subaudible">.</supplied> <lb n="22"/>na kai<space type="binding-hole"/>ścid bādhā karaṇīyā<supplied reason="subaudible">.</supplied> Ājñaptir atra hastikośa-vīrakoś<choice><sic>a</sic><corr>au</corr></choice><supplied reason="subaudible">.</supplied> <subst><del rend="corrected"><unclear>yo</unclear></del><add place="overstrike"><unclear>vyā</unclear></add></subst><lb n="23" break="no"/>sa-gītāḥ</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">bahubhir vvasudhā dattā</l>
 <l n="b">bahubhiś cānupālitā</l>
-<l n="c">yasya yasya <lb 
-n="24"/>yadā bhūmis</l>
+<l n="c">yasya yasya <lb n="24"/>yadā bhūmis</l>
 <l n="d">tasya tasya tadā phalam</l>
 </lg>
-<p>iti saṁ <unclear><g type="ddanda">.</g></unclear> <num value="5"><unclear>5</unclear></num> <unclear>| g</unclear>i <num value="8"><unclear>8</unclear></num> <unclear>| d</unclear>i <num value="3"><unclear>3</unclear></num></p>
-<pb 
-
-n="3v"/>
+<p>iti saṁ <unclear><g ref="sym:doubleBar" type="punctuation">.</g></unclear> <num value="5"><unclear>5</unclear></num> <unclear>| g</unclear>i <num value="8"><unclear>8</unclear></num> <unclear>| d</unclear>i <num value="3"><unclear>3</unclear></num></p>
+<pb n="3v"/>
 
 </div>
         
@@ -202,7 +160,7 @@ n="3v"/>
         <note>Given the parallel in line 29 of the grant of Mādhavavarman I (see the commentary), the intent would have been <foreign>hastikośa-vīrakośau</foreign> in spite of the lack of agreement in number with <foreign>ājñaptir</foreign>. Incidentally, both instances of <foreign>ś</foreign> have conspicuous horns, which do not occur in any <foreign>śa</foreign> in these plates, all of which have plain, rounded tops. This may be irrelevant, but it also seems possible that <foreign>hastikośa-vīrakośau</foreign> was pre-written for the engraver, who in turn misinterpreted the final vowel mark as part of the consonant character, and applied the same to the earlier instance of the same consonant. What is perhaps even more likely is that the charter as a whole was adopted from the earlier Viṣṇukuṇḍin charter, and this section was copied without proper understanding. Rangacharya sees an indistinct <foreign>vyā</foreign> at the end of line 22, <q>beneath the punctuation mark and not separate.</q> I see no punctuation mark, nor does Rangacharya print one in his edition. In the scanned rubbing, <foreign>yo</foreign> seems to be clear, but there is a very faint loop below it that may perhaps be a subscript <foreign>y</foreign>. Since Sircar also reads a supposedly clear <foreign>byā</foreign> here, I assume that this is indeed a superscript <foreign>y</foreign>, but since there are very conspicuous strokes that do not belong to either <foreign>vyā</foreign> or <foreign>byā</foreign>, I believe the scribe had corrected <foreign>yo</foreign> to <foreign>vyā</foreign>, or possibly to <foreign>byā</foreign>.</note>
       </app>
       <app loc="24">
-        <lem source="bib:Sircar1939_01 bib:Sankaranarayanan1977_01">saṁ <unclear><g type="ddanda">.</g></unclear> <num value="5"><unclear>5</unclear></num> <unclear>| g</unclear>i <num value="8"><unclear>8</unclear></num> <unclear>| d</unclear>i <num value="3"><unclear>3</unclear></num></lem>
+        <lem source="bib:Sircar1939_01 bib:Sankaranarayanan1977_01">saṁ <unclear><g ref="sym:doubleBar" type="punctuation">.</g></unclear> <num value="5"><unclear>5</unclear></num> <unclear>| g</unclear>i <num value="8"><unclear>8</unclear></num> <unclear>| d</unclear>i <num value="3"><unclear>3</unclear></num></lem>
         <rdg source="bib:Rangacharya1927-1928_03">saṁ <gap reason="illegible" extent="unknown" unit="character"/></rdg>
         <rdg source="bib:SubbaRao1929-1930_01">saṁ 4</rdg>
         <note>I accept the reading of Sircar and Sankaranarayanan, both of whom print it without any indication of unclarity or tentativeness. See the commentary for details.</note>

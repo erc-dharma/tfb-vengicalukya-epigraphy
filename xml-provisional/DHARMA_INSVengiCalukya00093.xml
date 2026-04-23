@@ -73,19 +73,13 @@ The plates are written in a very clumsy hand, and the lines are extremely uneven
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named
                             ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the
                             <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
             </prefixDef>
@@ -101,59 +95,27 @@ The plates are written in a very clumsy hand, and the lines are extremely uneven
       
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/>śrī-viṣamasiddhi</ab>
+  <ab><lb n="1"/>śrī-viṣamasiddhi</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<pb 
-
-n="1r"/><!--P1020968.JPG-->
-<p><pb 
-
-n="1v"/><lb 
-n="1"/><!--P1020966.JPG (also P1020965.JPG, P1020967.JPG)-->s<unclear>v</unclear>asti<supplied reason="subaudible">.</supplied> śr<unclear>ī</unclear>maT vijayav<unclear>ā</unclear>ṭa-v<unclear>ā</unclear>sakāt<supplied reason="subaudible">.</supplied> sakala-bhuva<unclear>na</unclear>-sa<unclear>ṁstū</unclear>yam<unclear>ā</unclear><supplied reason="omitted">na</supplied><lb 
-n="2" break="no"/>-<unclear>mānavya-sago</unclear>tr<choice><sic>a</sic><corr>ā</corr></choice>ṇ<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">ṁ</supplied> h<choice><sic>a</sic><corr>ā</corr></choice>riti-putr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<supplied reason="omitted">ṁ</supplied> k<choice><sic>o</sic><corr>au</corr></choice>śik<choice><sic>i</sic><corr>ī</corr></choice>-prasāda-labdha-rājy<unclear>ā</unclear><supplied reason="omitted">ṇāṁ</supplied><lb 
-n="3"/><unclear>calu</unclear><space type="binding-hole"/><unclear>kyā</unclear>nā<unclear>ṁ</unclear> kulam ala<unclear>ṁ</unclear>kariṣṇo<add place="above">s</add> sva-kara-dhr̥ta-niśita-nistri<supplied reason="omitted">ṁ</supplied>śa<lb 
-n="4" break="no"/>-viji<space type="binding-hole"/>tāri-maṇḍala-śrī-sarvva-lokāśraya-mahārājasya <lb 
-n="5"/><unclear>p</unclear>ri<unclear>ya-tanaya</unclear><supplied reason="omitted">ḥ</supplied> śrī-<add place="inline">sa</add>kala-lok<unclear>āśra</unclear>ya-<unclear>ja</unclear>ya<add place="below">si</add><choice><orig>ṅga</orig><reg>ṁha</reg></choice>-mah<choice><sic>a</sic><corr>ā</corr></choice>rājasya <lb 
-n="6"/><unclear cert="low">priyānujaḥ</unclear> śrī sa<unclear>rvva-lokā</unclear>śra<unclear>ya</unclear>-vi<unclear>ṣṇu</unclear>varddh<unclear>ana-ma</unclear>h<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> <pb 
-
-n="2r"/><lb 
-n="7"/><!--P1020959.JPG to P1020961.JPG--><unclear cert="low">gārgyā</unclear><unclear>ya</unclear>ṇa-s<choice><sic>ā</sic><corr>a</corr></choice><unclear>gotrāya</unclear> <unclear cert="low">ve</unclear><supplied reason="lost" cert="low">da-ve</supplied><unclear cert="low">dāṁ</unclear>ga-<unclear>v</unclear>i<unclear>dođ</unclear> <unclear>bh</unclear><choice><sic>i</sic><corr>ī</corr></choice>maśa<unclear>r</unclear>mma<unclear>ṇa</unclear><supplied reason="subaudible">ḥ</supplied> p<unclear>au</unclear><lb 
-n="8" break="no"/><unclear>trāya ha</unclear>stiśa<unclear>r</unclear>mmaṇa<supplied reason="subaudible">ḥ</supplied> putrā<unclear>ya ṣaṭ-ka</unclear>rmma-niratāya viṣṇuśarmma<lb 
-n="9" break="no"/><unclear>ṇe</unclear> viṣ<unclear>a</unclear>y<unclear>e</unclear> Ari<add place="below"><unclear>ye</unclear></add>ṟa-grāme p<choice><sic>u</sic><corr>ū</corr></choice>rvvottara-di<unclear reason="eccentric_ductus">g-bhā</unclear>ge ni<lb 
-n="10" break="no"/><gap reason="illegible" quantity="1" unit="character" precision="low"/><space type="binding-hole"/><gap reason="illegible" quantity="1" unit="character" precision="low"/>ya kṣetra<unclear cert="low">ṁ</unclear> dattaM<supplied reason="subaudible">.</supplied> Asyopari na kaiśc<choice><sic>a</sic><corr>i</corr></choice>d api <choice><sic>bhadha</sic><corr>bādhā</corr></choice> <lb 
-n="11"/><unclear>kara</unclear><supplied reason="lost">ṇī</supplied>y<supplied reason="lost">ā</supplied><supplied reason="subaudible">.</supplied> yaẖ karoti sa <supplied reason="omitted">pa</supplied>ñcabhir mmah<unclear>ā</unclear>-p<choice><sic>a</sic><corr>ā</corr></choice>takair <choice><sic>mmukte</sic><corr>yyukto</corr></choice> bhavati</p>
-<p><lb 
-n="12"/><unclear>A</unclear>sya <unclear>kṣetrasya</unclear> s<choice><sic>i</sic><corr>ī</corr></choice>m<choice><sic>aḥ</sic><corr>āni</corr></choice><supplied reason="subaudible">.</supplied> p<unclear>ū</unclear>rv<unclear>v</unclear>a-sī<unclear>ma</unclear> <pb 
-
-n="2v"/><lb 
-n="13"/><!--P1020962.JPG to P1020964.JPG-->grāma-<unclear cert="low">kṣetra</unclear><supplied reason="lost">ṁ</supplied><supplied reason="subaudible">.</supplied> <unclear>dakṣiṇa</unclear><unclear cert="low">to</unclear> <supplied reason="subaudible">’</supplied><unclear>pi</unclear> gr<unclear cert="low">āma</unclear>-bhūmi<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> pa<unclear>ści</unclear><lb 
-n="14" break="no"/><unclear>ma</unclear><space type="binding-hole"/><unclear>to</unclear> <unclear cert="low">U</unclear><supplied reason="omitted" cert="low">da</supplied><unclear cert="low">kaṁ</unclear> U<unclear>tta</unclear>ra<unclear>to</unclear> <supplied reason="subaudible">’</supplied>py <unclear cert="low">uda</unclear>ka-sthā<unclear>na</unclear><supplied reason="lost">ṁ</supplied> <unclear cert="low">Atra</unclear> <lb n="15"/>vy<unclear cert="low">ā</unclear><space type="binding-hole"/><supplied reason="lost">sa</supplied>-<unclear>gī</unclear><supplied reason="lost">tāḥ</supplied> <unclear>ślokāḥ</unclear></p>
+<pb n="1r"/><!--P1020968.JPG-->
+<p><pb n="1v"/><lb n="1"/><!--P1020966.JPG (also P1020965.JPG, P1020967.JPG)-->s<unclear>v</unclear>asti<supplied reason="subaudible">.</supplied> śr<unclear>ī</unclear>maT vijayav<unclear>ā</unclear>ṭa-v<unclear>ā</unclear>sakāt<supplied reason="subaudible">.</supplied> sakala-bhuva<unclear>na</unclear>-sa<unclear>ṁstū</unclear>yam<unclear>ā</unclear><supplied reason="omitted">na</supplied><lb n="2" break="no"/>-<unclear>mānavya-sago</unclear>tr<choice><sic>a</sic><corr>ā</corr></choice>ṇ<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">ṁ</supplied> h<choice><sic>a</sic><corr>ā</corr></choice>riti-putr<choice><sic>a</sic><corr>ā</corr></choice>ṇā<supplied reason="omitted">ṁ</supplied> k<choice><sic>o</sic><corr>au</corr></choice>śik<choice><sic>i</sic><corr>ī</corr></choice>-prasāda-labdha-rājy<unclear>ā</unclear><supplied reason="omitted">ṇāṁ</supplied><lb n="3"/><unclear>calu</unclear><space type="binding-hole"/><unclear>kyā</unclear>nā<unclear>ṁ</unclear> kulam ala<unclear>ṁ</unclear>kariṣṇo<add place="above">s</add> sva-kara-dhr̥ta-niśita-nistri<supplied reason="omitted">ṁ</supplied>śa<lb n="4" break="no"/>-viji<space type="binding-hole"/>tāri-maṇḍala-śrī-sarvva-lokāśraya-mahārājasya <lb n="5"/><unclear>p</unclear>ri<unclear>ya-tanaya</unclear><supplied reason="omitted">ḥ</supplied> śrī-<add place="inline">sa</add>kala-lok<unclear>āśra</unclear>ya-<unclear>ja</unclear>ya<add place="below">si</add><choice><orig>ṅga</orig><reg>ṁha</reg></choice>-mah<choice><sic>a</sic><corr>ā</corr></choice>rājasya <lb n="6"/><unclear cert="low">priyānujaḥ</unclear> śrī sa<unclear>rvva-lokā</unclear>śra<unclear>ya</unclear>-vi<unclear>ṣṇu</unclear>varddh<unclear>ana-ma</unclear>h<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> <pb n="2r"/><lb n="7"/><!--P1020959.JPG to P1020961.JPG--><unclear cert="low">gārgyā</unclear><unclear>ya</unclear>ṇa-s<choice><sic>ā</sic><corr>a</corr></choice><unclear>gotrāya</unclear> <unclear cert="low">ve</unclear><supplied reason="lost" cert="low">da-ve</supplied><unclear cert="low">dāṁ</unclear>ga-<unclear>v</unclear>i<unclear>dođ</unclear> <unclear>bh</unclear><choice><sic>i</sic><corr>ī</corr></choice>maśa<unclear>r</unclear>mma<unclear>ṇa</unclear><supplied reason="subaudible">ḥ</supplied> p<unclear>au</unclear><lb n="8" break="no"/><unclear>trāya ha</unclear>stiśa<unclear>r</unclear>mmaṇa<supplied reason="subaudible">ḥ</supplied> putrā<unclear>ya ṣaṭ-ka</unclear>rmma-niratāya viṣṇuśarmma<lb n="9" break="no"/><unclear>ṇe</unclear> viṣ<unclear>a</unclear>y<unclear>e</unclear> Ari<add place="below"><unclear>ye</unclear></add>ṟa-grāme p<choice><sic>u</sic><corr>ū</corr></choice>rvvottara-di<unclear reason="eccentric_ductus">g-bhā</unclear>ge ni<lb n="10" break="no"/><gap reason="illegible" quantity="1" unit="character" precision="low"/><space type="binding-hole"/><gap reason="illegible" quantity="1" unit="character" precision="low"/>ya kṣetra<unclear cert="low">ṁ</unclear> dattaM<supplied reason="subaudible">.</supplied> Asyopari na kaiśc<choice><sic>a</sic><corr>i</corr></choice>d api <choice><sic>bhadha</sic><corr>bādhā</corr></choice> <lb n="11"/><unclear>kara</unclear><supplied reason="lost">ṇī</supplied>y<supplied reason="lost">ā</supplied><supplied reason="subaudible">.</supplied> yaẖ karoti sa <supplied reason="omitted">pa</supplied>ñcabhir mmah<unclear>ā</unclear>-p<choice><sic>a</sic><corr>ā</corr></choice>takair <choice><sic>mmukte</sic><corr>yyukto</corr></choice> bhavati</p>
+<p><lb n="12"/><unclear>A</unclear>sya <unclear>kṣetrasya</unclear> s<choice><sic>i</sic><corr>ī</corr></choice>m<choice><sic>aḥ</sic><corr>āni</corr></choice><supplied reason="subaudible">.</supplied> p<unclear>ū</unclear>rv<unclear>v</unclear>a-sī<unclear>ma</unclear> <pb n="2v"/><lb n="13"/><!--P1020962.JPG to P1020964.JPG-->grāma-<unclear cert="low">kṣetra</unclear><supplied reason="lost">ṁ</supplied><supplied reason="subaudible">.</supplied> <unclear>dakṣiṇa</unclear><unclear cert="low">to</unclear> <supplied reason="subaudible">’</supplied><unclear>pi</unclear> gr<unclear cert="low">āma</unclear>-bhūmi<supplied reason="omitted">ḥ</supplied><supplied reason="subaudible">.</supplied> pa<unclear>ści</unclear><lb n="14" break="no"/><unclear>ma</unclear><space type="binding-hole"/><unclear>to</unclear> <unclear cert="low">U</unclear><supplied reason="omitted" cert="low">da</supplied><unclear cert="low">kaṁ</unclear> U<unclear>tta</unclear>ra<unclear>to</unclear> <supplied reason="subaudible">’</supplied>py <unclear cert="low">uda</unclear>ka-sthā<unclear>na</unclear><supplied reason="lost">ṁ</supplied> <unclear cert="low">Atra</unclear> <lb n="15"/>vy<unclear cert="low">ā</unclear><space type="binding-hole"/><supplied reason="lost">sa</supplied>-<unclear>gī</unclear><supplied reason="lost">tāḥ</supplied> <unclear>ślokāḥ</unclear></p>
 <lg n="1" met="anuṣṭubh">
 <l n="a">ba<unclear>hu</unclear>bhir v<unclear>v</unclear>asudh<unclear>ā</unclear> datt<unclear>ā</unclear></l>
-<l n="b"><lb 
-n="16"/><unclear>bahubhiś cānupālitā</unclear></l>
-<l n="c">yasya ya<unclear>sya yadā</unclear> <pb 
-
-n="3r"/><lb 
-n="17"/><!--P1020956.JPG to P1020958.JPG-->bh<unclear>ū</unclear>mi<unclear>s</unclear></l>
+<l n="b"><lb n="16"/><unclear>bahubhiś cānupālitā</unclear></l>
+<l n="c">yasya ya<unclear>sya yadā</unclear> <pb n="3r"/><lb n="17"/><!--P1020956.JPG to P1020958.JPG-->bh<unclear>ū</unclear>mi<unclear>s</unclear></l>
 <l n="d"><unclear>ta</unclear>sya <surplus><unclear>s</unclear></surplus>tasya <surplus>ta</surplus>dā phal<surplus>aM</surplus></l>
 </lg>
 <lg n="2" met="anuṣṭubh">
-<l n="a">sva-d<unclear>a</unclear>tt<unclear cert="low">ā</unclear><lb 
-n="18" break="no"/><unclear>M pa</unclear><surplus>ra</surplus>ra-datt<unclear cert="low">āṁ</unclear> v<choice><sic>a</sic><corr>ā</corr></choice></l>
+<l n="a">sva-d<unclear>a</unclear>tt<unclear cert="low">ā</unclear><lb n="18" break="no"/><unclear>M pa</unclear><surplus>ra</surplus>ra-datt<unclear cert="low">āṁ</unclear> v<choice><sic>a</sic><corr>ā</corr></choice></l>
 <l n="b">yo hareta va<unclear>s</unclear>u<supplied reason="omitted">ndharāṁ</supplied></l>
-<l n="c">ṣaṣṭi-va<unclear>rṣa</unclear><lb 
-n="19" break="no"/>-sa<space type="binding-hole"/>hasr<unclear cert="low">ā</unclear>ṇi</l>
+<l n="c">ṣaṣṭi-va<unclear>rṣa</unclear><lb n="19" break="no"/>-sa<space type="binding-hole"/>hasr<unclear cert="low">ā</unclear>ṇi</l>
 <l n="d"><unclear cert="low">tāny e</unclear><unclear>va narake</unclear> vase<supplied reason="omitted">T</supplied></l>
 </lg>
 
-<p><unclear>Ā</unclear>jña<lb 
-n="20" break="no"/>ptir asya <unclear cert="low">mamār</unclear>yya<unclear>va</unclear>rmma <unclear cert="low">va</unclear>armm<unclear cert="low">apa-viraci</unclear><unclear>taM</unclear></p>
-<pb 
-
-n="3v"/><!--P1020955.JPG-->
+<p><unclear>Ā</unclear>jña<lb n="20" break="no"/>ptir asya <unclear cert="low">mamār</unclear>yya<unclear>va</unclear>rmma <unclear cert="low">va</unclear>armm<unclear cert="low">apa-viraci</unclear><unclear>taM</unclear></p>
+<pb n="3v"/><!--P1020955.JPG-->
 </div>
 </div>
         
@@ -238,11 +200,11 @@ n="3v"/><!--P1020955.JPG-->
 <div type="bibliography">
   <p>Not reported in ARIE.<note>This is not the <ref target="DHARMA_INSVengiCalukya00105.xml">Gaṇapavaram plates attributed to Viṣṇuvardhana III</ref> reported in <bibl><ptr target="bib:ARIE1924-1925"/><citedRange unit="page">7</citedRange><citedRange unit="appendix">A/1924-25</citedRange><citedRange unit="item">3</citedRange></bibl>.</note> No previous edition known. The present edition by Dániel Balogh is based on photographs taken by myself in February 2023 at the Telangana State Archaeology Museum, Hyderabad.</p>
   <listBibl type="primary">
-    <bibl></bibl>
+    <bibl/>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
-    <bibl></bibl>
+    <bibl/>
   </listBibl>
 </div>
 

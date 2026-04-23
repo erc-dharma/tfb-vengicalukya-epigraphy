@@ -72,19 +72,13 @@
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named
                             ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the
                             <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
             </prefixDef>
@@ -102,53 +96,20 @@
       
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/>śrī-sarvvasiddhi</ab>
+  <ab><lb n="1"/>śrī-sarvvasiddhi</ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<pb 
-
-n="1r"/>
-<p><pb 
-
-n="1v"/><lb 
-n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="subaudible">.</supplied> hāriti-putrāṇāṁ mānavya-sagotrāṇāṁ<lb 
-n="2"/>Aśvamedhāvabhr̥tha-snāna-vidhvasta-jagat-kalmaṣāṇāṁ <lb 
-n="3"/>cālukyānāṁ kula-jalanidhi-samudbhūta-rāja-ratnasya <lb 
-n="4"/>śrī-kīrtivarmaṇaḥ pautraḥ Aneka-samara-saṅghaṭṭa-vija<pb 
-
-n="2r" break="no"/><lb 
-n="5" break="no"/>yinaḥ śrī-viṣṇuvarddhana-mahārājasya priya-tanayaḥ pravarddha<lb 
-n="6" break="no"/>māna-pratāpāvanamita-para-narapati-maku<lb 
-n="7" break="no"/>ṭa-maṇi-marīci-mañjarī-puñja-piñjarita-caraṇa-yugalaḥ <lb 
-n="8"/>cālukyāryārṇṇava-vaṁśa-dvayālayaikaḥ parama-brahmaṇyo <pb 
-
-n="2v"/><lb 
-n="9"/>mātā-pitr̥-pādānudhyātaḥ śrī-prithivī-jayasiṅgha-vallabha-mahā<lb 
-n="10" break="no"/>rājaḥ piṣṭapura-nagara-kuṭumbinaḥ viṣayādhi<lb 
-n="11" break="no"/>kāriṇaś ca samājñāpayati</p>
-<p>viditam astu vo yathāsmābhi<lb 
-n="12" break="no"/>r asmin nagara-sīmni veda-vedāṅga-vidaḥ kumāraśarmaṇaḥ pautrāya <pb 
-
-n="3r"/><lb 
-n="13"/><unclear>pitur a</unclear>dhika-guṇa-viśiṣṭasya bh<choice><sic>o</sic><corr>a</corr></choice>vaśarmaṇaḥ putrāya gautama-sa<lb 
-n="14" break="no"/>gotrāya kaṭha-sabrahmacāriṇe sva-karmma-niratāya sāmiśarmaṇe <lb 
-n="15"/><unclear>piṣṭapu</unclear>ra-paścima-digbhāge tombodiyan nāma kṣetraṁ sarvva-kara-<unclear>pari</unclear><lb 
-n="16" break="no"/>hāreṇāgrahārīkr̥tya samprattaṁ</p>
-<p>tathā bhavadbhir anyaiś ca paripālanī<lb 
-n="17" break="no"/>yaḥ<supplied reason="subaudible">.</supplied> na kaiścid bādhā karaṇīyā<supplied reason="subaudible">.</supplied> Atra nyāsa <gap reason="undefined" extent="unknown" unit="character"/> śreyase <gap reason="undefined" quantity="1" unit="character" precision="low"/></p>
+<pb n="1r"/>
+<p><pb n="1v"/><lb n="1"/>svasti śrī-vijaya-skandhāvārāT<supplied reason="subaudible">.</supplied> hāriti-putrāṇāṁ mānavya-sagotrāṇāṁ<lb n="2"/>Aśvamedhāvabhr̥tha-snāna-vidhvasta-jagat-kalmaṣāṇāṁ <lb n="3"/>cālukyānāṁ kula-jalanidhi-samudbhūta-rāja-ratnasya <lb n="4"/>śrī-kīrtivarmaṇaḥ pautraḥ Aneka-samara-saṅghaṭṭa-vija<pb n="2r" break="no"/><lb n="5" break="no"/>yinaḥ śrī-viṣṇuvarddhana-mahārājasya priya-tanayaḥ pravarddha<lb n="6" break="no"/>māna-pratāpāvanamita-para-narapati-maku<lb n="7" break="no"/>ṭa-maṇi-marīci-mañjarī-puñja-piñjarita-caraṇa-yugalaḥ <lb n="8"/>cālukyāryārṇṇava-vaṁśa-dvayālayaikaḥ parama-brahmaṇyo <pb n="2v"/><lb n="9"/>mātā-pitr̥-pādānudhyātaḥ śrī-prithivī-jayasiṅgha-vallabha-mahā<lb n="10" break="no"/>rājaḥ piṣṭapura-nagara-kuṭumbinaḥ viṣayādhi<lb n="11" break="no"/>kāriṇaś ca samājñāpayati</p>
+<p>viditam astu vo yathāsmābhi<lb n="12" break="no"/>r asmin nagara-sīmni veda-vedāṅga-vidaḥ kumāraśarmaṇaḥ pautrāya <pb n="3r"/><lb n="13"/><unclear>pitur a</unclear>dhika-guṇa-viśiṣṭasya bh<choice><sic>o</sic><corr>a</corr></choice>vaśarmaṇaḥ putrāya gautama-sa<lb n="14" break="no"/>gotrāya kaṭha-sabrahmacāriṇe sva-karmma-niratāya sāmiśarmaṇe <lb n="15"/><unclear>piṣṭapu</unclear>ra-paścima-digbhāge tombodiyan nāma kṣetraṁ sarvva-kara-<unclear>pari</unclear><lb n="16" break="no"/>hāreṇāgrahārīkr̥tya samprattaṁ</p>
+<p>tathā bhavadbhir anyaiś ca paripālanī<lb n="17" break="no"/>yaḥ<supplied reason="subaudible">.</supplied> na kaiścid bādhā karaṇīyā<supplied reason="subaudible">.</supplied> Atra nyāsa <gap reason="undefined" extent="unknown" unit="character"/> śreyase <gap reason="undefined" quantity="1" unit="character" precision="low"/></p>
 <lg n="1" met="anuṣṭubh">
-<l n="a"><pb 
-
-n="3v"/><lb 
-n="18"/>bahubhir vasudhā dattā</l>
+<l n="a"><pb n="3v"/><lb n="18"/>bahubhir vasudhā dattā</l>
 <l n="b">bahubhiś cānupālitā</l>
 <l n="c">yasya yasya yadā bhūmis</l>
 <l n="d">tasya tasya tadā phalaM</l>
 </lg>
-<pb 
-
-n="3v"/>
+<pb n="3v"/>
 </div>
 </div>
         

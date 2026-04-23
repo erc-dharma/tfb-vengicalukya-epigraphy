@@ -72,19 +72,13 @@
                         under the European Union's Horizon 2020 research and innovation programme (grant
                         agreement no 809994).</p>
          </projectDesc>
-         <schemaRef type="guide"
-                    key="EGDv01"
-                    url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
+         <schemaRef type="guide" key="EGDv01" url="https://halshs.archives-ouvertes.fr/halshs-02888186"/>
          <listPrefixDef>
-            <prefixDef ident="bib"
-                       matchPattern="([a-zA-Z0-9\-\_]+)"
-                       replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
+            <prefixDef ident="bib" matchPattern="([a-zA-Z0-9\-\_]+)" replacementPattern="https://www.zotero.org/groups/1633743/erc-dharma/items/tag/$1">
                <p>Public URIs with the prefix bib to point to a Zotero Group Library named
                             ERC-DHARMA whose data are open to the public.</p>
             </prefixDef>
-            <prefixDef ident="part"
-                       matchPattern="([a-z]+)"
-                       replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
+            <prefixDef ident="part" matchPattern="([a-z]+)" replacementPattern="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/DHARMA_IdListMembers_v01.xml#$1">
                <p>Internal URIs using the part prefix to point to person elements in the
                             <ref>DHARMA_IdListMembers_v01.xml</ref> file.</p>
             </prefixDef>
@@ -100,57 +94,21 @@
       
 <div type="edition" xml:lang="san-Latn" rendition="class:83225 maturity:83213">
 <div type="textpart" n="A"><head xml:lang="eng">Seal</head>
-  <ab><lb 
-n="1"/><unclear>t</unclear>ribhuvanāṁk<unclear>uśa</unclear></ab>
+  <ab><lb n="1"/><unclear>t</unclear>ribhuvanāṁk<unclear>uśa</unclear></ab>
 </div>
 <div type="textpart" n="B"><head xml:lang="eng">Plates</head>
-<pb 
-
-n="1r"/>
-<p><pb 
-
-n="1v"/><lb 
-n="1"/><!--P1020531.JPG; beneath ring: P1020533.JPG-->svasti<supplied reason="subaudible">.</supplied> śr<unclear>ī</unclear>mat<choice><sic>a</sic><corr>ā</corr></choice>ṁ sakala-bhu<unclear>va</unclear><supplied reason="lost">na-saṁstūyamāna-mānavya-sagotrāṇāṁ</supplied> <lb 
-n="2"/><milestone unit="fragment" n="1vA"/>h<choice><sic>a</sic><corr>ā</corr></choice>riti-putrāṇāṁ kauśi<milestone unit="fragment" n="1vB"/><unclear>k</unclear>ī-va<unclear>ra</unclear>-<supplied reason="lost">prasāda-labdha-rājyānāṁ svāmi-mahāsena</supplied><lb 
-n="3" break="no"/><milestone unit="fragment" n="1vA"/>-p<choice><sic>a</sic><corr>ā</corr></choice>dā<space type="binding-hole"/>nudhy<choice><sic>a</sic><corr>ā</corr></choice>t<choice><sic>a</sic><corr>ā</corr></choice>nāṁ <milestone unit="fragment" n="1vB"/>bhaga<supplied reason="lost">van-nārāyaṇa-prasāda-samāsādita-vara-va</supplied><lb 
-n="4" break="no"/><milestone unit="fragment" n="1vA"/>rā<space type="binding-hole"/>halā<choice><sic>caṁ</sic><corr>ṁcha</corr></choice>nekṣa<milestone unit="fragment" n="1vB"/>ṇa-kṣa<supplied reason="lost">ṇa-vaśīkr̥tārāti-maṇḍalānām aśvame</supplied><lb 
-n="5" break="no"/><milestone unit="fragment" n="1vA"/>dh<choice><sic>a</sic><corr>ā</corr></choice>vabhr̥tha-snāna-pavi<milestone unit="fragment" n="1vB"/>tr<choice><sic>i</sic><corr>ī</corr></choice><supplied reason="lost">kr̥ta-vapuṣāṁ calukyānāṁ kulam alaṁkari</supplied><lb 
-n="6" break="no"/><milestone unit="fragment" n="1vA"/>ṣṇo<supplied reason="omitted">ḥ</supplied> śrī-viṣ<supplied reason="omitted">ṇ</supplied>uvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">rā</supplied><milestone unit="fragment" n="1vB"/><unclear cert="low">ja</unclear><supplied reason="lost">sya sūnuḥ</supplied> <gap reason="lost" quantity="12" unit="character" precision="low"></gap><pb 
-
-n="2r" break="no"/><lb 
-n="7" break="no"/><!--P1020548.JPG; beneath ring: P1020553.JPG; line ends clearer in P1020550.JPG-->dh<unclear>i</unclear>ka-vijaya-siddhi<supplied reason="omitted">ḥ</supplied> prabhu-mantrots<choice><sic>a</sic><corr>ā</corr></choice>ha-śakti-traya-sampann<unclear>o</unclear> ma<unclear>ṁ</unclear>gi
-<lb n="8" break="no"/>-yuvarāj<choice><sic>a</sic><corr>ā</corr></choice>para-nāma-<choice><sic>dehaya</sic><corr>dheyaḥ</corr></choice> tat-priya-sūnu<supplied reason="omitted">ḥ</supplied> <sic>Akaciṁgaṁgasāgara<unclear cert="low">ma</unclear></sic><lb 
-n="9" break="no"/><sic>dhya<space type="binding-hole"/>paripa<unclear cert="low">ṁ</unclear>ka<unclear cert="low">ṁ</unclear></sic> tulādānā<choice><sic>dh</sic><corr>d</corr></choice>i-daśa-vidha-mahā-dāna-m<choice><sic>a</sic><corr>ā</corr></choice>nā<choice><sic><unclear>th</unclear></sic><corr>dh</corr></choice>ika<lb 
-n="10" break="no"/>-dāna-buddhi<supplied reason="omitted">ḥ</supplied> Aneka-taṭākārāma-devālaya-pratiṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>ita-prabh<choice><sic>a</sic><corr>ā</corr></choice>va<supplied reason="omitted">ḥ</supplied> sa<lb 
-n="11" break="no"/>rvva-lokāśraya-śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> gudrahāra-viṣaye pasapuba<lb 
-n="12" break="no"/><unclear>ṟṟu-nā</unclear>ma grāmam adhivasato rāṣṭrakūṭa-pramukhān kuṭ<choice><orig>i</orig><reg>u</reg></choice>ṁbinas sarvv<choice><sic>a</sic><corr>ā</corr></choice>n it<unclear>th</unclear>a<pb 
-
-n="2v" break="no"/><lb 
-n="13" break="no"/><!--P1020544.JPG; beneath ring: P1020547.JPG; line ends clearer in P1020543.JPG, P1020551.JPG-->m ājñ<orig>a</orig>payati</p>
-<p>viditam astu vo <supplied reason="subaudible">’</supplied>smābhi<supplied reason="omitted">ḥ</supplied> paṟantūr-vvāstavyāya sā<unclear>ṁ</unclear>kr̥<lb 
-n="14" break="no"/>ti-gotrāya prāvacana-sūtrāya <choice><sic>ś</sic><corr>ṣ</corr></choice>aḍ-aṁga-vi<supplied reason="omitted">de</supplied> nārāyaṇa<supplied reason="omitted">śarmmaṇa</supplied>ḫ pautrāya tri-vedi<lb 
-n="15" break="no"/>-de<space type="binding-hole"/>vaśarmmaṇaḫ putrāya caturvvedi-keśavaśarmmaṇe Asya grā<lb 
-n="16" break="no"/>ma<space type="binding-hole"/>sya pūrvva-<choice><orig>diśīṁ</orig><reg>diśāyāṁ</reg></choice> kṣetrasya pūrvvataḥ <choice><orig>śrīgaṁM</orig><reg>śr̥ṁgaM</reg></choice><supplied reason="subaudible">.</supplied> dakṣiṇataḥ Ervvoka-ce<lb 
-n="17" break="no"/>nu<supplied reason="subaudible">.</supplied> paścimataḥ Uppolaṁbu<supplied reason="subaudible">.</supplied> Uttarataḥ veḷḷeṟu<supplied reason="subaudible">.</supplied> Evañ ca<lb 
-n="18" break="no"/>tur-avadhi-madhya-s<choice><sic>t</sic><corr>th</corr></choice>ita<supplied reason="omitted">ṁ</supplied> pañcadaśa-khaṇḍi-vr<choice><sic>i</sic><corr>ī</corr></choice>hi-<choice><sic>v</sic><corr>b</corr></choice>ījāvā<unclear>pa</unclear><pb 
-
-n="3r" break="no"/><lb 
-n="19" break="no"/><!--P1020538.JPG; beneath ring: P1020541.JPG--><milestone unit="fragment" n="3rA"/>paripramāṇaṁ <milestone unit="fragment" n="3rB"/>kṣetraM gr̥ha-s<choice><sic>t</sic><corr>th</corr></choice>ānañ ca puṣpa-vāṭik<unclear>ā-sa</unclear><lb 
-n="20" break="no"/><milestone unit="fragment" n="3rA"/>hit<unclear>aṁ</unclear> sūr<choice><orig>jy</orig><reg>yy</reg></choice>a-graha<milestone unit="fragment" n="3rB"/>ṇa-nimitte Udaka-pūrvvaṁ <choice><orig>kr̥tya</orig><reg>kr̥tvā</reg></choice> dattaM sarvva-kara-parih<choice><sic>a</sic><corr>ā</corr></choice><lb 
-n="21" break="no"/><milestone unit="fragment" n="3rA"/>reṇa<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> na <choice><sic>kha</sic><corr>ke</corr></choice>na<milestone unit="fragment" n="3rB"/>ci<choice><sic>rbba</sic><corr>d bā</corr></choice>dhā karaṇīyā<supplied reason="subaudible">.</supplied> karoti yas sa <surplus>sa</surplus> pañca-mah<unclear>ā-pā</unclear><lb 
-n="22" break="no"/><milestone unit="fragment" n="3rA"/>taka<space type="binding-hole"/>-saṁyukto bha<milestone unit="fragment" n="3rB"/>vati<supplied reason="subaudible">.</supplied> vyāsenāpy ukta<choice><sic>ṁ</sic><corr>ḥ</corr></choice> ślokaḥ</p>
+<pb n="1r"/>
+<p><pb n="1v"/><lb n="1"/><!--P1020531.JPG; beneath ring: P1020533.JPG-->svasti<supplied reason="subaudible">.</supplied> śr<unclear>ī</unclear>mat<choice><sic>a</sic><corr>ā</corr></choice>ṁ sakala-bhu<unclear>va</unclear><supplied reason="lost">na-saṁstūyamāna-mānavya-sagotrāṇāṁ</supplied> <lb n="2"/><milestone unit="fragment" n="1vA"/>h<choice><sic>a</sic><corr>ā</corr></choice>riti-putrāṇāṁ kauśi<milestone unit="fragment" n="1vB"/><unclear>k</unclear>ī-va<unclear>ra</unclear>-<supplied reason="lost">prasāda-labdha-rājyānāṁ svāmi-mahāsena</supplied><lb n="3" break="no"/><milestone unit="fragment" n="1vA"/>-p<choice><sic>a</sic><corr>ā</corr></choice>dā<space type="binding-hole"/>nudhy<choice><sic>a</sic><corr>ā</corr></choice>t<choice><sic>a</sic><corr>ā</corr></choice>nāṁ <milestone unit="fragment" n="1vB"/>bhaga<supplied reason="lost">van-nārāyaṇa-prasāda-samāsādita-vara-va</supplied><lb n="4" break="no"/><milestone unit="fragment" n="1vA"/>rā<space type="binding-hole"/>halā<choice><sic>caṁ</sic><corr>ṁcha</corr></choice>nekṣa<milestone unit="fragment" n="1vB"/>ṇa-kṣa<supplied reason="lost">ṇa-vaśīkr̥tārāti-maṇḍalānām aśvame</supplied><lb n="5" break="no"/><milestone unit="fragment" n="1vA"/>dh<choice><sic>a</sic><corr>ā</corr></choice>vabhr̥tha-snāna-pavi<milestone unit="fragment" n="1vB"/>tr<choice><sic>i</sic><corr>ī</corr></choice><supplied reason="lost">kr̥ta-vapuṣāṁ calukyānāṁ kulam alaṁkari</supplied><lb n="6" break="no"/><milestone unit="fragment" n="1vA"/>ṣṇo<supplied reason="omitted">ḥ</supplied> śrī-viṣ<supplied reason="omitted">ṇ</supplied>uvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice><supplied reason="omitted">rā</supplied><milestone unit="fragment" n="1vB"/><unclear cert="low">ja</unclear><supplied reason="lost">sya sūnuḥ</supplied> <gap reason="lost" quantity="12" unit="character" precision="low"/><pb n="2r" break="no"/><lb n="7" break="no"/><!--P1020548.JPG; beneath ring: P1020553.JPG; line ends clearer in P1020550.JPG-->dh<unclear>i</unclear>ka-vijaya-siddhi<supplied reason="omitted">ḥ</supplied> prabhu-mantrots<choice><sic>a</sic><corr>ā</corr></choice>ha-śakti-traya-sampann<unclear>o</unclear> ma<unclear>ṁ</unclear>gi
+<lb n="8" break="no"/>-yuvarāj<choice><sic>a</sic><corr>ā</corr></choice>para-nāma-<choice><sic>dehaya</sic><corr>dheyaḥ</corr></choice> tat-priya-sūnu<supplied reason="omitted">ḥ</supplied> <sic>Akaciṁgaṁgasāgara<unclear cert="low">ma</unclear></sic><lb n="9" break="no"/><sic>dhya<space type="binding-hole"/>paripa<unclear cert="low">ṁ</unclear>ka<unclear cert="low">ṁ</unclear></sic> tulādānā<choice><sic>dh</sic><corr>d</corr></choice>i-daśa-vidha-mahā-dāna-m<choice><sic>a</sic><corr>ā</corr></choice>nā<choice><sic><unclear>th</unclear></sic><corr>dh</corr></choice>ika<lb n="10" break="no"/>-dāna-buddhi<supplied reason="omitted">ḥ</supplied> Aneka-taṭākārāma-devālaya-pratiṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice>ita-prabh<choice><sic>a</sic><corr>ā</corr></choice>va<supplied reason="omitted">ḥ</supplied> sa<lb n="11" break="no"/>rvva-lokāśraya-śrī-viṣṇuvarddhana-mah<choice><sic>a</sic><corr>ā</corr></choice>rāja<supplied reason="omitted">ḥ</supplied> gudrahāra-viṣaye pasapuba<lb n="12" break="no"/><unclear>ṟṟu-nā</unclear>ma grāmam adhivasato rāṣṭrakūṭa-pramukhān kuṭ<choice><orig>i</orig><reg>u</reg></choice>ṁbinas sarvv<choice><sic>a</sic><corr>ā</corr></choice>n it<unclear>th</unclear>a<pb n="2v" break="no"/><lb n="13" break="no"/><!--P1020544.JPG; beneath ring: P1020547.JPG; line ends clearer in P1020543.JPG, P1020551.JPG-->m ājñ<orig>a</orig>payati</p>
+<p>viditam astu vo <supplied reason="subaudible">’</supplied>smābhi<supplied reason="omitted">ḥ</supplied> paṟantūr-vvāstavyāya sā<unclear>ṁ</unclear>kr̥<lb n="14" break="no"/>ti-gotrāya prāvacana-sūtrāya <choice><sic>ś</sic><corr>ṣ</corr></choice>aḍ-aṁga-vi<supplied reason="omitted">de</supplied> nārāyaṇa<supplied reason="omitted">śarmmaṇa</supplied>ḫ pautrāya tri-vedi<lb n="15" break="no"/>-de<space type="binding-hole"/>vaśarmmaṇaḫ putrāya caturvvedi-keśavaśarmmaṇe Asya grā<lb n="16" break="no"/>ma<space type="binding-hole"/>sya pūrvva-<choice><orig>diśīṁ</orig><reg>diśāyāṁ</reg></choice> kṣetrasya pūrvvataḥ <choice><orig>śrīgaṁM</orig><reg>śr̥ṁgaM</reg></choice><supplied reason="subaudible">.</supplied> dakṣiṇataḥ Ervvoka-ce<lb n="17" break="no"/>nu<supplied reason="subaudible">.</supplied> paścimataḥ Uppolaṁbu<supplied reason="subaudible">.</supplied> Uttarataḥ veḷḷeṟu<supplied reason="subaudible">.</supplied> Evañ ca<lb n="18" break="no"/>tur-avadhi-madhya-s<choice><sic>t</sic><corr>th</corr></choice>ita<supplied reason="omitted">ṁ</supplied> pañcadaśa-khaṇḍi-vr<choice><sic>i</sic><corr>ī</corr></choice>hi-<choice><sic>v</sic><corr>b</corr></choice>ījāvā<unclear>pa</unclear><pb n="3r" break="no"/><lb n="19" break="no"/><!--P1020538.JPG; beneath ring: P1020541.JPG--><milestone unit="fragment" n="3rA"/>paripramāṇaṁ <milestone unit="fragment" n="3rB"/>kṣetraM gr̥ha-s<choice><sic>t</sic><corr>th</corr></choice>ānañ ca puṣpa-vāṭik<unclear>ā-sa</unclear><lb n="20" break="no"/><milestone unit="fragment" n="3rA"/>hit<unclear>aṁ</unclear> sūr<choice><orig>jy</orig><reg>yy</reg></choice>a-graha<milestone unit="fragment" n="3rB"/>ṇa-nimitte Udaka-pūrvvaṁ <choice><orig>kr̥tya</orig><reg>kr̥tvā</reg></choice> dattaM sarvva-kara-parih<choice><sic>a</sic><corr>ā</corr></choice><lb n="21" break="no"/><milestone unit="fragment" n="3rA"/>reṇa<supplied reason="subaudible">.</supplied> <space type="binding-hole"/> na <choice><sic>kha</sic><corr>ke</corr></choice>na<milestone unit="fragment" n="3rB"/>ci<choice><sic>rbba</sic><corr>d bā</corr></choice>dhā karaṇīyā<supplied reason="subaudible">.</supplied> karoti yas sa <surplus>sa</surplus> pañca-mah<unclear>ā-pā</unclear><lb n="22" break="no"/><milestone unit="fragment" n="3rA"/>taka<space type="binding-hole"/>-saṁyukto bha<milestone unit="fragment" n="3rB"/>vati<supplied reason="subaudible">.</supplied> vyāsenāpy ukta<choice><sic>ṁ</sic><corr>ḥ</corr></choice> ślokaḥ</p>
 <lg n="1" met="anuṣṭubh">
 <l n="a"><unclear>sva</unclear>-dattā<unclear>ṁ</unclear> para-dattā<unclear>ṁ</unclear> vā</l>
-<l n="b"><lb 
-n="23" break="no"/><milestone unit="fragment" n="3rA"/>yo hareta vasundh<choice><sic>ā</sic><corr>a</corr></choice><milestone unit="fragment" n="3rB"/>rāṁ</l>
+<l n="b"><lb n="23" break="no"/><milestone unit="fragment" n="3rA"/>yo hareta vasundh<choice><sic>ā</sic><corr>a</corr></choice><milestone unit="fragment" n="3rB"/>rāṁ</l>
 <l n="c">ṣaṣṭiṁ varṣa-sahasrāṇi</l>
-<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice><choice><sic>a</sic><corr>ā</corr></choice>yā<unclear>ṁ</unclear> jāyate <lb 
-n="24" break="no"/><milestone unit="fragment" n="3rA"/>k<choice><orig>ri</orig><reg>r̥</reg></choice>mi<supplied reason="omitted">ḥ</supplied></l>
+<l n="d">viṣ<choice><sic>ṭ</sic><corr>ṭh</corr></choice><choice><sic>a</sic><corr>ā</corr></choice>yā<unclear>ṁ</unclear> jāyate <lb n="24" break="no"/><milestone unit="fragment" n="3rA"/>k<choice><orig>ri</orig><reg>r̥</reg></choice>mi<supplied reason="omitted">ḥ</supplied></l>
 </lg>
 <p>Ājṇaptir a<milestone unit="fragment" n="3rB"/>sya dharmmasya Agra-mahiṣ<choice><sic>i</sic><corr>ī</corr></choice> vijaya-mahādev<unclear>ī</unclear></p>
-<pb 
-
-n="3v"/>
+<pb n="3v"/>
 </div>
 </div>
         
@@ -257,7 +215,7 @@ n="3v"/>
 <div type="bibliography">
   <p>Reported in <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">11</citedRange><citedRange unit="appendix">A/1913-1914</citedRange><citedRange unit="item">9</citedRange></bibl> with a description at <bibl><ptr target="bib:ARIE1913-1914"/><citedRange unit="page">85</citedRange><citedRange unit="section">8</citedRange></bibl>. No previous edition known. The present edition by Dániel Balogh is based on photographs taken by myself in February 2023 at the Andhra Sahitya Parishad Museum, Kakinada, and on estampages preserved at the ASI, Mysore, collated with a Devanagari transcript attached to the estampages.</p>
   <listBibl type="primary">
-    <bibl></bibl>
+    <bibl/>
 <!-- one <bibl/> per item of primary bibliography -->
   </listBibl>
   <listBibl type="secondary">
