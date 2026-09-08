@@ -317,7 +317,25 @@ ceux qui s’emparent d’une donation de terre renaissent comme serpents noirs.
 
          
          <div type="bibliography">
-           <p>First edited in rudimentary form by Ball Gangadhar Shastree (<bibl><ptr target="bib:Shastree1844_01"/><citedRange unit="item">1</citedRange></bibl>), with a lithograph. Properly edited with new estampage by J. F. Fleet <bibl rend="omitname"><ptr target="bib:Fleet1890_03"/></bibl>. The present edition by Dániel Balogh is based on a collation of these editions with Fleet's estampages. Shastree silently normalises spelling and punctuation, which is not shown in the apparatus here.</p>
+           <p>First edited in rudimentary form by Ball Gangadhar Shastree (<bibl><ptr target="bib:Shastree1844_01"/><citedRange unit="item">1</citedRange></bibl>), with a lithograph. Properly edited with new estampage by J. F. Fleet <bibl rend="omitname"><ptr target="bib:Fleet1890_03"/></bibl>. The present edition by Dániel Balogh is based on a collation of these editions with Fleet's estampages. Shastree silently normalises spelling and punctuation, which is not shown in the apparatus here. TEST BIBLIOGRAPHY
+<bibl rend="default"><ref target="bib:Test_Article"/>
+		<citedRange unit="volume">33-34</citedRange>
+		<citedRange unit="appendix">33-34</citedRange>
+		<citedRange unit="book">33-34</citedRange>
+		<citedRange unit="section">33-34</citedRange>
+		<citedRange unit="page">33-34</citedRange>
+		<citedRange unit="item">33-34</citedRange>
+		<citedRange unit="figure">33-34</citedRange>
+		<citedRange unit="plate">33-34</citedRange>
+		<citedRange unit="table">33-34</citedRange>
+		<citedRange unit="note">33-34</citedRange>
+		<citedRange unit="part">33-34</citedRange>
+		<citedRange unit="entry">33-34</citedRange>
+		<citedRange unit="line">33-34</citedRange>
+		<citedRange unit="mixed">33-34</citedRange>
+	</bibl>END TEST
+
+</p>
            <listBibl type="primary">
              <bibl n="BGS"><ptr target="bib:Shastree1844_01"/><citedRange unit="item">1</citedRange></bibl>
              <bibl n="JFF"><ptr target="bib:Fleet1890_03"/></bibl>
