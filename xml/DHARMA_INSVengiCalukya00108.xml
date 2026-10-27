@@ -71,12 +71,12 @@ n="1"/>śrī-tribhuvanāṁkuśa</ab>
 <pb 
 
 n="1r"/>
-<ab><g ref="sym:floret" type="symbol">*</g></ab>
-<lg n="1" met="śārdūlavikrīḍita">
-<l n="a"><pb 
+<ab><pb 
 
 n="1v"/><lb 
-n="1"/>śrī-dhāmna<unclear>ḥ</unclear> puruṣottamasya mahato nārāyaṇasya prabhor</l>
+n="1"/><g ref="sym:floret" type="symbol">*</g></ab>
+<lg n="1" met="śārdūlavikrīḍita">
+<l n="a">śrī-dhāmna<unclear>ḥ</unclear> puruṣottamasya mahato nārāyaṇasya prabhor</l>
 <l n="b">nnābhī-paṁkar<choice><sic>ā</sic><corr>u</corr></choice>hād babhūva jagata<lb n="2" break="no"/>s sraṣṭā svayaṁbhūs tataḥ</l>
 <l n="c">jajñe mānasa-sūnur atrir iti yas tasmān muner atrita<choice><sic>h</sic><corr>s</corr></choice></l>
 <l n="d"><choice><sic>y</sic><corr>s</corr></choice>omo va<unclear>ṁ</unclear>śa-kara<lb n="3" break="no"/>s sudhāṁśur uditaś <unclear>ś</unclear>rīkaṁṭha-cūḍāmaṇiḥ|</l>
@@ -204,7 +204,7 @@ n="48" break="no"/>paḥ|</l>
 <l n="b">rājat-tej<choice><sic>a</sic><corr>ā</corr></choice> rāja-vaṁśāgra-gaṇyaḥ|</l>
 <l n="c">saikāṁ catvāriṁśataṁ vatsa<lb 
 n="49" break="no"/>rāṇāṁ</l>
-<l n="d">kṣo<space type="binding-hole"/>ṇī-rakṣā-dakṣiṇo rakṣati sma|</l>
+<l n="d">kṣo<space type="binding-hole"/>ṇī<supplied reason="omitted">ṁ</supplied> rakṣā-dakṣiṇo rakṣati sma|</l>
 </lg>
 <ab>Api ca</ab>
 <lg n="14" met="vallarī">
@@ -241,7 +241,7 @@ n="55" break="no"/>-rakṣaṇe</l>
 
 n="3v" break="no"/><lb 
 n="56" break="no"/>sthāpya vīra-śriyaṁ</l>
-<l n="c">devaś śrī-karavāla-bhairava-nr̥pe sakte dharāṁ rakṣituṁ</l>
+<l n="c">deva-śrī-karavāla-bhairava-nr̥pe sakte dharāṁ rakṣituṁ</l>
 <l n="d">pr̥thvī kāmadughābhavat kr̥ta-yuga-spa<supplied reason="omitted">r</supplied>ddhānvi<lb 
 n="57" break="no"/>to <supplied reason="subaudible">’</supplied>bhūt kaliḥ|</l>
 </lg>
@@ -256,7 +256,7 @@ n="58" break="no"/>bayati garjjita-pāṁcajan<choice><sic>u</sic><corr>ya</corr
 <l n="a">bhīma<unclear>ṁ</unclear> gadāyān dhanuṣīṁdra-sūnuṁ</l>
 <l n="b">ku<lb 
 n="59" break="no"/>ntāyudhe yo nakulaṁ tathaiva</l>
-<l n="c">hayādhir<choice><sic>ū</sic><corr>o</corr></choice>he sahadevam uccai<unclear>r</unclear><unclear>r</unclear></l>
+<l n="c">hayādhir<choice><sic>ū</sic><corr>o</corr></choice>he sahadevam uccai<unclear>r</unclear></l>
 <l n="d">vidveṣṭy ajātārir api prajātaḥ|</l>
 </lg>
 <lg n="21" met="śārdūlavikrīḍita">
@@ -414,6 +414,11 @@ n="5v" break="no"/>
         <lem>varṣāṇi<supplied reason="subaudible">.</supplied></lem>
         <note>A section of the genealogy (found in all cognate charters and required for coherence with the following stanza) has been omitted here: <foreign>tat-sutaṁ vijayādityaṁ bālam uccāṭya tāḍapo māsam ekaṁ| taṁ jitvā yudhi cālukya-bhīma-tanayo vikramāditya Ekādaśa māsāN| tat-tāḍapa-rāja-suto yuddhamallas sapta varṣāṇi|</foreign>.</note>
       </app>
+      <app loc="49">
+        <lem>kṣo<space type="binding-hole"/>ṇī<supplied reason="omitted">ṁ</supplied></lem>
+        <rdg source="bib:SubbaRao1934-1935_01">kṣo<space type="binding-hole"/>ṇī-</rdg>
+        <note>Without my emendation, the verb <foreign>rakṣati</foreign> is left without an object.</note>
+      </app>
       <app loc="50">
         <lem>meḻava</lem>
         <rdg source="bib:SubbaRao1934-1935_01">meḍava</rdg>
@@ -442,10 +447,15 @@ n="5v" break="no"/>
         <lem>cayaṁ</lem>
         <rdg source="bib:SubbaRao1934-1935_01">bhayaṁ</rdg>
       </app>
+      <app loc="56">
+        <lem>deva-śrī</lem>
+        <rdg source="bib:SubbaRao1934-1935_01">deva-śśrī</rdg>
+        <note>The glyph for <foreign>śrī</foreign> is larger and more complex than <foreign>śri</foreign> earlier in the line and might be taken for <foreign>śśrī</foreign> on its own. On the other hand, a second <foreign>ś</foreign> is redundant here, and other instances of <foreign>śś</foreign> in the inscription clearly have two consonants (<foreign>śśr</foreign> does not occur). The same locus in the parallel <ref target="DHARMA_INSVengiCalukya00109.xml">Kurundūru grant</ref> also has a large <foreign>śrī</foreign>, but that instance is clearer and definitely does not have a second <foreign>ś</foreign>.</note>
+      </app>
       <app loc="57">
         <lem>-nijai<choice><sic>r</sic><corr>k</corr></choice>a-payoruho <supplied reason="subaudible">’</supplied>gre</lem>
         <rdg source="bib:SubbaRao1934-1935_01">nijairtha payoruhāgre</rdg>
-        <note>SR's <foreign>rtha</foreign> may reflect a vacillation between reading <foreign>ra</foreign> or <foreign>tha</foreign>. In my opinion the reading is quite certain throughout; my emendation and interpretation (for which see the translation) are, however, somewhat tentative.</note>
+        <note>SR's <foreign>rtha</foreign> may reflect a vacillation between reading <foreign>ra</foreign> or <foreign>tha</foreign>. In my opinion the reading is quite certain throughout; my emendation and interpretation (for which see the translation) are, however, somewhat tentative. The reading <foreign>-nijaira-</foreign> is also clear in the parallel <ref target="DHARMA_INSVengiCalukya00109.xml">Kurundūru grant</ref>.</note>
       </app>
       <app loc="59">
         <lem>vidveṣṭy ajātārir api prajātaḥ</lem>
